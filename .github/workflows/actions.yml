@@ -19,11 +19,8 @@ jobs:
       - name: Checkout code
         uses:
           actions/checkout@v4
-      - name: Create zip
-        run: |
-          zip -r ./json-file-1.zip en-US
-          ls -a
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ./languages/json-file-1.zip
+          name: json-file-1
+          path: ./languages/en-US
