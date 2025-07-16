@@ -1,0 +1,27 @@
+{
+  "name": "@translateflow/translations",
+  "version": "1.0.0",
+  "description": "Translation files for TranslateFlow projects",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "languages/",
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["translations", "i18n", "localization"],
+  "author": "TranslateFlow",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TranslateFlow/translate-platform.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
