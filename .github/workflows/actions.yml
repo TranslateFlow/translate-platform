@@ -2,7 +2,7 @@ name: Create zip file for strings
 
 on:
   push:
-    branches: [ "ft/git_hub_actions" ]
+    branches: [ "main" ]
 
   workflow_dispatch:
 
@@ -11,9 +11,6 @@ jobs:
   zip-n-push:
 
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./languages
 
     steps:
       - name: Checkout code
