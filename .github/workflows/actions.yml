@@ -1,0 +1,30 @@
+name: Create zip file for strings
+
+on:
+  push:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+
+  zip-n-push:
+
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./languages
+
+    steps:
+      - name: Checkout code
+        uses:
+          actions/checkout@v4
+      - name: Create folder
+        run:
+          mkdir -p ./json-files
+      - name: Create zip
+        run: |
+          zip -r ./json-files/json-file-1.zip en-US
+
+
+
