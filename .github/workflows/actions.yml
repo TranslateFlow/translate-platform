@@ -2,7 +2,7 @@ name: Create zip file for strings
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "ft/git_hub_actions" ]
 
   workflow_dispatch:
 
@@ -19,12 +19,8 @@ jobs:
       - name: Checkout code
         uses:
           actions/checkout@v4
-      - name: Create zip
-        run: |
-          zip -r ./json-file-1.zip en-US
-          ls -a
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: json-file-1
-          path: ./languages/json-file-1.zip
+          path: ./languages/en-US
