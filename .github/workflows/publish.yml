@@ -22,10 +22,11 @@ jobs:
         with:
           node-version: '18'
           registry-url: 'https://npm.pkg.github.com'
+          scope: '@translateflow'
 
-      - name: Authenticate with GitHub Packages
+      - name: Configure npm authentication
         run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.TRANSLATIONS_GITHUB_TOKEN }}" >> ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.TRANSLATIONS_GITHUB_TOKEN }}" > ~/.npmrc
           echo "@translateflow:registry=https://npm.pkg.github.com" >> ~/.npmrc
 
       - name: Publish to GitHub Packages
