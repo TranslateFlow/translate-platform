@@ -22,9 +22,9 @@ jobs:
       - name: Create zip
         run: |
           ls -a
-          zip -r json-file-1.zip en-US
+          zip -r ./json-file-1.zip en-US
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: json-file-1
-          path: json-file-1.zip
+          path: ./json-file-1.zip
