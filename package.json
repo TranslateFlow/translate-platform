@@ -1,6 +1,6 @@
 {
   "name": "@translateflow/translations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Translation files for TranslateFlow projects",
   "main": "index.js",
   "types": "index.d.ts",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TranslateFlow/translate-platform.git"
+    "url": "git+https://github.com/TranslateFlow/translate-platform.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
