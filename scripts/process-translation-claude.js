@@ -12,7 +12,7 @@ class IntelligentTranslationProcessorClaude {
     this.projectRoot = path.resolve(__dirname, '..');
     this.languagesDir = path.join(this.projectRoot, 'languages');
     this.baseLanguage = 'en-US';
-    this.targetLanguages = ['es', 'fr', 'de', 'pt', 'ja', 'ko'];
+    this.targetLanguages = ['es', 'fr'];
     
     // Verify that we have at least one auth method
     this.hasOAuth = !!process.env.CLAUDE_CODE_OAUTH_TOKEN;
