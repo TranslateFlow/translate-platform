@@ -98,11 +98,10 @@ class IntelligentTranslationProcessorClaude {
 CRITICAL TRANSLATION RULES:
 1. PRESERVE the exact JSON structure and formatting
 2. ONLY translate string values (text content)
-3. NEVER translate JSON keys, property names, or structural elements
+3. NEVER translate JSON keys, property names
 4. Use natural, contextually appropriate translations for each target language
 5. Maintain consistency in terminology across all files
-6. Respect cultural nuances and regional variations (e.g., fr-ca vs fr)
-7. Keep placeholders, variables, and special formatting intact (e.g., {{variable}}, %s, etc.)
+6. Keep placeholders, variables, and special formatting intact (e.g., {{variable}}, %s, etc.)
 
 FILES:
 ${JSON.stringify(sourceFiles, null, 2)}
