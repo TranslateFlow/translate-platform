@@ -1,10 +1,11 @@
 {
-  "name": "test-01",
+  "name": "translate-platform",
   "version": "1.0.0",
-  "description": "",
+  "description": "Translation platform with intelligent simulation",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "translate": "node scripts/process-translations.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -25,10 +25,7 @@ server.registerTool(
   },
   async ({ test, languages }) => {
 
-    const zipPath = './files/localization-json-file.zip';
     const extractPath = './languages/en-US';
-  
-    // const files = await extractZipFile(zipPath, extractPath);
     const files = await iterateFiles(extractPath);
 
     return {
@@ -46,29 +43,6 @@ server.registerTool(
 const transport = new StdioServerTransport();
 await server.connect(transport);
 
-
-async function extractZipFile(zipFilePath: string, extractToPath: string): Promise<FileInfoDto[]> {
-  try {
-    // Check if the ZIP file exists
-    await fs.access(zipFilePath);
-    
-    // Create the destination folder if it doesn't exist
-    await fs.mkdir(extractToPath, { recursive: true });
-    
-    // Extract the ZIP file
-    await extract(zipFilePath, { dir: path.resolve(extractToPath) });
-    
-    console.log(`File extracted successfully to: ${extractToPath}`);
-
-    const files = iterateFiles(extractToPath);
-
-    console.log('Files found:', files);
-    return files;
-  } catch (error) {
-    console.error('Error extracting file:', error);
-    throw error;
-  }
-}
 
 async function iterateFiles(directoryPath: string): Promise<FileInfoDto[]> {
   const files: FileInfoDto[] = [];

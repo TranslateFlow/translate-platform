@@ -1,23 +1,69 @@
-name: Create zip file for strings
-
+name: Localization Pipeline
 on:
   push:
-    branches: [ "main" ]
+    branches: [main, ft-lp-test]
+    paths: 
+      - 'languages/en-US/**'
+  pull_request:
+    paths:
+      - 'languages/en-US/**'
 
   workflow_dispatch:
 
 jobs:
 
-  zip-n-push:
-
+  process-translations:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses:
-          actions/checkout@v4
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+
+      - name: 🎬 Starting Translation Demo
+        run: |
+          echo "🌍 Starting Localization Translation Demo"
+          echo "================================="
+
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+      
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          name: localization-json-file
-          path: ./languages/en-US
+          node-version: '22.12.0'
+      
+      - name: 📦 Install dependencies
+        run: |
+          npm install
+
+      - name: 🎭 Run Translation Simulation
+        run: |
+          echo "🚀 Running intelligent translation simulation..."
+          node scripts/process-translations.js
+
+      - name: 📊 Show translation results
+        run: |
+          echo "🔍 Checking translation results..."
+          find languages/ -name "*.json" -type f | head -10
+          echo ""
+          echo "📄 Sample translation (Spanish):"
+          if [ -f "languages/es/fake-acd-1.json" ]; then
+            cat languages/es/fake-acd-1.json
+          fi
+
+      - name: 💾 Commit translated files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Translation Bot"
+          git add languages/
+          
+          # Solo hacer commit si hay cambios
+          if git diff --staged --quiet; then
+            echo "No hay cambios para commitear"
+          else
+            git commit -m "🤖 Auto-translated files (simulation mode)"
+            git push
+          fi
+
+      - name: ✅ Demo Success
+        run: |
+          echo "🎉 Demo completed successfully!"
+          echo "🔗 Check the 'languages/' folders for translated files"
+          echo "🚀 Ready for real Claude integration!"
