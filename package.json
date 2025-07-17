@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "translate": "node scripts/process-translations-claude.js",
-    "translate:oauth": "CLAUDE_CODE_OAUTH_TOKEN=$CLAUDE_CODE_OAUTH_TOKEN node scripts/process-translations.js",
+    "translate:oauth": "CLAUDE_CODE_OAUTH_TOKEN=$CLAUDE_CODE_OAUTH_TOKEN node scripts/process-translations-claude.js",
     "build:mcp": "tsc src/translateflow-tool/main.ts --outDir dist",
     "dev:mcp": "tsx src/translateflow-tool/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
