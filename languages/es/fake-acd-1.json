@@ -1,2 +1,7 @@
 {
+  "homepage": {
+    "title": "Página de inicio de Fake ACD 2",
+    "description": "Esta es una página de inicio falsa de ACD 2 para pruebas",
+    "welcomeMessage": "¡Bienvenido a Fake ACD 2! Esto es un marcador de posición para el contenido real."
+  }
 }
