@@ -64,6 +64,7 @@ class MCPTypeScriptProcessor {
     
     // Verify MCP source
     const mcpFile = path.join(this.mcpSourceDir, 'main.ts');
+    console.log(`🔄 Verifying MCP TypeScript at <<<<<>>>>>>>> ${mcpFile}...`);
     try {
       await fs.access(mcpFile);
       console.log(`📄 MCP TypeScript found: ${mcpFile}`);
