@@ -10,6 +10,10 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: read
+
 jobs:
 
   process-translations:
@@ -23,6 +27,9 @@ jobs:
 
       - name: 📥 Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.LOCALIZATION_MCP_TOKEN }}
+          fetch-depth: 0
       
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
@@ -50,13 +57,13 @@ jobs:
 
       - name: 💾 Commit translated files
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "Translation Bot"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
           git add languages/
           
-          # Solo hacer commit si hay cambios
           if git diff --staged --quiet; then
-            echo "No hay cambios para commitear"
+            echo "ℹ️ No changes to commit"
           else
             git commit -m "🤖 Auto-translated files (simulation mode)"
             git push
