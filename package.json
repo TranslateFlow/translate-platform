@@ -1,0 +1,19 @@
+{
+  "name": "test-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.1",
+    "extract-zip": "^2.0.1",
+    "zod": "3.25.76"
+  }
+}
