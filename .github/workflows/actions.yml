@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: '22.12.0'
       
-      - name: 🎯 Simple Claude Translation
+      - name: 🎯 Call MCP
         timeout-minutes: 2
         run: |
           echo "🎯 Demo: Claude translation"
