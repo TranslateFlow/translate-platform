@@ -1,0 +1,76 @@
+name: Localization Pipeline
+on:
+  push:
+    branches: [main, ft-lp-test]
+    paths: 
+      - 'languages/en-US/**'
+  pull_request:
+    paths:
+      - 'languages/en-US/**'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+
+  process-translations:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: 🎬 Starting Translation Demo
+        run: |
+          echo "🌍 Starting Localization Translation Demo"
+          echo "================================="
+
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.LOCALIZATION_MCP_TOKEN }}
+          fetch-depth: 0
+      
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.12.0'
+      
+      - name: 📦 Install dependencies
+        run: |
+          npm install
+
+      - name: 🎭 Run Translation Simulation
+        run: |
+          echo "🚀 Running intelligent translation simulation..."
+          node scripts/process-translations.js
+
+      - name: 📊 Show translation results
+        run: |
+          echo "🔍 Checking translation results..."
+          find languages/ -name "*.json" -type f | head -10
+          echo ""
+          echo "📄 Sample translation (Spanish):"
+          if [ -f "languages/es/fake-acd-1.json" ]; then
+            cat languages/es/fake-acd-1.json
+          fi
+
+      - name: 💾 Commit translated files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add languages/
+          
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            git commit -m "🤖 Auto-translated files (simulation mode)"
+            git push
+          fi
+
+      - name: ✅ Demo Success
+        run: |
+          echo "🎉 Demo completed successfully!"
+          echo "🔗 Check the 'languages/' folders for translated files"
+          echo "🚀 Ready for real Claude integration!"
