@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "가짜 ACD 2",
+    "description": "This is a 가짜 ACD 2 홈페이지 for 테스트",
+    "welcomeMessage": "환영합니다 to 가짜 ACD 2! This is a 자리 표시자 for the 실제 내용."
+  }
+}
