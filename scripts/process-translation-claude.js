@@ -12,7 +12,7 @@ class IntelligentTranslationProcessorClaude {
     this.projectRoot = path.resolve(__dirname, '..');
     this.languagesDir = path.join(this.projectRoot, 'languages');
     this.baseLanguage = 'en-US';
-    this.targetLanguages = ['es', 'fr'];
+    this.targetLanguages = ['de', 'es', 'fr', 'fr-ca', 'ja', 'ko', 'nl', 'pt', 'zh-cn', 'zh-hk',  'de', 'it'];
     
     // Verify that we have at least one auth method
     this.hasOAuth = !!process.env.CLAUDE_CODE_OAUTH_TOKEN;
@@ -22,7 +22,7 @@ class IntelligentTranslationProcessorClaude {
       throw new Error('❌ You need CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY');
     }
     
-    console.log('🎯 Simple Claude Translator - Demo Mode');
+    console.log('🎯 Translator - Demo Mode');
     console.log(`📂 Base: ${this.baseLanguage} → Target: ${this.targetLanguages.join(', ')}`);
     console.log(`🔐 Auth: ${this.hasAPIKey ? 'API Key' : 'OAuth Token'}`);
     console.log('⚡ Mode: Direct without MCP\n');
@@ -93,29 +93,32 @@ class IntelligentTranslationProcessorClaude {
   }
 
   buildPrompt(sourceFiles) {
-    return `Translate these JSON files from English to: ${this.targetLanguages.join(', ')}.
+    return `You are a professional translator. Translate these JSON localization files from English to the specified target languages: ${this.targetLanguages.join(', ')}.
 
-IMPORTANT RULES:
-1. Keep the EXACT JSON structure
-2. Only translate text values (strings)
-3. DO NOT translate JSON keys
-4. Use natural translations
+CRITICAL TRANSLATION RULES:
+1. PRESERVE the exact JSON structure and formatting
+2. ONLY translate string values (text content)
+3. NEVER translate JSON keys, property names, or structural elements
+4. Use natural, contextually appropriate translations for each target language
+5. Maintain consistency in terminology across all files
+6. Respect cultural nuances and regional variations (e.g., fr-ca vs fr)
+7. Keep placeholders, variables, and special formatting intact (e.g., {{variable}}, %s, etc.)
 
 FILES:
 ${JSON.stringify(sourceFiles, null, 2)}
 
 RESPOND ONLY WITH JSON IN THIS FORMAT:
 {
+  "de": {
+    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
+  },
   "es": {
     ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
   },
   "fr": {
     ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
   },
-  "de": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-  "pt": {
+  "fr-ca": {
     ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
   },
   "ja": {
@@ -123,12 +126,27 @@ RESPOND ONLY WITH JSON IN THIS FORMAT:
   },
   "ko": {
     ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
+  },
+    "nl": {
+    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
+  },
+    "pt": {
+    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
+  },
+    "zh-cn": {
+    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
+  },
+    "zh-hk": {
+    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
+  },
+    "it": {
+    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
   }
 }`;
   }
 
   async callAnthropicAPI(prompt) {
-    console.log('🏢 Using Anthropic API...');
+    console.log('🏢 Using Anthropic...');
     
     const response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
