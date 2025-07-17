@@ -1,8 +1,12 @@
 name: Simple Claude Translation Demo
 on:
   push:
-    branches: [main, ft-lp-test]
-    paths: ['languages/en-US/**']
+    branches: [main, ft-lp-test, ft-claude-demo]
+    paths: 
+      - 'languages/en-US/**'
+  pull_request:
+    paths:
+      - 'languages/en-US/**'
   workflow_dispatch:
 
 permissions:
