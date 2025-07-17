@@ -4,8 +4,6 @@ on:
     branches: [main, ft-lp-test, ft-claude-demo]
     paths: 
       - 'languages/en-US/**'
-      - 'src/translateflow-tool/**'
-      - 'scripts/**'
   pull_request:
     branches: [main, ft-lp-test, ft-claude-demo]
     paths:
@@ -43,7 +41,7 @@ jobs:
           fi
 
       - name: 🔐 Run MCP TypeScript OAuth
-        run: node scripts/process-translations-claude.js
+        run: node scripts/process-translation-claude.js
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
 

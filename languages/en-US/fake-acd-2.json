@@ -1,7 +1,7 @@
 {
   "homepage": {
-    "title": "Fake ACD 2",
-    "description": "This is a fake ACD 2 homepage for testing",
-    "welcomeMessage": "Welcome to Fake ACD 2! This is a placeholder for the actual content."
+    "title": "Fake ACD 1",
+    "description": "This is a fake ACD 1 homepage for testing",
+    "welcomeMessage": "Welcome to Fake ACD 1! This is a placeholder for the actual content."
   }
 }
