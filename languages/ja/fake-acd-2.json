@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "偽のACD 2 Test",
+    "description": "A 偽のACD 2 ホームページ for テスト",
+    "welcomeMessage": "ようこそ to 偽のACD 2! A プレースホルダー for the 実際のコンテンツ."
+  }
+}
