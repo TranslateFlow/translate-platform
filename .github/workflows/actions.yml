@@ -45,9 +45,6 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
-      - name: Pull latest changes
-        run: git pull origin ${{ github.ref_name }}
-
       - name: 💾 Commit translated files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
