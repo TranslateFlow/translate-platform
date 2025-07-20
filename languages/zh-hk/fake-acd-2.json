@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "示範 ACD 2",
+    "description": "用於測試的示範 ACD 2 主頁",
+    "welcomeMessage": "歡迎來到示範 ACD 2！這是實際內容的佔位符。"
+  }
+}
