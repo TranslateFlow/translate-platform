@@ -1,8 +1,8 @@
 {
   "homepage": {
-    "title": "Página principal de ACD 1 de prueba",
-    "description": "Una página principal de ACD 1 de prueba para testing",
+    "title": "Página de inicio de prueba ACD 1",
+    "description": "Una página de inicio de prueba ACD 1 para pruebas",
     "welcomeMessage": "¡Bienvenido a ACD 1 de prueba! Un marcador de posición para el contenido real.",
-    "footer": "Este es el pie de página para ACD 1 de prueba, con información adicional."
+    "footer": "Este es un pie de página para ACD 1 de prueba, que proporciona información adicional."
   }
 }

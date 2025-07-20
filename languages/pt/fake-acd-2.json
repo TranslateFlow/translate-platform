@@ -1,8 +1,8 @@
 {
   "homepage": {
-    "title": "Teste do ACD 2 de Demonstração",
-    "description": "Uma página inicial do ACD 2 de demonstração para testes",
+    "title": "Teste ACD 2 de Demonstração",
+    "description": "Uma página inicial de demonstração ACD 2 para testes",
     "welcomeMessage": "Bem-vindo ao ACD 2 de Demonstração! Um espaço reservado para o conteúdo real.",
-    "footer": "Este é um rodapé para o ACD 2 de demonstração, fornecendo informações adicionais."
+    "footer": "Este é um rodapé para o ACD 2 de Demonstração, fornecendo informações adicionais."
   }
 }
