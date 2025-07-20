@@ -2,7 +2,7 @@
   "homepage": {
     "title": "示例 ACD 2 测试",
     "description": "用于测试的示例 ACD 2 主页",
-    "welcomeMessage": "欢迎访问示例 ACD 2！这是实际内容的占位符。",
+    "welcomeMessage": "欢迎来到示例 ACD 2！这是实际内容的占位符。",
     "footer": "这是示例 ACD 2 的页脚，提供附加信息。"
   }
 }
