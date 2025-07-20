@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "Gefälschte ACD 1 Startseite",
+    "description": "A Gefälschte ACD 1 Startseite for Tests",
+    "welcomeMessage": "Willkommen to Gefälschte ACD 1! A Platzhalter for the tatsächlicher Inhalt."
+  }
+}

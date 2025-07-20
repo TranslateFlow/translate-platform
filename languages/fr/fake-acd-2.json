@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "ACD Fictif 2",
+    "description": "A ACD Fictif 2 page d'accueil for test",
+    "welcomeMessage": "Bienvenue to ACD Fictif 2! A espace réservé for the contenu réel."
+  }
+}
