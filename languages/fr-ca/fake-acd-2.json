@@ -1,8 +1,8 @@
 {
   "homepage": {
-    "title": "Test Démo ACD 2",
-    "description": "Une page d'accueil de démonstration ACD 2 pour les tests",
-    "welcomeMessage": "Bienvenue sur Démo ACD 2 ! Un espace réservé pour le contenu actuel.",
-    "footer": "Voici un pied de page pour Démo ACD 2, fournissant des informations additionnelles."
+    "title": "Test ACD 2 de démonstration",
+    "description": "Une page d'accueil ACD 2 de démonstration pour les tests",
+    "welcomeMessage": "Bienvenue sur ACD 2 de démonstration ! Un espace réservé pour le contenu actuel.",
+    "footer": "Voici un pied de page pour ACD 2 de démonstration, fournissant des informations additionnelles."
   }
 }
