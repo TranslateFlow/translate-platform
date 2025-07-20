@@ -1,8 +1,8 @@
 {
   "homepage": {
-    "title": "演示版ACD 1主页测试",
-    "description": "用于测试的演示版ACD 1主页",
-    "welcomeMessage": "欢迎使用演示版ACD 1！这是实际内容的占位符。",
-    "footer": "这是演示版ACD 1的页脚，提供附加信息。"
+    "title": "示例 ACD 1 主页",
+    "description": "用于测试的示例 ACD 1 主页",
+    "welcomeMessage": "欢迎访问示例 ACD 1！这是实际内容的占位符。",
+    "footer": "这是示例 ACD 1 的页脚，提供附加信息。"
   }
 }

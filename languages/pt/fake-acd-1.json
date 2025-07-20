@@ -1,8 +1,8 @@
 {
   "homepage": {
-    "title": "Teste da página inicial do ACD 1 de demonstração",
+    "title": "Página Inicial do ACD 1 de Demonstração",
     "description": "Uma página inicial do ACD 1 de demonstração para testes",
-    "welcomeMessage": "Bem-vindo ao ACD 1 de demonstração! Um espaço reservado para o conteúdo real.",
+    "welcomeMessage": "Bem-vindo ao ACD 1 de Demonstração! Um espaço reservado para o conteúdo real.",
     "footer": "Este é um rodapé para o ACD 1 de demonstração, fornecendo informações adicionais."
   }
 }
