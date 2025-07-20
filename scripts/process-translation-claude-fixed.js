@@ -12,6 +12,7 @@ class IntelligentTranslationProcessorClaude {
     this.projectRoot = path.resolve(__dirname, '..');
     this.languagesDir = path.join(this.projectRoot, 'languages');
     this.baseLanguage = 'en-US';
+    // FIXED: Removed duplicate 'de' and added all languages properly
     this.targetLanguages = ['de', 'es', 'fr', 'fr-ca', 'ja', 'ko', 'nl', 'pt', 'zh-cn', 'zh-hk', 'it'];
     
     // Verify that we have at least one auth method
@@ -44,6 +45,7 @@ class IntelligentTranslationProcessorClaude {
       
     } catch (error) {
       console.error('❌ Error:', error.message);
+      console.error('Stack trace:', error.stack);
       process.exit(1);
     }
   }
@@ -93,6 +95,11 @@ class IntelligentTranslationProcessorClaude {
   }
 
   buildPrompt(sourceFiles) {
+    // FIXED: Generate the template for all target languages dynamically
+    const languageTemplate = this.targetLanguages.map(lang => 
+      `  "${lang}": {\n    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(',\n    ')}\n  }`
+    ).join(',\n');
+
     return `You are a professional translator. Translate these JSON localization files from English to the specified target languages: ${this.targetLanguages.join(', ')}.
 
 CRITICAL TRANSLATION RULES:
@@ -103,49 +110,19 @@ CRITICAL TRANSLATION RULES:
 5. Maintain consistency in terminology across all files
 6. Keep placeholders, variables, and special formatting intact (e.g., {{variable}}, %s, etc.)
 
-FILES:
+FILES TO TRANSLATE:
 ${JSON.stringify(sourceFiles, null, 2)}
 
-RESPOND ONLY WITH JSON IN THIS FORMAT:
+RESPOND ONLY WITH VALID JSON IN THIS EXACT FORMAT:
 {
-  "de": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-  "es": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-  "fr": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-  "fr-ca": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-  "ja": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-  "ko": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-    "nl": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-    "pt": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-    "zh-cn": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-    "zh-hk": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  },
-    "it": {
-    ${Object.keys(sourceFiles).map(f => `"${f}": {...}`).join(', ')}
-  }
-}`;
+${languageTemplate}
+}
+
+Make sure to translate ALL string values in the JSON files for each target language. The response must be valid JSON that can be parsed.`;
   }
 
   async callAnthropicAPI(prompt) {
-    console.log('🏢 Using Anthropic...');
+    console.log('🏢 Using Anthropic API...');
     
     const response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
@@ -171,10 +148,35 @@ RESPOND ONLY WITH JSON IN THIS FORMAT:
     console.log(`💰 Tokens: ${data.usage?.input_tokens}/${data.usage?.output_tokens}`);
     
     const content = data.content[0].text;
-    const jsonMatch = content.match(/\{[\s\S]*\}/);
-    const jsonContent = jsonMatch ? jsonMatch[0] : content;
     
-    return JSON.parse(jsonContent);
+    // FIXED: Better JSON extraction
+    let jsonContent;
+    try {
+      // Try to find JSON block
+      const jsonMatch = content.match(/\{[\s\S]*\}/);
+      jsonContent = jsonMatch ? jsonMatch[0] : content;
+      
+      // Parse and validate the JSON
+      const parsed = JSON.parse(jsonContent);
+      
+      // Validate that we have all expected languages
+      const expectedLanguages = this.targetLanguages;
+      const receivedLanguages = Object.keys(parsed);
+      
+      for (const lang of expectedLanguages) {
+        if (!parsed[lang]) {
+          throw new Error(`Missing translation for language: ${lang}`);
+        }
+      }
+      
+      console.log(`✅ Received translations for: ${receivedLanguages.join(', ')}`);
+      return parsed;
+      
+    } catch (parseError) {
+      console.error('❌ Failed to parse Claude response as JSON');
+      console.error('Raw response:', content);
+      throw new Error(`JSON Parse Error: ${parseError.message}`);
+    }
   }
 
   async callClaudeOAuth(prompt) {
@@ -199,10 +201,29 @@ RESPOND ONLY WITH JSON IN THIS FORMAT:
     const data = await response.json();
     const content = data.response || data.message || data.content;
     
-    const jsonMatch = content.match(/\{[\s\S]*\}/);
-    const jsonContent = jsonMatch ? jsonMatch[0] : content;
-    
-    return JSON.parse(jsonContent);
+    // FIXED: Better JSON extraction for OAuth response
+    let jsonContent;
+    try {
+      const jsonMatch = content.match(/\{[\s\S]*\}/);
+      jsonContent = jsonMatch ? jsonMatch[0] : content;
+      
+      const parsed = JSON.parse(jsonContent);
+      
+      // Validate languages
+      const expectedLanguages = this.targetLanguages;
+      for (const lang of expectedLanguages) {
+        if (!parsed[lang]) {
+          throw new Error(`Missing translation for language: ${lang}`);
+        }
+      }
+      
+      return parsed;
+      
+    } catch (parseError) {
+      console.error('❌ Failed to parse OAuth response as JSON');
+      console.error('Raw response:', content);
+      throw new Error(`JSON Parse Error: ${parseError.message}`);
+    }
   }
 
   async saveTranslations(translations) {
@@ -210,7 +231,20 @@ RESPOND ONLY WITH JSON IN THIS FORMAT:
     
     let totalFiles = 0;
     
+    // FIXED: Validate that we have all expected languages before saving
+    for (const language of this.targetLanguages) {
+      if (!translations[language]) {
+        throw new Error(`Missing translations for language: ${language}`);
+      }
+    }
+    
     for (const [language, files] of Object.entries(translations)) {
+      // Skip if not in our target languages
+      if (!this.targetLanguages.includes(language)) {
+        console.log(`⚠️  Skipping unexpected language: ${language}`);
+        continue;
+      }
+      
       const langDir = path.join(this.languagesDir, language);
       
       // Create directory
@@ -243,7 +277,7 @@ RESPOND ONLY WITH JSON IN THIS FORMAT:
 
 // Execute
 if (import.meta.url === `file://${process.argv[1]}`) {
-  console.log('🎯 SIMPLE CLAUDE TRANSLATOR - DEMO MODE');
+  console.log('🎯 SIMPLE CLAUDE TRANSLATOR - DEMO MODE (FIXED VERSION)');
   console.log('======================================\n');
   
   const translator = new IntelligentTranslationProcessorClaude();
