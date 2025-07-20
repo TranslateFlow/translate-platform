@@ -1,7 +1,7 @@
 {
   "homepage": {
-    "title": "Demo ACD 1 Startseite",
-    "description": "Eine Demo-ACD 1 Startseite zum Testen",
-    "welcomeMessage": "Willkommen bei Demo ACD 1! Ein Platzhalter für den tatsächlichen Inhalt."
+    "title": "Demo ACD 1 Homepage-Test",
+    "description": "Eine Demo-ACD-1-Homepage zum Testen",
+    "welcomeMessage": "Willkommen bei Demo-ACD 1! Ein Platzhalter für den tatsächlichen Inhalt."
   }
 }
