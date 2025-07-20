@@ -1,7 +1,7 @@
 {
   "homepage": {
     "title": "Demo ACD 2 test",
-    "description": "Een demo ACD 2 startpagina voor testen",
+    "description": "Een demo ACD 2 homepage voor testen",
     "welcomeMessage": "Welkom bij Demo ACD 2! Een tijdelijke aanduiding voor de werkelijke inhoud.",
     "footer": "Dit is een voettekst voor Demo ACD 2, met aanvullende informatie."
   }
