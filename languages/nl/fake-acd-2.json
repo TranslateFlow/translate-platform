@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "Fake ACD 2",
+    "description": "Een nep ACD 2 homepage voor testen",
+    "welcomeMessage": "Welkom bij Fake ACD 2! Een tijdelijke aanduiding voor de werkelijke inhoud."
+  }
+}

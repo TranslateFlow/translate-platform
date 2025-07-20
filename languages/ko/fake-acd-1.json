@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "Fake ACD 1 홈페이지 테스트",
+    "description": "테스트용 Fake ACD 1 홈페이지",
+    "welcomeMessage": "Fake ACD 1에 오신 것을 환영합니다! 실제 콘텐츠를 위한 자리표시자입니다."
+  }
+}

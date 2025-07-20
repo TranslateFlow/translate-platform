@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "Fake ACD 1 主页测试",
+    "description": "用于测试的虚拟 ACD 1 主页",
+    "welcomeMessage": "欢迎来到 Fake ACD 1！这是实际内容的占位符。"
+  }
+}
