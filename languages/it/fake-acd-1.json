@@ -1,7 +1,7 @@
 {
   "homepage": {
-    "title": "Homepage di Prova ACD 1 TEST",
-    "description": "Una homepage di prova ACD 1 per il testing",
+    "title": "Homepage ACD 1 di prova",
+    "description": "Una homepage ACD 1 di prova per il testing",
     "welcomeMessage": "Benvenuto in ACD 1 di prova! Un segnaposto per il contenuto effettivo.",
     "footer": "Questo è un piè di pagina per ACD 1 di prova, che fornisce informazioni aggiuntive."
   }
