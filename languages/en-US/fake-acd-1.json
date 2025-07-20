@@ -2,7 +2,6 @@
   "homepage": {
     "title": "Fake ACD 1 Homepage",
     "description": "A fake ACD 1 homepage for testing",
-    "welcomeMessage": "Welcome to Fake ACD 1! A placeholder for the actual content.",
-    "footer": "This is a footer for Fake ACD 1, providing additional information."
+    "welcomeMessage": "Welcome to Fake ACD 1! A placeholder for the actual content."
   }
 }
