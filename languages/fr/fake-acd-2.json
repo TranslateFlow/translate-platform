@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "Démo ACD 2",
+    "description": "Une page d'accueil de démonstration ACD 2 pour les tests",
+    "welcomeMessage": "Bienvenue sur Démo ACD 2 ! Un espace réservé pour le contenu réel."
+  }
+}

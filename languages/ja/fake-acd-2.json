@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "デモACD 2",
+    "description": "テスト用のデモACD 2ホームページ",
+    "welcomeMessage": "デモACD 2へようこそ！実際のコンテンツのプレースホルダーです。"
+  }
+}

@@ -1,1 +1,7 @@
-{}
+{
+  "homepage": {
+    "title": "Página Principal de Demo ACD 1",
+    "description": "Una página principal de demostración ACD 1 para pruebas",
+    "welcomeMessage": "¡Bienvenido a Demo ACD 1! Un marcador de posición para el contenido real."
+  }
+}
