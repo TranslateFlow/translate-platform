@@ -1,7 +1,8 @@
 {
   "homepage": {
-    "title": "デモ ACD 2 テスト",
-    "description": "テスト用のデモ ACD 2 ホームページ",
-    "welcomeMessage": "デモ ACD 2 へようこそ！実際のコンテンツのプレースホルダーです。"
+    "title": "デモACD 2 テスト",
+    "description": "テスト用のデモACD 2 ホームページ",
+    "welcomeMessage": "デモACD 2へようこそ！実際のコンテンツのプレースホルダーです。",
+    "footer": "これはデモACD 2のフッターで、追加情報を提供しています。"
   }
 }
