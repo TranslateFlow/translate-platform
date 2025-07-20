@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "translate": "node scripts/process-translation-claude-fixed.js",
-    "translate:oauth": "CLAUDE_CODE_OAUTH_TOKEN=$CLAUDE_CODE_OAUTH_TOKEN node scripts/process-translation-claude-fixed.js",
+    "translate": "node scripts/process-translation-claude-improved.js",
+    "translate:oauth": "CLAUDE_CODE_OAUTH_TOKEN=$CLAUDE_CODE_OAUTH_TOKEN node scripts/process-translation-claude-improved.js",
     "build:mcp": "tsc src/translateflow-tool/main.ts --outDir dist",
     "dev:mcp": "tsx src/translateflow-tool/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"

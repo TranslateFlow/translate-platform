@@ -37,7 +37,7 @@ jobs:
         timeout-minutes: 2
         run: |
           echo "🎯 Demo: Claude translation"
-          timeout 90s node scripts/process-translation-claude-fixed.js || {
+          timeout 90s node scripts/process-translation-claude-improved.js || {
             echo "⏰ Timeout - Demo"
             exit 0
           }
