@@ -1,0 +1,946 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleNameFormatted": "QM 工具",
+        "formManagerModuleLinks": {
+          "manageForms": "表單管理器",
+          "categoryManager": "類別管理器",
+          "qpPlanManager": "Quality Planner"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "我的排程",
+          "tasks": "任務",
+          "evaluations": "評估",
+          "plansMonitoring": "計劃監控",
+          "performanceMonitoring": "績效監控",
+          "scheduleRequests": "排程請求",
+          "myTimeOffRequests": "休假請求",
+          "shiftBidding": "輪班競投",
+          "calibrations": "校準",
+          "groupCoaching": "群組 Coaching",
+          "selfAssessments": "自行評估",
+          "marketplace": "巿集",
+          "myPersona": "我的表面形象",
+          "pursuits": "我的追求",
+          "1on1coaching": "1 對 1 Coaching",
+          "recentInteractions": "最近的互動",
+          "evaluatorAssignments": "評估者指派",
+          "qualityPerformance": "品質表現"
+        },
+        "coachingModuleLinks": {
+          "coachingPackage": "Coaching 套件",
+          "coachingPlans": "Coaching 計劃",
+          "coachingManager": "Coaching Manager",
+          "smartInsights": "SMART Insights"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "我的排程",
+          "myTimeOffRequests": "休假請求",
+          "scheduleRequests": "排程請求",
+          "evaluations": "評估",
+          "shiftBidding": "輪班競投",
+          "coaching": "Coaching",
+          "groupCoaching": "群組 Coaching",
+          "selfAssessments": "自行評估",
+          "marketplace": "巿集",
+          "myDashboards": "我的控制面板",
+          "pursuits": "我的追求",
+          "1on1coaching": "1 對 1 Coaching",
+          "recentInteractions": "最近的互動"
+        }
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "您有 {{Count}} 個未讀通知"
+  },
+  "filter": {
+    "clearall": "清除全部",
+    "close": "關閉",
+    "clear": "清除"
+  },
+  "filterDropDown": {
+    "completed": "已完成",
+    "notCompleted": "未完成"
+  },
+  "successPage": {
+    "welcomeMsg": "您好{{username}}"
+  },
+  "generalErrorMessages": {
+    "no-data": "沒有資料",
+    "loading": "載入中",
+    "required": "此乃必填欄位。",
+    "minLength": "您輸入的內容太短",
+    "nameFieldValidation": "糟了，您不能使用 \\ / ! + < > ? # & , % \" ",
+    "maxLength": "您輸入的內容太長",
+    "email": "您輸入的電郵地址無效",
+    "emailExists": "此電郵地址已存在，請嘗試另一電郵地址。",
+    "number": "僅限數字！",
+    "pattern": "此欄位的格式不正確",
+    "password": "您的密碼須為至少 8 個字元，當中包括 1 個數字及 1 個大楷字母",
+    "match": "此密碼與之前的密碼不符",
+    "minLengthPassword": "您的密碼須為至少 8 個字元",
+    "maxLengthPassword": "您的密碼太長",
+    "min": "數字太小",
+    "max": "數字太大",
+    "uniqueString": "此名稱已存在。請嘗試一個新地址。",
+    "lowerThen": "最小值不能高於最大值",
+    "weeklyMaxLowerThanSumDailyMin": "每日規則要求的最少日數超過每週規則的最大天數。",
+    "weeklyMinGreaterThanSumDailyMax": "每週規則的最少日數超過每日規則要求的最多天數",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "最少每日組合總時數不能多於每週最多總時數",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "最多每日組合總時數不能少於每調最少總時數",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最少天數超過獨有天總數。",
+    "possibleDaysLowerThanMinDays": "可能天數不符合每週規則要求的最少天數。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "每週規則的最少天數超過獨有天總數。",
+    "noAddedShiftPatters": "您必須選擇至少一個每日規則",
+    "shiftLengthLowerThanActivityLength": "活動長度總和和相應開始不能大於值班長度",
+    "shiftLengthLowerThanTotalActivityLength": "活動總長度不能超過值班長度",
+    "relativeStartLowerThanSlack": "Slack 值不能大於相應開始值",
+    "activitiesOverlap": "活動不能重疊",
+    "serverError": "未知伺服器錯誤",
+    "generalError": "一般錯誤",
+    "missingPermissionError": "您沒有正確權限以執行此操作。"
+  },
+  "metaInfo": {
+    "title": "Nice SaaS WFM",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "success": {
+      "title": "成功",
+      "description": "Nice SaaS WFM"
+    },
+    "performanceMonitoring": {
+      "title": "績效監控",
+      "description": "Nice SaaS WFM"
+    },
+    "plansMonitoring": {
+      "title": "計劃監控",
+      "description": "Nice SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "表格執行者",
+      "description": "Nice SaaS WFM"
+    },
+    "interactionPlayer": {
+      "title": "互動播放器",
+      "description": "互動播放器"
+    },
+    "planDetails": {
+      "title": "計劃監控細節",
+      "description": "計劃監控細節"
+    },
+    "calibrations": {
+      "title": "校準",
+      "description": "校準"
+    },
+    "performanceDetails": {
+      "title": "表現監控細節",
+      "description": "表現監控細節"
+    },
+    "selfAssessments": {
+      "title": "自行評估",
+      "description": "自行評估"
+    },
+    "supervisorPerformanceMonitoring": {
+      "title": "績效監控",
+      "description": "Nice SaaS WFM"
+    },
+    "evaluatorAssignments": {
+      "title": "評估者指派",
+      "description": "Nice SaaS WFM"
+    },
+    "supervisorPerformanceDetails": {
+      "title": "表現監控細節",
+      "description": "表現監控細節"
+    },
+    "qualityPerformance": {
+      "title": "品質表現",
+      "description": "Nice SaaS WFM"
+    },
+    "supervisorQualityPerformance": {
+      "title": "品質表現",
+      "description": "Nice SaaS WFM"
+    },
+    "calibrationDetails": {
+      "title": "校正詳情",
+      "description": "校正詳情"
+    }
+  },
+  "commonButtons": {
+    "ok": "確定",
+    "cancel": "取消",
+    "no": "否",
+    "yes": "是",
+    "save": "儲存",
+    "delete": "刪除",
+    "activate": "啟用",
+    "saveAndActivate": "儲存及啟用",
+    "saveAsDraft": "儲存為草稿",
+    "invite": "邀請",
+    "edit": "編輯",
+    "update": "更新",
+    "upload": "上載",
+    "today": "今天",
+    "showAll": "全部顯示",
+    "clearAll": "清除全部",
+    "close": "關閉",
+    "create": "建立",
+    "selectAll": "全選",
+    "generate": "產生",
+    "chooseFile": "選擇檔案",
+    "add": "新增",
+    "publish": "發布",
+    "set": "設定",
+    "reset": "重設",
+    "day": "天",
+    "week": "週",
+    "done": "完成",
+    "download": "下載"
+  },
+  "languages": {
+    "english": "英文",
+    "russian": "俄文",
+    "spanish": "西班牙文",
+    "chinese": "中文"
+  },
+  "weekDays": {
+    "sunday": "星期日",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六"
+  },
+  "weekShortDays": {
+    "SUN": "星期日",
+    "MON": "星期一",
+    "TUE": "星期二",
+    "WED": "星期三",
+    "THU": "星期四",
+    "FRI": "星期五",
+    "SAT": "星期六"
+  },
+  "globalNavigation": {
+    "wfmHeader": {
+      "contactUs": "聯絡我們",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "登出",
+      "changePasswordOption": "變更密碼",
+      "accountSetupOption": "帳戶設立",
+      "myProfileOption": "My Profile",
+      "help": "幫助",
+      "selfService": "支援 - 下載"
+    },
+    "sideBar": {
+      "setupAppName": "管理員",
+      "setupAppLinks": {
+        "users": "員工",
+        "skills": "技能",
+        "groups": "群組"
+      },
+      "schedulerAppName": "排程器",
+      "schedulerAppLinks": {
+        "activityCodes": "活動代碼",
+        "realTimeAdherence": "實時依從性",
+        "acdActivitiesMapping": " ACD 配對",
+        "managementUnits": "排程單元",
+        "scheduler": "排程管理器",
+        "generateSchedule": "產生排程",
+        "dailyRule": "每日規則",
+        "weeklyRules": "每週規則",
+        "forecastData": "匯入預測資料"
+      },
+      "mySpaceAppName": "我的空間",
+      "mySpaceAppLinks": {
+        "mySchedule": "我的排程",
+        "myDashboard": "我的控制面板",
+        "myTasks": "我的任務",
+        "myEvaluations": "我的評估",
+        "performanceMonitoring": "績效監控",
+        "plansMonitoring": "計劃監控",
+        "calibration": "校準",
+        "qualityPerformance": "品質表現"
+      },
+      "formManagerAppName": "QM 工具",
+      "formManagerAppLinks": {
+        "manageForms": "表單管理器",
+        "formDesigner": "表格設計者",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "範本管理器"
+      }
+    }
+  },
+  "formExecutorPage": {
+    "pageTitle": "表格資料",
+    "submitBtn": "提交",
+    "sentToAgentMsg": "已傳送給客服專員",
+    "acknowledgeMsg": "已確認",
+    "executionErrorMsg": "無法傳送",
+    "acknowledgeErrorMsg": "無法確認",
+    "executionRetrieveErrorMsg": "利用執行 ID： {{executor}} 無法檢索資料",
+    "roleNotSupportedMsg": "不支援以下角色：{{role}}。",
+    "noWorkflowAssociatedMsg": "沒有已關聯工作流程，請關聯工作流程。",
+    "generalErrorMsg": "無法完成此操作，出現錯誤。",
+    "changeForm": "更改表格",
+    "cancel": "取消",
+    "scoreLabel": "分數：",
+    "Submit": "評估已傳送給客服專員",
+    "CompleteNoReview": "已遞交評估",
+    "Acknowledge": "已確認評估",
+    "Dispute": "已傳送給評估者以進行要求審視",
+    "RequestReview": "已完成要求審視",
+    "RequestReviewModalHeader": "要求審視",
+    "SubmitNoAck": "已遞交評估",
+    "InProgress": "評估已成功儲存為草稿。",
+    "InReview": "評估已成功儲存為草稿。",
+    "Self-Assessment-Completed": "已成功完成自我評估。",
+    "Self-Assessment-InProgress": "已成功把自我評估儲存為草稿。",
+    "criticalQuestionIndicationMessage": "您無法回答題號為 {{criticalFailureQuestions}} 的問題。此乃關鍵問題，導致您的分數重設為 0。",
+    "criticalQuestionsIndicationMessage": "您無法回答題號為 {{criticalFailureQuestions}} 的問題。此乃關鍵問題，導致您的分數重設為 0。",
+    "mismatchedAnswersMessage": "不符的答案",
+    "evaluatorTitle": "評估者",
+    "agentTitle": "客服專員",
+    "errorLoadingAnswers": "無法載入表格答案，請重新開啟表格",
+    "formDataAttributeQuestion": {
+      "agentRequest": "客服專員請求理由：",
+      "evaluatorReview": "評估員審視摘要："
+    },
+    "EVALUATION": {
+      "retrieveFormErrorMsg": "無法擷取表格",
+      "close": "關閉"
+    },
+    "footerButtons": {
+      "Dispute": "要求審視",
+      "Acknowledge": "確認",
+      "Self-Assessment-InProgress": "儲存",
+      "Self-Assessment-Completed": "提交",
+      "InProgress": "儲存為草稿",
+      "CompleteNoReview": "提交",
+      "InReview": "儲存為草稿",
+      "RequestReview": "傳送給客服專員",
+      "Submit": "傳送給客服專員",
+      "SubmitNoAck": "提交",
+      "Coaching-InProgress": "儲存",
+      "Coaching-Completed": "提交"
+    }
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "無法登入"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "一般錯誤"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "一般錯誤 {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "不可用參數"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "未經授權員工"
+    },
+    "wrongCredentials": "您輸入了錯誤電郵地址或密碼"
+  },
+  "teamsAndGroups": {
+    "teams": "團隊",
+    "groups": "群組",
+    "selectTeams": "選擇團隊",
+    "selectGroups": "選擇群組",
+    "errorMessages": {
+      "required": "您必須選取至少一個團隊"
+    },
+    "selected": " 已選取"
+  },
+  "plansMonitoring": {
+    "plansMonitoring": "計劃監控",
+    "name": "名稱",
+    "distributionRate": "分佈 (%)",
+    "completionRate": "完成度 (%)",
+    "avgEvalutionPerDay": "每日平均評估數目",
+    "remainingDays": "剩餘日數",
+    "status": "狀態",
+    "planCount": "有效計劃",
+    "noPlansAvailable": "無有效計劃",
+    "planSummary": "計劃摘要",
+    "noOfEvaluators": "評估者數目",
+    "noOfAgents": "客服專員數目",
+    "noOfInteractionsPerAgents": "每位客服專員互動數目",
+    "evaluatorsStatus": "評估者進度",
+    "aboveDailyAvg": "每日平均之上",
+    "belowDailyAvg": "每日平均之下",
+    "none": "無",
+    "team": "團隊",
+    "evaluators": "{{count}} 個評估者",
+    "actualAndExpected": "已完成／預期",
+    "consumptionTrend": "消費趨勢",
+    "planOccurrence": "計劃出現次數",
+    "recurringMonthly": "每月重複",
+    "recurringWeekly": "每週重複",
+    "errorFetchingPlanDetailsData": "無法載入計劃監控細節資料",
+    "noDistributionDrilldown": "此活動的分配尚未開始。",
+    "drillDownTitle": "沒有可參閱的細節",
+    "timePeriod": "時間段",
+    "current": "現在",
+    "nextScheduledRun": "下一排程運作：",
+    "ontrack": "進度如常",
+    "offtrack": "未如進度",
+    "active": "活躍",
+    "date": "日期",
+    "noOfEvaluations": "評估者人數",
+    "avgEvaluations": "平均評估",
+    "textForEvals": " Eval",
+    "occurrence": {
+      "recurring": "重複",
+      "monthly": "每月重複計劃",
+      "weekly": "每週重複計劃",
+      "oneTime": "一次"
+    },
+    "gridColumnsHeaders": {
+      "evaluators": "團隊（評估者）",
+      "actualAndExpected": "已完成／預期",
+      "consumptionTrend": "消費趨勢"
+    },
+    "evaluator": "評估者",
+    "activeAgents": "工作中客服專員",
+    "interactionsPerAgent": "每位客服專員的互動",
+    "evaluatorProgress": "評估者進度",
+    "pm_warnUnexpectedDistributionMsg": "該值可能高於預期。包括在目前週期中來自活躍和閒置的客服專員在處於活動狀態時的互動。",
+    "pd_warnUnexpectedDistributionMsg": "該值高於預期。包括在目前週期中來自活躍和閒置的客服專員在處於活動狀態時的互動。",
+    "warnUnexpectedCompletionMsg": "該值可能高於預期。包括在目前週期中來自活躍和閒置的客服專員在處於活動狀態時的評估。",
+    "pageTitle": "評估者指派",
+    "tabs": {
+      "planMonitoring": "計劃監控",
+      "evaluatorQueue": "管理評估"
+    },
+    "ng2evaluatorQueueTab": {
+      "omnibarSearchPlaceholder": "搜尋客服專員",
+      "omnibarItemCount": "{{ count }} 個項目",
+      "gridColumnsHeaders": {
+        "channeltype": "類型",
+        "agentName": "客服專員名稱",
+        "planName": "計劃名稱",
+        "evaluationAssignee": "評估獲指派者",
+        "evaluationType": "評估類型",
+        "evaluationStartDate": "評估開始日期",
+        "dueDate": "到期日期",
+        "score": "分數",
+        "evaluationStatus": "評估狀態",
+        "formName": "表格名稱",
+        "action": "動作",
+        "duration": "持續時間",
+        "evaluationSubject": "評估主題"
+      },
+      "dateRange": "日期範圍",
+      "changeAssignee": {
+        "modalHeader": "更改獲指派者",
+        "changeAssigneeButton": "更改獲指派者",
+        "searchPlaceholder": "選擇評估者姓名",
+        "noEvaluatorAvailable": "無可用評估者",
+        "reassignSuccessMessage": "獲指派者已成功更改",
+        "reassignErrorMessage": "評估已提交。您無權重新指派它。"
+      },
+      "dismiss": "解除",
+      "infoText": "「評估指派」功能發布之前的資料不可用"
+    }
+  },
+  "messages": {
+    "noResultsText": "我們未找到任何結果"
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "請選取一份表格以開始執行：",
+    "select": "選擇",
+    "change": "變更",
+    "noFormsMsg": "沒有可用表格。",
+    "selectFormHeader": "選擇表格",
+    "changeFormHeader": "更改表格",
+    "noFormInPlanMessage": "為評估選取一份表格。",
+    "disabledFormInPlanMessage": "為評估選取一份表格。"
+  },
+  "workflowStatuses": {
+    "Claimed": "已申訴",
+    "InProgress": "進行中",
+    "Dispute": "糾紛",
+    "InReview": "審視中",
+    "Request_Review": "要求審視",
+    "Pending_Acknowledgement": "待處理確認",
+    "Completed": "已完成",
+    "Completed_Acknowledged": "已完成確認",
+    "Reviewed_and_Completed": "已審視並完成"
+  },
+  "workflowStatusUI": {
+    "Assigned": "新",
+    "Claimed": "新",
+    "InProgress": "草稿",
+    "Dispute": "已挑戰",
+    "InReview": "已挑戰",
+    "Request_Review": "已挑戰",
+    "Pending_Acknowledgement": "新",
+    "Completed": "已完成",
+    "Completed_Acknowledged": "已完成",
+    "Reviewed_and_Completed": "已完成審視",
+    "Completed_and_Not_Reviewed": "沒有完成任何審視",
+    "Completed_and_Reviewed": "已完成已審視",
+    "selfAssessment": {
+      "new": "新",
+      "draft": "草稿",
+      "completed": "已完成",
+      "expired": "已過期"
+    },
+    "Expired": "已過期",
+    "Auto-acknowledged": "自動確認",
+    "Sent_To_Agent": "已傳送給客服專員",
+    "WaitingForEvaluator": "等待評估者",
+    "WaitingForAgent": "等待客服專員",
+    "PartiallyCompleted": "部分完成",
+    "Appealed": "已上訴",
+    "Sent_To_Supervisor": "已傳送給主管",
+    "In_Progress": "進行中"
+  },
+  "workflowType": {
+    "evaluations": "評估"
+  },
+  "performanceMonitoring": {
+    "performanceMonitoring": "績效監控",
+    "selectGroup": "選擇群組",
+    "evaluationDeleted": "成功刪除評估",
+    "evaluationDeletionError": "請勿刪除評估。",
+    "teams": "團隊",
+    "groups": "群組",
+    "team": "團隊",
+    "group": "群組",
+    "averageScore": "平均分數",
+    "changeInPoints": "分數改變",
+    "noOfEvaluations": "評估者人數",
+    "diffFromPreviousTime": "與上次的不同",
+    "loadPerformanceData": "載入表現資料",
+    "selectTimePeriod": "選取時段",
+    "fromDate": "從",
+    "toDate": "到",
+    "NoGroupSelected": "尚未選取群組",
+    "NoTeamSelected": "您尚未選擇篩選器",
+    "noAgents": "沒有相符項目",
+    "noAgentsInGroup": "在所選群組沒有客服專員",
+    "noEvaluationsFound": "這些團隊/群組未有評估",
+    "errorFetchingGroupData": "無法載入資料",
+    "errorFetchingPerformanceDetailsData": "無法載入資料",
+    "dateOfInteraction": "互動日期",
+    "duration": "持續時間",
+    "planName": "計劃名稱",
+    "findEmployeePlaceHolder": "開始輸入以尋找員工",
+    "teamName": "團隊",
+    "evaluatedOn": "評估於",
+    "evaluatedBy": "評估者為",
+    "score": "分數",
+    "status": "狀態",
+    "groupName": "群組名稱",
+    "fromDateHeader": "開始日期",
+    "toDateHeader": "結束日期",
+    "evaluations": "評估",
+    "noItemsOverlay": "未有已完成評估",
+    "evaluation_Type": "評估類型",
+    "collaborativeEvaluation": "協作的",
+    "standardEvaluation": "標準",
+    "evaluatorTitle": "評估者",
+    "agentTitle": "客服專員",
+    "formName": "表格名稱",
+    "formVersion": "表格版本",
+    "deleteReasonModal": {
+      "textareaPlaceholder": "輸入內容...",
+      "confirmMessage1": "刪除此評估或會改變平均評估分數。",
+      "confirmMessage2": "是否繼續？",
+      "cancelMessage1": " 所有變更將會遺失。",
+      "cancelMessage2": "是否繼續？",
+      "requiredField": "此乃必填欄位。",
+      "deleteButton": "刪除",
+      "deleteEvaluationTaskHeader": "刪除評估",
+      "reasonLabel": "原因",
+      "charactersRemainingText": "剩餘 {{count}} 字元",
+      "WarningText": "刪除此評估將會改變平均評估分數。"
+    },
+    "evaluationReport": {
+      "generateEvaluationReport": "產生評估報告",
+      "generateReportFailed": "無法產生評估報告",
+      "generateReportSuccess": "成功產生評估報告",
+      "from": "從",
+      "to": "到",
+      "type": "類型",
+      "evaluation": "評估",
+      "calibration": "校準",
+      "selfAssessment": "自我評估",
+      "generate": "產生",
+      "create": "產生報告",
+      "agent": "客服專員",
+      "form": "表格",
+      "formVersion": "表格版本",
+      "downloadInProgress": "正在下載您的報告。",
+      "downloadSuccess": "已成功下載您的報告。",
+      "downloadError": "無法下載報告，請稍後重試。",
+      "placeholder": {
+        "agent": "選取客服專員",
+        "form": "選擇表格",
+        "formVersion": "選取表格版本"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "未能提供評估表格",
+      "message": "表格受到挑戰，現正進行重新評估。在評估完成後將重新提供。"
+    },
+    "calibrationEvaluation": "校準",
+    "qualityPerformance": "品質表現"
+  },
+  "calibration": {
+    "calibration": "校準",
+    "calibrationScore": "校準分數",
+    "noItemsOverlay": "尚未收到任何校準",
+    "days": "d",
+    "NA": "NA",
+    "createCalibration": "新校準",
+    "gridColumnsHeaders": {
+      "calibrationName": "校準名稱",
+      "agentName": "客服專員名稱",
+      "initiatedBy": "發起者為",
+      "calibrationForm": "校準表格",
+      "originalScore": "原始分數",
+      "calibrationScore": "校準分數",
+      "completionRate": "完成比率",
+      "remainingDays": "剩餘日數",
+      "modal": {
+        "maxScore": "最高分數",
+        "questions": "問題",
+        "originalScore": "原始分數",
+        "calibrations": "平均分數",
+        "variance": "變異數 (%)"
+      },
+      "actions": "Actions"
+    },
+    "calibrationSearchPlaceholder": "搜尋校準",
+    "calibrationsCount": "{{count}} 校正",
+    "errors": {
+      "calibrationsError": "無法載入校準，請重試。",
+      "calibrationScoreError": "無法載入問題。請再試一次。",
+      "deleteCalibrationError": "無法刪除校準，請重試。",
+      "overviewAPIFailure": "擷取校正概覽資料時發生錯誤",
+      "participantQuestionAPIFailure": "擷取校正參與者與問題網格資料失敗",
+      "questionDrilldownAPIFailure": "擷取校正問題深入分析資料時發生錯誤"
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "無法刪除此校準，此校準現在處於有效狀態",
+      "deleteCalibration": "刪除所選校準？此行動不能消除。",
+      "deleteOthersCalibration": "無法刪除此校準。此校準由另一位使用者建立。"
+    },
+    "success": {
+      "deleteCalibration": "成功刪除校準。"
+    },
+    "calibrationOverviewCards": {
+      "typeOfCalibration": "校正類型",
+      "dueDate": "到期日期",
+      "interactionDate": "互動日期",
+      "initiatedBy": "發起者為",
+      "evaluationForm": "評估表單",
+      "calibrationScore": "校準分數",
+      "originalScore": "原始分數",
+      "minScore": "最低分數：",
+      "maxScore": "最高分數：",
+      "daysRemaining": "剩餘天數：",
+      "completion": "完成度：",
+      "calibrationType": "校正類型",
+      "initiatedDate": "發起日期",
+      "daysLeft": "剩餘天數："
+    },
+    "calibrationDetailsGridColumns": {
+      "questions": "問題",
+      "variance": "變異數",
+      "avgScore": "平均分數"
+    },
+    "placeHolders": {
+      "selectEvaluators": "選取評估者",
+      "selectParticipants": "選擇參與者",
+      "selectQuestions": "選擇問題"
+    },
+    "labels": {
+      "evaluators": "評估者",
+      "participants": "參與者",
+      "answer": "答案",
+      "questionType": "問題類型",
+      "allQuestions": "所有問題",
+      "originalAnswer": "原始答案",
+      "calibrationDetails": "校正詳情"
+    },
+    "tooltip": {
+      "variance": "變異數：",
+      "evaluationScore": "評估分數：",
+      "participantNotCompletedCalibration": "參與者尚未完成校正。"
+    },
+    "radioLabels": {
+      "completed": "已完成",
+      "notCompleted": "未完成",
+      "all": "全部",
+      "evaluatorType": "評估者類型"
+    },
+    "calibrationQuestionOverviewCards": {
+      "originalScore": "原始分數",
+      "variance": "變異數",
+      "avgScore": "平均分數",
+      "maxScore": "最高分數",
+      "minScore": "最低分數"
+    },
+    "calibrationQuestionDrilldownGridColumns": {
+      "evaluatorName": "評估者名稱",
+      "variance": "變異數",
+      "score": "分數",
+      "participantName": "參與者名稱"
+    }
+  },
+  "ng2Calibration": {
+    "calibration": "校準",
+    "calibrationScore": "校準分數",
+    "noItemsOverlay": "尚未收到任何校準",
+    "days": "d",
+    "NA": "NA",
+    "createCalibration": "新校準",
+    "gridColumnsHeaders": {
+      "calibrationName": "校準名稱",
+      "agentName": "客服專員名稱",
+      "initiatedBy": "發起者為",
+      "calibrationForm": "校準表格",
+      "originalScore": "原始分數",
+      "calibrationScore": "校準分數",
+      "completionRate": "完成比率",
+      "remainingDays": "剩餘日數",
+      "modal": {
+        "maxScore": "最高分數",
+        "questions": "問題",
+        "originalScore": "原始分數",
+        "calibrations": "平均分數",
+        "variance": "變異數 (%)"
+      },
+      "actions": "Actions",
+      "calibrationSubject": "校準主題"
+    },
+    "calibrationSearchPlaceholder": "搜尋校準",
+    "calibrationsCount": "校準",
+    "calibrationCount": "校準",
+    "errors": {
+      "calibrationsError": "載入校正失敗。請再試一次。",
+      "calibrationScoreError": "無法載入問題。請再試一次。",
+      "deleteCalibrationError": "無法刪除校準，請重試。"
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "無法刪除此校準，此校準現在處於有效狀態",
+      "deleteCalibration": "刪除所選校準？此行動不能消除。",
+      "deleteOthersCalibration": "無法刪除此校準。此校準由另一位使用者建立。"
+    },
+    "success": {
+      "deleteCalibration": "成功刪除校準。"
+    },
+    "forTicket": "對於票證",
+    "forInteraction": "對於互動"
+  },
+  "selfAssessment": {
+    "title": "自行評估",
+    "itemsCount": "{{count}} 自行評估",
+    "items": "自行評估",
+    "newAssessment": "新自我評估",
+    "noItemsOverlay": "未有已發起的評估",
+    "gridColumnsHeaders": {
+      "initiatedBy": "發起者為",
+      "agentName": "客服專員名稱",
+      "interactionDate": "互動日期",
+      "duration": "持續時間",
+      "remainingDays": "剩餘日數",
+      "score": "分數",
+      "status": "狀態",
+      "actions": "Actions",
+      "formName": "表格名稱"
+    },
+    "failedToLoadAssessments": "無法載入自我評估資料",
+    "status": {
+      "awaiting": "正在等待",
+      "completed": "已完成",
+      "expired": "已過期"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "無法刪除正在等待的評估",
+      "deleteAssessmentMsg1": "您將刪除此評估，此操作不能復原。",
+      "deleteAssessmentMsg2": "是否繼續？",
+      "cannotDeleteOtherUsersSelfAssessment": "此自我評估由另一使用者發起，無法消除。"
+    },
+    "selfAssessmentStatus": "自我評估狀態",
+    "singleStatusPlaceHolder": "已選取 1 個狀態",
+    "twoStatusesPlaceHolder": "已選取 2 個狀態",
+    "threeStatusesPlaceHolder": "已選取 3 個狀態",
+    "assessmentDeletedSuccess": "已成功刪除評估。",
+    "assessmentDeleteFailed": "無法刪除評估，請重試。"
+  },
+  "ng2SelfAssessment": {
+    "title": "自行評估",
+    "itemsCount": "自行評估",
+    "items": "自行評估",
+    "newAssessment": "新自我評估",
+    "noItemsOverlay": "未有已發起的評估",
+    "gridColumnsHeaders": {
+      "initiatedBy": "發起者為",
+      "agentName": "客服專員名稱",
+      "interactionDate": "互動日期",
+      "duration": "持續時間",
+      "remainingDays": "剩餘日數",
+      "score": "分數",
+      "status": "狀態",
+      "actions": "Actions",
+      "formName": "表格名稱"
+    },
+    "failedToLoadAssessments": "無法載入自我評估資料",
+    "status": {
+      "awaiting": "正在等待",
+      "completed": "已完成",
+      "expired": "已過期",
+      "newSelfAssessment": "新自我評估",
+      "inProgressSelfAssessment": "正在進行的自我評估",
+      "completedSelfAssessment": "已完成的自我評估",
+      "expiredSelfAssessment": "已過期的自我評估"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "無法刪除正在等待的評估",
+      "deleteAssessmentMsg1": "您將刪除此評估，此操作不能復原。",
+      "deleteAssessmentMsg2": "是否繼續？",
+      "cannotDeleteOtherUsersSelfAssessment": "此自我評估由另一使用者發起，無法消除。"
+    },
+    "selfAssessmentStatus": "自我評估狀態",
+    "assessmentDeletedSuccess": "已成功刪除評估。",
+    "assessmentDeleteFailed": "無法刪除評估，請重試。"
+  },
+  "ng2PerformanceMonitoring": {
+    "evaluationSubject": "評估主題",
+    "employee": "員工",
+    "segment": "分段",
+    "N/A": "不適用",
+    "performanceMonitoring": "績效監控",
+    "selectGroup": "選擇群組",
+    "evaluationDeleted": "成功刪除評估",
+    "evaluationDeletionError": "請勿刪除評估。",
+    "teams": "團隊",
+    "groups": "群組",
+    "team": "團隊",
+    "group": "群組",
+    "averageScore": "平均分數",
+    "changeInPoints": "分數改變",
+    "noOfEvaluations": "評估者人數",
+    "diffFromPreviousTime": "與上次的不同",
+    "loadPerformanceData": "載入表現資料",
+    "selectTimePeriod": "選取時段",
+    "fromDate": "從",
+    "toDate": "到",
+    "NoGroupSelected": "尚未選取群組",
+    "NoTeamSelected": "您尚未選擇篩選器",
+    "noAgents": "沒有相符項目",
+    "noAgentsInGroup": "在所選群組沒有客服專員",
+    "noEvaluationsFound": "這些團隊/群組未有評估",
+    "errorFetchingGroupData": "無法載入資料",
+    "errorFetchingPerformanceDetailsData": "無法載入資料",
+    "dateOfInteraction": "互動日期",
+    "duration": "持續時間",
+    "planName": "計劃名稱",
+    "findEmployeePlaceHolder": "開始輸入以尋找員工",
+    "teamName": "團隊",
+    "evaluatedOn": "評估於",
+    "evaluatedBy": "評估者為",
+    "score": "分數",
+    "status": "狀態",
+    "groupName": "群組名稱",
+    "fromDateHeader": "開始日期",
+    "toDateHeader": "結束日期",
+    "evaluations": "評估",
+    "evaluation": "評估",
+    "noItemsOverlay": "未有已完成評估",
+    "evaluation_Type": "評估類型",
+    "collaborativeEvaluation": "協作的",
+    "standardEvaluation": "標準",
+    "evaluatorTitle": "評估者",
+    "agentTitle": "客服專員",
+    "formName": "表格名稱",
+    "formVersion": "表格版本",
+    "deleteReasonModal": {
+      "textareaPlaceholder": "輸入內容...",
+      "confirmMessage1": "刪除此評估或會改變平均評估分數。",
+      "confirmMessage2": "是否繼續？",
+      "cancelMessage1": " 所有變更將會遺失。",
+      "cancelMessage2": "是否繼續？",
+      "requiredField": "此乃必填欄位。",
+      "deleteButton": "刪除",
+      "deleteEvaluationTaskHeader": "刪除評估",
+      "reasonLabel": "原因",
+      "charactersRemainingText": "剩餘 {{count}} 字元",
+      "WarningText": "刪除此評估將會改變平均評估分數。"
+    },
+    "employeeEvaluation": {
+      "create": "新評估",
+      "header": "執行新評估",
+      "submitBtn": "評估"
+    },
+    "evaluationReport": {
+      "generateEvaluationReport": "產生評估報告",
+      "generateReportFailed": "無法產生評估報告",
+      "generateReportSuccess": "成功產生評估報告",
+      "from": "從",
+      "to": "到",
+      "type": "類型",
+      "evaluation": "評估",
+      "calibration": "校準",
+      "selfAssessment": "自我評估",
+      "generate": "產生",
+      "create": "產生報告",
+      "agent": "客服專員",
+      "form": "表格",
+      "formVersion": "表格版本",
+      "downloadInProgress": "正在下載您的報告。",
+      "downloadSuccess": "已成功下載您的報告。",
+      "downloadError": "無法下載報告，請稍後重試。",
+      "placeholder": {
+        "agent": "選取客服專員",
+        "form": "選擇表格",
+        "formVersion": "選取表格版本"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "未能提供評估表格",
+      "message": "此評估受到質疑並且正受到重新評估。一旦完成後即可使用。",
+      "message1": "此評估受到質疑並且正受到重新評估。",
+      "message2": "一旦完成後即可使用。",
+      "message1_new": "此評估被上訴並且正受到重新評估。"
+    },
+    "NA": "NA",
+    "averageScoreNullTooltipText": "可能未在表單中啟用評分，或者可能獲得的積分和已獲得的積分不可用於歷史資料",
+    "calibrationEvaluation": "校準",
+    "evaluationSummary": {
+      "genAISummaryTooltipText": "評估摘要",
+      "genAISummaryButton": "摘要詳情",
+      "summaryUnavailableText": "摘要不可用",
+      "generateSummaryText": "您想產生摘要嗎？",
+      "generateSummaryButton": "產生摘要",
+      "generatingSummaryText": "正在產生摘要",
+      "troubleInSummaryGenerationText": "無法產生摘要",
+      "tryAgainButton": "再試一次",
+      "cardSummaryUnavailableText": "您的評估摘要已準備就緒，等待您的審視",
+      "cardSummaryUnavailableSubText": "請檢查評估摘要詳細資訊",
+      "summaryGenerationFailureErrorMessage": "無法取得/儲存評估摘要"
+    },
+    "qualityPerformance": "品質表現",
+    "ticket": "票證"
+  },
+  "channels": {
+    "voice-icon": "互動類型：語音",
+    "sms-icon": "互動類型：SMS",
+    "chat-icon": "互動類型：聊天",
+    "email-icon": "互動類型：電郵",
+    "recording-icon": "互動類型：錄製",
+    "whatsapp-icon": "互動類型：Whatsapp"
+  }
+}

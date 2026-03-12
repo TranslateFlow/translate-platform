@@ -1,0 +1,29 @@
+{
+  "aaiAdminUIApp": {
+    "AAITitle": "AAI Admin",
+    "IntegrationsAppTitle": "Integraties",
+    "HubTitle": "CXone Mpower Hubs",
+    "notSelectedConfiguration": "Selecteer een configuratie in het linkermenu!",
+    "VAH": "Virtuele Agent Hub",
+    "AAH": "Agentassistentie-hub",
+    "STT": "Turn by Turn",
+    "TTS": "Cloud TTS-hub",
+    "AuthenticationWait": "Wachten op authenticatie...",
+    "PermissionText": "Vereiste machtigingen",
+    "UnauthorisedText": "U hebt toegangsrechten nodig om deze pagina te bekijken. Neem contact op met de beheerder.",
+    "IHF": "Integration Hub",
+    "AutomationAndAIAppTitle": "Automatisering & AI",
+    "TRHB": "Transcription Hub",
+    "TH": "Continue stroom",
+    "CT": "Continue stroom",
+    "VBH": "Hub spraakbiometrics",
+    "CTS": "Transcriptie abonnement",
+    "RTS": "Abonnementen",
+    "CM": "Kanaaltoewijzing",
+    "IT": "Integraties",
+    "PS": "Toewijzing Presence Sync",
+    "UCAASITG": "UCaaS-integraties",
+    "PC": "Presence synchroniseren",
+    "DS": "Directory Sync"
+  }
+}

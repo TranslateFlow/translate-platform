@@ -1,0 +1,15 @@
+{
+  "cxoneMfeAppContainer": {
+    "unsavedChangesDialogConfigDefault": {
+      "titleMessage": "Dados não salvos",
+      "detailMessage": "Se você sair da página, suas alterações serão perdidas. Tem certeza que deseja continuar?",
+      "leaveButtonText": "Sim",
+      "stayButtonText": "Não"
+    }
+  },
+  "metaInfo": {
+    "cxoneTroubleshootingScreen": {
+      "title": "Solução de problemas"
+    }
+  }
+}

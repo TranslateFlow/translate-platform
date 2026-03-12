@@ -1,0 +1,946 @@
+{
+  "calibration": {
+    "NA": "해당 없음",
+    "calibration": "교정",
+    "calibrationScore": "교정 점수",
+    "calibrationSearchPlaceholder": "교정 검색",
+    "calibrationsCount": "{{count}}개의 교정",
+    "createCalibration": "신규 교정",
+    "days": "d",
+    "errors": {
+      "calibrationScoreError": "질문을 로드하지 못했습니다. 다시 시도하십시오.",
+      "calibrationsError": "교정을 로드하지 못했습니다. 다시 시도하십시오.",
+      "deleteCalibrationError": "교정을 삭제하지 못했습니다. 다시 시도하십시오.",
+      "overviewAPIFailure": "교정 개요 데이터를 가져오는 중 오류가 발생했습니다.",
+      "participantQuestionAPIFailure": "교정 참가자 및 질문 그리드 데이터를 가져오지 못했습니다.",
+      "questionDrilldownAPIFailure": "교정 질문 세부 데이터를 가져오는 중 오류가 발생했습니다."
+    },
+    "gridColumnsHeaders": {
+      "actions": "작업",
+      "agentName": "상담원 이름",
+      "calibrationForm": "교정 양식",
+      "calibrationName": "교정 이름",
+      "calibrationScore": "교정 점수",
+      "completionRate": "완료율",
+      "initiatedBy": "개시자",
+      "modal": {
+        "calibrations": "평균 점수",
+        "maxScore": "최고 점수",
+        "originalScore": "원래 점수",
+        "questions": "질문",
+        "variance": "편차(%)"
+      },
+      "originalScore": "원래 점수",
+      "remainingDays": "남은 일수"
+    },
+    "noItemsOverlay": "아직 받은 교정이 없습니다.",
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "이 교정을 삭제할 수 없습니다. 교정이 현재 활성 상태입니다.",
+      "deleteCalibration": "선택한 교정을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+      "deleteOthersCalibration": "이 교정을 삭제할 수 없습니다. 다른 사용자가 생성한 교정입니다."
+    },
+    "success": {
+      "deleteCalibration": "교정이 삭제되었습니다."
+    },
+    "calibrationOverviewCards": {
+      "typeOfCalibration": "교정 유형",
+      "dueDate": "기한 날짜",
+      "interactionDate": "인터랙션 날짜",
+      "initiatedBy": "개시자",
+      "evaluationForm": "평가 양식",
+      "calibrationScore": "교정 점수",
+      "originalScore": "원래 점수",
+      "minScore": "최소 점수:",
+      "maxScore": "최고 점수:",
+      "daysRemaining": "남은 날짜: ",
+      "completion": "완료: ",
+      "calibrationType": "교정 유형",
+      "initiatedDate": "개시 날짜",
+      "daysLeft": "남은 일수: "
+    },
+    "calibrationDetailsGridColumns": {
+      "questions": "질문",
+      "variance": "편차",
+      "avgScore": "평균 점수"
+    },
+    "placeHolders": {
+      "selectEvaluators": "평가자 선택",
+      "selectParticipants": "참가자 선택",
+      "selectQuestions": "질문 선택"
+    },
+    "labels": {
+      "evaluators": "평가자",
+      "participants": "참가자",
+      "answer": "답변",
+      "questionType": "질문 유형",
+      "allQuestions": "모든 질문",
+      "originalAnswer": "원래 답변",
+      "calibrationDetails": "교정 세부 정보"
+    },
+    "tooltip": {
+      "variance": "편차:",
+      "evaluationScore": "평가 점수:",
+      "participantNotCompletedCalibration": "참가자가 아직 교정을 완료하지 않았습니다."
+    },
+    "radioLabels": {
+      "completed": "완료",
+      "notCompleted": "완료되지 않음",
+      "all": "모두",
+      "evaluatorType": "평가자 유형"
+    },
+    "calibrationQuestionOverviewCards": {
+      "originalScore": "원래 점수",
+      "variance": "편차",
+      "avgScore": "평균 점수",
+      "maxScore": "최고 점수",
+      "minScore": "최소 점수"
+    },
+    "calibrationQuestionDrilldownGridColumns": {
+      "evaluatorName": "평가자 이름",
+      "variance": "편차",
+      "score": "점수",
+      "participantName": "참가자 이름"
+    }
+  },
+  "channels": {
+    "chat-icon": "인터랙션 유형: 채팅",
+    "email-icon": "인터랙션 유형: 이메일",
+    "recording-icon": "인터랙션 유형: 레코딩",
+    "sms-icon": "인터랙션 유형: SMS",
+    "voice-icon": "인터랙션 유형: 음성",
+    "whatsapp-icon": "인터랙션 유형: Whatsapp"
+  },
+  "commonButtons": {
+    "activate": "활성화",
+    "add": "추가",
+    "cancel": "취소",
+    "chooseFile": "파일 선택",
+    "clearAll": "모두 지우기",
+    "close": "닫기",
+    "create": "생성",
+    "day": "일",
+    "delete": "삭제",
+    "done": "완료",
+    "download": "다운로드",
+    "edit": "편집",
+    "generate": "생성",
+    "invite": "초대",
+    "no": "아니요",
+    "ok": "확인",
+    "publish": "게시",
+    "reset": "재설정",
+    "save": "저장",
+    "saveAndActivate": "저장 및 활성화",
+    "saveAsDraft": "초안으로 저장",
+    "selectAll": "전체 선택",
+    "set": "설정",
+    "showAll": "모두 표시",
+    "today": "오늘",
+    "update": "업데이트",
+    "upload": "업로드",
+    "week": "주",
+    "yes": "예"
+  },
+  "errors": {
+    "GeneralError": {
+      "code": "General Error",
+      "message": "일반 오류"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "일반 오류 {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "잘못된 매개변수"
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "로그인 실패"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "권한이 없는 직원"
+    },
+    "wrongCredentials": "이메일 주소나 암호를 잘못 입력하셨습니다."
+  },
+  "filter": {
+    "clear": "지우기",
+    "clearall": "모두 지우기",
+    "close": "닫기"
+  },
+  "filterDropDown": {
+    "completed": "완료",
+    "notCompleted": "완료되지 않음"
+  },
+  "formExecutorPage": {
+    "Acknowledge": "평가 확인 완료",
+    "CompleteNoReview": "평가 제출 완료",
+    "Dispute": "검토 요청을 위해 평가자에게 전송 완료",
+    "EVALUATION": {
+      "close": "닫기",
+      "retrieveFormErrorMsg": "양식을 검색하지 못했습니다."
+    },
+    "InProgress": "평가가 초안으로 저장되었습니다.",
+    "InReview": "평가가 초안으로 저장되었습니다.",
+    "RequestReview": "검토 요청 완료",
+    "RequestReviewModalHeader": "검토 요청",
+    "Self-Assessment-Completed": "자기 평가가 완료되었습니다.",
+    "Self-Assessment-InProgress": "자기 평가가 초안으로 저장되었습니다.",
+    "Submit": "상담원에게 평가 전송 완료",
+    "SubmitNoAck": "평가 제출 완료",
+    "acknowledgeErrorMsg": "확인 실패",
+    "acknowledgeMsg": "확인 완료",
+    "agentTitle": "상담원",
+    "cancel": "취소",
+    "changeForm": "양식 변경",
+    "criticalQuestionIndicationMessage": "{{criticalFailureQuestions}}번 질문에 대한 답변이 틀렸습니다. 이는 중요한 질문이며 이로 인해 점수가 0으로 재설정되었습니다.",
+    "criticalQuestionsIndicationMessage": "{{criticalFailureQuestions}}번 질문에 대한 답변이 틀렸습니다. 이는 중요한 질문이며 이로 인해 점수가 0으로 재설정되었습니다.",
+    "errorLoadingAnswers": "양식 답변을 로드하지 못했습니다. 양식을 다시 열어 보십시오.",
+    "evaluatorTitle": "평가자",
+    "executionErrorMsg": "전송하지 못했습니다.",
+    "executionRetrieveErrorMsg": "실행 ID가 {{executor}}인 데이터를 검색하지 못했습니다.",
+    "footerButtons": {
+      "Acknowledge": "확인",
+      "Coaching-Completed": "제출",
+      "Coaching-InProgress": "저장",
+      "CompleteNoReview": "제출",
+      "Dispute": "검토 요청",
+      "InProgress": "초안으로 저장",
+      "InReview": "초안으로 저장",
+      "RequestReview": "상담원에게 전송",
+      "Self-Assessment-Completed": "제출",
+      "Self-Assessment-InProgress": "저장",
+      "Submit": "상담원에게 전송",
+      "SubmitNoAck": "제출"
+    },
+    "formDataAttributeQuestion": {
+      "agentRequest": "상담원 요청 이유",
+      "evaluatorReview": "평가자 검토 요약:"
+    },
+    "generalErrorMsg": "이 작업을 완료하지 못했습니다. 오류가 발생했습니다.",
+    "mismatchedAnswersMessage": "일치하지 않는 답변",
+    "noWorkflowAssociatedMsg": "연결된 워크플로가 없습니다. 워크플로를 연결하십시오.",
+    "pageTitle": "양식 데이터",
+    "roleNotSupportedMsg": "지원되지 않는 역할: {{role}}.",
+    "scoreLabel": "점수: ",
+    "sentToAgentMsg": "상담원에게 전송 완료",
+    "submitBtn": "제출"
+  },
+  "generalErrorMessages": {
+    "activitiesOverlap": "활동은 겹칠 수 없습니다.",
+    "email": "입력한 이메일 주소가 유효하지 않습니다.",
+    "emailExists": "이메일 주소가 이미 있습니다. 신규로 시도하십시오.",
+    "generalError": "일반 오류",
+    "loading": "로드 중",
+    "lowerThen": "최소값은 최대값을 초과할 수 없습니다.",
+    "match": "이 암호는 이전 암호와 일치하지 않습니다.",
+    "max": "숫자가 너무 큽니다.",
+    "maxLength": "입력한 값이 너무 깁니다.",
+    "maxLengthPassword": "암호가 너무 깁니다.",
+    "min": "숫자가 너무 작습니다.",
+    "minLength": "입력한 값이 너무 짧습니다.",
+    "minLengthPassword": "암호는 8자 이상이어야 합니다.",
+    "missingPermissionError": "이 작업을 수행할 수 있는 올바른 권한이 없습니다.",
+    "nameFieldValidation": "죄송합니다. \\ / ! + < > ? # & , % \" 문자는 사용할 수 없습니다. ",
+    "no-data": "데이터 없음",
+    "noAddedShiftPatters": "하나 이상의 일일 규칙을 선택해야 합니다.",
+    "number": "숫자만 가능합니다!",
+    "password": "암호는 8자 이상이어야 하며, 최소 1개의 숫자와 최소 1개의 대문자를 포함해야 합니다.",
+    "pattern": "이 필드에 맞지 않는 형식",
+    "possibleDaysLowerThanMinDays": "가능 일수가 주간 규칙에서 요구하는 최소 일수를 충족하지 않습니다.",
+    "relativeStartLowerThanSlack": "여유 시간은 상대 시작 값보다 클 수 없습니다.",
+    "required": "이 필드는 필수입니다.",
+    "serverError": "알 수 없는 서버 오류",
+    "shiftLengthLowerThanActivityLength": "활동 길이와 상대 시작의 합계는 근무 시간 길이보다 클 수 없습니다.",
+    "shiftLengthLowerThanTotalActivityLength": "활동의 총 길이는 근무 시간의 길이를 초과할 수 없습니다.",
+    "uniqueDaysCounterLowerThanSumDailyMin": "최소 일수가 고유일의 총 일수를 초과합니다.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "주간 규칙의 최소 일수가 고유일의 일수를 초과합니다.",
+    "uniqueString": "같은 이름이 이미 있습니다. 신규로 시도하십시오.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "최소 일일 조합의 총 시간은 주당 최대 총 시간보다 클 수 없습니다.",
+    "weeklyMaxLowerThanSumDailyMin": "일일 규칙에서 요구하는 최소 일수가 주간 규칙의 최대 일수를 초과합니다.",
+    "weeklyMinGreaterThanSumDailyMax": "주간 규칙의 최소 일수가 일일 규칙에서 요구하는 최대 일수를 초과합니다.",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "최대 일일 조합의 총 시간은 주당 최소 총 시간보다 작을 수 없습니다."
+  },
+  "globalNavigation": {
+    "sideBar": {
+      "formManagerAppLinks": {
+        "formDesigner": "양식 디자이너",
+        "manageForms": "양식 매니저",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "템플릿 매니저"
+      },
+      "formManagerAppName": "QM 도구",
+      "mySpaceAppLinks": {
+        "calibration": "교정",
+        "myDashboard": "내 대시보드",
+        "myEvaluations": "내 평가",
+        "mySchedule": "내 일정",
+        "myTasks": "내 작업",
+        "performanceMonitoring": "성과 모니터링",
+        "plansMonitoring": "계획 모니터링",
+        "qualityPerformance": "품질 성과"
+      },
+      "mySpaceAppName": "내 영역",
+      "schedulerAppLinks": {
+        "acdActivitiesMapping": "ACD 매핑",
+        "activityCodes": "활동 코드",
+        "dailyRule": "일일 규칙",
+        "forecastData": "예측 데이터 가져오기",
+        "generateSchedule": "일정 생성",
+        "managementUnits": "일정 단위",
+        "realTimeAdherence": "실시간 일정 준수",
+        "scheduler": "일정 매니저",
+        "weeklyRules": "주간 규칙"
+      },
+      "schedulerAppName": "스케줄러",
+      "setupAppLinks": {
+        "groups": "그룹",
+        "skills": "스킬",
+        "users": "직원"
+      },
+      "setupAppName": "관리자"
+    },
+    "wfmHeader": {
+      "accountSetupOption": "계정 설정",
+      "changePasswordOption": "암호 변경",
+      "contactUs": "문의하기",
+      "help": "도움말",
+      "logoutOption": "로그아웃",
+      "myProfileOption": "내 프로필",
+      "selfService": "지원 - 다운로드",
+      "wfmText": "EVOLVE WFM"
+    }
+  },
+  "languages": {
+    "chinese": "중국어",
+    "english": "영어",
+    "russian": "러시아어",
+    "spanish": "스페인어"
+  },
+  "messages": {
+    "noResultsText": "결과를 찾지 못했습니다."
+  },
+  "metaInfo": {
+    "calibrations": {
+      "description": "교정",
+      "title": "교정"
+    },
+    "description": "Nice SaaS WFM",
+    "evaluatorAssignments": {
+      "description": "Nice SaaS WFM",
+      "title": "평가자 배정"
+    },
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "formExecutor": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 실행기"
+    },
+    "interactionPlayer": {
+      "description": "인터랙션 플레이어",
+      "title": "인터랙션 플레이어"
+    },
+    "performanceDetails": {
+      "description": "성과 모니터링 세부 정보",
+      "title": "성과 모니터링 세부 정보"
+    },
+    "performanceMonitoring": {
+      "description": "Nice SaaS WFM",
+      "title": "성과 모니터링"
+    },
+    "planDetails": {
+      "description": "계획 모니터링 세부 정보",
+      "title": "계획 모니터링 세부 정보"
+    },
+    "plansMonitoring": {
+      "description": "Nice SaaS WFM",
+      "title": "계획 모니터링"
+    },
+    "qualityPerformance": {
+      "description": "Nice SaaS WFM",
+      "title": "품질 성과"
+    },
+    "selfAssessments": {
+      "description": "자기 평가",
+      "title": "자기 평가"
+    },
+    "success": {
+      "description": "Nice SaaS WFM",
+      "title": "성공"
+    },
+    "supervisorPerformanceDetails": {
+      "description": "성과 모니터링 세부 정보",
+      "title": "성과 모니터링 세부 정보"
+    },
+    "supervisorPerformanceMonitoring": {
+      "description": "Nice SaaS WFM",
+      "title": "성과 모니터링"
+    },
+    "supervisorQualityPerformance": {
+      "description": "Nice SaaS WFM",
+      "title": "품질 성과"
+    },
+    "title": "Nice SaaS WFM ",
+    "calibrationDetails": {
+      "title": "교정 세부 정보",
+      "description": "교정 세부 정보"
+    }
+  },
+  "ng2Calibration": {
+    "NA": "해당 없음",
+    "calibration": "교정",
+    "calibrationCount": "교정",
+    "calibrationScore": "교정 점수",
+    "calibrationSearchPlaceholder": "교정 검색",
+    "calibrationsCount": "교정",
+    "createCalibration": "신규 교정",
+    "days": "d",
+    "errors": {
+      "calibrationScoreError": "질문을 로드하지 못했습니다. 다시 시도하십시오.",
+      "calibrationsError": "교정을 로드하지 못했습니다. 다시 시도하십시오.",
+      "deleteCalibrationError": "교정을 삭제하지 못했습니다. 다시 시도하십시오."
+    },
+    "gridColumnsHeaders": {
+      "actions": "작업",
+      "agentName": "상담원 이름",
+      "calibrationForm": "교정 양식",
+      "calibrationName": "교정 이름",
+      "calibrationScore": "교정 점수",
+      "completionRate": "완료율",
+      "initiatedBy": "개시자",
+      "modal": {
+        "calibrations": "평균 점수",
+        "maxScore": "최고 점수",
+        "originalScore": "원래 점수",
+        "questions": "질문",
+        "variance": "편차(%)"
+      },
+      "originalScore": "원래 점수",
+      "remainingDays": "남은 일수",
+      "calibrationSubject": "교정 대상"
+    },
+    "noItemsOverlay": "아직 받은 교정이 없습니다.",
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "이 교정을 삭제할 수 없습니다. 교정이 현재 활성 상태입니다.",
+      "deleteCalibration": "선택한 교정을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+      "deleteOthersCalibration": "이 교정을 삭제할 수 없습니다. 다른 사용자가 생성한 교정입니다."
+    },
+    "success": {
+      "deleteCalibration": "교정이 삭제되었습니다."
+    },
+    "forTicket": "티켓",
+    "forInteraction": "인터랙션"
+  },
+  "ng2PerformanceMonitoring": {
+    "N/A": "해당 없음",
+    "NA": "해당 없음",
+    "NoGroupSelected": "아직 선택된 그룹 없음",
+    "NoTeamSelected": "아직 필터를 선택하지 않았습니다.",
+    "agentTitle": "상담원",
+    "averageScore": "평균 점수",
+    "averageScoreNullTooltipText": "점수가 양식에서 활성화되지 않았거나 또는 가능한 포인트 및 획득한 포인트를 과거 데이터에 사용할 수 없습니다.",
+    "calibrationEvaluation": "교정",
+    "challengedEvaluationMessageModal": {
+      "message": "이 평가는 이의가 제기되어 재평가 중입니다. 완료되면 이용가능합니다.",
+      "message1": "이 평가는 이의가 제기되어 재평가 중입니다.",
+      "message1_new": "이 평가는 이의가 제기되어 재평가 중입니다.",
+      "message2": "완료되면 이용가능합니다.",
+      "title": "평가 양식 이용불가"
+    },
+    "changeInPoints": "포인트 변경",
+    "collaborativeEvaluation": "협업",
+    "dateOfInteraction": "인터랙션 날짜",
+    "deleteReasonModal": {
+      "WarningText": "이 평가를 삭제하면 평균 평가 점수가 변경됩니다.",
+      "cancelMessage1": "모든 변경 사항이 손실됩니다.",
+      "cancelMessage2": "계속하시겠습니까?",
+      "charactersRemainingText": "{{count}}자 남음",
+      "confirmMessage1": "이 평가를 삭제하면 평균 평가 점수가 변경될 수 있습니다.",
+      "confirmMessage2": "계속하시겠습니까?",
+      "deleteButton": "삭제",
+      "deleteEvaluationTaskHeader": "평가 삭제",
+      "reasonLabel": "사유",
+      "requiredField": "이 필드는 필수입니다.",
+      "textareaPlaceholder": "내용을 입력하십시오..."
+    },
+    "diffFromPreviousTime": "이전 시간과의 차이",
+    "duration": "기간",
+    "employee": "직원",
+    "employeeEvaluation": {
+      "create": "신규 평가",
+      "header": "신규 평가 수행",
+      "submitBtn": "평가"
+    },
+    "errorFetchingGroupData": "데이터를 로드하지 못했습니다.",
+    "errorFetchingPerformanceDetailsData": "데이터를 로드하지 못했습니다.",
+    "evaluatedBy": "평가자",
+    "evaluatedOn": "평가 날짜",
+    "evaluation": "평가",
+    "evaluationDeleted": "평가가 삭제되었습니다.",
+    "evaluationDeletionError": "평가를 삭제할 수 없습니다.",
+    "evaluationReport": {
+      "agent": "상담원",
+      "calibration": "교정",
+      "create": "보고서 생성",
+      "downloadError": "보고서를 다운로드할 수 없습니다. 나중에 다시 시도하십시오.",
+      "downloadInProgress": "보고서를 다운로드하고 있습니다.",
+      "downloadSuccess": "보고서가 다운로드되었습니다.",
+      "evaluation": "평가",
+      "form": "양식",
+      "formVersion": "양식 버전",
+      "from": "시작",
+      "generate": "생성",
+      "generateEvaluationReport": "평가 보고서 생성",
+      "generateReportFailed": "평가 보고서를 생성하지 못했습니다.",
+      "generateReportSuccess": "평가 보고서가 생성되었습니다.",
+      "placeholder": {
+        "agent": "상담원 선택",
+        "form": "양식 선택",
+        "formVersion": "양식 버전 선택"
+      },
+      "selfAssessment": "자기 평가",
+      "to": "종료",
+      "type": "유형"
+    },
+    "evaluationSubject": "평가 주제",
+    "evaluationSummary": {
+      "cardSummaryUnavailableSubText": "평가 요약 세부 정보를 검토하십시오",
+      "cardSummaryUnavailableText": "평가 요약이 준비되어 검토를 기다리고 있습니다",
+      "genAISummaryButton": "요약 세부사항",
+      "genAISummaryTooltipText": "평가 요약",
+      "generateSummaryButton": "요약 생성",
+      "generateSummaryText": "요약을 생성하시겠습니까?",
+      "generatingSummaryText": "요약 생성 중",
+      "summaryGenerationFailureErrorMessage": "평가 요약 가져오기/저장 실패",
+      "summaryUnavailableText": "요약이 없습니다",
+      "troubleInSummaryGenerationText": "요약을 생성할 수 없습니다",
+      "tryAgainButton": "다시 시도하십시오."
+    },
+    "evaluation_Type": "평가 유형",
+    "evaluations": "평가",
+    "evaluatorTitle": "평가자",
+    "findEmployeePlaceHolder": "직원을 찾으려면 입력을 시작하십시오.",
+    "formName": "양식 이름",
+    "formVersion": "양식 버전",
+    "fromDate": "시작",
+    "fromDateHeader": "시작 날짜",
+    "group": "그룹",
+    "groupName": "그룹 이름",
+    "groups": "그룹",
+    "loadPerformanceData": "성과 데이터 로드",
+    "noAgents": "일치하는 결과 없음",
+    "noAgentsInGroup": "선택한 그룹에 상담원이 없습니다.",
+    "noEvaluationsFound": "이 팀/그룹에 평가자가 없습니다.",
+    "noItemsOverlay": "아직 완료된 평가 없음",
+    "noOfEvaluations": "평가 수",
+    "performanceMonitoring": "성과 모니터링",
+    "planName": "계획 이름",
+    "qualityPerformance": "품질 성과",
+    "score": "점수",
+    "segment": "세그먼트",
+    "selectGroup": "그룹 선택",
+    "selectTimePeriod": "기간 선택",
+    "standardEvaluation": "표준",
+    "status": "상태",
+    "team": "팀",
+    "teamName": "팀",
+    "teams": "팀",
+    "toDate": "종료",
+    "toDateHeader": "종료 날짜",
+    "ticket": "티켓"
+  },
+  "ng2SelfAssessment": {
+    "assessmentDeleteFailed": "평가를 삭제하지 못했습니다. 다시 시도하십시오.",
+    "assessmentDeletedSuccess": "평가가 삭제되었습니다.",
+    "failedToLoadAssessments": "자기 평가 데이터를 로드하지 못했습니다.",
+    "gridColumnsHeaders": {
+      "actions": "작업",
+      "agentName": "상담원 이름",
+      "duration": "기간",
+      "formName": "양식 이름",
+      "initiatedBy": "개시자",
+      "interactionDate": "인터랙션 날짜",
+      "remainingDays": "남은 일수",
+      "score": "점수",
+      "status": "상태"
+    },
+    "items": "자기 평가",
+    "itemsCount": "자기 평가",
+    "newAssessment": "신규 자기 평가",
+    "noItemsOverlay": "개시된 평가가 없습니다.",
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "대기 중인 평가는 삭제할 수 없습니다.",
+      "cannotDeleteOtherUsersSelfAssessment": "이 자기 평가는 다른 사용자가 개시했으므로 삭제할 수 없습니다.",
+      "deleteAssessmentMsg1": "이 평가를 삭제하려고 합니다. 이 작업은 취소할 수 없습니다.",
+      "deleteAssessmentMsg2": "계속하시겠습니까?"
+    },
+    "selfAssessmentStatus": "자기 평가 상태",
+    "status": {
+      "awaiting": "대기 중",
+      "completed": "완료",
+      "completedSelfAssessment": "완료 자기 평가",
+      "expired": "만료",
+      "expiredSelfAssessment": "만료 자기 평가",
+      "inProgressSelfAssessment": "진행 중인 자기 평가",
+      "newSelfAssessment": "신규 자기 평가"
+    },
+    "title": "자기 평가"
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "coachingModuleLinks": {
+          "coachingManager": "코칭 매니저",
+          "coachingPackage": "코칭 패키지",
+          "coachingPlans": "코칭 계획",
+          "smartInsights": "스마트 인사이트"
+        },
+        "embeddedClientModuleLinks": {
+          "1on1coaching": "일대일 코칭",
+          "coaching": "코칭",
+          "evaluations": "평가",
+          "groupCoaching": "그룹 코칭",
+          "marketplace": "마켓플레이스",
+          "myDashboards": "내 대시보드",
+          "mySchedule": "내 일정",
+          "myTimeOffRequests": "휴가 요청",
+          "pursuits": "내 업무",
+          "recentInteractions": "최근 인터랙션",
+          "scheduleRequests": "일정 요청",
+          "selfAssessments": "자기 평가",
+          "shiftBidding": "근무 시간 트레이딩"
+        },
+        "formManagerModuleLinks": {
+          "categoryManager": "카테고리 매니저",
+          "manageForms": "양식 매니저",
+          "qpPlanManager": "Quality Planner"
+        },
+        "formManagerModuleNameFormatted": "QM 도구",
+        "myZoneModuleLinks": {
+          "1on1coaching": "일대일 코칭",
+          "calibrations": "교정",
+          "evaluations": "평가",
+          "evaluatorAssignments": "평가자 배정",
+          "groupCoaching": "그룹 코칭",
+          "marketplace": "마켓플레이스",
+          "myPersona": "내 페르소나",
+          "mySchedule": "내 일정",
+          "myTimeOffRequests": "휴가 요청",
+          "performanceMonitoring": "성과 모니터링",
+          "plansMonitoring": "계획 모니터링",
+          "pursuits": "내 업무",
+          "qualityPerformance": "품질 성과",
+          "recentInteractions": "최근 인터랙션",
+          "scheduleRequests": "일정 요청",
+          "selfAssessments": "자기 평가",
+          "shiftBidding": "근무 시간 트레이딩",
+          "tasks": "작업"
+        }
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "읽지 않은 알림이 {{Count}}개 있습니다."
+  },
+  "performanceMonitoring": {
+    "NoGroupSelected": "아직 선택된 그룹 없음",
+    "NoTeamSelected": "아직 필터를 선택하지 않았습니다.",
+    "agentTitle": "상담원",
+    "averageScore": "평균 점수",
+    "calibrationEvaluation": "교정",
+    "challengedEvaluationMessageModal": {
+      "message": "이 평가는 이의가 제기되어 재평가 중입니다. 완료되면 이용가능합니다.",
+      "title": "평가 양식 이용불가"
+    },
+    "changeInPoints": "포인트 변경",
+    "collaborativeEvaluation": "협업",
+    "dateOfInteraction": "인터랙션 날짜",
+    "deleteReasonModal": {
+      "WarningText": "이 평가를 삭제하면 평균 평가 점수가 변경됩니다.",
+      "cancelMessage1": "모든 변경 사항이 손실됩니다.",
+      "cancelMessage2": "계속하시겠습니까?",
+      "charactersRemainingText": "{{count}}자 남음",
+      "confirmMessage1": "이 평가를 삭제하면 평균 평가 점수가 변경될 수 있습니다.",
+      "confirmMessage2": "계속하시겠습니까?",
+      "deleteButton": "삭제",
+      "deleteEvaluationTaskHeader": "평가 삭제",
+      "reasonLabel": "사유",
+      "requiredField": "이 필드는 필수입니다.",
+      "textareaPlaceholder": "내용을 입력하십시오..."
+    },
+    "diffFromPreviousTime": "이전 시간과의 차이",
+    "duration": "기간",
+    "errorFetchingGroupData": "데이터를 로드하지 못했습니다.",
+    "errorFetchingPerformanceDetailsData": "데이터를 로드하지 못했습니다.",
+    "evaluatedBy": "평가자",
+    "evaluatedOn": "평가 날짜",
+    "evaluationDeleted": "평가가 삭제되었습니다.",
+    "evaluationDeletionError": "평가를 삭제할 수 없습니다.",
+    "evaluationReport": {
+      "agent": "상담원",
+      "calibration": "교정",
+      "create": "보고서 생성",
+      "downloadError": "보고서를 다운로드할 수 없습니다. 나중에 다시 시도하십시오.",
+      "downloadInProgress": "보고서를 다운로드하고 있습니다.",
+      "downloadSuccess": "보고서가 다운로드되었습니다.",
+      "evaluation": "평가",
+      "form": "양식",
+      "formVersion": "양식 버전",
+      "from": "시작",
+      "generate": "생성",
+      "generateEvaluationReport": "평가 보고서 생성",
+      "generateReportFailed": "평가 보고서를 생성하지 못했습니다.",
+      "generateReportSuccess": "평가 보고서가 생성되었습니다.",
+      "placeholder": {
+        "agent": "상담원 선택",
+        "form": "양식 선택",
+        "formVersion": "양식 버전 선택"
+      },
+      "selfAssessment": "자기 평가",
+      "to": "종료",
+      "type": "유형"
+    },
+    "evaluation_Type": "평가 유형",
+    "evaluations": "평가",
+    "evaluatorTitle": "평가자",
+    "findEmployeePlaceHolder": "직원을 찾으려면 입력을 시작하십시오.",
+    "formName": "양식 이름",
+    "formVersion": "양식 버전",
+    "fromDate": "시작",
+    "fromDateHeader": "시작 날짜",
+    "group": "그룹",
+    "groupName": "그룹 이름",
+    "groups": "그룹",
+    "loadPerformanceData": "성과 데이터 로드",
+    "noAgents": "일치하는 결과 없음",
+    "noAgentsInGroup": "선택한 그룹에 상담원이 없습니다.",
+    "noEvaluationsFound": "이 팀/그룹에 평가자가 없습니다.",
+    "noItemsOverlay": "아직 완료된 평가 없음",
+    "noOfEvaluations": "평가 수",
+    "performanceMonitoring": "성과 모니터링",
+    "planName": "계획 이름",
+    "qualityPerformance": "품질 성과",
+    "score": "점수",
+    "selectGroup": "그룹 선택",
+    "selectTimePeriod": "기간 선택",
+    "standardEvaluation": "표준",
+    "status": "상태",
+    "team": "팀",
+    "teamName": "팀",
+    "teams": "팀",
+    "toDate": "종료",
+    "toDateHeader": "종료 날짜"
+  },
+  "plansMonitoring": {
+    "aboveDailyAvg": "일일 평균 이상",
+    "active": "활성",
+    "activeAgents": "활성 상담원",
+    "actualAndExpected": "완료 / 예상",
+    "avgEvaluations": "평균 평가",
+    "avgEvalutionPerDay": "평균 평가 수 / 일",
+    "belowDailyAvg": "일일 평균 미만",
+    "completionRate": "완료(%)",
+    "consumptionTrend": "소비 추세",
+    "current": "현재",
+    "date": "날짜",
+    "distributionRate": "분배(%)",
+    "drillDownTitle": "세부 정보 이용불가",
+    "errorFetchingPlanDetailsData": "계획 모니터링 세부 정보 데이터를 로드하지 못했습니다.",
+    "evaluator": "평가자",
+    "evaluatorProgress": "평가자 진행 상황",
+    "evaluators": "{{count}}명의 평가자",
+    "evaluatorsStatus": "평가자 진행률",
+    "gridColumnsHeaders": {
+      "actualAndExpected": "완료 / 예상",
+      "consumptionTrend": "소비 추세",
+      "evaluators": "팀(평가자)"
+    },
+    "interactionsPerAgent": "상담원당 인터랙션",
+    "name": "이름",
+    "nextScheduledRun": "다음 일정 실행: ",
+    "ng2evaluatorQueueTab": {
+      "changeAssignee": {
+        "changeAssigneeButton": "담당자 변경",
+        "modalHeader": "담당자 변경",
+        "noEvaluatorAvailable": "이용가능한 평가자 없음",
+        "reassignErrorMessage": "평가가 제출되었습니다. 재배정을 위한 액세스 권한이 없습니다.",
+        "reassignSuccessMessage": "담당자가 변경되었음",
+        "searchPlaceholder": "평가자 이름 선택"
+      },
+      "dateRange": "날짜 범위",
+      "dismiss": "해제",
+      "gridColumnsHeaders": {
+        "action": "조치",
+        "agentName": "상담원 이름",
+        "channeltype": "유형",
+        "dueDate": "기한 날짜",
+        "duration": "기간",
+        "evaluationAssignee": "평가 담당자",
+        "evaluationStartDate": "평가 시작 날짜",
+        "evaluationStatus": "평가 상태",
+        "evaluationSubject": "평가 주제",
+        "evaluationType": "평가 유형",
+        "formName": "양식 이름",
+        "planName": "계획 이름",
+        "score": "점수"
+      },
+      "infoText": "'평가 배정' 기능 릴리스 이전의 데이터는 사용할 수 없습니다.",
+      "omnibarItemCount": "{{ count }}개의 아이템",
+      "omnibarSearchPlaceholder": "상담원 검색"
+    },
+    "noDistributionDrilldown": "이 계획에 대한 분배가 아직 시작되지 않았습니다.",
+    "noOfAgents": "상담원 수",
+    "noOfEvaluations": "평가 수",
+    "noOfEvaluators": "평가자 수",
+    "noOfInteractionsPerAgents": "인터랙션 수 / 상담원",
+    "noPlansAvailable": "활성 상태인 계획이 없습니다.",
+    "none": "없음",
+    "occurrence": {
+      "monthly": "월간 반복적 계획",
+      "oneTime": "일회성",
+      "recurring": "반복적",
+      "weekly": "주간 반복적 계획"
+    },
+    "offtrack": "계획 이탈",
+    "ontrack": "정상 진행 중",
+    "pageTitle": "평가자 배정",
+    "pd_warnUnexpectedDistributionMsg": "값이 예상보다 큽니다. 현재 주기에서 활성 상태였던 활성 및 비활성 상담원의 인터랙션을 포함합니다.",
+    "planCount": "활성 계획",
+    "planOccurrence": "계획 발생",
+    "planSummary": "계획 요약",
+    "plansMonitoring": "계획 모니터링",
+    "pm_warnUnexpectedDistributionMsg": "값이 예상보다 클 수 있습니다. 현재 주기에서 활성 상태였던 활성 및 비활성 상담원의 인터랙션을 포함합니다.",
+    "recurringMonthly": "월간 반복적",
+    "recurringWeekly": "주간 반복적",
+    "remainingDays": "남은 일수",
+    "status": "상태",
+    "tabs": {
+      "evaluatorQueue": "평가 관리",
+      "planMonitoring": "계획 모니터링"
+    },
+    "team": "팀",
+    "textForEvals": " 평가)",
+    "timePeriod": "기간",
+    "warnUnexpectedCompletionMsg": "값이 예상보다 클 수 있습니다. 현재 주기에서 활성 상태였던 활성 및 비활성 상담원에 대한 평가를 포함합니다."
+  },
+  "selfAssessment": {
+    "assessmentDeleteFailed": "평가를 삭제하지 못했습니다. 다시 시도하십시오.",
+    "assessmentDeletedSuccess": "평가가 삭제되었습니다.",
+    "failedToLoadAssessments": "자기 평가 데이터를 로드하지 못했습니다.",
+    "gridColumnsHeaders": {
+      "actions": "작업",
+      "agentName": "상담원 이름",
+      "duration": "기간",
+      "formName": "양식 이름",
+      "initiatedBy": "개시자",
+      "interactionDate": "인터랙션 날짜",
+      "remainingDays": "남은 일수",
+      "score": "점수",
+      "status": "상태"
+    },
+    "items": "자기 평가",
+    "itemsCount": "{{count}}개의 자기 평가",
+    "newAssessment": "신규 자기 평가",
+    "noItemsOverlay": "개시된 평가가 없습니다.",
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "대기 중인 평가는 삭제할 수 없습니다.",
+      "cannotDeleteOtherUsersSelfAssessment": "이 자기 평가는 다른 사용자가 개시했으므로 삭제할 수 없습니다.",
+      "deleteAssessmentMsg1": "이 평가를 삭제하려고 합니다. 이 작업은 취소할 수 없습니다.",
+      "deleteAssessmentMsg2": "계속하시겠습니까?"
+    },
+    "selfAssessmentStatus": "자기 평가 상태",
+    "singleStatusPlaceHolder": "1개의 상태 선택",
+    "status": {
+      "awaiting": "대기 중",
+      "completed": "완료",
+      "expired": "만료"
+    },
+    "threeStatusesPlaceHolder": "3개의 상태 선택",
+    "title": "자기 평가",
+    "twoStatusesPlaceHolder": "2개의 상태 선택"
+  },
+  "successPage": {
+    "welcomeMsg": "{{username}}님, 안녕하세요? "
+  },
+  "teamsAndGroups": {
+    "errorMessages": {
+      "required": "하나 이상의 팀을 선택해야 합니다."
+    },
+    "groups": "그룹",
+    "selectGroups": "그룹 선택",
+    "selectTeams": "팀 선택",
+    "selected": " 선택",
+    "teams": "팀"
+  },
+  "weekDays": {
+    "friday": "금요일",
+    "monday": "월요일",
+    "saturday": "토요일",
+    "sunday": "일요일",
+    "thursday": "목요일",
+    "tuesday": "화요일",
+    "wednesday": "수요일"
+  },
+  "weekShortDays": {
+    "FRI": "금",
+    "MON": "월",
+    "SAT": "토",
+    "SUN": "일",
+    "THU": "목",
+    "TUE": "화",
+    "WED": "수"
+  },
+  "workflowFormSelector": {
+    "change": "변경",
+    "changeFormHeader": "양식 변경",
+    "disabledFormInPlanMessage": "평가에 대한 양식을 선택하십시오.",
+    "noFormInPlanMessage": "평가에 대한 양식을 선택하십시오.",
+    "noFormsMsg": "이용가능한 양식이 없습니다.",
+    "select": "선택",
+    "selectFormHeader": "양식 선택",
+    "workflowFormSelectorText": "실행을 시작할 양식을 선택하십시오."
+  },
+  "workflowStatusUI": {
+    "Appealed": "이의제기 완료",
+    "Assigned": "신규",
+    "Auto-acknowledged": "자동 확인 완료",
+    "Claimed": "신규",
+    "Completed": "완료",
+    "Completed_Acknowledged": "완료",
+    "Completed_and_Not_Reviewed": "완료 검토 없음",
+    "Completed_and_Reviewed": "완료 검토 완료",
+    "Dispute": "이의제기 완료",
+    "Expired": "만료",
+    "InProgress": "초안",
+    "InReview": "이의제기 완료",
+    "In_Progress": "진행 중",
+    "PartiallyCompleted": "부분 완료",
+    "Pending_Acknowledgement": "신규",
+    "Request_Review": "이의제기 완료",
+    "Reviewed_and_Completed": "검토 완료",
+    "Sent_To_Agent": "상담원에게 전송 완료",
+    "Sent_To_Supervisor": "슈퍼바이저에게 전송 완료",
+    "WaitingForAgent": "상담원을 기다리는 중",
+    "WaitingForEvaluator": "평가자를 기다리는 중",
+    "selfAssessment": {
+      "completed": "완료",
+      "draft": "초안",
+      "expired": "만료",
+      "new": "신규"
+    }
+  },
+  "workflowStatuses": {
+    "Claimed": "클레임 완료",
+    "Completed": "완료",
+    "Completed_Acknowledged": "완료 확인 완료",
+    "Dispute": "이의제기",
+    "InProgress": "진행 중",
+    "InReview": "검토 중",
+    "Pending_Acknowledgement": "보류 중인 확인",
+    "Request_Review": "검토 요청",
+    "Reviewed_and_Completed": "검토 및 완료"
+  },
+  "workflowType": {
+    "evaluations": "평가"
+  }
+}

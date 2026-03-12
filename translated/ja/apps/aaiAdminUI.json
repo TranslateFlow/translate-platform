@@ -1,0 +1,29 @@
+{
+  "aaiAdminUIApp": {
+    "AAH": "Agent Assist Hub",
+    "AAITitle": "AAI管理",
+    "AuthenticationWait": "認証を待っています...",
+    "AutomationAndAIAppTitle": "オートメーションとAI",
+    "CT": "連続ストリーム",
+    "HubTitle": "CXone MPowerハブ",
+    "IHF": "Integration Hub",
+    "IntegrationsAppTitle": "連携",
+    "PermissionText": "要権限",
+    "STT": "ターンバイターン",
+    "TH": "連続ストリーム",
+    "TRHB": "Transcription Hub",
+    "TTS": "Cloud TTS Hub",
+    "UnauthorisedText": "このページを表示するには権限が必要です。管理者に連絡してください。",
+    "VAH": "Virtual Agent Hub",
+    "VBH": "Voice Biometrics Hub",
+    "notSelectedConfiguration": "左メニューから設定を選択してください",
+    "CTS": "トランスクリプトサブスクリプション",
+    "RTS": "サブスクリプション",
+    "CM": "チャネルマッピング",
+    "IT": "連携",
+    "PS": "プレゼンス同期マッピング",
+    "UCAASITG": "UCaaS連携",
+    "PC": "プレゼンス接続",
+    "DS": "ディレクトリ同期"
+  }
+}

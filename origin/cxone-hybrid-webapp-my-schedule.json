@@ -1,0 +1,2471 @@
+{
+  "common": {
+    "more": "more..."
+  },
+  "niceNavigationUi": {
+    "global": {
+      "warningIcon": "Warning"
+    },
+    "globalNavigation": {
+      "sideBar": {
+        "wfmModuleLinks": {
+          "scheduler": "Schedule Manager",
+          "realTimeAdherence": "Real Time Adherence",
+          "intradayDashboard": "Intraday",
+          "forecasting": "Forecasting",
+          "generateForecast": "Generate Forecast",
+          "forecastingProfiles": "Forecasting Profiles",
+          "specialDays": "Special Days",
+          "acdImportHistorical": "ACD Historical Data",
+          "scheduling": "Scheduling",
+          "generateSchedule": "Generate Schedule",
+          "biddingManager": "Bidding Manager",
+          "importStaffingPlan": "Import Staffing Plan",
+          "timeOffRequests": "Requests",
+          "requests": "Requests",
+          "setup": "Setup",
+          "activityCodes": "Activity Codes",
+          "acdActivitiesMapping": "ACD Mapping",
+          "dailyRule": "Daily Rules",
+          "weeklyRules": "Weekly Rules",
+          "rotationRules": "Rotation Rules",
+          "shiftBiddingTemplates": "Bidding Templates",
+          "seatLimits": "Seat Limits",
+          "shiftTrading": "Shift Trading",
+          "intradayManager": "Intraday Manager",
+          "timeOffPlanning": "Time-Off Planning",
+          "summary": "Summary",
+          "rules": "Rules",
+          "requestHandling": "Manage Requests",
+          "approvalRules": "Approval Rules"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "My Schedule",
+          "tasks": "Tasks",
+          "evaluations": "Evaluations",
+          "plansMonitoring": "Plan Monitoring",
+          "performanceMonitoring": "Performance Monitoring",
+          "myTimeOffRequests": "Time Off Requests",
+          "scheduleRequests": "Schedule Requests",
+          "shiftBidding": "Shift Bidding",
+          "calibrations": "Calibrations",
+          "coaching": "Coaching",
+          "groupCoaching": "Group Coaching",
+          "selfAssessments": "Self Assessments",
+          "marketplace": "Marketplace",
+          "myPersona": "My Persona",
+          "pursuits": "My Pursuits",
+          "1on1coaching": "1-on-1 Coaching",
+          "recentInteractions": "Recent Interactions"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "My Schedule",
+          "myTimeOffRequests": "Time Off Requests",
+          "scheduleRequests": "Schedule Requests",
+          "evaluations": "Evaluations",
+          "shiftBidding": "Shift Bidding",
+          "coaching": "Coaching",
+          "groupCoaching": "Group Coaching",
+          "marketplace": "Marketplace",
+          "myDashboards": "My Dashboard",
+          "pursuits": "My Pursuits",
+          "1on1coaching": "1-on-1 Coaching",
+          "recentInteractions": "Recent Interactions"
+        }
+      }
+    }
+  },
+  "userAgenda": {
+    "header": "Agenda",
+    "noEvents": "No schedules",
+    "shiftStart": "Shift Start",
+    "shiftEnd": "Shift End"
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "Schedule changed",
+      "content": "Schedule on %%DATE%% has been changed.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "Schedule changed",
+      "content": "Schedule between %%FROM_DATE%% to %%TO_DATE%% has been changed.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "New time off request",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "Time off request was declined",
+      "content": "Request for %%FROM_DATE%% to %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "Time off request was approved",
+      "content": "Request for %%FROM_DATE%% to %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "Time off request was canceled",
+      "content": "Request for %%FROM_DATE%% to %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_DISPUTE": {
+      "title": "Evaluation back from review",
+      "content": "No action required.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_ACKNOWLEDGE": {
+      "title": "New evaluation arrived",
+      "content": "Your review is required.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_COMPLETED": {
+      "title": "New evaluation arrived",
+      "content": "No action required",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_COACHING_STARTED": {
+      "title": "New coaching package available",
+      "content": "Your action is required",
+      "link": {
+        "name": "Review",
+        "url": "/qm/#/myCoachings"
+      }
+    },
+    "SHIFT_BID_STATUS_UPDATED_TO_ACTIVE": {
+      "title": "New bidding now open",
+      "content": "Place your bids for %%FROM_DATE%% - %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "You have {{Count}} unread notification"
+  },
+  "filter": {
+    "clearall": "Clear All",
+    "close": "Close"
+  },
+  "generateSchedulesPage": {
+    "labels": {
+      "newRequestOff": "Request time off",
+      "pageTitle": "Automatic Schedule Generator",
+      "newJobButtonText": "Generate New Schedules",
+      "items": "schedule generation jobs",
+      "selectedItems": "{{selectedCount}} selected",
+      "gridColumnsHeaders": {
+        "schedulingUnit": "Scheduling Unit",
+        "schedulingDate": "Scheduling Date",
+        "initiatedBy": "Initiated by",
+        "jobDate": "Job Date",
+        "status": "Status"
+      },
+      "gridNoRowsOverlay": "No scheduling job has been generated yet",
+      "viewErrors": "View Errors"
+    },
+    "statuses": {
+      "GENERATION_STARTING": "Generation Starting...",
+      "GENERATION_STARTED": "Generation Started.",
+      "GENERATION_SCHEDULING": "Creating Schedules...",
+      "GENERATION_SCHEDULING_COMPLETE": "Scheduling Complete.",
+      "GENERATION_STORING_SCHEDULES": "Storing Schedules...",
+      "GENERATION_STORING_SCHEDULES_COMPLETE": "Storing Schedules Complete.",
+      "GENERATION_CANCELLING": "Canceling Generation...",
+      "GENERATION_CANCELLED": "Generation Cancelled.",
+      "GENERATION_COMPLETED": "Succeeded. {{message}}",
+      "GENERATION_COMPLETED_WITH_WARNINGS": "Succeeded. {{message}}",
+      "GENERATION_VALIDATION_FAILED": "Validation Failed.",
+      "GENERATION_ERRORED": "Failed. {{message}}"
+    },
+    "statusDetailTitles": {
+      "internalError": "Internal error",
+      "suNotFound": "Scheduling Unit: {{suName}}",
+      "noUsersHaveSkills": "Scheduling Unit: {{suName}}",
+      "someUsersHaveNoSkills": "Scheduling Unit: {{suName}}",
+      "noUsersAssignedToSu": "Scheduling Unit: {{suName}}",
+      "noUsersInSuAssignedWeeklyRules": "Scheduling Unit: {{suName}}",
+      "someUsersInSuNotAssignedWeeklyRules": "Scheduling Unit: {{suName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "Daily Rule: {{dailyRuleName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "Daily Rule: {{dailyRuleName}}",
+      "employeeUnavailiabilityViolatesMinUsage": "Weekly Rule: {{weeklyRuleName}}",
+      "employeeUnavailiabilityViolatesMinDays": "Weekly Rule: {{weeklyRuleName}}"
+    },
+    "statusDetails": {
+      "internalError": "Internal error",
+      "suNotFound": "Scheduling unit not found",
+      "noUsersHaveSkills": "None of the employees in “{{suName}}” scheduling unit have skills",
+      "someUsersHaveNoSkills": "Some employees in “{{suName}}” scheduling unit have no skills",
+      "noUsersAssignedToSu": "No employees are assigned to scheduling unit",
+      "noUsersInSuAssignedWeeklyRules": "No employees in “{{suName}}” scheduling unit have weekly rules",
+      "someUsersInSuNotAssignedWeeklyRules": "No schedules for employees in “{{suName}}” scheduling unit without weekly rules",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "The weekly rule “{{weeklyRuleName}}” is used by agents in the “{{suName}}” scheduling unit, and the daily rule “{{dailyRuleName}}” does not adhere to the hours of operation. You must update the daily rule start time.",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "The weekly rule “{{weeklyRuleName}}” is used by agents in the “{{suName}}” scheduling unit, and one or more daily rules do not adhere to the hours of operation. You must decrease the weekly rule minimum.",
+      "employeeUnavailiabilityViolatesMinUsage": "The employee “{{employeeName}}” is defined as unavailable in Admin at the scheduled work times for the daily rule “{{dailyRuleName}}”. You must update the weekly rule “{{weeklyRuleName}}” or the employee availability.",
+      "employeeUnavailiabilityViolatesMinDays": "The employee “{{employeeName}}” is defined as unavailable in Admin at the scheduled work times for the daily rule “{{dailyRuleName}}”. You must update the weekly rule “{{weeklyRuleName}}” or the employee availability."
+    },
+    "modal": {
+      "header": "Generate New Schedules",
+      "schedulingUnits": "Scheduling Units",
+      "scheduleUnit": "Scheduling Unit",
+      "schedulingUnitsDropDown": "{{selectedCount}} Scheduling Units",
+      "noMoreThanLimitSchedulingUnitsCouldBeScheduled": "No more than {{items}} Scheduling Units could be scheduled",
+      "from": "Start",
+      "to": "End",
+      "selectDatePlaceholder": "Select date",
+      "oneWeek": "1W",
+      "twoWeeks": "2W",
+      "threeWeeks": "3W",
+      "fourWeeks": "4W",
+      "oneMonth": "1M",
+      "advanceRotation": "Advance rotation",
+      "useMultiSkill": "Use multi-skill scheduling",
+      "loadForecastDataBtn": "Load Forecast Data",
+      "forecastDataTabHeader": "Forecast Data",
+      "attention": "Attention!",
+      "schedulesExistPopoverTxt": "Some of the dates you have selected already have schedules. This job will overwrite those schedules and will automatically publish the updated schedules to the employee if their schedules were previously published.",
+      "doNotAdvanceRotationPopoverTxt": "You are about to generate a schedule which includes rotation rules, and have not moved to the next rotation.",
+      "missingForecastDataPopoverTxt": "Some of the dates do not contain forecast data. Schedules for these dates will not reflect demand requirements.",
+      "lessThanMinimumSchedulingUnitsSelectedTxt": "You must select at least 1 scheduling unit",
+      "weeklyRulesMismatchWithSchedulerType": "Some of the weekly rules are not compatible with this type of scheduling. {{mismatchedEmployeeCount}}/{{totalWeeklyRuleEmployeeCount}} employees will not receive schedules.",
+      "staffingPlanSUMismatch": "The staffing plan selected is not applicable for one or more selected scheduling units. Do you wish to continue?",
+      "generateAnywayBtn": "Generate Anyway",
+      "noForecastDataTxt": "There is no forecast data for this date range.",
+      "forecastDataLoads": "Forecast data found.",
+      "importForecastData": "Import forecast file and try again...",
+      "goToImportForecastPageBtn": "Go to Import Forecast page",
+      "ManualPlanning": "Manual Planning (CSV)",
+      "AutomaticPlanning": "Automatic Planning (Generated forecast)",
+      "CSVFile": "CSV file",
+      "GeneratedForecast": "Generated forecast",
+      "missingStaffingPlan": "You must select a staffing plan",
+      "staffingPlan": "Staffing Plan",
+      "endDateInPast": "End date must be a future date",
+      "startDateInPast": "Start date cannot be in the past"
+    },
+    "serviceStatusMessages": {
+      "noUsersInSuAssignedWeeklyRules": "Schedule could not be generated. No weekly rules defined",
+      "noUsersAssignedToSu": "Schedule could not be generated. No employees assigned to the scheduling unit",
+      "jobAddSucceeded": "Successfully added one new job",
+      "jobAddSucceededPlural": "Successfully added {{jobCount}} new jobs",
+      "jobAddFailed": "Failed to add one new job",
+      "jobAddFailedPlural": "Failed to add {{jobCount}} new jobs"
+    },
+    "detailsListModal": {
+      "header": "Error Summary"
+    },
+    "deleteMessage": "You are about to delete this scheduling job.  Continue?",
+    "deleteSucess": "The schedule job was successfully deleted."
+  },
+  "generalErrorMessages": {
+    "required": "This field is required",
+    "minLength": "Your entry is too short",
+    "nameFieldValidation": "Oops, you can’t use \\ / ! + < > ? # & , % \" ",
+    "maxLength": "Your entry is too long",
+    "email": "The email address you entered is not valid",
+    "emailExists": "The email address already exists. Try a new one",
+    "number": "Numbers only!",
+    "pattern": "Incorrect format for this field",
+    "password": "Your password must be at least 8 characters, including at least 1 number and 1 capital letter",
+    "match": "This password does not match the previous password",
+    "minLengthPassword": "Your password must be at least 8 characters",
+    "maxLengthPassword": "Your password is too long",
+    "min": "Number is too small",
+    "max": "Number is too large",
+    "uniqueString": "This name already exists. Try a new one.",
+    "lowerThen": "The minimum value cannot exceed the maximum value",
+    "weeklyMaxLowerThanSumDailyMin": "The minimum number of days required by the daily rules exceeds the maximum number of days in the weekly rule.",
+    "weeklyMinGreaterThanSumDailyMax": "The minimum number of days in the weekly rule exceeds the maximum number of days required by the daily rules.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "Total hours of minimum daily combinations cannot be larger than the maximum total hours per week",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "Total hours of maximum daily combinations cannot be smaller than the minimum total hours per week",
+    "uniqueDaysCounterLowerThanSumDailyMin": "The minimum number of days exceeds the total number of unique days.",
+    "possibleDaysLowerThanMinDays": "The number of possible days does not meet the minimum number of days required by the weekly rule.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "The minimum number of days in the weekly rule exceeds the number of unique days.",
+    "noAddedShiftPatters": "You must select at least one daily rule",
+    "shiftLengthLowerThanActivityLength": "Sum of activity length, relative start and slack cannot be larger than shift length",
+    "shiftLengthLowerThanTotalActivityLength": "The total length of the activities cannot exceed the length of the shift",
+    "relativeStartLowerThanSlack": "The slack cannot be greater than the relative start value",
+    "activitiesOverlap": "Activities are not allowed the possibility of overlap",
+    "activityCountsOverLimit": "The pre-planned activities cannot exceed 10",
+    "serverError": "Internal server error. Try again.",
+    "invalidFileFormat": "Invalid File Format",
+    "someRequiredFieldsAreIncomplete": "Some required fields are incomplete."
+  },
+  "metaInfo": {
+    "selfService": {
+      "title": "Support - Downloads"
+    },
+    "title": "Nice SaaS WFM ",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "Login",
+      "description": "Nice SaaS WFM"
+    },
+    "success": {
+      "title": "Success",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "Examples",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "Form Examples",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "Employees",
+      "description": "Nice SaaS WFM"
+    },
+    "createAccount": {
+      "title": "Create Account",
+      "description": "Nice SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "Activity Codes",
+      "description": "Nice SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " ACD Mapping",
+      "description": "Nice SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "Daily Rules",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftBiddingTemplates": {
+      "title": "Shift Templates",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftTrading": {
+      "title": "Shift Trading",
+      "description": "Nice SaaS WFM"
+    },
+    "timeOffPlanning": {
+      "rules": {
+        "title": "Rules",
+        "description": "Nice SaaS WFM"
+      },
+      "summary": {
+        "title": "Summary",
+        "description": "Nice SaaS WFM"
+      }
+    },
+    "timeOffRules": {
+      "title": "Time Off Rules",
+      "description": "Nice SaaS WFM"
+    },
+    "timeOffSummary": {
+      "title": "Time Off Summary",
+      "description": "Nice SaaS WFM"
+    },
+    "createNewRule": {
+      "title": "New Rule",
+      "description": "Nice SaaS WFM"
+    },
+    "biddingManager": {
+      "title": "Bidding Manager",
+      "description": "Nice SaaS WFM"
+    },
+    "bidsView": {
+      "title": "Bidding Manager",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftBidding": {
+      "title": "Shift Bidding",
+      "description": "Nice SaaS WFM"
+    },
+    "bidPatterns": {
+      "title": "Shift Bidding",
+      "description": "Nice SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "Scheduling Unit",
+      "description": "Nice SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "Expired Invitation",
+      "description": "Nice SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "Generate Schedule",
+      "description": "Nice SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "My Schedule",
+      "description": "Nice SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "My Dashboard",
+      "description": "Nice SaaS WFM"
+    },
+    "myTimeOffRequests": {
+      "title": "Schedule Requests",
+      "description": "Nice SaaS WFM"
+    },
+    "intradayManager": {
+      "title": "Intraday Manager",
+      "description": "Nice SaaS WFM"
+    },
+    "qpManager": {
+      "title": "Quality Planner",
+      "description": "Nice SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "Form Executor",
+      "description": "Nice SaaS WFM"
+    },
+    "recoverPassword": {
+      "title": "Recover Password",
+      "description": "Nice SaaS WFM"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "description": "Nice SaaS WFM"
+    },
+    "scheduler": {
+      "title": "Schedule Manager",
+      "description": "Nice SaaS WFM"
+    },
+    "setPassword": {
+      "title": "Set Password",
+      "description": "Nice SaaS WFM"
+    },
+    "skills": {
+      "title": "Skills",
+      "description": "Nice SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "UI Kit Gallery",
+      "description": "Nice SaaS WFM",
+      "userRoles": "{{selectedCount}} Employee roles"
+    },
+    "weeklyRules": {
+      "title": "Weekly Rules",
+      "description": "Nice SaaS WFM"
+    },
+    "manageForms": {
+      "title": "Manage Forms",
+      "description": "Nice SaaS WFM"
+    },
+    "templateManager": {
+      "title": "Template Manager",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "Form Designer",
+      "description": "Nice SaaS WFM"
+    },
+    "forecastData": {
+      "title": "Import Forecast Data",
+      "description": "Nice SaaS WFM"
+    },
+    "historicalData": {
+      "title": "Historical Data",
+      "description": "Nice SaaS WFM"
+    },
+    "groups": {
+      "title": "Groups",
+      "description": "Nice SaaS WFM"
+    },
+    "realTimeAdherence": {
+      "title": "Real Time Adherence",
+      "description": "Real Time Adherence"
+    },
+    "timeOffRequests": {
+      "title": "Requests",
+      "description": "Nice SaaS WFM"
+    },
+    "requests": {
+      "title": "Manage Requests",
+      "description": "Manage agent requests"
+    },
+    "automaticApprovalRules": {
+      "title": "Approval Rules",
+      "description": "Manage aapproval rules"
+    },
+    "automaticApprovalRuleSettings": {
+      "title": "Approval Rule Settings",
+      "description": "Manage aapproval rules settings"
+    },
+    "generatedForecasts": {
+      "title": "Generate Forecast",
+      "description": "Generate Forecast"
+    },
+    "generateForecast": {
+      "title": "Generate Forecast",
+      "description": "Generate Forecast"
+    },
+    "forecastingProfiles": {
+      "title": "Forecasting Profiles",
+      "description": "Forecasting Profiles"
+    },
+    "forecastingProfileView": {
+      "title": "Forecasting Profile",
+      "description": "Forecasting Profile"
+    },
+    "importStaffingJob": {
+      "title": "Staffing Plans",
+      "description": "Staffing Plans"
+    },
+    "specialDays": {
+      "title": "Special Days",
+      "description": "Special Days"
+    },
+    "specialDayView": {
+      "title": "Special Day",
+      "description": "Special Day"
+    }
+  },
+  "commonButtons": {
+    "ok": "OK",
+    "back": "Back",
+    "cancel": "Cancel",
+    "done": "Done",
+    "no": "No",
+    "yes": "Yes",
+    "save": "Save",
+    "delete": "Delete",
+    "continue": "Continue",
+    "invite": "Invite",
+    "edit": "Edit",
+    "update": "Update",
+    "upload": "Upload",
+    "today": "Today",
+    "showAll": "Show All",
+    "clearAll": "Clear All",
+    "clearData": "Clear Data",
+    "close": "Close",
+    "create": "Create",
+    "selectAll": "Select All",
+    "generate": "Generate",
+    "selectFile": "Select File",
+    "chooseFile": "Choose File...",
+    "add": "Add",
+    "publish": "Publish",
+    "set": "Set",
+    "day": "Day",
+    "week": "Week",
+    "copy": "Copy",
+    "from": "From",
+    "to": "To",
+    "duplicate": "Duplicate"
+  },
+  "languages": {
+    "english": "English",
+    "russian": "Russian",
+    "spanish": "Spanish",
+    "chinese": "Chinese"
+  },
+  "weekDays": {
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday"
+  },
+  "weekShortDays": {
+    "SUN": "SUN",
+    "MON": "MON",
+    "TUE": "TUE",
+    "WED": "WED",
+    "THU": "THU",
+    "FRI": "FRI",
+    "SAT": "SAT"
+  },
+  "scheduler": {
+    "noeditsAllowed": "Partially displayed shifts are not editable. Please change the dates to edit the shift.",
+    "netstaffing": {
+      "diff": "Diff",
+      "req": "Req",
+      "staff": "Staff"
+    },
+    "publishModal": {
+      "header": "Publish New Schedules",
+      "publishConformation": "Some of the dates you have selected were already published. The employees will be updated with the new agenda in case of a schedule changes.",
+      "noSchedulesToPublish": "There are no schedules on the selected date range.",
+      "attention": "Attention!",
+      "publishAnywayBtn": "Publish Anyway",
+      "schedulingUnits": "Scheduling Unit",
+      "schedulingUnitsDropDown": "{{selectedCount}} Scheduling Units",
+      "publishPopoverHeader": "Published to",
+      "publishSummaryHeader": "Published",
+      "from": "Start:",
+      "to": "End:",
+      "selectDatePlaceholder": "Select date",
+      "oneWeek": "1W",
+      "twoWeeks": "2W",
+      "threeWeeks": "3W",
+      "oneMonth": "1M",
+      "successMessage": "Dates published successfully"
+    },
+    "employeeCount": "{{count}} users",
+    "filters": {
+      "schedulingUnits": "{{count}} Scheduling units",
+      "skills": "{{count}} Skills",
+      "groups": "{{count}} Groups",
+      "activityCodes": "{{count}} Activity Codes",
+      "searchPlaceholder": "Start typing to find employee"
+    },
+    "activityModal": {
+      "activityCodePlaceholder": "Select an activity code",
+      "addTitle": "Add Activity - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Add comments...",
+      "editTitle": "Edit Activity - {{userName}}",
+      "error": {
+        "conflict": "Conflict detected. This activity will replace overlapping activities.",
+        "invaliddatetime": "The date and/or time specified is not valid.",
+        "daterange": "Select a date: today, yesterday or tomorrow.",
+        "openhours": "You cannot schedule when not open",
+        "endBeforeStart": "The end date must be the same or later than the start date.",
+        "timeRangeOutsideOfRange": "The activity must start or end within the timeline range ({{start}} - {{end}}).",
+        "activityOverlappingTimeRange": "This activity is outside the retrieved schedule and may replace existing activities.",
+        "xssInvalidCharacter": "These characters are invalid < >"
+      },
+      "selectingOOOActivityWithoutDaysOff": "Adding this activity may create a deficit in the employee's time-off balance",
+      "end": "End",
+      "remaining": "{{currentLength}} characters remaining",
+      "remove": "Remove",
+      "start": "Start"
+    },
+    "allDay": "All Day",
+    "cancel": "Cancel",
+    "closed": "You cannot add Shifts and Activities when the organization is closed.",
+    "employeeName": "Name",
+    "hotkeys": {
+      "nextHotKey": "Next day",
+      "previousHotKey": "Previous day",
+      "refreshHotKey": "Reload the schedules from the database",
+      "saveHotKey": "Save schedule changes",
+      "todayHotKey": "Go to today"
+    },
+    "hours": "Hours",
+    "menuItems": {
+      "addActivity": "Add Activity",
+      "addShift": "Add Shift",
+      "copyActivity": "Copy Activity",
+      "copyShift": "Copy Shift",
+      "editActivity": "Edit Activity",
+      "editShift": "Edit Shift",
+      "pasteActivity": "Paste Activity",
+      "pasteShift": "Paste Shift",
+      "removeActivity": "Remove Activity",
+      "removeShift": "Remove Shift",
+      "cancel": "Close"
+    },
+    "name": "Name",
+    "viewScheduleChangeMenu": "View Schedule Changes",
+    "organizationClosed": "Organization Closed",
+    "publish": "Publish",
+    "save": "Save",
+    "saveAndPublish": "Save & Publish",
+    "scheduler": "Schedule Manager",
+    "settingsDropDown": {
+      "title": "Settings",
+      "setup": {
+        "title": "Net Staffing Threshold"
+      },
+      "manualSchedule": {
+        "title": "Copy/Duplicate Schedule",
+        "duplicateTitle": "Duplicate Employee Schedule"
+      },
+      "broadcast": {
+        "title": "Broadcast Message",
+        "messageText": "Message",
+        "schedulingUnits": "Scheduling Unit",
+        "broadcastNow": "Broadcast Now",
+        "remaining": "{{currentLength}} characters remaining",
+        "schedulingUnitsDropDown": "{{selectedCount}} Scheduling Units",
+        "durationsDropDown": "Duration",
+        "commentPlaceholder": "Type your message...",
+        "durationsDropDownLabel": "Message Duration",
+        "durations": {
+          "30": "30 seconds",
+          "60": "1 minute",
+          "300": "5 minutes"
+        }
+      },
+      "timeOff": {
+        "title": "Time Off Management",
+        "formLabels": {
+          "saveLabel": "Done",
+          "timeOffTo": "SET TIME OFF FOR",
+          "timeOffToPlaceholder": "Select agent...",
+          "timeOffType": "TIME OFF ACTIVITY",
+          "timeOffTypePlaceholder": "Select activity",
+          "from": "FROM",
+          "to": "TO",
+          "showOnAgentSched": "Show on agent schedule",
+          "disableOverride": "Can't be overwritten by the automatic scheduler",
+          "allAgents": "All Agents"
+        },
+        "errors": {
+          "getEmployees": "Error receiving employees list",
+          "getActivities": "Error receiving time off activity code list",
+          "endBeforeStart": "The end date must be the same or later than the start date.",
+          "invalidDate": "The date specified is not valid."
+        }
+      },
+      "scheduleExport": {
+        "title": "Schedule Export",
+        "generating": "Generating Export File, Please wait…",
+        "schedulingUnits": "Scheduling Units",
+        "agentPlaceHolder": "Agent Name",
+        "agent": "Agent",
+        "start": "Start",
+        "end": "End",
+        "download": "Download",
+        "1w": "1W",
+        "2w": "2W",
+        "3w": "3W",
+        "1m": "1M"
+      },
+      "copyEmployeeSchedule": {
+        "title": "Copy Employee Schedule",
+        "formLabels": {
+          "saveLabel": "Copy",
+          "scheduleOf": "Copy the schedule of:",
+          "copyEmployeeFromPlaceholder": "Select Employee...",
+          "timeOffType": "TIME OFF ACTIVITY",
+          "timeOffTypePlaceholder": "Select activity",
+          "from": "Between the dates of:",
+          "to": "TO",
+          "showOnAgentSched": "Show on agent schedule",
+          "disableOverride": "Can't be overwritten by the automatic scheduler",
+          "addEmployeeTitle": "Paste schedule to the following employees",
+          "allAgents": "All Agents",
+          "employeesCount": "Employees",
+          "addEmployeesButton": "Add Employees",
+          "selectEmployee": "Select Employee",
+          "employeesFilter": "Start typing to find employee",
+          "Employee": "Employee",
+          "Evaluator": "Evaluator",
+          "Manager": "Manager",
+          "Administrator": "Administrator"
+        },
+        "errors": {
+          "getEmployees": "Error receiving employees list",
+          "getActivities": "Error receiving time off activity code list",
+          "invalidDate": "The date specified is not valid.",
+          "endBeforeStart": "The end date must be the same or later than the start date.",
+          "noEmployeeSelected": "You must select an Employee.",
+          "noEmployeesSelected": "You must select at least 1 employee."
+        }
+      },
+      "meetingScheduler": {
+        "title": "Meeting Scheduler",
+        "formLabels": {
+          "scheduleLabel": "Schedule",
+          "activity": "Activity",
+          "scheduleType": "Schedule Type",
+          "fixTime": "Fixed time",
+          "flexibleTime": "Flexible time",
+          "duration": "Duration",
+          "min": "min",
+          "date": "Date",
+          "time": "Time",
+          "timezone": "Timezone",
+          "comment": "Comment",
+          "activityCodePlaceholder": "Select an activity",
+          "scheduleUpTo": "Schedule up to",
+          "employees": "Employees",
+          "numberSimultaneous": "simultaneous",
+          "fromDate": "From",
+          "toDate": "To",
+          "commentPlaceholder": "This comment will appear in the agent's schedule",
+          "remaining": "{{currentLength}} characters remaining",
+          "addEmployeeTitle": "Create meeting for these employees",
+          "employeesFilter": "Start typing to find employee",
+          "Employee": "Employee"
+        },
+        "errors": {
+          "getEmployees": "Error receiving employees list",
+          "getActivities": "Error receiving activity code list",
+          "getTimezone": "Error receiving timezone list",
+          "invalidDate": "The date specified is not valid",
+          "startDateInPast": "You can't select a date in the past",
+          "startTimeInPast": "You can't select a time in the past",
+          "noEmployeesSelected": "You must select at least 1 employee",
+          "minutes": "Enter a number between {{min}}-{{max}}",
+          "numberSimultaneous": "Enter a number between {{min}}-{{max}}",
+          "violateMaxUpTo": "Date Range not compatible with maximum",
+          "fromDateInPast": "You can't select a date in the past",
+          "toDateBeforeFromDate": "The From date must be earlier than the To date",
+          "overThreeMonth": "The range cannot exceed 3 months",
+          "timeOffMessage": "have time off and will be excluded from this meeting.",
+          "employeesCount": "{{count}} employees ",
+          "noShiftMessage": "do not have a scheduled shift during the defined time range and will be excluded.",
+          "conflictActivitiesMessage": "have existing activities that will be overwritten.",
+          "conflictActivitiesPopover": "This meeting may overwrite other existing activities. Continue?",
+          "noShiftPopover": "Agents without shifts during the defined time range won't be scheduled for this meeting. Continue?",
+          "errorRead": "An error occurred while loading the meeting scheduler modal.",
+          "errorValidate": "An error occurred while validating the meeting request.",
+          "errorSchedule": "An error occurred while scheduling the meeting."
+        }
+      }
+    },
+    "changeHistoryComponent": {
+      "revertBtn": "Revert",
+      "revertMessage": "This will overwrite the current schedule. Continue?",
+      "revertSuccess": "Schedule has been reverted successfully."
+    },
+    "changeHistoryModal": {
+      "actionHeading": "Action",
+      "agent": "Agent",
+      "agentPlaceholder": "Select an Agent",
+      "applyButton": "Apply",
+      "changedByHeading": "Changed By",
+      "date": "Date",
+      "dateAndTimeHeading": "Date and Time of Change",
+      "modalTitle": "Schedule Change History",
+      "noHistoryData": "No schedule history available",
+      "revertButton": "Revert",
+      "timezone": "Timezone",
+      "timezonePlaceholder": "Select a Timezone",
+      "categoryChanges": {
+        "MANUAL": "Manual changes",
+        "AUTO": "Schedule generation",
+        "TIMEOFF": "Time Off request",
+        "TIMEOFF_REQUEST": "Time Off request",
+        "TIMEOFF_MANAGEMENT": "Time Off management",
+        "COPY": "Copy Schedule",
+        "DUPLICATE": "Duplicate Schedule",
+        "TRADE": "Shift trade",
+        "PUBLISH": "Published by user",
+        "REVERT": "Reverted by user",
+        "EXTERNAL_MEETING": "External Meeting Request",
+        "AGENT_CHANGE": "Agent Initiated Request",
+        "FIXED_MEETING": "Fixed Meeting Request",
+        "FLEXIBLE_MEETING": "Flexible Meeting Request"
+      }
+    },
+    "setupModal": {
+      "tabs": {
+        "netStaffing": {
+          "title": "Net Staffing",
+          "range": {
+            "min": "Understaffing",
+            "mid": "Balanced",
+            "max": "Overstaffing"
+          }
+        }
+      },
+      "saveSuccess": "Schedule Manager settings have been saved successfully.",
+      "saveFailure": "An error occurred while saving Schedule Manager settings."
+    },
+    "shiftModal": {
+      "addTitle": "Add Shift - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Your comments...",
+      "editTitle": "Edit Shift - {{userName}}",
+      "shiftType": "Shift Type",
+      "error": {
+        "conflict": "Conflict detected. This activity will replace overlapping activities.",
+        "invalidtime": "The time specified is not valid.",
+        "endBeforeStart": "The end date must be the same or later than the start date.",
+        "timeRangeOutsideOfRange": "The shift must start or end within the timeline range ({{start}} - {{end}}).",
+        "shiftOverlappingTimeRange": "This shift is outside the retrieved schedule and may replace existing shifts.",
+        "xssInvalidCharacter": "These characters are invalid < >"
+      },
+      "end": "End",
+      "remaining": "{{currentLength}} characters remaining",
+      "remove": "Remove",
+      "start": "Start"
+    },
+    "toasts": {
+      "saveSuccessMessage": "Schedule changes have been saved successfully.",
+      "broadcastSuccessMessage": "Message broadcasted successfully.",
+      "meetingSuccessMessage": "Meeting have been created successfully.",
+      "noShiftPaste": "Cannot paste a shift that goes beyond the visible range.",
+      "noShiftCopy": "Cannot copy a shift that goes beyond the visible range.",
+      "noActivityPaste": "Cannot paste an activity that goes beyond the visible range.",
+      "multipleShifts": "Attention!  There are multiple shifts for the same day.",
+      "overlappingShiftsActivities": "Attention!  There are overlapping shifts and/or activities",
+      "noEdit": "Cannot edit a shift or activity that goes beyond the visible range.",
+      "noRemove": "Cannot remove a shift or activity that goes beyond the visible range.",
+      "noAddActivity": "Cannot add an activity to a shift that goes beyond the visible range.",
+      "remainingTORExceededAllotedTimeOff": "Some of the employees now have deficits in their time-off balance."
+    },
+    "manualScheduleAssistant": {
+      "summary": "Summary",
+      "source": "duplicate from",
+      "destination": "to",
+      "forEmployees": "For Employees ",
+      "chooseType": "Copy schedule type",
+      "destinationEmptyErrorMsg": "You must select at least one date",
+      "employeeEmptyErrorMsg": "You must select at least one employee",
+      "timeFrame": "Time Frame",
+      "showLess": "Show less...",
+      "showMore": "Show more...",
+      "day": "Day",
+      "week": "Week",
+      "duplicateScheduleFor": "Duplicate Schedule For",
+      "allEmployees": "All Employees",
+      "selectedEmployeesPrefix": "(",
+      "selectedEmployeesSuffix": " selected)",
+      "addEmployees": "Add Employees",
+      "selectEmployees": "Select Employees",
+      "specificEmployees": "Specific Employees",
+      "sourceDay": "Source day",
+      "sourceWeek": "Source week",
+      "destinationDay": "Destination day/s",
+      "destinationWeek": "Destination week/s",
+      "resetAll": "Reset All",
+      "copySchedule": "Copy Schedules",
+      "copyScheduleJobStarted": {
+        "code": "Copy Schedule Started",
+        "message": "Copy schedule started."
+      },
+      "copyScheduleJobFinishedSuccess": {
+        "code": "Copy Schedule Finished",
+        "message": "Schedule copied successfully."
+      },
+      "duplicateScheduleJobStarted": {
+        "code": "Duplicate Schedule Started",
+        "message": "Duplicate schedule started."
+      },
+      "duplicateScheduleJobFinishedSuccess": {
+        "code": "Duplicate Schedule Finished",
+        "message": "Schedule duplicated successfully."
+      },
+      "iWantTo": "I want to",
+      "copyTitle": "Copy Schedule to Others",
+      "copyDescription": "Copy a schedule from one employee to other employees, across the same time frame",
+      "duplicateTitle": "Duplicate Personal Schedules",
+      "duplicateDescription": "Select employee schedules from a day/week and duplicate them for the same employees' future use"
+    },
+    "today": "Today",
+    "unavailable": "Unavailable",
+    "unsaved": "Exit without saving changes?",
+    "dailyView": "Daily View",
+    "weeklyView": "Weekly View",
+    "firstDayOfWeek": "First day of the week:"
+  },
+  "scheduleEventTooltip": {
+    "shiftTitle": "Shift"
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Login failed"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "General error"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "This page is unavailable. Please check your connection and try again."
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "General error {{ details }}"
+    },
+    "CopyScheduleJobRunningError": {
+      "code": "Copy Schedule Run Job Error",
+      "message": "Another copying job is running. Try again later."
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Invalid parameters"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Unauthorized employee"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "There is no response from the server. Please try again later."
+    },
+    "wrongCredentials": "You have entered a wrong email address or password",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Internal server error."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Internal error."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "Scheduling unit does not exist."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "This name already exists. Try a new one."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "This tenant or employee already exists. Try a new one."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "The email address already exists. Try a new one"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "File does not exist."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "Employee does not exists"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "There are no employees to invite."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "Failed to create employee."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "Invalid Employee Status"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "Invalid organization name."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Invalid email."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "Invalid employee first name."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "Invalid employee last name."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "Cannot delete the default scheduling unit."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "scheduling unit ID is missing."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "Employee maximum hours not in range."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "Employee password is invalid."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "Cannot update default group."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "Cannot remove employees from default group."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "Incorrect employee password."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "Employee does not exist."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "You cannot delete your own employee"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "You cannot delete the only administrator"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "You cannot delete a employee that was already deleted"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "Invalid password token"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "Failed to create account"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "Organization name is invalid"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "The file format is not supported"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "You do not have permission to change the role"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "You cannot change your own role"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "Cannot delete last admin."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "This name already exists. Try a new one."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "Cannot change passwords because previous and new ones are the same."
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "You have entered a wrong email address or password"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD login ID already exist"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "New Employee will exceed the limit of users, please contact sales at CXoneSalesTeam@niceincontact.com"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Internal server error."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Internal error."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "This name already exists. Try a new one."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "Skill does not exist."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "A employee cannot have more than 50 skills."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "The Skill name is not valid"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "Weekly rule is empty"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "wrong weekly rule"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "wrong weekly rule days range"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "wrong weekly rule hours range"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "VALUE OF MAX SHIFTS OF WEEKLY RULE IS LOWER THAN TOTAL OF MIN DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "VALUE OF MIN SHIFTS OF WEEKLY RULE IS GREATER THAN TOTAL OF MAX DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "TOTAL SUM OF DAILY MIN HOURS IS BIGGER THAN WEEKLY MAX HOURS"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "TOTAL SUM OF DAILY MAX HOURS IS LOWER THAN WEEKLY MIN HOURS"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "TOTAL SUM OF POSSIBLE DAYS IS LOWER THAN THE CORRESPONDING MIN DAY OF THE DAILY RULE"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN THE TOTAL SUM OF MIN SHIFTS PER DAILY RULE"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "NO NAME FOR WEEKLY RULE WAS GIVEN"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "DAILY RULES ARE EMPTY"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN MINIMUM SHIFTS PER WEEK"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "The date format is invalid"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "The time period between two dates is invalid"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "An internal server error has occurred"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "An internal error has occured"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "The file format is not supported"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "Records in the file could not be read"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Could not find expected column titles. Look at sample file."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Skills are missing from the system"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "Scheduling Units are missing from the file"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "Earliest daily start is after latest start"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "Increment format is wrong"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "Daily rule start times are not within the correct range"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "Daily activity length is bigger than daily rule length"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack format is wrong"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "Relative start time is lower slack time"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "Sum of lengths of activities is bigger than daily length"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "No valid activities combination exist"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "Activity code exceeded daily rule shift"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "The file format is not supported"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "The Activity Code name is not valid"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "Time zone in schedule unit is wrong"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "Cannot delete the default activity code"
+    },
+    "wfo_service_schedule_manager_45": {
+      "code": "TIMEOFF_REQUEST_PARAMS_ARE_INVALID",
+      "message": "Error while saving time off request"
+    },
+    "wfo_service_schedule_manager_46": {
+      "code": "TIMEOFF_REQUEST_DATES_ARE_INVALID",
+      "message": "Error while saving time off request"
+    },
+    "wfo_service_schedule_manager_47": {
+      "code": "TIMEOFF_REQUEST_ERROR_WHILE_TIMEOFF_CREATION",
+      "message": "Error while creating a time off activity for the agent when the request was approved"
+    },
+    "wfo_service_schedule_manager_48": {
+      "code": "TIMEOFF_REQUEST_STATUS_CANCELED",
+      "message": "Time off request was already canceled"
+    },
+    "wfo_service_schedule_manager_50": {
+      "code": "SUM_OF_DAILY_RULE_MAX_DAYS_LESS_THAN_WEEKLY_RULE_MIN_DAYS",
+      "message": "The sum of the maximum number of days defined in the daily rules must be greater than or equal to the minimum total per week"
+    },
+    "wfo_service_schedule_manager_51": {
+      "code": "SUM_OF_DAILY_RULE_MIN_DAYS_GREATER_THAN_WEEKLY_RULE_MAX_DAYS",
+      "message": "The sum of the minimum number of days defined in the daily rules must not exceed the maximum total per week"
+    },
+    "wfo_service_schedule_manager_52": {
+      "code": "NO_VALID_DAILY_RULE_COMBINATIONS_EXIST_GIVEN_CONSTRAINTS",
+      "message": "This combination of rules may not yield valid results due to rule constraints. Try a different combination"
+    },
+    "wfo_service_schedule_manager_53": {
+      "code": "SINGLE_DAILY_RULE_DAYS_NOT_EQUAL_TO_WEEKLY_RULE_DAYS",
+      "message": "Single daily rule minimum and maximum values must match the weekly values"
+    },
+    "wfo_service_schedule_manager_54": {
+      "code": "LESS_THAN_TEN_HOURS_BETWEEN_SHIFTS",
+      "message": "There must be at least 10 hours between shifts"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "Please select a template"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "Template Id is invalid"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "Form Name already exist"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_forecaster_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Internal server error."
+    },
+    "wfo_forecaster_service_2": {
+      "code": "NO_SOURCE_AND_FILE_PATH_FOUND",
+      "message": "NO_SOURCE_AND_FILE_PATH_FOUND."
+    },
+    "wfo_forecaster_service_6": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Could not find expected column titles. Look at sample file."
+    },
+    "wfo_forecaster_service_7": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Skills are missing from the system."
+    },
+    "wfo_forecaster_service_8": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "The file format is not supported"
+    },
+    "wfm_service_shift_bid92": {
+      "code": "NO_USERS_IN_SHIFT_BIDDING",
+      "message": "Shift Bidding has no users assigned"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Internal server error."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Internal error."
+    }
+  },
+  "biddingManagerPage": {
+    "responseRate": "Response rate",
+    "pageTitle": "Bidding Manager",
+    "newButton": "Generate New Bid",
+    "items": "bids",
+    "item": "bid",
+    "selectedItems": "{{selectedCount}} selected",
+    "gridNoRowsOverlay": "No bids were generated yet",
+    "unknownSU": "Unknown",
+    "gridColumns": {
+      "schedulingUnit": "Scheduling Unit",
+      "biddingDataRange": "Bidding Date Range",
+      "createdAt": "Job Date",
+      "responseRate": "Response Rate",
+      "status": "Status",
+      "action": "Action"
+    },
+    "statuses": {
+      "generate": "Generate New Bid",
+      "draft": "Draft",
+      "active": "Bid Open",
+      "closed": "Bid Closed",
+      "cancelled": "Canceled",
+      "award": "Assigning Shifts",
+      "awarded": "Shifts Assigned",
+      "error": "Error: ",
+      "delete": "Delete"
+    },
+    "errorDetails": {
+      "noUsersAssignedToSu": "No users in selected scheduling unit",
+      "noUsersInSuAssignedWeeklyRules": "No users in selected scheduling unit",
+      "NO_USERS_IN_SHIFT_BIDDING": "Empty schedule. User/schedule constraints",
+      "NO_ACTIVE_USERS_IN_SHIFT_BIDDING": "No active users in selected scheduling unit",
+      "INTERNAL_ERROR": "General error"
+    },
+    "actions": {
+      "cancel": "Cancel Bid",
+      "open": "Open Bid",
+      "close": "Close Bid",
+      "assign": "Assign Shifts",
+      "delete": "Delete"
+    },
+    "messages": {
+      "createSuccess": "Generating New Bidding..",
+      "updateSuccess": "Bidding Updated Successfully",
+      "createFailed": "Failed Generating New Bidding",
+      "createFailedSinceSUEmpty": "No users assigned to Scheduling Unit",
+      "createFailedSinceTemplateMissing": "No users in Scheduling Unit assigned to shift bidding templates",
+      "updateFailed": "Failed Update Bidding",
+      "deleteWarning": "You are about to delete this bid. Continue?",
+      "deleteSuccess": "Shift Bid deleted Successfully"
+    },
+    "modal": {
+      "title": "Generate New Bid",
+      "moreThanMaximumSchedulingUnitsSelectedTxt": "At most 1 Scheduling Units may be selected for generation."
+    }
+  },
+  "bidWeeklyShiftPatterns": {
+    "topHeader": "Weekly Shift Patterns for {{weekDates}}",
+    "headers": {
+      "totalHours": "Total Hours",
+      "patternsAvailable": "Available Patterns"
+    },
+    "placeHolderText": "Arrange patterns from top to bottom based on your priority"
+  },
+  "staffingPlansPage": {
+    "pageTitle": "Staffing Plans",
+    "importBtn": "Import Staffing Plan",
+    "items": "staffing plans",
+    "selectedItems": "{{selectedCount}} selected",
+    "gridColumnsHeaders": {
+      "dateRange": "Staffing Plan Date Range",
+      "fileName": "Staffing Plan File Name",
+      "importDate": "Import Date",
+      "importedBy": "Imported by",
+      "status": "Status"
+    },
+    "errorDelete": "An error occurred while deleting the staffing plan.",
+    "successDelete": "Staffing Plan has been successfully removed",
+    "deleteSelectedStaffingPlansMsg": "You are about to delete the selected Staffing Plans. Continue?",
+    "deleteSingledStaffingPlanMsg": "You are about to delete this Staffing Plan. Continue?",
+    "gridNoRowsOverlay": "No staffing plan was imported yet",
+    "bulkOperationsBtns": {
+      "deleteBtn": "Delete"
+    },
+    "statuses": {
+      "succeeded": "Succeeded",
+      "failed": "Failed",
+      "partial": "Partially succeeded. {{successRowsCount}} out of {{totalRowsCount}} records imported.",
+      "na": "N/A",
+      "emptyFile": "Empty file"
+    },
+    "importModal": {
+      "header": "Import Staffing Plan",
+      "firstParagraph": "Import staffing plan by uploading a CSV file",
+      "downloadMessage1": "You can download a template of a CSV file",
+      "downloadMessage2": "",
+      "downloadLink": "here.",
+      "selectFileMessage": "",
+      "secondParagraph": "Make sure there is staffing plan data for the entire date range",
+      "successMsg": "Staffing Plan data imported successfully",
+      "warnMsg": "The import staffing plan process was completed with errors",
+      "errorMsg": "Failed to import staffing plan",
+      "EmptyFile": "The Staffing File is empty",
+      "sizeLimitationErrorMsg": "Import of staffing plan did not succeed. The file size is greater than the 10MB maximum"
+    },
+    "importErrorsListModal": {
+      "header": "Import Errors",
+      "rowsWereImportedSuccessfully": "{{succeededRowsCount}} out of {{totalRowsCount}} were imported successfully",
+      "tooMuchErrors": "Import stopped. Large number of errors found. Showing the first {{amountOfRows}}"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "No {{itemLabel}} is defined yet",
+    "modal": {
+      "employeeTab": "No employees assigned yet"
+    }
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "Scheduling Units"
+  },
+  "shiftBiddingPage": {
+    "pageTitle": "Shift Bidding",
+    "items": "Shift Biddings",
+    "item": "Shift Bidding",
+    "emptyMessage": "No bidding was created yet",
+    "gridColumnsHeaders": {
+      "datesRange": "Bidding Date Range",
+      "jobDate": "Job Date",
+      "by": "Initiated By",
+      "status": "Status",
+      "isSubmitted": "Bid Submitted"
+    }
+  },
+  "shiftBiddingPatternsPage": {
+    "errorGettingBid": "",
+    "submitButton": "Submit Bid",
+    "submitSuccess": "Bid has been submitted successfully",
+    "helpMessage": "Arrange patterns from top to bottom according to your priority",
+    "smallScreenWarning": "Enlarge the screen to view available shift patterns and place your bid."
+  },
+  "mySchedule": {
+    "day":"Day",
+    "week":"Week",
+    "today": "Today",
+    "errorRead": "An error occurred while loading the schedule.",
+    "pageTitle": "My Schedule",
+    "userName": "{{userName}}",
+    "actionButton": "Actions",
+    "actionLinks": {
+      "tradeShift": "Trade Shift",
+      "userPreferences": "Shift Preferences",
+      "userTORBalance": "Time Off Balance"
+    },
+    "showSummary": {
+      "onCall": "ON CALL",
+      "outOfOfficeAgent": "OUT OF OFFICE",
+      "noData": "No data"
+    },
+    "tradeModal": {
+      "agentLabel": "Trade with:",
+      "agentPlaceHolder": "Select Agent",
+      "okLabel": "Submit",
+      "modalTitle": "Trade {{date}} | {{time}}"
+    },
+    "enhancedTradeModal": {
+      "modalTitle": "Trade Shift",
+      "okLabel": "Submit Trade Request",
+      "fromLabel": "FROM",
+      "toLabel": "TO",
+      "fullDayTradeOption": "Full Shift",
+      "partialDayTradeOption": "Partial Shift",
+      "nonTradeableActivityPresent": "Shift time contains non-tradable activities",
+      "startTimeLateThanEndTime": "Start time must be before end time",
+      "minAdvanceNotice": "Trade request must be submitted at least {{stringTime}} in advance",
+      "minPartialShiftDuration": "Select at least {{minStringTime}}",
+      "fullDayShiftLabel": "Shift Times",
+      "partialShiftLabel": "Partial Shift Times",
+      "popOverNonTradableActivity": "Shift time contains non-tradable activities",
+      "popOverMinAdvNotice": "Trade request must be submitted at least {{stringTime}} in advance",
+      "popOverPartialTradeDisabled": "Only full-day trade is allowed based on the system trade configuration",
+      "popOverPartialRequestPending": "Full day trade is not allowed when partial day trade request is pending",
+      "popOverFullDayRequestPending": "Partial day trade is not allowed when full day trade request is pending",
+      "preferredShiftLabel": "Preferred shift day and time",
+      "maxSelectionMessage": "You can select up to {{maxSelectionPossible}} shifts.",
+      "betweenLabel": "Between",
+      "daysNotSelectedtLabel": "This field is mandatory",
+      "grid": {
+        "shiftStart": "Shift Start",
+        "shiftEnd": "Shift End",
+        "agentName": "Agent Name",
+        "gridNotSet": "Shift preference not yet set",
+        "gridNoRowsOverlay": "No matching shifts found. Update your trade preferences",
+        "gridNoAgent": "No agents found",
+        "gridError": "Couldn't load data. Try again.",
+        "wfo_service_schedule_manager_79": "Cannot trade shift. Trading hours less than the minimum required value.",
+        "wfo_service_schedule_manager_88": "Cannot split activity. Select different requestor times.",
+        "wfo_service_schedule_manager_90": "Partial-day trade not allowed.",
+        "wfo_service_schedule_manager_78": "Cannot trade shift. Shift trade time too close to the requested time.",
+        "wfo_service_schedule_manager_68": "Cannot trade shift. Schedule is not yet published.",
+        "wfo_service_schedule_manager_77": "Cannot trade shift. Shift trade date beyond permitted period from the requested date.",
+        "wfo_service_schedule_manager_65": "Cannot trade shift. Shift trade not allowed for the past dates.",
+        "wfo_service_schedule_manager_62": "Cannot trade shift. Shift trade not allowed for pending schedule change requests.",
+        "wfo_service_schedule_manager_87": "Cannot trade shift. The number of open trade requests for the day exceeds the configured limit.",
+        "wfo_service_schedule_manager_76": "Trade not Allowed."
+      },
+      "header": {
+        "shift": "shift",
+        "searchTitle": "Search agent",
+        "selectedRow": "Show selected only",
+        "selected": "selected"
+      },
+      "openTradeMessage": {
+        "requestorWaitForApproval": "Shift trade request sent to {{totalRequests}} employees and waiting for acceptance",
+        "requesteeInvitedForTrade": "{{requestorName}} is inviting you to trade shifts",
+        "requesteeAcceptedTrade": "You accepted this trade. Waiting for supervisor approval",
+        "viewRequest": "View request",
+        "decline": "Decline",
+        "cancel": "Cancel"
+      },
+      "tradeConfigMsg": "Based on system trade configuration",
+      "weekdayDropdown": "Select preferred days",
+      "findShiftBtnText": "Find Matching Shifts"
+    },
+    "userPreferencesModal": {
+      "okLabel": "Save",
+      "modalTitle": "Shift Preferences",
+      "updateSuccessMsg": "Employee was updated successfully!"
+    },
+    "openTradeMessage": {
+      "requestorWaitForApproval": "Trading request submitted and waiting approval",
+      "requesteeInvitedForTrade": "{{requestorName}} is inviting you to trade shifts",
+      "requesteeAcceptedTrade": "You accepted this trade. Waiting for supervisor approval",
+      "viewRequest": "View request",
+      "decline": "Decline",
+      "cancel": "Cancel"
+    },
+    "toasts": {
+      "updateFailed": "There was a problem update the shift trade request status",
+      "canceledFailed": "There was a problem canceling the shift trade request",
+      "declinedFailed": "There was a problem declining the shift trade request",
+      "acceptedFailed": "There was a problem accepting the shift trade request",
+      "retrieveFailed": "There was a problem retrieving shift trade requests",
+      "canceledSuccess": "Trade request canceled successfully.",
+      "noTradeAvaliable": "The trade request is no longer available."
+    },
+    "sideBySideModal": {
+      "modalTitle": "Shift Trading",
+      "declineBtnLabel": "Decline",
+      "acceptBtnLabel": "Accept",
+      "requesteeHeaderLabel": "You Give",
+      "requestorHeaderLabel": "You Get",
+      "headerLabelFormat": "{{date}} | {{time}}",
+      "error": {
+        "tradeDateHasPassed": "This shift trade is no more active",
+        "scheduleRequestExists": "You can't trade shifts because you have pending schedule requests for this day.",
+        "nonTradableError": "Trade declined. Your or the selected agent's shift has an activity that cannot be traded.",
+        "generalError": "Shift trade failed."
+      }
+    },
+    "weeklyViewTradeSideBySideModal":{
+      "viewTradeRequest": "View Received Request",
+      "declineTradeRequest": "Decline All Received Request",
+      "cancelTradeRequest": "Cancel All Sent Request",
+      "viewPendingRequest": "View Requests",
+      "deletePendingRequest": "Cancel All",
+      "pendingRequestsText":"Pending Requests",
+      "cancelPendingRequestTitle": "Cancel Pending Requests",
+      "deleteAllPendingActivityRequestsConfirmation": "Do you want to cancel all pending requests for ",
+      "dontCancelButtonText": "Don't Cancel",
+      "noRequestsForThisDay":"No requests for this day.",
+      "tradeHeading": "Trade request",
+      "pendingActivityRequestHeader": "Activity requests",
+      "pendingTradeRequestHeader": "Trade requests",
+      "close": "Close",
+      "fullDayTimeoffMsg":"There is full day time off for this day."
+    },
+    "tradeValidations": {
+      "wfo_service_schedule_manager_68": "Cannot trade shift. Schedule is not yet published.",
+      "wfo_service_schedule_manager_78": "Cannot trade shift. Shift trade date too close to the requested date.",
+      "wfo_service_schedule_manager_77": "Cannot trade shift. Shift trade date beyond permitted period from the requested date.",
+      "wfo_service_schedule_manager_65": "Cannot trade shift. Shift trade not allowed for the past dates.",
+      "wfo_service_schedule_manager_62": "Cannot trade shift. Shift trade not allowed for pending schedule change requests.",
+      "wfo_service_schedule_manager_88": "Cannot trade shift. The published schedule is empty.",
+      "wfo_service_schedule_manager_87": "Cannot trade shift. The number of open trade requests for the day exceeds the configured limit.",
+      "wfo_service_schedule_manager_76": "Trade not Allowed.",
+      "tradeSuccess": "Trade request sent successfully to all the selected agents.",
+      "tradeSuccessPartial": "Trade request sent successfully to {{successCount}} agents.",
+      "tradeFailure": "Cannot trade shift. Unknown error.",
+      "tradeSubmissionFailure": "Trade request failed.",
+      "generalError": "Trade failed. Try again later.",
+      "non_tradable": "Cannot Trade Shift. At least one activity in your shift is non tradable.",
+      "tradeAccpeted": "Trade request accepted successfully.",
+      "trdaeDecline": "Trade request declined successfully."
+    },
+    "selfServiceTO" : {
+      "autoTOPopover" : "Auto time-off",
+      "managerTOPopover" : "Approval required time-off",
+      "noSelfIntervalActivityPresentForDay" : "There is no self-service activity for the day.",
+      "generalError" : "Could not load self-service data."
+    },
+    "selfServiceEH" : {
+      "autoEHPopover" : "Auto extra-hours",
+      "managerEHPopover" : "Approval required extra-hours",
+      "noSelfIntervalActivityPresentForDay" : "There is no self-service activity for the day.",
+      "noPermissionToAddOpenActivity" : "Cannot add the activity. Permission required.",
+      "generalError" : "Could not load self-service data."
+    },
+    "agentInitiatedSchedule": {
+      "dirtyMode": {
+        "cancel": "Cancel",
+        "submitRequest": "Submit Request"
+      },
+      "menuOptions": {
+        "requestTimeoff": "Request time-off",
+        "addActivity": "Add Activity",
+        "deleteActivity": "Remove Activity",
+        "cancelActivity": "Cancel Request",
+        "editRequest": "Edit Request",
+        "editActivityTime": "Edit Activity Time",
+        "cancelRequest": "Cancel Request"
+      },
+      "timeGroupLabel": "Selection Of Start And End Date/Time",
+      "requestExistLabel": "You have pending requests for this day.",
+      "singleFullDayRequestExistLabel": "Pending full-day request ({{activityCode}}) for this day.",
+      "multipleFullDayRequestExistLabel": "Pending full-day request ({{activityCode}}) for {{requestStartDate}} - {{requestEndDate}}.",
+      "dirtyModeSingleFullDayRequestLabel": "Full-day request - {{activityCode}}",
+      "dirtyModeMultipleFullDayRequestLabel": "{{requestStartDate}} - {{requestEndDate}} - {{activityCode}}",
+      "invalidRequestLabel": "Some activities were deleted, or their configurations changed. Cancel all requests.",
+      "fullDayInvalidRequestLabel": "The activity {{activityCode}} was deleted or modified. Pending full day request is no longer valid.",
+      "viewRequests": "View requests",
+      "self_Interval":"Self service",
+      "select_self_service": "Select...",
+      "cancelRequests": "Cancel all",
+      "deletedActivityName": "Deleted activity",
+      "messages": {
+        "requestSubmitted": "Request submitted successfully.",
+        "submitRequestFailure": "Couldn't submit the request. Try again later.",
+        "submitRequestFailureWithRefresh": "Couldn't submit the request. Refresh the page and try again.",
+        "submitRequestFailureScheduleChanged": "Couldn't submit the request. An update was made to your schedule. Refresh the page and try again.",
+        "submitRequestFailureDiscarded": "Couldn't submit the request. An update was made to your schedule, and your previous requests were discarded. Refresh the page.",
+        "requestCanceled": "Request canceled successfully.",
+        "allRequestsCanceled": "Requests canceled successfully.",
+        "cancelRequestFailureAlreadyApprovedDeclined": "Couldn't cancel the request. An update was made to your schedule. Refresh the page and try again.",
+        "cancelAllRequestsFailureAlreadyApprovedDeclined": "Couldn't cancel requests. An update was made to your schedule. Refresh the page and try again.",
+        "cancelRequestFailureDiscarded": "Couldn't cancel the request. An update was made to your schedule, and your previous requests were discarded. Refresh the page.",
+        "cancelAllRequestsFailureDiscarded": "Couldn't cancel requests. An update was made to your schedule, and your previous requests were discarded. Refresh the page.",
+        "cancelRequestFailureWithRefresh": "Couldn't cancel the request. Refresh the page and try again.",
+        "cancelAllRequestsFailureWithRefresh": "Couldn't cancel requests. Refresh the page and try again.",
+        "cancelRequestFailure": "Couldn't cancel the request. Try again later.",
+        "cancelAllRequestsFailure": "Couldn't cancel requests. Try again later.",
+        "modalInitFailure": "Couldn't open Activity window. Refresh the page.",
+        "failedToLoadRequests": "Couldn't load pending requests. Refresh the page.",
+        "requestTimezoneDiff": "Couldn't load pending requests from different time zones.",
+        "submitRequestConfirmation": "Your requests overlap with scheduled activities. Once approved, the new activities will overwrite the existing schedule for the time slots you requested.",
+        "cancelRequestConfirmation": "All changes will be lost. Continue?",
+        "cancelAllRequestsConfirmation": "Do you want to delete all pending requests for this day?",
+        "confirmationContinue": "Continue?",
+        "confirmationYes": "Yes",
+        "confirmationNo": "No",
+        "cannotEditOvernightActivity": "You can only edit this activity from the start date.",
+        "cannotDeleteOvernightActivity": "You can only remove this activity from the start date.",
+        "cannotCancelOvernightActivity": "You can only cancel this activity from the start date.",
+        "cannotCreateShiftTradeRequest": "You can't trade shifts because you have pending schedule requests for this day.",
+        "cannotCreateScheduleRequest": "You can't change your schedule because you have a pending shift trade request for this day.",
+        "cannotLoadPendingTradeRequests": "Couldn't load pending trade requests. Refresh the page.",
+        "generalConflictErr": "You have conflicting requests.",
+        "pastDateCancelationNotAllowed": "Cancelations must be made in advance. Contact your manager to cancel.",
+        "scheduleChangedPostApproval": "The schedule changed after your time-off request was approved. Contact your manager to cancel.",
+        "moreThan1DayCancelationNotAllowed": "Canceling for more than one day is not supported. Contact your manager to cancel.",
+        "cannotLoadWeeklyScheduleData": "Couldn't load weekly schedule data."
+      },
+      "activityModal": {
+        "title": "New Time-Off Request",
+        "selfIntervalTitle":"Select Time Off",
+        "selfIntervalExtraHoursTitle":"Select Extra Hours",
+        "addActivityTitle": "Add Activity",
+        "editActivityTitle": "Edit Activity",
+        "removeActivityTitle": "Remove Activity",
+        "submitButton": "Submit",
+        "saveButton": "Save",
+        "addActivitySaveButton": "Add",
+        "removeActivitySaveButton": "Remove",
+        "cancelButton": "Cancel",
+        "unpublishedDayMessage": "You don't have a published schedule for this day, so you can only request time off for full days.",
+        "restrictFullDaysMessage": "You can only request full days for this activity.",
+        "overnightMessage": "This is an overnight activity. You can only edit the hours of the start date.",
+        "activityCodePlaceholder": "Select an activity code",
+        "fullDay": "All day",
+        "activityLabel": "ACTIVITY TYPE",
+        "balanceLabel": "MY TIME OFF BALANCE",
+        "startLabel": "START",
+        "endLabel": "END",
+        "startDate": "START DATE",
+        "startTime": "START TIME",
+        "endDate": "END DATE",
+        "endTime": "END TIME",
+        "commentLabel": "COMMENT",
+        "commentPlaceHolder": "Add comments...",
+        "remaining": " characters remaining",
+        "remainingBalance": "You have {{remainingDays}}/{{totalDays}} days remaining",
+        "noBalance": "You have used all {{totalDays}} days of your balance",
+        "validations": {
+          "invalidPartialActivityCodeNumHours": "This activity must be between {{partialDayRequestMinHours}}-{{partialDayRequestMaxHours}} hours",
+          "invalidPartialActivityHours": "Must be after Start time",
+          "extraHoursIntervalConsumingShift": "Extra hours must be out of the shift",
+          "invalidDaysBalance": "You only have {{remaining}} days left in your balance",
+          "invalidHoursBalance": "You only have {{remainingBalanceHoursString}} hours left in your balance",
+          "noRemainingDaysBalance": "You don't have any remaining days for this activity",
+          "selfIntervalAutoTime": "All slots in the selected time range are not available for auto-approval time-off",
+          "selfIntervalManagerTime": "All slots in the selected time range are not available for approval required time-off",
+          "selfExtraHoursAutoTime": "All slots in the selected time range are not available for auto-approval extra hours",
+          "selfExtraHoursTime": "All slots in the selected time range are not available for approval required extra hours",
+          "overlappingRequests": "You already have a pending request at this time",
+          "overlappingShiftTradeRequests": "You have a pending trade request in this time frame",
+          "REQUEST_CREATION_TIME_DAYS_IN_ADVANCE": "The request must be submitted at least {{DAYS_IN_ADVANCE}} days in advance",
+          "REQUEST_CREATION_TIME_SAME_DAY": "You can only make same-day requests for this activity.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_FUTURE": "You can only make requests for up to {{MAX_DAYS_IN_FUTURE}} days from now.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_PAST": "You can only make requests for up to {{MAX_DAYS_IN_PAST}} days before today.",
+          "AGENT_SENIORITY": "You have to work at least {{AGENT_MINIMUM_SENIORITY_DAYS}} days to submit this request.",
+          "AGENT_BALANCE": "You don't have enough time-off balance.",
+          "AGENT_BALANCE_FOR_EH": "You don't have enough extra hours balance.",
+          "AGENT_MAX_HOURS_A_DAY": "Hours exceed maximum daily limit",
+          "AGENT_MAX_HOURS_A_WEEK": "Hours exceed maximum weekly limit",
+          "SCHEDULING_UNIT_BALANCE": "You cannot request time-off for this time slot.",
+          "SCHEDULING_UNIT_STAFFING": "The staffing level is too low for the selected activity/days",
+          "SCHEDULING_UNIT_NO_PUBLISHED_SCHEDULE": "There's no forecast or published schedule for the selected activity/days",
+          "invalidPartialFulldayTO": "Partial time-off must be less than the total shift length"
+        }
+      },
+      "comparisonModal": {
+        "viewFromScheduleManager": "Schedule Manager",
+        "requestExceedingRange": "This request is for {{totalDays}} days, from {{fromDate}} to {{toDate}}. To view the agent's full schedule, click ",
+        "agentTitle": "My Schedule Requests",
+        "managerTitle": "Schedule Requests",
+        "currentSchedule": "Current schedule",
+        "revisedSchedule": "Revised schedule",
+        "requestUpdatedWarning": "This request was recently updated."
+      }
+    },
+    "agentScheduleCancellation": {
+      "messages": {
+        "confirmationNo": "Stay",
+        "confirmationYes": "Cancel Request",
+        "confirmationMessage1": "Cancel request?",
+        "confirmationMessage2": "Your schedule will revert back to the previous state.",
+        "canNotCancelTimeOff": "Cannot Cancel Time off",
+        "internalError": "An internal server error occurred. Try again."
+      }
+    }
+  },
+  "requestsPage": {
+    "pageTitle": "Requests",
+    "tabs": {
+      "timeOff": "Activity Requests",
+      "trades": "Shift Trade Requests"
+    }
+  },
+  "timeOffRequestsPage": {
+    "pageTitle": "Requests",
+    "filters": {
+      "noAvailableSchedulingUnits": "Couldn't load scheduling unit filter. All scheduling unit requests are displayed.",
+      "multiSelectSchedulingUnitsPlaceholder": "{{count}} Scheduling units",
+      "disabledMultiSelectSchedulingUnitsPlaceholder": "All",
+      "showOnlyPendingRequests": "Show pending only",
+      "NoPendingRequests": "No pending requests",
+      "gridLabel": "{{pendingRequests}} pending out of {{totalRequests}} requests",
+      "pendingOnlyGridLabel": "{{pendingRequests}} pending requests",
+      "loadTimeZonesFailure": "Couldn't load time zones. Refresh the page."
+    },
+    "item": "Request",
+    "items": "Requests",
+    "newItems": "Pending",
+    "selectedItems": "{{selectedCount}} selected",
+    "managerComment": {
+      "remaining": "{{currentLength}} characters remaining"
+    },
+    "gridColumnsHeaders": {
+      "requestOn": "Requested On",
+      "requestBy": "Requested By",
+      "activityType": "Activity Type",
+      "status": "Status",
+      "reviewedBy": "Reviewed By",
+      "empty": "",
+      "actions": "Actions",
+      "dates": "Requested Dates"
+    },
+    "reviewedBy": "Reviewed by",
+    "requestOn": "Requested on",
+    "fullDay": "Full day",
+    "days": "days",
+    "day": "day",
+    "system": "System",
+    "decline": "Decline",
+    "accept": "Accept",
+    "gridNoRowsOverlay": "No requests created yet",
+    "viewInScheduler": "View in scheduler",
+    "by": "By",
+    "deletedActivityTitle": "Deleted activity",
+    "statuses": {
+      "button_approved": "Approve",
+      "approved": "Approved",
+      "button_declined": "Decline",
+      "declined": "Declined",
+      "pending": "Pending",
+      "new": "New",
+      "discarded": "Discarded",
+      "auto_approved": "Auto Approved",
+      "auto_declined": "Auto Declined",
+      "cancelled_approved_request": "Canceled - Approved Request"
+    },
+    "messages": {
+      "updateSuccess": "Request updated successfully.",
+      "updateFailed": "Failed to update Time Off Request.",
+      "updateApprovedError": "Couldn't approve this request. Try again later.",
+      "updateDeclinedError": "Couldn't decline this request. Try again later.",
+      "managerApproveRequestWhichAlreadyApproved": "Couldn't approve this request. Another manager already approved it.",
+      "managerApproveRequestWhichAlreadyDeclined": "Couldn't approve this request. Another manager already declined it.",
+      "managerDeclinedRequestWhichAlreadyDeclined": "Couldn't decline this request. Another manager already declined it.",
+      "managerDeclinedRequestWhichAlreadyApproved": "Couldn't decline this request. Another manager already approved it.",
+      "managerApproveDiscardedRequest": "Couldn't approve the request. The schedule was changed and the request cancelled.",
+      "managerDeclinedDiscardedRequest": "Couldn't decline the request. The schedule was changed and the request cancelled.",
+      "updateApprovedAgentError": "Couldn't approve this request. The employee canceled or updated it.",
+      "updateDeclinedAgentError": "Couldn't decline this request. The employee canceled or updated it.",
+      "netStaffingError": "Could not get net staffing data. Try again later.",
+      "loadAllRequestsFailure": "Couldn't display all requests. Try again.",
+      "requestStatusUpdatedWarning": "This request was either handled or deleted."
+    },
+    "typeComment": "Type comment..."
+  },
+  "myTimeOffRequests": {
+    "pageTitle": "Schedule Requests",
+    "gridHeaderPlaceholder": "Start typing to find a request",
+    "scheduleRequestsTitle": "Schedule Requests",
+    "newButton": "New Request",
+    "timeOffStatusButton": "Time-Off Balance",
+    "items": "Requests",
+    "item": "Request",
+    "gridNoRowsOverlay": "No request was created yet",
+    "gridColumns": {
+      "dates": "REQUESTED DATES",
+      "time": "REQUESTED TIME",
+      "requestOn": "REQUESTED ON",
+      "activityType": "ACTIVITY TYPE",
+      "comments": "AGENT COMMENT",
+      "status": "STATUS",
+      "statusUpdateComment": "REVIEWED BY"
+    },
+    "by": "By",
+    "system": "System",
+    "fullDay": "Full day",
+    "days": "days",
+    "noComments": "No Comments",
+    "cancelRequest": "Cancel",
+    "deletedActivity": "Deleted activity",
+    "requestStatusType": {
+      "approved": "approved",
+      "declined": "declined",
+      "pending": "pending",
+      "canceled": "canceled",
+      "discarded": "discarded",
+      "auto_approved": "approved",
+      "auto_declined": "declined",
+      "canceled_approved_request": "Canceled - Approved Request"
+    },
+    "modal": {
+      "title": "New Time Off Request"
+    },
+    "myTimeOffbalanceModal": {
+      "title": "My Time-Off Balance",
+      "activity": "Activity",
+      "total": "total",
+      "taken": "taken",
+      "earned": "earned",
+      "scheduled": "scheduled",
+      "remaining": "Remaining",
+      "usage": "Usage",
+      "invalidRemainingDays": "You don't have any remaining days for this activity"
+    },
+    "messages": {
+      "createSuccess": "New Time Off Request has been created",
+      "createFailed": "Failed to create Time Off Request",
+      "cancelSuccess": "Time Off Request has been canceled",
+      "cancelFailed": "Failed to cancel time off request"
+    }
+  },
+  "shiftTradeRequestsPage": {
+    "pageTitle": "Shift Trade",
+    "item": "Request",
+    "items": "Requests",
+    "selectedItems": "{{selectedCount}} selected",
+    "gridColumnsHeaders": {
+      "requestOn": "Requested On",
+      "requestBy": "Requested By",
+      "tradeWith": "Trade With",
+      "activityType": "Activity Type",
+      "status": "Status",
+      "reviewedBy": "Reviewed By",
+      "viewTrade": " View Trade",
+      "empty": " ",
+      "actions": "Actions",
+      "dates": "Requested Dates",
+      "requestedDate": "Requested Date",
+      "requestedTime": "Requested Time",
+      "tradeType": "Request Type",
+      "userComment": "User Comment"
+    },
+    "decline": "Decline",
+    "accept": "Accept",
+    "gridNoRowsOverlay": "No request was created yet",
+    "viewTrade": "View trade",
+    "by": "By",
+    "system": "System",
+    "statuses": {
+      "button_approved": "Approve",
+      "approved": "Approved",
+      "button_declined": "Decline",
+      "declined": "Declined",
+      "pending": "Pending",
+      "new": "New"
+    },
+    "tradeRequestStatus": {
+      "ACCEPTED_BY_REQUESTEE": "Accepted",
+      "CREATED": "Pending",
+      "CANCELED_BY_REQUESTOR": "Cancelled",
+      "REJECTED_BY_REQUESTEE": "Rejected",
+      "WITHDRAW_BY_REQUESTEE": "Withdraw",
+      "APPROVED_BY_MANAGER": "Approved",
+      "DECLINED_BY_MANAGER": "Declined",
+      "APPROVED_BY_SYSTEM": "Approved",
+      "DECLINED_BY_SYSTEM": "Declined",
+      "CANCELED_BY_SYSTEM": "Cancelled",
+      "EXPIRED": "Expired",
+      "Errored": "Errored"
+    },
+    "messages": {
+      "updateSuccess": "Shift trade request updated successfully.",
+      "updateFailed": "Failed to update Shift Trade Request"
+    }
+  },
+  "timeOffPlanning": {
+    "rules": {
+      "pageTitle": "Rules",
+      "newButton": "New Rule",
+      "item": "Rule",
+      "items": "Rules",
+      "upTo": "Up to",
+      "errorRead": "An error occurred while loading time off rules.",
+      "deleteSelectedRulesMsg": "Are you sure you want to delete the selected rules?",
+      "deleteSingleRuleMsg": "Are you sure you want to delete this rule?",
+      "errorDelete": "An error occurred while deleting the time off rule.",
+      "successDelete": "Time off rule has been successfully removed",
+      "gridNoRowsOverlay": "No rules created yet",
+      "gridColumns": {
+        "name": "Name",
+        "allotmentType": "Allotment Type",
+        "allottedDays": "Allotted Days",
+        "schedulingUnit": "Scheduling Unit",
+        "activityCodes": "Activity Codes"
+      },
+      "createNewRule": {
+        "pageTitle": "Create New Rule",
+        "namePlaceholder": "Name",
+        "schedulingUnit": "Scheduling unit",
+        "schedulingUnitPlaceholder": "Select scheduling unit",
+        "activityCodes": "Activity codes",
+        "activityCodesPlaceholder": "Select activity codes",
+        "allotment": "Allotment",
+        "years": "Years",
+        "daysPerYears": "Days / Year",
+        "fixedAmount": "Fixed amount",
+        "seniorityBased": "Seniority based",
+        "seniority": "Seniority",
+        "errorAdd": "An error occurred while creating the time off rule.",
+        "successAdd": "New rule created successfully.",
+        "timeOffAccrual": "Time off accrual:",
+        "percentPerMonth": "% per month",
+        "confirmations": {
+          "warningMessage": "All changes will be lost.",
+          "confirmMessage": "Are you sure you want to exit without saving?"
+        }
+      },
+      "editRule": {
+        "pageTitle": "Edit Rule",
+        "successUpdate": "Time off rule has been edited successfully",
+        "errorUpdate": "An error occurred while updating the time off rule."
+      },
+      "alertModal": {
+        "modalTitle": "Rule Already Exists",
+        "modalContent": "There is already a rule for this activity/scheduling unit. Do you want to override it?"
+      }
+    },
+    "summary": {
+      "pageTitle": "Summary",
+      "editAllocation": "Manual allocation will disconnect the agent from the rule until next year. Continue?",
+      "activityType": "activity type",
+      "gridColumns": {
+        "employee": "employee",
+        "daysPerYear": "days per year",
+        "daysYear": "days / year",
+        "daysTaken": "days taken",
+        "used": "used",
+        "earned": "earned",
+        "accruals": "accruals",
+        "scheduled": "scheduled",
+        "remaining": "remaining"
+      },
+      "gridAlert": {
+        "thisValueCannot": "This value cannot",
+        "exceedYearDays": "exceed 365 days"
+      },
+      "warningMessageModal": {
+        "title": "Leave Page?",
+        "unsavedChanges": "You have unsaved data.",
+        "areYouSureLeavePage": "Are you sure you want to leave without saving?"
+      },
+      "edited": "Edited",
+      "NA": "N/A",
+      "userIsNotAssignedToWeeklyRule": "Cannot calculate balance. This user is not assigned to any rule."
+    }
+  },
+  "userManagementPage": {
+    "dragText": "Drag here to set priority",
+    "noPreference": "No preference",
+    "pageTitle": "Employees",
+    "newUserBtn": "New Employee",
+    "importUsersBtn": "Import Employees",
+    "userListHeader": "Employees in {{orgName}}:",
+    "items": "employees",
+    "item": "employee",
+    "selectedItems": "{{selectedCount}} selected",
+    "gridColumnsHeaders": {
+      "name": "Name",
+      "email": "Email",
+      "acdLogin": "ACD Login",
+      "role": "Role",
+      "state": "State",
+      "group": "Scheduling Unit"
+    },
+    "filters": {
+      "schedulingUnits": "{{count}} Scheduling units",
+      "skills": "{{count}} Skills",
+      "groups": "{{count}} Groups",
+      "searchPlaceholder": "Start typing to find employee"
+    },
+    "popover": {
+      "acdLoginLbl": "ACD Login",
+      "hireDateLbl": "Hire date: {{value}}",
+      "rankLbl": "Rank: {{value}}",
+      "skillsLbl": "Skills: {{value}}"
+    },
+    "preferencesTab": {
+      "shiftPreferencesTitle": "Shift Preferences",
+      "TimePreferencesTitle": "Time Off preferences",
+      "TimePreferencesSubTitle": "No days off avaliable",
+      "PossibleDaysOff": "Possible days off",
+      "day": "day",
+      "shiftTime": "shift time",
+      "noOptionsAvailable": "This employee is assigned to rules with no flexibility so shifts are fixed, no preferencing available",
+      "noOptionsAvailableForShift": "No Shift Assigned.",
+      "noPreference": "No preference"
+    },
+    "userStates": {
+      "active": "Active",
+      "pending": "Pending",
+      "unregistered": "Invite",
+      "inviting": "Sending"
+    },
+    "balkOperationsBtns": {
+      "inviteBtn": "Invite",
+      "deleteBtn": "Delete",
+      "tooltips": {
+        "invite": "Invite employee",
+        "delete": "Delete employee"
+      }
+    },
+    "status": {
+      "invite": "Invite"
+    },
+    "tabLabels": {
+      "general": "General",
+      "skills": "Skills",
+      "availability": "Availability",
+      "preferences": "Preferences"
+    },
+    "deleteSelectedUsersMsg": "You are about to delete the selected employees. This action can't be undone. Continue?",
+    "deleteSingleUsersMsg": "You are about to delete this employee. This action cannot be undone. Continue?",
+    "inviteSelectedUsersMsg": "The selected employees will be invited to join this application. Continue?",
+    "reinviteUsersMsg": "Invitation expired. Verify the email address and try again.",
+    "reinviteBtnText": "Resend",
+    "inviteUsersSuccessMsg": "Employees were successfully invited",
+    "inviteUsersWarnMsg": "Employees were already Active",
+    "inviteUsersFailureMsg": "Inviting employees failed",
+    "deleteSingleUserSuccessMsg": "Employee was deleted successfully. Future schedules of this employee have been deleted.",
+    "deleteSingleUserFailureMsg": "Employee could not be deleted",
+    "deleteUsersSuccessMsg": "{{numOfUsers}} employees were deleted successfully. Future schedules of these employees have been deleted.",
+    "deleteUsersFailureMsg": "{{numOfFailedToDeleteUsers}} out of {{totalExpected}} employees could not be deleted",
+    "deleteLoggedInUser": "You cannot delete your own employee"
+  },
+  "automaticApprovalRulesPage": {
+    "pageTitle": "Approval Rules",
+    "searchPlaceholderText": "Start typing to find a rule",
+    "newRule": "New Rule",
+    "rule": "rule",
+    "rules": "rules",
+    "CreateNewRulePageTitle": "Create new rule",
+    "deleteSingleRuleMsg": "Are you sure you want to delete this rule?",
+    "gridNoRowsOverlay": {
+      "none": "No results found",
+      "empty": "No rules found",
+      "error": "Error loading data"
+    },
+    "showActiveOnly": "Active only",
+    "gridColumnsHeaders": {
+      "name": "Name",
+      "schedulingUnits": "Scheduling Units",
+      "activityCodes": "Activity codes",
+      "occurrence": "occurrence",
+      "Status": "Status"
+    },
+    "statuses": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "broken": "Broken",
+      "expired": "Expired",
+      "pending": "Pending"
+    },
+    "brokenStatusTooltips": {
+      "noSu": "Related scheduling units were deleted. Add new SUs to the rule.",
+      "noAc": "Related activity codes were deleted. Add new activity codes to the rule.",
+      "noSuAndAc": "Related activity codes and scheduling units were deleted. Add new activity codes and SUs to the rule."
+    },
+    "statusesSuccessActions": {
+      "active": "Rule activated successfully",
+      "inactive": "Rule deactivated successfully",
+      "delete": "Rule deleted successfully"
+    },
+    "ruleActions": {
+      "duplicate": "Duplicate",
+      "edit": "Edit",
+      "delete": "Delete",
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    }
+  },
+  "cxone-components": {
+    "dropdowns": {
+      "showing": "Showing",
+      "outof": "out of",
+      "selectall": "Select All",
+      "clearall": "Clear All",
+      "searchingFor": "Searching for",
+      "noresults": "No result found",
+      "footerText": " ",
+      "defaultPlaceholder": {
+        "single": "Select item",
+        "multiple": "Select items"
+      }
+    }
+  },
+  "automaticApprovalNewRulePage": {
+    "newTitle": "New Approval Rule",
+    "editTitle": "Edit Approval Rule",
+    "scheduling_unit": "Scheduling Units",
+    "activity_codes": "Activities",
+    "name": "Name",
+    "conditionsTitle": "Conditions",
+    "agent": "Agent",
+    "agentFirstOption": "Depends on the time-off balance",
+    "agentSecondOption": "Agent seniority",
+    "daysSinceHireDate": "days since hire date",
+    "groupTimeOffBalance": "Group Time-Off Balance",
+    "forAllDays": "For all days",
+    "hours": "hours",
+    "forSpecificDays": "For specific days",
+    "forSpecificDaysDescription": "Select at least one day",
+    "daysList": {
+      "Monday": "Monday",
+      "Tuesday": "Tuesday",
+      "Wednesday": "Wednesday",
+      "Thursday": "Thursday",
+      "Friday": "Friday",
+      "Saturday": "Saturday",
+      "Sunday": "Sunday"
+    },
+    "requestCreationTime": "Request Creation Time",
+    "inAdvance": "In advance",
+    "sameDay": "Same day",
+    "timeFrame": "Time frame",
+    "days": "days",
+    "from": "from",
+    "daysInThePastTo": "days in the past to",
+    "daysInTheFuture": "days in the future",
+    "conditionsNotMet": "When conditions aren't met",
+    "declineAutomatically": "Decline automatically",
+    "sendForManagerApproval": "Send for manager approval",
+    "cancelWarningMsg1": "All changes will be lost.",
+    "cancelWarningMsg2": "Exit without saving?",
+    "successUpdateMsg": "Rule updated successfully.",
+    "successCreateMsg": "Rule created successfully.",
+    "uniqueNameErrorMsg": "A rule with this name already exists"
+  },
+  "automaticApprovalRuleConfig": {
+    "newModeTitle": "New Approval Rule",
+    "editModeTitle": "Edit Approval Rule",
+    "tabs": {
+      "conditions": {
+        "tabTitle": "conditions",
+        "agentTimeOffBalance": "Agent time-off balance",
+        "schedulingUnitTimeOffBalance": "Scheduling unit time-off balance",
+        "dailyBalance": "Daily balance",
+        "hours": "hours",
+        "balanceForCustomDays": "Balance for custom days",
+        "forSpecificDaysDescription": "Select at least 1 day",
+        "daysList": {
+          "Monday": "Monday",
+          "Tuesday": "Tuesday",
+          "Wednesday": "Wednesday",
+          "Thursday": "Thursday",
+          "Friday": "Friday",
+          "Saturday": "Saturday",
+          "Sunday": "Sunday"
+        },
+        "minimumDaysSinceHire": "Minimum days since hire",
+        "submissionTime": "Submission time",
+        "timeRestrictionTypes": {
+          "inAdvance": "In advance",
+          "sameDay": "Same day",
+          "timeFrame": "Within time frame"
+        },
+        "minimumDaysInAdvance": "Minimum days in advance",
+        "maximumDaysBeforeTimeOffDate": "Maximum days before time-off date",
+        "maximumDaysAfterTimeOffDate": "Maximum days after time-off date",
+        "conditionsNotMet": "When at least one selected condition isn’t met",
+        "declineAutomatically": "Decline",
+        "sendForManagerApproval": "Send to manager"
+      },
+      "general": {
+        "tabTitle": "general",
+        "name": "Name",
+        "uniqueNameErrorMsg": "A rule with this name already exists",
+        "schedulingUnit": "Scheduling Units",
+        "activityCodes": "Activities"
+      },
+      "netStaffing": {
+        "tabTitle": "net staffing",
+        "defineNetStaffing": "Define Net Staffing",
+        "noSettingsLabel": "Net staffing not defined yet",
+        "header": {
+          "undoAll": "Undo All",
+          "confirmUndoAll": "Are you sure you want to undo all of the changes you made?",
+          "confirmUndoAllYes": "Undo All",
+          "confirmUndoAllNo": "Cancel",
+          "deleteAll": "Delete All",
+          "confirmDeleteAll": "Are you sure you want to delete all of the net-staffing charts?",
+          "confirmDeleteAllYes": "Delete All",
+          "confirmDeleteAllNo": "Cancel",
+          "legend": {
+            "notDefined": "Not defined",
+            "approve": "Approve",
+            "sendToManager": "Send to manager",
+            "decline": "Decline"
+          }
+        },
+        "conditions": {
+          "daysLabel": "Days:",
+          "addNetStaffingButton": "Add Net Staffing",
+          "autoApproveStepperLabel": "Approve",
+          "autoApproveStepperPercentageLabel": "% and above",
+          "autoDeclineStepperLabel": "Decline",
+          "autoDeclineStepperPercentageLabel": "% and below",
+          "undefinedColumnTooltipLabel": "Not defined",
+          "approveTooltipLabel": "Approve:",
+          "approveTooltipPercentageLabel": "more than",
+          "declineTooltipLabel": "Decline:",
+          "declineTooltipPercentageLabel": "less than",
+          "clearSelectedButtonLabel": "Clear Selected",
+          "menuItems": {
+            "delete": "Delete",
+            "clear": "Clear",
+            "copySettings": "Copy Settings",
+            "pasteSettings": "Paste Settings"
+          }
+        },
+        "footer": {
+          "noScheduleNoForecastLabel": "If there's no forecast or published schedule:"
+        }
+      }
+    }
+  }
+}

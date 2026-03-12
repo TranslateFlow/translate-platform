@@ -1,0 +1,2651 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleLinks": {
+          "manageForms": "Formularmanager",
+          "categoryManager": "Kategoriemanager",
+          "qpPlanManager": "Quality Planner"
+        },
+        "formManagerModuleNameFormatted": "QM-Tools"
+      }
+    }
+  },
+  "metaInfo": {
+    "selfService": {
+      "title": "Support - Downloads"
+    },
+    "title": "Nice SaaS WFM ",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "Anmelden",
+      "description": "Nice SaaS WFM"
+    },
+    "success": {
+      "title": "Erfolg",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "Beispiele",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "Formularbeispiele",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "Mitarbeiter",
+      "description": "Nice SaaS WFM"
+    },
+    "createAccount": {
+      "title": "Konto erstellen",
+      "description": "Nice SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "Aktivitätscodes",
+      "description": "Nice SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " ACD-Zuordnung",
+      "description": "Nice SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "Tagesregeln",
+      "description": "Nice SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "Planungseinheit",
+      "description": "Nice SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "Einladung abgelaufen",
+      "description": "Nice SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "Zeitplan generieren",
+      "description": "Nice SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "Mein Zeitplan",
+      "description": "Nice SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "Mein Dashboard",
+      "description": "Nice SaaS WFM"
+    },
+    "categoryManager": {
+      "title": "Kategoriemanager",
+      "description": "Nice SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "Ui Kit-Galerie",
+      "description": "Nice SaaS WFM",
+      "userRoles": "{{selectedCount}} Mitarbeiterrollen"
+    },
+    "manageForms": {
+      "title": "Formularmanager",
+      "description": "Nice SaaS WFM"
+    },
+    "templateManager": {
+      "title": "Vorlagenmanager",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "Formulardesigner",
+      "description": "Nice SaaS WFM"
+    },
+    "qpPlanManager": {
+      "title": "Quality Planner",
+      "description": "Quality Planner"
+    },
+    "qpPlanDetails": {
+      "title": "Quality Planner",
+      "description": "Quality Planner"
+    },
+    "workflowFormSelector": {
+      "title": "Arbeitsablauf Formularauswahl",
+      "description": "Arbeitsablauf Formularauswahl"
+    },
+    "interactionPlayer": {
+      "title": "Interaction Player",
+      "description": "Interaction Player"
+    },
+    "planDetails": {
+      "title": "Plan-Monitoring-Details",
+      "description": "Plan-Monitoring-Details"
+    },
+    "formDesignerOld": {
+      "title": "Formulardesigner",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesignerNew": {
+      "title": "Formulardesigner",
+      "description": "Nice SaaS WFM"
+    },
+    "ng1FormDesignerPage": {
+      "title": "Formulardesigner",
+      "description": "Nice SaaS WFM"
+    },
+    "ng2FormDesignerPage": {
+      "title": "Formulardesigner",
+      "description": "Nice SaaS WFM"
+    },
+    "qmScoreMetric": {
+      "title": "QM-Ergebnismetrik",
+      "description": "QM-Ergebnismetrik"
+    },
+    "qpPlanDetailsTicket": {
+      "title": "Quality Planner-Ticket",
+      "description": "Quality Planner-Ticket"
+    }
+  },
+  "globalNavigation": {
+    "sideBar": {
+      "setupAppName": "ADMIN",
+      "setupAppLinks": {
+        "users": "Mitarbeiter",
+        "skills": "Skills",
+        "groups": "Gruppen"
+      },
+      "schedulerAppName": "PLANER",
+      "schedulerAppLinks": {
+        "activityCodes": "Aktivitätscodes",
+        "realTimeAdherence": "Echtzeit-Einhaltung",
+        "acdActivitiesMapping": "ACD-Zuordnung",
+        "managementUnits": "Planungseinheit",
+        "scheduler": "Planungsmanager",
+        "generateSchedule": "Zeitplan generieren",
+        "dailyRule": "Tagesregeln",
+        "weeklyRules": "Wochenregeln",
+        "forecastData": "Prognosedaten importieren"
+      },
+      "mySpaceAppName": "MY SPACE",
+      "mySpaceAppLinks": {
+        "mySchedule": "Mein Zeitplan",
+        "myDashboard": "Mein Dashboard",
+        "myTasks": "Meine Aufgaben",
+        "myEvaluations": "Meine Bewertungen",
+        "performanceMonitoring": "Leistungs-Monitoring",
+        "plansMonitoring": "Plan-Monitoring",
+        "calibration": "Kalibrierung"
+      },
+      "formManagerAppName": "QM-TOOLS",
+      "formManagerAppLinks": {
+        "manageForms": "Formularmanager",
+        "formDesigner": "Formulardesigner",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "Vorlagenmanager"
+      }
+    },
+    "wfmHeader": {
+      "contactUs": "Kontakt",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "Abmelden",
+      "changePasswordOption": "Passwort ändern",
+      "accountSetupOption": "Kontoeinrichtung",
+      "myProfileOption": "My Profile",
+      "help": "Hilfe",
+      "selfService": "Support - Downloads"
+    }
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Anmeldefehler"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Allgemeiner Fehler"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "Diese Seite ist nicht verfügbar. Bitte prüfen Sie Ihre Verbindung und versuchen Sie es erneut."
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Allgemeiner Fehler: {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Ungültige Parameter"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Nicht autorisierter Mitarbeiter"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "Der Server antwortet nicht. Bitte versuchen Sie es später erneut."
+    },
+    "wrongCredentials": "Sie haben eine falsche E-Mail-Adresse oder ein falsches Passwort eingegeben",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interner Serverfehler."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interner Fehler."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "Planungseinheit existiert nicht."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "Dieser Name existiert bereits. Verwenden Sie einen anderen."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "Mandant oder Mitarbeiter existiert bereits. Verwenden Sie einen anderen."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "Die E-Mail-Adresse existiert bereits. Verwenden Sie eine andere"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "Datei existiert nicht."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "Mitarbeiter existiert nicht"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "Keine Mitarbeiter für Einladung vorhanden."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "Erstellung des Mitarbeiters fehlgeschlagen."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "Ungültiger Mitarbeiterstatus"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "Ungültiger Organisationsname"
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Ungültige E-Mail-Adresse."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "Ungültiger Vorname für Mitarbeiter."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "Ungültiger Nachname für Mitarbeiter."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "Standard-Planungseinheit kann nicht gelöscht werden."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "Planungseinheit-ID fehlt."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "Maximale Stunden des Mitarbeiters nicht im Bereich."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "Mitarbeiterpasswort ist ungültig."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "Standardgruppe kann nicht aktualisiert werden."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "Mitarbeiter in Standardgruppe können nicht entfernt werden."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "Falsches Mitarbeiterpasswort."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "Mitarbeiter existiert nicht."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "Sie können Ihren eigenen Mitarbeiter nicht löschen"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "Der einzige Administrator kann nicht gelöscht werden"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "Ein bereits gelöschter Mitarbeiter kann nicht gelöscht werden"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "Ungültiger Passwort-Token"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "Erstellung des Kontos fehlgeschlagen"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "Organisationsname ist ungültig"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "Das Dateiformat wird nicht unterstützt"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "Sie haben nicht die Berechtigung, die Rolle zu ändern"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "Sie können Ihre eigene Rolle nicht ändern"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "Letzter Administrator kann nicht gelöscht werden."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "Dieser Name ist bereits vorhanden. Versuchen Sie es mit einer anderen."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "Passwörter können nicht geändert werden, da vorheriges und neues Passwort gleich sind."
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD-Anmelde-ID existiert bereits"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "Durch den neuen Benutzer wird das Benutzerlimit überschritten. Bitte kontaktieren Sie den Vertrieb unter CXoneSalesTeam@niceincontact.com"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interner Serverfehler."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interner Fehler."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "Dieser Name ist bereits vorhanden. Versuchen Sie es mit einer anderen."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "Skill existiert nicht."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "Einem Mitarbeiter können nicht mehr als 50 Skills zugewiesen sein."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "Der Skillname ist ungültig"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "Wochenregel ist leer"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "falsche Wochenregel"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "falscher Tagesbereich für Wochenregel"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "falscher Stundenbereich für Wochenregel"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "WERT FÜR MAX. SCHICHTEN MIT WOCHENREGEL IST KLEINER ALS GESAMTWERT VON MINDESTTAGE MIT TAGESREGEL"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "WERT FÜR MINDESTSCHICHTEN MIT WOCHENREGEL IST KLEINER ALS GESAMTWERT VON MAXIMALTAGE MIT TAGESREGEL"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "GESAMTSUMME FÜR TÄGLICHE MINDESTSTUNDEN IST GRÖSSER ALS WÖCHENTLICHE MAXIMALSTUNDEN"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "GESAMTSUMME TÄGLICHER MAXIMALSTUNDEN IST KLEINER ALS WÖCHENTLICHE MINDESTSTUNDEN"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "GESAMTSUMME MÖGLICHER TAGE IST KLEINER ALS DIE ENTSPRECHENDEN MINDESTTAGE DER TAGESREGEL"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "GESAMTSUMME ALLER EINDEUTIGEN MÖGLICHEN TAGE IST KLEINER ALS DIE GESAMTSUMME DER MINDESTSCHICHTEN PRO TAGESREGEL"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "ES WURDE KEIN NAME FÜR DIE WOCHENREGEL EINGEGEBEN"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "TAGESREGELN SIND LEER"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "GESAMTSUMME ALLER EINDEUTIGEN MÖGLICHEN TAGE IST KLEINER ALS MINDESTSCHICHTEN PRO WOCHE"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "Das Datumsformat ist ungültig"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "Der Zeitraum zwischen den zwei Daten ist ungültig"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Es ist ein interner Serverfehler aufgetreten"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "Es ist ein interner Fehler aufgetreten"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "Das Dateiformat wird nicht unterstützt"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "Die Datensätze der Datei konnten nicht gelesen werden"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Die erwarteten Spaltentitel konnten nicht gefunden werden. Prüfen Sie die Beispieldatei."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Skills fehlen im System"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "Planungseinheiten fehlen in der Datei"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "Frühestmöglicher täglicher Beginn liegt nach dem spätesten Beginn"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "Schrittweitenformat ist falsch"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "Beginnzeiten für Tagesregeln befinden sich nicht im korrekten Bereich"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "Länge der täglichen Aktivität ist größer als die Länge der Tagesregel"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Pufferformat ist falsch"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "Relative Startzeit ist kleiner als die Pufferzeit"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "Summe der Aktivitätsdauer ist größer als die tägliche Länge"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "Es existieren keine gültigen Aktivitätskombinationen"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "Aktivitätscode übersteigt Tagesregel-Schicht"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "Das Dateiformat wird nicht unterstützt"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "Der Name des Aktivitätscodes ist ungültig"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "Zeitzone in Planungseinheit ist falsch"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "Standard-Aktivitätscode kann nicht gelöscht werden"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "Bitte eine Vorlage auswählen"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "Vorlagen-ID ist ungültig"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "Formularname existiert bereits"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interner Serverfehler."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interner Fehler."
+    },
+    "qp_data_service_1": {
+      "code": "DUPLICATE_PLAN_NAME_ERROR",
+      "message": "Planname existiert bereits"
+    },
+    "qp_data_service_12": {
+      "code": "FORM_NOT_ACTIVE",
+      "message": "Bewertungsformular ist nicht aktiv."
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "Bitte überprüfen Sie Ihre Details und versuchen Sie es erneut"
+    },
+    "qp_data_service_10": {
+      "code": "Invalid License",
+      "message": "Invalid License"
+    }
+  },
+  "manageFormsPage": {
+    "gridColumnsHeaders": {
+      "form": "Formularname",
+      "status": "Status",
+      "lastModified": "Zuletzt geändert",
+      "actions": "Aktionen",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "draft": "Entwurf",
+      "version": "Version",
+      "bulkOperationsBtns": {
+        "activate": "Aktivieren",
+        "delete": "Löschen",
+        "deactivate": "Deaktivieren"
+      },
+      "createdBy": "Erstellt von"
+    },
+    "pageTitle": "Formularmanager",
+    "createForm": "Neues Formular",
+    "items": "Formulare",
+    "item": "Formular",
+    "noItemsOverlay": "Keine Übereinstimmung gefunden",
+    "errorRead": "Beim Laden der Formulare ist ein Fehler aufgetreten",
+    "modals": {
+      "cancel": "Abbrechen",
+      "change": "Ändern"
+    },
+    "EVALUATION": {
+      "saveDuplicateFormModal": {
+        "addHeader": "Formular duplizieren",
+        "subHeading": "FORMULARNAME",
+        "errors": {
+          "uniqueTitle": "Dieser Name ist bereits vorhanden. Versuchen Sie es mit einer anderen."
+        }
+      },
+      "renameFormModal": {
+        "header": "Formular umbenennen",
+        "subHeading": "FORMULARNAME"
+      },
+      "gridColumnsHeaders": {
+        "title": "Formularname"
+      },
+      "itemCount": "{{count}} Formulare",
+      "itemSearchPlaceholder": "Beginnen Sie mit der Eingabe, um Formulare zu finden",
+      "successAdd": "Formular erfolgreich hinzugefügt.",
+      "successDuplicate": "Formular erfolgreich dupliziert.",
+      "failAdd": "Hinzufügen des neuen Formulars fehlgeschlagen. Versuchen Sie es erneut.",
+      "successPublish": "Formular(e) erfolgreich aktiviert.",
+      "successUnpublish": "Formular(e) erfolgreich deaktiviert.",
+      "successDelete": "Formular(e) erfolgreich gelöscht.",
+      "successMultiPublish": "Formular(e) erfolgreich aktiviert.",
+      "successRename": "Formular erfolgreich umbenannt.",
+      "failedRename": "Formularname existiert bereits.",
+      "popover": {
+        "messagePublish": "Ausgewählte Formulare aktivieren?",
+        "messageUnpublish": "Die Formulare deaktivieren? Das kann sich auf vorhandene Workflows auswirken.",
+        "deleteSelectedFormsMsg": "Ausgewählte Formulare löschen? Dieser Vorgang kann nicht rückgängig gemacht werden und kann sich auf vorhandene Workflows auswirken.",
+        "deleteSingleFormMsg": "Ausgewähltes Formular löschen? Diese Aktion kann nicht rückgängig gemacht werden und sich auf existierende Arbeitsabläufe auswirken.",
+        "activeFormsCannotBeDeleted": "Aktive Formulare können nicht gelöscht werden. Deaktivieren Sie die Formulare und versuchen Sie es erneut.",
+        "deleteSingleDraftFormMsg": "Ausgewähltes Formular löschen? Diese Aktion kann nicht rückgängig gemacht werden."
+      },
+      "errorMsg": {
+        "alreadyPublished": "Formular(e) bereits aktiv.",
+        "alreadyUnpublished": "Einige Formulare befinden sich im Entwurfsmodus oder sind inaktiv und können nicht deaktiviert werden. Aktivieren Sie die Formulare und versuchen Sie es erneut.",
+        "multiFormDelete": "Einige der Formulare sind aktiv und können nicht gelöscht werden. Deaktivieren Sie die Formulare und versuchen Sie es erneut.",
+        "noFormToDelete": "Keine Formulare zum Löschen vorhanden."
+      }
+    },
+    "moreMenu": {
+      "activate": "Aktivieren",
+      "deactivate": "Deaktivieren",
+      "duplicate": "Kopieren",
+      "rename": "Umbenennen"
+    },
+    "successRename": "Das Formular wurde erfolgreich umbenannt",
+    "errorMsg": {
+      "singleFormDelete": "Aktive Formulare können nicht gelöscht werden. Das Formular muss zuerst deaktiviert werden",
+      "publishErrorNoWorkflowSettings": "Aktivierung fehlgeschlagen. Einstellungen für den Arbeitsablauf müssen festgelegt werden",
+      "publishErrorNoWorkflowSettingsMulti": "Aktivierung einiger Formulare fehlgeschlagen. Einstellungen für diese Formulare müssen festgelegt werden"
+    }
+  },
+  "formDesignerPage": {
+    "pageTitle": "Neues Formular erstellen",
+    "manageFormsBreadcrumb": "Formularmanager",
+    "saveAsDraft": "Als Entwurf speichern",
+    "save": "Speichern",
+    "score": "Score",
+    "activate": "Speichern & aktivieren",
+    "inActivate": "Deaktivieren",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "preview": "Vorschau",
+    "errorRead": "Fehler beim Laden des Formulardesigners",
+    "errorInteraction": "Keine Interaktion verfügbar",
+    "criticalQuestionsValidationError": "{{ count }} Fragen enthalten Fehler. Überprüfen Sie die Fehler und speichern Sie dann erneut",
+    "criticalQuestionValidationError": "Bitte definieren Sie mindestens eine richtige und eine falsche Antwort",
+    "criticalQuestionEnableScoringHelpHeader": "Bewertung aktivieren",
+    "criticalQuestionEnableScoringHelpText": "Aktivieren Sie die Bewertung, um diese Frage als kritische Frage zu markieren.",
+    "criticalQuestionHelpHeader": "Kritische Frage",
+    "criticalQuestionHelpText": "Diese Frage adressiert kritische Elemente einer Interaktion. Eine kritische Frage falsch zu beantworten, führt zu einer fehlgeschlagenen Agentenbewertung.",
+    "criticalQuestionAnswersHelpText": "Markieren Sie, welche Antworten zu einer fehlgeschlagenen Bewertung führen. Es muss jeweils mindestens eine falsche und eine richtige Antwort definiert werden.",
+    "criticalQuestionAnswersErrorMessage": "Sie müssen mindestens eine richtige und eine falsche Antwort definieren.",
+    "criticalQuestionToolTip": "Dies ist eine kritische Frage. Wird diese falsch beantwortet, wird die Bewertung auf 0 zurückgesetzt.",
+    "formTitle": {
+      "title": "Titel eingeben",
+      "subTitle": "Untertitel eingeben"
+    },
+    "saveFormModal": {
+      "saveFormHeader": "Formular speichern",
+      "activeFormHeader": "Formular aktivieren",
+      "formPlaceholder": "Formularname eingeben",
+      "popover": {
+        "message1": "Alle Änderungen gehen verloren",
+        "message2": "Möchten Sie wirklich beenden, ohne zu speichern?"
+      }
+    },
+    "scoreFormModal": {
+      "addHeader": "Bewertung",
+      "enableScoring": "Bewertung aktivieren",
+      "calculatedScore": "Berechnete gewichtete Bewertung",
+      "currentPoints": "Aktuelle Punktzahl",
+      "maxPoints": "Max. Punktzahl:",
+      "maxScoreZeroMessage": "Die Mindestpunktzahl muss mehr als 0 sein.",
+      "scorable": "Bewertbar",
+      "outOf": "von",
+      "saveLabel": "Speichern",
+      "setScoring": "BEWERTUNG FESTLEGEN",
+      "setRanking": "RANKING FESTLEGEN",
+      "enableRanking": "Ranking aktivieren",
+      "rankingNoteMsg": "Hinweis: Das Ranking ersetzt die Punkteanzeige",
+      "setRangeFormScore": "Bereiche für die Formularbewertungen festlegen",
+      "from": "VON",
+      "to": "BIS",
+      "display": "ANZEIGEN",
+      "drpDwnPlaceHolder": "%",
+      "add": "+ Hinzufügen",
+      "ranking": {
+        "defaultFailedLabel": "Fehler",
+        "defaultPassedLabel": "Bestanden",
+        "validationMsg": {
+          "emptyRange": "Leerer Bereich",
+          "completeRange": "Ungültiger Bereich. Die festgelegten Bereiche müssen addiert 100 % ergeben",
+          "invalidRange": "Ungültiger Bereich",
+          "requiredField": "Dieses Feld ist erforderlich."
+        }
+      }
+    },
+    "selectTemplateModal": {
+      "selectThemeHeader": "Vorlage ändern",
+      "selectThemeMsg": "Wählen Sie eine Vorlage für das Formular aus",
+      "customDisclaimer": "Hinweis: Sämtliche Änderungen werden zurückgesetzt"
+    },
+    "elementListComponent": {
+      "component": "ELEMENTE",
+      "selectOption": " {{selectedCount}} Optionen",
+      "errorMsg": "Pflichtfeld",
+      "invalidDate": "Ungültiges Datum",
+      "invalidTime": "Ungültige Uhrzeit",
+      "characters": "Zeichen"
+    },
+    "elementAttributeComponent": {
+      "properties": "EIGENSCHAFTEN",
+      "label": "TITEL",
+      "text": "TEXT",
+      "question": "FRAGE",
+      "subText": "ANLEITUNG",
+      "url": "URL",
+      "prePopulatedHintText": "HINWEISTEXT",
+      "limitCharacters": "Zeichenbeschränkung",
+      "mandatory": "Erforderlich",
+      "criticalQuestion": "Als Kritisch markieren",
+      "visible": "Sichtbar",
+      "layout": "LAYOUT",
+      "vertical": "Vertikal",
+      "horizontal": "Horizontal",
+      "choices": "AUSWAHLMÖGLICHKEITEN",
+      "fontType": "Schriftart",
+      "fontSize": "Größe",
+      "fontIndent": "Ausrichten",
+      "fontColor": "Bezeichnungsfarbe",
+      "fontStyle": "Stil",
+      "addMultiple": "Mehrere hinzufügen",
+      "italics": "Kursiv",
+      "bold": "Fett",
+      "underline": "Unterstrichen",
+      "backgroundColor": "Hintergrundfarbe",
+      "useNA": "n. z. verwenden",
+      "dateLabel": "Datum",
+      "timeLabel": "Zeit",
+      "setCurrentDate": "Aktuelles Datum verwenden",
+      "dateFormat": "Datumsformat",
+      "displayDate": "Datum anzeigen",
+      "setCurrentTime": "Aktuelle Uhrzeit verwenden",
+      "startTime": "Startzeit",
+      "single": "Einzelauswahl",
+      "multiple": "Mehrfachauswahl",
+      "addList": "Liste der Werte",
+      "image": "BILD",
+      "fileUploadErrorExtensionMsg": "Dateityp ungültig. Unterstützte Formate: JPG, PNG, GIF, BMP, JPEG",
+      "fileUploadSizeErrorMsg": "Die Datei ist zu groß. Die Datei muss weniger als 2 MB groß sein",
+      "logic": "LOGIK",
+      "addRule": "+ Regel hinzufügen",
+      "rule": "Regel",
+      "width": "Breite",
+      "height": "Höhe",
+      "px": "Pixel",
+      "aspectRatio": "Seitenverhältnis sperren",
+      "header": "Kopfzeile",
+      "subTitle": "UNTERTITEL",
+      "browse": "Durchsuchen",
+      "headerFields": {
+        "headerFieldsLabel": "KOPFZEILENFELDER",
+        "headerFieldSelectedOption": " {{selectedCount}} ausgewählt",
+        "AgentName": "Name des Agenten",
+        "ReviewDate": "Prüfdatum",
+        "StartDate": "Bewertung Startdatum",
+        "Duration": "Dauer der Interaktion",
+        "HireDate": "Einstellungsdatum",
+        "InteractionDate": "Interaktionsdatum",
+        "failLoadHeaderFields": "Laden der Kopfzeilenfelder fehlgeschlagen. Versuchen Sie es erneut",
+        "SegmentId": "Segment-ID",
+        "SegmentContactId": "Kontakt-ID"
+      },
+      "NA": "k. A."
+    },
+    "dateTimeComponent": {
+      "at": "bei"
+    },
+    "workFlowSettingsModal": {
+      "header": "Einstellungen",
+      "workflow": "Arbeitsablauf",
+      "agentCanReview": "Agent kann prüfen",
+      "agentCanAcknowledge": "Agent kann bestätigen",
+      "agentCanRequestReview": "Agent kann Prüfung anfordern",
+      "assignedEvaluator": "Zugeordneter Bewerter",
+      "specificEvaluator": "Eine bestimmte Person:",
+      "agentCanViewScoring": "Scores für Agenten anzeigen",
+      "successSave": "Die Einstellungen für den Arbeitsablauf wurden erfolgreich festgelegt",
+      "successUpdate": "Die Einstellungen für den Arbeitsablauf wurden erfolgreich aktualisiert",
+      "workflowStartError": "Fehler beim Starten des Arbeitsablaufs",
+      "qpInteractionsFetchError": "Abrufen zugewiesener Interaktionen fehlgeschlagen",
+      "workflowInteractionsFetchError": "Abrufen bewerteter Interaktionen fehlgeschlagen",
+      "noOptionSelectedErrorMessage": "Pflichtfeld",
+      "getUser": {
+        "error": "Abrufen der Benutzer fehlgeschlagen"
+      }
+    },
+    "warningMessageModal": {
+      "title": "Seite verlassen?",
+      "unsavedChanges": "Es sind nicht gespeicherte Daten vorhanden.",
+      "areYouSureLeavePage": "Möchten Sie wirklich beenden, ohne zu speichern?"
+    },
+    "criticalQuestionMessageModal": {
+      "title": "Regeln wurden unwirksam gemacht",
+      "message1": "Durch das Markieren dieser Frage als kritische Frage werden einige Regeln unwirksam gemacht und entfernt.",
+      "message2": "Möchten Sie wirklich fortfahren?"
+    },
+    "criticalQuestionScoringMessageModal": {
+      "message1": "Sie haben die Bewertung deaktiviert. Wenn Sie jetzt speichern, werden alle kritischen Fragen gelöscht.",
+      "message2": "Möchten Sie wirklich fortfahren?"
+    },
+    "createEditRuleModal": {
+      "header": "Regel festlegen",
+      "ifSelection": "Bei Auswahl von",
+      "ifThe": "Wenn",
+      "addAnotherRule": "Weitere Regel hinzufügen",
+      "hide": "Ausblenden"
+    },
+    "deleteRuleWarningModal": {
+      "title": "Ungültige Regeln entfernt",
+      "rulesRemoved": "Durch die Neuanordnung der Formularfragen wurden einige Regeln ungültig und entfernt.",
+      "wantsToRevert": "Möchten Sie diese Änderungen rückgängig machen?"
+    },
+    "successAdd": "Das neue Formular wurde erfolgreich hinzugefügt",
+    "successPublish": "Formular(e) erfolgreich aktiviert.",
+    "failAdd": "Hinzufügen des neuen Formulars fehlgeschlagen",
+    "failPublish": "Aktivieren des neuen Formulars fehlgeschlagen",
+    "failLoadElements": "Laden der Formularelemente fehlgeschlagen. Versuchen Sie es erneut.",
+    "EVALUATION": {
+      "successAdd": "Formular erfolgreich hinzugefügt.",
+      "successEdit": "Das Formular wurde erfolgreich bearbeitet.",
+      "failAdd": "Hinzufügen des neuen Formulars fehlgeschlagen. Versuchen Sie es erneut.",
+      "saveFormModal": {
+        "saveFormHeader": "Formular speichern",
+        "activeFormHeader": "Formular aktivieren",
+        "formPlaceholder": "Formularname eingeben"
+      },
+      "testFormModal": {
+        "header": "Formular testen",
+        "submit": "Überprüfen"
+      },
+      "popover": {
+        "savePublishFormMsg": "Aktives Formular bearbeiten? Diese Aktion wirkt sich nicht auf bereits verwendete Formulare aus."
+      }
+    },
+    "questionBank": {
+      "questionBank": "Fragen-Datenbank",
+      "elements": "Elemente",
+      "searchBank": "Datenbank durchsuchen",
+      "deleteQuestionPopoverMsg": "Sie sind dabei, die ausgewählte Frage zu löschen. Diese Aktion kann nicht rückgängig gemacht werden. Fortfahren?",
+      "failedLoadQuestionBank": "Laden der Fragen fehlgeschlagen. Bitte versuchen Sie es in ein paar Minuten erneut",
+      "questionDeleteSuccess": "Die Frage wurde erfolgreich gelöscht",
+      "questionDeleteFailed": "Die Frage wurde nicht gelöscht. Bitte versuchen Sie es  in ein paar Minuten erneut",
+      "questionSaveSuccess": "Die Frage wurde erfolgreich gespeichert",
+      "duplicateQuestion": "Diese Frage ist in der Fragen-Datenbank bereits vorhanden",
+      "saveQuestionFailed": "Die Frage wurde nicht gespeichert. Bitte versuchen Sie es in ein paar Minuten erneut"
+    },
+    "elementType": {
+      "section": "Bereich",
+      "yesno": "Ja/Nein",
+      "checkbox": "Kontrollkästchen",
+      "radio": "Optionsschaltfläche",
+      "datetime": "Datum/Uhrzeit",
+      "dropdown": "Drop-down",
+      "hyperlink": "Hyperlink",
+      "label": "Label",
+      "text": "Kurztext",
+      "textarea": "Langtext",
+      "header": "Kopfzeile",
+      "attachment": "Anhang",
+      "interactions": "Interaktion"
+    },
+    "toolTips": {
+      "saveToBank": "In Datenbank speichern",
+      "duplicate": "Kopieren",
+      "logic": "Regeln definieren",
+      "scoring": "Bewertung definieren",
+      "settings": "Einstellungen",
+      "expand": "Erweitern",
+      "collapse": "Reduzieren"
+    },
+    "example": "Beispiel",
+    "objectiveExample": "1. Der Agent lernt das Eskalationsprotokoll",
+    "labels": "Bezeichnungen",
+    "objectives": "Ziele",
+    "duration": "Dauer",
+    "durationErrorMsg": "Pflichtfeld",
+    "hour": "S",
+    "minutes": "M",
+    "attachment": {
+      "insertFile": "Datei einfügen",
+      "tooBigToUpload": "ist zum Hochladen zu groß.",
+      "maxFileSize": "Datei muss kleiner als {{maxSize}} sein.",
+      "fileUploadProgress": "{{loaded}} von {{total}}",
+      "failedFileUpload": "Hochladen der Datei fehlgeschlagen. Versuchen Sie es erneut.",
+      "fileTypeMismatch": "Hochladen der Datei fehlgeschlagen. Typ und Erweiterung der Datei stimmen nicht überein. Versuchen Sie es erneut.",
+      "fileTypeNotAllowed": "Hochladen der Datei fehlgeschlagen. Der Dateityp wird nicht unterstützt.",
+      "fileSizeExceeded": "Hochladen der Datei fehlgeschlagen. Die Datei überschreitet das Limit von 15 MB.",
+      "zeroFileSizeError": "Hochladen der Datei fehlgeschlagen. Die von Ihnen ausgewählte Datei ist leer. Versuchen Sie es erneut.",
+      "dragAndDropElement": "Ziehen und ablegen zum Hochladen oder",
+      "browseForFile": "Dateien suchen",
+      "scanningFile": "Die Datei wird auf Viren überprüft, bitte warten...",
+      "fileCorrupted": "Die Datei ist beschädigt oder mit Viren infiziert.",
+      "linkTextLabel": "Linktext",
+      "uploadFile": "Datei hochladen",
+      "progressBarText": "Fortschritt",
+      "mandatoryFieldText": "Dieses Feld ist ein Pflichtfeld"
+    },
+    "interactions": {
+      "interactionsBtn": "Interaktionen hinzufügen",
+      "type": "Art",
+      "agentName": "Name des Agenten",
+      "startDateAndTime": "Startdatum & -uhrzeit",
+      "duration": "Dauer"
+    },
+    "info": {
+      "required": "Erforderlich",
+      "critical": "Kritisch"
+    },
+    "compareMode": {
+      "questionNotApplicable": "Diese Frage ist nicht zutreffend",
+      "sectionNotApplicable": "Dieser Abschnitt ist nicht zutreffend"
+    },
+    "sectionScore": "Abschnittspunktzahl",
+    "failedRename": "Formularname existiert bereits.",
+    "errorLoadingLogo": "Formularlogo konnte nicht geladen werden",
+    "errorLoadingHeader": "Kopfzeile konnte nicht geladen werden"
+  },
+  "ng2QualityPlannerPage": {
+    "qpPlanDetails": {
+      "planEvaluators": {
+        "evaluatorsHeader": "Bewerter",
+        "noEvaluatorsAssignedMessage": "Es wurden noch keine Bewerter zugewiesen",
+        "selectedEvaluatorsLabel": "Ausgewählte Bewerter",
+        "addEvaluatorsButton": "Bewerter hinzufügen",
+        "selectEvaluatorsHeader": "Bewerter auswählen",
+        "cancelButton": "Abbrechen",
+        "errorMessage": "Sie müssen mindestens 1 Bewerter auswählen",
+        "omnibarMessage": "Beginnen Sie mit der Eingabe, um Bewerter zu finden",
+        "evaluatorsCount": "{{count}} Bewerter",
+        "Evaluator": "Bewerter",
+        "Manager": "Manager",
+        "Administrator": "Administrator",
+        "noEvaluatorsSelectedMessage": "Keine Bewerter ausgewählt",
+        "noEvaluatorsAddedMessage": "Keine Bewerter hinzugefügt",
+        "modalHeader": "Bewerter hinzufügen",
+        "evaluators": "Bewerter",
+        "gridColumnsHeaders": {
+          "fullName": "Name",
+          "role": "Rolle",
+          "accessibleTeams": "Verfügbare Teams",
+          "dailyEvaluations": "Tägliche Bewertungen",
+          "selectedTeams": "Ausgewählte Teams"
+        },
+        "errorMessages": {
+          "required": "Sie müssen mindestens einen Bewerter auswählen",
+          "atleastSingleTeamRequired": "Sie müssen pro Bewerter mindestens ein Team auswählen"
+        },
+        "alreadyAssignedEvaluators": "Zugewiesene Bewerter",
+        "customTeamSelection": "Benutzerdefinierte Teamauswahl"
+      },
+      "pageTitle": "Neuen Qualitätsplan erstellen",
+      "qualityPlansPageBreadcrumb": "Qualitätspläne",
+      "name": "Name",
+      "description": "Beschreibung",
+      "errorSavingPlan": "Speicherung des Qualitätsplans fehlgeschlagen",
+      "errorSavingPlanDueToFilters": "Dieser Plan kann nicht gespeichert werden. Sie haben Felder bearbeitet, die nicht geändert werden können.",
+      "successSavingPlan": "Qualitätsplan erfolgreich gespeichert ",
+      "successSavingActivePlan": "Qualitätsplan erfolgreich gespeichert. Die Änderungen werden ab der nächsten Verteilung wirksam.",
+      "selectiveFieldsEditMsg": "Nicht bearbeitbare Felder: Planname, Beschreibung, Bewertungsformular zuweisen, Anruffilterung",
+      "successActivatingPlan": "Qualitätsplan erfolgreich aktiviert.",
+      "successDeactivatingPlan": "Qualitätsplan erfolgreich deaktiviert.",
+      "errorActivatingPlan": "Fehler bei Aktivierung des Qualitätsplans.",
+      "errorActivatingPlanPermissionIssue": "Dieser Plan kann nicht aktiviert werden. Einige der Bewerter haben nicht die Berechtigung, Interaktionen zu bewerten.",
+      "errorActivatingPlanStatusIssue": "Dieser Plan kann nicht aktiviert werden. Es sind keine aktiven Bewerter vorhanden.",
+      "errorDeactivatingPlan": "Fehler beim Deaktivieren des Qualitätsplans.",
+      "successdelete": "Plan erfolgreich gelöscht.",
+      "deleteQualityPlanError": "Löschen des Qualitätsplans fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "evaluationType": "Bewertungstyp",
+      "standardEvaluation": "Standardbewertung",
+      "standardEvaluationHelpText": "Diese Bewertung wird nur vom Bewerter durchgeführt",
+      "collaborativeEvaluation": "Gemeinsame Bewertung",
+      "collaborativeEvaluationHelpText": "Diese Bewertung wird von Agent und Bewerter durchgeführt und dann miteinander verglichen",
+      "planDuration": {
+        "planDurationTitle": "Plandefinition",
+        "planDurationMessage": "Bewertung von Anrufen, die während des ausgewählten Zeitraums aufgetreten sind:",
+        "recurringLabel": "Wiederholend",
+        "oneTimeLabel": "Einmalplan - Start- und Enddaten:",
+        "startDateLabel": "VON",
+        "endDateLabel": "BIS",
+        "emptyDatePickerLabel": "Datum auswählen",
+        "selectForm": "Formular auswählen",
+        "errorMessage": "Es muss ein Bewertungsformular ausgewählt werden",
+        "recurringOptions": {
+          "monthly": "Monatlich",
+          "weekly": "Wöchentlich"
+        },
+        "oneTimePlanNewLabel": "Einmalig"
+      },
+      "planFilters": {
+        "filteringHeader": "Filterung",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "Es muss mindestens 1 Filter ausgewählt werden",
+        "filterLicenseError": "Abrufen der Lizenzen für den aktuellen Mandanten fehlgeschlagen. Versuchen Sie es erneut.",
+        "smsChannelStatusError": "Fehler beim Abrufen des SMS-Kanalstatus für den aktuellen Mandanten. Versuchen Sie es erneut.",
+        "callDirectionFilter": {
+          "callDirectionLabel": "Anrufrichtung:",
+          "filterLabel": "RICHTUNG",
+          "inboundLabel": "Eingehend",
+          "incomingLabel": "Eingehend",
+          "outboundLabel": "Ausgehend",
+          "outgoingLabel": "Ausgehend",
+          "internalLabel": "Intern"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "Anruflänge:",
+          "Less": "Weniger als",
+          "Greater": "Größer als",
+          "Between": "Zwischen",
+          "durationExceedMaxMessage": "Die maximale Anruflänge muss größer sein als die minimale Anruflänge",
+          "durationLessThenZeroMessage": "Die Anruflänge muss größer sein als 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "AUFGEZEICHNETER SEGMENTTYP",
+          "voiceOnlyLabel": "Nur Sprache",
+          "channelLabel": "KANÄLE",
+          "voiceLabel": "Sprache",
+          "voiceAndScreenLabel": "Sprache und Bildschirm",
+          "chatLabel": "Chat",
+          "emailLabel": "E-Mail",
+          "smsLabel": "SMS"
+        },
+        "categoriesFilter": {
+          "categories": "KATEGORIEN",
+          "selectCategories": "Kategorien auswählen",
+          "selectedCategories": "Ausgewählte Kategorien ({{count}})",
+          "noCategoriesSelected": "Es wurden noch keine Kategorien ausgewählt",
+          "categoryConfidenceLabel": "Nur Hohe Zuverlässigkeit",
+          "selectedIACategories": "Ausgewählte IA Kategorien ({{count}})",
+          "selectedQMACategories": "Ausgewählte QM Kategorien ({{count}})",
+          "qmaCategoryDeprecationText": "QMA Kategorien werden in einer der nächsten Versionen ausgemustert."
+        },
+        "sentimentFilter": {
+          "filterLabel": "Stimmung",
+          "sentimentFacet": {
+            "anySide": "Beide Seiten",
+            "agentSide": "Agentenseitig",
+            "customerSide": "Kundenseitig",
+            "bothSides": "Agent UND Kunde"
+          },
+          "sentiment": {
+            "POSITIVE": "Positiv",
+            "NEGATIVE": "Negativ",
+            "NEUTRAL": "Neutral",
+            "MIXED": "Kombiniert"
+          }
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "filterLabel": "ACD",
+          "skillsLabel": "SKILLS",
+          "dispostionsLabel": "DISPOSITIONEN",
+          "selectSkills": "Skills auswählen",
+          "selectCallReasons": "Alle Gründe auswählen",
+          "multipathDropdownDisabledInfoIconMsg": "NICE Engage unterstützt keine ACD-Kompetenzen und CSAT-Scores",
+          "recordingSrcSkillCsatDisabledInfoIconMsg": "Aufzeichnungsquelle unterstützt keine ACD-Skills und CSAT-Scores"
+        },
+        "businessDataFilter": {
+          "filterLabel": "GESCHÄFTSDATEN",
+          "operatorLabel": "ist",
+          "errorMessage": "Pflichtfeld",
+          "errorInDropDownMessage": "Geschäftsdatentyp",
+          "dropdownPlaceHolderText": "Datentyp wählen",
+          "inputPlaceHolderForNumber": "Nummer eingeben",
+          "inputPlaceHolderForText": "Text eingeben",
+          "inactiveBusinessDataMsg": "Diese Geschäftsdaten sind nicht aktiv",
+          "true": "RICHTIG",
+          "false": "Falsch"
+        },
+        "interactionFilter": {
+          "filterLabel": "INTERAKTIONEN",
+          "withScreenLabel": "Mit Bildschirm",
+          "withoutScreenLabel": "Ohne Bildschirm",
+          "allInteractionLabel": "Alle"
+        },
+        "clear": "Löschen",
+        "feedbackScoreFilter": {
+          "label": "CSAT-Score",
+          "to": "An"
+        },
+        "channelsFilter": {
+          "VOICE": "Sprache",
+          "FB_PRIVATE": "Facebook Messenger",
+          "CHAT": "Chat",
+          "EMAIL": "E-Mail",
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "LINE": "LINE-Messaging",
+          "LINE_PRIVATE": "LINE-Messaging",
+          "TW_PRIVATE": "Twitter-Direktnachrichten",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "SMS": "SMS",
+          "CUSTOM_PRIVATE": "Benutzerdefiniert",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "WORKITEM": "Arbeitselement",
+          "GOOGLE_BUSINESS_MESSAGES_PRIVATE": "Google Business Messenger",
+          "MICROSOFT_TEAMS_PRIVATE": "Microsoft Teams",
+          "SLACK_PRIVATE": "Slack"
+        },
+        "agentBehaviourFilter": {
+          "filterLabel": "AGENTENVERHALTEN",
+          "operatorLabel": "ist",
+          "errorMessage": "Pflichtfeld",
+          "errorInDropDownMessage": "Agentenverhalten auswählen",
+          "dropdownPlaceHolderText": "Verhaltenstyp auswählen",
+          "sentiments": {
+            "strongly_negative": "Extrem negativ",
+            "moderately_negative": "Mäßig negativ",
+            "neutral": "Neutral",
+            "moderately_positive": "Mäßig positiv",
+            "strongly_positive": "Extrem positiv"
+          },
+          "selectAgentBehaviorSentiment": "Agentenverhalten und Score auswählen",
+          "addAnotherAgentBehaviorSentiment": "Weitere hinzufügen"
+        },
+        "recordingSourceFilter": {
+          "recordingSourceLabel": "AUFZEICHNUNGSQUELLE",
+          "dropdownPlaceHolderText": "Quelle auswählen",
+          "reordingSouceFitlerTooltipText": "Aufzeichnungsquelle für die auszuwertende Interaktion auswählen"
+        },
+        "enlightenSentimentFilter": {
+          "sentimentFacet": {
+            "anySide": "Beide Seiten",
+            "agentSide": "Agentenseitig",
+            "customerSide": "Kundenseitig",
+            "bothSides": "Agent UND Kunde"
+          },
+          "enlightenSentiment": {
+            "POSITIVE": "Positiv",
+            "NEGATIVE": "Negativ",
+            "VERYPOSITIVE": "Sehr positiv",
+            "VERYNEGATIVE": "Sehr negativ",
+            "NEUTRAL": "Neutral",
+            "STRONGLYNEGATIVE": "Extrem negativ",
+            "MODERATELYNEGATIVE": "Mäßig negativ",
+            "MODERATELYPOSITIVE": "Mäßig positiv",
+            "STRONGELYPOSITIVE": "Extrem positiv"
+          }
+        },
+        "enhancedSentimentFilter": {
+          "title": "Stimmung auswählen",
+          "cancelButton": "Abbrechen",
+          "changeButton": "Ändern",
+          "sentimentPopoverText": "Durch die Änderung des Stimmungstyps wird die frühere Auswahl aufgehoben",
+          "sentiments": {
+            "label": "Stimmung",
+            "subLabel": "Allgemeine Gefühlslage, die aus in Gesprächen verwendeten Wörtern oder Ausdrücken abgeleitet wird"
+          },
+          "enlightenSentiments": {
+            "label": "Enlighten-Stimmung",
+            "subLabel": "Vorhersehbarer Net Promoter-Wert"
+          }
+        },
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "Die maximale Ticket-Zeit muss größer sein als die Ticket-Mindestzeit",
+          "durationExceedMinMessage": "Die Ticket-Mindestzeit muss kleiner als die maximale Ticket-Zeit sein",
+          "durationLessThenZeroMessage": "Die Anruflänge muss größer sein als 0"
+        },
+        "customAttributesAPIErrorMessage": "Fehler beim Abrufen der benutzerdefinierten Attribute. "
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "Agenten",
+        "noAgentGroupsAssignedMessage": "Es wurden noch keine Agentengruppen zugewiesen",
+        "selectedAgentGroupsLabel": "Ausgewählte Agentengruppen",
+        "addAgentGroupsButton": "Agentengruppen hinzufügen",
+        "selectAgentGroupsHeader": "Agentengruppen auswählen",
+        "cancelButton": "Abbrechen",
+        "errorMessage": "Es muss mindestens 1 Agentengruppe ausgewählt werden",
+        "omnibarMessage": "Beginnen Sie mit der Eingabe, um Agentengruppen zu finden",
+        "agentGroupsCount": "{{count}} Agentengruppen",
+        "selectedTxt": "Ausgewählt:",
+        "AlreadyAssignedGroups": "Zugewiesene Agentengruppen"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "Agenten",
+        "teams": "Teams",
+        "groups": "Gruppen",
+        "noTeamsSelected": "Es wurden noch keine Teams ausgewählt",
+        "selectTeams": "Teams auswählen",
+        "selectGroups": "Gruppen auswählen",
+        "selectedAgents": "Aktuelle Gesamtanzahl der Agenten: ",
+        "errorMessages": {
+          "required": "Sie müssen mindestens ein Team auswählen"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "Stichprobe",
+        "numSegmentsPerAgentLabel": "Interaktionen pro Agent",
+        "numDaysBackLabel": "Interaktionen berücksichtigen der letzten",
+        "daysLabel": "Tage",
+        "daysBackExceedMaxMessage": "Plandauer beträgt {{durationInDays}} Tage. Wählen Sie 1 bis {{daysRange}} Tage aus.",
+        "includeOrExcludeInteractionsEvaluatedOrTaggedForEvaluation": "Interaktionen einschließen oder ausschließen, die bewertet wurden oder für die Bewertung gekennzeichnet sind",
+        "include": "Einschließen",
+        "exclude": "Ausschließen",
+        "excludeEvaluatedInteractionsText": "Bewertete oder für die Bewertung gekennzeichnete Interaktionen ausschließen",
+        "newSamplingHeader": "Beispielauswahl für Verteilung",
+        "includeInteractionsLabel": "Interaktionen einschließen",
+        "excludeInteractionsLabel": "Interaktionen ausschließen",
+        "fromLastDaysLabel": "Der letzten",
+        "excludeInteractionsText": "Bewertet / Für Bewertung getaggt",
+        "timeBasedSelectionLabel": "Zeitbasierte Auswahl",
+        "startTimeLabel": "Startzeit",
+        "endTimeLabel": "Endzeit",
+        "startTimeSubtext": "Interaktionen basierend auf dem Beginn der Interaktionen abrufen",
+        "endTimeSubtext": "Interaktionen basierend auf dem Ende der Interaktionen abrufen"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "Bewertungsformular zuweisen"
+      },
+      "planSummary": {
+        "planSummary": "Planzusammenfassung",
+        "totalInteractions": "Bewertungen in Plan insgesamt",
+        "interactionsPerDayPerEvaluator": "Tägliche Bewertungen pro Bewerter",
+        "planDays": "Tage in Plan insgesamt",
+        "interactionsPerAgent": "Interaktionen pro Agent"
+      },
+      "editEvaluatorSelectiveFieldsEditMsg": "Felder, die bearbeitet werden können: Name des Plans, Beschreibung, Bewertungsformular zuweisen, Anruffilterung, Bewerter",
+      "editEvaluatorsInfoIconMsg": "Änderungen bei den Bewertern wirken sich auf die Planverteilung aus",
+      "planTimeZoneSelection": {
+        "dropdownLabel": "Zeitzone "
+      },
+      "RBAC_cannot_delete_error": "Qualitätsplan kann nicht gelöscht werden. Kontaktieren Sie Ihren Administrator.",
+      "RBAC_cannot_activate_error": "Qualitätsplan kann nicht aktiviert werden. Kontaktieren Sie Ihren Administrator.",
+      "RBAC_cannot_duplicate_error": "Qualitätsplan kann nicht kopiert werden. Kontaktieren Sie Ihren Administrator.",
+      "RBAC_cannot_deactivate_error": "Qualitätsplan kann nicht deaktiviert werden. Kontaktieren Sie Ihren Administrator.",
+      "errorActivatingTeamAndGroupIssue": "Dieser Plan kann nicht aktiviert werden. Er enthält einige ungültige Teams oder Gruppen",
+      "selectDivision": "Abteilung",
+      "selectItems": "Elemente auswählen",
+      "defaultDivisionMsg": "Sie haben den Standardbereich",
+      "selectDivisionMsg": "Wählen Sie eine Abteilung aus, um mit dem Qualitätsplan fortzufahren",
+      "divisionLoadingErrorMsg": "Interner Serverfehler. Versuchen Sie es erneut"
+    },
+    "planStatus": {
+      "draft": "Entwurf",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "running": "Ausführung",
+      "expired": "Abgelaufen",
+      "pending": "Ausstehend",
+      "deleted": "Gelöscht"
+    },
+    "planActions": {
+      "activate": "Aktivieren",
+      "deactivate": "Deaktivieren",
+      "extend": "Erweitern",
+      "duplicate": "Kopieren"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "Qualitätspläne",
+      "newPlanButton": "Neuer Plan",
+      "noItemsOverlay": "Keine Übereinstimmung gefunden",
+      "plansCountLabel": "Pläne",
+      "planCountLabel": "Plan",
+      "planCount": "{{count}} Pläne",
+      "planSearchPlaceholder": "Beginnen Sie mit der Eingabe, um einen Plan zu finden",
+      "gridColumnsHeaders": {
+        "planName": "Planname",
+        "evaluationType": "Bewertungstyp",
+        "planOccurrence": "Planhäufigkeit",
+        "planLastModified": "Zuletzt geändert",
+        "planState": "Status",
+        "planAction": "Aktionen",
+        "planActivate": "Aktivieren"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }} Pläne",
+        "searchPlaceholder": "Beginnen Sie mit der Eingabe, um einen Plan zu finden"
+      },
+      "planOccurrence": {
+        "recurring": "Wiederholend",
+        "monthly": "Monatlich wiederholender Plan",
+        "weekly": "Wöchentlich wiederholender Plan",
+        "oneTime": "Einmalig"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "Sie sind dabei, diesen Plan zu löschen. Diese Aktion kann nicht rückgängig gemacht werden.",
+          "msg2": "Fortfahren?"
+        },
+        "activatePlan": {
+          "msg1": "Der Plan enthält Fehler. Diese müssen vor Aktivierung des Plans behoben werden.",
+          "msg2": "Was möchten Sie tun?"
+        },
+        "deactivatePlan": {
+          "msg1": "Sie sind dabei, diesen Plan zu deaktivieren. Die Bewerter erhalten keine weiteren Interaktionen.",
+          "msg2": "Fortfahren?"
+        },
+        "closeModal": {
+          "message1": "Alle Änderungen gehen verloren",
+          "message2": "Möchten Sie wirklich beenden, ohne zu speichern?"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "Planname",
+          "successMessage": "Plan wurde erfolgreich dupliziert.",
+          "errorMessage": "Planname existiert bereits",
+          "header": "Plan duplizieren",
+          "duplicate": "Kopieren",
+          "errorDuplicatingPlanMissingPermissionError": "Sie verfügen nicht über die entsprechenden Berechtigungen, um diese Aktion durchzuführen."
+        }
+      },
+      "warningMessageModal": {
+        "title": "Seite verlassen?",
+        "unsavedChanges": "Es sind nicht gespeicherte Daten vorhanden.",
+        "areYouSureLeavePage": "Möchten Sie wirklich beenden, ohne zu speichern?"
+      },
+      "planTabForSegments": "Quality Planner für Segmente",
+      "planTabForTickets": "Quality Planner für Tickets",
+      "SearchByPlanStatusPlaceholder": "Nach Planstatus suchen"
+    }
+  },
+  "qualityPlaner": {
+    "qualityPlannerNewPlanPage": {
+      "planEvaluators": {
+        "evaluatorsHeader": "Bewerter",
+        "noEvaluatorsAssignedMessage": "Es wurden noch keine Bewerter zugewiesen",
+        "selectedEvaluatorsLabel": "Ausgewählte Bewerter",
+        "addEvaluatorsButton": "Bewerter hinzufügen",
+        "selectEvaluatorsHeader": "Bewerter auswählen",
+        "cancelButton": "Abbrechen",
+        "errorMessage": "Es muss mindestens 1 Bewerter ausgewählt werden",
+        "omnibarMessage": "Beginnen Sie mit der Eingabe, um Bewerter zu finden",
+        "evaluatorsCount": "{{count}} Bewerter",
+        "Evaluator": "Bewerter",
+        "Manager": "Manager",
+        "Administrator": "Administrator",
+        "alreadyAssignedEvaluators": "Zugewiesene Bewerter"
+      },
+      "pageTitle": "Neuen Qualitätsplan erstellen",
+      "qualityPlansPageBreadcrumb": "Qualitätspläne",
+      "name": "Name",
+      "description": "Beschreibung",
+      "errorSavingPlan": "Speicherung des Qualitätsplans fehlgeschlagen",
+      "successSavingPlan": "Qualitätsplan erfolgreich gespeichert ",
+      "successSavingActivePlan": "Qualitätsplan erfolgreich gespeichert. Die Änderungen werden ab der nächsten Verteilung wirksam.",
+      "selectiveFieldsEditMsg": "Nicht bearbeitbare Felder: Planname, Beschreibung, Bewertungsformular zuweisen, Anruffilterung",
+      "successActivatingPlan": "Qualitätsplan erfolgreich aktiviert.",
+      "successDeactivatingPlan": "Qualitätsplan erfolgreich deaktiviert.",
+      "errorActivatingPlan": "Fehler bei Aktivierung des Qualitätsplans.",
+      "errorDeactivatingPlan": "Fehler beim Deaktivieren des Qualitätsplans.",
+      "successdelete": "Plan erfolgreich gelöscht.",
+      "deleteQualityPlanError": "Löschen des Qualitätsplans fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "evaluationType": "Bewertungstyp",
+      "standardEvaluation": "Standard",
+      "standardEvaluationHelpText": "Diese Bewertung wird nur vom Bewerter durchgeführt",
+      "collaborativeEvaluation": "Kollaborativ",
+      "collaborativeEvaluationHelpText": "Diese Bewertung wird von Agent und Bewerter durchgeführt und dann miteinander verglichen",
+      "planDuration": {
+        "planDurationTitle": "Plandefinition",
+        "planDurationMessage": "Bewertung von Anrufen, die während des ausgewählten Zeitraums aufgetreten sind:",
+        "recurringLabel": "Wiederholend",
+        "oneTimeLabel": "Einmalplan - Start- und Enddaten:",
+        "startDateLabel": "Start",
+        "endDateLabel": "BIS",
+        "emptyDatePickerLabel": "Datum auswählen",
+        "selectForm": "Formular auswählen",
+        "errorMessage": "Es muss ein Bewertungsformular ausgewählt werden",
+        "recurringOptions": {
+          "monthly": "Monatlich",
+          "weekly": "Wöchentlich"
+        }
+      },
+      "planFilters": {
+        "filteringHeader": "Filterung",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "Es muss mindestens 1 Filter ausgewählt werden",
+        "filterLicenseError": "Abrufen der Lizenzen für den aktuellen Mandanten fehlgeschlagen. Versuchen Sie es erneut.",
+        "callDirectionFilter": {
+          "callDirectionLabel": "Anrufrichtung:",
+          "filterLabel": "RICHTUNG",
+          "inboundLabel": "Eingehend",
+          "incomingLabel": "Eingehend",
+          "outboundLabel": "Ausgehend",
+          "outgoingLabel": "Ausgehend",
+          "internalLabel": "Intern"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "Anruflänge:",
+          "Less": "Weniger als",
+          "Greater": "Größer als",
+          "Between": "Zwischen",
+          "durationExceedMaxMessage": "Die maximale Anruflänge muss größer sein als die minimale Anruflänge",
+          "durationLessThenZeroMessage": "Die Anruflänge muss größer sein als 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "AUFGEZEICHNETER SEGMENTTYP",
+          "voiceOnlyLabel": "Nur Sprache",
+          "voiceAndScreenLabel": "Sprache und Bildschirm",
+          "chatLabel": "Chat",
+          "emailLabel": "E-Mail",
+          "channelLabel": "KANÄLE",
+          "voiceLabel": "Sprache",
+          "smsLabel": "SMS"
+        },
+        "categoriesFilter": {
+          "categories": "KATEGORIEN",
+          "selectCategories": "Kategorien auswählen",
+          "selectedCategories": "Ausgewählte Kategorien ({{count}}) ",
+          "noCategoriesSelected": "Es wurden noch keine Kategorien ausgewählt",
+          "categoryConfidenceLabel": "Nur Hohe Zuverlässigkeit"
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "dispostionsLabel": "DISPOSITIONEN",
+          "selectDispositions": "Dispositionen auswählen",
+          "filterLabel": "ACD",
+          "skillsLabel": "SKILLS",
+          "selectSkills": "Skills auswählen"
+        },
+        "businessDataFilter": {
+          "filterLabel": "GESCHÄFTSDATEN",
+          "operatorLabel": "ist",
+          "errorMessage": "Pflichtfeld",
+          "errorInDropDownMessage": "Geschäftsdatentyp",
+          "dropdownPlaceHolderText": "Datentyp wählen",
+          "inputPlaceHolderForNumber": "Nummer eingeben",
+          "inputPlceHolderForText": "Text eingeben",
+          "inactiveBusinessDataMsg": "Diese Geschäftsdaten sind nicht aktiv"
+        },
+        "interactionFilter": {
+          "filterLabel": "INTERAKTIONEN",
+          "withScreenLabel": "Mit Bildschirm",
+          "withoutScreenLabel": "Ohne Bildschirm",
+          "allInteractionLabel": "Alle"
+        },
+        "smsChannelStatusError": "Fehler beim Abrufen des SMS-Kanalstatus für den aktuellen Mandanten. Versuchen Sie es erneut.",
+        "feedbackScoreFilter": {
+          "label": "CSAT-Score",
+          "to": "An"
+        },
+        "channelFilters": {
+          "VOICE": "Sprache",
+          "FB_PRIVATE": "Facebook Messenger",
+          "CHAT": "Chat",
+          "EMAIL": "E-Mail",
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "LINE_PRIVATE": "LINE-Messaging",
+          "LINE": "LINE-Messaging",
+          "TW_PRIVATE": "Twitter-Direktnachrichten",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "SMS": "SMS",
+          "CUSTOM_PRIVATE": "Benutzerdefiniert",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "WORKITEM": "Arbeitselement"
+        },
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "Die maximale Ticket-Zeit muss größer sein als die Ticket-Mindestzeit",
+          "durationExceedMinMessage": "Die Ticket-Mindestzeit muss kleiner als die maximale Ticket-Zeit sein",
+          "durationLessThenZeroMessage": "Die Anruflänge muss größer sein als 0"
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "Agenten",
+        "noAgentGroupsAssignedMessage": "Es wurden noch keine Agentengruppen zugewiesen",
+        "selectedAgentGroupsLabel": "Ausgewählte Agentengruppen",
+        "addAgentGroupsButton": "Agentengruppen hinzufügen",
+        "selectAgentGroupsHeader": "Agentengruppen auswählen",
+        "cancelButton": "Abbrechen",
+        "errorMessage": "Es muss mindestens 1 Agentengruppe ausgewählt werden",
+        "omnibarMessage": "Beginnen Sie mit der Eingabe, um Agentengruppen zu finden",
+        "agentGroupsCount": "{{count}} Agentengruppen",
+        "selectedTxt": "Ausgewählt:",
+        "AlreadyAssignedGroups": "Zugewiesene Agentengruppen"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "Agenten",
+        "teams": "Teams",
+        "groups": "Gruppen",
+        "noTeamsSelected": "Es wurden noch keine Teams ausgewählt",
+        "selectTeams": "Teams auswählen",
+        "selectGroups": "Gruppen auswählen",
+        "selectedAgents": "Aktuelle Gesamtanzahl der Agenten: ",
+        "errorMessages": {
+          "required": "Sie müssen mindestens ein Team auswählen"
+        },
+        "selected": " Ausgewählt"
+      },
+      "planSampling": {
+        "samplingHeader": "Stichprobe",
+        "numSegmentsPerAgentLabel": "Anzahl der Interaktionen pro Agent:",
+        "numDaysBackLabel": "Interaktionen berücksichtigen der letzten",
+        "daysLabel": "Tage",
+        "daysBackExceedMaxMessage": "Plandauer beträgt {{durationInDays}} Tage. Wählen Sie 1 bis {{daysRange}} Tage aus."
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "Bewertungsformular zuweisen:"
+      },
+      "planSummary": {
+        "planSummary": "Planzusammenfassung",
+        "totalInteractions": "Bewertungen in Plan insgesamt",
+        "interactionsPerDayPerEvaluator": "Tägliche Bewertungen pro Bewerter",
+        "planDays": "Tage in Plan insgesamt",
+        "interactionsPerAgent": "Interaktionen pro Agent"
+      },
+      "errorSavingPlanDueToFilters": "Dieser Plan kann nicht gespeichert werden. Sie haben Felder bearbeitet, die nicht geändert werden können.",
+      "errorActivatingPlanPermissionIssue": "Dieser Plan kann nicht aktiviert werden. Einige der Bewerter haben nicht die Berechtigung, Interaktionen zu bewerten.",
+      "errorActivatingPlanStatusIssue": "Dieser Plan kann nicht aktiviert werden. Es sind keine aktiven Bewerter vorhanden.",
+      "ticketFilters": {
+        "DirectionType": {
+          "Incoming": "Eingehend",
+          "Outgoing": "Ausgehend"
+        },
+        "Messages": {
+          "DirectionTypeRequired": "Mindestens ein Richtungstyp muss ausgewählt werden.",
+          "MaxDurationValidation": "Maximale Dauer muss größer als Mindestdauer sein",
+          "MaxCountValidation": "Maximale Anzahl muss größer als Mindestanzahl sein.",
+          "FieldRequired": "Pflichtfeld"
+        },
+        "TicketFilter": {
+          "TicketType": "Ticket-Typ",
+          "Priority": "Priorität",
+          "Status": "Status",
+          "Direction": "Richtung",
+          "Score": "Score",
+          "CSATScore": "CSAT-Score",
+          "HoldTimeDuration": "Haltezeit",
+          "TalkTimeDuration": "Sprechzeit",
+          "TotalHandleTimeDuration": "Gesamtbearbeitungszeit",
+          "WaitTimeDuration": "Wartezeit",
+          "WrapTimeDuration": "Nachbearbeitungszeit",
+          "TotalReplies": "Antworten insgesamt",
+          "TotalReopens": "Erneute Öffnungen insgesamt",
+          "excludeEvaluatedOrTaggedInteractionsText": "Bewertete / Für Bewertung getaggte Interaktionen ausschließen",
+          "sentiment": "Stimmung",
+          "agentBehavior": "Agentenverhalten"
+        }
+      }
+    },
+    "planStatus": {
+      "draft": "Entwurf",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "running": "Ausführung",
+      "expired": "Abgelaufen",
+      "pending": "Ausstehend",
+      "deleted": "Gelöscht"
+    },
+    "planActions": {
+      "activate": "Aktivieren",
+      "deactivate": "Deaktivieren",
+      "extend": "Erweitern",
+      "duplicate": "Kopieren"
+    },
+    "qualityPlanerPage": {
+      "pageTitle": "Qualitätspläne",
+      "newPlanButton": "Neuer Plan",
+      "noItemsOverlay": "Keine Übereinstimmung gefunden",
+      "itemsCountLabel": "Pläne",
+      "planCount": "{{count}} Pläne",
+      "planSearchPlaceholder": "Beginnen Sie mit der Eingabe, um einen Plan zu finden",
+      "gridColumnsHeaders": {
+        "planName": "Planname",
+        "evaluationType": "Bewertungstyp",
+        "planOccurrence": "Planhäufigkeit",
+        "planLastModified": "Zuletzt geändert",
+        "planState": "Status",
+        "planAction": "Aktionen",
+        "planActivate": "Aktivieren"
+      },
+      "planOccurrence": {
+        "recurring": "Wiederholend",
+        "monthly": "Monatlich wiederholender Plan",
+        "weekly": "Wöchentlich wiederholender Plan",
+        "oneTime": "Einmalig"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "Sie sind dabei, diesen Plan zu löschen. Diese Aktion kann nicht rückgängig gemacht werden.",
+          "msg2": "Fortfahren?"
+        },
+        "activatePlan": {
+          "msg1": "Der Plan enthält Fehler. Diese müssen vor Aktivierung des Plans behoben werden.",
+          "msg2": "Was möchten Sie tun?"
+        },
+        "deactivatePlan": {
+          "msg1": "Sie sind dabei, diesen Plan zu deaktivieren. Die Bewerter erhalten keine weiteren Interaktionen.",
+          "msg2": "Fortfahren?"
+        },
+        "closeModal": {
+          "message1": "Alle Änderungen gehen verloren",
+          "message2": "Möchten Sie wirklich beenden, ohne zu speichern?"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "Planname",
+          "successMsg": "Plan wurde erfolgreich dupliziert.",
+          "header": "Plan duplizieren",
+          "duplicate": "Kopieren",
+          "placeholder": "Plannamen eingeben"
+        }
+      },
+      "warningMessageModal": {
+        "title": "Seite verlassen?",
+        "unsavedChanges": "Es sind nicht gespeicherte Daten vorhanden.",
+        "areYouSureLeavePage": "Möchten Sie wirklich beenden, ohne zu speichern?"
+      },
+      "collaborativeEvaluation": " Kollaborativ",
+      "standardEvaluation": "Standard",
+      "newTicketPlanButton": "Neuer Plan für Tickets",
+      "newSegmentPlanButton": "Neuer Plan für Segmente",
+      "SearchByPlanStatusPlaceholder": "Nach Planstatus suchen"
+    }
+  },
+  "formDesignerElements": {
+    "section": {
+      "title": "Bereich",
+      "tooltipContent": "Erstellen Sie einen Abschnitt im Formular. In diesen Abschnitten können Fragen organisiert werden.",
+      "questionTitle": "Titel einrichten"
+    },
+    "yesno": {
+      "title": "Ja/Nein",
+      "tooltipContent": "Fügen Sie dem Formular eine Ja/Nein-Frage hinzu. Der Add a Yes/No question to the form. The Auswerter kann eine Antwort auswählen. Es handelt sich um einen auwertbaren Posten.",
+      "questionTitle": "Frage einstellen",
+      "choice": {
+        "yes": "Ja",
+        "no": "Nein"
+      }
+    },
+    "checkbox": {
+      "title": "Kontrollkästchen",
+      "tooltipContent": "Fügen Sie mit Hilfe der Umschaltfläche eine Frage hinzu. Der Auswerter kann eine oder mehrere Optionen wählen. Es handelt sich um einen auswertbaren Posten.",
+      "questionTitle": "Frage einstellen",
+      "choice": {
+        "choice1": "1. Auswahl",
+        "choice2": "2. Auswahl"
+      }
+    },
+    "radio": {
+      "title": "Optionsschaltfläche",
+      "tooltipContent": "Fügen Sie eine Frage und mehrere Optionen hinzu. Der Auswerter kann eine Option auswählen. Es handelt sich um einen auswertbaren Posten.",
+      "questionTitle": "Frage einstellen",
+      "choice": {
+        "choice1": "1. Auswahl",
+        "choice2": "2. Auswahl"
+      }
+    },
+    "datetime": {
+      "title": "Datum/Uhrzeit",
+      "tooltipContent": "Datum- / Zeitaufnehmer hinzufügen.",
+      "questionTitle": "Frage einstellen",
+      "timeQuestionTitle": "Frage einstellen"
+    },
+    "dropdown": {
+      "title": "Drop-down",
+      "tooltipContent": "Fügen Sie eine Frage mit einer Liste möglicher Antworten hinzu. Der Auswerter kann eine oder mehrere Antworten auswählen.",
+      "questionTitle": "Frage einstellen",
+      "choice": {
+        "choice1": "1. Auswahl",
+        "choice2": "2. Auswahl"
+      }
+    },
+    "hyperlink": {
+      "title": "Hyperlink",
+      "tooltipContent": "Einen Hyperlink im Formular erstellen.",
+      "questionTitle": "Text eingeben"
+    },
+    "label": {
+      "title": "Label",
+      "tooltipContent": "Fügen Sie dem Formular ein Textelement hinzu.",
+      "questionTitle": "Titel einrichten"
+    },
+    "text": {
+      "title": "Kurztext",
+      "tooltipContent": "Fügen Sie dem Formular ein Textfeld mit einer Zeile hinzu.",
+      "questionTitle": "Frage einstellen"
+    },
+    "textarea": {
+      "title": "Langtext",
+      "tooltipContent": "Fügen Sie dem Formular ein mehrzeiliges Textfeld hinzu.",
+      "questionTitle": "Frage einstellen"
+    },
+    "interactions": {
+      "title": "Interaktionen",
+      "tooltipContent": "Dem Formular Interaktionen hinzufügen",
+      "questionTitle": "Titel einrichten"
+    },
+    "attachment": {
+      "title": "Anhang",
+      "tooltipContent": "Dem Formular eine Datei hinzufügen",
+      "questionTitle": "Titel einrichten"
+    }
+  },
+  "ng2ManageFormsPage": {
+    "columnHeaders": {
+      "title": "Formularname",
+      "version": "Version",
+      "lastModified": "Zuletzt geändert",
+      "status": "Status",
+      "actions": "Aktionen",
+      "createdBy": "Erstellt von"
+    },
+    "pageTitle": "Formularmanager",
+    "createForm": "Neues Formular",
+    "omnibar": {
+      "itemCount": "{{ count }} Formulare",
+      "selectedItemCount": "{{ count }} ausgewählt",
+      "searchPlaceholder": "Beginnen Sie mit der Eingabe, um Formulare zu finden",
+      "bulkOperations": {
+        "activate": "Aktivieren",
+        "deactivate": "Deaktivieren",
+        "delete": "Löschen"
+      },
+      "itemLabel": "Formular",
+      "itemsLabel": "Formulare"
+    },
+    "noRowsText": "Keine Übereinstimmung gefunden",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "draft": "Entwurf",
+    "change": "Ändern",
+    "cancel": "Abbrechen",
+    "message": {
+      "successPublish": "Formular(e) erfolgreich aktiviert.",
+      "successUnpublish": "Formular(e) erfolgreich deaktiviert.",
+      "successDelete": "Formular(e) erfolgreich gelöscht.",
+      "successRename": "Formular erfolgreich umbenannt.",
+      "alreadyPublished": "Formular(e) bereits aktiv.",
+      "alreadyUnpublished": "Einige Formulare befinden sich im Entwurfsmodus oder sind inaktiv und können nicht deaktiviert werden. Aktivieren Sie die Formulare und versuchen Sie es erneut.",
+      "multiFormDelete": "Einige der Formulare sind aktiv und können nicht gelöscht werden. Deaktivieren Sie die Formulare und versuchen Sie es erneut.",
+      "noFormToDelete": "Keine Formulare zum Löschen vorhanden.",
+      "failAdd": "Hinzufügen des neuen Formulars fehlgeschlagen. Versuchen Sie es erneut.",
+      "failedRename": "Formularname existiert bereits.",
+      "successDuplicate": "Formular erfolgreich dupliziert.",
+      "successMultiPublish": "Formular(e) erfolgreich aktiviert.",
+      "singleFormDelete": "Aktive Formulare können nicht gelöscht werden. Das Formular muss zuerst deaktiviert werden",
+      "publishErrorNoWorkflowSettings": "Aktivierung fehlgeschlagen. Einstellungen für den Arbeitsablauf müssen festgelegt werden",
+      "publishErrorNoWorkflowSettingsMulti": "Aktivierung einiger Formulare fehlgeschlagen. Einstellungen für diese Formulare müssen festgelegt werden",
+      "failedUpdate": "Fehler bei Aktualisierung der Formulare."
+    },
+    "popover": {
+      "messagePublish": "Ausgewählte Formulare aktivieren?",
+      "messageUnpublish": {
+        "line1": "Die Formulare deaktivieren?",
+        "line2": "Das kann sich auf vorhandene Workflows auswirken."
+      },
+      "deleteSelectedFormsMsg": {
+        "line1": "Ausgewählte Formulare löschen?",
+        "line2": "Dieser Vorgang kann nicht rückgängig gemacht werden und kann sich auf vorhandene Workflows auswirken."
+      },
+      "deleteSingleFormMsg": "Ausgewähltes Formular löschen? Diese Aktion kann nicht rückgängig gemacht werden und sich auf existierende Arbeitsabläufe auswirken.",
+      "activeFormsCannotBeDeleted": "Aktive Formulare können nicht gelöscht werden. Deaktivieren Sie die Formulare und versuchen Sie es erneut.",
+      "deleteSingleDraftFormMsg": "Ausgewähltes Formular löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "activate": "Aktivieren",
+      "deactivate": "Deaktivieren",
+      "duplicate": "Kopieren",
+      "rename": "Umbenennen"
+    },
+    "saveDuplicateFormModal": {
+      "addHeader": "Formular duplizieren",
+      "subHeading": "FORMULARNAME",
+      "errors": {
+        "uniqueTitle": "Dieser Name ist bereits vorhanden. Versuchen Sie es mit einer anderen."
+      }
+    },
+    "renameFormModal": {
+      "header": "Formular umbenennen",
+      "subHeading": "FORMULARNAME"
+    }
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "Zeitplan geändert",
+      "content": "Zeitplan am %%DATE%% wurde geändert.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "Zeitplan geändert",
+      "content": "Zeitplan zwischen %%FROM_DATE%% und %%TO_DATE%% wurde geändert.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "Neuer Urlaubsantrag",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "Urlaubsantrag wurde abgelehnt",
+      "content": "Antrag für den Zeitraum %%FROM_DATE%% bis %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "Urlaubsantrag wurde genehmigt",
+      "content": "Antrag für den Zeitraum %%FROM_DATE%% bis %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "Urlaubsantrag wurde storniert",
+      "content": "Antrag für den Zeitraum %%FROM_DATE%% bis %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "Sie haben {{Count}} ungelesene Benachrichtigungen"
+  },
+  "selfService": {
+    "installersList": {
+      "fileName": "Dateiname",
+      "vendor": "Anbieter",
+      "version": "Version",
+      "title": "ACD-Installationsprogramm herunterladen"
+    },
+    "acdInstallerTitle": "ACD-Installationsprogramm",
+    "firstParagraph": "Das ACD-Installationsprogramm stellt eine Verbindung zwischen dem ACD-System (Automatische Anrufverteilung) und EvolveWFM her. EvolveWFM kann dann ACD-Ereignisse empfangen und Informationen zur RTA (Zeitplaneinhaltung) generieren.",
+    "instructionsHeader": "Installationsanleitung",
+    "instructions_1": "1. Laden Sie das Installationsprogramm von Self Service, On-Prem Integration Area herunter",
+    "instructions_2": "2. Entpacken Sie das Installationsprogramm in den Speicherort Ihrer Wahl (wie z. B. C:/Temp/AvayaCMSInstaller)",
+    "instructions_3": "3. Um die Installation zu starten, führen Sie install.bat auf Windows und install.sh auf Linux aus",
+    "instructions_4": "4. Konfigurieren Sie Ihr Avaya CMS ASC mit dem Installationsassistenten",
+    "generateKeyButton": "Schlüssel generieren",
+    "generateKeyHeader": "API-Key generieren",
+    "generateKeyExplanation": "Ein API-Schlüssel kann nur als Administrator generiert werden",
+    "modal": {
+      "title": "Geben Sie E-Mail-Adresse und Passwort für EvolveWFM ein und klicken Sie auf Generieren",
+      "result": "API-Key wurde erfolgreich generiert",
+      "generateBtnText": "Generieren",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "copyBtn": "In Zwischenablage kopieren",
+      "generate": "Generieren"
+    }
+  },
+  "activityCodes": {
+    "buttons": {
+      "addActivityCode": "Neuer Aktivitätscode",
+      "deleteActivityCode": "Löschen"
+    },
+    "deleteMultipleConfirmation1": "Die ausgewählten Aktivitätscodes werden von dieser Liste entfernt.",
+    "deleteMultipleConfirmation2": "Instanzen dieser Aktivitäten können im Planer angezeigt werden und müssen einzeln entfernt werden.",
+    "deleteConfirmation1": "Sie sind dabei, den Aktivitätscode von diesem System zu entfernen.",
+    "deleteConfirmation2": "Historische Instanzen bleiben bestehen.",
+    "errorAdd": "Beim Erstellen des Aktivitätscodes ist ein Fehler aufgetreten.",
+    "errorDelete": "Beim Löschen des Aktivitätscodes ist ein Fehler aufgetreten",
+    "errorMultipleDelete": "Beim Löschen der Aktivitätscodes ist ein Fehler aufgetreten.",
+    "errorUpdate": "Beim Aktualisieren des Aktivitätscodes ist ein Fehler aufgetreten.",
+    "errorRead": "Beim Laden der Aktivitätscodes ist ein Fehler aufgetreten.",
+    "pageTitle": "Aktivitätscodes",
+    "items": "Aktivitätscodes",
+    "item": "Aktivitätscode",
+    "fieldLabels": {
+      "name": "Aktivitätscodename",
+      "category": "Anzeigen als",
+      "length": "Standardlänge",
+      "open": "Offen",
+      "workHours": "Arbeitsstunden",
+      "overtime": "Überstunden",
+      "priority": "Priorität",
+      "acdEvents": "ACD-Ereignisse",
+      "shiftType": "Schichttyp"
+    },
+    "modal": {
+      "editTitle": "Aktivitätscode bearbeiten",
+      "addTitle": "Neuen Aktivitätscode erstellen",
+      "errors": {
+        "lengthRange": "Zwischen 1 und 1.440 Minuten eingeben.",
+        "priorityRange": "Priorität muss zwischen 1 und 100 liegen.",
+        "uniqueTitle": "Dieser Name ist bereits vorhanden. Versuchen Sie es mit einer anderen.",
+        "notValidRegex": "Diese Zeichen dürfen nicht verwenden werden: ^/!\\+<>?#&,%."
+      },
+      "fieldLabels": {
+        "attributes": "Attribut",
+        "category": "Anzeigen als",
+        "length": "Standardlänge (Min.)",
+        "open": "Geöffnet",
+        "overtime": "Überstunden",
+        "priority": "Priorität",
+        "title": "Name",
+        "workHours": "Arbeitsstunden",
+        "shiftType": "Kann als Schichttyp festgelegt werden"
+      },
+      "activate": {
+        "activityExistMsg": "Das System hat erkannt, dass zuvor eine Aktivität mit dem gleichen Namen erstellt wurde. Sie können diese Aktivität reaktivieren oder eine neue Aktivität mit einem anderen Namen erstellen.",
+        "activateBtn": "Aktivieren"
+      }
+    },
+    "serviceStatusMessages": {
+      "REUSED_EXISTING_ACTIVITY_CODE": "Ein Aktivitätscode mit dem gleichen Namen existierte zuvor und wird wiederverwendet.",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_TRUE": "Der Aktivitätscodename kann nicht zu '{{activityCode.title}}‘ geändert werden. Es gab bereits einmal einen Aktivitätscode mit demselben Namen, der gelöscht wurde. Sie können einen neuen Aktivitätscode mit diesem Namen erstellen.",
+      "ACTIVITY_CODE_EXISTS_WITH_SOFT_DELETE": "Der Name kann nicht geändert werden. Eine Aktivität mit dem gleichen Namen existierte zuvor und wurde gelöscht. Es kann eine neue Aktivität mit diesem Namen erstellt werden.",
+      "NO_ACTIVITY_CODE_EXISTS": "Es existiert kein Aktivitätscode mit der angegebenen Bezeichnung.",
+      "ACTIVITY_WITH_TITLE_EXISTS": "Aktivität mit dieser Bezeichnung existiert bereits.",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_FALSE": "Der Name kann nicht geändert werden. Eine Aktivität mit dem gleichen Namen mit Vorläufiges Löschen falsch existiert, aber die eindeutigen IDs stimmen nicht überein."
+    },
+    "successAdd": "Neuer Aktivitätscode wurde erfolgreich hinzugefügt",
+    "successDelete": "Aktivitätscode wurde erfolgreich entfernt",
+    "successDeleteMultiple": "Aktivitätscodes wurden erfolgreich entfernt",
+    "successEdit": "Aktivitätscode wurde erfolgreich bearbeitet"
+  },
+  "activityCodeDropdown": {
+    "placeholder": "Aktivitätscode auswählen..."
+  },
+  "expiredInvitationPage": {
+    "sorryHeader": "Es tut uns leid...",
+    "explanationText1": "Ihre Einladung ist abgelaufen.",
+    "explanationText2": "Wir haben den Absender benachrichtigt und Sie werden in Kürze eine neue Einladung erhalten."
+  },
+  "filter": {
+    "clearall": "Alle löschen",
+    "close": "Schließen",
+    "clear": "Löschen"
+  },
+  "filterDropDown": {
+    "completed": "Abgeschlossen",
+    "notCompleted": "Nicht abgeschlossen"
+  },
+  "successPage": {
+    "welcomeMsg": "Hallo {{username}} "
+  },
+  "importUsersModal": {
+    "header": "Mitarbeiter importieren",
+    "weSupportMessage": "Importieren Sie Mitarbeiter durch Hochladen einer CSV-Datei.",
+    "downloadMessage1": "Sie können eine Vorlage einer CSV-Datei",
+    "downloadMessage2": "",
+    "downloadLink": "hier herunterladen.",
+    "selectFileMessage": "",
+    "successMsg": "Mitarbeiter erfolgreich importiert.",
+    "errorMsg": "Importieren der Mitarbeiter fehlgeschlagen.",
+    "importErrorsList": {
+      "header": "Importfehler"
+    }
+  },
+  "createUserModal": {
+    "updateUserHeader": "Mitarbeiter bearbeiten",
+    "createUserHeader": "Neuen Mitarbeiter erstellen",
+    "popoverMessage1": "Alle Änderungen werden verworfen.",
+    "popoverMessage2": "Möchten Sie wirklich beenden, ohne zu speichern?",
+    "errorMsg": "Erstellung des neuen Mitarbeiters fehlgeschlagen.",
+    "successMsg": "Mitarbeiter wurde erfolgreich erstellt!",
+    "updateErrorMsg": "Erstellung des neuen Mitarbeiters fehlgeschlagen.",
+    "updateSuccessMsg": "Mitarbeiter wurde erfolgreich aktualisiert!",
+    "acdLoginId": "ACD-Anmelde-ID",
+    "maxLimitOfACD": "Sie können nicht mehr als {{items}} Elemente eingeben",
+    "reviveUserAlert": "Ein Konto mit dieser E-Mail-Adresse existiert bereits. Sie können dieses Konto reaktivieren oder ein neues Konto mit einer anderen E--Mail-Adresse erstellen",
+    "formLabels": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "mobileNumber": "Mobilnummer",
+      "assignToGroup": "Zugewiesen an Planungseinheit",
+      "assignToGroups": "Zugewiesen an Gruppen",
+      "assignToSkills": "Zugewiesen an Skills",
+      "assignToGroupPlaceHolder": "Keine Planungseinheit zugewiesen",
+      "maxHoursPerWeek": "Max. Stunden/Woche",
+      "rank": "Platzierung",
+      "rankInterval": "1-999",
+      "timeZonePlaceHolder": "Zeitzone",
+      "country": "Land",
+      "countryPlaceholder": "Land auswählen",
+      "hireDate": "Einstellungsdatum",
+      "role": "Rolle",
+      "rolePlaceholder": "Rolle auswählen",
+      "userPicture": "Profilbild",
+      "upload": "Hochladen",
+      "create": "Mitarbeiter erstellen",
+      "day": "Tag",
+      "month": "Monat",
+      "year": "Jahr",
+      "roles": {
+        "employee": "Mitarbeiter",
+        "manager": "Manager",
+        "admin": "Administrator"
+      },
+      "groupsDropDown": "{{selectedCount}} Gruppen",
+      "skillsDropDown": "{{selectedCount}} Skills"
+    },
+    "skillsTab": {
+      "header": "Skills auswählen",
+      "assignedTxt": "Zugewiesene Skills",
+      "addBtn": "Hinzufügen",
+      "selectTxt": "Mitarbeiter auswählen",
+      "selectedTxt": "Ausgewählt:"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "Dieses Feld ist erforderlich.",
+    "minLength": "Ihre Eingabe ist zu kurz",
+    "nameFieldValidation": "Hoppla, Folgendes darf nicht verwendet werden: \\ / ! + < > ? # & , % \" ",
+    "maxLength": "Ihre Eingabe ist zu lang",
+    "email": "Die eingegebene E-Mail-Adresse ist ungültig",
+    "emailExists": "Die E-Mail-Adresse existiert bereits. Verwenden Sie eine andere",
+    "number": "Nur Zahlen!",
+    "pattern": "Falsches Format für dieses Feld",
+    "password": "Ihr Passwort muss mindestens 8 Zeichen lang sein und mindestens 1 Zahl und 1 Großbuchstaben enthalten",
+    "match": "Dieses Passwort stimmt nicht mit dem vorherigen Passwort überein",
+    "minLengthPassword": "Ihr Passwort muss mindestens 8 Zeichen lang sein",
+    "maxLengthPassword": "Ihr Passwort ist zu lang",
+    "min": "Zahl ist zu klein",
+    "max": "Zahl ist zu groß",
+    "uniqueString": "Dieser Name ist bereits vorhanden. Versuchen Sie es mit einer anderen.",
+    "lowerThen": "Der Mindestwert kann den Höchstwert nicht überschreiten",
+    "weeklyMaxLowerThanSumDailyMin": "Die von den Tagesregeln erforderliche Mindestanzahl von Tagen überschreitet die Höchstanzahl von Tagen in der Wochenregel.",
+    "weeklyMinGreaterThanSumDailyMax": "Die Mindestanzahl von Tagen in der Wochenregel überschreitet die von den Tagesregeln erforderliche Höchstanzahl von Tagen.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "Die Gesamtstunden für tägliche Mindestkombinationen kann nicht größer sein als die Höchstanzahl von Gesamtstunden pro Woche",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "Die Gesamtstunden für tägliche Höchstkombinationen kann nicht kleiner sein als die Mindestanzahl von Gesamtstunden pro Woche",
+    "uniqueDaysCounterLowerThanSumDailyMin": "Die Mindestanzahl von Tagen überschreitet die Gesamtanzahl eindeutiger Tage.",
+    "possibleDaysLowerThanMinDays": "Die Anzahl möglicher Tage entspricht nicht der von der Wochenregel erforderlichen Mindestanzahl von Tagen.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "Die Mindestanzahl von Tagen in der Wochenregel überschreitet die Anzahl eindeutiger Tage.",
+    "noAddedShiftPatters": "Es muss mindestens eine Tagesregel ausgewählt werden",
+    "shiftLengthLowerThanActivityLength": "Summe aus Aktivitätslänge und relativer Beginn kann nicht größer sein als Schichtlänge",
+    "shiftLengthLowerThanTotalActivityLength": "Die Gesamtlänge der Aktivitäten kann die Schichtlänge nicht überschreiten",
+    "relativeStartLowerThanSlack": "Der Puffer kann nicht größer sein als der relative Startwert",
+    "activitiesOverlap": "Aktivitäten dürfen sich nicht überschneiden",
+    "serverError": "Unbekannter Serverfehler",
+    "missingPermissionError": "Sie verfügen nicht über die entsprechenden Berechtigungen, um diese Aktion durchzuführen.",
+    "generalError": "Allgemeiner Fehler"
+  },
+  "commonButtons": {
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "no": "Nein",
+    "yes": "Ja",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "activate": "Aktivieren",
+    "saveAndActivate": "Speichern & aktivieren",
+    "saveAsDraft": "Als Entwurf speichern",
+    "invite": "Einladen",
+    "edit": "Bearbeiten",
+    "update": "Aktualisieren",
+    "upload": "Hochladen",
+    "today": "Heute",
+    "showAll": "Alle anzeigen",
+    "clearAll": "Alle löschen",
+    "close": "Schließen",
+    "create": "Erstellen",
+    "selectAll": "Alle auswählen",
+    "generate": "Generieren",
+    "chooseFile": "Datei auswählen",
+    "add": "Hinzufügen",
+    "publish": "Veröffentlichen",
+    "set": "Einstellen",
+    "reset": "Zurücksetzen",
+    "day": "Tag",
+    "week": "Woche",
+    "done": "Fertig",
+    "download": "Herunterladen"
+  },
+  "languages": {
+    "english": "Englisch",
+    "russian": "Russland",
+    "spanish": "Spanisch",
+    "chinese": "Chinesisch"
+  },
+  "weekDays": {
+    "sunday": "Sonntag",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag"
+  },
+  "weekShortDays": {
+    "SUN": "SO",
+    "MON": "MO",
+    "TUE": "DI",
+    "WED": "MI",
+    "THU": "DO",
+    "FRI": "FR",
+    "SAT": "SA"
+  },
+  "mySchedule": {
+    "errorRead": "Beim Laden des Zeitplans ist ein Fehler aufgetreten.",
+    "pageTitle": "Mein Zeitplan",
+    "userName": "{{userName}}"
+  },
+  "datePicker": {
+    "nextDay": "Nächster Tag",
+    "openCalendar": "Kalender öffnen",
+    "previousDay": "Vorheriger Tag",
+    "today": "Heute"
+  },
+  "timePicker": {
+    "openTimePicker": "Zeitauswahl öffnen"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "Nächster Tag",
+    "openCalendar": "Kalender öffnen",
+    "openTimeChooser": "Zeitauswahl öffnen",
+    "previousDay": "Vorheriger Tag",
+    "today": "Heute"
+  },
+  "noItemsOverlay": {
+    "grid": "Keine Übereinstimmung gefunden",
+    "modal": {
+      "employeeTab": "Es wurden noch keine Mitarbeiter zugewiesen"
+    }
+  },
+  "uikitGallery": {
+    "userCount": "{{count}} Mitarbeiter",
+    "selectedCount": "{{count}} ausgewählt",
+    "searchPlaceholder": "Beginnen Sie mit der Eingabe, um Mitarbeiter zu finden"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "Planungseinheiten"
+  },
+  "formManager": {
+    "formStatus": {
+      "draft": "Entwurf",
+      "published": "Veröffentlicht",
+      "deleted": "Gelöscht",
+      "disabled": "Deaktiviert"
+    },
+    "elementType": {
+      "formArea": "formArea",
+      "section": "section",
+      "dateTime": "datetime",
+      "dropdown": "dropdown",
+      "hyperlink": "hyperlink",
+      "radio": "radio",
+      "yesno": "yesno",
+      "label": "label"
+    },
+    "dropdownType": {
+      "single": "einzel",
+      "multiple": "mehrere"
+    },
+    "logicMode": {
+      "newRule": "newRule",
+      "singleEdit": "singleEdit",
+      "bulkEdit": "bulkEdit"
+    }
+  },
+  "templateManagerPage": {
+    "pageTitle": "Vorlagenmanager",
+    "createTemplate": "Neue Vorlage",
+    "items": "Formulare",
+    "item": "Formular"
+  },
+  "qpWidget": {
+    "qpWidgetEvaluatorHeader": "Meine Aufgaben",
+    "noItemsOverlay": "Keine Übereinstimmung gefunden",
+    "gridColumnsHeaders": {
+      "interactionId": "INTERAKTIONS-ID",
+      "type": "ART",
+      "agentName": "NAME DES AGENTEN",
+      "startTime": "INTERAKTIONSBEGINN",
+      "duration": "DAUER",
+      "status": "STATUS",
+      "evaluationStatus": "BEWERTUNGSSTATUS",
+      "evaluationDate": "BEWERTUNGSDATUM",
+      "score": "SCORE"
+    },
+    "qpInteractionEvalStatus": {
+      "pending": "Ausstehende Bewertung",
+      "inProgress": "Wird bearbeitet",
+      "assigned": "Zugeordnet"
+    }
+  },
+  "designerComponent": {
+    "templateOptions": "Vorlagenoption",
+    "createTemplate": "Neue Vorlage",
+    "selectTemplate": "Vorlage auswählen",
+    "EVALUATION": {
+      "testForm": "Formular testen"
+    },
+    "COACHING": {
+      "testForm": "Paket testen"
+    }
+  },
+  "manageTemplatePage": {
+    "pageTitle": "",
+    "createTemplateModal": {
+      "header": "Neue Vorlage",
+      "successMsg": "Vorlage wurde erfolgreich erstellt",
+      "logoErrorMsg": "Hochladen des Logos fehlgeschlagen",
+      "logoFileMsg": "Es muss die richtige Datei zum Hochladen ausgewählt werden",
+      "errorMsg": "Erstellen der Vorlage fehlgeschlagen",
+      "duplicateTemplate": "Vorlage bereits vorhanden",
+      "templatePlaceholder": "Vorlagenname eingeben",
+      "headerImage": "Kopfzeilenbild",
+      "setDefaultTemplate": "Diese Vorlage als Standard auswählen",
+      "setBgColor": "Hintergrundfarbe",
+      "popover": {
+        "message1": "Alle Änderungen gehen verloren",
+        "message2": "Möchten Sie wirklich beenden, ohne zu speichern?"
+      },
+      "numbering": "Nummerierung",
+      "enableNumbering": "Aktiviert"
+    },
+    "tabs": {
+      "design": "Design",
+      "settings": "Einstellungen"
+    }
+  },
+  "teamsAndGroups": {
+    "teams": "Teams",
+    "groups": "Gruppen",
+    "selectTeams": "Teams auswählen",
+    "selectGroups": "Gruppen auswählen",
+    "errorMessages": {
+      "required": "Sie müssen mindestens ein Team auswählen"
+    }
+  },
+  "categoryManagerPage": {
+    "pageTitle": "Kategoriemanager"
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "Bitte wählen Sie ein Formular, um die Ausführung zu starten:",
+    "select": "Auswählen",
+    "change": "Ändern",
+    "noFormsMsg": "Kein Formular verfügbar.",
+    "selectFormHeader": "Formular auswählen",
+    "changeFormHeader": "Formular ändern",
+    "noFormInPlanMessage": "Wählen Sie ein Formular für die Bewertung.",
+    "disabledFormInPlanMessage": "Wählen Sie ein Formular für die Bewertung."
+  },
+  "workflowStatuses": {
+    "Claimed": "Beansprucht",
+    "InProgress": "Wird bearbeitet",
+    "Dispute": "Anfechten",
+    "InReview": "Wird überprüft",
+    "Request_Review": "Prüfung anfordern",
+    "Pending_Acknowledgement": "Ausstehende Bestätigung",
+    "Completed": "Abgeschlossen",
+    "Completed_Acknowledged": "Abgeschlossene Bestätigung",
+    "Reviewed_and_Completed": "Geprüft und abgeschlossen"
+  },
+  "workflowStatusUI": {
+    "Assigned": "Neu",
+    "Claimed": "Neu",
+    "InProgress": "Entwurf",
+    "Dispute": "Angefechtet",
+    "InReview": "Angefechtet",
+    "Request_Review": "Angefechtet",
+    "Pending_Acknowledgement": "Neu",
+    "Completed": "Abgeschlossen",
+    "Completed_Acknowledged": "Abgeschlossen",
+    "Reviewed_and_Completed": "Prüfung abgeschlossen",
+    "selfAssessment": {
+      "new": "Neu",
+      "draft": "Entwurf",
+      "completed": "Abgeschlossen",
+      "expired": "Abgelaufen"
+    },
+    "Expired": "Abgelaufen",
+    "Auto-acknowledged": "Automatische Bestätigung",
+    "Sent_To_Agent": "Gesendet",
+    "WaitingForEvaluator": "Auf Bewerter warten",
+    "WaitingForAgent": "Warten auf Agent",
+    "PartiallyCompleted": "Teilweise fertiggestellt",
+    "Completed_and_Not_Reviewed": "Hat keine Prüfung abgeschlossen",
+    "Completed_and_Reviewed": "Abgeschlossene Prüfungen"
+  },
+  "workflowType": {
+    "evaluations": "BEWERTUNGEN"
+  },
+  "ng2FormDesignerPage": {
+    "manageFormsBreadcrumb": "Formularmanager",
+    "warningMessageModal": {
+      "title": "Seite verlassen?",
+      "unsavedChanges": "Es sind nicht gespeicherte Daten vorhanden.",
+      "areYouSureLeavePage": "Möchten Sie wirklich beenden, ohne zu speichern?"
+    }
+  },
+  "messages": {
+    "noResultsText": "Keine Ergebnisse"
+  },
+  "setupPage": {
+    "qmScoreMetricPage": {
+      "pageTitle": "QM-Ergebnismetrik",
+      "qmMetricFormula": "Formel für QM-Metrik",
+      "averageOfValues": "Durchschnitt der Werte",
+      "averageOfPercentages": "Durchschnitt der Prozentwerte",
+      "averageOfValuesInfo": "Gesamtzahl der erhaltenen Fragepunkte / Gesamtzahl der möglichen Fragepunkte * 100",
+      "averageOfPercentagesInfo": "Gesamtzahl der erhaltenen Fragepunkte / Gesamtzahl der möglichen Fragepunkte * 100 = Ergebnis in % / Anzahl der durchgeführten Bewertungen",
+      "qmScoreMetricSaveSuccessMessage": "Formel für QM-Metrik wurde erfolgreich gespeichert.",
+      "qmScoreMetricErrorMessage": "Die ausgewählte Formel für QM-Metrik konnte nicht gespeichert werden, versuchen Sie es erneut.",
+      "loadQMMetricFormulaErrorMessage": "Seite konnte nicht geladen werden. Keine Verbindung zum Server. Versuchen Sie es noch einmal. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Systemadministrator."
+    }
+  },
+  "ng2QMEditAccessibleTeams": {
+    "buttons": {
+      "cancel": "Abbrechen",
+      "apply": "Übernehmen",
+      "showSelected": "Nur ausgewählte anzeigen",
+      "ok": "OK"
+    },
+    "gridColumnsHeaders": {
+      "teamName": "TEAMNAME"
+    },
+    "noItemsOverlay": "Keine Übereinstimmung gefunden",
+    "customSelectTeams": "Benutzerdefinierte Teamauswahl",
+    "removeEvaluator": "Bewerter entfernen",
+    "omnibarMessage": "Team suchen",
+    "noTeamSelectedMessage": "Kein Team ausgewählt",
+    "noTeamAddedMessage": "Kein Team hinzugefügt",
+    "modalHeader": "Teamauswahl",
+    "switchOnSelectTeamsToggleMessage": "Wählen Sie \"Ein\", um die benutzerdefinierte Teamauswahl für einen Bewerter zuzulassen.",
+    "switchOffSelectTeamsToggleMessage": "Wählen Sie \"Aus\", um die benutzerdefinierte Teamauswahl für einen Bewerter nicht zuzulassen.",
+    "selectTeamsToggleONHeader": "Benutzerdefinierte Teamauswahl wird eingeschaltet",
+    "selectTeamsToggleOffHeader": "Benutzerdefinierte Teamauswahl wird ausgeschaltet",
+    "notAccessibleTeamError": "Der Bewerter hat keinen Zugriff mehr auf das Team/die Teams."
+  },
+  "ticketQualityPlannerPage": {
+    "planStatus": {
+      "draft": "Entwurf",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "running": "Ausführung",
+      "expired": "Abgelaufen",
+      "pending": "Ausstehend",
+      "deleted": "Gelöscht"
+    },
+    "planActions": {
+      "activate": "Aktivieren",
+      "deactivate": "Deaktivieren",
+      "extend": "Erweitern",
+      "duplicate": "Kopieren"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "Qualitätspläne",
+      "newTicketPlanButton": "Neuer Plan für Tickets",
+      "newSegmentPlanButton": "Neuer Plan für Segmente",
+      "noItemsOverlay": "Keine Übereinstimmung gefunden",
+      "plansCountLabel": "Pläne",
+      "planCountLabel": "Plan",
+      "planCount": "{{count}} Pläne",
+      "planSearchPlaceholder": "Beginnen Sie mit der Eingabe, um einen Plan zu finden",
+      "planTabForSegments": "Quality Planner für Segmente",
+      "planTabForTickets": "Quality Planner für Tickets",
+      "gridColumnsHeaders": {
+        "planName": "Planname",
+        "evaluationType": "Bewertungstyp",
+        "planOccurrence": "Planhäufigkeit",
+        "planLastModified": "Zuletzt geändert",
+        "planState": "Status",
+        "planAction": "Aktionen",
+        "planActivate": "Aktivieren"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }} Pläne",
+        "searchPlaceholder": "Beginnen Sie mit der Eingabe, um einen Plan zu finden"
+      },
+      "planOccurrence": {
+        "recurring": "Wiederholend",
+        "monthly": "Monatlich wiederholender Plan",
+        "weekly": "Wöchentlich wiederholender Plan",
+        "oneTime": "Einmalig"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "Sie sind dabei, diesen Plan zu löschen. Diese Aktion kann nicht rückgängig gemacht werden.",
+          "msg2": "Fortfahren?"
+        },
+        "activatePlan": {
+          "msg1": "Der Plan enthält Fehler. Diese müssen vor Aktivierung des Plans behoben werden.",
+          "msg2": "Was möchten Sie tun?"
+        },
+        "deactivatePlan": {
+          "msg1": "Sie sind dabei, diesen Plan zu deaktivieren. Die Bewerter erhalten keine weiteren Interaktionen.",
+          "msg2": "Fortfahren?"
+        },
+        "closeModal": {
+          "message1": "Alle Änderungen gehen verloren",
+          "message2": "Möchten Sie wirklich beenden, ohne zu speichern?"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "Planname",
+          "successMessage": "Plan wurde erfolgreich dupliziert.",
+          "errorMessage": "Planname existiert bereits",
+          "header": "Plan duplizieren",
+          "duplicate": "Kopieren",
+          "errorDuplicatingPlanMissingPermissionError": "Sie verfügen nicht über die entsprechenden Berechtigungen, um diese Aktion durchzuführen."
+        }
+      },
+      "warningMessageModal": {
+        "title": "Seite verlassen?",
+        "unsavedChanges": "Es sind nicht gespeicherte Daten vorhanden.",
+        "areYouSureLeavePage": "Möchten Sie wirklich beenden, ohne zu speichern?"
+      }
+    },
+    "qpPlanDetails": {
+      "RBAC_cannot_delete_error": "Qualitätsplan kann nicht gelöscht werden. Kontaktieren Sie Ihren Administrator.",
+      "RBAC_cannot_activate_error": "Qualitätsplan kann nicht aktiviert werden. Kontaktieren Sie Ihren Administrator.",
+      "RBAC_cannot_duplicate_error": "Qualitätsplan kann nicht kopiert werden. Kontaktieren Sie Ihren Administrator.",
+      "RBAC_cannot_deactivate_error": "Qualitätsplan kann nicht deaktiviert werden. Kontaktieren Sie Ihren Administrator.",
+      "pageTitle": "Neuen Qualitätsplan erstellen",
+      "qualityPlansPageBreadcrumb": "Qualitätspläne",
+      "name": "Name",
+      "description": "Beschreibung",
+      "errorSavingPlan": "Speicherung des Qualitätsplans fehlgeschlagen",
+      "errorSavingPlanDueToFilters": "Dieser Plan kann nicht gespeichert werden. Sie haben Felder bearbeitet, die nicht geändert werden können.",
+      "successSavingPlan": "Qualitätsplan erfolgreich gespeichert ",
+      "successSavingActivePlan": "Qualitätsplan erfolgreich gespeichert. Die Änderungen werden ab der nächsten Verteilung wirksam.",
+      "selectiveFieldsEditMsg": "Nicht bearbeitbare Felder: Planname, Beschreibung, Bewertungsformular zuweisen, Anruffilterung",
+      "editEvaluatorSelectiveFieldsEditMsg": "Felder, die bearbeitet werden können: Name des Plans, Beschreibung, Bewertungsformular zuweisen, Anruffilterung, Bewerter",
+      "editEvaluatorsInfoIconMsg": "Änderungen bei den Bewertern wirken sich auf die Planverteilung aus",
+      "successActivatingPlan": "Qualitätsplan erfolgreich aktiviert.",
+      "successDeactivatingPlan": "Qualitätsplan erfolgreich deaktiviert.",
+      "errorActivatingPlan": "Fehler bei Aktivierung des Qualitätsplans.",
+      "errorActivatingPlanPermissionIssue": "Dieser Plan kann nicht aktiviert werden. Einige der Bewerter haben nicht die Berechtigung, Interaktionen zu bewerten.",
+      "errorActivatingPlanStatusIssue": "Dieser Plan kann nicht aktiviert werden. Es sind keine aktiven Bewerter vorhanden.",
+      "errorDeactivatingPlan": "Fehler beim Deaktivieren des Qualitätsplans.",
+      "successdelete": "Plan erfolgreich gelöscht.",
+      "deleteQualityPlanError": "Löschen des Qualitätsplans fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "evaluationType": "Bewertungstyp",
+      "standardEvaluation": "Standardbewertung",
+      "standardEvaluationHelpText": "Diese Bewertung wird nur vom Bewerter durchgeführt",
+      "collaborativeEvaluation": "Gemeinsame Bewertung",
+      "collaborativeEvaluationHelpText": "Diese Bewertung wird von Agent und Bewerter durchgeführt und dann miteinander verglichen",
+      "planDuration": {
+        "planDurationTitle": "Plandefinition",
+        "planDurationMessage": "Bewertung von Anrufen, die während des ausgewählten Zeitraums aufgetreten sind:",
+        "recurringLabel": "Wiederholend",
+        "oneTimeLabel": "Einmalplan - Start- und Enddaten:",
+        "oneTimePlanNewLabel": "Einmalig",
+        "startDateLabel": "VON",
+        "endDateLabel": "BIS",
+        "emptyDatePickerLabel": "Datum auswählen",
+        "selectForm": "Formular auswählen",
+        "errorMessage": "Es muss ein Bewertungsformular ausgewählt werden",
+        "recurringOptions": {
+          "monthly": "Monatlich",
+          "weekly": "Wöchentlich"
+        }
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "Bewerter",
+        "noEvaluatorsAssignedMessage": "Es wurden noch keine Bewerter zugewiesen",
+        "noEvaluatorsSelectedMessage": "Keine Bewerter ausgewählt",
+        "noEvaluatorsAddedMessage": "Keine Bewerter hinzugefügt",
+        "selectedEvaluatorsLabel": "Ausgewählte Bewerter",
+        "addEvaluatorsButton": "Bewerter hinzufügen",
+        "modalHeader": "Bewerter hinzufügen",
+        "selectEvaluatorsHeader": "Bewerter auswählen",
+        "cancelButton": "Abbrechen",
+        "errorMessage": "Sie müssen mindestens 1 Bewerter auswählen",
+        "omnibarMessage": "Beginnen Sie mit der Eingabe, um Bewerter zu finden",
+        "evaluatorsCount": "{{count}} Bewerter",
+        "evaluators": "Bewerter",
+        "Evaluator": "Bewerter",
+        "Manager": "Manager",
+        "Administrator": "Administrator",
+        "alreadyAssignedEvaluators": "Zugewiesene Bewerter",
+        "customTeamSelection": "Benutzerdefinierte Teamauswahl",
+        "gridColumnsHeaders": {
+          "fullName": "Name",
+          "role": "Rolle",
+          "accessibleTeams": "Verfügbare Teams",
+          "selectedTeams": "Ausgewählte Teams",
+          "dailyEvaluations": "Tägliche Bewertungen"
+        },
+        "errorMessages": {
+          "required": "Sie müssen mindestens einen Bewerter auswählen",
+          "atleastSingleTeamRequired": "Sie müssen pro Bewerter mindestens ein Team auswählen"
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "Agenten",
+        "noAgentGroupsAssignedMessage": "Es wurden noch keine Agentengruppen zugewiesen",
+        "selectedAgentGroupsLabel": "Ausgewählte Agentengruppen",
+        "addAgentGroupsButton": "Agentengruppen hinzufügen",
+        "selectAgentGroupsHeader": "Agentengruppen auswählen",
+        "cancelButton": "Abbrechen",
+        "errorMessage": "Es muss mindestens 1 Agentengruppe ausgewählt werden",
+        "omnibarMessage": "Beginnen Sie mit der Eingabe, um Agentengruppen zu finden",
+        "agentGroupsCount": "{{count}} Agentengruppen",
+        "selectedTxt": "Ausgewählt:",
+        "AlreadyAssignedGroups": "Zugewiesene Agentengruppen"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "Agenten",
+        "teams": "Teams",
+        "groups": "Gruppen",
+        "noTeamsSelected": "Es wurden noch keine Teams ausgewählt",
+        "selectTeams": "Teams auswählen",
+        "selectGroups": "Gruppen auswählen",
+        "selectedAgents": "Aktuelle Gesamtanzahl der Agenten: ",
+        "errorMessages": {
+          "required": "Sie müssen mindestens ein Team auswählen"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "Stichprobe",
+        "newSamplingHeader": "Beispielauswahl für Verteilung",
+        "numSegmentsPerAgentLabel": "Interaktionen pro Agent",
+        "numDaysBackLabel": "Interaktionen berücksichtigen der letzten",
+        "daysLabel": "Tage",
+        "daysBackExceedMaxMessage": "Plandauer beträgt {{durationInDays}} Tage. Wählen Sie 1 bis {{daysRange}} Tage aus.",
+        "excludeEvaluatedInteractionsText": "Bewertete oder für die Bewertung gekennzeichnete Interaktionen ausschließen",
+        "include": "Einschließen",
+        "exclude": "Ausschließen",
+        "includeInteractionsLabel": "Interaktionen einschließen",
+        "excludeInteractionsLabel": "Interaktionen ausschließen",
+        "fromLastDaysLabel": "Der letzten",
+        "excludeInteractionsText": "Bewertet / Für Bewertung getaggt",
+        "timeBasedSelectionLabel": "Zeitbasierte Auswahl",
+        "startTimeLabel": "Startzeit",
+        "endTimeLabel": "Endzeit",
+        "startTimeSubtext": "Interaktionen basierend auf dem Beginn der Interaktionen abrufen",
+        "endTimeSubtext": "Interaktionen basierend auf dem Ende der Interaktionen abrufen"
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "Zeitzone "
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "Bewertungsformular zuweisen",
+        "dropdownNewLabel": "Bewertungsbögen"
+      },
+      "planSummary": {
+        "planSummary": "Planzusammenfassung",
+        "totalInteractions": "Bewertungen in Plan insgesamt",
+        "interactionsPerDayPerEvaluator": "Tägliche Bewertungen pro Bewerter",
+        "planDays": "Tage in Plan insgesamt",
+        "interactionsPerAgent": "Interaktionen pro Agent"
+      },
+      "ticketFiltersEnterInput": "Eingabe eingeben",
+      "filters": {
+        "includeInteractionsFromLast": "Einbeziehen: Interaktionen der letzten",
+        "days": "Tage",
+        "filtersHeader": "Filter"
+      },
+      "ticketFiltersMultiSelect": "Werte auswählen",
+      "planCategoriesTicket": {
+        "categoriesHeader": "Kategorien",
+        "qmaCategoriesLabel": "QMA-Kategorien"
+      }
+    },
+    "planType": {
+      "ticket": "Für Ticket",
+      "segment": "Für Segment"
+    }
+  }
+}

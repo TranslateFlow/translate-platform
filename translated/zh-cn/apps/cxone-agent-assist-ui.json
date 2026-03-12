@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "demonstrateEmpathy": "表现出同理心",
+    "overallSentimentScore": "整体遵守得分",
+    "suggestionSummary": "建议摘要",
+    "noSuggestionYet": "目前尚无任何建议",
+    "guidanceScores": "指导得分",
+    "landingMessage": "正在等待身份验证……",
+    "permissionRequired": "需要权限",
+    "permissionHelpPhrase": "您需要权限才能查看此页面。请联系您的管理员。",
+    "speechVelocity": "语速",
+    "activeListening": "主动聆听",
+    "beEmpathetic": "做到将心比心",
+    "interruption": "打断交谈",
+    "demonstrateOwnership": "展示所有权",
+    "buildRapport": "建立融洽的关系",
+    "setExpectations": "设定期望",
+    "effectiveQuestioning": "有效提问",
+    "promoteSelfService": "宣传自助服务",
+    "acknowledgeLoyalty": "认可忠诚度",
+    "inappropriateAction": "不当行为",
+    "sentiment": "整体情绪",
+    "noScore": "无得分",
+    "acknowledgeRequest": "确认请求",
+    "askForTheSale": "请求销售",
+    "likelihoodToBuy": "购买的可能性",
+    "makeAConnection": "建立联系",
+    "orderConfirmation": "已确认的订单",
+    "overcomeObjections": "消除反对意见",
+    "presumptiveSelling": "推定销售",
+    "uncoverNeeds": "揭示需求"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "overallSentimentScore": "Note globale de sentiment",
+    "suggestionSummary": "Résumé des suggestions",
+    "noSuggestionYet": "Il n’y a pas encore de suggestions",
+    "guidanceScores": "Scores d’orientation",
+    "landingMessage": "En attente d’authentification…",
+    "permissionRequired": "Autorisations requises",
+    "permissionHelpPhrase": "Vous devez disposer de privilèges pour voir cette page. Contactez votre administrateur.",
+    "speechVelocity": "Rapidité d’élocution",
+    "activeListening": "Écoute active",
+    "beEmpathetic": "Faire preuve d’empathie",
+    "interruption": "Interruption",
+    "demonstrateOwnership": "Démontrer son implication",
+    "buildRapport": "Renforcer les relations",
+    "setExpectations": "Établir les attentes",
+    "effectiveQuestioning": "Poser les bonnes questions",
+    "promoteSelfService": "Promouvoir le libre-service",
+    "acknowledgeLoyalty": "Remercier pour la fidélité",
+    "inappropriateAction": "Action inappropriée",
+    "sentiment": "Sentiment général",
+    "noScore": "Aucun SCORE",
+    "acknowledgeRequest": "Confirmer la demande",
+    "overcomeObjections": "Surmonter les objections",
+    "presumptiveSelling": "Vente présomptive",
+    "uncoverNeeds": "Découvrir les besoins",
+    "askForTheSale": "Demandez pour la vente",
+    "demonstrateEmpathy": "Faire preuve d’empathie",
+    "likelihoodToBuy": "Probabilité d’acheter",
+    "makeAConnection": "Établir une connexion",
+    "orderConfirmation": "Commande confirmée"
+  }
+}

@@ -1,0 +1,946 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleLinks": {
+          "manageForms": "Gerenciador de formulários",
+          "categoryManager": "Gerenciador de categorias",
+          "qpPlanManager": "Quality Planner"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "Minha agenda",
+          "tasks": "Tarefas",
+          "evaluations": "Avaliações",
+          "plansMonitoring": "Monitoramento de Plano",
+          "performanceMonitoring": "Monitoramento de desempenho",
+          "myTimeOffRequests": "Solicitações de folga",
+          "shiftBidding": "Lance por turno",
+          "calibrations": "Calibrações",
+          "selfAssessments": "Autoavaliações",
+          "marketplace": "Marketplace",
+          "myPersona": "Minha Persona",
+          "pursuits": "Minhas Buscas",
+          "1on1coaching": "Coaching individual",
+          "groupCoaching": "Coaching em grupo",
+          "recentInteractions": "Interações recentes",
+          "scheduleRequests": "Solicitações de agendamento",
+          "evaluatorAssignments": "Atribuições de avaliador",
+          "qualityPerformance": "Desempenho de qualidade"
+        },
+        "formManagerModuleNameFormatted": "Ferramentas QM",
+        "coachingModuleLinks": {
+          "coachingPackage": "Pacotes de Coaching",
+          "coachingPlans": "Planos de Coaching",
+          "coachingManager": "Gerente de coaching",
+          "smartInsights": "Insights SMART"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "Minha agenda",
+          "myTimeOffRequests": "Solicitações de folga",
+          "evaluations": "Avaliações",
+          "shiftBidding": "Lance por turno",
+          "coaching": "Coaching",
+          "selfAssessments": "Autoavaliações",
+          "marketplace": "Marketplace",
+          "myDashboards": "Meu Painel",
+          "pursuits": "Minhas Buscas",
+          "1on1coaching": "Coaching individual",
+          "groupCoaching": "Coaching em grupo",
+          "recentInteractions": "Interações recentes",
+          "scheduleRequests": "Solicitações de agendamento"
+        }
+      }
+    }
+  },
+  "metaInfo": {
+    "title": "Nice SaaS WFM ",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "success": {
+      "title": "Sucesso",
+      "description": "Nice SaaS WFM"
+    },
+    "performanceMonitoring": {
+      "title": "Monitoramento de desempenho",
+      "description": "Nice SaaS WFM"
+    },
+    "plansMonitoring": {
+      "title": "Monitoramento de Plano",
+      "description": "Nice SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "Executor de Formulário",
+      "description": "Nice SaaS WFM"
+    },
+    "interactionPlayer": {
+      "title": "Parte da interação",
+      "description": "Parte da interação"
+    },
+    "planDetails": {
+      "title": "Detalhes do monitoramento do plano",
+      "description": "Detalhes do monitoramento do plano"
+    },
+    "calibrations": {
+      "title": "Calibrações",
+      "description": "Calibrações"
+    },
+    "performanceDetails": {
+      "title": "Detalhes do monitoramento de desempenho",
+      "description": "Detalhes do monitoramento de desempenho"
+    },
+    "selfAssessments": {
+      "title": "Autoavaliações",
+      "description": "Autoavaliações"
+    },
+    "supervisorPerformanceMonitoring": {
+      "title": "Monitoramento de desempenho",
+      "description": "Nice SaaS WFM"
+    },
+    "evaluatorAssignments": {
+      "title": "Atribuições de avaliador",
+      "description": "Nice SaaS WFM"
+    },
+    "supervisorPerformanceDetails": {
+      "title": "Detalhes do monitoramento de desempenho",
+      "description": "Detalhes do monitoramento de desempenho"
+    },
+    "qualityPerformance": {
+      "title": "Desempenho de qualidade",
+      "description": "Nice SaaS WFM"
+    },
+    "supervisorQualityPerformance": {
+      "title": "Desempenho de qualidade",
+      "description": "Nice SaaS WFM"
+    },
+    "calibrationDetails": {
+      "title": "Detalhes da calibração",
+      "description": "Detalhes da calibração"
+    }
+  },
+  "globalNavigation": {
+    "sideBar": {
+      "setupAppName": "ADMIN",
+      "setupAppLinks": {
+        "users": "Funcionários",
+        "skills": "Competências",
+        "groups": "Grupos"
+      },
+      "schedulerAppName": "PROGRAMADOR",
+      "schedulerAppLinks": {
+        "activityCodes": "Códigos de atividade",
+        "realTimeAdherence": "Adesão em Tempo Real",
+        "acdActivitiesMapping": " Mapeamento de ACD",
+        "managementUnits": "Unidade de agendamento",
+        "scheduler": "Gerenciador de agendas",
+        "generateSchedule": "Gerar agenda",
+        "dailyRule": "Regras diárias",
+        "weeklyRules": "Regras semanais",
+        "forecastData": "Importar dados de previsão"
+      },
+      "mySpaceAppName": "MEU ESPAÇO",
+      "mySpaceAppLinks": {
+        "mySchedule": "Minha agenda",
+        "myDashboard": "Meu Painel",
+        "myTasks": "Minhas tarefas",
+        "myEvaluations": "Minhas Avaliações",
+        "performanceMonitoring": "Monitoramento de desempenho",
+        "plansMonitoring": "Monitoramento de Plano",
+        "calibration": "Calibração",
+        "qualityPerformance": "Desempenho de qualidade"
+      },
+      "formManagerAppName": "FERRAMENTAS QM",
+      "formManagerAppLinks": {
+        "manageForms": "Gerenciador de formulários",
+        "formDesigner": "Designer de formulários",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "Gerenciador de modelos"
+      }
+    },
+    "wfmHeader": {
+      "contactUs": "Fale Conosco",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "Terminar sessão",
+      "changePasswordOption": "Alterar senha",
+      "accountSetupOption": "Configuração da conta",
+      "myProfileOption": "My Profile",
+      "help": "Ajuda",
+      "selfService": "Suporte - Downloads"
+    }
+  },
+  "formExecutorPage": {
+    "pageTitle": "Dados do formulário",
+    "submitBtn": "Enviar",
+    "sentToAgentMsg": "Enviado ao agente",
+    "acknowledgeMsg": "Confirmado",
+    "executionErrorMsg": "Falha ao enviar",
+    "acknowledgeErrorMsg": "Falha ao reconhecer",
+    "executionRetrieveErrorMsg": "Falha ao recuperar dados com o ID de execução: {{executor}}.",
+    "roleNotSupportedMsg": "Função não suportada: {{role}}.",
+    "noWorkflowAssociatedMsg": "Nenhum fluxo de trabalho associado, associe o fluxo de trabalho.",
+    "changeForm": "Alterar forma",
+    "cancel": "Cancelar",
+    "scoreLabel": "Pontuação: ",
+    "Submit": "Avaliação enviada ao agente",
+    "CompleteNoReview": "Avaliação Enviada",
+    "Acknowledge": "Avaliação Reconhecida",
+    "Dispute": "Enviado ao avaliador para revisão da solicitação",
+    "RequestReview": "Solicitação de revisão concluída",
+    "SubmitNoAck": "Avaliação Enviada",
+    "InProgress": "A avaliação foi salva como rascunho com sucesso.",
+    "InReview": "A avaliação foi salva como rascunho com sucesso.",
+    "Self-Assessment-Completed": "Auto-avaliação concluída com sucesso.",
+    "Self-Assessment-InProgress": "Auto-avaliação salva como rascunho com sucesso.",
+    "criticalQuestionIndicationMessage": "Você errou a pergunta nº {{criticalFailureQuestions}}. Essa era uma pergunta importante, e isso acabou zerando sua pontuação.",
+    "criticalQuestionsIndicationMessage": "Você errou as perguntas nº {{criticalFailureQuestions}}. Essas eram perguntas importantes, e isso acabou zerando sua pontuação.",
+    "mismatchedAnswersMessage": "Respostas incompatíveis",
+    "EVALUATION": {
+      "retrieveFormErrorMsg": "Falha ao recuperar o formulário",
+      "close": "Fechar"
+    },
+    "evaluatorTitle": "Avaliador",
+    "agentTitle": "Agente",
+    "formDataAttributeQuestion": {
+      "agentRequest": "Motivo de solicitação do agente:",
+      "evaluatorReview": "Resumo da revisão do avaliador:"
+    },
+    "footerButtons": {
+      "Dispute": "Solicitar revisão",
+      "Acknowledge": "Confirmar",
+      "Self-Assessment-InProgress": "Salvar",
+      "Self-Assessment-Completed": "Enviar",
+      "InProgress": "Salvar como rascunho",
+      "CompleteNoReview": "Enviar",
+      "InReview": "Salvar como rascunho",
+      "RequestReview": "Enviar ao agente",
+      "Submit": "Enviar ao agente",
+      "SubmitNoAck": "Enviar",
+      "Coaching-InProgress": "Salvar",
+      "Coaching-Completed": "Enviar"
+    },
+    "RequestReviewModalHeader": "Solicitar revisão",
+    "errorLoadingAnswers": "Não foi possível carregar as respostas do formulário. Tente abrir o formulário novamente",
+    "generalErrorMsg": "Não foi possível concluir esta ação. Ocorreu um erro."
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Falha no início de sessão"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Erro geral"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Erro geral {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Parâmetros inválidos"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Funcionário não autorizado"
+    },
+    "wrongCredentials": "Você digitou um endereço de e-mail ou senha incorretos"
+  },
+  "notification": {
+    "notificationTitle": "Você tem {{Count}} notificação não lida"
+  },
+  "filter": {
+    "clearall": "Limpar tudo",
+    "close": "Fechar",
+    "clear": "Limpar"
+  },
+  "filterDropDown": {
+    "completed": "Concluído",
+    "notCompleted": "Não completo"
+  },
+  "successPage": {
+    "welcomeMsg": "Olá, {{username}} "
+  },
+  "generalErrorMessages": {
+    "required": "Este campo é obrigatório.",
+    "minLength": "Sua entrada é muito curta",
+    "nameFieldValidation": "Ops, você não pode usar \\ / ! + < > ? # & , % \" ",
+    "maxLength": "Sua entrada é muito longa",
+    "email": "O endereço de e-mail digitado não é válido",
+    "emailExists": "O endereço de e-mail já existe. Experimente um novo",
+    "number": "Apenas números!",
+    "pattern": "Formato incorreto para este campo",
+    "password": "Sua senha deve ter pelo menos 8 caracteres, incluindo pelo menos 1 número e 1 letra maiúscula",
+    "match": "Esta senha não corresponde à senha anterior",
+    "minLengthPassword": "Sua senha deve ter pelo menos 8 caracteres",
+    "maxLengthPassword": "Sua senha é muito longa",
+    "min": "O número é muito pequeno",
+    "max": "O número é muito grande",
+    "uniqueString": "Este nome já existe. Tente um novo.",
+    "lowerThen": "O valor mínimo não pode exceder o valor máximo",
+    "weeklyMaxLowerThanSumDailyMin": "O número mínimo de dias exigido pelas regras diárias excede o número máximo de dias na regra semanal.",
+    "weeklyMinGreaterThanSumDailyMax": "O número mínimo de dias na regra semanal excede o número máximo de dias exigido pelas regras diárias.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "O total de horas de combinações diárias mínimas não pode ser maior que o total de horas totais por semana",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "O total de horas de combinações diárias máximas não pode ser menor que o total total de horas por semana",
+    "uniqueDaysCounterLowerThanSumDailyMin": "O número mínimo de dias excede o número total de dias únicos.",
+    "possibleDaysLowerThanMinDays": "O número de dias possíveis não atende ao número mínimo de dias exigido pela regra semanal.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "O número mínimo de dias na regra semanal excede o número de dias únicos.",
+    "noAddedShiftPatters": "Você deve selecionar pelo menos uma regra diária",
+    "shiftLengthLowerThanActivityLength": "A soma da duração da atividade e o início relativo não podem ser maiores que a duração do turno",
+    "shiftLengthLowerThanTotalActivityLength": "A duração total das atividades não pode exceder a duração do turno",
+    "relativeStartLowerThanSlack": "A folga não pode ser maior que o valor inicial relativo",
+    "activitiesOverlap": "Atividades não podem se sobrepor",
+    "serverError": "Erro desconhecido no servidor",
+    "missingPermissionError": "Você não tem as permissões corretas para executar esta ação.",
+    "generalError": "Erro geral",
+    "no-data": "Sem dados",
+    "loading": "Carregando"
+  },
+  "commonButtons": {
+    "ok": "Ok",
+    "cancel": "Cancelar",
+    "no": "Não",
+    "yes": "Sim",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "activate": "Ativar",
+    "saveAndActivate": "Salvar e ativar",
+    "saveAsDraft": "Salvar como rascunho",
+    "invite": "Convidar",
+    "edit": "Editar",
+    "update": "Atualizar",
+    "upload": "Carregar",
+    "today": "Hoje",
+    "showAll": "Mostrar Tudo",
+    "clearAll": "Limpar tudo",
+    "close": "Fechar",
+    "create": "Criar",
+    "selectAll": "Selecionar Tudo",
+    "generate": "Gerar",
+    "chooseFile": "Selecionar Arquivo",
+    "add": "Adicionar",
+    "publish": "Publicar",
+    "set": "Definir",
+    "reset": "Redefinir",
+    "day": "Dia",
+    "week": "Semana",
+    "done": "Pronto",
+    "download": "Baixar"
+  },
+  "languages": {
+    "english": "Inglês",
+    "russian": "Rússia",
+    "spanish": "Espanhol",
+    "chinese": "Chinês"
+  },
+  "weekDays": {
+    "sunday": "Domingo",
+    "monday": "Segunda-feira",
+    "tuesday": "Terça-feira",
+    "wednesday": "Quarta-feira",
+    "thursday": "Quinta-feira",
+    "friday": "Sexta-feira",
+    "saturday": "Sábado"
+  },
+  "weekShortDays": {
+    "SUN": "DOM",
+    "MON": "SEG",
+    "TUE": "TER",
+    "WED": "QUA",
+    "THU": "QUI",
+    "FRI": "SEX",
+    "SAT": "SÁB"
+  },
+  "teamsAndGroups": {
+    "teams": "Equipes",
+    "groups": "Grupos",
+    "selectTeams": "Selecionar equipes",
+    "selectGroups": "Selecionar Grupos",
+    "errorMessages": {
+      "required": "Você deve selecionar pelo menos uma equipe"
+    },
+    "selected": " selecionada(s)"
+  },
+  "plansMonitoring": {
+    "plansMonitoring": "Monitoramento de Plano",
+    "name": "Nome",
+    "distributionRate": "Distribuição (%)",
+    "completionRate": "Conclusão (%)",
+    "avgEvalutionPerDay": "Média de avaliações/dia",
+    "remainingDays": "Dias restantes",
+    "status": "Status",
+    "planCount": "planos ativos",
+    "noPlansAvailable": "Nenhum plano está ativo",
+    "planSummary": "Resumo do plano",
+    "noOfEvaluators": "Nº de avaliadores",
+    "noOfAgents": "Nº de agentes",
+    "noOfInteractionsPerAgents": "Nº de interações / agentes",
+    "evaluatorsStatus": "Progresso dos avaliadores",
+    "aboveDailyAvg": "Acima da média diária",
+    "belowDailyAvg": "Abaixo da média diária",
+    "none": "Nenhum(a)",
+    "team": "Equipe",
+    "evaluators": "{{count}} avaliadores",
+    "actualAndExpected": "Concluído / Esperado",
+    "consumptionTrend": "Tendência de consumo",
+    "planOccurrence": "Planejar a ocorrência",
+    "recurringMonthly": "Recorrente Mensal",
+    "recurringWeekly": "Recorrente Semanalmente",
+    "errorFetchingPlanDetailsData": "Falha ao carregar os dados detalhados do monitoramento do plano",
+    "noDistributionDrilldown": "A distribuição para este plano ainda não foi iniciada.",
+    "drillDownTitle": "Detalhes não disponíveis",
+    "timePeriod": "Período de tempo",
+    "current": "atual",
+    "nextScheduledRun": "Próxima execução da programação: ",
+    "ontrack": "Na pista",
+    "offtrack": "Fora da pista",
+    "active": "Ativo",
+    "date": "Data",
+    "noOfEvaluations": "Nº de avaliações",
+    "avgEvaluations": "Média de avaliações",
+    "occurrence": {
+      "recurring": "Recorrente",
+      "monthly": "Plano Mensal Recorrente",
+      "weekly": "Plano Semanal Recorrente",
+      "oneTime": "Uma vez"
+    },
+    "textForEvals": " Avals)",
+    "gridColumnsHeaders": {
+      "evaluators": "EQUIPES (AVALIADORES)",
+      "actualAndExpected": "CONCLUÍDO / ESPERADO",
+      "consumptionTrend": "TENDÊNCIA DE CONSUMO"
+    },
+    "evaluator": "Avaliadores",
+    "activeAgents": "Agentes Ativos",
+    "interactionsPerAgent": "Interações por agente",
+    "evaluatorProgress": "Progresso do Avaliador",
+    "pm_warnUnexpectedDistributionMsg": "O valor pode ser maior do que o esperado. Incluir interações de agentes ativos e inativos enquanto eles estavam ativos no ciclo atual.",
+    "pd_warnUnexpectedDistributionMsg": "O valor é superior ao esperado. Incluir interações de agentes ativos e inativos enquanto eles estavam ativos no ciclo atual.",
+    "warnUnexpectedCompletionMsg": "O valor pode ser maior do que o esperado. Incluir avaliações para agentes ativos e inativos enquanto eles estavam ativos no ciclo atual.",
+    "pageTitle": "Atribuições de avaliador",
+    "tabs": {
+      "planMonitoring": "MONITORAMENTO DE PLANOS",
+      "evaluatorQueue": "GERENCIAR AVALIAÇÕES"
+    },
+    "ng2evaluatorQueueTab": {
+      "omnibarSearchPlaceholder": "Procurar agente",
+      "omnibarItemCount": "{{ count }} itens",
+      "gridColumnsHeaders": {
+        "channeltype": "TIPO",
+        "agentName": "NOME DO AGENTE",
+        "planName": "NOME DO PLANO",
+        "evaluationAssignee": "DESTINATÁRIO DA AVALIAÇÃO",
+        "evaluationType": "TIPO DE AVALIAÇÃO",
+        "evaluationStartDate": "DATA DE INÍCIO DA AVALIAÇÃO",
+        "dueDate": "DATA DE VENCIMENTO",
+        "score": "PONTUAÇÃO",
+        "evaluationStatus": "ESTADO DA AVALIAÇÃO",
+        "formName": "NOME DO FORMULARIO",
+        "action": "AÇÃO",
+        "duration": "DURAÇÃO",
+        "evaluationSubject": "ASSUNTO DA AVALIAÇÃO"
+      },
+      "dateRange": "INTERVALO DE DATAS",
+      "changeAssignee": {
+        "modalHeader": "Alterar destinatário",
+        "changeAssigneeButton": "Alterar destinatário",
+        "searchPlaceholder": "SELECIONAR NOME DO AVALIADOR",
+        "noEvaluatorAvailable": "Nenhum avaliador disponível",
+        "reassignSuccessMessage": "Destinatário alterado com sucesso",
+        "reassignErrorMessage": "A avaliação foi enviada. Você não tem acesso para reatribui-la. "
+      },
+      "dismiss": "Dispensar",
+      "infoText": "Dados anteriores ao lançamento do recurso “Atribuições de avaliador” não estão disponíveis"
+    }
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "Selecione um formulário para iniciar a execução:",
+    "select": "Selecionar",
+    "change": "Alterar",
+    "noFormsMsg": "Nenhum formulário disponível.",
+    "selectFormHeader": "Selecionar formulário",
+    "changeFormHeader": "Alterar forma",
+    "noFormInPlanMessage": "Selecione um formulário para a avaliação.",
+    "disabledFormInPlanMessage": "Selecione um formulário para a avaliação."
+  },
+  "workflowStatuses": {
+    "Claimed": "Reivindicado",
+    "InProgress": "Em andamento",
+    "Dispute": "Disputa",
+    "InReview": "Em revisão",
+    "Request_Review": "Solicitar revisão",
+    "Pending_Acknowledgement": "Confirmação pendente",
+    "Completed": "Concluído",
+    "Completed_Acknowledged": "Concluído Reconhecido",
+    "Reviewed_and_Completed": "Revisado e Concluído"
+  },
+  "workflowStatusUI": {
+    "Assigned": "Novo",
+    "Claimed": "Novo",
+    "InProgress": "Rascunho",
+    "Dispute": "Contestado",
+    "InReview": "Contestado",
+    "Request_Review": "Contestado",
+    "Pending_Acknowledgement": "Novo",
+    "Completed": "Concluído",
+    "Completed_Acknowledged": "Concluído",
+    "Reviewed_and_Completed": "Revisão Concluída",
+    "selfAssessment": {
+      "new": "Novo",
+      "draft": "Rascunho",
+      "completed": "Concluído",
+      "expired": "Expirado"
+    },
+    "Expired": "Expirado",
+    "Auto-acknowledged": "Reconhecida automaticamente",
+    "Sent_To_Agent": "Enviado ao agente",
+    "WaitingForEvaluator": "Aguardando avaliador",
+    "WaitingForAgent": "Aguardando agente",
+    "PartiallyCompleted": "Parcialmente completo",
+    "Completed_and_Not_Reviewed": "Concluído Nenhuma Revisão",
+    "Completed_and_Reviewed": "Concluído Revisado",
+    "Appealed": "Apelado",
+    "Sent_To_Supervisor": "Enviado ao supervisor",
+    "In_Progress": "Em andamento"
+  },
+  "workflowType": {
+    "evaluations": "AVALIAÇÕES"
+  },
+  "performanceMonitoring": {
+    "performanceMonitoring": "Monitoramento de desempenho",
+    "selectGroup": "Selecionar grupo",
+    "teams": "Equipes",
+    "groups": "Grupos",
+    "averageScore": "Pontuação média",
+    "changeInPoints": "Mudança de pontos",
+    "noOfEvaluations": "Nº de avaliações",
+    "diffFromPreviousTime": "Dif. da hora anterior",
+    "loadPerformanceData": "Carregar dados de desempenho",
+    "selectTimePeriod": "Selecionar período",
+    "fromDate": "De",
+    "toDate": "Para",
+    "NoGroupSelected": "Nenhum grupo foi selecionado ainda",
+    "NoTeamSelected": "Você ainda não selecionou um filtro",
+    "noAgents": "Nenhuma combinação encontrada",
+    "noAgentsInGroup": "Não há agentes nos grupos selecionados",
+    "noEvaluationsFound": "Não há avaliações nessas equipes/grupos",
+    "errorFetchingGroupData": "Falha ao carregar dados",
+    "errorFetchingPerformanceDetailsData": "Falha ao carregar dados",
+    "dateOfInteraction": "Data da interação",
+    "duration": "Duração",
+    "planName": "Nome do plano",
+    "findEmployeePlaceHolder": "Comece a digitar para encontrar funcionário",
+    "teamName": "Equipe",
+    "evaluatedOn": "Avaliado em",
+    "evaluatedBy": "Avaliado por",
+    "score": "Pontuação",
+    "status": "Status",
+    "groupName": "Nome do Grupo",
+    "fromDateHeader": "Da data",
+    "toDateHeader": "Até a data",
+    "evaluations": "Avaliações",
+    "noItemsOverlay": "Nenhuma avaliação foi concluída ainda",
+    "evaluationReport": {
+      "generateEvaluationReport": "Gerar relatório de avaliação",
+      "generateReportFailed": "Falha ao gerar relatório de avaliação",
+      "generateReportSuccess": "Relatório de avaliação gerado com sucesso",
+      "from": "De",
+      "to": "Para",
+      "type": "Tipo",
+      "evaluation": "Avaliação",
+      "calibration": "Calibração",
+      "selfAssessment": "Auto-avaliação",
+      "generate": "Gerar",
+      "create": "Gerar relatório",
+      "agent": "Agente",
+      "form": "Formulário",
+      "formVersion": "Versão do formulário",
+      "downloadInProgress": "Seu relatório está sendo baixado.",
+      "downloadSuccess": "O relatório foi baixado com sucesso.",
+      "downloadError": "Não foi possível baixar o relatório. Tente mais tarde.",
+      "placeholder": {
+        "agent": "Selecionar Agente",
+        "form": "Selecionar formulário",
+        "formVersion": "Selecionar versão do formulário"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "Bewertungsformular nicht verfügbar",
+      "message": "Esta avaliação foi contestada e está sendo reavaliada. Ele estará disponível assim que for concluído."
+    },
+    "evaluation_Type": "Tipo de avaliação",
+    "collaborativeEvaluation": "Colaborativo",
+    "standardEvaluation": "Padrão",
+    "evaluatorTitle": "Avaliador",
+    "agentTitle": "Agente",
+    "evaluationDeleted": "A avaliação foi excluída com sucesso.",
+    "evaluationDeletionError": "Não foi possível excluir a avaliação.",
+    "deleteReasonModal": {
+      "deleteButton": "Excluir",
+      "deleteEvaluationTaskHeader": "Excluir avaliação",
+      "reasonLabel": "Motivo",
+      "charactersRemainingText": "{{count}} caracteres restantes",
+      "WarningText": "A exclusão dessa avaliação altera a pontuação média da avaliação.",
+      "textareaPlaceholder": "Digite algo...",
+      "confirmMessage1": "A exclusão dessa avaliação pode alterar a pontuação média da avaliação.",
+      "confirmMessage2": "Continuar?",
+      "cancelMessage1": " Todas as alterações serão perdidas.",
+      "cancelMessage2": "Continuar?",
+      "requiredField": "Este campo é obrigatório."
+    },
+    "team": "Equipe",
+    "group": "Grupo",
+    "formName": "Nome do formulario",
+    "formVersion": "Versão do formulário",
+    "calibrationEvaluation": "Calibração",
+    "qualityPerformance": "Desempenho de qualidade"
+  },
+  "calibration": {
+    "calibration": "Calibrações",
+    "calibrationScore": "Pontuação de calibração",
+    "noItemsOverlay": "Nenhuma calibração foi recebida ainda",
+    "days": "d",
+    "NA": "NA",
+    "createCalibration": "Nova calibração",
+    "gridColumnsHeaders": {
+      "calibrationName": "NOME DA CALIBRAÇÃO",
+      "agentName": "NOME DO AGENTE",
+      "initiatedBy": "INICIADO POR",
+      "calibrationForm": "FORMULÁRIO DE CALIBRAÇÃO",
+      "originalScore": "PONTUAÇÃO ORIGINAL",
+      "calibrationScore": "PONTUAÇÃO DE CALIBRAÇÃO",
+      "completionRate": "TAXA DE REALIZAÇAO",
+      "remainingDays": "DIAS RESTANTES",
+      "modal": {
+        "maxScore": "PONTUAÇÃO MÁXIMA",
+        "questions": "PERGUNTAS",
+        "originalScore": "PONTUAÇÃO ORIGINAL",
+        "calibrations": "PONTUAÇÃO MÉDIA",
+        "variance": "VARIAÇÃO (%)"
+      },
+      "actions": "Ações"
+    },
+    "calibrationSearchPlaceholder": "Procurar calibração",
+    "calibrationsCount": "{{count}} calibrações",
+    "errors": {
+      "calibrationsError": "Falha ao carregar as calibrações. Por favor, tente novamente.",
+      "calibrationScoreError": "Falha ao carregar as perguntas. Por favor, tente novamente.",
+      "deleteCalibrationError": "Falha ao excluir a calibração. Por favor, tente novamente.",
+      "overviewAPIFailure": "Erro ao buscar dados de visão geral da calibração",
+      "participantQuestionAPIFailure": "Falha ao buscar dados da grade de participantes e perguntas de calibração",
+      "questionDrilldownAPIFailure": "Erro ao buscar dados detalhados da pergunta de calibração"
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "Não é possível excluir esta calibração. A calibração está ativa no momento.",
+      "deleteCalibration": "Excluir a calibração selecionada? Esta ação não pode ser desfeita.",
+      "deleteOthersCalibration": "Não foi possível excluir esta calibração. A calibração foi criada por outro usuário."
+    },
+    "success": {
+      "deleteCalibration": "Calibração excluída com sucesso."
+    },
+    "calibrationOverviewCards": {
+      "typeOfCalibration": "Tipo de calibração",
+      "dueDate": "Data de vencimento",
+      "interactionDate": "Data da interação",
+      "initiatedBy": "Iniciado por",
+      "evaluationForm": "Formulário de avaliação",
+      "calibrationScore": "Pontuação de calibração",
+      "originalScore": "Pontuação original",
+      "minScore": "Pontuação mín.: ",
+      "maxScore": "Pontuação máx.: ",
+      "daysRemaining": "Dias restantes: ",
+      "completion": "Conclusão: ",
+      "calibrationType": "Tipo de calibração",
+      "initiatedDate": "Data de início",
+      "daysLeft": "Dias restantes: "
+    },
+    "calibrationDetailsGridColumns": {
+      "questions": "PERGUNTAS",
+      "variance": "VARIAÇÃO",
+      "avgScore": "PONTUAÇÃO MÉDIA"
+    },
+    "placeHolders": {
+      "selectEvaluators": "Selecionar avaliadores",
+      "selectParticipants": "Selecionar participante",
+      "selectQuestions": "Selecionar perguntas"
+    },
+    "labels": {
+      "evaluators": "Avaliadores",
+      "participants": "Participantes",
+      "answer": "Resposta",
+      "questionType": "Tipo de pergunta",
+      "allQuestions": "Todas as perguntas",
+      "originalAnswer": "Resposta original",
+      "calibrationDetails": "Detalhes da calibração"
+    },
+    "tooltip": {
+      "variance": "Variação:",
+      "evaluationScore": "Pontuação da avaliação:",
+      "participantNotCompletedCalibration": "O participante ainda não concluiu a calibração."
+    },
+    "radioLabels": {
+      "completed": "Concluído",
+      "notCompleted": "Não completo",
+      "all": "Todos",
+      "evaluatorType": "Tipo de avaliador"
+    },
+    "calibrationQuestionOverviewCards": {
+      "originalScore": "Pontuação original",
+      "variance": "Variação",
+      "avgScore": "Pontuação méd.",
+      "maxScore": "Pontuação máx.",
+      "minScore": "Pontuação mín."
+    },
+    "calibrationQuestionDrilldownGridColumns": {
+      "evaluatorName": "Nome do avaliador",
+      "variance": "VARIAÇÃO",
+      "score": "PONTUAÇÃO",
+      "participantName": "NOME DO PARTICIPANTE"
+    }
+  },
+  "selfAssessment": {
+    "title": "Autoavaliações",
+    "itemsCount": "{{count}} autoavaliações",
+    "items": "Autoavaliações",
+    "newAssessment": "Nova Autoavaliação",
+    "noItemsOverlay": "Não há avaliações iniciadas",
+    "gridColumnsHeaders": {
+      "initiatedBy": "Iniciado por",
+      "agentName": "Nome do Agente",
+      "interactionDate": "Data da interação",
+      "duration": "Duração",
+      "remainingDays": "Dias restantes",
+      "score": "Pontuação",
+      "status": "Status",
+      "actions": "Ações",
+      "formName": "Nome do formulario"
+    },
+    "failedToLoadAssessments": "Falha ao carregar os dados de Autoavaliação",
+    "status": {
+      "awaiting": "Aguardando",
+      "completed": "Concluído",
+      "expired": "Expirado"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "A aguardar avaliação não pode ser excluída",
+      "deleteAssessmentMsg1": "Você está prestes a excluir esta avaliação. Essa ação não pode ser desfeita.",
+      "deleteAssessmentMsg2": "Continuar?",
+      "cannotDeleteOtherUsersSelfAssessment": "Essa auto-avaliação foi iniciada por outro usuário e não pode ser excluída."
+    },
+    "selfAssessmentStatus": "ESTADO DAS AUTO AVALIAÇÕES",
+    "singleStatusPlaceHolder": "1 Status Selecionado",
+    "twoStatusesPlaceHolder": "2 Status Selecionados",
+    "threeStatusesPlaceHolder": "3 status selecionados",
+    "assessmentDeletedSuccess": "Avaliação excluída com sucesso.",
+    "assessmentDeleteFailed": "Falha ao excluir a avaliação. Por favor, tente novamente."
+  },
+  "messages": {
+    "noResultsText": "Não encontramos nenhum resultado"
+  },
+  "ng2Calibration": {
+    "calibration": "Calibrações",
+    "calibrationScore": "Pontuação de calibração",
+    "noItemsOverlay": "Nenhuma calibração foi recebida ainda",
+    "days": "d",
+    "NA": "NA",
+    "createCalibration": "Nova calibração",
+    "gridColumnsHeaders": {
+      "calibrationName": "NOME DA CALIBRAÇÃO",
+      "agentName": "NOME DO AGENTE",
+      "initiatedBy": "INICIADO POR",
+      "calibrationForm": "FORMULÁRIO DE CALIBRAÇÃO",
+      "originalScore": "PONTUAÇÃO ORIGINAL",
+      "calibrationScore": "PONTUAÇÃO DE CALIBRAÇÃO",
+      "completionRate": "TAXA DE REALIZAÇAO",
+      "remainingDays": "DIAS RESTANTES",
+      "modal": {
+        "maxScore": "PONTUAÇÃO MÁXIMA",
+        "questions": "PERGUNTAS",
+        "originalScore": "PONTUAÇÃO ORIGINAL",
+        "calibrations": "PONTUAÇÃO MÉDIA",
+        "variance": "VARIAÇÃO (%)"
+      },
+      "actions": "Ações",
+      "calibrationSubject": "SUJEITO DA CALIBRAÇÃO"
+    },
+    "calibrationSearchPlaceholder": "Procurar calibração",
+    "calibrationsCount": "Calibrações",
+    "calibrationCount": "Calibração",
+    "errors": {
+      "calibrationsError": "Falha ao carregar as calibrações. Tente novamente.",
+      "calibrationScoreError": "Falha ao carregar as perguntas. Tente novamente.",
+      "deleteCalibrationError": "Falha ao excluir a calibração. Por favor, tente novamente."
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "Não é possível excluir esta calibração. A calibração está ativa no momento.",
+      "deleteCalibration": "Excluir a calibração selecionada? Esta ação não pode ser desfeita.",
+      "deleteOthersCalibration": "Não foi possível excluir esta calibração. A calibração foi criada por outro usuário."
+    },
+    "success": {
+      "deleteCalibration": "Calibração excluída com sucesso."
+    },
+    "forTicket": "Para chamado",
+    "forInteraction": "Para interação"
+  },
+  "ng2SelfAssessment": {
+    "title": "Autoavaliações",
+    "itemsCount": "Autoavaliações",
+    "items": "Autoavaliações",
+    "newAssessment": "Nova Autoavaliação",
+    "noItemsOverlay": "Não há avaliações iniciadas",
+    "gridColumnsHeaders": {
+      "initiatedBy": "Iniciado por",
+      "agentName": "Nome do Agente",
+      "interactionDate": "Data da interação",
+      "duration": "Duração",
+      "remainingDays": "Dias restantes",
+      "score": "Pontuação",
+      "status": "Status",
+      "actions": "Ações",
+      "formName": "Nome do formulario"
+    },
+    "failedToLoadAssessments": "Falha ao carregar os dados de Autoavaliação",
+    "status": {
+      "awaiting": "Aguardando",
+      "completed": "Concluído",
+      "expired": "Expirado",
+      "newSelfAssessment": "Nova Autoavaliação",
+      "inProgressSelfAssessment": "Autoavaliação InProgress",
+      "completedSelfAssessment": "Auto-avaliação concluída",
+      "expiredSelfAssessment": "Autoavaliação expirada"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "A aguardar avaliação não pode ser excluída",
+      "deleteAssessmentMsg1": "Você está prestes a excluir esta avaliação. Essa ação não pode ser desfeita.",
+      "deleteAssessmentMsg2": "Continuar?",
+      "cannotDeleteOtherUsersSelfAssessment": "Essa auto-avaliação foi iniciada por outro usuário e não pode ser excluída."
+    },
+    "selfAssessmentStatus": "ESTADO DAS AUTO AVALIAÇÕES",
+    "assessmentDeletedSuccess": "Avaliação excluída com sucesso.",
+    "assessmentDeleteFailed": "Falha ao excluir a avaliação. Por favor, tente novamente."
+  },
+  "ng2PerformanceMonitoring": {
+    "performanceMonitoring": "Monitoramento de desempenho",
+    "selectGroup": "Selecionar grupo",
+    "evaluationDeleted": "A avaliação foi excluída com sucesso.",
+    "evaluationDeletionError": "Não foi possível excluir a avaliação.",
+    "teams": "Equipes",
+    "groups": "Grupos",
+    "team": "Equipe",
+    "group": "Grupo",
+    "averageScore": "Pontuação média",
+    "changeInPoints": "Mudança de pontos",
+    "noOfEvaluations": "Nº de avaliações",
+    "diffFromPreviousTime": "Dif. da hora anterior",
+    "loadPerformanceData": "Carregar dados de desempenho",
+    "selectTimePeriod": "Selecionar período",
+    "fromDate": "De",
+    "toDate": "Para",
+    "NoGroupSelected": "Nenhum grupo foi selecionado ainda",
+    "NoTeamSelected": "Você ainda não selecionou um filtro",
+    "noAgents": "Nenhuma combinação encontrada",
+    "noAgentsInGroup": "Não há agentes nos grupos selecionados",
+    "noEvaluationsFound": "Não há avaliações nessas equipes/grupos",
+    "errorFetchingGroupData": "Falha ao carregar dados",
+    "errorFetchingPerformanceDetailsData": "Falha ao carregar dados",
+    "dateOfInteraction": "Data da interação",
+    "duration": "Duração",
+    "planName": "Nome do plano",
+    "findEmployeePlaceHolder": "Comece a digitar para encontrar funcionário",
+    "teamName": "Equipe",
+    "evaluatedOn": "Avaliado em",
+    "evaluatedBy": "Avaliado por",
+    "score": "Pontuação",
+    "status": "Status",
+    "groupName": "Nome do Grupo",
+    "fromDateHeader": "Da data",
+    "toDateHeader": "Até a data",
+    "evaluations": "Avaliações",
+    "evaluation": "Avaliação",
+    "noItemsOverlay": "Nenhuma avaliação foi concluída ainda",
+    "evaluation_Type": "Tipo de avaliação",
+    "collaborativeEvaluation": "Colaborativo",
+    "standardEvaluation": "Padrão",
+    "evaluatorTitle": "Avaliador",
+    "agentTitle": "Agente",
+    "formName": "Nome do formulario",
+    "formVersion": "Versão do formulário",
+    "deleteReasonModal": {
+      "textareaPlaceholder": "Digite algo...",
+      "confirmMessage1": "A exclusão dessa avaliação pode alterar a pontuação média da avaliação.",
+      "confirmMessage2": "Continuar?",
+      "cancelMessage1": " Todas as alterações serão perdidas.",
+      "cancelMessage2": "Continuar?",
+      "requiredField": "Este campo é obrigatório.",
+      "deleteButton": "Excluir",
+      "deleteEvaluationTaskHeader": "Excluir avaliação",
+      "reasonLabel": "Motivo",
+      "charactersRemainingText": "{{count}} caracteres restantes",
+      "WarningText": "A exclusão dessa avaliação altera a pontuação média da avaliação."
+    },
+    "evaluationReport": {
+      "generateEvaluationReport": "Gerar relatório de avaliação",
+      "generateReportFailed": "Falha ao gerar relatório de avaliação",
+      "generateReportSuccess": "Relatório de avaliação gerado com sucesso",
+      "from": "De",
+      "to": "Para",
+      "type": "Tipo",
+      "evaluation": "Avaliação",
+      "calibration": "Calibração",
+      "selfAssessment": "Auto-avaliação",
+      "generate": "Gerar",
+      "create": "Gerar relatório",
+      "agent": "Agente",
+      "form": "Formulário",
+      "formVersion": "Versão do formulário",
+      "downloadInProgress": "Seu relatório está sendo baixado.",
+      "downloadSuccess": "O relatório foi baixado com sucesso.",
+      "downloadError": "Não foi possível baixar o relatório. Tente mais tarde.",
+      "placeholder": {
+        "agent": "Selecionar Agente",
+        "form": "Selecionar formulário",
+        "formVersion": "Selecionar versão do formulário"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "Bewertungsformular nicht verfügbar",
+      "message": "Essa avaliação foi contestada e está sendo reavaliada. Estará disponível assim que for concluído.",
+      "message1": "Essa avaliação foi contestada e está sendo reavaliada.",
+      "message2": "Estará disponível assim que for concluído.",
+      "message1_new": "Essa avaliação foi contestada e está sendo reavaliada."
+    },
+    "employeeEvaluation": {
+      "create": "Nova Avaliação",
+      "header": "Realizar nova avaliação",
+      "submitBtn": "Avalie"
+    },
+    "evaluationSubject": "ASSUNTO DA AVALIAÇÃO",
+    "employee": "Funcionário",
+    "segment": "Segmento",
+    "N/A": "N/A",
+    "NA": "NA",
+    "averageScoreNullTooltipText": "A pontuação não está habilitada no formulário OU Pontos possíveis e Pontos ganhos não estão disponíveis para dados históricos",
+    "calibrationEvaluation": "Calibração",
+    "evaluationSummary": {
+      "genAISummaryTooltipText": "Resumo da avaliação",
+      "genAISummaryButton": "Detalhes do resumo",
+      "summaryUnavailableText": "Resumo não disponível",
+      "generateSummaryText": "Gostaria de gerar um resumo?",
+      "generateSummaryButton": "Gerar resumo",
+      "generatingSummaryText": "Gerando o resumo",
+      "troubleInSummaryGenerationText": "Não foi possível gerar o resumo",
+      "tryAgainButton": "Tente novamente",
+      "cardSummaryUnavailableText": "O resumo da sua avaliação está preparado e aguardando sua análise",
+      "cardSummaryUnavailableSubText": "Verifique os detalhes do resumo da avaliação",
+      "summaryGenerationFailureErrorMessage": "Falha ao buscar/salvar o resumo da avaliação"
+    },
+    "qualityPerformance": "Desempenho de qualidade",
+    "ticket": "Chamado"
+  },
+  "channels": {
+    "voice-icon": "Tipo de Interação: Voz",
+    "sms-icon": "Tipo de Interação: SMS",
+    "chat-icon": "Tipo de Interação: Chat",
+    "email-icon": "Tipo de Interação: E-mail",
+    "recording-icon": "Tipo de Interação: Gravação",
+    "whatsapp-icon": "Tipo de Interação: Whatsapp"
+  }
+}

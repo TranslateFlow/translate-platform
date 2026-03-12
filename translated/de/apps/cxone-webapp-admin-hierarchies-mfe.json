@@ -1,0 +1,222 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "adminModuleName": "admin",
+        "adminModuleLinks": {
+          "users": "Mitarbeiter",
+          "skills": "WFO-Skills",
+          "groups": "Gruppen",
+          "teams": "Teams",
+          "employeeGroups": "Planungseinheit",
+          "roleManagement": "Rollen und Berechtigungen",
+          "recordingPolicies": "Aufzeichnungsrichtlinien",
+          "passwordPolicyManagement": "Passwortrichtlinie",
+          "loginAuthenticatorManagement": "Login-Authentifikator",
+          "bulkUploadDownload": "Portal für Massenupload",
+          "accountSettings": "Kontoeinstellungen",
+          "hierarchies": "Hierarchien",
+          "storage": "Cloud-Speicher",
+          "lifecycleManagement": "Life Cycle Management",
+          "longTermFileRetrieval": "Langzeit-Dateiabruf",
+          "secureExternalAccess": "Sicherer externer Zugriff",
+          "businessDataConfiguration": "Geschäftsdaten",
+          "recording": "Wird aufgezeichnet",
+          "security": "Sicherheit",
+          "viewManagement": "Ansichten",
+          "advancedTtl": "Life Cycle Management",
+          "storageSettings": "Speichereinstellungen"
+        }
+      }
+    }
+  },
+  "hierarchiesPage": {
+    "title": "Hierarchien",
+    "newHierarchy": "Neue Hierarchie",
+    "changeHistory": "Änderungshistorie",
+    "back": "Zurück",
+    "searchHierarchiesPlaceholder": "Beginnen Sie mit der Eingabe, um eine Hierarchie zu finden",
+    "grid": {
+      "showingFirst": "Anzeige der ersten ",
+      "showingAll": "Anzeige von allen ",
+      "hierarchyCount": " Hierarchien",
+      "hierarchyName": "HIERARCHIENAME",
+      "type": "ART",
+      "lastModified": "ZULETZT GEÄNDERT",
+      "status": "STATUS",
+      "primaryHierarchy": "Primäre Hierarchie",
+      "lastModifiedBy": "LETZTE ÄNDERUNG VON",
+      "actions": "AKTIONEN",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "activate": "Aktivieren",
+      "deactivate": "Deaktivieren",
+      "noHierarchiesDefined": "Es wurden noch keine Hierarchien definiert"
+    },
+    "changeHistoryOf": "Änderungshistorie von ",
+    "node": "Knoten",
+    "changeHistoryForNode": "Änderungshistorie für Knoten"
+  },
+  "types": {
+    "organizational": "ORGANISATION",
+    "division": "ABTEILUNG"
+  },
+  "colors": {
+    "textColorDefault": "#000"
+  },
+  "hierarchyManagerPage": {
+    "name": "Name ",
+    "namePlaceholder": "Hierarchiename hinzufügen",
+    "searchPlaceholder": "Hierarchieknoten suchen",
+    "searchLabel": "Suchen",
+    "searchInfo": "Klicken Sie auf die Schaltfläche \"Suchen\", um eine neue Suche nach Namen zu starten. Bei der Suche wird die Groß-/Kleinschreibung beachtet. Das erste übereinstimmende Ergebnis wird automatisch in die mittlere Position gescrollt, soweit die Ränder des Graphen es erlauben.",
+    "type": "Art",
+    "typePlaceholder": "Typ auswählen",
+    "mandatorySymbol": "*",
+    "primaryHierarchy": "Primäre Hierarchie",
+    "setAsPrimaryHierarchy": "Als primäre Hierarchie festlegen",
+    "setAsPrimaryHierarchyTooltip": "Diese Aktion legt die ausgewählte Hierarchie als primäre fest. Danach kann die Hierarchie nicht mehr zu einer nicht primären Hierarchie geändert werden. Alle in Anwendungen verwendeten Hierarchiedaten werden aus der primären Hierarchie abgerufen. ",
+    "title": "Neue Hierarchie erstellen",
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "add": "Hinzufügen",
+    "remove": "Entfernen",
+    "create": "Erstellen",
+    "save": "Speichern",
+    "no": "Nein",
+    "yes": "Ja",
+    "viewDetails": "Details anzeigen",
+    "search": {
+      "placeholder": "Hierarchieknoten suchen",
+      "label": "Suchen",
+      "info": "Klicken Sie auf die Schaltfläche \"Suchen\", um eine neue Suche nach Namen zu starten. Bei der Suche wird die Groß-/Kleinschreibung beachtet. Das erste übereinstimmende Ergebnis wird automatisch in die mittlere Position gescrollt, soweit die Ränder des Graphen es erlauben.",
+      "noValue": "Geben Sie einen Suchwert ein, um mit der Suche zu beginnen.",
+      "found": "Gefunden ",
+      "notFound": "Nicht gefunden: "
+    },
+    "toolbar": {
+      "add-child": {
+        "addOrganizationUnit": "Organisationseinheit hinzufügen",
+        "addSchedulingUnit": "Planungseinheit hinzufügen",
+        "addExistingSchedulingUnit": "VORHANDENE PLANUNGSEINHEIT HINZUFÜGEN",
+        "addTeam": "Team hinzufügen",
+        "addExistingTeam": "Vorhandenes Team hinzufügen",
+        "addOUInformation": "Diese Aktion erstellt einen untergeordneten Knoten vom Typ Organisationseinheit (OU). Nachdem die Organisationseinheit erstellt wurde, können Sie Mitglieder hinzufügen.",
+        "addSUInformation": "Durch diese Aktion wird ein untergeordneter Knoten vom Typ Planungseinheit (SU) erstellt, indem eine der vorhandenen SUs ausgewählt wird. Nachdem der SU-Knoten erstellt wurde, können Sie untergeordnete Knoten hinzufügen und SU-Informationen und die Mitgliedschaft anzeigen.",
+        "addTeamInformation": "Durch diese Aktion wird ein untergeordneter Knoten vom Typ Team erstellt, indem eines der vorhandenen Teams ausgewählt wird. Nachdem der Teamknoten erstellt wurde, können Sie die Teaminformationen und die Mitgliedschaft anzeigen.",
+        "teamExistsUnder": "Das Team ist derzeit vorhanden unter",
+        "andMovedUnder": " und wird verschoben unter",
+        "continue": ". Möchten Sie fortfahren?",
+        "selectTeam": "Team auswählen",
+        "untitled": "Unbenannt",
+        "name": "Name"
+      },
+      "members": {
+        "members": "Mitglieder",
+        "addMembers": "Mitglieder hinzufügen",
+        "addExistingMembers": "Vorhandene Mitglieder hinzufügen",
+        "noMembersAdded": "Keine Mitglieder hinzugefügt",
+        "clickOnAddMembers": "Klicken Sie auf 'HINZUFÜGEN', um Mitglieder hinzuzufügen.",
+        "SUToAddMembers": "Navigieren Sie über Admin zur Planungseinheit, um Mitglieder hinzuzufügen.",
+        "teamToAddMembers": "Navigieren Sie über Admin zum Team, um Mitglieder hinzuzufügen.",
+        "onceMembersAdded": "Hinzugefügt Mitglieder werden hier angezeigt",
+        "noResultsFound": "Alle verfügbaren Mitglieder wurden ausgewählt",
+        "allUsersSelectedAlreadyAdded": "Alle ausgewählten Benutzer sind zurzeit in der Organisationseinheit vorhanden.",
+        "showingFirst": "Anzeige der ersten",
+        "showingAll": "Anzeige von allen",
+        "membersUndercase": "Mitglieder",
+        "searchMembers": "Mitglieder suchen",
+        "userAlreadyMemberOf": "Benutzer ist bereits ein Mitglied von"
+      },
+      "info": {
+        "suInformation": "Planungseinheit-Informationen",
+        "teamInformation": "Teaminformationen",
+        "nameLabel": "Name",
+        "timeZoneLabel": "Zeitzone",
+        "teamLead": "Teamleiter"
+      },
+      "edit": {
+        "editDetails": "Details bearbeiten"
+      },
+      "delete": {
+        "ouDeleteMsg": "Sie sind im Begriff, diese OU aus der Hierarchie zu löschen. Mit dieser Aktion wird das Netzwerk unter dieser OU einschließlich aller untergeordneten Knoten (sofern vorhanden) gelöscht.",
+        "suDeleteMsg": "Sie löschen diese Planungseinheit aus der Hierarchie. Mit dieser Aktion wird das Netzwerk unter dieser Planungseinheit einschließlich aller untergeordneten Knoten (sofern vorhanden) gelöscht.",
+        "teamDeleteMsg": "Sie entfernen dieses Team aus der Hierarchie.",
+        "deletePermissionQue": "Möchten Sie fortfahren?",
+        "yesBtn": "Ja",
+        "noBtn": "Nein"
+      }
+    },
+    "hierarchyLegend": {
+      "OU": "Organisationseinheit",
+      "SU": "Planungseinheit",
+      "Team": "Team",
+      "Division": "Abteilung"
+    }
+  },
+  "metaInfo": {
+    "hierarchies": {
+      "title": "Hierarchien"
+    },
+    "hierarchy-manager": {
+      "title": "Hierarchie-Manager"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "Dieses Feld ist erforderlich.",
+    "minLength": "Ihre Eingabe ist zu kurz",
+    "maxLength": "Ihre Eingabe ist zu lang",
+    "specialCharacters": "! \\ < > ? % \" oder Emojis werden nicht unterstützt",
+    "SUAlreadyAdded": "Diese SU ist bereits hinzugefügt unter ",
+    "TeamAlreadyAdded": "Dieses Team wurde bereits hinzugefügt unter "
+  },
+  "hierarchyToasts": {
+    "hierarchyActivateSuccMsg": "Hierarchie erfolgreich aktiviert",
+    "setPrimaryHierarchySuccessMessage": "Primäre Hierarchie erfolgreich festgelegt",
+    "hierarchyDeactivateSuccMsg": "Hierarchie erfolgreich deaktiviert",
+    "hierarchyActivateFailMsg": "Hierarchie konnte nicht aktiviert werden",
+    "hierarchyDectivateFailMsg": "Hierarchie konnte nicht deaktiviert werden",
+    "hierarchySavedSuccMsg": "Hierarchie erfolgreich gespeichert",
+    "hierarchySavedFailMsg": "Hierarchie konnte nicht gespeichert werden",
+    "hierarchyCreatedSuccMsg": "Hierarchie erfolgreich erstellt",
+    "hierarchyCreatedFailMsg": "Hierarchie konnte nicht erstellt werden",
+    "hierarchyInvalidInputMsg": "Ungültige Eingabe",
+    "hierarchyNameExistsFailMsg": "Hierarchiename existiert bereits",
+    "cannotAddChildrenToTeamNode": "Teamknoten können keine untergeordneten Elemente hinzufügen",
+    "generalError": "Allgemeiner Fehler",
+    "cannotPerformAction": "Diese Aktion kann zurzeit nicht durchgeführt werden",
+    "noSUInformation": "Informationen zur Planungseinheit konnten nicht abgerufen werden",
+    "noTeamInformation": "Teaminformationen konnten nicht abgerufen werden",
+    "teamIsAlreadyChildOfParent": "Das Team, das Sie hinzufügen möchten, ist bereits ein untergeordneter Knoten",
+    "dragAndDrop": {
+      "OUChildOfSU": "Diese Aktion kann nicht ausgeführt werden, da die Organisationseinheit der Planungseinheit nicht untergeordnet sein kann",
+      "OUChildOfTeam": "Diese Aktion kann nicht ausgeführt werden, da die Organisationseinheit dem Team nicht untergeordnet sein kann",
+      "SUChildOfTeam": "Diese Aktion kann nicht ausgeführt werden, da die Planungseinheit kein untergeordneter Knoten des Teams sein kann",
+      "TeamChildOfTeam": "Diese Aktion kann nicht ausgeführt werden, da Team kein untergeordneter Knoten von Team sein kann",
+      "ExceedsLimit": "Diese Aktion kann nicht ausgeführt werden, da sie die zulässige Hierarchietiefe von 12 Ebenen überschreitet",
+      "AlreadyConnected": "Diese Aktion kann nicht durchgeführt werden, da die Knoten bereits verbunden sind"
+    },
+    "permissionErrors": {
+      "addChild": "Sie haben keine Berechtigung, um untergeordnete Elemente hinzuzufügen",
+      "editNode": "Sie haben keine Berechtigung, um einen Knoten zu bearbeiten",
+      "deleteNode": "Sie haben keine Berechtigung, um einen Knoten zu löschen",
+      "dragAndDrop": "Sie haben keine Berechtigung, um die Hierarchiestruktur zu ändern",
+      "userPermission": "Sie haben keine Berechtigung, um Benutzer einer Organisationseinheit anzuzeigen"
+    }
+  },
+  "primaryHierarchyModal": {
+    "title": "Als eine primäre Hierarchie festlegen",
+    "message": "Diese Aktion legt {{hierarchyName}} als primäre Hierarchie Ihrer Organisation fest.<br><br><br>Diese Aktion ist dauerhaft und kann nicht rückgängig gemacht werden.<br>Möchten Sie wirklich fortfahren?",
+    "primaryButtonText": "Primäre Hierarchie festlegen",
+    "closeButtonText": "Abbrechen"
+  },
+  "changeHistory": {
+    "name": "Name",
+    "depth": "Tiefe",
+    "parentId": "Übergeordnete ID",
+    "parentName": "Name des übergeordneten Elements",
+    "type": "Art",
+    "templateId": "Vorlagen-ID",
+    "nodeId": "Knoten-ID"
+  }
+}

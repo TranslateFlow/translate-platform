@@ -1,0 +1,946 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleNameFormatted": "QM 工具",
+        "formManagerModuleLinks": {
+          "manageForms": "表单管理器",
+          "categoryManager": "分类管理器",
+          "qpPlanManager": "质量规划程序"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "我的计划",
+          "tasks": "任务",
+          "evaluations": "评估",
+          "plansMonitoring": "计划监控",
+          "performanceMonitoring": "绩效监控",
+          "scheduleRequests": "排程请求",
+          "myTimeOffRequests": "休假请求",
+          "shiftBidding": "班次竞标",
+          "calibrations": "校准",
+          "groupCoaching": "群组辅导",
+          "selfAssessments": "自我评估",
+          "marketplace": "市场",
+          "myPersona": "我的个人资料",
+          "pursuits": "我的事务",
+          "1on1coaching": "1 对 1 辅导",
+          "recentInteractions": "最近 Interactions",
+          "evaluatorAssignments": "评估者分配",
+          "qualityPerformance": "质量表现"
+        },
+        "coachingModuleLinks": {
+          "coachingPackage": "辅导资料包",
+          "coachingPlans": "辅导计划",
+          "coachingManager": "辅导经理",
+          "smartInsights": "SMART Insights"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "我的计划",
+          "myTimeOffRequests": "休假请求",
+          "scheduleRequests": "排程请求",
+          "evaluations": "评估",
+          "shiftBidding": "班次竞标",
+          "coaching": "辅导",
+          "groupCoaching": "群组辅导",
+          "selfAssessments": "自我评估",
+          "marketplace": "市场",
+          "myDashboards": "My Dashboard",
+          "pursuits": "我的事务",
+          "1on1coaching": "1 对 1 辅导",
+          "recentInteractions": "最近 Interactions"
+        }
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "您有 {{Count}}条未读通知"
+  },
+  "filter": {
+    "clearall": "全部清除",
+    "close": "关闭",
+    "clear": "清除"
+  },
+  "filterDropDown": {
+    "completed": "已完成",
+    "notCompleted": "未完成"
+  },
+  "successPage": {
+    "welcomeMsg": "您好{{username}}"
+  },
+  "generalErrorMessages": {
+    "no-data": "无数据",
+    "loading": "加载中",
+    "required": "要求必须填写此字段。",
+    "minLength": "您的条目太短",
+    "nameFieldValidation": "糟糕，您不能使用 \\ / ! + < > ? # & , % \"",
+    "maxLength": "您的条目太长",
+    "email": "您输入的电子邮件地址无效",
+    "emailExists": "电子邮件地址已存在。请尝试一个新的电子邮件地址",
+    "number": "仅限数字！",
+    "pattern": "此字段的格式不正确",
+    "password": "密码必须至少由 8 个字符组成，其中包含至少 1 个数字和 1 个大写字母",
+    "match": "此密码与之前输入的密码不符",
+    "minLengthPassword": "密码必须至少包含 8 个字符",
+    "maxLengthPassword": "您的密码太长",
+    "min": "数字太小",
+    "max": "数字太大",
+    "uniqueString": "此名称已存在。尝试一个新的。",
+    "lowerThen": "最小值不能超过最大值",
+    "weeklyMaxLowerThanSumDailyMin": "每日规则要求的最小天数超过了每周规则中的最大天数。",
+    "weeklyMinGreaterThanSumDailyMax": "每周规则中的最小天数超过了每日规则要求的最大天数。",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "每日最小组合的总小时数不能大于每周的最大总小时数",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "每日最大组合的总小时数不能小于每周的最小总小时数",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最小天数超过唯一天数的总数。",
+    "possibleDaysLowerThanMinDays": "可能的天数不符合每周规则要求的最少天数。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "每周规则中的最小天数超过了唯一天数的数量。",
+    "noAddedShiftPatters": "您必须至少选择一项每日规则",
+    "shiftLengthLowerThanActivityLength": "活动时长和相对开始的总和不能大于班次时长",
+    "shiftLengthLowerThanTotalActivityLength": "活动总时长不能超过班次时长",
+    "relativeStartLowerThanSlack": "空闲时间不能大于相对起始值",
+    "activitiesOverlap": "活动不能重叠",
+    "serverError": "未知服务器错误",
+    "generalError": "常规错误",
+    "missingPermissionError": "您没有执行此操作的正确权限。"
+  },
+  "metaInfo": {
+    "title": "Nice SaaS WFM",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "success": {
+      "title": "成功",
+      "description": "Nice SaaS WFM"
+    },
+    "performanceMonitoring": {
+      "title": "绩效监控",
+      "description": "Nice SaaS WFM"
+    },
+    "plansMonitoring": {
+      "title": "计划监控",
+      "description": "Nice SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "表单执行器",
+      "description": "Nice SaaS WFM"
+    },
+    "interactionPlayer": {
+      "title": "交互播放器",
+      "description": "交互播放器"
+    },
+    "planDetails": {
+      "title": "计划监控详情",
+      "description": "计划监控详情"
+    },
+    "calibrations": {
+      "title": "校准",
+      "description": "校准"
+    },
+    "performanceDetails": {
+      "title": "绩效监控详细信息",
+      "description": "绩效监控详细信息"
+    },
+    "selfAssessments": {
+      "title": "自我评估",
+      "description": "自我评估"
+    },
+    "supervisorPerformanceMonitoring": {
+      "title": "绩效监控",
+      "description": "Nice SaaS WFM"
+    },
+    "evaluatorAssignments": {
+      "title": "评估者分配",
+      "description": "Nice SaaS WFM"
+    },
+    "supervisorPerformanceDetails": {
+      "title": "绩效监控详细信息",
+      "description": "绩效监控详细信息"
+    },
+    "qualityPerformance": {
+      "title": "质量表现",
+      "description": "Nice SaaS WFM"
+    },
+    "supervisorQualityPerformance": {
+      "title": "质量表现",
+      "description": "Nice SaaS WFM"
+    },
+    "calibrationDetails": {
+      "title": "校准详细信息",
+      "description": "校准详细信息"
+    }
+  },
+  "commonButtons": {
+    "ok": "确定",
+    "cancel": "取消",
+    "no": "否",
+    "yes": "是",
+    "save": "保存",
+    "delete": "删除",
+    "activate": "启动",
+    "saveAndActivate": "保存和激活",
+    "saveAsDraft": "保存为草稿",
+    "invite": "邀请",
+    "edit": "编辑",
+    "update": "更新",
+    "upload": "上传",
+    "today": "今天",
+    "showAll": "显示全部",
+    "clearAll": "全部清除",
+    "close": "关闭",
+    "create": "创建",
+    "selectAll": "全选",
+    "generate": "生成",
+    "chooseFile": "选择文件",
+    "add": "增加",
+    "publish": "发布",
+    "set": "设置",
+    "reset": "重置",
+    "day": "天",
+    "week": "周",
+    "done": "已完成",
+    "download": "下载"
+  },
+  "languages": {
+    "english": "英语",
+    "russian": "俄语",
+    "spanish": "西班牙语",
+    "chinese": "中文"
+  },
+  "weekDays": {
+    "sunday": "周日",
+    "monday": "周一",
+    "tuesday": "周二",
+    "wednesday": "周三",
+    "thursday": "周四",
+    "friday": "周五",
+    "saturday": "周六"
+  },
+  "weekShortDays": {
+    "SUN": "星期天",
+    "MON": "星期一",
+    "TUE": "星期二",
+    "WED": "星期三",
+    "THU": "星期四",
+    "FRI": "星期五",
+    "SAT": "星期六"
+  },
+  "globalNavigation": {
+    "wfmHeader": {
+      "contactUs": "联系我们",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "登出",
+      "changePasswordOption": "更改密码",
+      "accountSetupOption": "账户设置",
+      "myProfileOption": "我的配置文件",
+      "help": "帮助",
+      "selfService": "支持 - 下载"
+    },
+    "sideBar": {
+      "setupAppName": "ADMIN",
+      "setupAppLinks": {
+        "users": "员工",
+        "skills": "技能",
+        "groups": "组"
+      },
+      "schedulerAppName": "调度器",
+      "schedulerAppLinks": {
+        "activityCodes": "活动代码",
+        "realTimeAdherence": "实时坚持",
+        "acdActivitiesMapping": " ACD 映射",
+        "managementUnits": "调度单元",
+        "scheduler": "计划安排管理器",
+        "generateSchedule": "生成计划表",
+        "dailyRule": "每日规则",
+        "weeklyRules": "每周规则",
+        "forecastData": "导入预测数据"
+      },
+      "mySpaceAppName": "我的空间",
+      "mySpaceAppLinks": {
+        "mySchedule": "我的计划",
+        "myDashboard": "My Dashboard",
+        "myTasks": "我的任务",
+        "myEvaluations": "我的评估",
+        "performanceMonitoring": "绩效监控",
+        "plansMonitoring": "计划监控",
+        "calibration": "校准",
+        "qualityPerformance": "质量表现"
+      },
+      "formManagerAppName": "QM 工具",
+      "formManagerAppLinks": {
+        "manageForms": "表单管理器",
+        "formDesigner": "表单设计器",
+        "qpPlanManager": "质量规划程序",
+        "templateManager": "模板管理器"
+      }
+    }
+  },
+  "formExecutorPage": {
+    "pageTitle": "表单数据",
+    "submitBtn": "递交",
+    "sentToAgentMsg": "发送至坐席",
+    "acknowledgeMsg": "已确认",
+    "executionErrorMsg": "发送失败",
+    "acknowledgeErrorMsg": "确认失败",
+    "executionRetrieveErrorMsg": "无法检索具有执行 ID 的数据：{{executor}}。",
+    "roleNotSupportedMsg": "不支持的角色：{{role}}。",
+    "noWorkflowAssociatedMsg": "没有关联的工作流，请关联工作流。",
+    "generalErrorMsg": "无法完成此操作。发生错误。",
+    "changeForm": "更改表单",
+    "cancel": "取消",
+    "scoreLabel": "得分：",
+    "Submit": "评估已发送至坐席",
+    "CompleteNoReview": "已提交评估",
+    "Acknowledge": "已确认评估",
+    "Dispute": "已发送至评估员请求审查",
+    "RequestReview": "审核请求已完成",
+    "RequestReviewModalHeader": "请求审查",
+    "SubmitNoAck": "已提交评估",
+    "InProgress": "评估已成功保存为草稿。",
+    "InReview": "评估已成功保存为草稿。",
+    "Self-Assessment-Completed": "自我评估已成功完成。",
+    "Self-Assessment-InProgress": "自我评估已成功保存为草稿。",
+    "criticalQuestionIndicationMessage": "您对第 {{criticalFailureQuestions}} 个问题的回答错误。这是一个关键问题，因此您的分数重置为 0。",
+    "criticalQuestionsIndicationMessage": "您对第 {{criticalFailureQuestions}} 个问题的回答错误。这些是关键问题，因此您的分数重置为 0。",
+    "mismatchedAnswersMessage": "答案不匹配",
+    "evaluatorTitle": "评估员",
+    "agentTitle": "坐席",
+    "errorLoadingAnswers": "无法加载表单答案。请尝试重新打开表单",
+    "formDataAttributeQuestion": {
+      "agentRequest": "坐席请求原因：",
+      "evaluatorReview": "评估员审查摘要："
+    },
+    "EVALUATION": {
+      "retrieveFormErrorMsg": "表单检索失败",
+      "close": "关闭"
+    },
+    "footerButtons": {
+      "Dispute": "请求审查",
+      "Acknowledge": "确认",
+      "Self-Assessment-InProgress": "保存",
+      "Self-Assessment-Completed": "递交",
+      "InProgress": "保存为草稿",
+      "CompleteNoReview": "递交",
+      "InReview": "保存为草稿",
+      "RequestReview": "发送至坐席",
+      "Submit": "发送至坐席",
+      "SubmitNoAck": "递交",
+      "Coaching-InProgress": "保存",
+      "Coaching-Completed": "递交"
+    }
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "登录失败"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "常规错误"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "常规错误{{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "无效参数"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "未授权员工"
+    },
+    "wrongCredentials": "您输入的电子邮件地址或密码不正确"
+  },
+  "teamsAndGroups": {
+    "teams": "团队",
+    "groups": "组",
+    "selectTeams": "选择团队",
+    "selectGroups": "选择组",
+    "errorMessages": {
+      "required": "您必须至少选择一个团队"
+    },
+    "selected": " 已选择"
+  },
+  "plansMonitoring": {
+    "plansMonitoring": "计划监控",
+    "name": "名称",
+    "distributionRate": "分发 (%)",
+    "completionRate": "完成 (%)",
+    "avgEvalutionPerDay": "平均评估次数/天",
+    "remainingDays": "剩余天数",
+    "status": "状态",
+    "planCount": "活跃计划",
+    "noPlansAvailable": "没有活跃的计划",
+    "planSummary": "计划摘要",
+    "noOfEvaluators": "评估员数",
+    "noOfAgents": "坐席数",
+    "noOfInteractionsPerAgents": "交互/坐席数",
+    "evaluatorsStatus": "评估员进度",
+    "aboveDailyAvg": "高于每日平均水平",
+    "belowDailyAvg": "低于每日平均水平",
+    "none": "无",
+    "team": "团队",
+    "evaluators": "{{count}} 位评估者",
+    "actualAndExpected": "已完成/预计",
+    "consumptionTrend": "消耗趋势",
+    "planOccurrence": "计划发生次数",
+    "recurringMonthly": "每月循环",
+    "recurringWeekly": "每周循环",
+    "errorFetchingPlanDetailsData": "未能加载计划监控详细数据",
+    "noDistributionDrilldown": "此计划的分发尚未开始。",
+    "drillDownTitle": "详细信息不可用",
+    "timePeriod": "时间段",
+    "current": "当前",
+    "nextScheduledRun": "下一个计划表运行：",
+    "ontrack": "正常运行",
+    "offtrack": "偏离正轨",
+    "active": "活跃",
+    "date": "日期",
+    "noOfEvaluations": "评估数",
+    "avgEvaluations": "平均评估次数",
+    "textForEvals": " 评估数）",
+    "occurrence": {
+      "recurring": "重新出现",
+      "monthly": "月度循环计划",
+      "weekly": "每周循环计划",
+      "oneTime": "一次"
+    },
+    "gridColumnsHeaders": {
+      "evaluators": "团队（评估员）",
+      "actualAndExpected": "已完成/预计",
+      "consumptionTrend": "消耗趋势"
+    },
+    "evaluator": "评估员",
+    "activeAgents": "活动坐席",
+    "interactionsPerAgent": "每名坐席的交互",
+    "evaluatorProgress": "评估员进度",
+    "pm_warnUnexpectedDistributionMsg": "该值可能高于预期。包括活动坐席和非活动坐席在当前周期中处于活动状态时的交互。",
+    "pd_warnUnexpectedDistributionMsg": "该值高于预期。包括活动坐席和非活动坐席在当前周期中处于活动状态时的交互。",
+    "warnUnexpectedCompletionMsg": "该值可能高于预期。包括活动坐席和非活动坐席在当前周期中处于活动状态时的评估。",
+    "pageTitle": "评估者分配",
+    "tabs": {
+      "planMonitoring": "计划监控",
+      "evaluatorQueue": "管理评估"
+    },
+    "ng2evaluatorQueueTab": {
+      "omnibarSearchPlaceholder": "搜索坐席代表",
+      "omnibarItemCount": "{{ count }} 个项目",
+      "gridColumnsHeaders": {
+        "channeltype": "类型",
+        "agentName": "座席员姓名",
+        "planName": "计划名称",
+        "evaluationAssignee": "评估代理人",
+        "evaluationType": "评估类型",
+        "evaluationStartDate": "评估开始日期",
+        "dueDate": "到期日期",
+        "score": "分数",
+        "evaluationStatus": "评估状态",
+        "formName": "表单名称",
+        "action": "操作",
+        "duration": "持续时间",
+        "evaluationSubject": "评估主题"
+      },
+      "dateRange": "日期范围",
+      "changeAssignee": {
+        "modalHeader": "更改代理人",
+        "changeAssigneeButton": "更改代理人",
+        "searchPlaceholder": "选择评估员姓名",
+        "noEvaluatorAvailable": "没有可用的评估员",
+        "reassignSuccessMessage": "已成功更改代理人",
+        "reassignErrorMessage": "评估已提交。您无权重新指定它。"
+      },
+      "dismiss": "解除",
+      "infoText": "“评估分配”功能发布之前的数据不可用"
+    }
+  },
+  "messages": {
+    "noResultsText": "我们未找到任何结果"
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "请选择一个表单开始执行：",
+    "select": "选择",
+    "change": "更改",
+    "noFormsMsg": "没有可用的表单。",
+    "selectFormHeader": "选择表单",
+    "changeFormHeader": "更改表单",
+    "noFormInPlanMessage": "选择一个表单进行评估。",
+    "disabledFormInPlanMessage": "选择一个表单进行评估。"
+  },
+  "workflowStatuses": {
+    "Claimed": "已领取",
+    "InProgress": "进行中",
+    "Dispute": "争议",
+    "InReview": "正在审查",
+    "Request_Review": "请求审查",
+    "Pending_Acknowledgement": "待确认",
+    "Completed": "已完成",
+    "Completed_Acknowledged": "已完成并确认",
+    "Reviewed_and_Completed": "已审查并完成"
+  },
+  "workflowStatusUI": {
+    "Assigned": "新",
+    "Claimed": "新",
+    "InProgress": "草稿",
+    "Dispute": "已提出挑战",
+    "InReview": "已提出挑战",
+    "Request_Review": "已提出挑战",
+    "Pending_Acknowledgement": "新",
+    "Completed": "已完成",
+    "Completed_Acknowledged": "已完成",
+    "Reviewed_and_Completed": "已完成审查",
+    "Completed_and_Not_Reviewed": "已完成但未审查",
+    "Completed_and_Reviewed": "已完成并通过审查",
+    "selfAssessment": {
+      "new": "新",
+      "draft": "草稿",
+      "completed": "已完成",
+      "expired": "已过期"
+    },
+    "Expired": "已过期",
+    "Auto-acknowledged": "自动确认",
+    "Sent_To_Agent": "发送至坐席",
+    "WaitingForEvaluator": "等待评估员",
+    "WaitingForAgent": "等待坐席",
+    "PartiallyCompleted": "部分完成",
+    "Appealed": "已上诉",
+    "Sent_To_Supervisor": "发送至 Supervisor",
+    "In_Progress": "进行中"
+  },
+  "workflowType": {
+    "evaluations": "评估"
+  },
+  "performanceMonitoring": {
+    "performanceMonitoring": "绩效监控",
+    "selectGroup": "选择群组",
+    "evaluationDeleted": "评估已成功删除。",
+    "evaluationDeletionError": "无法删除评估。",
+    "teams": "团队",
+    "groups": "组",
+    "team": "团队",
+    "group": "组",
+    "averageScore": "平均分数",
+    "changeInPoints": "分数变化",
+    "noOfEvaluations": "评估数",
+    "diffFromPreviousTime": "与上一次的差异",
+    "loadPerformanceData": "加载绩效数据",
+    "selectTimePeriod": "选择时间段",
+    "fromDate": "来自",
+    "toDate": "收件人",
+    "NoGroupSelected": "尚未选择任何组",
+    "NoTeamSelected": "您尚未选择筛选器",
+    "noAgents": "未找到匹配项",
+    "noAgentsInGroup": "选中的组中没有座席",
+    "noEvaluationsFound": "未对这些团队/组中进行评估",
+    "errorFetchingGroupData": "数据加载失败",
+    "errorFetchingPerformanceDetailsData": "数据加载失败",
+    "dateOfInteraction": "交互日期",
+    "duration": "持续时间",
+    "planName": "计划名称",
+    "findEmployeePlaceHolder": "开始输入以查找员工",
+    "teamName": "团队",
+    "evaluatedOn": "评估日期",
+    "evaluatedBy": "评估员",
+    "score": "分数",
+    "status": "状态",
+    "groupName": "组名",
+    "fromDateHeader": "起始日期",
+    "toDateHeader": "结束日期",
+    "evaluations": "评估",
+    "noItemsOverlay": "尚未完成任何评估",
+    "evaluation_Type": "评估类型",
+    "collaborativeEvaluation": "协同",
+    "standardEvaluation": "标准",
+    "evaluatorTitle": "评估员",
+    "agentTitle": "坐席",
+    "formName": "表单名称",
+    "formVersion": "表单版本",
+    "deleteReasonModal": {
+      "textareaPlaceholder": "输入一些内容...",
+      "confirmMessage1": "删除此评估可能会更改评估平均分。",
+      "confirmMessage2": "继续吗？",
+      "cancelMessage1": " 所有更改都将丢失。",
+      "cancelMessage2": "继续吗？",
+      "requiredField": "要求必须填写此字段。",
+      "deleteButton": "删除",
+      "deleteEvaluationTaskHeader": "删除评估",
+      "reasonLabel": "原因",
+      "charactersRemainingText": "剩余 {{count}}个字符",
+      "WarningText": "删除此评估将更改评估平均分。"
+    },
+    "evaluationReport": {
+      "generateEvaluationReport": "生成评估报告",
+      "generateReportFailed": "生成评估报告失败",
+      "generateReportSuccess": "评估报告生成成功",
+      "from": "来自",
+      "to": "收件人",
+      "type": "类型",
+      "evaluation": "评估",
+      "calibration": "校准",
+      "selfAssessment": "自我评估",
+      "generate": "生成",
+      "create": "生成报告",
+      "agent": "坐席",
+      "form": "表单",
+      "formVersion": "表单版本",
+      "downloadInProgress": "您的报告正在下载。",
+      "downloadSuccess": "报告下载成功。",
+      "downloadError": "无法下载报告。请稍后再试。",
+      "placeholder": {
+        "agent": "选择坐席",
+        "form": "选择表单",
+        "formVersion": "选择表单版本"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "评估表单不可用",
+      "message": "这项评估受到挑战，正在重新评估。完成后即可使用。"
+    },
+    "calibrationEvaluation": "校准",
+    "qualityPerformance": "质量表现"
+  },
+  "calibration": {
+    "calibration": "校准",
+    "calibrationScore": "校准分数",
+    "noItemsOverlay": "尚未收到校准",
+    "days": "d",
+    "NA": "不适用",
+    "createCalibration": "新校准",
+    "gridColumnsHeaders": {
+      "calibrationName": "校准名称",
+      "agentName": "座席员姓名",
+      "initiatedBy": "发起人",
+      "calibrationForm": "校准表单",
+      "originalScore": "原始分数",
+      "calibrationScore": "校准分数",
+      "completionRate": "完成率",
+      "remainingDays": "剩余天数",
+      "modal": {
+        "maxScore": "最高分",
+        "questions": "问题",
+        "originalScore": "原始分数",
+        "calibrations": "平均分数",
+        "variance": "方差 (%)"
+      },
+      "actions": "操作"
+    },
+    "calibrationSearchPlaceholder": "搜索校准",
+    "calibrationsCount": "{{count}} 个校准",
+    "errors": {
+      "calibrationsError": "校准加载失败。请再试一次。",
+      "calibrationScoreError": "问题加载失败。请再试一次。",
+      "deleteCalibrationError": "校准删除失败。请再试一次。",
+      "overviewAPIFailure": "获取校准概览数据时出错",
+      "participantQuestionAPIFailure": "无法获取校准参与者和问题网格数据",
+      "questionDrilldownAPIFailure": "获取校准问题深入分析数据时出错"
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "无法删除此校准。校准当前处于活动状态。",
+      "deleteCalibration": "删除选中的校准？此操作无法撤消。",
+      "deleteOthersCalibration": "无法删除此校准。该校准由另一名用户创建。"
+    },
+    "success": {
+      "deleteCalibration": "校准删除成功。"
+    },
+    "calibrationOverviewCards": {
+      "typeOfCalibration": "校准类型",
+      "dueDate": "到期日期",
+      "interactionDate": "交互日期",
+      "initiatedBy": "发起人",
+      "evaluationForm": "评估表单",
+      "calibrationScore": "校准分数",
+      "originalScore": "原始分数",
+      "minScore": "最低分数：",
+      "maxScore": "最高分数：",
+      "daysRemaining": "剩余天数：",
+      "completion": "完成：",
+      "calibrationType": "校准类型",
+      "initiatedDate": "启动日期",
+      "daysLeft": "剩余天数："
+    },
+    "calibrationDetailsGridColumns": {
+      "questions": "问题",
+      "variance": "差异",
+      "avgScore": "平均分数"
+    },
+    "placeHolders": {
+      "selectEvaluators": "选择评估员",
+      "selectParticipants": "选择参与者",
+      "selectQuestions": "选择问题"
+    },
+    "labels": {
+      "evaluators": "评估员",
+      "participants": "参与者",
+      "answer": "答案",
+      "questionType": "问题类型",
+      "allQuestions": "所有问题",
+      "originalAnswer": "原始答案",
+      "calibrationDetails": "校准详细信息"
+    },
+    "tooltip": {
+      "variance": "差异：",
+      "evaluationScore": "评估得分：",
+      "participantNotCompletedCalibration": "参与者尚未完成校准。"
+    },
+    "radioLabels": {
+      "completed": "已完成",
+      "notCompleted": "未完成",
+      "all": "全部",
+      "evaluatorType": "评估者类型"
+    },
+    "calibrationQuestionOverviewCards": {
+      "originalScore": "原始分数",
+      "variance": "差异",
+      "avgScore": "平均分",
+      "maxScore": "最高分",
+      "minScore": "最低分"
+    },
+    "calibrationQuestionDrilldownGridColumns": {
+      "evaluatorName": "评估员姓名",
+      "variance": "差异",
+      "score": "分数",
+      "participantName": "参与者姓名"
+    }
+  },
+  "ng2Calibration": {
+    "calibration": "校准",
+    "calibrationScore": "校准分数",
+    "noItemsOverlay": "尚未收到校准",
+    "days": "d",
+    "NA": "不适用",
+    "createCalibration": "新校准",
+    "gridColumnsHeaders": {
+      "calibrationName": "校准名称",
+      "agentName": "座席员姓名",
+      "initiatedBy": "发起人",
+      "calibrationForm": "校准表单",
+      "originalScore": "原始分数",
+      "calibrationScore": "校准分数",
+      "completionRate": "完成率",
+      "remainingDays": "剩余天数",
+      "modal": {
+        "maxScore": "最高分",
+        "questions": "问题",
+        "originalScore": "原始分数",
+        "calibrations": "平均分数",
+        "variance": "方差 (%)"
+      },
+      "actions": "操作",
+      "calibrationSubject": "校准主题"
+    },
+    "calibrationSearchPlaceholder": "搜索校准",
+    "calibrationsCount": "校准",
+    "calibrationCount": "校准",
+    "errors": {
+      "calibrationsError": "校准加载失败。请再试一次。",
+      "calibrationScoreError": "问题加载失败。请再试一次。",
+      "deleteCalibrationError": "校准删除失败。请再试一次。"
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "无法删除此校准。校准当前处于活动状态。",
+      "deleteCalibration": "删除选中的校准？此操作无法撤消。",
+      "deleteOthersCalibration": "无法删除此校准。该校准由另一名用户创建。"
+    },
+    "success": {
+      "deleteCalibration": "校准删除成功。"
+    },
+    "forTicket": "用于票证",
+    "forInteraction": "用于交互"
+  },
+  "selfAssessment": {
+    "title": "自我评估",
+    "itemsCount": "{{count}} 个自我评估",
+    "items": "自我评估",
+    "newAssessment": "新自我评估",
+    "noItemsOverlay": "没有发起的评估",
+    "gridColumnsHeaders": {
+      "initiatedBy": "发起人",
+      "agentName": "坐席姓名",
+      "interactionDate": "交互日期",
+      "duration": "持续时间",
+      "remainingDays": "剩余天数",
+      "score": "分数",
+      "status": "状态",
+      "actions": "操作",
+      "formName": "表单名称"
+    },
+    "failedToLoadAssessments": "未能加载自我评估数据",
+    "status": {
+      "awaiting": "等待",
+      "completed": "已完成",
+      "expired": "已过期"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "无法删除正在等待的评估",
+      "deleteAssessmentMsg1": "您将要删除此评估。此操作无法撤消。",
+      "deleteAssessmentMsg2": "继续吗？",
+      "cannotDeleteOtherUsersSelfAssessment": "此自我评估由其他用户发起，无法删除。"
+    },
+    "selfAssessmentStatus": "自我评估状态",
+    "singleStatusPlaceHolder": "已选择 1 个状态",
+    "twoStatusesPlaceHolder": "已选择 2 个状态",
+    "threeStatusesPlaceHolder": "已选择 3 个状态",
+    "assessmentDeletedSuccess": "已成功删除评估。",
+    "assessmentDeleteFailed": "评估删除失败。请再试一次。"
+  },
+  "ng2SelfAssessment": {
+    "title": "自我评估",
+    "itemsCount": "自我评估",
+    "items": "自我评估",
+    "newAssessment": "新自我评估",
+    "noItemsOverlay": "没有发起的评估",
+    "gridColumnsHeaders": {
+      "initiatedBy": "发起人",
+      "agentName": "坐席姓名",
+      "interactionDate": "交互日期",
+      "duration": "持续时间",
+      "remainingDays": "剩余天数",
+      "score": "分数",
+      "status": "状态",
+      "actions": "操作",
+      "formName": "表单名称"
+    },
+    "failedToLoadAssessments": "未能加载自我评估数据",
+    "status": {
+      "awaiting": "等待",
+      "completed": "已完成",
+      "expired": "已过期",
+      "newSelfAssessment": "新自我评估",
+      "inProgressSelfAssessment": "进行中的自我评估",
+      "completedSelfAssessment": "已完成的自我评估",
+      "expiredSelfAssessment": "已过期的自我评估"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "无法删除正在等待的评估",
+      "deleteAssessmentMsg1": "您将要删除此评估。此操作无法撤消。",
+      "deleteAssessmentMsg2": "继续吗？",
+      "cannotDeleteOtherUsersSelfAssessment": "此自我评估由其他用户发起，无法删除。"
+    },
+    "selfAssessmentStatus": "自我评估状态",
+    "assessmentDeletedSuccess": "已成功删除评估。",
+    "assessmentDeleteFailed": "评估删除失败。请再试一次。"
+  },
+  "ng2PerformanceMonitoring": {
+    "evaluationSubject": "评估主题",
+    "employee": "员工",
+    "segment": "片段",
+    "N/A": "不适用",
+    "performanceMonitoring": "绩效监控",
+    "selectGroup": "选择群组",
+    "evaluationDeleted": "评估已成功删除。",
+    "evaluationDeletionError": "无法删除评估。",
+    "teams": "团队",
+    "groups": "组",
+    "team": "团队",
+    "group": "组",
+    "averageScore": "平均分数",
+    "changeInPoints": "分数变化",
+    "noOfEvaluations": "评估数",
+    "diffFromPreviousTime": "与上一次的差异",
+    "loadPerformanceData": "加载绩效数据",
+    "selectTimePeriod": "选择时间段",
+    "fromDate": "来自",
+    "toDate": "收件人",
+    "NoGroupSelected": "尚未选择任何组",
+    "NoTeamSelected": "您尚未选择筛选器",
+    "noAgents": "未找到匹配项",
+    "noAgentsInGroup": "选中的组中没有座席",
+    "noEvaluationsFound": "未对这些团队/组中进行评估",
+    "errorFetchingGroupData": "数据加载失败",
+    "errorFetchingPerformanceDetailsData": "数据加载失败",
+    "dateOfInteraction": "交互日期",
+    "duration": "持续时间",
+    "planName": "计划名称",
+    "findEmployeePlaceHolder": "开始输入以查找员工",
+    "teamName": "团队",
+    "evaluatedOn": "评估日期",
+    "evaluatedBy": "评估员",
+    "score": "分数",
+    "status": "状态",
+    "groupName": "组名",
+    "fromDateHeader": "起始日期",
+    "toDateHeader": "结束日期",
+    "evaluations": "评估",
+    "evaluation": "评估",
+    "noItemsOverlay": "尚未完成任何评估",
+    "evaluation_Type": "评估类型",
+    "collaborativeEvaluation": "协同",
+    "standardEvaluation": "标准",
+    "evaluatorTitle": "评估员",
+    "agentTitle": "坐席",
+    "formName": "表单名称",
+    "formVersion": "表单版本",
+    "deleteReasonModal": {
+      "textareaPlaceholder": "输入一些内容...",
+      "confirmMessage1": "删除此评估可能会更改评估平均分。",
+      "confirmMessage2": "继续吗？",
+      "cancelMessage1": " 所有更改都将丢失。",
+      "cancelMessage2": "继续吗？",
+      "requiredField": "要求必须填写此字段。",
+      "deleteButton": "删除",
+      "deleteEvaluationTaskHeader": "删除评估",
+      "reasonLabel": "原因",
+      "charactersRemainingText": "剩余 {{count}}个字符",
+      "WarningText": "删除此评估将更改评估平均分。"
+    },
+    "employeeEvaluation": {
+      "create": "新评估",
+      "header": "执行新评估",
+      "submitBtn": "评估"
+    },
+    "evaluationReport": {
+      "generateEvaluationReport": "生成评估报告",
+      "generateReportFailed": "生成评估报告失败",
+      "generateReportSuccess": "评估报告生成成功",
+      "from": "来自",
+      "to": "收件人",
+      "type": "类型",
+      "evaluation": "评估",
+      "calibration": "校准",
+      "selfAssessment": "自我评估",
+      "generate": "生成",
+      "create": "生成报告",
+      "agent": "坐席",
+      "form": "表单",
+      "formVersion": "表单版本",
+      "downloadInProgress": "您的报告正在下载。",
+      "downloadSuccess": "报告下载成功。",
+      "downloadError": "无法下载报告。请稍后再试。",
+      "placeholder": {
+        "agent": "选择坐席",
+        "form": "选择表单",
+        "formVersion": "选择表单版本"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "评估表单不可用",
+      "message": "这项评估受到挑战，正在重新评估。完成后即可使用。",
+      "message1": "这项评估受到挑战，正在重新评估。",
+      "message2": "完成后即可使用。",
+      "message1_new": "这项评估受到上诉，正在重新评估。"
+    },
+    "NA": "不适用",
+    "averageScoreNullTooltipText": "表格中未启用评分，或者可能的积分和赚取的积分不可用于历史数据",
+    "calibrationEvaluation": "校准",
+    "evaluationSummary": {
+      "genAISummaryTooltipText": "评估总结",
+      "genAISummaryButton": "摘要详细信息",
+      "summaryUnavailableText": "摘要不可用",
+      "generateSummaryText": "您想生成摘要吗？",
+      "generateSummaryButton": "生成摘要",
+      "generatingSummaryText": "正在生成摘要",
+      "troubleInSummaryGenerationText": "无法生成摘要",
+      "tryAgainButton": "请再试一次",
+      "cardSummaryUnavailableText": "您的评估摘要已准备好，等待您的审核",
+      "cardSummaryUnavailableSubText": "请查看评估摘要详情",
+      "summaryGenerationFailureErrorMessage": "无法获取/保存评估摘要"
+    },
+    "qualityPerformance": "质量表现",
+    "ticket": "票证"
+  },
+  "channels": {
+    "voice-icon": "交互类型：语音",
+    "sms-icon": "交互类型：SMS",
+    "chat-icon": "交互类型：聊天",
+    "email-icon": "交互类型：电子邮件",
+    "recording-icon": "交互类型：录制文件",
+    "whatsapp-icon": "交互类型：Whatsapp"
+  }
+}

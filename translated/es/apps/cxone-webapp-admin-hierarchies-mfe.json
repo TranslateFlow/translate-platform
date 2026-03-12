@@ -1,0 +1,222 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "adminModuleName": "admin",
+        "adminModuleLinks": {
+          "users": "Empleados",
+          "skills": "Habilidades WFO",
+          "groups": "Grupos",
+          "teams": "Equipos",
+          "employeeGroups": "Unidad de programación",
+          "roleManagement": "Roles y permisos",
+          "recordingPolicies": "Políticas de Recording",
+          "passwordPolicyManagement": "Política de contraseñas",
+          "loginAuthenticatorManagement": "Autenticador de inicio de sesión",
+          "bulkUploadDownload": "Portal de carga en masa",
+          "accountSettings": "Configuraciones de la cuenta",
+          "hierarchies": "Jerarquías",
+          "storage": "Cloud Storage",
+          "lifecycleManagement": "Life Cycle Management",
+          "longTermFileRetrieval": "Recuperación de archivos a largo plazo",
+          "secureExternalAccess": "Acceso externo seguro",
+          "businessDataConfiguration": "Datos de negocio",
+          "recording": "Recording",
+          "security": "Seguridad",
+          "viewManagement": "Vistas",
+          "advancedTtl": "Life Cycle Management",
+          "storageSettings": "Ajustes de almacenamiento"
+        }
+      }
+    }
+  },
+  "hierarchiesPage": {
+    "title": "Jerarquías",
+    "newHierarchy": "Nueva jerarquía",
+    "changeHistory": "Cambiar historial",
+    "back": "Atrás",
+    "searchHierarchiesPlaceholder": "Comience a escribir para encontrar una jerarquía",
+    "grid": {
+      "showingFirst": "Mostrando primera ",
+      "showingAll": "Mostrando todas ",
+      "hierarchyCount": " Jerarquías",
+      "hierarchyName": "NOMBRE DE JERARQUÍA",
+      "type": "TIPO",
+      "lastModified": "ÚLTIMA MODIFICACIÓN",
+      "status": "ESTADO",
+      "primaryHierarchy": "Jerarquía principal",
+      "lastModifiedBy": "ÚLTIMA MODIFICACIÓN DE",
+      "actions": "ACCIONES",
+      "active": "Activo",
+      "inactive": "Inactivo",
+      "activate": "Activar",
+      "deactivate": "Desactivar",
+      "noHierarchiesDefined": "No se definieron jerarquías todavía"
+    },
+    "changeHistoryOf": "Cambiar historial de ",
+    "node": "Nodo",
+    "changeHistoryForNode": "Cambiar historial para el nodo"
+  },
+  "types": {
+    "organizational": "ORGANIZATIVA",
+    "division": "DIVISIÓN"
+  },
+  "colors": {
+    "textColorDefault": "#000"
+  },
+  "hierarchyManagerPage": {
+    "name": "Nombre ",
+    "namePlaceholder": "Añadir nombre de jerarquía",
+    "searchPlaceholder": "Buscar nodos de jerarquía",
+    "searchLabel": "Buscar",
+    "searchInfo": "Presione el botón de búsqueda para iniciar una nueva búsqueda por nombre. La búsqueda distingue entre mayúsculas y minúsculas. El primer resultado coincidente se desplazará automáticamente a la posición central, si lo permiten los bordes del gráfico.",
+    "type": "Tipo",
+    "typePlaceholder": "Seleccionar tipo",
+    "mandatorySymbol": "*",
+    "primaryHierarchy": "Jerarquía principal",
+    "setAsPrimaryHierarchy": "Definir como jerarquía principal",
+    "setAsPrimaryHierarchyTooltip": "Esta acción definirá la jerarquía como principal. Una vez definida, no se puede volver a cambiar a una jerarquía no principal. Todos los datos de la jerarquía utilizados en las aplicaciones se extraen de la jerarquía principal.",
+    "title": "Crear nueva jerarquía",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "add": "Agregar",
+    "remove": "Quitar",
+    "create": "Crear",
+    "save": "Guardar",
+    "no": "No",
+    "yes": "Sí",
+    "viewDetails": "Ver detalles",
+    "search": {
+      "placeholder": "Buscar nodos de jerarquía",
+      "label": "Buscar",
+      "info": "Presione el botón de búsqueda para iniciar una nueva búsqueda por nombre. La búsqueda distingue entre mayúsculas y minúsculas. El primer resultado coincidente se desplazará automáticamente a la posición central, si lo permiten los bordes del gráfico.",
+      "noValue": "Introduzca un valor de búsqueda para iniciar la búsqueda.",
+      "found": "Encontrado ",
+      "notFound": "No se encontró "
+    },
+    "toolbar": {
+      "add-child": {
+        "addOrganizationUnit": "Añadir unidad de organización",
+        "addSchedulingUnit": "Añadir unidad de programación",
+        "addExistingSchedulingUnit": "AÑADIR UNIDAD DE PROGRAMACIÓN EXISTENTE",
+        "addTeam": "Añadir equipo",
+        "addExistingTeam": "Añadir equipo existente",
+        "addOUInformation": "Esta acción creará un nodo secundario del tipo Unidad de organización (OU). Después de crear la OU, podrá añadir miembros.",
+        "addSUInformation": "Esta acción creará un nodo secundario del tipo Unidad de Programación (SU) al seleccionar una de las SU existentes. Después de crear el nodo SU, podrá añadir nodos secundarios y visualizar la información y los miembros de la SU.",
+        "addTeamInformation": "Esta acción creará un nodo secundario del tipo Equipo al seleccionar uno de los equipos existentes. Después de crear el nodo Equipo, podrá ver la información y los miembros del equipo.",
+        "teamExistsUnder": "El equipo ya existe en",
+        "andMovedUnder": " y se moverá a",
+        "continue": ". ¿Desea continuar?",
+        "selectTeam": "Seleccionar equipo",
+        "untitled": "Sin título",
+        "name": "Nombre"
+      },
+      "members": {
+        "members": "Miembros",
+        "addMembers": "Añadir miembros",
+        "addExistingMembers": "Añadir miembros existentes",
+        "noMembersAdded": "No se agregaron miembros",
+        "clickOnAddMembers": "Haga clic en 'Añadir' para añadir miembros.",
+        "SUToAddMembers": "Vaya a la Unidad de programación a través de Admin para añadir miembros.",
+        "teamToAddMembers": "Vaya al Equipo a través de Admin para añadir miembros.",
+        "onceMembersAdded": "Una vez haya añadido miembros, aparecerán aquí",
+        "noResultsFound": "Se seleccionaron todos los miembros disponibles",
+        "allUsersSelectedAlreadyAdded": "Todos los usuarios seleccionados existen actualmente en la OU",
+        "showingFirst": "Mostrando primero",
+        "showingAll": "Mostrando todos",
+        "membersUndercase": "miembros",
+        "searchMembers": "Buscar miembros",
+        "userAlreadyMemberOf": "El usuario ya es miembro de"
+      },
+      "info": {
+        "suInformation": "Información de unidad de programación",
+        "teamInformation": "Equipo de Información",
+        "nameLabel": "Nombre",
+        "timeZoneLabel": "Zona horaria",
+        "teamLead": "Líder del equipo"
+      },
+      "edit": {
+        "editDetails": "Editar detalles"
+      },
+      "delete": {
+        "ouDeleteMsg": "Va a borrar esta UO de la jerarquía. Con esta acción la red existente bajo esta UO, incluyendo los nodos secundarios (si los hubiera), se eliminarán.",
+        "suDeleteMsg": "Está a punto de eliminar esta SU de la jerarquía. Con esta acción se eliminará la red que se encuentra debajo de esta SU, incluyendo todos los nodos secundarios (si los hay).",
+        "teamDeleteMsg": "Va a eliminar este equipo de la jerarquía.",
+        "deletePermissionQue": "¿Desea continuar?",
+        "yesBtn": "Sí",
+        "noBtn": "No"
+      }
+    },
+    "hierarchyLegend": {
+      "OU": "Unidad de organización",
+      "SU": "Unidad de programación",
+      "Team": "Equipo",
+      "Division": "División"
+    }
+  },
+  "metaInfo": {
+    "hierarchies": {
+      "title": "Jerarquías"
+    },
+    "hierarchy-manager": {
+      "title": "Gestor de jerarquía"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "Este campo es obligatorio.",
+    "minLength": "Su entrada es demasiado corta",
+    "maxLength": "Su entrada es demasiado larga",
+    "specialCharacters": "! \\ < > ? % \" ni los Emojis son válidos",
+    "SUAlreadyAdded": "Esta SU ya se ha añadido en ",
+    "TeamAlreadyAdded": "Este equipo ya está añadido en "
+  },
+  "hierarchyToasts": {
+    "hierarchyActivateSuccMsg": "La jerarquía se activó correctamente",
+    "setPrimaryHierarchySuccessMessage": "La jerarquía principal se definió correctamente.",
+    "hierarchyDeactivateSuccMsg": "La jerarquía se desactivó correctamente",
+    "hierarchyActivateFailMsg": "No se pudo activar la jerarquía",
+    "hierarchyDectivateFailMsg": "No se pudo desactivar la jerarquía",
+    "hierarchySavedSuccMsg": "La jerarquía se guardó correctamente",
+    "hierarchySavedFailMsg": "No se pudo guardar la jerarquía",
+    "hierarchyCreatedSuccMsg": "La jerarquía se creó correctamente",
+    "hierarchyCreatedFailMsg": "No se pudo crear la jerarquía",
+    "hierarchyInvalidInputMsg": "La entrada no es válida.",
+    "hierarchyNameExistsFailMsg": "El nombre de jerarquía ya existe.",
+    "cannotAddChildrenToTeamNode": "Los nodos de equipo no pueden agregar elementos secundarios",
+    "generalError": "Error general",
+    "cannotPerformAction": "Esta acción no se puede realizar en este momento",
+    "noSUInformation": "No es posible obtener información de SU",
+    "noTeamInformation": "No es posible obtener información de Grupo",
+    "teamIsAlreadyChildOfParent": "El equipo que desea agregar ya es un nodo secundario",
+    "dragAndDrop": {
+      "OUChildOfSU": "Esta acción no se puede realizar porque Unidad de organización no puede ser un nodo secundario de Unidad de programación",
+      "OUChildOfTeam": "Esta acción no se puede realizar porque Unidad de organización no puede ser un nodo secundario de Equipo",
+      "SUChildOfTeam": "Esta acción no se puede realizar porque Unidad de programación no puede ser un nodo secundario de Equipo",
+      "TeamChildOfTeam": "Esta acción no se puede realizar porque Equipo no puede ser un nodo secundario de Equipo",
+      "ExceedsLimit": "Esta acción no se puede realizar porque supera la profundidad jerárquica permitida de 12 niveles",
+      "AlreadyConnected": "Esta acción no se puede realizar porque los nodos ya están conectados"
+    },
+    "permissionErrors": {
+      "addChild": "No tiene permisos para agregar elementos secundarios",
+      "editNode": "No tiene permisos para editar un nodo",
+      "deleteNode": "No tiene permisos para borrar un nodo",
+      "dragAndDrop": "No tiene permisos para modificar la estructura de la jerarquía",
+      "userPermission": "No tiene permisos para ver los usuarios de UO"
+    }
+  },
+  "primaryHierarchyModal": {
+    "title": "Definir como Jerarquía principal",
+    "message": "Esta acción definirá {{hierarchyName}} como la Jerarquía principal de su organización.<br><br><br>Esta acción es permanente y no se puede deshacer.<br>¿Está seguro de que desea continuar?",
+    "primaryButtonText": "Definir jerarquía principal",
+    "closeButtonText": "Cancelar"
+  },
+  "changeHistory": {
+    "name": "Nombre",
+    "depth": "Profundidad",
+    "parentId": "ID principal",
+    "parentName": "Nombre principal",
+    "type": "Tipo",
+    "templateId": "TemplateId",
+    "nodeId": "NodeId"
+  }
+}

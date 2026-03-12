@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "demonstrateEmpathy": "展現同理心",
+    "overallSentimentScore": "總情緒分數",
+    "suggestionSummary": "建議摘要",
+    "noSuggestionYet": "尚未有建議",
+    "guidanceScores": "指導分數",
+    "landingMessage": "等待驗證中…",
+    "permissionRequired": "需要權限",
+    "permissionHelpPhrase": "您需要權限以檢視此頁面。請聯絡您的管理人員。",
+    "speechVelocity": "語速",
+    "activeListening": "積極聆聽",
+    "beEmpathetic": "富同理心",
+    "interruption": "打斷發言",
+    "demonstrateOwnership": "展示所有權",
+    "buildRapport": "建立融洽關係",
+    "setExpectations": "設定預期",
+    "effectiveQuestioning": "有效提問",
+    "promoteSelfService": "推薦自助服務",
+    "acknowledgeLoyalty": "認可忠誠度",
+    "inappropriateAction": "不當行為",
+    "sentiment": "總體情緒",
+    "noScore": "沒有分數",
+    "acknowledgeRequest": "確認請求",
+    "askForTheSale": "請求銷售",
+    "likelihoodToBuy": "購買的可能性",
+    "makeAConnection": "建立連接",
+    "orderConfirmation": "已確認的訂單",
+    "overcomeObjections": "消除反對意見",
+    "presumptiveSelling": "推定銷售",
+    "uncoverNeeds": "揭示需求"
+  }
+}

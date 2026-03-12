@@ -1,0 +1,15 @@
+{
+  "cxoneMfeAppContainer": {
+    "unsavedChangesDialogConfigDefault": {
+      "titleMessage": "未保存のデータ",
+      "detailMessage": "ページを離れると、変更は失われます。続行してもよろしいですか？",
+      "leaveButtonText": "はい",
+      "stayButtonText": "いいえ"
+    }
+  },
+  "metaInfo": {
+    "cxoneTroubleshootingScreen": {
+      "title": "トラブルシューティング"
+    }
+  }
+}

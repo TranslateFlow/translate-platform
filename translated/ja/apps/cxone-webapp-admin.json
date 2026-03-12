@@ -1,0 +1,3598 @@
+{
+  "accountSettingsPage": {
+    "ModalMessages": {
+      "transition": {
+        "areYouSureLeavePage": "続行してもよろしいですか？",
+        "title": "未保存のデータ",
+        "unsavedChanges": "ページを離れると、変更は失われます。"
+      }
+    },
+    "addDomainBtn": "追加",
+    "allowedEmailDomainsSectionHeader": "許可されるEメールドメイン",
+    "backgroundColorFieldLabel": "バナーの背景",
+    "bannerPlaceHolder": "ここにテキストを挿入...",
+    "bannerSectionHeader": "ログインバナー",
+    "bannerWillClear": "バナーをオフにすると、保存されているバナー設定がすべて消去されます。",
+    "cancel": "キャンセル",
+    "customHostnameEntryFieldLabel": "カスタムホスト名",
+    "domainEntryFieldLabel": "ドメイン",
+    "domainGridHeader": "ドメイン",
+    "emailDomainCharValidationError": "ドメインは無効です。",
+    "emailDomainDuplicateError": "ドメインはすでにリストにあります",
+    "emailDomainLengthValidationError": "ドメインの長さが190文字を超えることはできません。",
+    "emailDomainMaxLength": "許可されるEメールドメインは300個までです。",
+    "errorDirty": "ホスト名に過激な表現を含めることはできません。別の名前を使用してください。",
+    "errorDuplicate": "このホスト名はすでに存在します。別の名前を使用してください。",
+    "errorMsg": "ホスト名を保存できませんでした。",
+    "errorReserved": "このホスト名には、システムによって予約されたテキストが含まれています。別の名前を使用してください。",
+    "failureMsg": "アカウント情報の更新中にエラーが発生しました",
+    "fontColorFieldLabel": "バナーテキスト",
+    "hostConfigurationSectionHeader": "ホスティング",
+    "hostnameCharValidationError": "ホスト名に特殊文字(#?!@%^)を含めることはできません。",
+    "hostnameLengthValidationError": "ホスト名の長さが63文字を超えることはできません。",
+    "lockInactiveUsers": {
+      "description": "ユーザーがロックされるまでの非アクティブ日数",
+      "enablementWarning": "警告：このテナントのすべてのユーザーに非アクティブ設定が設定されます。",
+      "header": "ユーザーをロック"
+    },
+    "overlayNoRowsMsg": "表示するEメールドメインがありません",
+    "pageTitle": "管理アカウント設定",
+    "popover": {
+      "confirmMessage": "保存せずに終了してもよろしいですか？",
+      "domainMessage": "このドメインは保存後に削除されます。よろしいですか？",
+      "warningMessage": "すべての変更は失われます"
+    },
+    "save": "保存",
+    "saveFailure": "エントリーの保存中にエラーが発生しました。",
+    "saveSuccess": "アカウント設定が正常に設定され、保存されました。",
+    "scim": {
+      "header": "SCIM",
+      "scimProvisionedFields": "SCIMプロビジョニングフィールド",
+      "days": "日",
+      "scimToken": "SCIMトークン",
+      "showToken": "トークンを表示",
+      "generate": "作成",
+      "expiringToken": "トークンの有効期限は残り",
+      "scimTokenGeneratedSuccess": "SCIMトークンが正常に生成されました",
+      "scimTokenGeneratedFailure": "SCIMトークンの生成中にエラーが発生しました",
+      "scimTokenGenerationWarning": "トークンが生成されました。このページを離れた後は、このトークンを再取得できません。トークンを紛失した場合は、新しいトークンを作成する必要があります。",
+      "scimTokenCopiedToClipboard": "SCIMトークンをクリップボードにコピーしました"
+    },
+    "stylingSectionHeader": "スタイリング",
+    "successMsg": "アカウント情報が正常に更新されました",
+    "timeZone": "テナントタイムゾーン",
+    "toggleOff": "オフ",
+    "toggleOn": "日時：",
+    "userSessionTimeout": {
+      "description": "ユーザーがログアウトするまでのアイドル時間の長さ。",
+      "disabledWarning": "警告：アイドル状態のユーザーは自動的にログアウトされません。",
+      "header": "アイドルタイムアウト",
+      "hours": "時間",
+      "minutes": "分",
+      "tooHighWarning": "許容アイドル時間は、アイドルタイムアウトをオフにせずに最大8時間です。",
+      "tooLowWarning": "許容されるアイドル時間は最低5分間でなければなりません。"
+    },
+    "ssoStateDuration": {
+      "header": "SSO状態のカスタマイズ",
+      "description": "ユーザー状態の時間を設定",
+      "enablementWarning": "警告：これにより、このテナントのすべてのユーザーにSSO状態が適用されます。"
+    },
+    "scimTokenSectionHeader": "SCIMトークン",
+    "scimUserProvisionedFields": "ユーザー選択",
+    "daysToExpireOldTokens": "古いトークンの有効期限(日数)",
+    "disableMarketingPanelLabel": "マーケティングパネルを無効にする",
+    "overlayNoRowsAddAppMsg": "表示する追加アプリケーションはありません",
+    "additionalApplications": {
+      "name": "名前",
+      "link": "リンク",
+      "addButton": "追加",
+      "linkLengthValidationError": "リンクが2048文字を超えることはできません",
+      "linkValidationError": "リンクはhttp://またはhttps://で始まる必要があります",
+      "nameLengthValidationError": "名前が50文字を超えることはできません",
+      "sectionHeader": "追加アプリケーション",
+      "popoverMessage": "このアプリケーションは保存後に削除されます。よろしいですか？"
+    },
+    "tabs": {
+      "scimTabTitle": "SCIM",
+      "userSettingsTabTitle": "ユーザー設定",
+      "additionalAppsTabTitle": "追加アプリケーション",
+      "hostTabTitle": "ホスティング"
+    }
+  },
+  "add-entity-ui": {
+    "entityCount": "",
+    "selectAllLabel": "すべて選択"
+  },
+  "bulkUploadDownloadManagementPage": {
+    "acd": {
+      "name": "ACD"
+    },
+    "activity": {
+      "downloadBtn": "ダウンロード",
+      "downloadFailed": "ダウンロード失敗",
+      "downloadInProgressStatus": "ダウンロード中",
+      "downloadSuccessStatus": "ダウンロード成功",
+      "errorStatusMultiple": "エラーが見つかりました",
+      "errorStatusSingle": "エラーが見つかりました",
+      "headers": {
+        "activityDate": "アクティビティ日",
+        "area": "アップロード領域",
+        "entity": "エンティティ",
+        "status": "ステータス",
+        "triggeredBy": "トリガー者",
+        "uploadDate": "アップロード日",
+        "user": "ユーザー"
+      },
+      "inProgressStatus": "アップロード中",
+      "item": "アクティビティ",
+      "noItemsOverlay": "アクティビティはまだ定義されていません",
+      "reviewBtn": "エラーを確認",
+      "successStatus": "アップロード成功",
+      "uploadFailed": "アップロード失敗"
+    },
+    "admin": {
+      "employees": {
+        "name": "従業員"
+      },
+      "name": "管理",
+      "skillsUsersMapping": {
+        "name": "スキルの割り当て"
+      },
+      "teams": {
+        "name": "チーム"
+      },
+      "teamsUsersMapping": {
+        "name": "チームの割り当て"
+      }
+    },
+    "browsFileText": "ファイルを参照",
+    "btn": {
+      "activeUsersDownloadBtn": "アクティブユーザーをダウンロード",
+      "allUsersDownloadBtn": "すべてのユーザーをダウンロード",
+      "entityDownloadBtn": "既存のものをすべてダウンロード",
+      "singleEntityDownloadBtn": "既存レコードをダウンロード",
+      "singleTemplateDownloadBtn": "テンプレートをダウンロード",
+      "templateDownloadBtn": "すべてのテンプレートをダウンロード",
+      "uploadAfterReview": "アップロード前にファイルを確認",
+      "uploadImmediately": "ファイルをアップロード"
+    },
+    "bulkImportSuccessMsg": "正常にアップロードされました",
+    "bulkImportTimeoutMsg": "ファイルのアップロードに通常より時間がかかっています。アップロードが完了すると通知が届きます。ファイルのアップロードステータスは[アクティビティ]タブで確認できます。",
+    "bulkImportWarningMsg": "正常にアップロードされましたが、エラーが発生しました",
+    "downloadFailureMessage": "ダウンロードを開始できませんでした",
+    "downloadRecordsFailureMsg": "既存レコードのダウンロードに失敗しました",
+    "downloadRecordsNoDataExistsMsg": "ダウンロードするレコードがありません",
+    "downloadRecordsProgressMsg": "既存のダウンロードが進行中です",
+    "downloadRecordsSuccessMsg": "既存レコードを正常にダウンロードしました",
+    "downloadSuccessMsg": "ファイルをダウンロード中です。データの不一致を避けるため、ファイルのダウンロード中はこれ以上更新しないでください",
+    "dragAndFropText": "ドラッグ＆ドロップしてアップロードするか、または",
+    "entityDownloadHeading": "このリストに現在存在するすべての項目(ユーザー、チーム、役割など)をダウンロードします。",
+    "fileProcessingMsg": "ファイル処理",
+    "fileTypeInfoTxt": "サポートされるファイル形式：csv",
+    "fileUploadfailureMsg": "アップロードに失敗しました",
+    "inProcessFileTxt": "進行中",
+    "invalidFileFormat": "サポートされないファイル形式のため、アップロードに失敗しました。サポートされるファイル形式：csv。",
+    "leftDashboardHeader": "一括アップロード",
+    "leftDashboardText": "リスト内の任意の項目について、複数のレコードをすべて1か所に一括アップロードします。これを使用して、新規レコードを追加したり、プラットフォームですでに作成されている既存レコードを更新したりできます。",
+    "reviewErrorsPage": {
+      "cancel": "キャンセル",
+      "commonErrorMessage": "処理エラー",
+      "downloadErrors": "エラーのダウンロード",
+      "downloadErrorsFailureMsg": "エラーのダウンロードに失敗しました",
+      "downloadErrorsSuccessMsg": "エラーが正常にダウンロードされました",
+      "entities": {
+        "device": {
+          "entityName": "デバイス"
+        },
+        "recording-account": {
+          "entityName": "レコーディングアカウント"
+        },
+        "sab": {
+          "entityName": "標準アドレス帳"
+        },
+        "team": {
+          "entityName": "チーム"
+        },
+        "user": {
+          "entityName": "従業員"
+        },
+        "user-skills": {
+          "entityName": "スキルの割り当て"
+        },
+        "user-team": {
+          "entityName": "チームの割り当て"
+        },
+        "remote-device": {
+          "entityName": "リモートデバイス"
+        }
+      },
+      "errorFieldStartLineMultiple": "フィールドのエラー",
+      "errorFieldStartLineSingle": "フィールドのエラー",
+      "errorHeader": "エラー",
+      "errorReport": "エラーレポート",
+      "fieldErrors": "フィールドエラー",
+      "none": "なし",
+      "pageTitle": "従業員のアップロードエラー",
+      "pageTrailer": "エラーのアップロード",
+      "processingError": "処理エラー",
+      "rowHeader": "行",
+      "submit": "送信",
+      "totalErrors": "合計エラー数：",
+      "totalErrorsLeft": "残り合計エラー数：",
+      "trailer": "アップロード",
+      "validationErrors": {
+        "booleanFieldError": "フィールドはTrueまたはFalseのみ使用できます",
+        "emailFieldError": "このEメールアドレスは無効です",
+        "mandatoryFieldError": "フィールドは空白にできません",
+        "nameFieldError": "申し訳ありませんが、\\ ! < > ? % \"は使用できません",
+        "numberFieldError": "このフィールドで使用できるのは数値のみです",
+        "phoneFieldError": "電話の値が無効です",
+        "usernameFieldError": "ユーザー名はEメールアドレス形式にしてください",
+        "virtualAgentTypeFieldError": "このフィールドで使用できるのは、OFF、デジタルボット、デジタルアンケートのみです"
+      },
+      "invalidTemplateMessage": "無効なテンプレートがアップロードされました"
+    },
+    "rightDashboardHeader": "アップロード処理を開始するには、少なくとも1つのファイルを追加する必要があります",
+    "tabLabels": {
+      "activity": "アクティビティ",
+      "upload": "アップロード"
+    },
+    "templateDownloadHeading": "このパッケージには、ページで使用されるすべてのテンプレートが含まれています。",
+    "thirdPartyAcd": {
+      "devices": {
+        "name": "デバイス"
+      },
+      "name": "サードパーティテレフォニー",
+      "recordingAccount": {
+        "name": "レコーディングアカウント"
+      },
+      "remoteDevices": {
+        "name": "リモートデバイス"
+      }
+    },
+    "title": "一括アップロードポータル",
+    "uploadEmptyFileSuccessMsg": "アップロードされたファイルにレコードが見つかりません",
+    "uploadFailureMessage": "アップロードを開始できませんでした",
+    "uploadInvalidFileType": "ファイル形式が無効です。アップロードするCSVファイルを選択してください。",
+    "uploadRecordLimitBreached": "アップロードファイルのレコード数は最大1,000件までです。",
+    "uploadStatus": {
+      "clearAllBtnTxt": "すべてクリア"
+    },
+    "uploadSuccessMessage": "アップロードが開始されました",
+    "uploadSuccessMsg": "(count)個のファイルをアップロードしています。このプロセスには数分かかる場合があります",
+    "upload_record_limit_error": "platform_upload_download_manager_service_8",
+    "uploadfailureMsg": "1つ以上のファイルのアップロードに失敗しました",
+    "wrong_file_type": "platform_upload_download_manager_service_3"
+  },
+  "commonButtons": {
+    "Omnichannel": "オムニチャネル",
+    "SingleContact": "シングルコンタクト",
+    "SingleContactDefault": "シングルコンタクト(デフォルト)",
+    "add": "追加",
+    "cancel": "キャンセル",
+    "chooseFile": "ファイルを選択",
+    "clearAll": "すべてクリア",
+    "close": "閉じる",
+    "create": "作成",
+    "day": "日",
+    "delete": "削除",
+    "discard": "変更を破棄",
+    "edit": "編集",
+    "generate": "作成",
+    "invite": "招待",
+    "no": "いいえ",
+    "noDefault": "いいえ(デフォルト)",
+    "off": "オフ",
+    "ok": "OK",
+    "on": "日時：",
+    "publish": "公開",
+    "refresh": "再読み込み",
+    "remove": "削除",
+    "save": "保存",
+    "selectAll": "すべて選択",
+    "set": "設定",
+    "showAll": "すべて表示",
+    "today": "今日",
+    "update": "更新",
+    "upload": "アップロード",
+    "view": "詳細を表示",
+    "week": "週",
+    "yes": "はい",
+    "yesDefault": "はい(デフォルト)"
+  },
+  "createDailyRuleModal": {
+    "activitiesCodes": "アクティビティコード",
+    "addActivities": "アクティビティを追加",
+    "createDailyRuleHeader": "新規日次ルールを作成",
+    "earliestStart": "最も早い開始時刻",
+    "editDailyRuleHeader": "日次ルールを編集",
+    "hours": "時間",
+    "latestStart": "最も遅い開始時刻",
+    "length": "長さ",
+    "namePlaceholder": "無題の日次ルール",
+    "relativeStart": "相対開始",
+    "ruleDescription": "ルール説明",
+    "shiftLength": "シフトの長さ：",
+    "shiftStartBetween": "シフト開始時刻の範囲",
+    "shiftType": "シフトタイプ：",
+    "slack": "スラック",
+    "startIncrement": "開始増加幅",
+    "startTimeIncrement": "開始時刻の増加幅：",
+    "successMsg": "従業員は正常に作成されました。",
+    "updateDailyRuleHeader": "#fffff",
+    "updateErrorMsg": "新規従業員の作成に失敗しました。",
+    "updateSuccessMsg": "従業員は正常に更新されました。"
+  },
+  "createUserModal": {
+    "acdLoginId": "ACDログインID",
+    "acdLoginIdInUse": "ACDログインID「{{value}}」はこのページですでに使用されています。",
+    "createAndActivate": "作成＆アクティブ化",
+    "createAndInvite": "作成＆招待",
+    "createUserHeader": "新規従業員を作成",
+    "descriptionLengthExceededError": "説明の長さが最大255文字を超えました",
+    "errorMsg": "新規従業員の作成に失敗しました。",
+    "formLabels": {
+      "MFALabel": "MFA",
+      "assignToGroup": "スケジューリングユニットに割り当てられています",
+      "assignToGroupPlaceHolder": "割り当てられたスケジューリングユニットはありません",
+      "assignToGroups": "グループに割り当てられています",
+      "assignToSkills": "スキルに割り当てられています",
+      "assignToTeams": "チームに割り当てられています",
+      "clearButton": "クリア",
+      "country": "国",
+      "countryPlaceholder": "国を選択",
+      "create": "従業員作成",
+      "customAttributes": {
+        "agentIntegrations": "エージェント連携",
+        "canBeAnalyzed": "分析可能",
+        "canBeEvaluatedLabel": "評価/指導可能",
+        "canBeMeasured": "測定可能",
+        "canBeRecorded": "レコード可能(音声)",
+        "canBeRecordedDefault": "レコード可能",
+        "canBeRecordedScreen": "レコード可能(画面)",
+        "canBeScheduled": "スケジュール可能",
+        "canEditBIReports": "BIレポートを編集可能",
+        "canViewBIReports": "BIレポートを表示可能",
+        "customerCard": "Customer Card",
+        "digitalEngagement": "Digital Engagement",
+        "heading": "属性",
+        "nonBillableUser": "非課金ユーザー",
+        "virtualAgentEnabled": "バーチャルエージェント有効",
+        "smartreachuser": "SmartReachユーザー",
+        "smartreachagent": "SmartReachエージェント",
+        "performanceManagementInsights": "Performance Management Insights",
+        "performanceManagementAct": "Performance Management Act",
+        "smartreachdesk": "デスク",
+        "smartreachecc": "Enhanced Customer Card",
+        "dataCollectionEnabled": "データコレクションを有効化"
+      },
+      "day": "日",
+      "defaultTag": "(デフォルト)",
+      "displayName": "表示名",
+      "email": "Eメールアドレス",
+      "externalIdentity": "外部アイデンティティ",
+      "firstName": "名",
+      "generateButton": "作成",
+      "groupsDropDown": "{{selectedCount}}グループ",
+      "hireDate": "雇用日",
+      "lastName": "姓",
+      "maxHoursPerWeek": "最大時間/週",
+      "mfaSecret": "MFAシークレット",
+      "mfaTimeStep": "MFAトークン期間",
+      "mfaTimeStepInterval": "15-300",
+      "mfaTimeStepUnit": "秒",
+      "middleName": "ミドルネーム",
+      "mobileNumber": "携帯電話番号",
+      "month": "月",
+      "osLogin": "OSログイン",
+      "rank": "ランク",
+      "rankInterval": "1-999",
+      "role": "プライマリ役割",
+      "rolePlaceholder": "役割を選択",
+      "roles": {
+        "admin": "管理者",
+        "agent": "エージェント",
+        "manager": "マネジャー"
+      },
+      "skillsDropDown": "{{selectedCount}}件のスキル",
+      "statusIconHoverTip": {
+        "complete": "Eメールが確認されました。",
+        "pending": "Eメールは確認待ちです。",
+        "warning": "Eメールドメインが許可されていません"
+      },
+      "teamPlaceholder": "チームを選択",
+      "telephone1": "電話1",
+      "telephone2": "電話2",
+      "timeZone": "タイムゾーン",
+      "timeZonePlaceHolder": "タイムゾーン",
+      "timeZonePlaceholder": "タイムゾーンを選択",
+      "type": "タイプ",
+      "typePlaceholder": "タイプを選択または作成",
+      "upload": "アップロード",
+      "userPicture": "プロフィール写真",
+      "username": "ユーザー名",
+      "wfoSkillsDropDown": "{{totalCount}}件のスキルを表示します",
+      "wfoSkillsDropDownLimitTo": "{{totalCount}}件中{{limitCount}}件のスキルを表示します。入力して検索",
+      "year": "年"
+    },
+    "getAllTeamsError": "チームの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "getAvailabilityError": "従業員のアベイラビリティの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "getEmployeeGroupsError": "従業員グループの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "getGroupsError": "グループの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "getRolesError": "役割の取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "getSelectedViewsError": "選択した表示データの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "getShiftPreferencesError": "シフト設定の取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "getSkillsError": "スキルの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "getUserByIdError": "従業員の詳細の取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "getVisibilityError": "ビジビリティデータの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+    "lockUserTab": {
+      "daysSelectorLable": "ユーザーがロックされるまでの非アクティブ日数",
+      "lockUser": "ユーザーをロック",
+      "neverLockUser": "ユーザーをロックしない",
+      "off": "オフ",
+      "on": "日時：",
+      "views": "ビュー",
+      "inactivityDaysMessage": "非アクティブ日数は7～90の間でなければなりません"
+    },
+    "maxLimitOfACD": "{{items}}項目を超える入力はできません",
+    "popoverMessage1": "すべての変更は失われます。",
+    "popoverMessage2": "保存せずに終了してもよろしいですか？",
+    "resendVerificationEmail": "確認Eメールを再送",
+    "resendVerificationEmailFailureMsg": "確認Eメールの再送に失敗しました",
+    "reviveUserAlert": "このEメールアドレスのアカウントはすでに存在します。このアカウントを再度アクティブ化しますか？",
+    "reviveUserAlertWithUserName": "このユーザー名のアカウントはすでに存在し、削除されています。再度アクティブ化しますか？",
+    "secondaryRolesTab": {
+      "addRoles": "役割を追加",
+      "addRolesFTOn": "適用",
+      "assignedRoles": "割り当て済役割 | 合計{{count}}",
+      "errorMsg": "セカンダリ役割の最大数(10)が選択されています",
+      "itemscount": "{{count}}件の割り当て済役割",
+      "noItemsOverlay": "役割はまだ割り当てられていません",
+      "roleName": "役割名",
+      "rolesList": "役割リスト",
+      "secondaryRoles": "セカンダリ役割",
+      "secondaryRolesDropdown": "役割を選択"
+    },
+    "securityTab": {
+      "getAllAuthenticatorsError": "ログイン認証コードを取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+      "loginAuthenticator": "ログイン認証コード",
+      "loginAuthenticatorInfo": "ログイン認証コードが見つからないか、非アクティブです。",
+      "loginAuthenticatorPlaceholder": "認証コードを選択",
+      "noneSelected": "選択なし"
+    },
+    "skillsTab": {
+      "addBtn": "追加",
+      "assignedTxt": "割り当て済スキル",
+      "header": "スキルを選択",
+      "selectTxt": "従業員を選択",
+      "selectedTxt": "選択済："
+    },
+    "successMsg": "従業員は正常に作成されました。",
+    "teamErrorMsg": "[チーム]は必須です。",
+    "updateErrorMsg": "新規従業員の作成に失敗しました。",
+    "updateMfaErrorMsg": "MFA詳細の更新に失敗しました。",
+    "updateSuccessMsg": "従業員は正常に更新されました。",
+    "updateUserHeader": "従業員の編集",
+    "verificationEmailSent": "Eメールが正常に送信されました。",
+    "verificationEmailWillBeSent": "保存時に確認Eメールがこのアドレスに送信されます。",
+    "visibilityTab": {
+      "addViews": "ビューを追加",
+      "addViewsFTOn": "適用",
+      "assignedViews": "割り当て済ビュー | 合計{{count}}",
+      "errorMsg": "ビューの最大数(3)が選択されています",
+      "itemscount": "{{count}}個の割り当て済ビュー",
+      "maxSelectionErrorMsg": "最大3つのビューを選択できます",
+      "maxSelectionErrorMsgViews": "最大10個のビューを選択できます",
+      "noItemsOverlay": "ビューはまだ割り当てられていません",
+      "viewDesc": "ビューの説明",
+      "viewName": "ビュー名",
+      "viewType": "ビュータイプ",
+      "viewTypes": {
+        "transaction": "インタラクションセグメント"
+      },
+      "views": "ビュー",
+      "viewsDropdown": "ビューを選択",
+      "visibility": "ビジビリティ"
+    },
+    "ssoStateTab": {
+      "SSOState": "SSO状態のカスタマイズ",
+      "daysSelectorLabel": "ユーザー状態の時間を設定",
+      "on": "日時：",
+      "off": "オフ",
+      "SSOStateValueMessage": "ユーザー状態の値は1～168の間である必要があります"
+    },
+    "tabs": {
+      "bcpType": "BCPタイプ",
+      "bcpNoAccess": "BCPテナントへのアクセスなし",
+      "primaryTenant": "プライマリテナント",
+      "secondaryTenant": "セカンダリテナント"
+    }
+  },
+  "datePicker": {
+    "nextDay": "翌日",
+    "openCalendar": "カレンダーを開く",
+    "previousDay": "前日",
+    "today": "今日"
+  },
+  "defaultValues": {
+    "defaultNumeric": "{{numericValue}} (デフォルト)"
+  },
+  "employeeGroupsPage": {
+    "addNewGroup": "新規ユニット",
+    "bulkOperationsBtns": {
+      "deleteBtn": "削除"
+    },
+    "createNewGroupModal": {
+      "addHeader": "新規スケジューリングユニットを作成",
+      "editHeader": "スケジューリングユニットの編集",
+      "employeesTab": {
+        "addEmployeesBtn": "従業員を追加",
+        "assignedEmployeesTxt": "割り当て済従業員",
+        "header": "従業員",
+        "selectEmployeesTxt": "従業員を選択",
+        "selectedTxt": "選択済："
+      },
+      "generalInfoTab": {
+        "allDayWorkingHours": "終日",
+        "amountOfHours": {
+          "closed": "(営業時間外)",
+          "numOfHours": "({{hours}}時間)"
+        },
+        "day": "日",
+        "daysOfWeek": {
+          "friday": "金曜日",
+          "monday": "月曜日",
+          "saturday": "土曜日",
+          "sunday": "日曜日",
+          "thursday": "木曜日",
+          "tuesday": "火曜日",
+          "wednesday": "水曜日"
+        },
+        "firstDayOfWeekInstruction": "週の初日",
+        "from": "開始",
+        "header": "営業時間",
+        "hour": "時間",
+        "hours": "時間",
+        "operationWorkingHoursHeader": "営業時間",
+        "timeZoneInstruction": "タイムゾーン",
+        "to": "終了",
+        "workHours": "勤務時間"
+      },
+      "groupNamePlaceholder": "無題のユニット",
+      "successAdd": "新規スケジュールユニットが正常に追加されました",
+      "successEdit": "スケジュールユニットが正常に編集されました"
+    },
+    "deleteSelectedGroupMsg": "これらのユニットがすべての従業員から削除されます。よろしいですか？",
+    "errorDelete": "削除する行が選択されていません",
+    "errorDeleteNoId": "このスケジューリングユニットはすでに削除されています。ページを再読み込みしてください。",
+    "errorMessages": {
+      "cannotDeleteDefaultGroup": "デフォルトグループは削除できません",
+      "defaultGroupAddEmployees": "従業員を移動するには、ターゲットのスケジューリングユニットを編集し、そこに従業員を追加します。",
+      "defaultGroupName": "デフォルトグループの名前は編集できません",
+      "maxLength": "エントリーが長すぎます",
+      "minLength": "エントリーが短すぎます",
+      "required": "フィールドが空白のままです",
+      "uniqueGroupName": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "formLabels": {
+      "groupName": "スケジュールユニット名",
+      "timeZone": "タイムゾーン",
+      "users": "従業員"
+    },
+    "gridColumnsHeaders": {
+      "employees": "従業員",
+      "id": "ID",
+      "name": "名前",
+      "timeZone": "タイムゾーン",
+      "unit": "ユニット"
+    },
+    "item": "スケジューリングユニット",
+    "items": "ユニット",
+    "pageTitle": "スケジューリングユニット",
+    "popover": {
+      "message": "警告！この項目を削除すると、割り当てられたすべての従業員がデフォルトのスケジューリングユニットに移動し、そのスケジューリングに影響を与える可能性があります。"
+    },
+    "suDeleteWarningModal": {
+      "header": "スケジューリングユニットを削除中のエラー"
+    },
+    "tooltip": {
+      "deleteSUsInHeirarchyMessage": "選択したユニットは階層の一部です。削除する前に階層から削除する必要があります。",
+      "message": "このSUは階層の一部です。削除する前に階層から削除する必要があります。"
+    },
+    "totalItems": "{{count}}件のスケジューリングユニット"
+  },
+  "errors": {
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "サーバーからの応答がありません。後でもう一度お試しください。"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "一般エラー"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "一般エラー：{{ details }}"
+    },
+    "INVALID_ROLE_STATUS": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "役割のステータスが無効です"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "パラメーターが無効です"
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "ログインに失敗"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "このページは利用できません。接続を確認して、もう一度お試しください。"
+    },
+    "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE",
+      "message": "カスタム属性値が無効です"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "不正な従業員"
+    },
+    "device_upload_100": {
+      "code": "FIELD_NOT_VALID",
+      "message": "リクエストが無効です"
+    },
+    "device_upload_101": {
+      "code": "FIELD_NOT_VALID",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "device_upload_102": {
+      "code": "FIELD_NOT_VALID",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "device_upload_103": {
+      "code": "FIELD_NOT_VALID",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "device_upload_104": {
+      "code": "FIELD_NOT_VALID",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "device_upload_105": {
+      "code": "FIELD_NOT_VALID",
+      "message": "UDIが64文字を超えることはできません"
+    },
+    "device_upload_106": {
+      "code": "DEVICE_NUMBER_FIELD_LIMIT",
+      "message": "デバイス番号が64文字を超えることはできません"
+    },
+    "device_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "テレフォニーシステムが存在しません"
+    },
+    "device_upload_121": {
+      "code": "MONITORED_GROUP_NOT_EXIST",
+      "message": "モニター対象グループが存在しません"
+    },
+    "device_upload_122": {
+      "code": "FILTERED_GROUP_NOT_EXIST",
+      "message": "フィルター済グループが存在しません"
+    },
+    "device_upload_123": {
+      "code": "REJECTED_GROUP_NOT_EXIST",
+      "message": "拒否されたグループが存在しません"
+    },
+    "device_upload_124": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "グループタイプが正しくありません"
+    },
+    "device_upload_125": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "グループタイプが正しくありません"
+    },
+    "device_upload_126": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "グループタイプが正しくありません"
+    },
+    "device_upload_127": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "このデバイスはすでに存在しますが、属性が異なります"
+    },
+    "device_upload_128": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "このデバイスは存在しません"
+    },
+    "device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "データベースエラーが発生しました"
+    },
+    "device_upload_invalid_input": {
+      "code": "INPUT_EVENT_INVALID",
+      "message": "入力イベントが無効です"
+    },
+    "hierarchy_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "hierarchy_manager_service_12": {
+      "code": "INVALID_SEARCH_REQUEST_KEY",
+      "message": "検索キーが無効です"
+    },
+    "hierarchy_manager_service_2": {
+      "code": "INVALID_INPUT",
+      "message": "入力が無効です"
+    },
+    "hierarchy_manager_service_23": {
+      "code": "INVALID_SEARCH_DIRECTION",
+      "message": "検索方向が無効です"
+    },
+    "hierarchy_manager_service_3": {
+      "code": "INVALID_REQUEST",
+      "message": "リクエストが無効です"
+    },
+    "hierarchy_manager_service_31": {
+      "code": "HIERARCHY_NAME_EXISTS",
+      "message": "階層名はすでに存在します"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーです。"
+    },
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "従業員の作成に失敗しました。"
+    },
+    "platform_user_manager_service_100": {
+      "code": "EMPTY_APPLICATION_lIST",
+      "message": "アプリケーションリストが空です"
+    },
+    "platform_user_manager_service_101": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "役割のステータスが無効です"
+    },
+    "platform_user_manager_service_102": {
+      "code": "INVALID_ROLE_MODIFIABLE_FLAG",
+      "message": "役割の変更可能フラグが無効です"
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "従業員ステータスが無効です"
+    },
+    "platform_user_manager_service_111": {
+      "code": "INVALID_ROLENAME",
+      "message": "役割名が無効です"
+    },
+    "platform_user_manager_service_112": {
+      "code": "INVALID_USERNAME_ROLENAME",
+      "message": "従業員名と役割名が無効です"
+    },
+    "platform_user_manager_service_114": {
+      "code": "INVALID_ROLE_PERMISSION",
+      "message": "役割の権限が無効です"
+    },
+    "platform_user_manager_service_115": {
+      "code": "INVALID_ROLE_ID",
+      "message": "役割IDが無効です"
+    },
+    "platform_user_manager_service_116": {
+      "code": "INVALID_LICENSE",
+      "message": "ライセンスが無効です"
+    },
+    "platform_user_manager_service_117": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_NAME",
+      "message": "カスタム属性名が無効です"
+    },
+    "platform_user_manager_service_118": {
+      "code": "ATTRIBUTE_NAME_WITH_SPACE",
+      "message": "属性名にスペースは使用できません"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "組織名が無効です。"
+    },
+    "platform_user_manager_service_125": {
+      "code": "INVALID_USER_ROLE_STATUS",
+      "message": "再アクティブ化する前に、従業員をアクティブな役割に割り当ててください"
+    },
+    "platform_user_manager_service_127": {
+      "code": "FAILED_TO_CREATE_ROLE",
+      "message": "役割の作成に失敗しました"
+    },
+    "platform_user_manager_service_128": {
+      "code": "FAILED_TO_EDIT_ROLE",
+      "message": "役割の編集に失敗しました"
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Eメールが無効です。"
+    },
+    "platform_user_manager_service_132": {
+      "code": "INVALID_TEAM_STATUS",
+      "message": "チームのステータスが無効です"
+    },
+    "platform_user_manager_service_133": {
+      "code": "TEAM_LEAD_USER_NOT_ACTIVE",
+      "message": "チームリード従業員がアクティブではありません"
+    },
+    "platform_user_manager_service_134": {
+      "code": "INVALID_REQUEST",
+      "message": "リクエストが無効です"
+    },
+    "platform_user_manager_service_135": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR",
+      "message": "ログイン認証コードが無効です"
+    },
+    "platform_user_manager_service_137": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR_ATTRIBUTE",
+      "message": "ログイン認証コード属性が無効です"
+    },
+    "platform_user_manager_service_138": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_ENTITY_NAME",
+      "message": "カスタム属性エンティティ名が無効です"
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "従業員の名が無効です。"
+    },
+    "platform_user_manager_service_140": {
+      "code": "INVALID_MFA_DETAILS",
+      "message": "MFA詳細が無効です"
+    },
+    "platform_user_manager_service_143": {
+      "code": "NOT_ALLOWED_TO_CHANGE_TEAM_STATUS",
+      "message": "チームステータスは変更できません"
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "従業員の姓が無効です。"
+    },
+    "platform_user_manager_service_152": {
+      "code": " USER_IS_TEAM_LEAD",
+      "message": "チームリードの従業員は削除できません"
+    },
+    "platform_user_manager_service_155": {
+      "code": "NO_USER_TO_UPDATE_EMAIL",
+      "message": "Eメールを更新する従業員が存在しません"
+    },
+    "platform_user_manager_service_156": {
+      "code": "NO_EMAIL_TO_UPDATE",
+      "message": "更新するにはEメールが必要です"
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "デフォルトのスケジューリングユニットを削除できません。"
+    },
+    "platform_user_manager_service_160": {
+      "code": "USER_EMAIL_UPDATE_FAILED",
+      "message": "Eメールの更新に失敗しました"
+    },
+    "platform_user_manager_service_164": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "タイムゾーン値が無効です"
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "詳細を確認して、もう一度お試しください"
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "スケジューリングユニットIDが見つかりません。"
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "従業員の最大勤務時間が範囲外です。"
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "従業員のパスワードが無効です。"
+    },
+    "platform_user_manager_service_198": {
+      "code": "NOT_ALLOWED_TO_CHANGE_SCIM_PROVISIONED_FIELDS",
+      "message": "SCIMプロビジョニングフィールドを更新できません"
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーです。"
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "デフォルトグループを更新できません。"
+    },
+    "platform_user_manager_service_200": {
+      "code": "EMAIL_DOMAIN_NOT_ALLOWED",
+      "message": "Eメールドメインが許可されていません"
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "デフォルトグループから従業員を削除できません。"
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "従業員のパスワードが正しくありません。"
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "従業員が存在しません。"
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "自分の従業員は削除できません"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "唯一の管理者は削除できません"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "すでに削除された従業員は削除できません"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "パスワードトークンが無効です"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "アカウントの作成に失敗しました"
+    },
+    "platform_user_manager_service_29": {
+      "code": "CUSTOM_ATTRIBUTE_TYPE_DOES_NOT_EXIST",
+      "message": "カスタム属性タイプが存在しません"
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "スケジューリングユニットが存在しません。"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "組織名が無効です"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "platform_user_manager_service_32": {
+      "code": "USER_RANK_NOT_VALID",
+      "message": "従業員のランクが無効です"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "役割を変更する権限がありません"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "自分の役割は変更できません"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "最後の管理者は削除できません。"
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "以前のパスワードと新しいパスワードが同じであるため、パスワードを変更できません。"
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "間違ったEメールアドレスまたはパスワードを入力しました"
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "platform_user_manager_service_40": {
+      "code": "EMPTY_EMAIL_LIST",
+      "message": "空のEメールリスト"
+    },
+    "platform_user_manager_service_41": {
+      "code": "ROLE_DOES_NOT_EXIST",
+      "message": "役割が存在しません"
+    },
+    "platform_user_manager_service_42": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "ACDログインIDが無効です"
+    },
+    "platform_user_manager_service_43": {
+      "code": "ATTRIBUTE_VALUE_ALREADY_EXIST",
+      "message": "属性値はすでに存在します"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACDログインIDはすでに存在します"
+    },
+    "platform_user_manager_service_45": {
+      "code": "FAILED_TO_CREATE_USER_MAX_USERS_IN_TENANT_REACHED",
+      "message": "ユーザー数の上限を超えました"
+    },
+    "platform_user_manager_service_46": {
+      "code": "BAD_REQUEST",
+      "message": "新入社員はユーザーの制限を超えます。CXoneSalesTeam@niceincontact.comから営業に連絡してください"
+    },
+    "platform_user_manager_service_47": {
+      "code": "FAILED_TO_REVIVE_USER",
+      "message": "従業員の復活に失敗しました"
+    },
+    "platform_user_manager_service_48": {
+      "code": "UNABLE_TO_PARSE_DATE_FORMAT_MISMATCH",
+      "message": "日付形式を解析できません"
+    },
+    "platform_user_manager_service_49": {
+      "code": "INVALID_FUTURE_DATED_LAST_ACCESS_TIME",
+      "message": "最終アクセス日時が無効です"
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "このテナントまたは従業員はすでに存在します。新しいものを試してください。"
+    },
+    "platform_user_manager_service_50": {
+      "code": "USER_NAME_NOT_VALID",
+      "message": "従業員名が無効です"
+    },
+    "platform_user_manager_service_51": {
+      "code": "USER_EMAIL_ALREADY_EXISTS",
+      "message": "Eメールはすでに存在します"
+    },
+    "platform_user_manager_service_52": {
+      "code": "USERNAME_ALREADY_EXISTS",
+      "message": "従業員名はすでに存在します"
+    },
+    "platform_user_manager_service_57": {
+      "code": "INVALID_USER_ROLE",
+      "message": "従業員の役割が無効です"
+    },
+    "platform_user_manager_service_59": {
+      "code": "USERNAME_NOT_IN_VALID_EMAIL_FORMAT",
+      "message": "ユーザー名はEメールアドレス形式にしてください"
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "ユーザー名はすでに存在します。新しいものを試してください"
+    },
+    "platform_user_manager_service_60": {
+      "code": "DISPLAY_NAME_ALREADY_EXISTS",
+      "message": "従業員の表示名はすでに存在します"
+    },
+    "platform_user_manager_service_61": {
+      "code": "DISPLAY_NAME_CANNOT_BE_NULL",
+      "message": "従業員には表示名が必要です"
+    },
+    "platform_user_manager_service_62": {
+      "code": "DISPLAY_NAME_CANNOT_BE_EMPTY",
+      "message": "従業員には表示名が必要です"
+    },
+    "platform_user_manager_service_64": {
+      "code": "MULTIPLE_USER_WITH_SAME_USERNAME_FOUND",
+      "message": "同じユーザー名の従業員が複数見つかりました"
+    },
+    "platform_user_manager_service_65": {
+      "code": "TEAM_NOT_FOUND_FOR_ID",
+      "message": "指定されたIDのチームが見つかりません"
+    },
+    "platform_user_manager_service_66": {
+      "code": "INVALID_SEARCH_CRITERIA",
+      "message": "検索基準が無効です"
+    },
+    "platform_user_manager_service_67": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "チーム名が無効です"
+    },
+    "platform_user_manager_service_68": {
+      "code": "TEAM_ALREADY_EXISTS",
+      "message": "チームはすでに存在します"
+    },
+    "platform_user_manager_service_69": {
+      "code": "TEAM_LEAD_USER_DOES_NOT_EXIST",
+      "message": "チームリードは存在しません"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "ファイルが存在しません。"
+    },
+    "platform_user_manager_service_70": {
+      "code": "TEAM_LEAD_USER_NOT_PROVIDED",
+      "message": "チームリードのいないチーム"
+    },
+    "platform_user_manager_service_71": {
+      "code": "TENANT_SCHEMA_OR_USER_ID_DOES_NOT_EXIST",
+      "message": "テナントスキーマまたは従業員IDが存在しません"
+    },
+    "platform_user_manager_service_72": {
+      "code": "INVALID_INPUT_OR_DUPLICATE_CLAIM_DATA",
+      "message": "入力が無効または請求データが重複しています"
+    },
+    "platform_user_manager_service_73": {
+      "code": "REDIS_CACHING_ERROR",
+      "message": "Redisキャッシュに関する問題"
+    },
+    "platform_user_manager_service_74": {
+      "code": "REDIS_RETRIVAL_ERROR",
+      "message": "Redisキャッシュに関する問題"
+    },
+    "platform_user_manager_service_75": {
+      "code": "ROLE_MISSING",
+      "message": "役割がありません"
+    },
+    "platform_user_manager_service_76": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "役割の詳細取得に関する問題"
+    },
+    "platform_user_manager_service_77": {
+      "code": "SERVICE_USER_AUTHENTICATION_FAILED",
+      "message": "従業員の認証中にエラーが発生しました"
+    },
+    "platform_user_manager_service_78": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "役割の詳細取得に関する問題"
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "従業員が存在しません"
+    },
+    "platform_user_manager_service_81": {
+      "code": "IMPERSONATE_USER_UPDATE_NOT_ALLOWED",
+      "message": "管理代行ユーザーの更新は許可されません"
+    },
+    "platform_user_manager_service_83": {
+      "code": "REDIS_TEMPLATE_CREATION_ERROR",
+      "message": "Redisキャッシュに関する問題"
+    },
+    "platform_user_manager_service_84": {
+      "code": "INVALID_JOINT_USER_ATTRIBUTES",
+      "message": "ジョイントユーザー属性が無効です"
+    },
+    "platform_user_manager_service_85": {
+      "code": "INVALID_IMPORT_RUN_ID",
+      "message": "インポート実行IDが無効です"
+    },
+    "platform_user_manager_service_86": {
+      "code": "NO_REPORTS_FOUND_FOR_GIVEN_IMPORT_RUN",
+      "message": "指定されたインポート実行のレポートが見つかりません"
+    },
+    "platform_user_manager_service_88": {
+      "code": " PERMISSION_DENIED",
+      "message": "権限が拒否されました"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "招待する従業員はいません。"
+    },
+    "platform_user_manager_service_94": {
+      "code": "INVALID_INPUT",
+      "message": "入力が無効です"
+    },
+    "platform_user_manager_service_95": {
+      "code": "RECORD_NOT_FOUND",
+      "message": "レコードが見つかりません"
+    },
+    "platform_user_manager_service_96": {
+      "code": "RECORD_ALREADY_EXISTS",
+      "message": "レコードはすでに存在します"
+    },
+    "platform_user_manager_service_99": {
+      "code": "AWS_USERPOOL_DELETION_FAILED",
+      "message": "ユーザープールの削除に失敗しました"
+    },
+    "recording_account_download_100": {
+      "code": "INVALID_ACTIVITY_REQUEST",
+      "message": "リクエスト内のアクティビティが無効です"
+    },
+    "recording_account_download_101": {
+      "code": "INVALID_ENTITY_REQUEST",
+      "message": "リクエスト内のエンティティが無効です"
+    },
+    "recording_account_download_102": {
+      "code": "INVALID_TOKEN",
+      "message": "トークンフィールドがありません"
+    },
+    "recording_account_download_103": {
+      "code": "INVALID_REQUEST",
+      "message": "リクエストにフィールドがありません"
+    },
+    "recording_account_download_140": {
+      "code": "DB_ERROR",
+      "message": "データベースエラーが発生しました"
+    },
+    "recording_account_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "リクエストが無効です"
+    },
+    "recording_account_upload_101": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "recording_account_upload_102": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "recording_account_upload_103": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "recording_account_upload_104": {
+      "code": "FIELD_NOT_EMPTY",
+      "message": "このフィールドは空白ではありません"
+    },
+    "recording_account_upload_105": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "recording_account_upload_106": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "recording_account_upload_107": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "recording_account_upload_108": {
+      "code": "EMPTY_FIELD_FOR_SELECTED",
+      "message": "このフィールドは選択されたアクションには空白にする必要があります"
+    },
+    "recording_account_upload_109": {
+      "code": "UPDATED_VALUE_NOT_SAME",
+      "message": "更新された値はその値と同一にすることができません"
+    },
+    "recording_account_upload_110": {
+      "code": "FIELD_VALUE_LIMIT",
+      "message": "値が64文字を超えることはできません"
+    },
+    "recording_account_upload_111": {
+      "code": "FIELD_UPDATED_VALUE_LIMIT",
+      "message": "値が64文字を超えることはできません"
+    },
+    "recording_account_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "テレフォニーシステムが存在しません"
+    },
+    "recording_account_upload_121": {
+      "code": "INVALID_USER",
+      "message": "ユーザーが無効です"
+    },
+    "recording_account_upload_122": {
+      "code": "AMBIGUOUS_USER_NAME",
+      "message": "ユーザー名があいまいです"
+    },
+    "recording_account_upload_123": {
+      "code": "ID_ALREADY_EXIST_BUT_INACTIVE",
+      "message": "レコーディングアカウントはすでに存在しますが、非アクティブです"
+    },
+    "recording_account_upload_124": {
+      "code": "ID_ALREADY_EXIST_BUT_DIFFERENT_USER_ID",
+      "message": "このレコーディングアカウントはすでに存在しますが、ユーザーIDが異なります"
+    },
+    "recording_account_upload_125": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_ID",
+      "message": "このレコーディングアカウントはすでに存在しますが、ユーザーチームIDが異なります"
+    },
+    "recording_account_upload_126": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_NAME",
+      "message": "このレコーディングアカウントはすでに存在しますが、ユーザー名が異なります"
+    },
+    "recording_account_upload_127": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "このレコーディングアカウントは存在しません"
+    },
+    "recording_account_upload_128": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "このレコーディングアカウントはすでに存在します"
+    },
+    "recording_account_upload_140": {
+      "code": "DB_ERROR",
+      "message": "データベースエラーが発生しました"
+    },
+    "recording_account_upload_141": {
+      "code": "USER_HUB_COMMUNICATION_ERROR",
+      "message": "ユーザーハブとの通信中にエラーが発生しました"
+    },
+    "recording_account_upload_142": {
+      "code": "NOT_AUTHORIZED",
+      "message": "ユーザーハブへのアクセスが不正です"
+    },
+    "recording_account_upload_143": {
+      "code": "FORBIDDEN_ACCESS",
+      "message": "ユーザーハブへのアクセスが禁止されています"
+    },
+    "recording_account_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "入力イベントが無効です"
+    },
+    "team_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "リクエストの検証に失敗しました"
+    },
+    "team_upload_101": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "チーム名が空であるか、無効な値があります"
+    },
+    "team_upload_102": {
+      "code": "INVALID_REQUEST_CONTACT",
+      "message": "リクエストコンタクトはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_103": {
+      "code": "INVALID_WFO_ADVANCED",
+      "message": "WFOアドバンスはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_104": {
+      "code": "INVALID_QUALITY_MANAGEMENT",
+      "message": "品質管理はTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_105": {
+      "code": "INVALID_INVIEW_PERFORMANCE_MGMT",
+      "message": "パフォーマンス管理はTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_106": {
+      "code": "INVALID_INVIEW_GAMIFICATION",
+      "message": "パフォーマンス管理ゲーミフィケーションはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_107": {
+      "code": "INVALID_INVIEW_COACHING",
+      "message": "パフォーマンス管理コーチングはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_108": {
+      "code": "INVALID_INVIEW_CHAT",
+      "message": "パフォーマンス管理チャットメッセージはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_109": {
+      "code": "INVALID_AUDIO_RECORDING",
+      "message": "音声録音はTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_110": {
+      "code": "INVALID_SCREN_RECORDING",
+      "message": "画面録画はTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_111": {
+      "code": "INVALID_QUALITY_OPTIMIZATION",
+      "message": "品質最適化はTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_112": {
+      "code": "INVALID_WFM_ADVANCED",
+      "message": "WFMアドバンスはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_113": {
+      "code": "INVALID_WFM_ESSENTIALS",
+      "message": "WFMエッセンシャルはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_114": {
+      "code": "INVALID_WORKLOAD_MANAGER",
+      "message": "ワークロードマネジャーはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_115": {
+      "code": "INVALID_WFO_ESSENTIALS",
+      "message": "WFOエッセンシャルはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_116": {
+      "code": "INVALID_DELIVERY_MODE",
+      "message": "配信モード値が無効です"
+    },
+    "team_upload_117": {
+      "code": "INVALID_AUTO_AUTO_FOCUS",
+      "message": "オートフォーカスはTRUEまたはFALSEである必要があります"
+    },
+    "team_upload_118": {
+      "code": "INVALID_VOICE",
+      "message": "音声は数値である必要があります"
+    },
+    "team_upload_119": {
+      "code": "INVALID_CHAT",
+      "message": "チャットは数値である必要があります"
+    },
+    "team_upload_120": {
+      "code": "INVALID_EMAILS",
+      "message": "Eメールは数値である必要があります"
+    },
+    "team_upload_121": {
+      "code": "INVALID_WORK_ITEM",
+      "message": "ワークアイテムは数値である必要があります"
+    },
+    "team_upload_122": {
+      "code": "INVALID_TOTAL_CONTACT_COUNT",
+      "message": "合計コンタクト数は数値である必要があります"
+    },
+    "team_upload_123": {
+      "code": "INVALID_SINGLE_CHANNEL_CHAT",
+      "message": "シングルチャネル - 同時チャット数は数値である必要があります"
+    },
+    "team_upload_124": {
+      "code": "INVALID_SINGLE_CHANNEL_EMAILS",
+      "message": "シングルチャネル - 自動パーク済Eメールは数値である必要があります"
+    },
+    "team_upload_125": {
+      "code": "INVALID_TEAM_LEAD",
+      "message": "チームリードがいません"
+    },
+    "team_upload_126": {
+      "code": "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE",
+      "message": "親または子の属性値が無効です"
+    },
+    "team_upload_128": {
+      "code": "INVALID_TEAM_DESCRIPTION",
+      "message": "エントリーが長すぎます"
+    },
+    "team_upload_129": {
+      "code": "INVALID_TEMPLATE",
+      "message": "無効なテンプレートがアップロードされました"
+    },
+    "throttlingError": {
+      "code": "retryLater",
+      "message": "階層関連情報を取得できませんでした。数分後に再試行してください。"
+    },
+    "user_skills_upload_003": {
+      "code": "MISSING_SKILL_ID",
+      "message": "スキルIDを空白にはできません"
+    },
+    "user_skills_upload_004": {
+      "code": "MISSING_SKILL_NAME",
+      "message": "スキル名を空白にはできません。"
+    },
+    "user_skills_upload_005": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "割り当て済ユーザーを空にはできません"
+    },
+    "user_skills_upload_007": {
+      "code": "INVALID_SKILL_NAME",
+      "message": "スキル名が無効です"
+    },
+    "user_skills_upload_008": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "ユーザーが存在しません"
+    },
+    "user_skills_upload_009": {
+      "code": "USER_SKILL_ALREADY_EXISTS",
+      "message": "ユーザーはすでにスキルに割り当てられています"
+    },
+    "user_skills_upload_010": {
+      "code": "SKILL_ID_NOT_FOUND",
+      "message": "スキルIDが見つかりません"
+    },
+    "user_skills_upload_011": {
+      "code": "DIGITAL_SKILL_CANNOT_ASSIGNED",
+      "message": "デジタルスキル割り当てを作成/変更できません。"
+    },
+    "user_team_upload_003": {
+      "code": "MISSING_TEAM_NAME",
+      "message": "チーム名を空白にはできません"
+    },
+    "user_team_upload_004": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "割り当て済ユーザーを空にはできません"
+    },
+    "user_team_upload_005": {
+      "code": "TEAM_DOES_NOT_EXIST",
+      "message": "チームが存在しません"
+    },
+    "user_team_upload_006": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "ユーザーが存在しません"
+    },
+    "user_upload_100": {
+      "code": "INVALID_FIRST_NAME",
+      "message": "名が空であるか、値が無効です"
+    },
+    "user_upload_101": {
+      "code": "INVALID_LAST_NAME",
+      "message": "姓が空であるか、値が無効です"
+    },
+    "user_upload_102": {
+      "code": "INVALID_USERNAME",
+      "message": "ユーザー名はEメールアドレス形式にしてください"
+    },
+    "user_upload_103": {
+      "code": "INVALID_ROLE_NAME",
+      "message": "役割名が空であるか、値が無効です"
+    },
+    "user_upload_104": {
+      "code": "INVALID_EMAIL_ADDRESS",
+      "message": "このEメールアドレスは無効です"
+    },
+    "user_upload_105": {
+      "code": "INVALID_MOBILE_NUMBER",
+      "message": "携帯電話番号が無効です。数字と「-」「+」記号のみを含める必要があります"
+    },
+    "user_upload_106": {
+      "code": "INVALID_RANK",
+      "message": "ランク値が無効です。1～999の間である必要があります"
+    },
+    "user_upload_107": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "チーム名が無効であるか、現在のステータスが非アクティブです"
+    },
+    "user_upload_108": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "ユーザーはすでに存在します"
+    },
+    "user_upload_109": {
+      "code": "INVALID_EXTERNAL_IDENTITY",
+      "message": "外部アイデンティティ値が無効です"
+    },
+    "user_upload_110": {
+      "code": "INVALID_CAN_BE_COACHED_OR_EVALUATED_VALUE",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_111": {
+      "code": "INVALID_CAN_BE_SCHEDULED_VALUE",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_112": {
+      "code": "INVALID_CAN_BE_RECORDED_VALUE",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_113": {
+      "code": "INVALID_CAN_BE_ANALYZED_VALUE",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_114": {
+      "code": "INVALID_CAN_BE_MEASURED_VALUE",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_115": {
+      "code": "INVALID_OS_LOGIN_VALUE",
+      "message": "OSログイン値が無効です"
+    },
+    "user_upload_119": {
+      "code": "INVALID_HIRE_DATE",
+      "message": "雇用日が無効です。必要な形式はMMM-DD-YYYY (JUL-14-2015)です"
+    },
+    "user_upload_120": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "タイムゾーン値が無効です"
+    },
+    "user_upload_121": {
+      "code": "INVALID_VIRTUAL_AGENT_ENABLED",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_122": {
+      "code": "INVALID_VIRTUAL_AGENT_TYPE",
+      "message": "値が無効です。デジタルボット、デジタルアンケート、またはOFFである必要があります"
+    },
+    "user_upload_123": {
+      "code": "INVALID_CAN_VIEW_BI_REPORTS_VALUE",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_124": {
+      "code": "INVALID_CAN_BE_RECORDED_SCREEN_VALUE",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_125": {
+      "code": "INVALID_MFA_SECRET",
+      "message": "MFAシークレットが無効です"
+    },
+    "user_upload_126": {
+      "code": "INVALID_ROLE_NAME_RBAC",
+      "message": "役割名が空白であるか、無効な値があるか、この役割を割り当てる権限がありません"
+    },
+    "user_upload_127": {
+      "code": "INVALID_MIDDLE_NAME",
+      "message": "ミドルネームに無効な値があります"
+    },
+    "user_upload_128": {
+      "code": "INVALID_DISPLAY_NAME",
+      "message": "表示名に無効な値があります"
+    },
+    "user_upload_129": {
+      "code": "INVALID_TYPE",
+      "message": "タイプに無効な値があります"
+    },
+    "user_upload_130": {
+      "code": "INVALID_ROLE",
+      "message": "役割名が無効であるか、現在のステータスが非アクティブです"
+    },
+    "user_upload_131": {
+      "code": "INVALID_VIEW_COUNT",
+      "message": "ユーザーには最大3つのビューを割り当てることができます"
+    },
+    "user_upload_132": {
+      "code": "INVALID_VIEW_NAME",
+      "message": "ビュー名が無効です"
+    },
+    "user_upload_133": {
+      "code": "INVALID_INPUT",
+      "message": "入力が無効です"
+    },
+    "user_upload_134": {
+      "code": "INVALID_AGENT_INTEGRATIONS",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "テンプレートを選択してください"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "フォーム名はすでに存在します"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "テンプレートIDが無効です"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "週間ルールが空です"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "すべての一意の可能な日数の合計が日次ルールあたりの最小シフト数の合計よりも小さいです"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "週間ルールの名前が指定されていません"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "日次ルールが空です"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "すべての一意の可能な日数の合計が1週間の最小シフト数よりも小さいです"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "日付形式が無効です"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "2つの日付の間の期間が無効です"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーが発生しました"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーが発生しました"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "ファイル内のレコードが読み取れませんでした"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "週間ルールが間違っています"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "期待される列タイトルが見つかりません。サンプルファイルを見てください。"
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "システムにスキルがありません"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "スケジューリングユニットがファイルにありません"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "最も早い1日の開始が最も遅い開始の後です"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "増分の形式が間違っています"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "日次ルールの開始時刻が正しい範囲にありません"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "日次アクティビティの長さが日次ルールの長さよりも長いです"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "スラック形式が間違っています"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "相対開始時間がスラック時間よりも短いです"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "アクティビティの長さの合計が1日の長さよりも長いです"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "週間ルールの日付範囲が間違っています"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "有効なアクティビティの組み合わせが存在しません"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "アクティビティコードが日次ルールのシフトを超えました"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "アクティビティコード名が無効です"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "スケジュールユニットのタイムゾーンが間違っています"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "週間ルールの時間範囲が間違っています"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "デフォルトのアクティビティコードは削除できません"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "[週間ルールの最大シフト数]の値が日次ルールの最小日数の合計よりも小さいです"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "[週間ルールの最小シフト数]の値が日次ルールの最大日数の合計よりも大きいです"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "1日の最小時間の合計が1週間の最大時間よりも大きいです"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "1日の最大時間の合計が一週間の最小時間よりも小さいです"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "可能な日数の合計が対応する日次ルールの最小日数よりも小さいです"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーです。"
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "スキルが存在しません。"
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "従業員が50を超えるスキルを持つことはできません。"
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "スキル名が無効です"
+    },
+    "wfo_user_manager_service_8": {
+      "code": "INVALID_INPUT",
+      "message": "入力が無効です"
+    },
+    "wrongCredentials": "間違ったEメールアドレスまたはパスワードを入力しました",
+    "user_upload_135": {
+      "code": "INVALID_AUTHENTICATOR_NAME",
+      "message": "ログイン認証コード名が無効です"
+    },
+    "remote_device_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "リクエストが無効です"
+    },
+    "remote_device_upload_101": {
+      "code": "INVALID_ACTION",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "remote_device_upload_102": {
+      "code": "INVALID_TELEPHONY_SYSTEM",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "remote_device_upload_104": {
+      "code": "INVALID_SOURCE_DEVICE",
+      "message": "このフィールドは空白か、値が無効です"
+    },
+    "remote_device_upload_106": {
+      "code": "SOURCE_DEVICE_FIELD_LIMIT",
+      "message": "このフィールドが64文字を超えることはできません"
+    },
+    "remote_device_upload_107": {
+      "code": "FIELD_NOT_VALID",
+      "message": "文字、数字、@ # *を使用します"
+    },
+    "remote_device_upload_109": {
+      "code": "FIELD_LIMIT",
+      "message": "64文字以内で入力します"
+    },
+    "remote_device_upload_110": {
+      "code": "FIELD_NOT_VALID",
+      "message": "nullや空白にはできません"
+    },
+    "remote_device_upload_111": {
+      "code": "FIELD_NOT_VALID",
+      "message": "値はすでに存在します"
+    },
+    "remote_device_upload_108": {
+      "code": "INVALID_VENDOR",
+      "message": "ベンダーが無効です。"
+    },
+    "remote_device_upload_120": {
+      "code": "UNKNOWN_TELEPHONY_SYSTEM",
+      "message": "テレフォニーシステムが存在しません"
+    },
+    "remote_device_upload_128": {
+      "code": "NONEXISTENT_SOURCE_DEVICE",
+      "message": "このデバイスは存在しません"
+    },
+    "remote_device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "データベースエラーが発生しました"
+    },
+    "remote_device_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "入力イベントが無効です"
+    },
+    "recording_account_upload_112": {
+      "code": "INVALID_VALUE_PATTERN_AGENTID",
+      "message": "文字、数字、@を使用します"
+    },
+    "recording_account_upload_113": {
+      "code": "INVALID_VALUE_PATTERN_EXTENSION",
+      "message": "文字、数字、@ # *を使用します"
+    },
+    "recording_account_upload_114": {
+      "code": "VALUE_TOO_LONG_AGENTID",
+      "message": "2～64文字を入力してください"
+    },
+    "recording_account_upload_115": {
+      "code": "VALUE_TOO_LONG_EXTENSION",
+      "message": "3～64文字を入力してください"
+    },
+    "recording_account_upload_116": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_AGENTID",
+      "message": "文字、数字、@を使用します"
+    },
+    "recording_account_upload_117": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_EXTENSION",
+      "message": "文字、数字、@ # *を使用します"
+    },
+    "recording_account_upload_118": {
+      "code": "UPDATED_VALUE_TOO_LONG_AGENTID",
+      "message": "2～64文字を入力してください"
+    },
+    "recording_account_upload_119": {
+      "code": "UPDATED_VALUE_TOO_LONG_EXTENSION",
+      "message": "3～64文字を入力してください"
+    },
+    "user_upload_136": {
+      "code": "INVALID_DIGITAL_ENGAGEMENT",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_137": {
+      "code": "INVALID_CUSTOMER_CARD",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_138": {
+      "code": "INVALID_CAN_EDIT_BI_REPORTS",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_139": {
+      "code": "INVALID_HAS_SMART_REACH_USER_ACCESS",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_140": {
+      "code": "INVALID_HAS_SMART_REACH_AGENT_ACCESS",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_141": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_INSIGHTS",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "user_upload_142": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_ACT",
+      "message": "値が無効です。TRUEまたはFALSEである必要があります"
+    },
+    "platform_user_manager_service_181": {
+      "code": "VIEW_LIMIT_EXCEEDED",
+      "message": "ビューの最大許容限度を超えました"
+    },
+    "user_upload_143": {
+      "code": "INVALID_TEMPLATE_NAME",
+      "message": "その名前のテンプレートが見つかりません。スペルを確認して、もう一度お試しください。"
+    },
+    "platform_user_manager_service_194": {
+      "code": "platform_user_manager_service_194",
+      "message": "チームは所属部門の外へ移動できません。"
+    },
+    "platform_user_manager_service_217": {
+      "code": "platform_user_manager_service_217",
+      "message": "チームの部門IDが、フィルターされたユーザーの部門IDと一致しません。"
+    },
+    "user_upload_145": {
+      "code": "INVALID_MFA_TIME_PERIOD",
+      "message": "値が無効です。15～300の範囲で指定してください"
+    },
+    "user_upload_146": {
+      "code": "INVALID_TEMPLATE",
+      "message": "無効なテンプレートがアップロードされました"
+    },
+    "user_team_upload_007": {
+      "code": "INVALID_TEMPLATE",
+      "message": "無効なテンプレートがアップロードされました"
+    }
+  },
+  "filter": {
+    "clearall": "すべてクリア",
+    "close": "閉じる"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "スケジューリングユニット"
+  },
+  "formExample": {
+    "confirmPassword": "パスワードを確認入力：",
+    "createPassword": "パスワードを作成：",
+    "enterYourAge": "年齢を入力：",
+    "enterYourEmail": "Eメールアドレスを入力：",
+    "enterYourName": "名前を入力：",
+    "errorMessages": {
+      "email": "Eメールアドレスが無効です",
+      "match": "このパスワードは、以前に入力したパスワードと一致しません",
+      "maxAge": "80歳未満である必要があります",
+      "maxLength": "フィールドが長すぎます",
+      "maxLengthPassword": "このパスワードは長すぎます...",
+      "minAge": "10歳以上である必要があります",
+      "minLength": "フィールドが短すぎます",
+      "minLengthPassword": "パスワードは8文字以上である必要があります",
+      "number": "数字のみです！",
+      "password": " パスワードはアルファベットまたは数字で構成する必要があります。また、少なくとも1つの特殊文字、数字、大文字が含まれている必要があります。",
+      "required": "フィールドが空白のままです..."
+    }
+  },
+  "generalErrorMessages": {
+    "activitiesOverlap": "アクティビティは重複できません",
+    "cannotDropOUOnSU": "組織ユニットはスケジューリングユニットの子にはなれないため、このアクションは実行できません",
+    "cannotDropOUOnTeams": "組織ユニットはチームの子になれないため、このアクションは実行できません",
+    "cannotDropSUOnTeams": "スケジューリングユニットはチームの子ノードになれないため、このアクションは実行できません",
+    "cannotDropTeamsOnTeams": "チームはチームの子ノードになれないため、このアクションは実行できません",
+    "compareTo": "このパスワードは以前のパスワードと一致しません",
+    "descriptionLengthExceededError": "説明の長さが最大255文字を超えました",
+    "digitalEngagmentUserLimitReached": "Digital Engagementが有効になっているユーザー数を超えました",
+    "email": "入力したEメールアドレスは無効です",
+    "emailExists": "Eメールアドレスはすでに存在します。新しいものを試してください",
+    "failedToCreateUser": "ユーザーの作成に失敗しました",
+    "failedToUpdateUser": "ユーザーの更新に失敗しました",
+    "hierarchiesFailure": "階層の取得に失敗しました",
+    "incorrectMediaValue": "{{who}}に対する{{mediaType}}の値{{incorrectValue}}は無効です。",
+    "integerInvalid": "整数である必要があります。",
+    "invalidFileFormat": "ファイル形式が無効です",
+    "invalidMediaSum": "すべてのチャネルをオフには設定できません。すべてのコンタクトの合計は0より大きくなければなりません。",
+    "invalidMfaSecret": "MFAシークレットが無効です",
+    "invalidMobileNumber": "入力した携帯電話番号は無効です",
+    "invalidTelephone": "入力した電話番号は無効です",
+    "invalidTotalContactCount": "[合計コンタクト数]の値は、すべてのコンタクト数の合計以下にする必要があります。",
+    "lowerThen": "最小値が最大値を超えることはできません",
+    "match": "このパスワードは以前のパスワードと一致しません",
+    "max": "数が大きすぎます",
+    "maxAllowedLimitExceeded": "ビューの最大許容限度を超えました",
+    "maxLength": "エントリーが長すぎます",
+    "maxLengthPassword": "パスワードが長すぎます",
+    "min": "数が小さすぎます",
+    "minLength": "エントリーが短すぎます",
+    "minLengthPassword": "パスワードは8文字以上である必要があります",
+    "nameFieldValidation": "!    \\ < > ?    % \"または絵文字はサポートされていません",
+    "nameFieldValidation2": "申し訳ありませんが、\\ / ! + < > ? # & , % \"は使用できません",
+    "noAddedShiftPatters": "少なくとも1つの日次ルールを選択する必要があります",
+    "nonBillableIncreasedLimitReached": "最大25人の非課金ユーザーを含めることができます",
+    "nonBillableMaxCountReached": "最大5人の非課金ユーザーを含めることができます。",
+    "notAllowedToChangeOwnUserView": "自分のユーザービューは変更できません",
+    "notValidRegex": "次の文字は使用できません：^/!\\+<>?#&,%.",
+    "number": "数字のみです",
+    "password": "パスワードは、数字1文字以上と大文字1文字以上を含む8文字以上でなければなりません。",
+    "pattern": "このフィールドの形式が正しくありません",
+    "possibleDaysLowerThanMinDays": "可能な日数が週間ルールで要求される最小日数を満たしていません。",
+    "refusalTimeRange": "値は15～300の間でなければなりません",
+    "relativeStartLowerThanSlack": "スラックを相対開始の値より大きくすることはできません",
+    "required": "このフィールドは必須です。",
+    "serverError": "不明なサーバーエラー",
+    "shiftLengthLowerThanActivityLength": "アクティビティの長さと相対開始の合計がシフトの長さを超えることはできません",
+    "shiftLengthLowerThanTotalActivityLength": "アクティビティの長さの合計がシフトの長さを超えることはできません",
+    "timeRangeOutsideOfRange": "雇用日が無効です",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最小日数が一意の日の合計数を超えています。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "週間ルールの最小日数が一意の日数を超えています。",
+    "uniqueString": "この名前はすでに存在します。新しいものを試してください。",
+    "uniqueTitle": "この名前はすでに存在します。新しいものを試してください。",
+    "userActivityBlocked": "この定期メンテナンス中は、従業員の作成と編集は一時的に利用できません。通常のサービスはまもなく復旧します。",
+    "userName": "ユーザー名はEメールアドレス形式にしてください",
+    "userNameExists": "ユーザー名はすでに存在します。新しいものを試してください",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "1日の最小組み合わせ時間の合計が1週間の最大合計時間を超えることはできません",
+    "weeklyMaxLowerThanSumDailyMin": "日次ルールで要求される最小日数が週間ルールの最大日数を超えています。",
+    "weeklyMinGreaterThanSumDailyMax": "週間ルールの最小日数が日次ルールで要求される最大日数を超えています。",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "1日の最大組み合わせ時間の合計が1週間の最小合計時間を下回ることはできません",
+    "typeAlreadyExists": "このタイプはすでに存在します。"
+  },
+  "generic-users": {
+    "buttons": {
+      "addUsers": "ユーザーを追加",
+      "removeUsers": "ユーザーを削除"
+    },
+    "columns": {
+      "email": "Eメール",
+      "name": "名前",
+      "role": "役割",
+      "status": "状態",
+      "username": "ユーザー名",
+      "action": "アクション"
+    },
+    "itemsCount": "{{count}}の表示",
+    "modal": {
+      "noItemsOverlay": "ユーザーはまだ追加されていません",
+      "title": "ユーザーを追加"
+    },
+    "noItemsOverlay": "ユーザーはまだ追加されていません",
+    "noItemsOverlayGrid": "このフィルターを使用してユーザーは見つかりません",
+    "noUsersSubText": "上の[ユーザーを追加]を選択して、ユーザーを追加します",
+    "popovers": {
+      "bulkMessageAddedUser": "ユーザーを削除するには、ユーザーを別の役割に再割り当てする必要があります。",
+      "bulkMessageNewUser": "この役割からユーザーを削除しますか？",
+      "messageAddedUser": "これらのユーザーを削除するには、このユーザーを別の役割に再割り当てする必要があります。",
+      "messageNewUser": "この役割からユーザーを削除しますか？"
+    },
+    "searchPlaceholder": "入力してユーザーを検索",
+    "tabLabels": {
+      "assignedUsers": "割り当て済ユーザー",
+      "general": "一般",
+      "zeroRow": "合計0"
+    },
+    "totalItemsCount": " 合計",
+    "totalItemsCountLabel": " 合計",
+    "userCount": "",
+    "userSelectionModal": {
+      "noUserAddedText": "ユーザーはまだ追加されていません",
+      "noUserSelectedText": "ユーザーはまだ選択されていません"
+    }
+  },
+  "groupsListPage": {
+    "ModalMessages": {
+      "transition": {
+        "areYouSureLeavePage": "続行してもよろしいですか？",
+        "title": "未保存のデータ",
+        "unsavedChanges": "ページを離れると、変更は失われます。"
+      }
+    },
+    "cancel": "キャンセル",
+    "changeAuditHistoryTab": {
+      "GroupAuditable": {
+        "id": "ID",
+        "name": "名前",
+        "usersIds": "ユーザーID"
+      },
+      "itemsCountLabel": "変更",
+      "noRowsOverlayText": "変更履歴データが見つかりません"
+    },
+    "confirm": "確認",
+    "create": "作成",
+    "createGroup": "新規グループ",
+    "createSuccessMessage": "グループが正常に作成されました。",
+    "filters": {
+      "group": "{{count}}グループ",
+      "status": "{{count}}件のステータス"
+    },
+    "generalInfo": {
+      "groupName": "グループ名",
+      "mandatorySymbol": "*",
+      "title": "グループ情報"
+    },
+    "groups": "グループ",
+    "itemsCount": "{{count}}の表示",
+    "newGroupPageTitle": "新規グループを作成",
+    "pageTitle": "グループ",
+    "popover": {
+      "confirmMessage": "保存せずに終了してもよろしいですか？",
+      "warningMessage": "すべての変更は失われます。"
+    },
+    "removeSelectedUnavailableCodeMsg": "選択した利用不可コードを削除しようとしています。続行しますか？",
+    "removeSelectedUsersMsg": "選択したユーザーを削除しようとしています。続行しますか？",
+    "save": "保存",
+    "selectedItems": "{{selectedCount}}件選択済",
+    "tabLabels": {
+      "assignedUsers": "割り当て済ユーザー",
+      "changeHistory": " 変更履歴",
+      "general": "一般",
+      "zeroRow": "合計0"
+    },
+    "totalItemsCount": "{{count}}の合計",
+    "untitledTeam": "無題のグループ",
+    "updateFailureMsg": "グループは保存されませんでした",
+    "userAssignmentFailureMsg": "ユーザーの割り当てに失敗しました",
+    "userCount": "",
+    "userLabels": {
+      "assignedUsersLabel": "割り当て済ユーザー",
+      "unassignedUsersLabel": "すべての未割り当てユーザー",
+      "userSearchPlaceholder": "入力してユーザーを検索"
+    },
+    "users": {
+      "buttons": {
+        "addUsers": "ユーザーを追加",
+        "removeUsers": "ユーザーを削除"
+      },
+      "columns": {
+        "email": "Eメール",
+        "group": "グループ",
+        "name": "名前",
+        "status": "状態",
+        "username": "ユーザー名"
+      },
+      "modal": {
+        "noItemsOverlay": "割り当て可能なユーザーはいません",
+        "saveLabel": "確認",
+        "title": "ユーザーを追加",
+        "cancelLabel": "キャンセル"
+      },
+      "noItemsOverlay": "ユーザーはまだ追加されていません",
+      "noItemsOverlayGrid": "このフィルターを使用してユーザーは見つかりません",
+      "noUsersSubText": "上の[ユーザーを追加]を選択して、ユーザーを追加します",
+      "popovers": {
+        "bulkMessageAddedUser": "ユーザーを削除するには、別のグループに再割り当てする必要があります。",
+        "bulkMessageNewUser": "このグループからユーザーを削除しますか？",
+        "messageAddedUser": "このユーザーを削除するには、別のグループに再割り当てする必要があります。",
+        "messageNewUser": "このグループからユーザーを削除しますか？"
+      },
+      "searchPlaceholder": "入力してユーザーを検索",
+      "userSelectionModal": {
+        "noUserAddedText": "ユーザーはまだ追加されていません",
+        "noUserSelectedText": "ユーザーはまだ選択されていません"
+      }
+    },
+    "status": {
+      "active": "アクティブ",
+      "inactive": "非アクティブ",
+      "all": "すべて",
+      "pending": "未解決",
+      "unregistered": "未登録"
+    }
+  },
+  "groupsPage": {
+    "assignedUsers": {
+      "addUsersModal": {
+        "omnibar": {
+          "searchPlaceholderText": "入力してユーザーを検索"
+        },
+        "title": "ユーザーを追加"
+      }
+    },
+    "createNewGroupModal": {
+      "addHeader": "新規グループを作成",
+      "editHeader": "グループを編集",
+      "employeesTab": {
+        "AlreadyAssignedUsers": "すでに割り当てられた従業員",
+        "addEmployeesBtn": "従業員を追加",
+        "assignedEmployeesTxt": "割り当て済従業員",
+        "header": "従業員",
+        "selectEmployeesTxt": "従業員を選択",
+        "selectedTxt": "選択済："
+      },
+      "groupNamePlaceholder": "無題のグループ",
+      "popover": {
+        "message1": "すべての変更は失われます",
+        "message2": "保存せずに終了してもよろしいですか？"
+      }
+    },
+    "deleteSelectedGroupsMsg": "選択したグループを削除しようとしています。続行しますか？",
+    "errorDelete": "削除する行が選択されていません",
+    "filters": {
+      "clearAll": "すべてクリア",
+      "close": "閉じる",
+      "group": "{{count}}グループ",
+      "status": "{{count}}件のステータス",
+      "statusLabel": "ステータス"
+    },
+    "gridColumnsHeaders": {
+      "employees": "従業員",
+      "name": "名前",
+      "action": "アクション"
+    },
+    "gridNoRowsOverlay": "グループはまだ作成されていません",
+    "item": "グループ",
+    "items": "グループ",
+    "newGroupBtn": "新規グループ",
+    "pageTitle": "グループ",
+    "popover": {
+      "message": "このグループがすべての従業員から削除されます。よろしいですか？"
+    },
+    "searchGroup": "入力してグループを検索",
+    "selected": "選択済",
+    "successAdd": "新規グループが正常に追加されました",
+    "successEdit": "グループが正常に編集されました",
+    "toastMessage": {
+      "deleteFailure": "グループの削除に失敗しました。",
+      "deleteSuccess": "グループは正常に削除されました。",
+      "groupsResponseError": "グループの取得中にエラーが発生しました"
+    },
+    "warningModal": {
+      "cancelBtn": "キャンセル",
+      "confirmBtn": "確認",
+      "message": "グループ名を変更した場合、古い名前の完了済インタラクションセグメントは更新されません。",
+      "title": "よろしいですか？"
+    }
+  },
+  "hierarchiesPage": {
+    "cancel": "キャンセル",
+    "components": {
+      "containers": {
+        "headerText": "コンテナ",
+        "searchPlaceHolder": "コンテナを検索",
+        "type": "チーム"
+      },
+      "members": {
+        "AddButton": "追加",
+        "RemoveButton": "削除",
+        "employeeButton": "従業員",
+        "headerText": "メンバー",
+        "headerTextAfter": "メンバーを追加",
+        "noMembersSearchTxt": "チームにユーザーがいません",
+        "noMembersTxt": {
+          "heading": "メンバーはまだ追加されていません",
+          "subHeading": "メンバーを追加するには",
+          "subHeading1": " をクリックします。",
+          "subHeading2": "メンバーが追加されると、ここに表示されます"
+        },
+        "noResultSearchTxt": "結果が見つかりません",
+        "searchPlaceHolder": "メンバーを検索",
+        "teamsButton": "チーム",
+        "type": "ユーザー"
+      },
+      "nodeActionComponent": {
+        "defaultNodeName": "無題",
+        "hierarchyTypeLabel": "組織ユニット",
+        "title": {
+          "addChild": "子を追加",
+          "addPeer": "ピアを追加",
+          "collapseBranch": "ブランチを折りたたむ",
+          "containers": "コンテナ",
+          "delete": "削除",
+          "expandBranch": "ブランチを展開",
+          "info": "情報",
+          "members": "メンバー",
+          "rename": "編集"
+        }
+      }
+    },
+    "createErrorMessage": "階層の作成に問題がありました。後でお試しください。",
+    "createSuccessMessage": "階層が正常に作成されました。",
+    "gridColumnHeaders": {
+      "applications": "アプリケーション",
+      "hierarchyActions": "アクション",
+      "hierarchyName": "階層名",
+      "hierarchyStatus": "ステータス",
+      "hierarchyType": "タイプ",
+      "lastModifiedBy": "最終変更者",
+      "lastModifiedDate": "最終変更"
+    },
+    "hierarchyHamburgerMenu": {
+      "activate": "アクティブ化",
+      "deactivate": "非アクティブ化"
+    },
+    "hierarchyManager": {
+      "cancel": "キャンセル",
+      "errorMessages": {
+        "duplicateName": "この名前はすでに存在します。新しいものを試してください。",
+        "nameRequired": "このフィールドは必須です",
+        "typeRequired": "このフィールドは必須です"
+      },
+      "hierarchyNamePlaceholder": "階層名",
+      "hierarchyType": "階層タイプを選択",
+      "newHierarchy": "新規階層を作成",
+      "pageTitle": "階層"
+    },
+    "hierarchyManagerToastMessages": {
+      "failureActivatingHierarchy": "階層のアクティブ化に問題がありました。後でお試しください。",
+      "failureDeactivatingHierarchy": "階層の非アクティブ化に問題がありました。後でお試しください。",
+      "failureTemplatesHierarchy": "階層のテンプレートを取得する際に問題がありました。後でもう一度お試しください。",
+      "successActivatingHierarchy": "階層が正常にアクティブ化されました。",
+      "successDeactivatingHierarchy": "階層は正常に非アクティブ化されました。"
+    },
+    "hierarchyStatus": {
+      "active": "アクティブ",
+      "inactive": "非アクティブ"
+    },
+    "hierarchyTypeCamelCase": {
+      "Organizational": "組織的"
+    },
+    "itemsCount": "{{count}}個の階層",
+    "messages": {
+      "error": {
+        "failedToLoadHierarchies": "階層の読み込みに失敗しました。後でもう一度お試しください。"
+      }
+    },
+    "modalMessages": {
+      "transition": {
+        "title": "未保存のデータ",
+        "unsavedChanges": "ページを離れると、変更は失われます。",
+        "warningMessage": "続行してもよろしいですか？"
+      }
+    },
+    "newHierarchy": "新規階層",
+    "noItemsOverlay": "階層はまだ定義されていません",
+    "nodeSuccessfullyDropped": "{{draggedEntityName}}{{draggedEntityType}}が{{droppedEntityName}}{{droppedEntityType}}に追加されました。",
+    "openHierarchyErrorMessage": "この階層の表示に問題がありました。後でお試しください。",
+    "pageTitle": "階層",
+    "popovers": {
+      "activateHierarchy": {
+        "msg": "この階層をアクティブ化してもよろしいですか？"
+      },
+      "confirmMessage": "保存せずに終了してもよろしいですか？",
+      "deactivateHierarchy": {
+        "msg": "この階層を非アクティブ化しようとしています。続行しますか？"
+      },
+      "deleteNodeWarning": "このノードを削除しようとしています。続行しますか？",
+      "deleteNodeWarningChildren": "このノードを削除すると、このノードの下にあるすべての子ノードとピアが削除されます。続行しますか？",
+      "mappingApplicationsHierarchyPopover": {
+        "msg": "この階層は1つ以上のアプリケーションにマッピングされているため、非アクティブ化できません。"
+      },
+      "visibility": "この情報を表示する\n権限がありません",
+      "warningMessage": "すべての変更は失われます"
+    },
+    "save": "保存",
+    "saveAndActivate": "保存＆アクティブ化",
+    "searchPlaceholder": "入力して階層を検索",
+    "updateErrorMessage": "階層の更新に問題がありました。後でお試しください。",
+    "updateSuccessMessage": "階層が正常に更新されました。"
+  },
+  "hierarchiesPageV2": {
+    "createErrorMessage": "階層の作成に問題がありました。後でお試しください。",
+    "createSuccessMessage": "階層が正常に作成されました。",
+    "hierarchyManager": {
+      "application": "アプリケーション",
+      "applicationPlaceholder": "アプリケーションを選択",
+      "cancel": "キャンセル",
+      "close": "閉じる",
+      "components": {
+        "members": {
+          "addButton": "追加",
+          "associationMsg": "ユーザーはすでに「{{ouname}}」のメンバーです",
+          "cancelButton": "キャンセル",
+          "headerText": "メンバー",
+          "headerTextAfter": "メンバーを追加",
+          "noMembersTxt": {
+            "heading": "メンバーはまだ追加されていません",
+            "subHeading": "[追加]をクリックしてメンバーを追加します。",
+            "subHeading1": "メンバーが追加されると、ここに表示されます。"
+          },
+          "noResultSearchTxt": "結果が見つかりません",
+          "removeButton": "削除",
+          "saveButton": "保存",
+          "searchPlaceHolder": "メンバーを検索",
+          "type": "ユーザー",
+          "viewDetailsButton": "チームの詳細を表示",
+          "viewSUDetailsButton": "詳細を表示"
+        },
+        "nodeComponent": {
+          "hierarchyTypeLabel": {
+            "OU": "組織ユニット",
+            "SU": "スケジューリングユニット",
+            "TEAM": "チーム"
+          }
+        }
+      },
+      "create": "作成",
+      "formLabels": {
+        "suPlaceholder": "スケジューリングユニットを選択",
+        "teamPlaceholder": "チームを選択"
+      },
+      "hierarchyName": "名前",
+      "hierarchyNamePlaceholder": "階層名を追加",
+      "hierarchyType": "タイプ",
+      "hierarchyTypePlaceholder": "タイプを選択",
+      "minuteAgo": "分前",
+      "minutesAgo": "分前",
+      "newHierarchy": "新規階層を作成",
+      "pageTitle": "階層",
+      "popovers": {
+        "OUDescription": "このアクションにより、組織ユニット(OU)タイプの子ノードが作成されます。OUが作成されると、メンバーを追加できるようになります",
+        "SUDescription": "このアクションにより、既存のSUの1つを選択することで、スケジューリングユニット(SU)タイプの子ノードが作成されます。SUノードが作成されると、子ノードの追加やSU情報とメンバーシップの表示ができるようになります。",
+        "TeamDescription": "このアクションにより、既存のチームの1つを選択することで、チームタイプの子ノードが作成されます。チームノードが作成されると、チーム情報とメンバーシップを表示できるようになります",
+        "addNodePopover": {
+          "nameLabel": {
+            "ou": "名前",
+            "su": "既存のスケジューリングユニットを追加",
+            "team": "既存のチームを追加"
+          },
+          "popoverTitle": {
+            "ou": "組織ユニットを追加",
+            "su": "スケジューリングユニットを追加",
+            "team": "チームを追加"
+          },
+          "validation": {
+            "nonLeafSUMoveValidation": "このスケジューリングユニットは、階層内の親ノードとしてすでに存在します",
+            "suValidation": "このSUはすでに次の下に追加されています",
+            "teamValidation": "このチームはすでに次の下に追加されています"
+          }
+        },
+        "confirmMsg": "続行するには、これらのいずれかを選択してください",
+        "deleteNodeWarning": "このOUを階層から削除しようとしています。このアクションにより、すべての子ノード(存在する場合)を含むこのOUの下のネットワークが削除されます。",
+        "deleteSUNodeWarning": "このSUを階層から削除しようとしています。このアクションにより、すべての子ノード(存在する場合)を含むこのSUの下のネットワークが削除されます。",
+        "deleteSUWarning4": " この階層を持つSUですか？",
+        "deleteTeamNodeWarning": "このチームを階層から削除しようとしています。",
+        "deleteWarning3": "続行しますか？",
+        "editNodePopover": {
+          "nameLabel": "名前",
+          "popoverTitle": "詳細を編集"
+        },
+        "infoNodePopover": {
+          "TeamLeadLabel": "チームリード",
+          "nameLabel": "名前",
+          "popoverTitle": "チーム情報"
+        },
+        "replaceNodeWarning1": " 次の下に移動されます",
+        "replaceNodeWarning2": "。続行しますか？",
+        "replaceSUNodeWarning1": "現在次の下に存在するSU",
+        "replaceTeamNodeWarning1": "現在次の下に存在するチーム",
+        "suInfoNodePopover": {
+          "TimeZoneLabel": "タイムゾーン",
+          "nameLabel": "名前",
+          "popoverTitle": "スケジューリングユニット情報"
+        }
+      },
+      "save": "保存",
+      "saved": "保存しました",
+      "saving": "保存しています...",
+      "team": {
+        "warningMsg": "チームが「{{existingParent}}」OUに対する子ノードとして存在します。「追加」アクションを行うと、チームノードは「{{newParent}}」OUの下に移動します"
+      },
+      "update": "更新"
+    },
+    "itemsCount": "{{count}}個の階層",
+    "modalMessages": {
+      "transition": {
+        "title": "未保存のデータ",
+        "unsavedChanges": "ページを離れると、変更は失われます。",
+        "warningMessage": "続行してもよろしいですか？"
+      }
+    },
+    "noItemsOverlay": "階層はまだ定義されていません",
+    "openHierarchyApplicationErrorMessage": "階層アプリケーションの読み込みに問題がありました。後でお試しください。",
+    "openHierarchyErrorMessage": "この階層の表示に問題がありました。後でお試しください。",
+    "openHierarchyTemplateErrorMessage": "階層テンプレートの読み込みに問題がありました。後でお試しください。",
+    "pageTitle": "階層",
+    "saveAndActivate": "保存＆アクティブ化",
+    "searchPlaceholder": "入力して階層を検索",
+    "subtreeDepthViolationErrorMessage": "許容される階層深度の10レベルを超えるため、この操作は実行できません",
+    "subtreeNodeLimitViolationErrorMessage": "許容される階層ノードの制限を超えているため、この操作は実行できません。",
+    "template": {
+      "templateType": {
+        "ou": "組織ユニットを追加",
+        "su": "スケジューリングユニットを追加",
+        "team": "チームを追加"
+      }
+    },
+    "updateAppMessage": "アプリケーションマッピングが正常に更新されました。",
+    "updateErrorMessage": "階層の更新に問題がありました。後でお試しください。",
+    "updateNameMessage": "階層名が正常に更新されました。",
+    "updateSuccessMessage": "階層が正常に更新されました。"
+  },
+  "importUsersModal": {
+    "browsFileText": "ファイルを参照",
+    "downloadLink": "ここからダウンロードできます。",
+    "downloadMessage1": "CSVファイルのテンプレートを",
+    "downloadMessage2": "",
+    "downloadTemplates": "テンプレートをダウンロード",
+    "dragAndFropText": "ドラッグ＆ドロップしてアップロードするか、または",
+    "errorMsg": "従業員のインポートに失敗しました。",
+    "header": "従業員をインポート",
+    "importErrorsList": {
+      "cannotChangeOwnRole": "自分の役割は変更できません。",
+      "header": "インポートエラー",
+      "invalidUser": "システムに役割が存在しません",
+      "invalidUserRole": "役割とユーザーステータスが一致しません",
+      "invalidUserStatus": "アクティブユーザーのEメールアドレスは変更できません。",
+      "userAlreadyExists": "ユーザーの作成に失敗しました。同じユーザー名のユーザーがすでに存在します。",
+      "userCreateFailed": "ユーザーの作成に失敗しました。入力を確認してください"
+    },
+    "selectFileMessage": "",
+    "successMsg": "従業員を正常にインポートしました。",
+    "weSupportMessage": "CSVファイルをアップロードして従業員をインポートします。"
+  },
+  "metaInfo": {
+    "accountSettings": {
+      "description": "NICE SaaS WFM",
+      "title": "アカウント設定"
+    },
+    "bulkUploadDownload": {
+      "description": "一括アップロード/ダウンロード",
+      "title": "一括アップロード/ダウンロード"
+    },
+    "bulkUploadDownload/reviewErrors": {
+      "description": "一括アップロード/ダウンロード - エラーの確認",
+      "title": "一括アップロード/ダウンロード - エラーの確認"
+    },
+    "createGroup": {
+      "title": "グループ作成"
+    },
+    "description": "NICE SaaS WFM",
+    "employeeGroups": {
+      "description": "NICE SaaS WFM",
+      "title": "スケジューリングユニット"
+    },
+    "examples": {
+      "description": "NICE SaaS WFM",
+      "title": "例"
+    },
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "form_example": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームの例"
+    },
+    "groups": {
+      "description": "NICE SaaS WFM",
+      "title": "グループ"
+    },
+    "groups/create": {
+      "description": "NICE SaaS WFM",
+      "title": "グループ作成"
+    },
+    "groups/update": {
+      "description": "NICE SaaS WFM",
+      "title": "グループを更新"
+    },
+    "hierarchies": {
+      "description": "階層",
+      "title": "階層"
+    },
+    "hierarchyManager": {
+      "description": "階層マネジャー",
+      "title": "階層マネジャー"
+    },
+    "hierarchyManagerV2": {
+      "description": "階層マネジャー",
+      "title": "階層マネジャー"
+    },
+    "security": {
+      "description": "セキュリティ",
+      "title": "セキュリティ"
+    },
+    "success": {
+      "description": "NICE SaaS WFM",
+      "title": "成功"
+    },
+    "teams": {
+      "description": "チーム",
+      "title": "チーム"
+    },
+    "teams/create": {
+      "description": "チーム",
+      "title": "チーム作成"
+    },
+    "teams/update": {
+      "description": "チーム",
+      "title": "チームを更新"
+    },
+    "title": "NICE SaaS WFM",
+    "userManagement": {
+      "description": "NICE SaaS WFM",
+      "title": "従業員"
+    },
+    "userManagement/create": {
+      "description": "ユーザー作成",
+      "title": "ユーザー作成"
+    },
+    "userManagement/update": {
+      "description": "ユーザーの更新",
+      "title": "ユーザーの更新"
+    },
+    "viewTeam": {
+      "description": "チーム",
+      "title": "チームを表示"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "{{itemLabel}}はまだ定義されていません",
+    "modal": {
+      "employeeTab": "従業員はまだ割り当てられていません"
+    }
+  },
+  "recordingAccounts": {
+    "buttonText": "新規アカウント",
+    "error": {
+      "createUpdateAccount": "レコーディングアカウントを追加または更新できません。",
+      "telephonySystem": "テレフォニーシステムを読み込めませんでした。"
+    },
+    "infoMessage": "レコーディングアカウントは10個まで作成できます。",
+    "inputFieldText": {
+      "extensionID": "一意の値を入力",
+      "telephonySystem": "選択..."
+    },
+    "labelText": {
+      "column1": "テレフォニーシステム",
+      "column2": "アカウントタイプ",
+      "column3": "値"
+    },
+    "noAccountMessage": "レコーディングアカウントはまだ作成されていません",
+    "noSystemBtn": "テレフォニーシステムをセットアップ",
+    "noTelephonyMessage1": "テレフォニーシステムが設定されていません。",
+    "noTelephonyMessage2": "テレフォニーシステムをセットアップし、",
+    "noTelephonyMessage3": "[再読み込み]をクリックすると、レコーディングアカウントが作成されます。",
+    "retryBtn": "再読み込み",
+    "uivalidation": {
+      "alphanumericAgentID": "文字、数字、@を使用します",
+      "alphanumericExtension": "文字、数字、@ # *を使用します",
+      "characterLimitAgentID": "2～64文字を入力してください",
+      "characterLimitExtension": "3～64文字を入力してください",
+      "duplicateExtension": "選択されたアカウントタイプとシステムにはすでに値が存在します",
+      "required": "必須項目です",
+      "unmonitoredExtension": "この内線はTSAPIインターフェイスで監視されていません。この内線からのコールは記録されません。"
+    }
+  },
+  "recoverPassword": {
+    "back": "サインインに戻る",
+    "checkYourEmail": "Eメールを確認",
+    "forgetPassword": "パスワードを忘れた場合",
+    "forgetPasswordExplenation": "Eメールを送信すると、パスワードを再設定するためのリンクが送信されます。",
+    "mailSuccessSent": "パスワードを再設定するためのリンクを記載したEメールを送信しました",
+    "recoverMessage": "簡単な3ステップでパスワードを回復：",
+    "resetBtn": "再設定リンクを送信",
+    "step1": "登録したEメールアドレスを以下に入力します",
+    "step2": "パスワードを再設定するためのリンクをEメールで送ります",
+    "step3": "このリンクを使用してパスワードを再設定します",
+    "successMessage": "パスワード再設定リンクが記載されたメッセージがEメールに送信されました",
+    "successSend": "パスワード再設定リクエストが正常に送信されました"
+  },
+  "scheduler": {
+    "activityModal": {
+      "activityCodePlaceholder": "アクティビティコードを選択",
+      "addTitle": "アクティビティの追加 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "コメントを追加...",
+      "editTitle": "アクティビティの編集 - {{userName}}",
+      "end": "終了",
+      "error": {
+        "activityOverlappingTimeRange": "このアクティビティは取得したスケジュールの範囲外であり、既存のアクティビティを置き換える可能性があります。",
+        "conflict": "競合が検出されました。このアクティビティが重複するアクティビティを置き換えます。",
+        "daterange": "今日、昨日、明日のいずれかの日付を選択してください。",
+        "endBeforeStart": "終了日は開始日と同じかそれ以降でなければなりません。",
+        "invaliddatetime": "指定された日付または時刻、もしくはその両方が無効です。",
+        "openhours": "営業時間外はスケジュールできません",
+        "timeRangeOutsideOfRange": "アクティビティは、タイムライン範囲({{start}} - {{end}})内で開始または終了する必要があります。"
+      },
+      "remaining": "{{currentLength}}文字残っています",
+      "remove": "削除",
+      "start": "開始"
+    },
+    "allDay": "終日",
+    "cancel": "キャンセル",
+    "closed": "組織が閉鎖されている場合はシフトやアクティビティを追加できません。",
+    "dailyView": "日次ビュー",
+    "employeeCount": "{{count}}人のユーザー",
+    "employeeName": "名前",
+    "filters": {
+      "groups": "{{count}}グループ",
+      "schedulingUnits": "{{count}}件のスケジューリングユニット",
+      "searchPlaceholder": "入力してユーザーを検索",
+      "skills": "{{count}}件のスキル"
+    },
+    "hotkeys": {
+      "nextHotKey": "翌日",
+      "previousHotKey": "前日",
+      "refreshHotKey": "データベースからスケジュールを再度読み込む",
+      "saveHotKey": "スケジュールの変更を保存する",
+      "todayHotKey": "今日へ移動"
+    },
+    "hours": "時間",
+    "menuItems": {
+      "addActivity": "アクティビティを追加",
+      "addShift": "シフトを追加",
+      "cancel": "閉じる",
+      "copyActivity": "アクティビティをコピー",
+      "copyShift": "シフトをコピー",
+      "editActivity": "アクティビティを編集",
+      "editShift": "シフトを編集",
+      "pasteActivity": "アクティビティを貼り付ける",
+      "pasteShift": "シフトを貼り付ける",
+      "removeActivity": "アクティビティを削除",
+      "removeShift": "シフトを削除"
+    },
+    "name": "名前",
+    "netstaffing": {
+      "diff": "差分",
+      "req": "リクエスト",
+      "staff": "スタッフ"
+    },
+    "noeditsAllowed": "一部表示されているシフトは編集できません。シフトを編集するには、日付を変更してください。",
+    "organizationClosed": "組織閉鎖",
+    "publish": "公開",
+    "publishModal": {
+      "attention": "注意！",
+      "from": "開始：",
+      "header": "新規スケジュールを公開",
+      "noSchedulesToPublish": "選択した日付範囲にスケジュールはありません。",
+      "oneMonth": "1か月",
+      "oneWeek": "1週間",
+      "publishAnywayBtn": "公開する",
+      "publishConformation": "選択した日付の一部はすでに公開されています。スケジュールが変更された場合、従業員は新しいアジェンダで更新されます。",
+      "schedulingUnit": "スケジューリングユニット",
+      "selectDatePlaceholder": "日付を選択",
+      "successMessage": "日付が正常に公開されました",
+      "threeWeeks": "3週間",
+      "to": "終了：",
+      "twoWeeks": "2週間"
+    },
+    "save": "保存",
+    "saveAndPublish": "保存＆公開",
+    "scheduler": "スケジュール管理",
+    "settings": "スケジュール管理の設定",
+    "setupModal": {
+      "saveFailure": "スケジュール管理設定の保存中にエラーが発生しました。",
+      "saveSuccess": "スケジュール管理設定は正常に保存されました。",
+      "tabs": {
+        "netStaffing": {
+          "range": {
+            "max": "人員過剰",
+            "mid": "均衡",
+            "min": "人員不足"
+          },
+          "title": "Net人員配置"
+        }
+      }
+    },
+    "shiftModal": {
+      "addTitle": "シフトの追加 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "あなたのコメント...",
+      "editTitle": "シフトの編集 - {{userName}}",
+      "end": "終了",
+      "error": {
+        "conflict": "競合が検出されました。このアクティビティが重複するアクティビティを置き換えます。",
+        "endBeforeStart": "終了日は開始日と同じかそれ以降でなければなりません。",
+        "invalidtime": "指定された時間は無効です。",
+        "shiftOverlappingTimeRange": "このシフトは取得したスケジュールの範囲外であり、既存のシフトを置き換える可能性があります。",
+        "timeRangeOutsideOfRange": "シフトは、タイムライン範囲({{start}} - {{end}})内で開始または終了する必要があります。"
+      },
+      "remaining": "{{currentLength}}文字残っています",
+      "remove": "削除",
+      "shiftType": "シフトタイプ",
+      "start": "開始"
+    },
+    "toasts": {
+      "multipleShifts": "注意！同じ日に複数のシフトがあります。",
+      "noActivityPaste": "表示範囲を超えるアクティビティは貼り付けることができません。",
+      "noAddActivity": "表示範囲を超えるシフトにアクティビティを追加することはできません。",
+      "noEdit": "表示範囲を超えるシフトまたはアクティビティは編集できません。",
+      "noRemove": "表示範囲を超えるシフトまたはアクティビティは削除できません。",
+      "noShiftCopy": "表示範囲を超えるシフトはコピーできません。",
+      "noShiftPaste": "表示範囲を超えるシフトは貼り付けることができません。",
+      "overlappingShiftsActivities": "注意！重複するシフトまたはアクティビティ、もしくはその両方があります",
+      "saveSuccessMessage": "スケジュールの変更は正常に保存されました。"
+    },
+    "today": "今日",
+    "unavailable": "利用不可",
+    "unsaved": "変更を保存せずに終了しますか？",
+    "weeklyView": "週間ビュー"
+  },
+  "successPage": {
+    "welcomeMsg": "こんにちは、{{username}}さん"
+  },
+  "teamsListPage": {
+    "ModalMessages": {
+      "transition": {
+        "areYouSureLeavePage": "続行してもよろしいですか？",
+        "title": "未保存のデータ",
+        "unsavedChanges": "ページを離れると、変更は失われます。"
+      }
+    },
+    "activateFailureMsg": "チームをアクティブ化できません",
+    "activateSuccessMsg": "チームが正常にアクティブ化されました",
+    "bulkActivationByPassMsg": "チームはすでにアクティブです",
+    "bulkActivationFailureMsg": "内部エラーのため、{0}チームをアクティブ化できません",
+    "bulkActivationSuccessMsg": "チームを正常にアクティブ化しました",
+    "bulkDeactivationByPassMsg": "チームはすでに非アクティブです",
+    "bulkDeactivationFailureMsg": "{0}チームを非アクティブ化できません",
+    "bulkDeactivationSuccessMsg": "チームを正常に非アクティブ化しました",
+    "bulkHierarchyRemovalFailureMsg": "内部エラーのため、{0}チームの階層関係を削除できません",
+    "bulkOperationBtn": {
+      "activate": "アクティブ化",
+      "deactivate": "非アクティブ化"
+    },
+    "cancel": "キャンセル",
+    "changeAuditHistoryTab": {
+      "Team": {
+        "acdInfos": "ACD情報",
+        "createdBy": "作成者",
+        "customAttributes": {
+          "inViewChatMessaging": "パフォーマンス管理チャットメッセージング",
+          "inViewCoaching": "パフォーマンス管理コーチング",
+          "inViewGamification": "パフォーマンス管理ゲーミフィケーション",
+          "inViewPerformanceMangement": "パフォーマンス管理",
+          "inViewWallboard": "パフォーマンス管理ウォールボード",
+          "maxReleasePreview": "前のMAXバージョンを使用",
+          "niceAudioRecording": "音声録音",
+          "niceQuaityManagement": "品質管理",
+          "niceQualityOptimization": "品質最適化",
+          "niceScreenRecording": "画面録画",
+          "niceWfmAdvanced": "WFMアドバンス",
+          "niceWfmEssentials": "WFMエッセンシャル",
+          "niceWfmWorloadManager": "WFMワークロードマネジャー",
+          "niceWfoAdvanced": "WFOアドバンス"
+        },
+        "description": "説明",
+        "id": "ID",
+        "isDefault": "デフォルト",
+        "lastModified": "最終変更",
+        "leadUserId": "リードユーザーID",
+        "name": "名前",
+        "status": "ステータス",
+        "divisionId": "部門ID"
+      },
+      "itemsCountLabel": "変更",
+      "noRowsOverlayText": "変更履歴データが見つかりません"
+    },
+    "createSuccessMessage": "チームが正常に作成されました。",
+    "createTeam": "新規チーム",
+    "deactivateFailureMsg": "チームを非アクティブ化できません",
+    "deactivateSuccessMsg": "チームが正常に非アクティブ化されました",
+    "features": {
+      "NICEWFO": "WFOエンタープライズ",
+      "chatMessage": " パフォーマンス管理チャットメッセージ",
+      "coaching": "パフォーマンス管理コーチング",
+      "cxoneCustomerAuthentication": "CXone顧客認証",
+      "enabledFeatures": "有効な機能",
+      "gamification": "パフォーマンス管理ゲーミフィケーション",
+      "inViewPerfManagement": "パフォーマンス管理",
+      "inViewWallboard": "パフォーマンス管理ウォールボード",
+      "maxPreview": "以前のMAXバージョン",
+      "maxReleasePreview": "前のMAXバージョンを使用",
+      "niceAudioRecording": "音声録音",
+      "niceQualityManagement": "品質管理",
+      "niceQualityOptimization": "品質最適化",
+      "niceScreenRecording": "画面録画",
+      "niceWfmAdvanced": "WFMアドバンス",
+      "niceWfmEssentials": "WFMエッセンシャル",
+      "niceWfoAdvanced": "WFOアドバンス",
+      "niceWfoEssentials": "WFOエッセンシャル",
+      "performanceOptimization": "パフォーマンス最適化"
+    },
+    "filters": {
+      "selectStatus": "ステータスを選択",
+      "status": "{{count}}件のステータス",
+      "statusLabel": "ステータス",
+      "team": "{{count}}チーム",
+      "userStatus": {
+        "active": "アクティブ",
+        "deleted": "削除済",
+        "pending": "未解決",
+        "unregistered": "未登録"
+      }
+    },
+    "generalInfo": {
+      "emptyHierarchiesMessage": "このチームはどの組織階層にも関連付けられていません。既存の組織階層にノードとして追加するか、新しい組織階層を作成してください。",
+      "heading": "チーム情報",
+      "hierarchyAssociationHeading": "階層関連付け",
+      "hierarchyName": "名前",
+      "hierarchyParent": "親",
+      "hierarchyPermission": "階層の詳細を表示する権限がありません",
+      "hierarchyType": "タイプ",
+      "mandatorySymbol": "*",
+      "noneSelected": "選択なし",
+      "primaryHierarchy": "プライマリ階層",
+      "teamDescription": "説明",
+      "teamId": "チームID",
+      "teamLead": "チームリード",
+      "teamName": "チーム名",
+      "warningModal": {
+        "warningHeader": "警告",
+        "modalBody": "チームに部門を割り当てると変更できません。",
+        "modalBodySub": "続行してもよろしいですか？",
+        "divisionLink": "部門管理ページ",
+        "cancel": "キャンセル",
+        "continue": "続行"
+      },
+      "teamDivision": "部門",
+      "teamDivisionPlaceholder": "部門を選択"
+    },
+    "goBackToHierarchy": "階層に戻る",
+    "hierarchyRemovalFailureMsg": "チームの階層関係を削除できません",
+    "itemsCount": "{{count}}の表示",
+    "newTeamPageTitle": "新規チームを作成",
+    "pageTitle": "チーム",
+    "popover": {
+      "confirmMessage": "保存せずに終了してもよろしいですか？",
+      "hierarchyRedirectionConfirmationMessage": "このページには未保存の変更がある可能性があります。階層の詳細を表示するには、次のいずれかのオプションを選択してください。",
+      "warningMessage": "すべての変更は失われます"
+    },
+    "removeSelectedUnavailableCodeMsg": "選択した利用不可コードを削除しようとしています。続行しますか？",
+    "removeSelectedUsersMsg": "選択したユーザーを削除しようとしています。続行しますか？",
+    "save": "保存",
+    "saveAndActivate": "保存＆アクティブ化",
+    "saveDuplicateTeamModal": {
+      "addHeader": "チームを複製",
+      "cancelLabel": "キャンセル",
+      "errors": {
+        "uniqueTitle": "この名前はすでに存在します。新しいものを試してください。"
+      },
+      "failureMsg": "チームの複製中にエラーが発生しました",
+      "saveLabel": "複製",
+      "subHeading": "チーム名",
+      "successMsg": "チームを正常に複製しました"
+    },
+    "selectedItems": "{{selectedCount}}件選択済",
+    "status": {
+      "active": "アクティブ",
+      "all": "すべて",
+      "inactive": "非アクティブ"
+    },
+    "tabLabels": {
+      "assignedUsers": "割り当て済ユーザー",
+      "changeAuditHistory": "変更履歴",
+      "contactSettings": "コンタクト設定",
+      "features": "機能",
+      "general": "一般",
+      "teamProperties": "チームのプロパティ",
+      "unavailableCodes": "利用不可コード",
+      "zeroRow": "合計0"
+    },
+    "teamCount": "{{count}}チーム",
+    "teamProperties": {
+      "contactHandlingTab": {
+        "assignedUsers": "割り当て済ユーザー",
+        "chats": "チャット",
+        "contactAutoFocus": "オートフォーカス",
+        "contactHandling": "コンタクト対応",
+        "contactHandlingSettings": "コンタクト対応設定",
+        "contactHandlingSubTitle": "チームデフォルト",
+        "deliveryMode": "配信モード",
+        "digital": "デジタル",
+        "emails": "Eメール",
+        "first": "最初",
+        "last": "最終",
+        "noAssignedUsers": "ユーザーはまだ割り当てられていません。",
+        "requestContact": "リクエストコンタクト",
+        "singleChannelChatLbl": "同時チャット数",
+        "singleChannelEmailLbl": "自動パーク済Eメール",
+        "sms": "SMS",
+        "teamDefault": "チームデフォルト",
+        "teamDefaultOff": "チームデフォルト(オフ)",
+        "teamDefaults": "チームデフォルト",
+        "teamDefaultsSingleChannel": "チームデフォルト(シングルチャネル対応)",
+        "totalContactCount": "合計コンタクト数",
+        "voice": "音声",
+        "workItems": "ワークアイテム"
+      }
+    },
+    "teams": "チーム",
+    "totalItemsCount": "{{count}}の合計",
+    "unavailableCodes": {
+      "buttons": {
+        "addUnavailableCode": "利用不可コードを追加",
+        "removeUnavailableCode": "利用不可コードを削除"
+      },
+      "columns": {
+        "afterContactWork": "後処理",
+        "agentTimeout": "エージェントタイムアウト(分)",
+        "name": "名前"
+      },
+      "modal": {
+        "noItemsOverlay": "割り当て可能な利用不可コードがありません",
+        "noUnavailableCodesAddedText": "利用不可コードはまだ追加されていません",
+        "noUnavailableCodesSelectedText": "利用不可コードはまだ選択されていません",
+        "title": "利用不可コードを追加"
+      },
+      "noItemsOverlay": "利用不可コードはまだ追加されていません",
+      "noItemsOverlayGrid": "このフィルターを使用して利用不可コードは見つかりませんでした",
+      "noUCSubText": "上の[利用不可コードを追加]を選択して追加します",
+      "popovers": {
+        "bulkRemoveConfirmation": "このチームから選択した利用不可コードを削除しますか？",
+        "removeConfirmation": "このチームから利用不可コードを削除しますか？"
+      },
+      "searchPlaceholder": "入力して利用不可コードを検索"
+    },
+    "untitledTeam": "無題のチーム",
+    "updateFailureMsg": "チームは保存されませんでした",
+    "userAssignmentFailureMsg": "ユーザーの割り当てに失敗しました",
+    "userConfigurationFailureMsg": "チームのユーザー設定を更新できませんでした",
+    "userCount": "",
+    "userFailureCountMsg": " ユーザーの追加に失敗しました",
+    "userLabels": {
+      "assignedUsersLabel": "割り当て済ユーザー",
+      "unassignedUsersLabel": "すべての未割り当てユーザー",
+      "userSearchPlaceholder": "入力してユーザーを検索"
+    },
+    "userSuccessCountMsg": " ユーザーが正常に追加されました",
+    "users": {
+      "buttons": {
+        "addUsers": "ユーザーを追加",
+        "removeUsers": "ユーザーを削除"
+      },
+      "columns": {
+        "email": "Eメール",
+        "name": "名前",
+        "status": "状態",
+        "team": "チーム",
+        "username": "ユーザー名"
+      },
+      "modal": {
+        "noItemsOverlay": "割り当て可能なユーザーはいません",
+        "title": "ユーザーを追加"
+      },
+      "noItemsOverlay": "ユーザーはまだ追加されていません",
+      "noItemsOverlayGrid": "このフィルターを使用してユーザーは見つかりません",
+      "noUsersSubText": "上の[ユーザーを追加]を選択して、ユーザーを追加します",
+      "popovers": {
+        "bulkMessageAddedUser": "ユーザーを削除するには、別のチームに再割り当てする必要があります。",
+        "bulkMessageNewUser": "このチームからユーザーを削除しますか？",
+        "messageAddedUser": "このユーザーを削除するには、別のチームに再割り当てする必要があります。",
+        "messageNewUser": "このチームからユーザーを削除しますか？"
+      },
+      "searchPlaceholder": "入力してユーザーを検索",
+      "userSelectionModal": {
+        "noUserAddedText": "ユーザーはまだ追加されていません",
+        "noUserSelectedText": "ユーザーはまだ選択されていません"
+      }
+    },
+    "divisions": {
+      "label": "部門",
+      "placeholder": "部門を選択"
+    },
+    "userDivisionMismatchMsg": "ユーザーは所属部門の外へ移動できません。"
+  },
+  "teamsPage": {
+    "addHeader": "新規チームを作成",
+    "cancel": "キャンセル",
+    "contactHandlingInfoTab": {
+      "header": "コンタクト対応"
+    },
+    "create": "作成",
+    "createTeam": "新規チーム",
+    "defaultTooltip": "デフォルトチーム",
+    "editTeam": "チームを編集",
+    "employeesTab": {
+      "addEmployeesBtn": "従業員を追加",
+      "assignedEmployeesTxt": "割り当て済従業員",
+      "header": "従業員",
+      "selectEmployeesTxt": "従業員を選択",
+      "selectedTxt": "選択済："
+    },
+    "failedLoadTeams": "チームを読み込めませんでした。もう一度お試しください。",
+    "failureMsg": "チームを作成できませんでした。もう一度お試しください",
+    "filters": {
+      "searchPlaceholder": "入力してチームを検索",
+      "status": "{{count}}件のステータス"
+    },
+    "gridColumnsHeaders": {
+      "actions": "アクション",
+      "assignedUsers": "割り当て済ユーザー",
+      "employees": "ユーザー",
+      "status": "ステータス",
+      "teamId": "チームID",
+      "teamName": "名前"
+    },
+    "hierarchyType": {
+      "ORGANIZATIONAL": "組織的"
+    },
+    "itemsCount": "{{count}}チーム",
+    "itemsCountAngular": "チーム",
+    "messages": {
+      "updateFailure": "チームの詳細を更新できません",
+      "updateSuccess": "チームが正常に更新されました",
+      "updateSuccessStartedMsg": "更新が正常に開始されました。プロセスが完了するまでには数分かかります",
+      "failedToUpdateTeam": "チームの部門IDが、既存のチームの部門IDと一致しません。"
+    },
+    "modalMessages": {
+      "hierarchies": {
+        "bulkMessage": "選択したチームの非アクティブ化時に、階層からチームの関連付けも削除しますか？",
+        "message": "チームは1つ以上の階層の一部です。非アクティブ化時に、階層からチームの関連付けも削除しますか？"
+      }
+    },
+    "moreMenu": {
+      "activate": "アクティブ化",
+      "clone": "複製",
+      "deactivate": "非アクティブ化"
+    },
+    "newTeamNamePlaceholder": "無題のチーム",
+    "noItemsOverlay": "チームはまだ割り当てられていません。",
+    "pageTitle": "チーム",
+    "save": "保存",
+    "searchPlaceHolder": "入力してチームを検索",
+    "selectedItems": "選択済",
+    "successMsg": "チームは正常に作成されました",
+    "teamLeadPlaceHolder": "チームリードを選択...",
+    "teamNamePlaceHolder": "無題のチーム",
+    "teamStates": {
+      "active": "アクティブ",
+      "all": "すべて",
+      "inactive": "非アクティブ"
+    },
+    "teamStrToReplace": "チーム"
+  },
+  "timePicker": {
+    "openTimePicker": "時間選択ツールを開く"
+  },
+  "userManagementPage": {
+    "actionPopover": {
+      "activateUser": "アクティブ化",
+      "deactivateUser": "非アクティブ化",
+      "inviteUser": "招待",
+      "resendInvitation": "招待を再送",
+      "resetPassword": "パスワードの再設定",
+      "unlockUser": "ユーザーをロック解除",
+      "unlockPassword": "パスワードをロック解除"
+    },
+    "activateSelectedUsersMsg": "選択した従業員はアクティブ化されます。続行しますか？",
+    "activateSingleSamlUserSuccessMsg": "従業員は正常にアクティブ化されました",
+    "activateSingleUserFailureMsg": "従業員をアクティブ化できませんでした",
+    "activateSingleUserSuccessMsg": "従業員は正常にアクティブ化されました",
+    "activateUsersFailureMsg": "内部エラーのため、従業員をアクティブ化できません",
+    "activateUsersSuccessMsg": "従業員は正常にアクティブ化されました",
+    "billable": "課金",
+    "bulkOperationsBtns": {
+      "activateBtn": "アクティブ化",
+      "deactivateBtn": "非アクティブ化",
+      "deleteBtn": "削除",
+      "inviteBtn": "招待",
+      "resetPasswordBtn": "パスワードの再設定",
+      "tooltips": {
+        "delete": "従業員を削除",
+        "invite": "従業員を招待",
+        "resetPwd": "パスワードの再設定"
+      }
+    },
+    "changeAuditHistory": {
+      "User": {
+        "acdInfos": "ACD情報",
+        "customAttributes": {
+          "agentIntegrations": "エージェント連携",
+          "canBeAnalyzed": "分析可能",
+          "canBeCoachedOrEvaluated": "指導または評価可能",
+          "canBeRecorded": "レコード可能(音声)",
+          "canBeRecordedDefault": "レコード可能",
+          "canBeRecordedScreen": "レコード可能(画面)",
+          "canBeScheduled": "スケジュール可能",
+          "canEditBIReports": "BIレポートを編集可能",
+          "canViewBIReports": "BIレポートを表示可能",
+          "customerCard": "Customer Card",
+          "digitalEngagement": "Digital Engagement",
+          "osLogin": "OSログイン",
+          "virtualAgentEnabled": "バーチャルエージェント有効",
+          "hasSmartReachUserAccess": "SmartReachユーザー",
+          "hasSmartReachAgentAccess": "SmartReachエージェント",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartReachDeskAccess": "デスク",
+          "smartReachECCAccess": "Enhanced Customer Card",
+          "dataCollectionEnabled": "データコレクションを有効化"
+        },
+        "displayName": "表示名",
+        "emailAddress": "Eメールアドレス",
+        "emailToBeVerified": "Eメール(検証待ち)",
+        "externalIdentity": "外部識別子",
+        "firstName": "名",
+        "groupIds": "割り当て先グループ",
+        "hireDate": "雇用日",
+        "lastName": "姓",
+        "middleName": "ミドルネーム",
+        "mobileNumber": "携帯電話番号",
+        "rank": "ランク",
+        "role": "プライマリ役割",
+        "roleUUID": "プライマリ役割",
+        "secondaryRoleIds": "セカンダリ役割",
+        "status": "ステータス",
+        "teamId": "割り当て先チーム",
+        "telephone1": "電話1",
+        "telephone2": "電話2",
+        "timeZone": "タイムゾーン",
+        "type": "タイプ",
+        "userName": "ユーザー名",
+        "views": "ビュー",
+        "loginAuthenticatorId": "ログイン認証コードID",
+        "source": "ソース",
+        "elevatedDivisionId": "エレベーション済部門ID"
+      },
+      "itemsCountLabel": "変更",
+      "noRowsOverlayText": "変更履歴データが見つかりません"
+    },
+    "createAndActivateSingleSamlUserSuccessMsg": "従業員が正常に作成され、アクティブ化されました",
+    "createAndInviteSingleUserSuccessMsg": "従業員が正常に作成および招待されました",
+    "deleteLoggedInUser": "自分の従業員は削除できません",
+    "deleteSelectedUsersMsg": "選択した従業員を非アクティブ化しようとしています。このアクションにより、従業員はログインできなくなり、ログインを有効にするには再アクティブ化する必要があります。続行しますか？",
+    "deleteSingleUserFailureMsg": "従業員を削除できませんでした",
+    "deleteSingleUserSuccessMsg": "従業員は正常に非アクティブ化されました。この従業員の今後のスケジュールは削除されました。",
+    "deleteSingleUsersMsg": "この従業員を非アクティブ化しようとしています。このアクションにより、従業員はログインできなくなり、ログインを有効にするには従業員を再アクティブ化する必要があります。続行しますか？",
+    "deleteUsersFailureMsg": "{{totalExpected}}人中{{numOfFailedToDeleteUsers}}人の従業員を削除できませんでした",
+    "deleteUsersSuccessMsg": "{{numOfUsers}}人の従業員が正常に非アクティブ化されました。この従業員の今後のスケジュールは削除されました。",
+    "failedLoadUsers": "ユーザーの読み込みに失敗しました。もう一度お試しください。",
+    "filters": {
+      "billable": " 課金",
+      "groups": " グループ",
+      "label": "表示",
+      "schedulingUnits": " スケジューリングユニット",
+      "searchPlaceholder": "入力してユーザーを検索",
+      "skills": " スキル",
+      "teams": " チーム",
+      "type": " タイプ",
+      "division": " 部門"
+    },
+    "gridColumnsHeaders": {
+      "acdLogin": "ACDログイン",
+      "billable": "課金",
+      "email": "Eメール",
+      "group": "スケジューリングユニット",
+      "name": "名前",
+      "role": "役割",
+      "state": "状態",
+      "type": "タイプ",
+      "userName": "ユーザー名",
+      "virtualAgentEnabled": "バーチャルエージェント"
+    },
+    "importUsersBtn": "従業員をインポート",
+    "inviteSelectedUsersMsg": "選択した従業員はこのアプリケーションに招待されます。続行しますか？",
+    "inviteSingleUserFailureMsg": "従業員を招待できませんでした",
+    "inviteSingleUserSuccessMsg": "従業員は正常に招待されました",
+    "inviteUsersFailureMsg": "従業員の招待に失敗しました",
+    "inviteUsersSuccessMsg": "従業員が正常に招待されました",
+    "inviteUsersWarnMsg": "従業員はすでにアクティブでした",
+    "item": "従業員",
+    "items": "従業員",
+    "modalMessages": {
+      "resetPassword": {
+        "confirmButtonText": "パスワードの再設定",
+        "message": "これにより、ユーザーはサインイン時に強制的にパスワードを更新することになります。このユーザーのパスワードを再設定してもよろしいですか？",
+        "title": "パスワードを再設定しますか？"
+      }
+    },
+    "newUserBtn": "新入社員",
+    "non-billable": "非課金",
+    "pageTitle": "従業員",
+    "popover": {
+      "acdLoginLbl": "ACDログイン",
+      "hireDateLbl": "雇用日：{{value}}",
+      "rankLbl": "ランク：{{value}}",
+      "roleInfo": "自分の役割は変更できません。",
+      "skillsLbl": "スキル：{{value}}",
+      "visibility": "この情報を表示する\n権限がありません",
+      "visibilityInfo": "自分のビジビリティは変更できません。",
+      "visibilityRoleInfo": "この情報を表示する権限がありません。自分の役割は変更できません。"
+    },
+    "preferencesTab": {
+      "PossibleDaysOff": "可能な休日",
+      "TimePreferencesSubTitle": "休日はありません",
+      "TimePreferencesTitle": "休暇の設定",
+      "day": "日",
+      "noOptionsAvailable": "この従業員は柔軟性のないルールに割り当てられているため、シフトは固定され、優遇措置はありません",
+      "noOptionsAvailableForShift": "シフトが割り当てられていません。",
+      "shiftPreferencesTitle": "シフトの設定",
+      "shiftTime": "シフトタイム"
+    },
+    "reactivateUser": "ユーザーが正常にアクティブ化されました",
+    "reinviteBtnText": "再送",
+    "reinviteUsersMsg": "招待の期限が切れました。Eメールアドレスを確認して、もう一度お試しください。",
+    "resetPasswordSelectedUsersMsg": "これにより、選択したユーザーはサインイン時に強制的にパスワードを更新することになります。続行しますか？",
+    "resetUsersPasswordFailureMsg": "パスワードの再設定に失敗しました",
+    "resetUsersPasswordSuccessMsg": "パスワードの再設定に成功しました。",
+    "selectedItems": "{{selectedCount}}件選択済",
+    "status": {
+      "invite": "招待"
+    },
+    "tabLabels": {
+      "accessKeys": "アクセスキー",
+      "acd": "ACD",
+      "availability": "アベイラビリティ",
+      "changeAuditHistory": "変更履歴",
+      "contactHandling": "コンタクト設定",
+      "general": "一般",
+      "preferences": "環境設定",
+      "recordingAccounts": "レコーディングアカウント",
+      "secondaryRoles": "セカンダリ役割",
+      "security": "セキュリティ",
+      "skills": "WEMスキル",
+      "visibility": "ビジビリティ",
+      "bcp": "BCP"
+    },
+    "unlockUser": {
+      "lockSubtitle": "(アカウントロック済)",
+      "messages": {
+        "unlockFailure": "従業員のロックを解除できません。",
+        "unlockSuccess": "従業員は正常にロック解除されました。"
+      },
+      "popover": {
+        "confirmMessage": "このユーザーのロックを解除しますか？",
+        "warningMessage": "ログインの失敗回数が多すぎたため、このアカウントはロックされています。"
+      }
+    },
+    "userListHeader": "{{orgName}}の従業員：",
+    "userRoles": {
+      "agent": "エージェント"
+    },
+    "userStates": {
+      "active": "アクティブ",
+      "all": "すべて",
+      "deleted": "非アクティブ",
+      "inviting": "送信中",
+      "locked": "ロック解除",
+      "pending": "未解決",
+      "samlUnregistered": "アクティブ化",
+      "unregistered": "招待",
+      "lockedUser": "ロックされたユーザー",
+      "passwordLocked": "ロックされたパスワード"
+    },
+    "virtualAgentDisabled": "False",
+    "virtualAgentEnabled": "True",
+    "unlockInactiveUser": {
+      "toasterMessages": {
+        "UnlockedSuccess": " がロック解除されました",
+        "UnlockFailed": " ロック解除に失敗しました",
+        "PasswordUnlockFailed": "ユーザーのパスワードロック解除に失敗しました",
+        "PasswordForUser": "ユーザーのパスワード",
+        "failedLoadEmployee": "従業員の読み込みに失敗しました"
+      }
+    },
+    "userNotInSameDivisionMsg": {
+      "errorDescription": "ユーザーはログインユーザーと同じ部門に属していません。",
+      "failureMsg": "親部門に属するユーザーのパスワードはリセットできません。"
+    }
+  },
+  "userPage": {
+    "createUserPage": {
+      "breadcrumb": "従業員",
+      "cancel": "キャンセル",
+      "create": "作成",
+      "createAndActivate": "作成＆アクティブ化",
+      "createAndInvite": "作成＆招待",
+      "createUserPageTitle": "新規従業員を作成",
+      "formLabels": {
+        "acdLoginId": "ACDログインID",
+        "acdLoginIdInUse": "ACDログインID「{{value}}」はこのページですでに使用されています。",
+        "acdLoginIdValidationError": "項目「{{value}}」は有効な入力ではありません。",
+        "assignToGroup": "スケジューリングユニットに割り当てられています",
+        "assignToGroupPlaceHolder": "割り当てられたスケジューリングユニットはありません",
+        "assignToGroups": "グループに割り当てられています",
+        "assignToSkills": "スキルに割り当てられています",
+        "assignToTeams": "チームに割り当てられています",
+        "country": "国",
+        "countryPlaceholder": "国を選択",
+        "customAttributes": {
+          "agentIntegrations": "エージェント連携",
+          "canBeAnalyzed": "分析可能",
+          "canBeEvaluatedLabel": "評価/指導可能",
+          "canBeMeasured": "測定可能",
+          "canBeRecorded": "レコード可能(音声)",
+          "canBeRecordedDefault": "レコード可能",
+          "canBeRecordedScreen": "レコード可能(画面)",
+          "canBeScheduled": "スケジュール可能",
+          "canEditBIReports": "BIレポートを編集可能",
+          "canViewBIReports": "BIレポートを表示可能",
+          "customerCard": "Customer Card",
+          "digitalEngagement": "Digital Engagement",
+          "heading": "属性",
+          "nonBillableUser": "非課金ユーザー",
+          "virtualAgentEnabled": "バーチャルエージェント有効",
+          "smartreachheading": "スマートリーチ属性",
+          "smartreach": "SmartReach",
+          "smartreachuser": "SmartReachユーザー",
+          "smartreachagent": "SmartReachエージェント",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartreachdesk": "デスク",
+          "smartreachecc": "Enhanced Customer Card",
+          "dataCollectionEnabled": "データコレクションを有効化"
+        },
+        "defaultTag": "(デフォルト)",
+        "displayName": "表示名",
+        "emailAddress": "Eメールアドレス",
+        "firstName": "名",
+        "groupsDropDown": " グループ",
+        "hireDate": "雇用日",
+        "lastName": "姓",
+        "mandatorySymbol": "*",
+        "maxLimitOfACD": "{{items}}項目を超える入力はできません",
+        "middleName": "ミドルネーム",
+        "mobileNumber": "携帯電話番号",
+        "osLogin": "OSログイン",
+        "primaryRole": "プライマリ役割",
+        "rank": "ランク",
+        "rankInterval": "1-999",
+        "teamPlaceholder": "チームを選択",
+        "telephone1": "電話1",
+        "telephone2": "電話2",
+        "timeZone": "タイムゾーン",
+        "timeZonePlaceholder": "タイムゾーンを選択",
+        "type": "タイプ",
+        "typePlaceholder": "タイプを選択または作成",
+        "username": "ユーザー名",
+        "location": {
+          "locationsDropdown": "場所",
+          "placeholder": "場所を選択",
+          "errorMessages": {
+            "failedLoadLocations": "場所の定義の読み込みに失敗しました。もう一度お試しください。"
+          }
+        },
+        "userSourceDropdownLabel": "ソース",
+        "division": {
+          "division": "部門",
+          "placeholder": "部門を選択",
+          "errorMessages": {
+            "failedLoadDivisions": "部門の読み込みに失敗しました。もう一度お試しください。"
+          },
+          "warningModal": {
+            "warningHeader": "警告",
+            "modalBody": "この操作によりユーザーの部門が変更され、表示範囲に影響する可能性があります。",
+            "modalBodySub": "続行してもよろしいですか？"
+          }
+        }
+      },
+      "getAllTeamsError": "チームの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+      "getEmployeeGroupsError": "従業員グループの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+      "getGroupsError": "グループの取得中にエラーが発生しました。しばらくしてからもう一度お試しください。",
+      "popover": {
+        "confirmMessage": "保存せずに終了してもよろしいですか？",
+        "createConfirmMessage": "続行しますか？",
+        "createInviteWarningMessage": "ユーザーにログイン認証コードが割り当てられていないか、ログイン認証コードが非アクティブなため、ユーザーはログインできません。",
+        "saveConfirmMessage": "続行しますか？",
+        "saveWarningMessage": "ユーザーにログイン認証コードが割り当てられていないか、ログイン認証コードが非アクティブなため、ユーザーはログインできません。",
+        "warningMessage": "すべての変更は失われます"
+      },
+      "save": "保存",
+      "teamErrorMsg": "[チーム]は必須です。",
+      "populateFromTemplateModal": {
+        "title": "テンプレートから入力",
+        "description": "従業員テンプレート",
+        "cancel": "キャンセル",
+        "header": "テンプレートから従業員レコードを入力",
+        "populate": "入力",
+        "populateTemplate": "テンプレートを入力",
+        "message": "現在の従業員レコードを上書きするテンプレートをリストから選択します。このアクションによる変更を反映するには、変更内容を保存する必要があります。",
+        "placeholder": "テンプレートを選択",
+        "createNewTemplate": "新規テンプレートを作成",
+        "error": "テンプレートを入力できません。",
+        "success": "従業員レコードは正常に入力されました。",
+        "errorSecondaryRole": "セカンダリ役割が利用可能なオプションに見つかりませんでした。テンプレートのセカンダリ役割が現在プライマリ役割として選択されている場合にこの問題が発生する可能性があります。",
+        "errorWemSkill": "スキルが見つからないか、権限が不足しています。",
+        "errorOmnichannelSkill": "テンプレート内の一部のオムニチャネルスキルが無効または利用できません。"
+      },
+      "createTypeModal": {
+        "header": "タイプを作成",
+        "nameLabel": "名前",
+        "placeholder": "新しいタイプを入力",
+        "confirm": "確認",
+        "cancel": "キャンセル"
+      },
+      "bcpLoadError": "BCPデータの取得中にエラーが発生しました。しばらくしてから、もう一度試してください。"
+    },
+    "importUsersBtn": "従業員をインポート",
+    "importUsersModal": {
+      "browsFileText": "ファイルを参照",
+      "downloadLink": "ここからダウンロードできます。",
+      "downloadMessage1": "CSVファイルのテンプレートを",
+      "downloadMessage2": "",
+      "downloadTemplates": "テンプレートをダウンロード",
+      "dragAndFropText": "ドラッグ＆ドロップしてアップロードするか、または",
+      "errorMsg": "従業員のインポートに失敗しました。",
+      "header": "従業員をインポート",
+      "importErrorsList": {
+        "cannotChangeOwnRole": "自分の役割は変更できません。",
+        "header": "インポートエラー",
+        "invalidUser": "システムに役割が存在しません",
+        "invalidUserRole": "役割と従業員の状態が一致しません",
+        "invalidUserStatus": "現役の従業員のEメールアドレスは変更できません。",
+        "userAlreadyExists": "従業員の作成に失敗しました。同じユーザー名の従業員がすでに存在しています。",
+        "userCreateFailed": "従業員の作成に失敗しました。入力を確認してください。"
+      },
+      "selectFileMessage": "",
+      "successMsg": "従業員を正常にインポートしました。",
+      "weSupportMessage": "CSVファイルをアップロードして従業員をインポートします。"
+    },
+    "itemsCountAngular": "従業員",
+    "newUserBtn": "従業員作成",
+    "noItemsOverlay": "ユーザーはまだ追加されていません",
+    "noItemsOverlayGrid": "このフィルターを使用してユーザーは見つかりません",
+    "noUsersSubText": "上の[ユーザーを追加]を選択して、ユーザーを追加します",
+    "pageTitle": "従業員",
+    "searchPlaceholder": "入力してユーザーを検索",
+    "selectedItems": "選択済"
+  },
+  "weekDays": {
+    "friday": "金曜日",
+    "monday": "月曜日",
+    "saturday": "土曜日",
+    "sunday": "日曜日",
+    "thursday": "木曜日",
+    "tuesday": "火曜日",
+    "wednesday": "水曜日"
+  },
+  "weekShortDays": {
+    "FRI": "金曜",
+    "MON": "月曜",
+    "SAT": "土曜",
+    "SUN": "日曜",
+    "THU": "木曜",
+    "TUE": "火曜",
+    "WED": "水曜"
+  },
+  "weekdayTimeBlocksDirective": {
+    "allDay": "終日",
+    "closed": "営業時間外",
+    "removeAllTimeBlocksTooltip": "すべて削除"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "翌日",
+    "openCalendar": "カレンダーを開く",
+    "openTimeChooser": "タイムピッカーを開く",
+    "previousDay": "前日",
+    "today": "今日"
+  }
+}

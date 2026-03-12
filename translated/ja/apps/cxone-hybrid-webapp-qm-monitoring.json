@@ -1,0 +1,946 @@
+{
+  "calibration": {
+    "NA": "該当なし",
+    "calibration": "調整",
+    "calibrationScore": "調整スコア",
+    "calibrationSearchPlaceholder": "調整を検索",
+    "calibrationsCount": "{{count}}件の調整",
+    "createCalibration": "新規調整",
+    "days": "日",
+    "errors": {
+      "calibrationScoreError": "質問の読み込みに失敗しました。もう一度お試しください。",
+      "calibrationsError": "調整の読み込みに失敗しました。もう一度お試しください。",
+      "deleteCalibrationError": "調整の削除に失敗しました。もう一度お試しください。",
+      "overviewAPIFailure": "調整概要データの取得エラー",
+      "participantQuestionAPIFailure": "調整参加者と質問グリッドデータの取得に失敗しました",
+      "questionDrilldownAPIFailure": "調整質問ドリルダウンデータの取得エラー"
+    },
+    "gridColumnsHeaders": {
+      "actions": "アクション",
+      "agentName": "エージェント名",
+      "calibrationForm": "調整フォーム",
+      "calibrationName": "調整名",
+      "calibrationScore": "調整スコア",
+      "completionRate": "完了率",
+      "initiatedBy": "開始者",
+      "modal": {
+        "calibrations": "平均スコア",
+        "maxScore": "最大スコア",
+        "originalScore": "元のスコア",
+        "questions": "質問",
+        "variance": "差異(%)"
+      },
+      "originalScore": "元のスコア",
+      "remainingDays": "残り日数"
+    },
+    "noItemsOverlay": "調整はまだ受けていません",
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "この調整は削除できません。調整は現在アクティブです。",
+      "deleteCalibration": "選択した調整を削除しますか？このアクションは元に戻せません。",
+      "deleteOthersCalibration": "この調整を削除できませんでした。調整は別のユーザーによって作成されました。"
+    },
+    "success": {
+      "deleteCalibration": "調整が正常に削除されました。"
+    },
+    "calibrationOverviewCards": {
+      "typeOfCalibration": "調整のタイプ",
+      "dueDate": "締切日",
+      "interactionDate": "インタラクション日",
+      "initiatedBy": "開始者",
+      "evaluationForm": "評価フォーム",
+      "calibrationScore": "調整スコア",
+      "originalScore": "元のスコア",
+      "minScore": "最小スコア：",
+      "maxScore": "最大スコア：",
+      "daysRemaining": "残り日数：",
+      "completion": "完了：",
+      "calibrationType": "調整タイプ",
+      "initiatedDate": "開始日",
+      "daysLeft": "残り日数："
+    },
+    "calibrationDetailsGridColumns": {
+      "questions": "質問",
+      "variance": "差異",
+      "avgScore": "平均スコア"
+    },
+    "placeHolders": {
+      "selectEvaluators": "評価者を選択",
+      "selectParticipants": "参加者を選択",
+      "selectQuestions": "質問を選択"
+    },
+    "labels": {
+      "evaluators": "評価者",
+      "participants": "参加者",
+      "answer": "回答",
+      "questionType": "質問タイプ",
+      "allQuestions": "すべての質問",
+      "originalAnswer": "元の回答",
+      "calibrationDetails": "調整の詳細"
+    },
+    "tooltip": {
+      "variance": "差異：",
+      "evaluationScore": "評価スコア：",
+      "participantNotCompletedCalibration": "参加者はまだ調整を完了していません。"
+    },
+    "radioLabels": {
+      "completed": "完了",
+      "notCompleted": "未完了",
+      "all": "すべて",
+      "evaluatorType": "評価者タイプ"
+    },
+    "calibrationQuestionOverviewCards": {
+      "originalScore": "元のスコア",
+      "variance": "差異",
+      "avgScore": "平均スコア",
+      "maxScore": "最大スコア",
+      "minScore": "最小スコア"
+    },
+    "calibrationQuestionDrilldownGridColumns": {
+      "evaluatorName": "評価者名",
+      "variance": "差異",
+      "score": "スコア",
+      "participantName": "参加者名"
+    }
+  },
+  "channels": {
+    "chat-icon": "インタラクションタイプ：チャット",
+    "email-icon": "インタラクションタイプ：Eメール",
+    "recording-icon": "インタラクションタイプ：レコーディング",
+    "sms-icon": "インタラクションタイプ：SMS",
+    "voice-icon": "インタラクションタイプ：音声",
+    "whatsapp-icon": "インタラクションタイプ：WhatsApp"
+  },
+  "commonButtons": {
+    "activate": "アクティブ化",
+    "add": "追加",
+    "cancel": "キャンセル",
+    "chooseFile": "ファイルを選択",
+    "clearAll": "すべてクリア",
+    "close": "閉じる",
+    "create": "作成",
+    "day": "日",
+    "delete": "削除",
+    "done": "完了",
+    "download": "ダウンロード",
+    "edit": "編集",
+    "generate": "作成",
+    "invite": "招待",
+    "no": "いいえ",
+    "ok": "OK",
+    "publish": "公開",
+    "reset": "リセット",
+    "save": "保存",
+    "saveAndActivate": "保存＆アクティブ化",
+    "saveAsDraft": "ドラフトとして保存",
+    "selectAll": "すべて選択",
+    "set": "設定",
+    "showAll": "すべて表示",
+    "today": "今日",
+    "update": "更新",
+    "upload": "アップロード",
+    "week": "週",
+    "yes": "はい"
+  },
+  "errors": {
+    "GeneralError": {
+      "code": "General Error",
+      "message": "一般エラー"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "一般エラー：{{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "パラメーターが無効です"
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "ログインに失敗"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "不正な従業員"
+    },
+    "wrongCredentials": "間違ったEメールアドレスまたはパスワードを入力しました"
+  },
+  "filter": {
+    "clear": "クリア",
+    "clearall": "すべてクリア",
+    "close": "閉じる"
+  },
+  "filterDropDown": {
+    "completed": "完了",
+    "notCompleted": "未完了"
+  },
+  "formExecutorPage": {
+    "Acknowledge": "評価認識済",
+    "CompleteNoReview": "評価提出済",
+    "Dispute": "リクエストレビューのため評価者に送信",
+    "EVALUATION": {
+      "close": "閉じる",
+      "retrieveFormErrorMsg": "フォームの取得に失敗しました"
+    },
+    "InProgress": "評価はドラフトとして正常に保存されました。",
+    "InReview": "評価はドラフトとして正常に保存されました。",
+    "RequestReview": "リクエストレビュー完了",
+    "RequestReviewModalHeader": "リクエストレビュー",
+    "Self-Assessment-Completed": "自己評価が正常に完了しました。",
+    "Self-Assessment-InProgress": "自己評価がドラフトとして正常に保存されました。",
+    "Submit": "エージェントに送信された評価",
+    "SubmitNoAck": "評価提出済",
+    "acknowledgeErrorMsg": "認識に失敗しました",
+    "acknowledgeMsg": "認識済",
+    "agentTitle": "エージェント",
+    "cancel": "キャンセル",
+    "changeForm": "フォームを変更",
+    "criticalQuestionIndicationMessage": "第{{criticalFailureQuestions}}問は不正解です。これは重要な質問であり、スコアが0にリセットされました。",
+    "criticalQuestionsIndicationMessage": "第{{criticalFailureQuestions}}問は不正解です。これは重要な質問であり、スコアが0にリセットされました。",
+    "errorLoadingAnswers": "フォームの回答を読み込めませんでした。フォームをもう一度開いてみてください",
+    "evaluatorTitle": "評価者",
+    "executionErrorMsg": "送信に失敗しました",
+    "executionRetrieveErrorMsg": "実行ID：{{executor}}のデータの取得に失敗しました。",
+    "footerButtons": {
+      "Acknowledge": "認識",
+      "Coaching-Completed": "送信",
+      "Coaching-InProgress": "保存",
+      "CompleteNoReview": "送信",
+      "Dispute": "リクエストレビュー",
+      "InProgress": "ドラフトとして保存",
+      "InReview": "ドラフトとして保存",
+      "RequestReview": "エージェントに送信",
+      "Self-Assessment-Completed": "送信",
+      "Self-Assessment-InProgress": "保存",
+      "Submit": "エージェントに送信",
+      "SubmitNoAck": "送信"
+    },
+    "formDataAttributeQuestion": {
+      "agentRequest": "エージェントリクエストの理由：",
+      "evaluatorReview": "評価者レビューサマリー："
+    },
+    "generalErrorMsg": "このアクションを完了できませんでした。エラーが発生しました。",
+    "mismatchedAnswersMessage": "不一致の回答",
+    "noWorkflowAssociatedMsg": "ワークフローが関連付けられていません。ワークフローを関連付けてください。",
+    "pageTitle": "フォームデータ",
+    "roleNotSupportedMsg": "対応していない役割：{{role}}。",
+    "scoreLabel": "スコア：",
+    "sentToAgentMsg": "エージェントに送信",
+    "submitBtn": "送信"
+  },
+  "generalErrorMessages": {
+    "activitiesOverlap": "アクティビティは重複できません",
+    "email": "入力したEメールアドレスは無効です",
+    "emailExists": "Eメールアドレスはすでに存在します。新しいものを試してください",
+    "generalError": "一般エラー",
+    "loading": "読み込み中",
+    "lowerThen": "最小値が最大値を超えることはできません",
+    "match": "このパスワードは以前のパスワードと一致しません",
+    "max": "数が大きすぎます",
+    "maxLength": "エントリーが長すぎます",
+    "maxLengthPassword": "パスワードが長すぎます",
+    "min": "数が小さすぎます",
+    "minLength": "エントリーが短すぎます",
+    "minLengthPassword": "パスワードは8文字以上である必要があります",
+    "missingPermissionError": "このアクションを実行するための適切な権限がありません。",
+    "nameFieldValidation": "申し訳ありませんが、\\ / ! + < > ? # & , % \"は使用できません",
+    "no-data": "データなし",
+    "noAddedShiftPatters": "少なくとも1つの日次ルールを選択する必要があります",
+    "number": "数字のみです",
+    "password": "パスワードは、数字1文字以上と大文字1文字以上を含む8文字以上でなければなりません。",
+    "pattern": "このフィールドの形式が正しくありません",
+    "possibleDaysLowerThanMinDays": "可能な日数が週間ルールで要求される最小日数を満たしていません。",
+    "relativeStartLowerThanSlack": "スラックを相対開始の値より大きくすることはできません",
+    "required": "このフィールドは必須です。",
+    "serverError": "不明なサーバーエラー",
+    "shiftLengthLowerThanActivityLength": "アクティビティの長さと相対開始の合計がシフトの長さを超えることはできません",
+    "shiftLengthLowerThanTotalActivityLength": "アクティビティの長さの合計がシフトの長さを超えることはできません",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最小日数が一意の日の合計数を超えています。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "週間ルールの最小日数が一意の日数を超えています。",
+    "uniqueString": "この名前はすでに存在します。新しいものを試してください。",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "1日の最小組み合わせ時間の合計が1週間の最大合計時間を超えることはできません",
+    "weeklyMaxLowerThanSumDailyMin": "日次ルールで要求される最小日数が週間ルールの最大日数を超えています。",
+    "weeklyMinGreaterThanSumDailyMax": "週間ルールの最小日数が日次ルールで要求される最大日数を超えています。",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "1日の最大組み合わせ時間の合計が1週間の最小合計時間を下回ることはできません"
+  },
+  "globalNavigation": {
+    "sideBar": {
+      "formManagerAppLinks": {
+        "formDesigner": "フォームデザイナー",
+        "manageForms": "フォームマネジャー",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "テンプレートマネジャー"
+      },
+      "formManagerAppName": "QMツール",
+      "mySpaceAppLinks": {
+        "calibration": "調整",
+        "myDashboard": "自分のダッシュボード",
+        "myEvaluations": "自分の評価",
+        "mySchedule": "自分のスケジュール",
+        "myTasks": "自分のタスク",
+        "performanceMonitoring": "パフォーマンスモニタリング",
+        "plansMonitoring": "プランモニタリング",
+        "qualityPerformance": "品質パフォーマンス"
+      },
+      "mySpaceAppName": "自分のスペース",
+      "schedulerAppLinks": {
+        "acdActivitiesMapping": "ACDマッピング",
+        "activityCodes": "アクティビティコード",
+        "dailyRule": "日次ルール",
+        "forecastData": "フォーキャストデータのインポート",
+        "generateSchedule": "スケジュールの生成",
+        "managementUnits": "スケジューリングユニット",
+        "realTimeAdherence": "リアルタイム遵守",
+        "scheduler": "スケジュール管理",
+        "weeklyRules": "週間ルール"
+      },
+      "schedulerAppName": "スケジューラ",
+      "setupAppLinks": {
+        "groups": "グループ",
+        "skills": "スキル",
+        "users": "従業員"
+      },
+      "setupAppName": "管理"
+    },
+    "wfmHeader": {
+      "accountSetupOption": "アカウント設定",
+      "changePasswordOption": "パスワードを変更",
+      "contactUs": "連絡先",
+      "help": "ヘルプ",
+      "logoutOption": "ログアウト",
+      "myProfileOption": "My Profile",
+      "selfService": "サポート - ダウンロード",
+      "wfmText": "Evolve WFM"
+    }
+  },
+  "languages": {
+    "chinese": "中国語",
+    "english": "英語",
+    "russian": "ロシア語",
+    "spanish": "スペイン語"
+  },
+  "messages": {
+    "noResultsText": "結果は見つかりませんでした"
+  },
+  "metaInfo": {
+    "calibrations": {
+      "description": "調整",
+      "title": "調整"
+    },
+    "description": "NICE SaaS WFM",
+    "evaluatorAssignments": {
+      "description": "NICE SaaS WFM",
+      "title": "評価者の割り当て"
+    },
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "formExecutor": {
+      "description": "NICE SaaS WFM",
+      "title": "フォーム実施者"
+    },
+    "interactionPlayer": {
+      "description": "インタラクションプレイヤー",
+      "title": "インタラクションプレイヤー"
+    },
+    "performanceDetails": {
+      "description": "パフォーマンスモニタリング詳細",
+      "title": "パフォーマンスモニタリング詳細"
+    },
+    "performanceMonitoring": {
+      "description": "NICE SaaS WFM",
+      "title": "パフォーマンスモニタリング"
+    },
+    "planDetails": {
+      "description": "プランモニタリング詳細",
+      "title": "プランモニタリング詳細"
+    },
+    "plansMonitoring": {
+      "description": "NICE SaaS WFM",
+      "title": "プランモニタリング"
+    },
+    "qualityPerformance": {
+      "description": "NICE SaaS WFM",
+      "title": "品質パフォーマンス"
+    },
+    "selfAssessments": {
+      "description": "自己評価",
+      "title": "自己評価"
+    },
+    "success": {
+      "description": "NICE SaaS WFM",
+      "title": "成功"
+    },
+    "supervisorPerformanceDetails": {
+      "description": "パフォーマンスモニタリング詳細",
+      "title": "パフォーマンスモニタリング詳細"
+    },
+    "supervisorPerformanceMonitoring": {
+      "description": "NICE SaaS WFM",
+      "title": "パフォーマンスモニタリング"
+    },
+    "supervisorQualityPerformance": {
+      "description": "NICE SaaS WFM",
+      "title": "品質パフォーマンス"
+    },
+    "title": "NICE SaaS WFM",
+    "calibrationDetails": {
+      "title": "調整の詳細",
+      "description": "調整の詳細"
+    }
+  },
+  "ng2Calibration": {
+    "NA": "該当なし",
+    "calibration": "調整",
+    "calibrationCount": "調整",
+    "calibrationScore": "調整スコア",
+    "calibrationSearchPlaceholder": "調整を検索",
+    "calibrationsCount": "調整",
+    "createCalibration": "新規調整",
+    "days": "日",
+    "errors": {
+      "calibrationScoreError": "質問の読み込みに失敗しました。もう一度お試しください。",
+      "calibrationsError": "調整の読み込みに失敗しました。もう一度お試しください。",
+      "deleteCalibrationError": "調整の削除に失敗しました。もう一度お試しください。"
+    },
+    "gridColumnsHeaders": {
+      "actions": "アクション",
+      "agentName": "エージェント名",
+      "calibrationForm": "調整フォーム",
+      "calibrationName": "調整名",
+      "calibrationScore": "調整スコア",
+      "completionRate": "完了率",
+      "initiatedBy": "開始者",
+      "modal": {
+        "calibrations": "平均スコア",
+        "maxScore": "最大スコア",
+        "originalScore": "元のスコア",
+        "questions": "質問",
+        "variance": "差異(%)"
+      },
+      "originalScore": "元のスコア",
+      "remainingDays": "残り日数",
+      "calibrationSubject": "調整対象"
+    },
+    "noItemsOverlay": "調整はまだ受けていません",
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "この調整は削除できません。調整は現在アクティブです。",
+      "deleteCalibration": "選択した調整を削除しますか？このアクションは元に戻せません。",
+      "deleteOthersCalibration": "この調整を削除できませんでした。調整は別のユーザーによって作成されました。"
+    },
+    "success": {
+      "deleteCalibration": "調整が正常に削除されました。"
+    },
+    "forTicket": "チケット単位",
+    "forInteraction": "インタラクション用"
+  },
+  "ng2PerformanceMonitoring": {
+    "N/A": "該当なし",
+    "NA": "該当なし",
+    "NoGroupSelected": "グループはまだ選択されていません",
+    "NoTeamSelected": "フィルターをまだ選択していません",
+    "agentTitle": "エージェント",
+    "averageScore": "平均スコア",
+    "averageScoreNullTooltipText": "スコアリングがフォームで有効になっていない、または（OR）可能ポイントと獲得ポイントが履歴データ用にで利用できません。",
+    "calibrationEvaluation": "調整",
+    "challengedEvaluationMessageModal": {
+      "message": "この評価は異議を唱えられ、再評価されています。完了すると利用できるようになります。",
+      "message1": "この評価は異議が唱えられ、再評価されています。",
+      "message1_new": "この評価にはアピールがあり、再評価されています。",
+      "message2": "完了すると利用できるようになります。",
+      "title": "評価フォーム利用不可"
+    },
+    "changeInPoints": "ポイントの変更",
+    "collaborativeEvaluation": "共同",
+    "dateOfInteraction": "インタラクション日",
+    "deleteReasonModal": {
+      "WarningText": "この評価を削除すると、平均評価スコアが変更されます。",
+      "cancelMessage1": "すべての変更は失われます。",
+      "cancelMessage2": "続行しますか？",
+      "charactersRemainingText": "{{count}}文字残っています",
+      "confirmMessage1": "この評価を削除すると、平均評価スコアが変わる可能性があります。",
+      "confirmMessage2": "続行しますか？",
+      "deleteButton": "削除",
+      "deleteEvaluationTaskHeader": "評価を削除",
+      "reasonLabel": "理由",
+      "requiredField": "このフィールドは必須です。",
+      "textareaPlaceholder": "入力してください..."
+    },
+    "diffFromPreviousTime": "前回からの差分",
+    "duration": "長さ",
+    "employee": "従業員",
+    "employeeEvaluation": {
+      "create": "新規評価",
+      "header": "新規評価を実行",
+      "submitBtn": "評価"
+    },
+    "errorFetchingGroupData": "データの読み込みに失敗しました",
+    "errorFetchingPerformanceDetailsData": "データの読み込みに失敗しました",
+    "evaluatedBy": "評価者",
+    "evaluatedOn": "評価日",
+    "evaluation": "評価",
+    "evaluationDeleted": "評価は正常に削除されました。",
+    "evaluationDeletionError": "評価を削除できませんでした。",
+    "evaluationReport": {
+      "agent": "エージェント",
+      "calibration": "調整",
+      "create": "レポートの生成",
+      "downloadError": "レポートをダウンロードできませんでした。後でもう一度お試しください。",
+      "downloadInProgress": "レポートをダウンロードしています。",
+      "downloadSuccess": "レポートは正常にダウンロードされました。",
+      "evaluation": "評価",
+      "form": "フォーム",
+      "formVersion": "フォームバージョン",
+      "from": "開始",
+      "generate": "作成",
+      "generateEvaluationReport": "評価レポートの生成",
+      "generateReportFailed": "評価レポートの生成に失敗しました",
+      "generateReportSuccess": "評価レポートが正常に生成されました",
+      "placeholder": {
+        "agent": "エージェントを選択",
+        "form": "フォームを選択",
+        "formVersion": "フォームバージョンを選択"
+      },
+      "selfAssessment": "自己評価",
+      "to": "終了",
+      "type": "タイプ"
+    },
+    "evaluationSubject": "評価件名",
+    "evaluationSummary": {
+      "cardSummaryUnavailableSubText": "評価サマリーの詳細をご確認ください",
+      "cardSummaryUnavailableText": "評価サマリーは作成済みで、確認を待っています",
+      "genAISummaryButton": "サマリー詳細",
+      "genAISummaryTooltipText": "評価サマリー",
+      "generateSummaryButton": "サマリーを作成",
+      "generateSummaryText": "サマリーを作成しますか？",
+      "generatingSummaryText": "サマリーを作成しています",
+      "summaryGenerationFailureErrorMessage": "評価サマリーの取得/保存に失敗しました",
+      "summaryUnavailableText": "サマリーは利用できません",
+      "troubleInSummaryGenerationText": "サマリーを作成できませんでした",
+      "tryAgainButton": "もう一度試す"
+    },
+    "evaluation_Type": "評価タイプ",
+    "evaluations": "評価",
+    "evaluatorTitle": "評価者",
+    "findEmployeePlaceHolder": "入力して従業員を検索",
+    "formName": "フォーム名",
+    "formVersion": "フォームバージョン",
+    "fromDate": "開始",
+    "fromDateHeader": "開始日",
+    "group": "グループ",
+    "groupName": "グループ名",
+    "groups": "グループ",
+    "loadPerformanceData": "パフォーマンスデータの読み込み",
+    "noAgents": "一致するものが見つかりません",
+    "noAgentsInGroup": "選択したグループにエージェントがありません",
+    "noEvaluationsFound": "これらのチーム/グループには評価がありません",
+    "noItemsOverlay": "評価はまだ完了していません",
+    "noOfEvaluations": "評価数",
+    "performanceMonitoring": "パフォーマンスモニタリング",
+    "planName": "プラン名",
+    "qualityPerformance": "品質パフォーマンス",
+    "score": "スコア",
+    "segment": "セグメント",
+    "selectGroup": "グループを選択",
+    "selectTimePeriod": "期間を選択",
+    "standardEvaluation": "標準",
+    "status": "ステータス",
+    "team": "チーム",
+    "teamName": "チーム",
+    "teams": "チーム",
+    "toDate": "終了",
+    "toDateHeader": "終了日",
+    "ticket": "チケット"
+  },
+  "ng2SelfAssessment": {
+    "assessmentDeleteFailed": "評価の削除に失敗しました。もう一度お試しください。",
+    "assessmentDeletedSuccess": "評価は正常に削除されました。",
+    "failedToLoadAssessments": "自己評価データの読み込みに失敗しました",
+    "gridColumnsHeaders": {
+      "actions": "アクション",
+      "agentName": "エージェント名",
+      "duration": "長さ",
+      "formName": "フォーム名",
+      "initiatedBy": "開始者",
+      "interactionDate": "インタラクション日",
+      "remainingDays": "残り日数",
+      "score": "スコア",
+      "status": "ステータス"
+    },
+    "items": "自己評価",
+    "itemsCount": "自己評価",
+    "newAssessment": "新規自己評価",
+    "noItemsOverlay": "開始された評価はありません",
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "待機中の評価は削除できません",
+      "cannotDeleteOtherUsersSelfAssessment": "この自己評価は別のユーザーによって開始されたものであり、削除できません。",
+      "deleteAssessmentMsg1": "この評価を削除しようとしています。このアクションは元に戻せません。",
+      "deleteAssessmentMsg2": "続行しますか？"
+    },
+    "selfAssessmentStatus": "自己評価ステータス",
+    "status": {
+      "awaiting": "待機中",
+      "completed": "完了",
+      "completedSelfAssessment": "完了した自己評価",
+      "expired": "期限切れ",
+      "expiredSelfAssessment": "期限切れの自己評価",
+      "inProgressSelfAssessment": "進行中の自己評価",
+      "newSelfAssessment": "新規自己評価"
+    },
+    "title": "自己評価"
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "coachingModuleLinks": {
+          "coachingManager": "コーチングマネジャー",
+          "coachingPackage": "コーチングパッケージ",
+          "coachingPlans": "コーチングプラン",
+          "smartInsights": "SMARTインサイト"
+        },
+        "embeddedClientModuleLinks": {
+          "1on1coaching": "1対1のコーチング",
+          "coaching": "コーチング",
+          "evaluations": "評価",
+          "groupCoaching": "グループコーチング",
+          "marketplace": "マーケットプレイス",
+          "myDashboards": "自分のダッシュボード",
+          "mySchedule": "自分のスケジュール",
+          "myTimeOffRequests": "休暇申請",
+          "pursuits": "自分の目標",
+          "recentInteractions": "最近のインタラクション",
+          "scheduleRequests": "スケジュールリクエスト",
+          "selfAssessments": "自己評価",
+          "shiftBidding": "シフト入札"
+        },
+        "formManagerModuleLinks": {
+          "categoryManager": "カテゴリーマネジャー",
+          "manageForms": "フォームマネジャー",
+          "qpPlanManager": "Quality Planner"
+        },
+        "formManagerModuleNameFormatted": "QMツール",
+        "myZoneModuleLinks": {
+          "1on1coaching": "1対1のコーチング",
+          "calibrations": "調整",
+          "evaluations": "評価",
+          "evaluatorAssignments": "評価者の割り当て",
+          "groupCoaching": "グループコーチング",
+          "marketplace": "マーケットプレイス",
+          "myPersona": "自分のペルソナ",
+          "mySchedule": "自分のスケジュール",
+          "myTimeOffRequests": "休暇申請",
+          "performanceMonitoring": "パフォーマンスモニタリング",
+          "plansMonitoring": "プランモニタリング",
+          "pursuits": "自分の目標",
+          "qualityPerformance": "品質パフォーマンス",
+          "recentInteractions": "最近のインタラクション",
+          "scheduleRequests": "スケジュールリクエスト",
+          "selfAssessments": "自己評価",
+          "shiftBidding": "シフト入札",
+          "tasks": "タスク"
+        }
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "未読の通知が{{Count}}件あります"
+  },
+  "performanceMonitoring": {
+    "NoGroupSelected": "グループはまだ選択されていません",
+    "NoTeamSelected": "フィルターをまだ選択していません",
+    "agentTitle": "エージェント",
+    "averageScore": "平均スコア",
+    "calibrationEvaluation": "調整",
+    "challengedEvaluationMessageModal": {
+      "message": "この評価は異議が唱えられ、再評価されています。完了すると利用できるようになります。",
+      "title": "評価フォーム利用不可"
+    },
+    "changeInPoints": "ポイントの変更",
+    "collaborativeEvaluation": "共同",
+    "dateOfInteraction": "インタラクション日",
+    "deleteReasonModal": {
+      "WarningText": "この評価を削除すると、平均評価スコアが変更されます。",
+      "cancelMessage1": "すべての変更は失われます。",
+      "cancelMessage2": "続行しますか？",
+      "charactersRemainingText": "{{count}}文字残っています",
+      "confirmMessage1": "この評価を削除すると、平均評価スコアが変わる可能性があります。",
+      "confirmMessage2": "続行しますか？",
+      "deleteButton": "削除",
+      "deleteEvaluationTaskHeader": "評価を削除",
+      "reasonLabel": "理由",
+      "requiredField": "このフィールドは必須です。",
+      "textareaPlaceholder": "入力してください..."
+    },
+    "diffFromPreviousTime": "前回からの差分",
+    "duration": "長さ",
+    "errorFetchingGroupData": "データの読み込みに失敗しました",
+    "errorFetchingPerformanceDetailsData": "データの読み込みに失敗しました",
+    "evaluatedBy": "評価者",
+    "evaluatedOn": "評価日",
+    "evaluationDeleted": "評価は正常に削除されました。",
+    "evaluationDeletionError": "評価を削除できませんでした。",
+    "evaluationReport": {
+      "agent": "エージェント",
+      "calibration": "調整",
+      "create": "レポートの生成",
+      "downloadError": "レポートをダウンロードできませんでした。後でもう一度お試しください。",
+      "downloadInProgress": "レポートをダウンロードしています。",
+      "downloadSuccess": "レポートは正常にダウンロードされました。",
+      "evaluation": "評価",
+      "form": "フォーム",
+      "formVersion": "フォームバージョン",
+      "from": "開始",
+      "generate": "作成",
+      "generateEvaluationReport": "評価レポートの生成",
+      "generateReportFailed": "評価レポートの生成に失敗しました",
+      "generateReportSuccess": "評価レポートが正常に生成されました",
+      "placeholder": {
+        "agent": "エージェントを選択",
+        "form": "フォームを選択",
+        "formVersion": "フォームバージョンを選択"
+      },
+      "selfAssessment": "自己評価",
+      "to": "終了",
+      "type": "タイプ"
+    },
+    "evaluation_Type": "評価タイプ",
+    "evaluations": "評価",
+    "evaluatorTitle": "評価者",
+    "findEmployeePlaceHolder": "入力して従業員を検索",
+    "formName": "フォーム名",
+    "formVersion": "フォームバージョン",
+    "fromDate": "開始",
+    "fromDateHeader": "開始日",
+    "group": "グループ",
+    "groupName": "グループ名",
+    "groups": "グループ",
+    "loadPerformanceData": "パフォーマンスデータの読み込み",
+    "noAgents": "一致するものが見つかりません",
+    "noAgentsInGroup": "選択したグループにエージェントがありません",
+    "noEvaluationsFound": "これらのチーム/グループには評価がありません",
+    "noItemsOverlay": "評価はまだ完了していません",
+    "noOfEvaluations": "評価数",
+    "performanceMonitoring": "パフォーマンスモニタリング",
+    "planName": "プラン名",
+    "qualityPerformance": "品質パフォーマンス",
+    "score": "スコア",
+    "selectGroup": "グループを選択",
+    "selectTimePeriod": "期間を選択",
+    "standardEvaluation": "標準",
+    "status": "ステータス",
+    "team": "チーム",
+    "teamName": "チーム",
+    "teams": "チーム",
+    "toDate": "終了",
+    "toDateHeader": "終了日"
+  },
+  "plansMonitoring": {
+    "aboveDailyAvg": "1日の平均以上",
+    "active": "アクティブ",
+    "activeAgents": "アクティブエージェント",
+    "actualAndExpected": "完了/予測",
+    "avgEvaluations": "平均評価数",
+    "avgEvalutionPerDay": "1日平均評価数",
+    "belowDailyAvg": "1日の平均以下",
+    "completionRate": "完了(%)",
+    "consumptionTrend": "消費トレンド",
+    "current": "現在",
+    "date": "日付",
+    "distributionRate": "分配(%)",
+    "drillDownTitle": "詳細は不明です",
+    "errorFetchingPlanDetailsData": "プランモニタリング詳細データの読み込みに失敗しました",
+    "evaluator": "評価者",
+    "evaluatorProgress": "評価者の進捗状況",
+    "evaluators": "{{count}}人の評価者",
+    "evaluatorsStatus": "評価者の進捗状況",
+    "gridColumnsHeaders": {
+      "actualAndExpected": "完了/予測",
+      "consumptionTrend": "消費トレンド",
+      "evaluators": "チーム(評価者)"
+    },
+    "interactionsPerAgent": "エージェントあたりのインタラクション",
+    "name": "名前",
+    "nextScheduledRun": "次回の予定：",
+    "ng2evaluatorQueueTab": {
+      "changeAssignee": {
+        "changeAssigneeButton": "受託者を変更",
+        "modalHeader": "受託者を変更",
+        "noEvaluatorAvailable": "選択可能な評価者はいません",
+        "reassignErrorMessage": "評価は提出済です。再割り当てするアクセス権はありません。",
+        "reassignSuccessMessage": "受託者が正常に変更されました",
+        "searchPlaceholder": "評価者名を選択"
+      },
+      "dateRange": "日付範囲",
+      "dismiss": "閉じる",
+      "gridColumnsHeaders": {
+        "action": "アクション",
+        "agentName": "エージェント名",
+        "channeltype": "タイプ",
+        "dueDate": "締切日",
+        "duration": "長さ",
+        "evaluationAssignee": "評価受託者",
+        "evaluationStartDate": "評価開始日",
+        "evaluationStatus": "評価ステータス",
+        "evaluationSubject": "評価件名",
+        "evaluationType": "評価タイプ",
+        "formName": "フォーム名",
+        "planName": "プラン名",
+        "score": "スコア"
+      },
+      "infoText": "「評価の割り当て」機能リリース以前のデータは利用できません",
+      "omnibarItemCount": "{{ count }}個のアイテム",
+      "omnibarSearchPlaceholder": "エージェントを検索"
+    },
+    "noDistributionDrilldown": "このプランの分配はまだ開始されていません。",
+    "noOfAgents": "エージェント数",
+    "noOfEvaluations": "評価数",
+    "noOfEvaluators": "評価者数",
+    "noOfInteractionsPerAgents": "インタラクション/エージェント数",
+    "noPlansAvailable": "アクティブなプランはありません",
+    "none": "なし",
+    "occurrence": {
+      "monthly": "月間繰り返しプラン",
+      "oneTime": "1回",
+      "recurring": "繰り返し",
+      "weekly": "週間繰り返しプラン"
+    },
+    "offtrack": "順調でない",
+    "ontrack": "順調",
+    "pageTitle": "評価者の割り当て",
+    "pd_warnUnexpectedDistributionMsg": "この値は予想より高くなっています。現在のサイクルでアクティブだった間の、アクティブなエージェントと非アクティブなエージェントからのインタラクションが含まれます。",
+    "planCount": "アクティブプラン",
+    "planOccurrence": "プランの発生",
+    "planSummary": "プランサマリー",
+    "plansMonitoring": "プランモニタリング",
+    "pm_warnUnexpectedDistributionMsg": "この値は予想より高い可能性があります。現在のサイクルでアクティブだった間の、アクティブなエージェントと非アクティブなエージェントからのインタラクションが含まれます。",
+    "recurringMonthly": "毎月繰り返し",
+    "recurringWeekly": "毎週繰り返し",
+    "remainingDays": "残り日数",
+    "status": "ステータス",
+    "tabs": {
+      "evaluatorQueue": "評価の管理",
+      "planMonitoring": "プランモニタリング"
+    },
+    "team": "チーム",
+    "textForEvals": " 評価)",
+    "timePeriod": "期間",
+    "warnUnexpectedCompletionMsg": "この値は予想より高い可能性があります。現在のサイクルでアクティブだった間の、アクティブなエージェントと非アクティブなエージェントの評価が含まれます。"
+  },
+  "selfAssessment": {
+    "assessmentDeleteFailed": "評価の削除に失敗しました。もう一度お試しください。",
+    "assessmentDeletedSuccess": "評価は正常に削除されました。",
+    "failedToLoadAssessments": "自己評価データの読み込みに失敗しました",
+    "gridColumnsHeaders": {
+      "actions": "アクション",
+      "agentName": "エージェント名",
+      "duration": "長さ",
+      "formName": "フォーム名",
+      "initiatedBy": "開始者",
+      "interactionDate": "インタラクション日",
+      "remainingDays": "残り日数",
+      "score": "スコア",
+      "status": "ステータス"
+    },
+    "items": "自己評価",
+    "itemsCount": "{{count}}件の自己評価",
+    "newAssessment": "新規自己評価",
+    "noItemsOverlay": "開始された評価はありません",
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "待機中の評価は削除できません",
+      "cannotDeleteOtherUsersSelfAssessment": "この自己評価は別のユーザーによって開始されたものであり、削除できません。",
+      "deleteAssessmentMsg1": "この評価を削除しようとしています。このアクションは元に戻せません。",
+      "deleteAssessmentMsg2": "続行しますか？"
+    },
+    "selfAssessmentStatus": "自己評価ステータス",
+    "singleStatusPlaceHolder": "1件のステータスを選択",
+    "status": {
+      "awaiting": "待機中",
+      "completed": "完了",
+      "expired": "期限切れ"
+    },
+    "threeStatusesPlaceHolder": "3件のステータスを選択",
+    "title": "自己評価",
+    "twoStatusesPlaceHolder": "2件のステータスを選択"
+  },
+  "successPage": {
+    "welcomeMsg": "こんにちは、{{username}}さん"
+  },
+  "teamsAndGroups": {
+    "errorMessages": {
+      "required": "少なくとも1つのチームを選択する必要があります"
+    },
+    "groups": "グループ",
+    "selectGroups": "グループを選択",
+    "selectTeams": "チームを選択",
+    "selected": " 選択済",
+    "teams": "チーム"
+  },
+  "weekDays": {
+    "friday": "金曜日",
+    "monday": "月曜日",
+    "saturday": "土曜日",
+    "sunday": "日曜日",
+    "thursday": "木曜日",
+    "tuesday": "火曜日",
+    "wednesday": "水曜日"
+  },
+  "weekShortDays": {
+    "FRI": "金曜",
+    "MON": "月曜",
+    "SAT": "土曜",
+    "SUN": "日曜",
+    "THU": "木曜",
+    "TUE": "火曜",
+    "WED": "水曜"
+  },
+  "workflowFormSelector": {
+    "change": "変更",
+    "changeFormHeader": "フォームを変更",
+    "disabledFormInPlanMessage": "評価フォームを選択します。",
+    "noFormInPlanMessage": "評価フォームを選択します。",
+    "noFormsMsg": "利用可能なフォームはありません。",
+    "select": "選択",
+    "selectFormHeader": "フォームを選択",
+    "workflowFormSelectorText": "実行を開始するフォームを選択してください："
+  },
+  "workflowStatusUI": {
+    "Appealed": "アピール済",
+    "Assigned": "新規",
+    "Auto-acknowledged": "自動認識",
+    "Claimed": "新規",
+    "Completed": "完了",
+    "Completed_Acknowledged": "完了",
+    "Completed_and_Not_Reviewed": "完了レビューなし",
+    "Completed_and_Reviewed": "完了レビュー済",
+    "Dispute": "異議あり",
+    "Expired": "期限切れ",
+    "InProgress": "ドラフト",
+    "InReview": "異議あり",
+    "In_Progress": "進行中",
+    "PartiallyCompleted": "部分的に完了",
+    "Pending_Acknowledgement": "新規",
+    "Request_Review": "異議あり",
+    "Reviewed_and_Completed": "レビュー完了",
+    "Sent_To_Agent": "エージェントに送信",
+    "Sent_To_Supervisor": "スーパーバイザーへ送信済み",
+    "WaitingForAgent": "エージェントを待っています",
+    "WaitingForEvaluator": "評価者を待っています",
+    "selfAssessment": {
+      "completed": "完了",
+      "draft": "ドラフト",
+      "expired": "期限切れ",
+      "new": "新規"
+    }
+  },
+  "workflowStatuses": {
+    "Claimed": "申請済",
+    "Completed": "完了",
+    "Completed_Acknowledged": "完了認識済",
+    "Dispute": "異議",
+    "InProgress": "進行中",
+    "InReview": "レビュー中",
+    "Pending_Acknowledgement": "認識待ち",
+    "Request_Review": "リクエストレビュー",
+    "Reviewed_and_Completed": "レビュー済完了"
+  },
+  "workflowType": {
+    "evaluations": "評価"
+  }
+}

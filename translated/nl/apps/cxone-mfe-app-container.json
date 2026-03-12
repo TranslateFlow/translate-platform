@@ -1,0 +1,15 @@
+{
+  "cxoneMfeAppContainer": {
+    "unsavedChangesDialogConfigDefault": {
+      "titleMessage": "Niet-opgeslagen gegevens",
+      "detailMessage": "Als u de pagina verlaat, gaan de wijzigingen verloren. Weet u zeker dat u wilt doorgaan?",
+      "leaveButtonText": "Ja",
+      "stayButtonText": "Nee"
+    }
+  },
+  "metaInfo": {
+    "cxoneTroubleshootingScreen": {
+      "title": "Problemen oplossen"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "acknowledgeLoyalty": "충성도 인정",
+    "acknowledgeRequest": "요청 확인",
+    "activeListening": "경청",
+    "askForTheSale": "거래 요청",
+    "beEmpathetic": "공감하기",
+    "buildRapport": "라포 형성",
+    "demonstrateEmpathy": "공감 표시",
+    "demonstrateOwnership": "주인의식 표시",
+    "effectiveQuestioning": "효과적인 질의",
+    "guidanceScores": "안내 점수",
+    "inappropriateAction": "부적절한 행동",
+    "interruption": "중단",
+    "landingMessage": "인증 대기 중...",
+    "likelihoodToBuy": "구매 가능성",
+    "makeAConnection": "인맥 쌓기",
+    "noScore": "점수 없음",
+    "noSuggestionYet": "아직 제안이 없습니다.",
+    "orderConfirmation": "확인된 주문",
+    "overallSentimentScore": "종합 감성 점수",
+    "overcomeObjections": "반론 극복",
+    "permissionHelpPhrase": "이 페이지를 보려면 권한이 필요합니다. 관리자에게 문의하십시오.",
+    "permissionRequired": "권한 필수",
+    "presumptiveSelling": "추정 판매",
+    "promoteSelfService": "셀프 서비스 홍보",
+    "sentiment": "종합 감성",
+    "setExpectations": "기대치 설정",
+    "speechVelocity": "말하기 속도",
+    "suggestionSummary": "제안 요약",
+    "uncoverNeeds": "니즈 파악"
+  }
+}

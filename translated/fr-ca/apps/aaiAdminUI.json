@@ -1,0 +1,29 @@
+{
+  "aaiAdminUIApp": {
+    "IntegrationsAppTitle": "Intégrations",
+    "HubTitle": "CXone Mpower Hubs",
+    "notSelectedConfiguration": "Veuillez sélectionner une configuration dans le menu de gauche!",
+    "VAH": "Virtual Agent Hub",
+    "AAH": "Agent Assist Hub",
+    "STT": "Tour par tour",
+    "TTS": "Cloud TTS Hub",
+    "AuthenticationWait": "En attente d’authentification…",
+    "PermissionText": "Autorisations requises",
+    "UnauthorisedText": "Vous devez disposer de privilèges pour voir cette page. Contactez votre administrateur.",
+    "AAITitle": "Admin AAI",
+    "IHF": "Integration Hub",
+    "AutomationAndAIAppTitle": "Automatisation et IA",
+    "TRHB": "Transcription Hub",
+    "TH": "Flux continu",
+    "CT": "Flux continu",
+    "VBH": "Voice Biometrics Hub",
+    "CTS": "Abonnement aux transcriptions",
+    "RTS": "Abonnements",
+    "CM": "Mappage des canaux",
+    "IT": "Intégrations",
+    "PS": "Mappage Presence Sync",
+    "UCAASITG": "Intégrations UCaaS",
+    "PC": "Presence Connect",
+    "DS": "Directory Sync"
+  }
+}

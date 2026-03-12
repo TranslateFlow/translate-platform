@@ -1,0 +1,222 @@
+{
+  "changeHistory": {
+    "depth": "深さ",
+    "name": "名前",
+    "parentId": "親ID",
+    "parentName": "親の名前",
+    "type": "タイプ",
+    "templateId": "テンプレートID",
+    "nodeId": "ノードID"
+  },
+  "colors": {
+    "textColorDefault": "#000"
+  },
+  "generalErrorMessages": {
+    "SUAlreadyAdded": "このSUはすでに次の下に追加されています",
+    "TeamAlreadyAdded": "このチームはすでに次の下に追加されています",
+    "maxLength": "エントリーが長すぎます",
+    "minLength": "エントリーが短すぎます",
+    "required": "このフィールドは必須です。",
+    "specialCharacters": "!    \\ < > ?    % \"または絵文字はサポートされていません"
+  },
+  "hierarchiesPage": {
+    "back": "戻る",
+    "changeHistory": "変更履歴",
+    "changeHistoryForNode": "ノードの変更履歴",
+    "changeHistoryOf": "変更履歴：",
+    "grid": {
+      "actions": "アクション",
+      "activate": "アクティブ化",
+      "active": "アクティブ",
+      "deactivate": "非アクティブ化",
+      "hierarchyCount": " 階層",
+      "hierarchyName": "階層名",
+      "inactive": "非アクティブ",
+      "lastModified": "最終変更",
+      "lastModifiedBy": "最終変更者",
+      "noHierarchiesDefined": "階層はまだ定義されていません",
+      "primaryHierarchy": "プライマリ階層",
+      "showingAll": "すべてを表示",
+      "showingFirst": "最初の候補を表示",
+      "status": "ステータス",
+      "type": "タイプ"
+    },
+    "newHierarchy": "新規階層",
+    "node": "ノード",
+    "searchHierarchiesPlaceholder": "入力して階層を検索",
+    "title": "階層"
+  },
+  "hierarchyManagerPage": {
+    "add": "追加",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "create": "作成",
+    "hierarchyLegend": {
+      "OU": "組織ユニット",
+      "SU": "スケジューリングユニット",
+      "Team": "チーム",
+      "Division": "部門"
+    },
+    "mandatorySymbol": "*",
+    "name": "名前",
+    "namePlaceholder": "階層名を追加",
+    "no": "いいえ",
+    "primaryHierarchy": "プライマリ階層",
+    "remove": "削除",
+    "save": "保存",
+    "search": {
+      "found": "検出：",
+      "info": "検索ボタンをクリックして、名前による新規検索を開始します。検索では大文字と小文字が区別されます。最初の一致する結果は、グラフの線が許す限り、最も中央寄りの位置に自動スクロールされます。",
+      "label": "検索",
+      "noValue": "検索を開始するには、検索値を入力してください。",
+      "notFound": "不検出：",
+      "placeholder": "階層ノードを検索"
+    },
+    "searchInfo": "検索ボタンをクリックして、名前による新規検索を開始します。検索では大文字と小文字が区別されます。最初の一致する結果は、グラフの線が許す限り、最も中央寄りの位置に自動スクロールされます。",
+    "searchLabel": "検索",
+    "searchPlaceholder": "階層ノードを検索",
+    "setAsPrimaryHierarchy": "プライマリ階層に設定",
+    "setAsPrimaryHierarchyTooltip": "このアクションにより、階層がプライマリに設定されます。一度設定すると、プライマリでない階層に戻すことはできません。アプリケーションで使用されるすべての階層データはプライマリ階層から取得されます。",
+    "title": "新規階層を作成",
+    "toolbar": {
+      "add-child": {
+        "addExistingSchedulingUnit": "既存のスケジューリングユニットを追加",
+        "addExistingTeam": "既存のチームを追加",
+        "addOUInformation": "このアクションにより、組織ユニット(OU)タイプの子ノードが作成されます。OUが作成されると、メンバーを追加できるようになります。",
+        "addOrganizationUnit": "組織ユニットを追加",
+        "addSUInformation": "このアクションにより、既存のSUの1つを選択することで、スケジューリングユニット(SU)タイプの子ノードが作成されます。SUノードが作成されると、子ノードの追加やSU情報とメンバーシップの表示ができるようになります。",
+        "addSchedulingUnit": "スケジューリングユニットを追加",
+        "addTeam": "チームを追加",
+        "addTeamInformation": "このアクションにより、既存のチームの1つを選択することで、チームタイプの子ノードが作成されます。チームノードが作成されると、チーム情報とメンバーシップを表示できるようになります。",
+        "andMovedUnder": " 次の下に移動されます",
+        "continue": "。続行しますか？",
+        "name": "名前",
+        "selectTeam": "チームを選択",
+        "teamExistsUnder": "現在次の下に存在するチーム",
+        "untitled": "無題"
+      },
+      "delete": {
+        "deletePermissionQue": "続行しますか？",
+        "noBtn": "いいえ",
+        "ouDeleteMsg": "このOUを階層から削除しようとしています。このアクションにより、すべての子ノード(存在する場合)を含むこのOUの下のネットワークが削除されます。",
+        "suDeleteMsg": "このSUを階層から削除しようとしています。このアクションにより、すべての子ノード(存在する場合)を含むこのSUの下のネットワークが削除されます。",
+        "teamDeleteMsg": "このチームを階層から削除しようとしています。",
+        "yesBtn": "はい"
+      },
+      "edit": {
+        "editDetails": "詳細を編集"
+      },
+      "info": {
+        "nameLabel": "名前",
+        "suInformation": "スケジューリングユニット情報",
+        "teamInformation": "チーム情報",
+        "teamLead": "チームリード",
+        "timeZoneLabel": "タイムゾーン"
+      },
+      "members": {
+        "SUToAddMembers": "メンバーを追加するには、[管理]から[スケジューリングユニット]に移動します。",
+        "addExistingMembers": "既存のメンバーを追加",
+        "addMembers": "メンバーを追加",
+        "allUsersSelectedAlreadyAdded": "選択されたすべてのユーザーは現在OUに存在します",
+        "clickOnAddMembers": "[追加]をクリックしてメンバーを追加します。",
+        "members": "メンバー",
+        "membersUndercase": "メンバー",
+        "noMembersAdded": "メンバーが追加されていません",
+        "noResultsFound": "すべての利用可能なメンバーが選択されました",
+        "onceMembersAdded": "メンバーが追加されると、ここに表示されます",
+        "searchMembers": "メンバーを検索",
+        "showingAll": "すべてを表示",
+        "showingFirst": "最初の候補を表示",
+        "teamToAddMembers": "メンバーを追加するには、[管理]から[チーム]に移動します。",
+        "userAlreadyMemberOf": "ユーザーはすでに次のメンバーです："
+      }
+    },
+    "type": "タイプ",
+    "typePlaceholder": "タイプを選択",
+    "viewDetails": "詳細を表示",
+    "yes": "はい"
+  },
+  "hierarchyToasts": {
+    "cannotAddChildrenToTeamNode": "チームノードは子を追加できません",
+    "cannotPerformAction": "このアクションは現在実行できません",
+    "dragAndDrop": {
+      "AlreadyConnected": "ノードがすでに接続されているため、このアクションは実行できません。",
+      "ExceedsLimit": "許容される階層深度の12レベルを超えるため、このアクションは実行できません",
+      "OUChildOfSU": "組織ユニットはスケジューリングユニットの子にはなれないため、このアクションは実行できません",
+      "OUChildOfTeam": "組織ユニットはチームの子になれないため、このアクションは実行できません",
+      "SUChildOfTeam": "スケジューリングユニットはチームの子ノードになれないため、このアクションは実行できません",
+      "TeamChildOfTeam": "チームはチームの子ノードになれないため、このアクションは実行できません"
+    },
+    "generalError": "一般エラー",
+    "hierarchyActivateFailMsg": "階層のアクティブ化に失敗しました",
+    "hierarchyActivateSuccMsg": "階層が正常にアクティブ化されました",
+    "hierarchyCreatedFailMsg": "階層の作成に失敗しました",
+    "hierarchyCreatedSuccMsg": "階層が正常に作成されました",
+    "hierarchyDeactivateSuccMsg": "階層が正常に非アクティブ化されました",
+    "hierarchyDectivateFailMsg": "階層の非アクティブ化に失敗しました",
+    "hierarchyInvalidInputMsg": "入力が無効です",
+    "hierarchyNameExistsFailMsg": "階層名はすでに存在します",
+    "hierarchySavedFailMsg": "階層の保存に失敗しました",
+    "hierarchySavedSuccMsg": "階層が正常に保存されました",
+    "noSUInformation": "SU情報を取得できません",
+    "noTeamInformation": "チーム情報を取得できません",
+    "permissionErrors": {
+      "addChild": "子を追加する権限がありません",
+      "deleteNode": "ノードを削除する権限がありません",
+      "dragAndDrop": "階層構造を変更する権限がありません",
+      "editNode": "ノードを編集する権限がありません",
+      "userPermission": "OUのユーザーを表示する権限がありません"
+    },
+    "setPrimaryHierarchySuccessMessage": "プライマリ階層が正常に設定されました。",
+    "teamIsAlreadyChildOfParent": "追加するチームはすでに子ノードです"
+  },
+  "metaInfo": {
+    "hierarchies": {
+      "title": "階層"
+    },
+    "hierarchy-manager": {
+      "title": "階層マネジャー"
+    }
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "adminModuleLinks": {
+          "accountSettings": "アカウント設定",
+          "advancedTtl": "Life Cycle Management",
+          "bulkUploadDownload": "一括アップロードポータル",
+          "businessDataConfiguration": "ビジネスデータ",
+          "employeeGroups": "スケジューリングユニット",
+          "groups": "グループ",
+          "hierarchies": "階層",
+          "lifecycleManagement": "Life Cycle Management",
+          "loginAuthenticatorManagement": "ログイン認証コード",
+          "longTermFileRetrieval": "長期ファイル取得",
+          "passwordPolicyManagement": "パスワードポリシー",
+          "recording": "レコーディング",
+          "recordingPolicies": "レコーディングポリシー",
+          "roleManagement": "役割と権限",
+          "secureExternalAccess": "Secure External Access",
+          "security": "セキュリティ",
+          "skills": "WFOスキル",
+          "storage": "クラウドストレージ",
+          "storageSettings": "ストレージ設定",
+          "teams": "チーム",
+          "users": "従業員",
+          "viewManagement": "ビュー"
+        },
+        "adminModuleName": "管理"
+      }
+    }
+  },
+  "primaryHierarchyModal": {
+    "closeButtonText": "キャンセル",
+    "message": "このアクションにより、{{hierarchyName}}が組織のプライマリ階層として設定されます。<br><br><br>このアクションは永続的であり、元に戻せません。<br>続行してもよろしいですか？",
+    "primaryButtonText": "プライマリ階層を設定",
+    "title": "プライマリ階層に設定"
+  },
+  "types": {
+    "organizational": "組織的",
+    "division": "部門"
+  }
+}

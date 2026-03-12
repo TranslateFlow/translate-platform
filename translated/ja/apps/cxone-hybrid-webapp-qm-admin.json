@@ -1,0 +1,2651 @@
+{
+  "activityCodeDropdown": {
+    "placeholder": "アクティビティコードを選択..."
+  },
+  "activityCodes": {
+    "buttons": {
+      "addActivityCode": "新規アクティビティコード",
+      "deleteActivityCode": "削除"
+    },
+    "deleteConfirmation1": "システムからアクティビティコードを削除しようとしています。",
+    "deleteConfirmation2": "ヒストリカルインスタンスは残ります。",
+    "deleteMultipleConfirmation1": "選択したアクティビティコードがこのリストから削除されます。",
+    "deleteMultipleConfirmation2": "これらのアクティビティのインスタンスはスケジューラに表示される可能性があり、個別に削除する必要があります。",
+    "errorAdd": "アクティビティコードの作成中にエラーが発生しました。",
+    "errorDelete": "アクティビティコードの削除中にエラーが発生しました",
+    "errorMultipleDelete": "アクティビティコードの削除中にエラーが発生しました。",
+    "errorRead": "アクティビティコードの読み込み中にエラーが発生しました。",
+    "errorUpdate": "アクティビティコードの更新中にエラーが発生しました。",
+    "fieldLabels": {
+      "acdEvents": "ACDイベント",
+      "category": "表示名",
+      "length": "デフォルトの長さ",
+      "name": "アクティビティコード名",
+      "open": "営業時間内",
+      "overtime": "残業",
+      "priority": "優先度",
+      "shiftType": "シフトタイプ",
+      "workHours": "勤務時間"
+    },
+    "item": "アクティビティコード",
+    "items": "アクティビティコード",
+    "modal": {
+      "activate": {
+        "activateBtn": "アクティブ化",
+        "activityExistMsg": "システムは、同じ名前のアクティビティが過去に作成されたことを検出しました。このアクティビティを再度アクティブ化するか、別の名前で新規アクティビティを作成できます。"
+      },
+      "addTitle": "新規アクティビティコードを作成",
+      "editTitle": "アクティビティコードの編集",
+      "errors": {
+        "lengthRange": "1～1,440分の間で入力します。",
+        "notValidRegex": "次の文字は使用できません：^/!\\+<>?#&,%.",
+        "priorityRange": "優先度は1～100の間でなければなりません。",
+        "uniqueTitle": "この名前はすでに存在します。新しいものを試してください。"
+      },
+      "fieldLabels": {
+        "attributes": "属性",
+        "category": "表示名",
+        "length": "デフォルトの長さ(分)",
+        "open": "営業時間内",
+        "overtime": "残業",
+        "priority": "優先度",
+        "shiftType": "シフトタイプとして設定可能",
+        "title": "名前",
+        "workHours": "勤務時間"
+      }
+    },
+    "pageTitle": "アクティビティコード",
+    "serviceStatusMessages": {
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_FALSE": "名前は変更できません。同じ名前のアクティビティが論理削除Falseで存在しますが、一意のIDが一致しません。",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_TRUE": "アクティビティコード名は「{{activityCode.title}}」に変更できません。同じ名前のアクティビティコードが以前に存在し、削除されました。この名前で新規アクティビティコードを作成できます。",
+      "ACTIVITY_CODE_EXISTS_WITH_SOFT_DELETE": "名前は変更できません。同じ名前のアクティビティが以前に存在し、削除されました。この名前で新規アクティビティを作成できます。",
+      "ACTIVITY_WITH_TITLE_EXISTS": "このタイトルのアクティビティはすでに存在します。",
+      "NO_ACTIVITY_CODE_EXISTS": "指定されたタイトルのアクティビティコードは存在しません。",
+      "REUSED_EXISTING_ACTIVITY_CODE": "同じ名前のアクティビティコードが以前に存在し、再利用されています。"
+    },
+    "successAdd": "新規アクティビティコードが正常に追加されました",
+    "successDelete": "アクティビティコードが正常に削除されました",
+    "successDeleteMultiple": "アクティビティコードが正常に削除されました",
+    "successEdit": "アクティビティコードが正常に編集されました"
+  },
+  "categoryManagerPage": {
+    "pageTitle": "カテゴリーマネジャー"
+  },
+  "commonButtons": {
+    "activate": "アクティブ化",
+    "add": "追加",
+    "cancel": "キャンセル",
+    "chooseFile": "ファイルを選択",
+    "clearAll": "すべてクリア",
+    "close": "閉じる",
+    "create": "作成",
+    "day": "日",
+    "delete": "削除",
+    "done": "完了",
+    "download": "ダウンロード",
+    "edit": "編集",
+    "generate": "作成",
+    "invite": "招待",
+    "no": "いいえ",
+    "ok": "OK",
+    "publish": "公開",
+    "reset": "リセット",
+    "save": "保存",
+    "saveAndActivate": "保存＆アクティブ化",
+    "saveAsDraft": "ドラフトとして保存",
+    "selectAll": "すべて選択",
+    "set": "設定",
+    "showAll": "すべて表示",
+    "today": "今日",
+    "update": "更新",
+    "upload": "アップロード",
+    "week": "週",
+    "yes": "はい"
+  },
+  "createUserModal": {
+    "acdLoginId": "ACDログインID",
+    "createUserHeader": "新規従業員を作成",
+    "errorMsg": "新規従業員の作成に失敗しました。",
+    "formLabels": {
+      "assignToGroup": "スケジューリングユニットに割り当てられています",
+      "assignToGroupPlaceHolder": "割り当てられたスケジューリングユニットはありません",
+      "assignToGroups": "グループに割り当てられています",
+      "assignToSkills": "スキルに割り当てられています",
+      "country": "国",
+      "countryPlaceholder": "国を選択",
+      "create": "従業員作成",
+      "day": "日",
+      "email": "Eメールアドレス",
+      "firstName": "名",
+      "groupsDropDown": "{{selectedCount}}グループ",
+      "hireDate": "雇用日",
+      "lastName": "姓",
+      "maxHoursPerWeek": "最大時間/週",
+      "mobileNumber": "携帯電話番号",
+      "month": "月",
+      "rank": "ランク",
+      "rankInterval": "1-999",
+      "role": "役割",
+      "rolePlaceholder": "役割を選択",
+      "roles": {
+        "admin": "管理者",
+        "employee": "従業員",
+        "manager": "マネジャー"
+      },
+      "skillsDropDown": "{{selectedCount}}件のスキル",
+      "timeZonePlaceHolder": "タイムゾーン",
+      "upload": "アップロード",
+      "userPicture": "プロフィール写真",
+      "year": "年"
+    },
+    "maxLimitOfACD": "{{items}}項目を超える入力はできません",
+    "popoverMessage1": "すべての変更は失われます。",
+    "popoverMessage2": "保存せずに終了してもよろしいですか？",
+    "reviveUserAlert": "このEメールアドレスのアカウントはすでに存在します。このアカウントを再度アクティブ化するか、別のEメールアドレスで新規アカウントを作成してください",
+    "skillsTab": {
+      "addBtn": "追加",
+      "assignedTxt": "割り当て済スキル",
+      "header": "スキルを選択",
+      "selectTxt": "従業員を選択",
+      "selectedTxt": "選択済："
+    },
+    "successMsg": "従業員は正常に作成されました。",
+    "updateErrorMsg": "新規従業員の作成に失敗しました。",
+    "updateSuccessMsg": "従業員は正常に更新されました。",
+    "updateUserHeader": "従業員の編集"
+  },
+  "datePicker": {
+    "nextDay": "翌日",
+    "openCalendar": "カレンダーを開く",
+    "previousDay": "前日",
+    "today": "今日"
+  },
+  "designerComponent": {
+    "COACHING": {
+      "testForm": "パッケージをテスト"
+    },
+    "EVALUATION": {
+      "testForm": "フォームをテスト"
+    },
+    "createTemplate": "新規テンプレート",
+    "selectTemplate": "テンプレートを選択",
+    "templateOptions": "テンプレートオプション"
+  },
+  "errors": {
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "サーバーからの応答がありません。後でもう一度お試しください。"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "一般エラー"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "一般エラー：{{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "パラメーターが無効です"
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "ログインに失敗"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "このページは利用できません。接続を確認して、もう一度お試しください。"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "不正な従業員"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーです。"
+    },
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "従業員の作成に失敗しました。"
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "従業員ステータスが無効です"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "組織名が無効です。"
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Eメールが無効です。"
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "従業員の名が無効です。"
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "従業員の姓が無効です。"
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "デフォルトのスケジューリングユニットを削除できません。"
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "詳細を確認して、もう一度お試しください"
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "スケジューリングユニットIDが見つかりません。"
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "従業員の最大勤務時間が範囲外です。"
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "従業員のパスワードが無効です。"
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーです。"
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "デフォルトグループを更新できません。"
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "デフォルトグループから従業員を削除できません。"
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "従業員のパスワードが正しくありません。"
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "従業員が存在しません。"
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "自分の従業員は削除できません"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "唯一の管理者は削除できません"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "すでに削除された従業員は削除できません"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "パスワードトークンが無効です"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "アカウントの作成に失敗しました"
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "スケジューリングユニットが存在しません。"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "組織名が無効です"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "役割を変更する権限がありません"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "自分の役割は変更できません"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "最後の管理者は削除できません。"
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "以前のパスワードと新しいパスワードが同じであるため、パスワードを変更できません。"
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACDログインIDはすでに存在します"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "新入社員はユーザーの制限を超えます。CXoneSalesTeam@niceincontact.comから営業に連絡してください"
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "このテナントまたは従業員はすでに存在します。新しいものを試してください。"
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "Eメールアドレスはすでに存在します。新しいものを試してください"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "ファイルが存在しません。"
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "従業員が存在しません"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "招待する従業員はいません。"
+    },
+    "qp_data_service_1": {
+      "code": "DUPLICATE_PLAN_NAME_ERROR",
+      "message": "プラン名はすでに存在します"
+    },
+    "qp_data_service_10": {
+      "code": "Invalid License",
+      "message": "ライセンスが無効です"
+    },
+    "qp_data_service_12": {
+      "code": "FORM_NOT_ACTIVE",
+      "message": "評価フォームがアクティブではありません。"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "テンプレートを選択してください"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "フォーム名はすでに存在します"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "テンプレートIDが無効です"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "週間ルールが空です"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "すべての一意の可能な日数の合計が日次ルールあたりの最小シフト数の合計よりも小さいです"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "週間ルールの名前が指定されていません"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "日次ルールが空です"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "すべての一意の可能な日数の合計が1週間の最小シフト数よりも小さいです"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "日付形式が無効です"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "2つの日付の間の期間が無効です"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーが発生しました"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーが発生しました"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "ファイル内のレコードが読み取れませんでした"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "週間ルールが間違っています"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "期待される列タイトルが見つかりません。サンプルファイルを見てください。"
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "システムにスキルがありません"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "スケジューリングユニットがファイルにありません"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "最も早い1日の開始が最も遅い開始の後です"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "増分の形式が間違っています"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "日次ルールの開始時刻が正しい範囲にありません"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "日次アクティビティの長さが日次ルールの長さよりも長いです"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "スラック形式が間違っています"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "相対開始時間がスラック時間よりも短いです"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "アクティビティの長さの合計が1日の長さよりも長いです"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "週間ルールの日付範囲が間違っています"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "有効なアクティビティの組み合わせが存在しません"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "アクティビティコードが日次ルールのシフトを超えました"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "アクティビティコード名が無効です"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "スケジュールユニットのタイムゾーンが間違っています"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "週間ルールの時間範囲が間違っています"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "デフォルトのアクティビティコードは削除できません"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "[週間ルールの最大シフト数]の値が日次ルールの最小日数の合計よりも小さいです"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "[週間ルールの最小シフト数]の値が日次ルールの最大日数の合計よりも大きいです"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "1日の最小時間の合計が1週間の最大時間よりも大きいです"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "1日の最大時間の合計が一週間の最小時間よりも小さいです"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "可能な日数の合計が対応する日次ルールの最小日数よりも小さいです"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーです。"
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "スキルが存在しません。"
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "従業員が50を超えるスキルを持つことはできません。"
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "スキル名が無効です"
+    },
+    "wrongCredentials": "間違ったEメールアドレスまたはパスワードを入力しました"
+  },
+  "expiredInvitationPage": {
+    "explanationText1": "招待の有効期限が切れています。",
+    "explanationText2": "送信者に通知しました。まもなく新しい招待が届きます。",
+    "sorryHeader": "申し訳ありません..."
+  },
+  "filter": {
+    "clear": "クリア",
+    "clearall": "すべてクリア",
+    "close": "閉じる"
+  },
+  "filterDropDown": {
+    "completed": "完了",
+    "notCompleted": "未完了"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "スケジューリングユニット"
+  },
+  "formDesignerElements": {
+    "attachment": {
+      "questionTitle": "タイトルを設定",
+      "title": "添付",
+      "tooltipContent": "フォームにファイルを添付"
+    },
+    "checkbox": {
+      "choice": {
+        "choice1": "選択肢1",
+        "choice2": "選択肢2"
+      },
+      "questionTitle": "質問を設定",
+      "title": "チェックボックス",
+      "tooltipContent": "トグルオプション付きの質問を追加します。評価者は1つまたは複数のオプションを選択できます。これは評価可能な項目です。"
+    },
+    "datetime": {
+      "questionTitle": "質問を設定",
+      "timeQuestionTitle": "質問を設定",
+      "title": "日付/時刻",
+      "tooltipContent": "日付/時刻ピッカーを追加します。"
+    },
+    "dropdown": {
+      "choice": {
+        "choice1": "選択肢1",
+        "choice2": "選択肢2"
+      },
+      "questionTitle": "質問を設定",
+      "title": "ドロップダウン",
+      "tooltipContent": "考えられる回答のリストを含む質問を追加します。評価者は1つまたは複数の回答を選択できます。"
+    },
+    "hyperlink": {
+      "questionTitle": "テキストを入力",
+      "title": "ハイパーリンク",
+      "tooltipContent": "フォームにハイパーリンクを作成します。"
+    },
+    "interactions": {
+      "questionTitle": "タイトルを設定",
+      "title": "インタラクション",
+      "tooltipContent": "フォームにインタラクションを追加"
+    },
+    "label": {
+      "questionTitle": "タイトルを設定",
+      "title": "ラベル",
+      "tooltipContent": "フォームにテキスト要素を追加します。"
+    },
+    "radio": {
+      "choice": {
+        "choice1": "選択肢1",
+        "choice2": "選択肢2"
+      },
+      "questionTitle": "質問を設定",
+      "title": "ラジオボタン",
+      "tooltipContent": "質問といくつかの選択肢を追加します。評価者は1つの選択肢を選択できます。これは評価可能な項目です。"
+    },
+    "section": {
+      "questionTitle": "タイトルを設定",
+      "title": "セクション",
+      "tooltipContent": "フォーム内にセクションを作成します。セクションで質問を整理できます。"
+    },
+    "text": {
+      "questionTitle": "質問を設定",
+      "title": "短いテキスト",
+      "tooltipContent": "フォームに1行のフリーテキストフィールドを追加します。"
+    },
+    "textarea": {
+      "questionTitle": "質問を設定",
+      "title": "長いテキスト",
+      "tooltipContent": "フォームに複数行のフリーテキスト領域を追加します。"
+    },
+    "yesno": {
+      "choice": {
+        "no": "いいえ",
+        "yes": "はい"
+      },
+      "questionTitle": "質問を設定",
+      "title": "はい/いいえ",
+      "tooltipContent": "フォームに「はい/いいえ」の質問を追加します。評価者は1つの回答を選択できます。これは評価可能な項目です。"
+    }
+  },
+  "formDesignerPage": {
+    "EVALUATION": {
+      "failAdd": "新規フォームの追加に失敗しました。もう一度お試しください。",
+      "popover": {
+        "savePublishFormMsg": "アクティブなフォームを編集しますか？このアクションは、すでに使用中のフォームには影響しません。"
+      },
+      "saveFormModal": {
+        "activeFormHeader": "フォームをアクティブ化",
+        "formPlaceholder": "フォーム名を入力",
+        "saveFormHeader": "フォームを保存"
+      },
+      "successAdd": "フォームが正常に追加されました。",
+      "successEdit": "フォームが正常に編集されました。",
+      "testFormModal": {
+        "header": "フォームをテスト",
+        "submit": "検証"
+      }
+    },
+    "activate": "保存＆アクティブ化",
+    "attachment": {
+      "browseForFile": "ファイルを参照",
+      "dragAndDropElement": "ドラッグ＆ドロップしてアップロードするか、または",
+      "failedFileUpload": "ファイルのアップロードに失敗しました。もう一度お試しください。",
+      "fileCorrupted": "ファイルが破損しているか、ウイルスに感染しています。",
+      "fileSizeExceeded": "ファイルをアップロードできませんでした。ファイルが15MBの制限を超えています。",
+      "fileTypeMismatch": "ファイルをアップロードできませんでした。ファイル形式と拡張子が一致しません。もう一度お試しください。",
+      "fileTypeNotAllowed": "ファイルをアップロードできませんでした。ファイル形式がサポートされていません。",
+      "fileUploadProgress": "{{total}}件中{{loaded}}件",
+      "insertFile": "ファイルを挿入",
+      "linkTextLabel": "リンクテキスト",
+      "mandatoryFieldText": "このフィールドは必須です",
+      "maxFileSize": "ファイルは{{maxSize}}未満である必要があります。",
+      "progressBarText": "進捗",
+      "scanningFile": "ファイルをウイルススキャンしています。お待ちください....",
+      "tooBigToUpload": "は大きすぎてアップロードできません。",
+      "uploadFile": "ファイルをアップロード",
+      "zeroFileSizeError": "ファイルをアップロードできませんでした。選択したファイルは空です。もう一度お試しください。"
+    },
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "compareMode": {
+      "questionNotApplicable": "この質問は該当しません",
+      "sectionNotApplicable": "このセクションは該当しません"
+    },
+    "createEditRuleModal": {
+      "addAnotherRule": "別のルールを追加",
+      "header": "ルールを設定",
+      "hide": "非表示",
+      "ifSelection": "選択した",
+      "ifThe": "もし"
+    },
+    "criticalQuestionAnswersErrorMessage": "少なくとも1つの正解と1つの不正解を定義する必要があります。",
+    "criticalQuestionAnswersHelpText": "不合格になる解答にフラグを付けてください。少なくとも1つの正解と1つの不正解を定義する必要があります。",
+    "criticalQuestionEnableScoringHelpHeader": "スコアリングを有効にする",
+    "criticalQuestionEnableScoringHelpText": "スコアリングを有効にして、この質問を重要としてマークします。",
+    "criticalQuestionHelpHeader": "重要な質問",
+    "criticalQuestionHelpText": "この質問はインタラクションの重要な要素を扱うものです。重要な質問に正解しないと、エージェントスコアは不合格になります。",
+    "criticalQuestionMessageModal": {
+      "message1": "この質問を重要としてマークすると、一部のルールが無効になり、削除されます。",
+      "message2": "続行してもよろしいですか？",
+      "title": "ルールの無効化"
+    },
+    "criticalQuestionScoringMessageModal": {
+      "message1": "スコアリングを無効にしました。ここで保存するとすべての重要な質問が削除されます。",
+      "message2": "続行してもよろしいですか？"
+    },
+    "criticalQuestionToolTip": "これは重要な質問です。正解しないとスコアが0にリセットされます。",
+    "criticalQuestionValidationError": "少なくとも1つの正解と1つの不正解を定義してください",
+    "criticalQuestionsValidationError": "{{ count }}の質問にエラーがあります。検証してもう一度保存してください",
+    "dateTimeComponent": {
+      "at": "＠"
+    },
+    "deleteRuleWarningModal": {
+      "rulesRemoved": "フォームの質問を並び替えたため、一部のルールが無効になり、削除されました。",
+      "title": "無効なルールを削除しました",
+      "wantsToRevert": "これらの変更を元に戻しますか？"
+    },
+    "duration": "長さ",
+    "durationErrorMsg": "このフィールドは必須です",
+    "elementAttributeComponent": {
+      "NA": "該当なし",
+      "addList": "値のリスト",
+      "addMultiple": "複数を追加",
+      "addRule": "+ ルールを追加",
+      "aspectRatio": "縦横比を固定",
+      "backgroundColor": "背景色",
+      "bold": "太字",
+      "browse": "閲覧",
+      "choices": "選択肢",
+      "criticalQuestion": "重要としてマーク",
+      "dateFormat": "日付形式",
+      "dateLabel": "日付",
+      "displayDate": "表示日",
+      "fileUploadErrorExtensionMsg": "ファイル形式が無効です。サポートされている形式：JPG、PNG、GIF、BMP、JPEG",
+      "fileUploadSizeErrorMsg": "ファイルが大きすぎます。ファイルは2MB未満である必要があります",
+      "fontColor": "ラベルの色",
+      "fontIndent": "整列",
+      "fontSize": "サイズ",
+      "fontStyle": "スタイル",
+      "fontType": "フォント",
+      "header": "ヘッダー",
+      "headerFields": {
+        "AgentName": "エージェント名",
+        "Duration": "インタラクション長さ",
+        "HireDate": "雇用日",
+        "InteractionDate": "インタラクション日",
+        "ReviewDate": "評価日",
+        "SegmentContactId": "コンタクトID",
+        "SegmentId": "セグメントID",
+        "StartDate": "評価開始日",
+        "failLoadHeaderFields": "ヘッダーフィールドの読み込みに失敗しました。もう一度お試しください",
+        "headerFieldSelectedOption": " {{selectedCount}}名選択済",
+        "headerFieldsLabel": "ヘッダーフィールド"
+      },
+      "height": "高さ",
+      "horizontal": "横",
+      "image": "イメージ",
+      "italics": "斜体",
+      "label": "タイトル",
+      "layout": "レイアウト",
+      "limitCharacters": "文字数制限",
+      "logic": "ロジック",
+      "mandatory": "必須",
+      "multiple": "複数選択",
+      "prePopulatedHintText": "ヒントテキスト",
+      "properties": "プロパティ",
+      "px": "(px)",
+      "question": "質問",
+      "rule": "ルール",
+      "setCurrentDate": "現在の日付を使用",
+      "setCurrentTime": "現在の時刻を使用",
+      "single": "単一選択",
+      "startTime": "開始時刻",
+      "subText": "指示",
+      "subTitle": "サブタイトル",
+      "text": "テキスト",
+      "timeLabel": "時刻",
+      "underline": "下線",
+      "url": "URL",
+      "useNA": "該当なしを使用",
+      "vertical": "縦",
+      "visible": "表示可能",
+      "width": "幅"
+    },
+    "elementListComponent": {
+      "characters": "文字",
+      "component": "要素",
+      "errorMsg": "このフィールドは必須です",
+      "invalidDate": "日付が無効です",
+      "invalidTime": "時刻が無効です",
+      "selectOption": " {{selectedCount}}個のオプション"
+    },
+    "elementType": {
+      "attachment": "添付",
+      "checkbox": "チェックボックス",
+      "datetime": "日付/時刻",
+      "dropdown": "ドロップダウン",
+      "header": "ヘッダー",
+      "hyperlink": "ハイパーリンク",
+      "interactions": "インタラクション",
+      "label": "ラベル",
+      "radio": "ラジオボタン",
+      "section": "セクション",
+      "text": "短いテキスト",
+      "textarea": "長いテキスト",
+      "yesno": "はい/いいえ"
+    },
+    "errorInteraction": "利用可能なインタラクションはありません",
+    "errorLoadingHeader": "ヘッダーを読み込めませんでした",
+    "errorLoadingLogo": "フォームのロゴを読み込めませんでした",
+    "errorRead": "フォームデザイナーの読み込み中にエラーが発生しました",
+    "example": "例：",
+    "failAdd": "新規フォームの追加に失敗しました",
+    "failLoadElements": "フォーム要素の読み込みに失敗しました。もう一度お試しください。",
+    "failPublish": "新規フォームのアクティブ化に失敗しました",
+    "failedRename": "フォーム名はすでに存在します。",
+    "formTitle": {
+      "subTitle": "サブタイトルを入力",
+      "title": "タイトルを入力"
+    },
+    "hour": "時間",
+    "inActivate": "非アクティブ化",
+    "info": {
+      "critical": "重大",
+      "required": "必須"
+    },
+    "interactions": {
+      "agentName": "エージェント名",
+      "duration": "長さ",
+      "interactionsBtn": "インタラクションを追加",
+      "startDateAndTime": "開始日時",
+      "type": "タイプ"
+    },
+    "labels": "ラベル",
+    "manageFormsBreadcrumb": "フォームマネジャー",
+    "minutes": "分",
+    "objectiveExample": "1. エージェントはエスカレーションプロトコルを学習します",
+    "objectives": "目的",
+    "pageTitle": "新規フォームを作成",
+    "preview": "プレビュー",
+    "questionBank": {
+      "deleteQuestionPopoverMsg": "選択した質問を削除しようとしています。このアクションは元に戻せません。続行しますか？",
+      "duplicateQuestion": "この質問はすでに質問バンクに存在します",
+      "elements": "要素",
+      "failedLoadQuestionBank": "質問の読み込みに失敗しました。しばらくしてからお試しください",
+      "questionBank": "質問バンク",
+      "questionDeleteFailed": "質問は削除されませんでした。しばらくしてからお試しください",
+      "questionDeleteSuccess": "質問は正常に削除されました",
+      "questionSaveSuccess": "質問は正常に保存されました",
+      "saveQuestionFailed": "質問は保存されませんでした。しばらくしてからお試しください",
+      "searchBank": "検索バンク"
+    },
+    "save": "保存",
+    "saveAsDraft": "ドラフトとして保存",
+    "saveFormModal": {
+      "activeFormHeader": "フォームをアクティブ化",
+      "formPlaceholder": "フォーム名を入力",
+      "popover": {
+        "message1": "すべての変更は失われます",
+        "message2": "保存せずに終了してもよろしいですか？"
+      },
+      "saveFormHeader": "フォームを保存"
+    },
+    "score": "スコア",
+    "scoreFormModal": {
+      "add": "+ 追加",
+      "addHeader": "スコアリング",
+      "calculatedScore": "計算された加重スコア",
+      "currentPoints": "現在のポイント",
+      "display": "表示",
+      "drpDwnPlaceHolder": "%",
+      "enableRanking": "ランキングを有効にする",
+      "enableScoring": "スコアリングを有効にする",
+      "from": "開始",
+      "maxPoints": "最大ポイント：",
+      "maxScoreZeroMessage": "最小スコアは0より大きくなければなりません",
+      "outOf": "/",
+      "ranking": {
+        "defaultFailedLabel": "不合格",
+        "defaultPassedLabel": "合格",
+        "validationMsg": {
+          "completeRange": "範囲が無効です。定義された範囲の合計は100%でなければなりません",
+          "emptyRange": "範囲が空です",
+          "invalidRange": "範囲が無効です",
+          "requiredField": "必須フィールド"
+        }
+      },
+      "rankingNoteMsg": "注意：ランキングを使用すると、スコアに代わって表示されます",
+      "saveLabel": "保存",
+      "scorable": "スコア",
+      "setRangeFormScore": "フォームスコアの範囲を設定",
+      "setRanking": "ランキングを設定",
+      "setScoring": "スコアリングを設定",
+      "to": "終了"
+    },
+    "sectionScore": "セクションスコア",
+    "selectTemplateModal": {
+      "customDisclaimer": "注意：カスタマイズした内容はすべてリセットされます",
+      "selectThemeHeader": "テンプレートを変更",
+      "selectThemeMsg": "フォームのテンプレートを選択"
+    },
+    "successAdd": "新規フォームが正常に追加されました",
+    "successPublish": "フォームが正常にアクティブ化されました。",
+    "toolTips": {
+      "collapse": "折りたたむ",
+      "duplicate": "複製",
+      "expand": "展開",
+      "logic": "ルールを定義する",
+      "saveToBank": "バンクに保存",
+      "scoring": "スコアリングを定義する",
+      "settings": "設定"
+    },
+    "warningMessageModal": {
+      "areYouSureLeavePage": "保存せずにここを離れてもよろしいですか？",
+      "title": "ページを離れますか？",
+      "unsavedChanges": "未保存のデータがあります。"
+    },
+    "workFlowSettingsModal": {
+      "agentCanAcknowledge": "エージェントは認識可能",
+      "agentCanRequestReview": "エージェントはレビューリクエスト可能",
+      "agentCanReview": "エージェントはレビュー可能",
+      "agentCanViewScoring": "エージェントにスコアを表示",
+      "assignedEvaluator": "割り当てられた評価者",
+      "getUser": {
+        "error": "ユーザーの取得に失敗しました"
+      },
+      "header": "設定",
+      "noOptionSelectedErrorMessage": "このフィールドは必須です",
+      "qpInteractionsFetchError": "割り当て済インタラクションの取得に失敗しました",
+      "specificEvaluator": "特定の人物：",
+      "successSave": "ワークフロー設定が正常に設定されました",
+      "successUpdate": "ワークフロー設定が正常に更新されました",
+      "workflow": "ワークフロー",
+      "workflowInteractionsFetchError": "評価されたインタラクションの取得に失敗しました",
+      "workflowStartError": "ワークフローの開始中にエラーが発生しました"
+    }
+  },
+  "formManager": {
+    "dropdownType": {
+      "multiple": "複数",
+      "single": "単一"
+    },
+    "elementType": {
+      "dateTime": "日付時刻",
+      "dropdown": "ドロップダウン",
+      "formArea": "フォーム領域",
+      "hyperlink": "ハイパーリンク",
+      "label": "ラベル",
+      "radio": "ラジオボタン",
+      "section": "セクション",
+      "yesno": "はい/いいえ"
+    },
+    "formStatus": {
+      "deleted": "削除済",
+      "disabled": "無効",
+      "draft": "ドラフト",
+      "published": "公開"
+    },
+    "logicMode": {
+      "bulkEdit": "一括編集",
+      "newRule": "新規ルール",
+      "singleEdit": "単一編集"
+    }
+  },
+  "generalErrorMessages": {
+    "activitiesOverlap": "アクティビティは重複できません",
+    "email": "入力したEメールアドレスは無効です",
+    "emailExists": "Eメールアドレスはすでに存在します。新しいものを試してください",
+    "generalError": "一般エラー",
+    "lowerThen": "最小値が最大値を超えることはできません",
+    "match": "このパスワードは以前のパスワードと一致しません",
+    "max": "数が大きすぎます",
+    "maxLength": "エントリーが長すぎます",
+    "maxLengthPassword": "パスワードが長すぎます",
+    "min": "数が小さすぎます",
+    "minLength": "エントリーが短すぎます",
+    "minLengthPassword": "パスワードは8文字以上である必要があります",
+    "missingPermissionError": "このアクションを実行するための適切な権限がありません。",
+    "nameFieldValidation": "申し訳ありませんが、\\ / ! + < > ? # & , % \"は使用できません",
+    "noAddedShiftPatters": "少なくとも1つの日次ルールを選択する必要があります",
+    "number": "数字のみです",
+    "password": "パスワードは、数字1文字以上と大文字1文字以上を含む8文字以上でなければなりません。",
+    "pattern": "このフィールドの形式が正しくありません",
+    "possibleDaysLowerThanMinDays": "可能な日数が週間ルールで要求される最小日数を満たしていません。",
+    "relativeStartLowerThanSlack": "スラックを相対開始の値より大きくすることはできません",
+    "required": "このフィールドは必須です。",
+    "serverError": "不明なサーバーエラー",
+    "shiftLengthLowerThanActivityLength": "アクティビティの長さと相対開始の合計がシフトの長さを超えることはできません",
+    "shiftLengthLowerThanTotalActivityLength": "アクティビティの長さの合計がシフトの長さを超えることはできません",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最小日数が一意の日の合計数を超えています。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "週間ルールの最小日数が一意の日数を超えています。",
+    "uniqueString": "この名前はすでに存在します。新しいものを試してください。",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "1日の最小組み合わせ時間の合計が1週間の最大合計時間を超えることはできません",
+    "weeklyMaxLowerThanSumDailyMin": "日次ルールで要求される最小日数が週間ルールの最大日数を超えています。",
+    "weeklyMinGreaterThanSumDailyMax": "週間ルールの最小日数が日次ルールで要求される最大日数を超えています。",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "1日の最大組み合わせ時間の合計が1週間の最小合計時間を下回ることはできません"
+  },
+  "globalNavigation": {
+    "sideBar": {
+      "formManagerAppLinks": {
+        "formDesigner": "フォームデザイナー",
+        "manageForms": "フォームマネジャー",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "テンプレートマネジャー"
+      },
+      "formManagerAppName": "QMツール",
+      "mySpaceAppLinks": {
+        "calibration": "調整",
+        "myDashboard": "自分のダッシュボード",
+        "myEvaluations": "自分の評価",
+        "mySchedule": "自分のスケジュール",
+        "myTasks": "自分のタスク",
+        "performanceMonitoring": "パフォーマンスモニタリング",
+        "plansMonitoring": "プランモニタリング"
+      },
+      "mySpaceAppName": "自分のスペース",
+      "schedulerAppLinks": {
+        "acdActivitiesMapping": "ACDマッピング",
+        "activityCodes": "アクティビティコード",
+        "dailyRule": "日次ルール",
+        "forecastData": "フォーキャストデータのインポート",
+        "generateSchedule": "スケジュールの生成",
+        "managementUnits": "スケジューリングユニット",
+        "realTimeAdherence": "リアルタイム遵守",
+        "scheduler": "スケジュール管理",
+        "weeklyRules": "週間ルール"
+      },
+      "schedulerAppName": "スケジューラ",
+      "setupAppLinks": {
+        "groups": "グループ",
+        "skills": "スキル",
+        "users": "従業員"
+      },
+      "setupAppName": "管理"
+    },
+    "wfmHeader": {
+      "accountSetupOption": "アカウント設定",
+      "changePasswordOption": "パスワードを変更",
+      "contactUs": "連絡先",
+      "help": "ヘルプ",
+      "logoutOption": "ログアウト",
+      "myProfileOption": "My Profile",
+      "selfService": "サポート - ダウンロード",
+      "wfmText": "Evolve WFM"
+    }
+  },
+  "importUsersModal": {
+    "downloadLink": "ここからダウンロードできます。",
+    "downloadMessage1": "CSVファイルのテンプレートを",
+    "downloadMessage2": "",
+    "errorMsg": "従業員のインポートに失敗しました。",
+    "header": "従業員をインポート",
+    "importErrorsList": {
+      "header": "インポートエラー"
+    },
+    "selectFileMessage": "",
+    "successMsg": "従業員は正常にインポートされました。",
+    "weSupportMessage": "CSVファイルをアップロードして従業員をインポートします。"
+  },
+  "languages": {
+    "chinese": "中国語",
+    "english": "英語",
+    "russian": "ロシア語",
+    "spanish": "スペイン語"
+  },
+  "manageFormsPage": {
+    "EVALUATION": {
+      "errorMsg": {
+        "alreadyPublished": "フォームはすでにアクティブです。",
+        "alreadyUnpublished": "一部のフォームはドラフトであるか、非アクティブであり、非アクティブ化できません。フォームをアクティブ化して、もう一度お試しください。",
+        "multiFormDelete": "一部のフォームはアクティブであり、削除できません。フォームを非アクティブ化して、もう一度お試しください。",
+        "noFormToDelete": "削除するフォームはありません。"
+      },
+      "failAdd": "新規フォームの追加に失敗しました。もう一度お試しください。",
+      "failedRename": "フォーム名はすでに存在します。",
+      "gridColumnsHeaders": {
+        "title": "フォーム名"
+      },
+      "itemCount": "{{count}}個のフォーム",
+      "itemSearchPlaceholder": "入力してフォームを検索",
+      "popover": {
+        "activeFormsCannotBeDeleted": "アクティブなフォームは削除できません。フォームを非アクティブ化して、もう一度お試しください。",
+        "deleteSelectedFormsMsg": "選択したフォームを削除しますか？このアクションは元に戻すことができず、既存のワークフローに影響を与える可能性があります。",
+        "deleteSingleDraftFormMsg": "選択したフォームを削除しますか？このアクションは元に戻せません。",
+        "deleteSingleFormMsg": "選択したフォームを削除しますか？このアクションは元に戻すことができず、既存のワークフローに影響を与える可能性があります。",
+        "messagePublish": "選択したフォームをアクティブ化しますか？",
+        "messageUnpublish": "フォームを非アクティブ化しますか？既存のワークフローに影響を与える可能性があります。"
+      },
+      "renameFormModal": {
+        "header": "フォームの名前を変更",
+        "subHeading": "フォーム名"
+      },
+      "saveDuplicateFormModal": {
+        "addHeader": "フォームを複製",
+        "errors": {
+          "uniqueTitle": "この名前はすでに存在します。新しいものを試してください。"
+        },
+        "subHeading": "フォーム名"
+      },
+      "successAdd": "フォームが正常に追加されました。",
+      "successDelete": "フォームが正常に削除されました。",
+      "successDuplicate": "フォームが正常に複製されました。",
+      "successMultiPublish": "フォームが正常にアクティブ化されました。",
+      "successPublish": "フォームが正常にアクティブ化されました。",
+      "successRename": "フォームの名前が正常に変更されました。",
+      "successUnpublish": "フォームが正常に非アクティブ化されました。"
+    },
+    "createForm": "新規フォーム",
+    "errorMsg": {
+      "publishErrorNoWorkflowSettings": "アクティブ化に失敗しました。ワークフロー設定を定義する必要があります",
+      "publishErrorNoWorkflowSettingsMulti": "一部のフォームのアクティブ化に失敗しました。これらのフォームにはワークフロー設定を定義する必要があります",
+      "singleFormDelete": "アクティブなフォームは削除できません。最初にフォームを非アクティブ化する必要があります"
+    },
+    "errorRead": "フォームを読み込み中にエラーが発生しました",
+    "gridColumnsHeaders": {
+      "actions": "アクション",
+      "active": "アクティブ",
+      "bulkOperationsBtns": {
+        "activate": "アクティブ化",
+        "deactivate": "非アクティブ化",
+        "delete": "削除"
+      },
+      "createdBy": "作成者",
+      "draft": "ドラフト",
+      "form": "フォーム名",
+      "inactive": "非アクティブ",
+      "lastModified": "最終変更",
+      "status": "ステータス",
+      "version": "バージョン"
+    },
+    "item": "フォーム",
+    "items": "フォーム",
+    "modals": {
+      "cancel": "キャンセル",
+      "change": "変更"
+    },
+    "moreMenu": {
+      "activate": "アクティブ化",
+      "deactivate": "非アクティブ化",
+      "duplicate": "複製",
+      "rename": "名前を変更"
+    },
+    "noItemsOverlay": "一致するものが見つかりません",
+    "pageTitle": "フォームマネジャー",
+    "successRename": "フォームの名前が正常に変更されました"
+  },
+  "manageTemplatePage": {
+    "createTemplateModal": {
+      "duplicateTemplate": "テンプレートはすでに存在します",
+      "enableNumbering": "有効",
+      "errorMsg": "テンプレートの作成に失敗しました",
+      "header": "新規テンプレート",
+      "headerImage": "ヘッダーイメージ",
+      "logoErrorMsg": "ロゴのアップロードに失敗しました",
+      "logoFileMsg": "アップロードするファイルを正しく選択する必要があります",
+      "numbering": "ナンバリング",
+      "popover": {
+        "message1": "すべての変更は失われます",
+        "message2": "保存せずに終了してもよろしいですか？"
+      },
+      "setBgColor": "背景色",
+      "setDefaultTemplate": "このテンプレートをデフォルトとして設定",
+      "successMsg": "テンプレートが正常に作成されました",
+      "templatePlaceholder": "テンプレート名を入力"
+    },
+    "pageTitle": "",
+    "tabs": {
+      "design": "デザイン",
+      "settings": "設定"
+    }
+  },
+  "messages": {
+    "noResultsText": "結果は見つかりませんでした"
+  },
+  "metaInfo": {
+    "UIKitGallery": {
+      "description": "NICE SaaS WFM",
+      "title": "UIキットギャラリー",
+      "userRoles": "{{selectedCount}}人の従業員の役割"
+    },
+    "acdActivitiesMapping": {
+      "description": "NICE SaaS WFM",
+      "title": " ACDマッピング"
+    },
+    "activityCodes": {
+      "description": "NICE SaaS WFM",
+      "title": "アクティビティコード"
+    },
+    "categoryManager": {
+      "description": "NICE SaaS WFM",
+      "title": "カテゴリーマネジャー"
+    },
+    "createAccount": {
+      "description": "NICE SaaS WFM",
+      "title": "アカウント作成"
+    },
+    "dailyRule": {
+      "description": "NICE SaaS WFM",
+      "title": "日次ルール"
+    },
+    "description": "NICE SaaS WFM",
+    "employeeGroups": {
+      "description": "NICE SaaS WFM",
+      "title": "スケジューリングユニット"
+    },
+    "examples": {
+      "description": "NICE SaaS WFM",
+      "title": "例"
+    },
+    "expiredInvitation": {
+      "description": "NICE SaaS WFM",
+      "title": "期限切れの招待"
+    },
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "formDesigner": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームデザイナー"
+    },
+    "formDesignerNew": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームデザイナー"
+    },
+    "formDesignerOld": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームデザイナー"
+    },
+    "form_example": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームの例"
+    },
+    "generateschedule": {
+      "description": "NICE SaaS WFM",
+      "title": "スケジュールの生成"
+    },
+    "interactionPlayer": {
+      "description": "インタラクションプレイヤー",
+      "title": "インタラクションプレイヤー"
+    },
+    "login": {
+      "description": "NICE SaaS WFM",
+      "title": "ログイン"
+    },
+    "manageForms": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームマネジャー"
+    },
+    "myDashboard": {
+      "description": "NICE SaaS WFM",
+      "title": "自分のダッシュボード"
+    },
+    "mySchedule": {
+      "description": "NICE SaaS WFM",
+      "title": "自分のスケジュール"
+    },
+    "ng1FormDesignerPage": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームデザイナー"
+    },
+    "ng2FormDesignerPage": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームデザイナー"
+    },
+    "planDetails": {
+      "description": "プランモニタリング詳細",
+      "title": "プランモニタリング詳細"
+    },
+    "qmScoreMetric": {
+      "description": "QMスコアメトリック",
+      "title": "QMスコアメトリック"
+    },
+    "qpPlanDetails": {
+      "description": "Quality Planner",
+      "title": "Quality Planner"
+    },
+    "qpPlanManager": {
+      "description": "Quality Planner",
+      "title": "Quality Planner"
+    },
+    "selfService": {
+      "title": "サポート - ダウンロード"
+    },
+    "success": {
+      "description": "NICE SaaS WFM",
+      "title": "成功"
+    },
+    "templateManager": {
+      "description": "NICE SaaS WFM",
+      "title": "テンプレートマネジャー"
+    },
+    "title": "NICE SaaS WFM",
+    "userManagement": {
+      "description": "NICE SaaS WFM",
+      "title": "従業員"
+    },
+    "workflowFormSelector": {
+      "description": "ワークフローフォームセレクター",
+      "title": "ワークフローフォームセレクター"
+    },
+    "qpPlanDetailsTicket": {
+      "title": "Quality Plannerチケット",
+      "description": "Quality Plannerチケット"
+    }
+  },
+  "mySchedule": {
+    "errorRead": "スケジュールの読み込み中にエラーが発生しました。",
+    "pageTitle": "自分のスケジュール",
+    "userName": "{{userName}}"
+  },
+  "ng2FormDesignerPage": {
+    "manageFormsBreadcrumb": "フォームマネジャー",
+    "warningMessageModal": {
+      "areYouSureLeavePage": "保存せずにここを離れてもよろしいですか？",
+      "title": "ページを離れますか？",
+      "unsavedChanges": "未保存のデータがあります。"
+    }
+  },
+  "ng2ManageFormsPage": {
+    "active": "アクティブ",
+    "cancel": "キャンセル",
+    "change": "変更",
+    "columnHeaders": {
+      "actions": "アクション",
+      "createdBy": "作成者",
+      "lastModified": "最終変更",
+      "status": "ステータス",
+      "title": "フォーム名",
+      "version": "バージョン"
+    },
+    "createForm": "新規フォーム",
+    "draft": "ドラフト",
+    "inactive": "非アクティブ",
+    "message": {
+      "alreadyPublished": "フォームはすでにアクティブです。",
+      "alreadyUnpublished": "一部のフォームはドラフトであるか、非アクティブであり、非アクティブ化できません。フォームをアクティブ化して、もう一度お試しください。",
+      "failAdd": "新規フォームの追加に失敗しました。もう一度お試しください。",
+      "failedRename": "フォーム名はすでに存在します。",
+      "failedUpdate": "フォームの更新に失敗しました。",
+      "multiFormDelete": "一部のフォームはアクティブであり、削除できません。フォームを非アクティブ化して、もう一度お試しください。",
+      "noFormToDelete": "削除するフォームはありません。",
+      "publishErrorNoWorkflowSettings": "アクティブ化に失敗しました。ワークフロー設定を定義する必要があります",
+      "publishErrorNoWorkflowSettingsMulti": "一部のフォームのアクティブ化に失敗しました。これらのフォームにはワークフロー設定を定義する必要があります",
+      "singleFormDelete": "アクティブなフォームは削除できません。最初にフォームを非アクティブ化する必要があります",
+      "successDelete": "フォームが正常に削除されました。",
+      "successDuplicate": "フォームが正常に複製されました。",
+      "successMultiPublish": "フォームが正常にアクティブ化されました。",
+      "successPublish": "フォームが正常にアクティブ化されました。",
+      "successRename": "フォームの名前が正常に変更されました。",
+      "successUnpublish": "フォームが正常に非アクティブ化されました。"
+    },
+    "noRowsText": "一致するものが見つかりません",
+    "omnibar": {
+      "bulkOperations": {
+        "activate": "アクティブ化",
+        "deactivate": "非アクティブ化",
+        "delete": "削除"
+      },
+      "itemCount": "{{ count }}個のフォーム",
+      "itemLabel": "フォーム",
+      "itemsLabel": "フォーム",
+      "searchPlaceholder": "入力してフォームを検索",
+      "selectedItemCount": "{{ count }}件選択済"
+    },
+    "pageTitle": "フォームマネジャー",
+    "popover": {
+      "activate": "アクティブ化",
+      "activeFormsCannotBeDeleted": "アクティブなフォームは削除できません。フォームを非アクティブ化して、もう一度お試しください。",
+      "deactivate": "非アクティブ化",
+      "deleteSelectedFormsMsg": {
+        "line1": "選択したフォームを削除しますか？",
+        "line2": "このアクションは元に戻すことができず、既存のワークフローに影響を与える可能性があります。"
+      },
+      "deleteSingleDraftFormMsg": "選択したフォームを削除しますか？このアクションは元に戻せません。",
+      "deleteSingleFormMsg": "選択したフォームを削除しますか？このアクションは元に戻すことができず、既存のワークフローに影響を与える可能性があります。",
+      "duplicate": "複製",
+      "messagePublish": "選択したフォームをアクティブ化しますか？",
+      "messageUnpublish": {
+        "line1": "フォームを非アクティブ化しますか？",
+        "line2": "既存のワークフローに影響を与える可能性があります。"
+      },
+      "rename": "名前を変更"
+    },
+    "renameFormModal": {
+      "header": "フォームの名前を変更",
+      "subHeading": "フォーム名"
+    },
+    "saveDuplicateFormModal": {
+      "addHeader": "フォームを複製",
+      "errors": {
+        "uniqueTitle": "この名前はすでに存在します。新しいものを試してください。"
+      },
+      "subHeading": "フォーム名"
+    }
+  },
+  "ng2QMEditAccessibleTeams": {
+    "buttons": {
+      "apply": "適用",
+      "cancel": "キャンセル",
+      "ok": "OK",
+      "showSelected": "選択されたもののみ表示"
+    },
+    "customSelectTeams": "カスタム選択チーム",
+    "gridColumnsHeaders": {
+      "teamName": "チーム名"
+    },
+    "modalHeader": "チームの選択",
+    "noItemsOverlay": "一致するものが見つかりません",
+    "noTeamAddedMessage": "チームが追加されていません",
+    "noTeamSelectedMessage": "チームが選択されていません",
+    "notAccessibleTeamError": "評価者はチームにアクセスできなくなります",
+    "omnibarMessage": "チームを検索",
+    "removeEvaluator": "評価者を削除",
+    "selectTeamsToggleONHeader": "カスタムチーム選択をオンにする",
+    "selectTeamsToggleOffHeader": "カスタムチーム選択をオフにする",
+    "switchOffSelectTeamsToggleMessage": "評価者にカスタムチーム選択を許可しない場合は、オフを選択します。",
+    "switchOnSelectTeamsToggleMessage": "評価者にカスタムチーム選択を許可する場合は、オンを選択します。"
+  },
+  "ng2QualityPlannerPage": {
+    "planActions": {
+      "activate": "アクティブ化",
+      "deactivate": "非アクティブ化",
+      "duplicate": "複製",
+      "extend": "拡張"
+    },
+    "planStatus": {
+      "active": "アクティブ",
+      "deleted": "削除済",
+      "draft": "ドラフト",
+      "expired": "期限切れ",
+      "inactive": "非アクティブ",
+      "pending": "未解決",
+      "running": "実行中"
+    },
+    "qpPlanDetails": {
+      "RBAC_cannot_activate_error": "品質プランをアクティブ化できません。管理者に連絡してください。",
+      "RBAC_cannot_deactivate_error": "品質プランを非アクティブ化できません。管理者に連絡してください。",
+      "RBAC_cannot_delete_error": "品質プランを削除できません。管理者に連絡してください。",
+      "RBAC_cannot_duplicate_error": "品質プランを複製できません。管理者に連絡してください。",
+      "collaborativeEvaluation": "共同評価",
+      "collaborativeEvaluationHelpText": "この評価はエージェントと評価者の両方が実行し、比較されます",
+      "deleteQualityPlanError": "品質プランの削除に失敗しました。もう一度お試しください。",
+      "description": "説明",
+      "editEvaluatorSelectiveFieldsEditMsg": "編集可能なフィールド：プラン名、説明、評価フォームの割り当て、コールフィルタリング、評価者",
+      "editEvaluatorsInfoIconMsg": "評価者を変更するとプランの分配に影響を及ぼします",
+      "errorActivatingPlan": "品質プランのアクティブ化中にエラーが発生しました。",
+      "errorActivatingPlanPermissionIssue": "このプランをアクティブ化できません。一部の評価者がインタラクションを評価する権限を持っていません。",
+      "errorActivatingPlanStatusIssue": "このプランをアクティブ化できません。アクティブな評価者がいません。",
+      "errorDeactivatingPlan": "品質プランの非アクティブ化中にエラーが発生しました。",
+      "errorSavingPlan": "品質プランを保存中にエラーが発生しました",
+      "errorSavingPlanDueToFilters": "このプランを保存できません。変更できないフィールドを編集しました。",
+      "evaluationType": "評価タイプ",
+      "name": "名前",
+      "pageTitle": "新規品質プランを作成",
+      "planAgentGroups": {
+        "AlreadyAssignedGroups": "割り当て済エージェントグループ",
+        "addAgentGroupsButton": "エージェントグループを追加",
+        "agentGroupsCount": "{{count}}件のエージェントグループ",
+        "agentGroupsHeader": "エージェント",
+        "cancelButton": "キャンセル",
+        "errorMessage": "少なくとも1つのエージェントグループを選択する必要があります",
+        "noAgentGroupsAssignedMessage": "エージェントグループはまだ割り当てられていません",
+        "omnibarMessage": "入力してエージェントグループを検索",
+        "selectAgentGroupsHeader": "エージェントグループを選択",
+        "selectedAgentGroupsLabel": "選択したエージェントグループ",
+        "selectedTxt": "選択済："
+      },
+      "planDuration": {
+        "emptyDatePickerLabel": "日付を選択",
+        "endDateLabel": "終了",
+        "errorMessage": "評価フォームを選択する必要があります",
+        "oneTimeLabel": "1回プラン - 開始日と終了日：",
+        "oneTimePlanNewLabel": "1回",
+        "planDurationMessage": "選択した期間内に発生したコールを評価：",
+        "planDurationTitle": "プランの定義",
+        "recurringLabel": "繰り返し",
+        "recurringOptions": {
+          "monthly": "月次",
+          "weekly": "週次"
+        },
+        "selectForm": "フォームを選択",
+        "startDateLabel": "開始"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "評価フォームの割り当て"
+      },
+      "planEvaluators": {
+        "Administrator": "管理者",
+        "Evaluator": "評価者",
+        "Manager": "マネジャー",
+        "addEvaluatorsButton": "評価者を追加",
+        "alreadyAssignedEvaluators": "割り当て済評価者",
+        "cancelButton": "キャンセル",
+        "customTeamSelection": "カスタムチーム選択",
+        "errorMessage": "少なくとも1人の評価者を選択する必要があります",
+        "errorMessages": {
+          "atleastSingleTeamRequired": "評価者1人につき少なくとも1チームを選択する必要があります",
+          "required": "少なくとも1人の評価者を選択する必要があります"
+        },
+        "evaluators": "評価者",
+        "evaluatorsCount": "{{count}}人の評価者",
+        "evaluatorsHeader": "評価者",
+        "gridColumnsHeaders": {
+          "accessibleTeams": "アクセス可能なチーム",
+          "dailyEvaluations": "日次評価",
+          "fullName": "名前",
+          "role": "役割",
+          "selectedTeams": "選択したチーム"
+        },
+        "modalHeader": "評価者を追加",
+        "noEvaluatorsAddedMessage": "評価者が追加されていません",
+        "noEvaluatorsAssignedMessage": "評価者はまだ割り当てられていません",
+        "noEvaluatorsSelectedMessage": "評価者が選択されていません",
+        "omnibarMessage": "入力して評価者を検索",
+        "selectEvaluatorsHeader": "評価者を選択",
+        "selectedEvaluatorsLabel": "選択された評価者"
+      },
+      "planFilters": {
+        "acdSkillsAndCallReasonsFilter": {
+          "dispostionsLabel": "ディスポジション",
+          "filterLabel": "ACD",
+          "multipathDropdownDisabledInfoIconMsg": "NICE EngageはACDスキルとCSATスコアに対応していません。",
+          "recordingSrcSkillCsatDisabledInfoIconMsg": "レコーディングソースはACDスキルとCSATスコアに対応していません",
+          "selectCallReasons": "コールの理由を選択",
+          "selectSkills": "スキルを選択",
+          "skillsLabel": "スキル"
+        },
+        "agentBehaviourFilter": {
+          "addAnotherAgentBehaviorSentiment": "別のものを追加",
+          "dropdownPlaceHolderText": "行動タイプを選択",
+          "errorInDropDownMessage": "エージェントの行動を選択",
+          "errorMessage": "このフィールドは必須です",
+          "filterLabel": "エージェントの行動",
+          "operatorLabel": "は",
+          "selectAgentBehaviorSentiment": "エージェントの行動とスコアを選択",
+          "sentiments": {
+            "moderately_negative": "比較的ネガティブ",
+            "moderately_positive": "比較的ポジティブ",
+            "neutral": "ニュートラル",
+            "strongly_negative": "非常にネガティブ",
+            "strongly_positive": "非常にポジティブ"
+          }
+        },
+        "atLeastOneFilterMandatoryMessage": "少なくとも1つのフィルターを選択する必要があります",
+        "businessDataFilter": {
+          "dropdownPlaceHolderText": "データタイプを選択",
+          "errorInDropDownMessage": "ビジネスデータタイプを選択",
+          "errorMessage": "このフィールドは必須です",
+          "false": "False",
+          "filterLabel": "ビジネスデータ",
+          "inactiveBusinessDataMsg": "このビジネスデータはアクティブではありません",
+          "inputPlaceHolderForNumber": "数値を入力",
+          "inputPlaceHolderForText": "テキストを入力",
+          "operatorLabel": "は",
+          "true": "True"
+        },
+        "callDirectionFilter": {
+          "callDirectionLabel": "コール方向：",
+          "filterLabel": "方向",
+          "inboundLabel": "インバウンド",
+          "incomingLabel": "着信",
+          "internalLabel": "内部",
+          "outboundLabel": "アウトバウンド",
+          "outgoingLabel": "発信"
+        },
+        "callDurationFilter": {
+          "Between": "次の間",
+          "Greater": "より大きい",
+          "Less": "より小さい",
+          "callDurationLabel": "通話時間：",
+          "durationExceedMaxMessage": "最大通話時間は最小通話時間より大きくなければなりません",
+          "durationLessThenZeroMessage": "通話時間は0より大きくなければなりません"
+        },
+        "categoriesFilter": {
+          "categories": "カテゴリー",
+          "categoryConfidenceLabel": "高信頼度のみ",
+          "noCategoriesSelected": "カテゴリーはまだ選択されていません",
+          "selectCategories": "カテゴリーを選択",
+          "selectedCategories": "カテゴリーを選択({{count}})",
+          "selectedIACategories": "選択されたIAカテゴリー({{count}})",
+          "selectedQMACategories": "選択されたQMカテゴリー({{count}})",
+          "qmaCategoryDeprecationText": "QMAカテゴリーは数回のリリース後に廃止される予定です"
+        },
+        "channelsFilter": {
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "CHAT": "チャット",
+          "CUSTOM_PRIVATE": "カスタム",
+          "EMAIL": "Eメール",
+          "FB_PRIVATE": "Facebook Messenger",
+          "GOOGLE_BUSINESS_MESSAGES_PRIVATE": "Google Business Messenger",
+          "LINE": "LINE Messaging",
+          "LINE_PRIVATE": "LINE Messaging",
+          "MICROSOFT_TEAMS_PRIVATE": "Microsoft Teams",
+          "SLACK_PRIVATE": "Slack",
+          "SMS": "SMS",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "TW_PRIVATE": "Twitterダイレクトメッセージ",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "VOICE": "音声",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "WORKITEM": "ワークアイテム"
+        },
+        "clear": "クリア",
+        "enhancedSentimentFilter": {
+          "cancelButton": "キャンセル",
+          "changeButton": "変更",
+          "enlightenSentiments": {
+            "label": "Enlightenのセンチメント",
+            "subLabel": "予測ネットプロモータースコア(NPS)"
+          },
+          "sentimentPopoverText": "センチメントタイプを変更すると、以前の選択は削除されます",
+          "sentiments": {
+            "label": "センチメント",
+            "subLabel": "会話で使用される単語やフレーズから検出される全体的なムード"
+          },
+          "title": "センチメントを選択"
+        },
+        "enlightenSentimentFilter": {
+          "enlightenSentiment": {
+            "MODERATELYNEGATIVE": "比較的ネガティブ",
+            "MODERATELYPOSITIVE": "比較的ポジティブ",
+            "NEGATIVE": "ネガティブ",
+            "NEUTRAL": "ニュートラル",
+            "POSITIVE": "ポジティブ",
+            "STRONGELYPOSITIVE": "非常にポジティブ",
+            "STRONGLYNEGATIVE": "非常にネガティブ",
+            "VERYNEGATIVE": "非常にネガティブ",
+            "VERYPOSITIVE": "非常にポジティブ"
+          },
+          "sentimentFacet": {
+            "agentSide": "エージェント側",
+            "anySide": "いずれかの側",
+            "bothSides": "エージェントと顧客",
+            "customerSide": "顧客側"
+          }
+        },
+        "feedbackScoreFilter": {
+          "label": "CSATスコア",
+          "to": "終了"
+        },
+        "filterLicenseError": "現在のテナントのライセンスを取得できませんでした。もう一度お試しください。",
+        "filteringHeader": "フィルタリング",
+        "filteringMessage": "",
+        "interactionFilter": {
+          "allInteractionLabel": "すべて",
+          "filterLabel": "インタラクション",
+          "withScreenLabel": "画面あり",
+          "withoutScreenLabel": "画面なし"
+        },
+        "recordedSegmentFilter": {
+          "channelLabel": "チャネル",
+          "chatLabel": "チャット",
+          "emailLabel": "Eメール",
+          "filterLabel": "レコード済セグメントタイプ",
+          "smsLabel": "SMS",
+          "voiceAndScreenLabel": "音声と画面",
+          "voiceLabel": "音声",
+          "voiceOnlyLabel": "音声のみ"
+        },
+        "recordingSourceFilter": {
+          "dropdownPlaceHolderText": "ソースの選択",
+          "recordingSourceLabel": "レコーディングソース",
+          "reordingSouceFitlerTooltipText": "評価するインタラクションのレコーディングソースを選択"
+        },
+        "sentimentFilter": {
+          "filterLabel": "センチメント",
+          "sentiment": {
+            "MIXED": "ミックス",
+            "NEGATIVE": "ネガティブ",
+            "NEUTRAL": "ニュートラル",
+            "POSITIVE": "ポジティブ"
+          },
+          "sentimentFacet": {
+            "agentSide": "エージェント側",
+            "anySide": "いずれかの側",
+            "bothSides": "エージェントと顧客",
+            "customerSide": "顧客側"
+          }
+        },
+        "smsChannelStatusError": "現在のテナントのSMSチャネルステータスを取得できませんでした。もう一度お試しください。",
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "最大チケット時間は最小チケット時間より長くなければなりません",
+          "durationExceedMinMessage": "最小チケット時間は最大チケット時間より短くなければなりません",
+          "durationLessThenZeroMessage": "通話時間は0より大きくなければなりません"
+        },
+        "customAttributesAPIErrorMessage": "カスタム属性を取得できませんでした："
+      },
+      "planSampling": {
+        "daysBackExceedMaxMessage": "プランの長さは{{durationInDays}}日です。1～{{daysRange}}日から選択してください。",
+        "daysLabel": "日",
+        "exclude": "除外する",
+        "excludeEvaluatedInteractionsText": "評価された、またはタグ付けされたインタラクションを評価の対象から外す",
+        "include": "含める",
+        "includeOrExcludeInteractionsEvaluatedOrTaggedForEvaluation": "評価された、または評価のためにタグ付けされたインタラクションを含める、または除外する",
+        "numDaysBackLabel": "過去",
+        "numSegmentsPerAgentLabel": "エージェントあたりのインタラクション",
+        "samplingHeader": "サンプリング",
+        "newSamplingHeader": "配布用サンプルの選択",
+        "includeInteractionsLabel": "インタラクションを含む",
+        "excludeInteractionsLabel": "インタラクションを除外",
+        "fromLastDaysLabel": "直近の",
+        "excludeInteractionsText": "評価済 / 評価用にタグ付け",
+        "timeBasedSelectionLabel": "時間ベースの選択",
+        "startTimeLabel": "開始時刻",
+        "endTimeLabel": "終了時刻",
+        "startTimeSubtext": "インタラクションの開始時刻に基づいて取得",
+        "endTimeSubtext": "インタラクションの終了時刻に基づいて取得"
+      },
+      "planSummary": {
+        "interactionsPerAgent": "エージェントあたりのインタラクション",
+        "interactionsPerDayPerEvaluator": "評価者1人あたりの1日の評価数",
+        "planDays": "プランの合計日数",
+        "planSummary": "プランサマリー",
+        "totalInteractions": "プランの総合評価"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "エージェント",
+        "errorMessages": {
+          "required": "少なくとも1つのチームを選択する必要があります"
+        },
+        "groups": "グループ",
+        "noTeamsSelected": "チームはまだ選択されていません",
+        "selectGroups": "グループを選択",
+        "selectTeams": "チームを選択",
+        "selectedAgents": "現在の合計エージェント数：",
+        "teams": "チーム"
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "タイムゾーン"
+      },
+      "qualityPlansPageBreadcrumb": "品質プラン",
+      "selectiveFieldsEditMsg": "編集可能なフィールド：プラン名、説明、評価フォームの割り当て、コールフィルタリング",
+      "standardEvaluation": "標準評価",
+      "standardEvaluationHelpText": "この評価は評価者のみが実行します",
+      "successActivatingPlan": "品質プランが正常にアクティブ化されました。",
+      "successDeactivatingPlan": "品質プランが正常に非アクティブ化されました。",
+      "successSavingActivePlan": "品質プランを正常に保存しました。変更は次回の分配から有効となります。",
+      "successSavingPlan": "品質プランを正常に保存しました",
+      "successdelete": "プランが正常に削除されました。",
+      "errorActivatingTeamAndGroupIssue": "このプランをアクティブ化できません。無効なチームまたはグループが含まれています",
+      "selectDivision": "部門",
+      "selectItems": "項目を選択",
+      "defaultDivisionMsg": "デフォルトの部門が設定されています",
+      "selectDivisionMsg": "品質プランを進めるには部門を選択してください",
+      "divisionLoadingErrorMsg": "内部サーバーエラーです。もう一度お試しください"
+    },
+    "qualityPlannerPage": {
+      "gridColumnsHeaders": {
+        "evaluationType": "評価タイプ",
+        "planAction": "アクション",
+        "planActivate": "アクティブ化",
+        "planLastModified": "最終変更",
+        "planName": "プラン名",
+        "planOccurrence": "プランの発生",
+        "planState": "ステータス"
+      },
+      "modals": {
+        "duplicatePlan": {
+          "duplicate": "複製",
+          "errorDuplicatingPlanMissingPermissionError": "このアクションを実行するための適切な権限がありません。",
+          "errorMessage": "プラン名はすでに存在します",
+          "header": "プランを複製",
+          "inputText": "プラン名",
+          "successMessage": "プランは正常に複製されました。"
+        }
+      },
+      "newPlanButton": "新規プラン",
+      "noItemsOverlay": "一致するものが見つかりません",
+      "omnibar": {
+        "itemCount": "{{ count }}個のプラン",
+        "searchPlaceholder": "入力してプランを検索"
+      },
+      "pageTitle": "品質プラン",
+      "planCount": "{{count}}個のプラン",
+      "planCountLabel": "プラン",
+      "planOccurrence": {
+        "monthly": "月間繰り返しプラン",
+        "oneTime": "1回",
+        "recurring": "繰り返し",
+        "weekly": "週間繰り返しプラン"
+      },
+      "planSearchPlaceholder": "入力してプランを検索",
+      "plansCountLabel": "プラン",
+      "popovers": {
+        "activatePlan": {
+          "msg1": "プランにエラーがあります。プランをアクティブ化する前に修正する必要があります。",
+          "msg2": "何をしたいですか？"
+        },
+        "closeModal": {
+          "message1": "すべての変更は失われます",
+          "message2": "保存せずに終了してもよろしいですか？"
+        },
+        "deactivatePlan": {
+          "msg1": "このプランを非アクティブ化しようとしています。評価者は今後インタラクションができなくなります。",
+          "msg2": "続行しますか？"
+        },
+        "deletePlan": {
+          "msg1": "このプランを削除しようとしています。このアクションは元に戻せません。",
+          "msg2": "続行しますか？"
+        }
+      },
+      "warningMessageModal": {
+        "areYouSureLeavePage": "保存せずにここを離れてもよろしいですか？",
+        "title": "ページを離れますか？",
+        "unsavedChanges": "未保存のデータがあります。"
+      },
+      "planTabForSegments": "セグメントの品質プランナー",
+      "planTabForTickets": "チケットの品質プランナー",
+      "SearchByPlanStatusPlaceholder": "プランステータスで検索"
+    }
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleLinks": {
+          "categoryManager": "カテゴリーマネジャー",
+          "manageForms": "フォームマネジャー",
+          "qpPlanManager": "Quality Planner"
+        },
+        "formManagerModuleNameFormatted": "QMツール"
+      }
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "一致するものが見つかりません",
+    "modal": {
+      "employeeTab": "従業員はまだ割り当てられていません"
+    }
+  },
+  "notification": {
+    "notificationTitle": "未読の通知が{{Count}}件あります"
+  },
+  "notificationTemplates": {
+    "APPROVED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%%から%%TO_DATE%%までの申請。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "休暇申請が承認されました"
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%%から%%TO_DATE%%までの申請。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "休暇申請がキャンセルされました"
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%%から%%TO_DATE%%までの申請。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "休暇申請は却下されました"
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "新規休暇申請"
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "content": "%%FROM_DATE%%から%%TO_DATE%%までのスケジュールが変更されました。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "スケジュール変更"
+    },
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "content": "%%DATE%%のスケジュールが変更されました。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "スケジュール変更"
+    }
+  },
+  "qpWidget": {
+    "gridColumnsHeaders": {
+      "agentName": "エージェント名",
+      "duration": "長さ",
+      "evaluationDate": "評価日",
+      "evaluationStatus": "評価ステータス",
+      "interactionId": "インタラクションID",
+      "score": "スコア",
+      "startTime": "インタラクション開始",
+      "status": "ステータス",
+      "type": "タイプ"
+    },
+    "noItemsOverlay": "一致するものが見つかりません",
+    "qpInteractionEvalStatus": {
+      "assigned": "割り当て済",
+      "inProgress": "進行中",
+      "pending": "評価待ち"
+    },
+    "qpWidgetEvaluatorHeader": "自分のタスク"
+  },
+  "qualityPlaner": {
+    "planActions": {
+      "activate": "アクティブ化",
+      "deactivate": "非アクティブ化",
+      "duplicate": "複製",
+      "extend": "拡張"
+    },
+    "planStatus": {
+      "active": "アクティブ",
+      "deleted": "削除済",
+      "draft": "ドラフト",
+      "expired": "期限切れ",
+      "inactive": "非アクティブ",
+      "pending": "未解決",
+      "running": "実行中"
+    },
+    "qualityPlanerPage": {
+      "collaborativeEvaluation": " 共同",
+      "gridColumnsHeaders": {
+        "evaluationType": "評価タイプ",
+        "planAction": "アクション",
+        "planActivate": "アクティブ化",
+        "planLastModified": "最終変更",
+        "planName": "プラン名",
+        "planOccurrence": "プランの発生",
+        "planState": "ステータス"
+      },
+      "itemsCountLabel": "プラン",
+      "modals": {
+        "duplicatePlan": {
+          "duplicate": "複製",
+          "header": "プランを複製",
+          "inputText": "プラン名",
+          "successMsg": "プランは正常に複製されました。",
+          "placeholder": "プラン名を入力"
+        }
+      },
+      "newPlanButton": "新規プラン",
+      "noItemsOverlay": "一致するものが見つかりません",
+      "pageTitle": "品質プラン",
+      "planCount": "{{count}}個のプラン",
+      "planOccurrence": {
+        "monthly": "月間繰り返しプラン",
+        "oneTime": "1回",
+        "recurring": "繰り返し",
+        "weekly": "週間繰り返しプラン"
+      },
+      "planSearchPlaceholder": "入力してプランを検索",
+      "popovers": {
+        "activatePlan": {
+          "msg1": "プランにエラーがあります。プランをアクティブ化する前に修正する必要があります。",
+          "msg2": "何をしたいですか？"
+        },
+        "closeModal": {
+          "message1": "すべての変更は失われます",
+          "message2": "保存せずに終了してもよろしいですか？"
+        },
+        "deactivatePlan": {
+          "msg1": "このプランを非アクティブ化しようとしています。評価者は今後インタラクションができなくなります。",
+          "msg2": "続行しますか？"
+        },
+        "deletePlan": {
+          "msg1": "このプランを削除しようとしています。このアクションは元に戻せません。",
+          "msg2": "続行しますか？"
+        }
+      },
+      "standardEvaluation": "標準",
+      "warningMessageModal": {
+        "areYouSureLeavePage": "保存せずにここを離れてもよろしいですか？",
+        "title": "ページを離れますか？",
+        "unsavedChanges": "未保存のデータがあります。"
+      },
+      "newTicketPlanButton": "チケット用新規プラン",
+      "newSegmentPlanButton": "セグメント用新規プラン",
+      "SearchByPlanStatusPlaceholder": "プランステータスで検索"
+    },
+    "qualityPlannerNewPlanPage": {
+      "collaborativeEvaluation": "共同",
+      "collaborativeEvaluationHelpText": "この評価はエージェントと評価者の両方が実行し、比較されます",
+      "deleteQualityPlanError": "品質プランの削除に失敗しました。もう一度お試しください。",
+      "description": "説明",
+      "errorActivatingPlan": "品質プランのアクティブ化中にエラーが発生しました。",
+      "errorActivatingPlanPermissionIssue": "このプランをアクティブ化できません。一部の評価者がインタラクションを評価する権限を持っていません。",
+      "errorActivatingPlanStatusIssue": "このプランをアクティブ化できません。アクティブな評価者がいません。",
+      "errorDeactivatingPlan": "品質プランの非アクティブ化中にエラーが発生しました。",
+      "errorSavingPlan": "品質プランを保存中にエラーが発生しました",
+      "errorSavingPlanDueToFilters": "このプランを保存できません。変更できないフィールドを編集しました。",
+      "evaluationType": "評価タイプ",
+      "name": "名前",
+      "pageTitle": "新規品質プランを作成",
+      "planAgentGroups": {
+        "AlreadyAssignedGroups": "割り当て済エージェントグループ",
+        "addAgentGroupsButton": "エージェントグループを追加",
+        "agentGroupsCount": "{{count}}件のエージェントグループ",
+        "agentGroupsHeader": "エージェント",
+        "cancelButton": "キャンセル",
+        "errorMessage": "少なくとも1つのエージェントグループを選択する必要があります",
+        "noAgentGroupsAssignedMessage": "エージェントグループはまだ割り当てられていません",
+        "omnibarMessage": "入力してエージェントグループを検索",
+        "selectAgentGroupsHeader": "エージェントグループを選択",
+        "selectedAgentGroupsLabel": "選択したエージェントグループ",
+        "selectedTxt": "選択済："
+      },
+      "planDuration": {
+        "emptyDatePickerLabel": "日付を選択",
+        "endDateLabel": "終了",
+        "errorMessage": "評価フォームを選択する必要があります",
+        "oneTimeLabel": "1回プラン - 開始日と終了日：",
+        "planDurationMessage": "選択した期間内に発生したコールを評価：",
+        "planDurationTitle": "プランの定義",
+        "recurringLabel": "繰り返し",
+        "recurringOptions": {
+          "monthly": "月次",
+          "weekly": "週次"
+        },
+        "selectForm": "フォームを選択",
+        "startDateLabel": "開始"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "評価フォームの割り当て："
+      },
+      "planEvaluators": {
+        "Administrator": "管理者",
+        "Evaluator": "評価者",
+        "Manager": "マネジャー",
+        "addEvaluatorsButton": "評価者を追加",
+        "alreadyAssignedEvaluators": "割り当て済評価者",
+        "cancelButton": "キャンセル",
+        "errorMessage": "少なくとも1人の評価者を選択する必要があります",
+        "evaluatorsCount": "{{count}}人の評価者",
+        "evaluatorsHeader": "評価者",
+        "noEvaluatorsAssignedMessage": "評価者はまだ割り当てられていません",
+        "omnibarMessage": "入力して評価者を検索",
+        "selectEvaluatorsHeader": "評価者を選択",
+        "selectedEvaluatorsLabel": "選択された評価者"
+      },
+      "planFilters": {
+        "acdSkillsAndCallReasonsFilter": {
+          "dispostionsLabel": "ディスポジション",
+          "filterLabel": "ACD",
+          "selectDispositions": "ディスポジションを選択",
+          "selectSkills": "スキルを選択",
+          "skillsLabel": "スキル"
+        },
+        "atLeastOneFilterMandatoryMessage": "少なくとも1つのフィルターを選択する必要があります",
+        "businessDataFilter": {
+          "dropdownPlaceHolderText": "データタイプを選択",
+          "errorInDropDownMessage": "ビジネスデータタイプを選択",
+          "errorMessage": "このフィールドは必須です",
+          "filterLabel": "ビジネスデータ",
+          "inactiveBusinessDataMsg": "このビジネスデータはアクティブではありません",
+          "inputPlaceHolderForNumber": "数値を入力",
+          "inputPlceHolderForText": "テキストを入力",
+          "operatorLabel": "は"
+        },
+        "callDirectionFilter": {
+          "callDirectionLabel": "コール方向：",
+          "filterLabel": "方向",
+          "inboundLabel": "インバウンド",
+          "incomingLabel": "着信",
+          "internalLabel": "内部",
+          "outboundLabel": "アウトバウンド",
+          "outgoingLabel": "発信"
+        },
+        "callDurationFilter": {
+          "Between": "次の間",
+          "Greater": "より大きい",
+          "Less": "より小さい",
+          "callDurationLabel": "通話時間：",
+          "durationExceedMaxMessage": "最大通話時間は最小通話時間より大きくなければなりません",
+          "durationLessThenZeroMessage": "通話時間は0より大きくなければなりません"
+        },
+        "categoriesFilter": {
+          "categories": "カテゴリー",
+          "categoryConfidenceLabel": "高信頼度のみ",
+          "noCategoriesSelected": "カテゴリーはまだ選択されていません",
+          "selectCategories": "カテゴリーを選択",
+          "selectedCategories": "カテゴリーを選択({{count}})"
+        },
+        "channelFilters": {
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "CHAT": "チャット",
+          "CUSTOM_PRIVATE": "カスタム",
+          "EMAIL": "Eメール",
+          "FB_PRIVATE": "Facebook Messenger",
+          "LINE": "LINE Messaging",
+          "LINE_PRIVATE": "LINE Messaging",
+          "SMS": "SMS",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "TW_PRIVATE": "Twitterダイレクトメッセージ",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "VOICE": "音声",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "WORKITEM": "ワークアイテム"
+        },
+        "feedbackScoreFilter": {
+          "label": "CSATスコア",
+          "to": "終了"
+        },
+        "filterLicenseError": "現在のテナントのライセンスを取得できませんでした。もう一度お試しください。",
+        "filteringHeader": "フィルタリング",
+        "filteringMessage": "",
+        "interactionFilter": {
+          "allInteractionLabel": "すべて",
+          "filterLabel": "インタラクション",
+          "withScreenLabel": "画面あり",
+          "withoutScreenLabel": "画面なし"
+        },
+        "recordedSegmentFilter": {
+          "channelLabel": "チャネル",
+          "chatLabel": "チャット",
+          "emailLabel": "Eメール",
+          "filterLabel": "レコード済セグメントタイプ",
+          "smsLabel": "SMS",
+          "voiceAndScreenLabel": "音声と画面",
+          "voiceLabel": "音声",
+          "voiceOnlyLabel": "音声のみ"
+        },
+        "smsChannelStatusError": "現在のテナントのSMSチャネルステータスを取得できませんでした。もう一度お試しください。",
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "最大チケット時間は最小チケット時間より長くなければなりません",
+          "durationExceedMinMessage": "最小チケット時間は最大チケット時間より短くなければなりません",
+          "durationLessThenZeroMessage": "通話時間は0より大きくなければなりません"
+        }
+      },
+      "planSampling": {
+        "daysBackExceedMaxMessage": "プランの長さは{{durationInDays}}日です。1～{{daysRange}}日から選択してください。",
+        "daysLabel": "日",
+        "numDaysBackLabel": "過去",
+        "numSegmentsPerAgentLabel": "エージェントあたりのインタラクション数：",
+        "samplingHeader": "サンプリング"
+      },
+      "planSummary": {
+        "interactionsPerAgent": "エージェントあたりのインタラクション",
+        "interactionsPerDayPerEvaluator": "評価者1人あたりの1日の評価数",
+        "planDays": "プランの合計日数",
+        "planSummary": "プランサマリー",
+        "totalInteractions": "プランの総合評価"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "エージェント",
+        "errorMessages": {
+          "required": "少なくとも1つのチームを選択する必要があります"
+        },
+        "groups": "グループ",
+        "noTeamsSelected": "チームはまだ選択されていません",
+        "selectGroups": "グループを選択",
+        "selectTeams": "チームを選択",
+        "selected": " 選択済",
+        "selectedAgents": "現在の合計エージェント数：",
+        "teams": "チーム"
+      },
+      "qualityPlansPageBreadcrumb": "品質プラン",
+      "selectiveFieldsEditMsg": "編集可能なフィールド：プラン名、説明、評価フォームの割り当て、コールフィルタリング",
+      "standardEvaluation": "標準",
+      "standardEvaluationHelpText": "この評価は評価者のみが実行します",
+      "successActivatingPlan": "品質プランが正常にアクティブ化されました。",
+      "successDeactivatingPlan": "品質プランが正常に非アクティブ化されました。",
+      "successSavingActivePlan": "品質プランを正常に保存しました。変更は次回の分配から有効となります。",
+      "successSavingPlan": "品質プランを正常に保存しました",
+      "successdelete": "プランが正常に削除されました。",
+      "ticketFilters": {
+        "DirectionType": {
+          "Incoming": "着信",
+          "Outgoing": "発信"
+        },
+        "Messages": {
+          "DirectionTypeRequired": "少なくとも1つの方向タイプが選択されている必要があります。",
+          "MaxDurationValidation": "最大時間は最小時間より長くする必要があります",
+          "MaxCountValidation": "最大件数は最小件数より大きくする必要があります。",
+          "FieldRequired": "このフィールドは必須です"
+        },
+        "TicketFilter": {
+          "TicketType": "チケットタイプ",
+          "Priority": "優先度",
+          "Status": "ステータス",
+          "Direction": "方向",
+          "Score": "スコア",
+          "CSATScore": "CSATスコア",
+          "HoldTimeDuration": "保留時間",
+          "TalkTimeDuration": "通話時間",
+          "TotalHandleTimeDuration": "合計対応時間",
+          "WaitTimeDuration": "待機時間",
+          "WrapTimeDuration": "後処理時間",
+          "TotalReplies": "合計返信回数",
+          "TotalReopens": "合計再オープン回数",
+          "excludeEvaluatedOrTaggedInteractionsText": "評価済みまたはタグ付きのインタラクションを除外",
+          "sentiment": "センチメント",
+          "agentBehavior": "エージェントの行動"
+        }
+      }
+    }
+  },
+  "selfService": {
+    "acdInstallerTitle": "ACDインストーラー",
+    "firstParagraph": "ACDインストーラーは、ACD (自動着信呼分配)システムとEvolveWFMとの間の接続を確立します。その後、EvolveWFMはACDイベントを受信し、RTA (リアルタイム遵守)情報を生成します。",
+    "generateKeyButton": "キーの生成",
+    "generateKeyExplanation": "APIキーを生成するには、管理者である必要があります",
+    "generateKeyHeader": "APIキーの生成",
+    "installersList": {
+      "fileName": "ファイル名",
+      "title": "ACDインストーラーのダウンロード",
+      "vendor": "ベンダー",
+      "version": "バージョン"
+    },
+    "instructionsHeader": "インストール手順",
+    "instructions_1": "1. セルフサービスのオンプレミス統合エリアからインストーラー配信をダウンロードします",
+    "instructions_2": "2. ダウンロードしたインストーラー配信を都合の良い場所で解凍します(例：C:/Temp/AvayaCMSInstaller)",
+    "instructions_3": "3. インストールを開始するには、Windowsではinstall.batを、Linuxではinstall.shを実行します",
+    "instructions_4": "4. インストーラーウィザードに従ってAvaya CMS ASCを設定します",
+    "modal": {
+      "copyBtn": "クリップボードにコピー",
+      "email": "Eメールアドレス",
+      "generate": "作成",
+      "generateBtnText": "作成",
+      "password": "パスワード",
+      "result": "APIキーが正常に生成されました",
+      "title": "EvolveWFMのEメールアドレスとパスワードを入力し、[生成]をクリックします"
+    }
+  },
+  "setupPage": {
+    "qmScoreMetricPage": {
+      "averageOfPercentages": "パーセンテージの平均",
+      "averageOfPercentagesInfo": "獲得した質問ポイントの合計 / 獲得可能な質問ポイントの合計 X 100 = %スコア / 実施した評価数",
+      "averageOfValues": "値の平均",
+      "averageOfValuesInfo": "獲得した質問ポイントの合計 / 獲得可能な質問ポイントの合計 x 100",
+      "loadQMMetricFormulaErrorMessage": "ページを読み込めませんでした。サーバーに接続されていません。もう一度お試しください。この問題が続く場合は、システム管理者にお問い合わせください。",
+      "pageTitle": "QMスコアメトリック",
+      "qmMetricFormula": "QMメトリック式",
+      "qmScoreMetricErrorMessage": "選択したQMメトリック式を保存できませんでした、もう一度お試しください。",
+      "qmScoreMetricSaveSuccessMessage": "QMメトリック式が正常に保存されました。"
+    }
+  },
+  "successPage": {
+    "welcomeMsg": "こんにちは、{{username}}さん"
+  },
+  "teamsAndGroups": {
+    "errorMessages": {
+      "required": "少なくとも1つのチームを選択する必要があります"
+    },
+    "groups": "グループ",
+    "selectGroups": "グループを選択",
+    "selectTeams": "チームを選択",
+    "teams": "チーム"
+  },
+  "templateManagerPage": {
+    "createTemplate": "新規テンプレート",
+    "item": "フォーム",
+    "items": "フォーム",
+    "pageTitle": "テンプレートマネジャー"
+  },
+  "timePicker": {
+    "openTimePicker": "時間選択ツールを開く"
+  },
+  "uikitGallery": {
+    "searchPlaceholder": "入力して従業員を検索",
+    "selectedCount": "{{count}}名選択済",
+    "userCount": "{{count}}名の従業員"
+  },
+  "weekDays": {
+    "friday": "金曜日",
+    "monday": "月曜日",
+    "saturday": "土曜日",
+    "sunday": "日曜日",
+    "thursday": "木曜日",
+    "tuesday": "火曜日",
+    "wednesday": "水曜日"
+  },
+  "weekShortDays": {
+    "FRI": "金曜",
+    "MON": "月曜",
+    "SAT": "土曜",
+    "SUN": "日曜",
+    "THU": "木曜",
+    "TUE": "火曜",
+    "WED": "水曜"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "翌日",
+    "openCalendar": "カレンダーを開く",
+    "openTimeChooser": "タイムピッカーを開く",
+    "previousDay": "前日",
+    "today": "今日"
+  },
+  "workflowFormSelector": {
+    "change": "変更",
+    "changeFormHeader": "フォームを変更",
+    "disabledFormInPlanMessage": "評価フォームを選択します。",
+    "noFormInPlanMessage": "評価フォームを選択します。",
+    "noFormsMsg": "利用可能なフォームはありません。",
+    "select": "選択",
+    "selectFormHeader": "フォームを選択",
+    "workflowFormSelectorText": "実行を開始するフォームを選択してください："
+  },
+  "workflowStatusUI": {
+    "Assigned": "新規",
+    "Auto-acknowledged": "自動認識",
+    "Claimed": "新規",
+    "Completed": "完了",
+    "Completed_Acknowledged": "完了",
+    "Completed_and_Not_Reviewed": "完了レビューなし",
+    "Completed_and_Reviewed": "完了レビュー済",
+    "Dispute": "異議あり",
+    "Expired": "期限切れ",
+    "InProgress": "ドラフト",
+    "InReview": "異議あり",
+    "PartiallyCompleted": "部分的に完了",
+    "Pending_Acknowledgement": "新規",
+    "Request_Review": "異議あり",
+    "Reviewed_and_Completed": "レビュー完了",
+    "Sent_To_Agent": "提出済",
+    "WaitingForAgent": "エージェントを待っています",
+    "WaitingForEvaluator": "評価者を待っています",
+    "selfAssessment": {
+      "completed": "完了",
+      "draft": "ドラフト",
+      "expired": "期限切れ",
+      "new": "新規"
+    }
+  },
+  "workflowStatuses": {
+    "Claimed": "申請済",
+    "Completed": "完了",
+    "Completed_Acknowledged": "完了認識済",
+    "Dispute": "異議",
+    "InProgress": "進行中",
+    "InReview": "レビュー中",
+    "Pending_Acknowledgement": "認識待ち",
+    "Request_Review": "リクエストレビュー",
+    "Reviewed_and_Completed": "レビュー済完了"
+  },
+  "workflowType": {
+    "evaluations": "評価"
+  },
+  "ticketQualityPlannerPage": {
+    "planStatus": {
+      "draft": "ドラフト",
+      "active": "アクティブ",
+      "inactive": "非アクティブ",
+      "running": "実行中",
+      "expired": "期限切れ",
+      "pending": "未解決",
+      "deleted": "削除済"
+    },
+    "planActions": {
+      "activate": "アクティブ化",
+      "deactivate": "非アクティブ化",
+      "extend": "拡張",
+      "duplicate": "複製"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "品質プラン",
+      "newTicketPlanButton": "チケット用新規プラン",
+      "newSegmentPlanButton": "セグメント用新規プラン",
+      "noItemsOverlay": "一致するものが見つかりません",
+      "plansCountLabel": "プラン",
+      "planCountLabel": "プラン",
+      "planCount": "{{count}}個のプラン",
+      "planSearchPlaceholder": "入力してプランを検索",
+      "planTabForSegments": "セグメントの品質プランナー",
+      "planTabForTickets": "チケットの品質プランナー",
+      "gridColumnsHeaders": {
+        "planName": "プラン名",
+        "evaluationType": "評価タイプ",
+        "planOccurrence": "プランの発生",
+        "planLastModified": "最終変更",
+        "planState": "ステータス",
+        "planAction": "アクション",
+        "planActivate": "アクティブ化"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }}個のプラン",
+        "searchPlaceholder": "入力してプランを検索"
+      },
+      "planOccurrence": {
+        "recurring": "繰り返し",
+        "monthly": "月間繰り返しプラン",
+        "weekly": "週間繰り返しプラン",
+        "oneTime": "1回"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "このプランを削除しようとしています。このアクションは元に戻せません。",
+          "msg2": "続行しますか？"
+        },
+        "activatePlan": {
+          "msg1": "プランにエラーがあります。プランをアクティブ化する前に修正する必要があります。",
+          "msg2": "何をしたいですか？"
+        },
+        "deactivatePlan": {
+          "msg1": "このプランを非アクティブ化しようとしています。評価者は今後インタラクションができなくなります。",
+          "msg2": "続行しますか？"
+        },
+        "closeModal": {
+          "message1": "すべての変更は失われます",
+          "message2": "保存せずに終了してもよろしいですか？"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "プラン名",
+          "successMessage": "プランは正常に複製されました。",
+          "errorMessage": "プラン名はすでに存在します",
+          "header": "プランを複製",
+          "duplicate": "複製",
+          "errorDuplicatingPlanMissingPermissionError": "このアクションを実行するための適切な権限がありません。"
+        }
+      },
+      "warningMessageModal": {
+        "title": "ページを離れますか？",
+        "unsavedChanges": "未保存のデータがあります。",
+        "areYouSureLeavePage": "保存せずにここを離れてもよろしいですか？"
+      }
+    },
+    "qpPlanDetails": {
+      "RBAC_cannot_delete_error": "品質プランを削除できません。管理者に連絡してください。",
+      "RBAC_cannot_activate_error": "品質プランをアクティブ化できません。管理者に連絡してください。",
+      "RBAC_cannot_duplicate_error": "品質プランを複製できません。管理者に連絡してください。",
+      "RBAC_cannot_deactivate_error": "品質プランを非アクティブ化できません。管理者に連絡してください。",
+      "pageTitle": "新規品質プランを作成",
+      "qualityPlansPageBreadcrumb": "品質プラン",
+      "name": "名前",
+      "description": "説明",
+      "errorSavingPlan": "品質プランを保存中にエラーが発生しました",
+      "errorSavingPlanDueToFilters": "このプランを保存できません。変更できないフィールドを編集しました。",
+      "successSavingPlan": "品質プランを正常に保存しました",
+      "successSavingActivePlan": "品質プランを正常に保存しました。変更は次回の分配から有効となります。",
+      "selectiveFieldsEditMsg": "編集可能なフィールド：プラン名、説明、評価フォームの割り当て、コールフィルタリング",
+      "editEvaluatorSelectiveFieldsEditMsg": "編集可能なフィールド：プラン名、説明、評価フォームの割り当て、コールフィルタリング、評価者",
+      "editEvaluatorsInfoIconMsg": "評価者を変更するとプランの分配に影響を及ぼします",
+      "successActivatingPlan": "品質プランが正常にアクティブ化されました。",
+      "successDeactivatingPlan": "品質プランが正常に非アクティブ化されました。",
+      "errorActivatingPlan": "品質プランのアクティブ化中にエラーが発生しました。",
+      "errorActivatingPlanPermissionIssue": "このプランをアクティブ化できません。一部の評価者がインタラクションを評価する権限を持っていません。",
+      "errorActivatingPlanStatusIssue": "このプランをアクティブ化できません。アクティブな評価者がいません。",
+      "errorDeactivatingPlan": "品質プランの非アクティブ化中にエラーが発生しました。",
+      "successdelete": "プランが正常に削除されました。",
+      "deleteQualityPlanError": "品質プランの削除に失敗しました。もう一度お試しください。",
+      "evaluationType": "評価タイプ",
+      "standardEvaluation": "標準評価",
+      "standardEvaluationHelpText": "この評価は評価者のみが実行します",
+      "collaborativeEvaluation": "共同評価",
+      "collaborativeEvaluationHelpText": "この評価はエージェントと評価者の両方が実行し、比較されます",
+      "planDuration": {
+        "planDurationTitle": "プランの定義",
+        "planDurationMessage": "選択した期間内に発生したコールを評価：",
+        "recurringLabel": "繰り返し",
+        "oneTimeLabel": "1回プラン - 開始日と終了日：",
+        "oneTimePlanNewLabel": "1回",
+        "startDateLabel": "開始",
+        "endDateLabel": "終了",
+        "emptyDatePickerLabel": "日付を選択",
+        "selectForm": "フォームを選択",
+        "errorMessage": "評価フォームを選択する必要があります",
+        "recurringOptions": {
+          "monthly": "月次",
+          "weekly": "週次"
+        }
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "評価者",
+        "noEvaluatorsAssignedMessage": "評価者はまだ割り当てられていません",
+        "noEvaluatorsSelectedMessage": "評価者が選択されていません",
+        "noEvaluatorsAddedMessage": "評価者が追加されていません",
+        "selectedEvaluatorsLabel": "選択された評価者",
+        "addEvaluatorsButton": "評価者を追加",
+        "modalHeader": "評価者を追加",
+        "selectEvaluatorsHeader": "評価者を選択",
+        "cancelButton": "キャンセル",
+        "errorMessage": "少なくとも1人の評価者を選択する必要があります",
+        "omnibarMessage": "入力して評価者を検索",
+        "evaluatorsCount": "{{count}}人の評価者",
+        "evaluators": "評価者",
+        "Evaluator": "評価者",
+        "Manager": "マネジャー",
+        "Administrator": "管理者",
+        "alreadyAssignedEvaluators": "割り当て済評価者",
+        "customTeamSelection": "カスタムチーム選択",
+        "gridColumnsHeaders": {
+          "fullName": "名前",
+          "role": "役割",
+          "accessibleTeams": "アクセス可能なチーム",
+          "selectedTeams": "選択したチーム",
+          "dailyEvaluations": "日次評価"
+        },
+        "errorMessages": {
+          "required": "少なくとも1人の評価者を選択する必要があります",
+          "atleastSingleTeamRequired": "評価者1人につき少なくとも1チームを選択する必要があります"
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "エージェント",
+        "noAgentGroupsAssignedMessage": "エージェントグループはまだ割り当てられていません",
+        "selectedAgentGroupsLabel": "選択したエージェントグループ",
+        "addAgentGroupsButton": "エージェントグループを追加",
+        "selectAgentGroupsHeader": "エージェントグループを選択",
+        "cancelButton": "キャンセル",
+        "errorMessage": "少なくとも1つのエージェントグループを選択する必要があります",
+        "omnibarMessage": "入力してエージェントグループを検索",
+        "agentGroupsCount": "{{count}}件のエージェントグループ",
+        "selectedTxt": "選択済：",
+        "AlreadyAssignedGroups": "割り当て済エージェントグループ"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "エージェント",
+        "teams": "チーム",
+        "groups": "グループ",
+        "noTeamsSelected": "チームはまだ選択されていません",
+        "selectTeams": "チームを選択",
+        "selectGroups": "グループを選択",
+        "selectedAgents": "現在の合計エージェント数：",
+        "errorMessages": {
+          "required": "少なくとも1つのチームを選択する必要があります"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "サンプリング",
+        "newSamplingHeader": "配布用サンプルの選択",
+        "numSegmentsPerAgentLabel": "エージェントあたりのインタラクション",
+        "numDaysBackLabel": "過去",
+        "daysLabel": "日",
+        "daysBackExceedMaxMessage": "プランの長さは{{durationInDays}}日です。1～{{daysRange}}日から選択してください。",
+        "excludeEvaluatedInteractionsText": "評価された、またはタグ付けされたインタラクションを評価の対象から外す",
+        "include": "含める",
+        "exclude": "除外する",
+        "includeInteractionsLabel": "インタラクションを含む",
+        "excludeInteractionsLabel": "インタラクションを除外",
+        "fromLastDaysLabel": "直近の",
+        "excludeInteractionsText": "評価済 / 評価用にタグ付け",
+        "timeBasedSelectionLabel": "時間ベースの選択",
+        "startTimeLabel": "開始時刻",
+        "endTimeLabel": "終了時刻",
+        "startTimeSubtext": "インタラクションの開始時刻に基づいて取得",
+        "endTimeSubtext": "インタラクションの終了時刻に基づいて取得"
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "タイムゾーン"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "評価フォームの割り当て",
+        "dropdownNewLabel": "評価フォーム"
+      },
+      "planSummary": {
+        "planSummary": "プランサマリー",
+        "totalInteractions": "プランの総合評価",
+        "interactionsPerDayPerEvaluator": "評価者1人あたりの1日の評価数",
+        "planDays": "プランの合計日数",
+        "interactionsPerAgent": "エージェントあたりのインタラクション"
+      },
+      "ticketFiltersEnterInput": "入力してください",
+      "filters": {
+        "includeInteractionsFromLast": "直近のインタラクションを含める",
+        "days": "日",
+        "filtersHeader": "フィルター"
+      },
+      "ticketFiltersMultiSelect": "値を選択",
+      "planCategoriesTicket": {
+        "categoriesHeader": "カテゴリー",
+        "qmaCategoriesLabel": "QMAカテゴリー"
+      }
+    },
+    "planType": {
+      "ticket": "チケット単位",
+      "segment": "セグメント単位"
+    }
+  }
+}

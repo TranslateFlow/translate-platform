@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "overallSentimentScore": "Pontuação geral de sentimento",
+    "suggestionSummary": "Resumo de Sugestão",
+    "noSuggestionYet": "Ainda não há Sugestões",
+    "guidanceScores": "Pontuações de Orientação",
+    "landingMessage": "Aguardando autenticação...",
+    "permissionRequired": "Permissões necessárias",
+    "permissionHelpPhrase": "Você precisa de privilégios para visualizar esta página. Entre em contato com seu administrador.",
+    "speechVelocity": "Velocidade da Fala",
+    "activeListening": "Escuta Ativa",
+    "beEmpathetic": "Seja Enfático",
+    "interruption": "Interrupção",
+    "demonstrateOwnership": "Demonstrar Propriedade",
+    "buildRapport": "Construir Conexão",
+    "setExpectations": "Definir Expectativas",
+    "effectiveQuestioning": "Questionamento Efetivo",
+    "promoteSelfService": "Promova o Autoatendimento",
+    "acknowledgeLoyalty": "Confirmar fidelidade",
+    "inappropriateAction": "Ação Inapropriada",
+    "sentiment": "Sentimento Geral",
+    "noScore": "Sem PONTUAÇÃO",
+    "acknowledgeRequest": "Confirmar solicitação",
+    "overcomeObjections": "Superar Objeções",
+    "presumptiveSelling": "Venda Presumida",
+    "uncoverNeeds": "Descobrir Necessidades",
+    "askForTheSale": "Pede por Vendas",
+    "demonstrateEmpathy": "Demonstrar Empatia",
+    "likelihoodToBuy": "Probabilidade de Comprar",
+    "makeAConnection": "Faça uma Conexão",
+    "orderConfirmation": "Pedido Confirmado"
+  }
+}

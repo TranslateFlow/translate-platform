@@ -1,0 +1,29 @@
+{
+  "aaiAdminUIApp": {
+    "IntegrationsAppTitle": "整合",
+    "HubTitle": "CXone Mpower 中心",
+    "notSelectedConfiguration": "請由左邊的選單選取一個配置！",
+    "VAH": "Virtual Agent Hub",
+    "AAH": "Agent Assist Hub",
+    "STT": "逐輪次",
+    "TTS": "Cloud TTS Hub",
+    "AuthenticationWait": "等待驗證中…",
+    "PermissionText": "需要權限",
+    "UnauthorisedText": "您需要權限以檢視此頁面。請聯絡您的管理人員。",
+    "AAITitle": "AAI 管理員",
+    "IHF": "Integration Hub",
+    "AutomationAndAIAppTitle": "自動化與 AI",
+    "TRHB": "Transcription Hub",
+    "TH": "連續串流",
+    "CT": "連續串流",
+    "VBH": "Voice Biometrics Hub",
+    "CTS": "轉錄訂閱",
+    "RTS": "訂閱",
+    "CM": "通道配對",
+    "IT": "整合",
+    "PS": "Presence Sync 配對",
+    "UCAASITG": "UCaaS 整合",
+    "PC": "Presence Connect",
+    "DS": "Directory Sync"
+  }
+}

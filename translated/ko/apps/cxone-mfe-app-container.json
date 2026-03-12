@@ -1,0 +1,15 @@
+{
+  "cxoneMfeAppContainer": {
+    "unsavedChangesDialogConfigDefault": {
+      "titleMessage": "저장되지 않은 데이터",
+      "detailMessage": "페이지에서 나가면 변경 사항이 손실됩니다. 정말로 계속하시겠습니까?",
+      "leaveButtonText": "예",
+      "stayButtonText": "아니요"
+    }
+  },
+  "metaInfo": {
+    "cxoneTroubleshootingScreen": {
+      "title": "문제 해결"
+    }
+  }
+}

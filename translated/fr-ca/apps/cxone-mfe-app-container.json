@@ -1,0 +1,15 @@
+{
+  "cxoneMfeAppContainer": {
+    "unsavedChangesDialogConfigDefault": {
+      "titleMessage": "Données non enregistrées",
+      "detailMessage": "Si vous quittez la page, vos modifications seront perdues. Voulez-vous vraiment continuer?",
+      "leaveButtonText": "Oui",
+      "stayButtonText": "Non"
+    }
+  },
+  "metaInfo": {
+    "cxoneTroubleshootingScreen": {
+      "title": "Dépannage"
+    }
+  }
+}

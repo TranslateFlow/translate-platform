@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "overallSentimentScore": "Algemene sentimentscore",
+    "suggestionSummary": "Suggestiesamenvatting",
+    "noSuggestionYet": "Er zijn nog geen suggesties",
+    "guidanceScores": "Begeleidingsscores",
+    "landingMessage": "Wachten op authenticatie...",
+    "permissionRequired": "Vereiste machtigingen",
+    "permissionHelpPhrase": "U hebt toegangsrechten nodig om deze pagina te bekijken. Neem contact op met de beheerder.",
+    "speechVelocity": "Spreektempo",
+    "activeListening": "Actief luisteren",
+    "beEmpathetic": "Empathisch zijn",
+    "interruption": "Onderbreking",
+    "demonstrateOwnership": "Verantwoordelijkheid tonen",
+    "buildRapport": "Verstandhouding opbouwen",
+    "setExpectations": "Verwachtingen beheren",
+    "effectiveQuestioning": "Effectieve vragen stellen",
+    "promoteSelfService": "Selfservice aanbevelen",
+    "acknowledgeLoyalty": "Loyaliteit erkennen",
+    "inappropriateAction": "Ongepaste acties",
+    "sentiment": "Algemeen sentiment",
+    "noScore": "Geen SCORE",
+    "acknowledgeRequest": "Bevestigingsverzoek",
+    "overcomeObjections": "Bezwaren overwinnen",
+    "presumptiveSelling": "Vermoedelijke verkoop",
+    "uncoverNeeds": "Behoeften bepalen",
+    "askForTheSale": "Vraag naar de Sale",
+    "demonstrateEmpathy": "Empathie tonen",
+    "likelihoodToBuy": "Waarschijnlijkheid om te kopen",
+    "makeAConnection": "Maak een verbinding",
+    "orderConfirmation": "Bevestigde bestelling"
+  }
+}

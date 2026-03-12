@@ -1,0 +1,29 @@
+{
+  "aaiAdminUIApp": {
+    "IntegrationsAppTitle": "集成",
+    "HubTitle": "CXone Mpower 中心",
+    "notSelectedConfiguration": "请从左侧菜单中选择一个配置！",
+    "VAH": "虚拟坐席中心",
+    "AAH": "坐席协助中心",
+    "STT": "逐个",
+    "TTS": "云 TTS 中心",
+    "AuthenticationWait": "正在等待身份验证……",
+    "PermissionText": "需要权限",
+    "UnauthorisedText": "您需要权限才能查看此页面。请联系您的管理员。",
+    "AAITitle": "AAI 管理员",
+    "IHF": "Integration Hub",
+    "AutomationAndAIAppTitle": "自动化与人工智能",
+    "TRHB": "转录中心",
+    "TH": "连续流",
+    "CT": "连续流",
+    "VBH": "语音生物识别中心",
+    "CTS": "记录文本订阅",
+    "RTS": "订阅",
+    "CM": "渠道映射",
+    "IT": "集成",
+    "PS": "Presence Sync 映射",
+    "UCAASITG": "UCaaS 集成",
+    "PC": "状态联动",
+    "DS": "Directory Sync"
+  }
+}

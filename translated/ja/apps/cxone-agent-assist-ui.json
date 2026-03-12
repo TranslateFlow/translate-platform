@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "acknowledgeLoyalty": "忠誠を認識する",
+    "acknowledgeRequest": "リクエストを認識する",
+    "activeListening": "アクティブリスニング",
+    "askForTheSale": "販売を勧誘する",
+    "beEmpathetic": "共感する",
+    "buildRapport": "信頼関係を築く",
+    "demonstrateEmpathy": "共感を示す",
+    "demonstrateOwnership": "所有権を示す",
+    "effectiveQuestioning": "効果的な質問",
+    "guidanceScores": "ガイダンススコア",
+    "inappropriateAction": "不適切な行動",
+    "interruption": "中断",
+    "landingMessage": "認証を待っています...",
+    "likelihoodToBuy": "購買見込み",
+    "makeAConnection": "つながりを作る",
+    "noScore": "スコアなし",
+    "noSuggestionYet": "推奨事項はまだありません",
+    "orderConfirmation": "確定注文",
+    "overallSentimentScore": "総合センチメントスコア",
+    "overcomeObjections": "反対意見を克服",
+    "permissionHelpPhrase": "このページを表示するには権限が必要です。管理者に連絡してください。",
+    "permissionRequired": "要権限",
+    "presumptiveSelling": "推定的販売",
+    "promoteSelfService": "セルフサービスを促進する",
+    "sentiment": "総合的な感情",
+    "setExpectations": "期待を設定する",
+    "speechVelocity": "発話速度",
+    "suggestionSummary": "推奨事項サマリー",
+    "uncoverNeeds": "ニーズの発掘"
+  }
+}

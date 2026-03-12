@@ -1,0 +1,222 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "adminModuleName": "管理員",
+        "adminModuleLinks": {
+          "users": "員工",
+          "skills": "WFO 技能",
+          "groups": "群組",
+          "teams": "團隊",
+          "employeeGroups": "排程單元",
+          "roleManagement": "角色及權限",
+          "recordingPolicies": "錄製原則",
+          "passwordPolicyManagement": "密碼原則",
+          "loginAuthenticatorManagement": "登入驗證器",
+          "bulkUploadDownload": "批量上載入口網站",
+          "accountSettings": "帳戶設定",
+          "hierarchies": "階層",
+          "storage": "Cloud Storage",
+          "lifecycleManagement": "Life Cycle Management",
+          "longTermFileRetrieval": "長期檔案檢索",
+          "secureExternalAccess": "安全外部存取",
+          "businessDataConfiguration": "業務資料",
+          "recording": "錄製",
+          "security": "安全性",
+          "viewManagement": "視圖",
+          "advancedTtl": "Life Cycle Management",
+          "storageSettings": "儲存設定"
+        }
+      }
+    }
+  },
+  "hierarchiesPage": {
+    "title": "階層",
+    "newHierarchy": "新階層",
+    "changeHistory": "更改歷史",
+    "back": "返回",
+    "searchHierarchiesPlaceholder": "開始輸入以尋找階層",
+    "grid": {
+      "showingFirst": "展示首個",
+      "showingAll": "顯示所有",
+      "hierarchyCount": " 階層",
+      "hierarchyName": "階層名稱",
+      "type": "類型",
+      "lastModified": "最後修改",
+      "status": "狀態",
+      "primaryHierarchy": "主要階層",
+      "lastModifiedBy": "最後修改者",
+      "actions": "ACTIONS",
+      "active": "活躍",
+      "inactive": "非活躍",
+      "activate": "啟用",
+      "deactivate": "停用",
+      "noHierarchiesDefined": "未有已定義階層"
+    },
+    "changeHistoryOf": "更改歷史記錄 ",
+    "node": "節點",
+    "changeHistoryForNode": "節點的更改歷史記錄"
+  },
+  "types": {
+    "organizational": "組織性的",
+    "division": "部門"
+  },
+  "colors": {
+    "textColorDefault": "#000"
+  },
+  "hierarchyManagerPage": {
+    "name": "名稱",
+    "namePlaceholder": "新增階層名稱",
+    "searchPlaceholder": "搜尋層次結構節點",
+    "searchLabel": "搜尋",
+    "searchInfo": "點擊搜尋按鈕，開始按名稱進行新的搜尋。搜尋區分大小寫。首個匹配的結果將被自動捲動到最中間的位置，同時允許顯示圖的邊緣。",
+    "type": "類型",
+    "typePlaceholder": "選擇類型",
+    "mandatorySymbol": "*",
+    "primaryHierarchy": "主要階層",
+    "setAsPrimaryHierarchy": "設定為主要階層",
+    "setAsPrimaryHierarchyTooltip": "此動作將階層設定為主要階層。設定後，就不能再改為非主要階層。應用程式中使用的所有階層資料都來自於主階層。",
+    "title": "建立新階層",
+    "close": "關閉",
+    "cancel": "取消",
+    "add": "新增",
+    "remove": "移除",
+    "create": "建立",
+    "save": "儲存",
+    "no": "否",
+    "yes": "是",
+    "viewDetails": "檢視詳情",
+    "search": {
+      "placeholder": "搜尋層次結構節點",
+      "label": "搜尋",
+      "info": "點擊搜尋按鈕，開始按名稱進行新的搜尋。搜尋區分大小寫。首個匹配的結果將被自動捲動到最中間的位置，同時允許顯示圖的邊緣。",
+      "noValue": "請輸入一個搜尋值開始搜尋。",
+      "found": "找到",
+      "notFound": "沒有找到"
+    },
+    "toolbar": {
+      "add-child": {
+        "addOrganizationUnit": "新增機構單位",
+        "addSchedulingUnit": "新增時間表編排單位",
+        "addExistingSchedulingUnit": "新增現存排程單位",
+        "addTeam": "新增團隊",
+        "addExistingTeam": "新增現有團隊",
+        "addOUInformation": "此操作將創立機構單位 (OU) 類型的子節點。在 OU 建立後，您將能新增成員。",
+        "addSUInformation": "此操作將透過選取其中一個現有 SU 來建立時間表編排單位類型（SU）子節點。在團隊節點建立後，您將能新增子節點、檢視 SU 資訊及成員資格",
+        "addTeamInformation": "此操作將透過選取其中一個現有團隊來建立團隊類型子節點。在團隊節點建立後，您將能檢視團隊資訊及成員資格。",
+        "teamExistsUnder": "目前存在團隊的上方為",
+        "andMovedUnder": " 且將被移至下方",
+        "continue": ".是否要繼續？",
+        "selectTeam": "選取團隊",
+        "untitled": "未命名",
+        "name": "名稱"
+      },
+      "members": {
+        "members": "成員",
+        "addMembers": "新增成員",
+        "addExistingMembers": "新增現有成員",
+        "noMembersAdded": "沒有新增成員",
+        "clickOnAddMembers": "按下「新增」以新增成員。",
+        "SUToAddMembers": "通過管理員導航到排程單位來新增成員。",
+        "teamToAddMembers": "通過管理員導航到團隊來新增成員。",
+        "onceMembersAdded": "一旦已新增成員，他們將在此展示",
+        "noResultsFound": "所有可用成員都已選取",
+        "allUsersSelectedAlreadyAdded": "所有選取的使用者目前都存在於 OU 中",
+        "showingFirst": "展示首個",
+        "showingAll": "顯示所有",
+        "membersUndercase": "成員",
+        "searchMembers": "搜尋成員",
+        "userAlreadyMemberOf": "使用者已是成員"
+      },
+      "info": {
+        "suInformation": "排程單元資訊",
+        "teamInformation": "團隊資訊",
+        "nameLabel": "名稱",
+        "timeZoneLabel": "時區",
+        "teamLead": "團隊領導"
+      },
+      "edit": {
+        "editDetails": "編輯細節"
+      },
+      "delete": {
+        "ouDeleteMsg": "你將由此階層刪除此 OU ，有了這操作，此 OU 下包括所有子節點的網絡將會刪除。",
+        "suDeleteMsg": "您將從此階層中刪除此 SU。通過此操作，該 SU 下網路包括的所有子節點（如果有的話）將被刪除。",
+        "teamDeleteMsg": "你將從此階層移除此團隊。",
+        "deletePermissionQue": "是否要繼續？",
+        "yesBtn": "是",
+        "noBtn": "否"
+      }
+    },
+    "hierarchyLegend": {
+      "OU": "組織單位",
+      "SU": "排程單元",
+      "Team": "團隊",
+      "Division": "部門"
+    }
+  },
+  "metaInfo": {
+    "hierarchies": {
+      "title": "階層"
+    },
+    "hierarchy-manager": {
+      "title": "階層管理器"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "此乃必填欄位。",
+    "minLength": "您輸入的內容太短",
+    "maxLength": "您輸入的內容太長",
+    "specialCharacters": "!    \\ < > ?    % \" 或表情符號不可用",
+    "SUAlreadyAdded": "目前已新增 SU 的上方為",
+    "TeamAlreadyAdded": "目前已新增團隊的上方為"
+  },
+  "hierarchyToasts": {
+    "hierarchyActivateSuccMsg": "已成功啟用階層",
+    "setPrimaryHierarchySuccessMessage": "主階層設定成功。",
+    "hierarchyDeactivateSuccMsg": "已成功停用階層",
+    "hierarchyActivateFailMsg": "無法啟用階層",
+    "hierarchyDectivateFailMsg": "無法停用階層",
+    "hierarchySavedSuccMsg": "已成功儲存階層",
+    "hierarchySavedFailMsg": "無法儲存階層",
+    "hierarchyCreatedSuccMsg": "已成功建立階層",
+    "hierarchyCreatedFailMsg": "無法建立階層",
+    "hierarchyInvalidInputMsg": "輸入無效",
+    "hierarchyNameExistsFailMsg": "階層名稱已存在",
+    "cannotAddChildrenToTeamNode": "團隊節點無法新增子節點",
+    "generalError": "一般錯誤",
+    "cannotPerformAction": "此時無法執行此動作",
+    "noSUInformation": "無法取得 SU 資訊",
+    "noTeamInformation": "無法取得團隊資訊",
+    "teamIsAlreadyChildOfParent": "您要新增的團隊已是子節點",
+    "dragAndDrop": {
+      "OUChildOfSU": "無法執行此操作，因為組織單位不可為排程單元的子系",
+      "OUChildOfTeam": "無法執行此操作，因為組織單位不可為團隊的子系",
+      "SUChildOfTeam": "無法執行此操作，因為排程單元不可為團隊的子節點",
+      "TeamChildOfTeam": "無法執行此操作，因為團隊不可為團隊的子節點",
+      "ExceedsLimit": "因為超過可允許的階層深度（12 層），動作無法執行",
+      "AlreadyConnected": "由於節點已經連接，所以不能執行此動作。"
+    },
+    "permissionErrors": {
+      "addChild": "您沒有權限以新增子項",
+      "editNode": "您沒有權限以編輯節點",
+      "deleteNode": "您沒有權限以刪除節點",
+      "dragAndDrop": "您沒有權限以修改階層結構",
+      "userPermission": "您沒有權限以檢視 OU 的使用者"
+    }
+  },
+  "primaryHierarchyModal": {
+    "title": "設定為主要階層",
+    "message": "此動作將{{hierarchyName}}設定為您組織的主要階層。<br><br><br>此動作為永久性，不能復原。<br>確定要繼續？",
+    "primaryButtonText": "設定主要階層",
+    "closeButtonText": "取消"
+  },
+  "changeHistory": {
+    "name": "名稱",
+    "depth": "深度",
+    "parentId": "父 ID",
+    "parentName": "上層名稱",
+    "type": "類型",
+    "templateId": "範本 ID",
+    "nodeId": "節點 ID"
+  }
+}

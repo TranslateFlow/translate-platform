@@ -1,0 +1,3598 @@
+{
+  "recordingAccounts": {
+    "buttonText": "新帳戶",
+    "retryBtn": "刷新",
+    "labelText": {
+      "column1": "電話系統",
+      "column2": "帳戶類型",
+      "column3": "值"
+    },
+    "inputFieldText": {
+      "extensionID": "輸入唯一值",
+      "telephonySystem": "選擇…"
+    },
+    "noSystemBtn": "設定電話系統",
+    "noAccountMessage": "尚未建立錄製帳戶",
+    "noTelephonyMessage1": "未配置電話系統",
+    "noTelephonyMessage2": "設定一個電話系統，",
+    "noTelephonyMessage3": "然後點擊「刷新」，建立錄製帳戶。",
+    "infoMessage": "最多可以建立 10 個錄製帳戶。",
+    "uivalidation": {
+      "required": "這是必要",
+      "duplicateExtension": "所選帳戶類型和系統的值已經存在",
+      "characterLimitAgentID": "輸入 2-64 個字元",
+      "alphanumericAgentID": "使用字母、數字和 @",
+      "characterLimitExtension": "輸入 3-64 個字元",
+      "alphanumericExtension": "使用字母、數字和 @ # *",
+      "unmonitoredExtension": "此分機不受 TSAPI 介面監控。此分機的通話將不會被錄製。"
+    },
+    "error": {
+      "telephonySystem": "無法載入電話系統。",
+      "createUpdateAccount": "無法新增或更新錄製帳戶。"
+    }
+  },
+  "bulkUploadDownloadManagementPage": {
+    "title": "批量上載入口網站",
+    "leftDashboardHeader": "批量上載",
+    "leftDashboardText": "把名單中任何項目的記錄批量上載至同一地方。這能用以新增記錄，或更新已在平台建立的現有記錄",
+    "templateDownloadHeading": "此套件包含在此頁面上使用的所有範本。",
+    "entityDownloadHeading": "下載此名單中的所有現存項目（即使用者、團隊、角色等）",
+    "rightDashboardHeader": "您必須至少擁有一個已新增檔案才能開始上載處理序",
+    "uploadSuccessMsg": "正在上載 (count) 個檔案，此過程式會花費幾分鐘",
+    "downloadSuccessMsg": "正在下載文件。請在避免在下載文件時作任何其他更新，以避免發生資料不一致",
+    "uploadEmptyFileSuccessMsg": "在已上載檔案中沒有找到紀錄",
+    "uploadfailureMsg": "無法上載一個或多個檔案",
+    "uploadInvalidFileType": "無效檔案格式。請選擇一個 CSV 檔案以供上載。",
+    "uploadRecordLimitBreached": "上載檔案的上限為 1000 個紀錄。",
+    "wrong_file_type": "platform_upload_download_manager_service_3",
+    "upload_record_limit_error": "platform_upload_download_manager_service_8",
+    "fileUploadfailureMsg": "無法上載",
+    "dragAndFropText": "拖放以上載或",
+    "fileTypeInfoTxt": "支援的檔案類型：csv",
+    "browsFileText": "瀏覽檔案",
+    "fileProcessingMsg": "檔案處理中",
+    "inProcessFileTxt": "進行中",
+    "bulkImportSuccessMsg": "已成功上載",
+    "bulkImportWarningMsg": "已成功上載但存有錯誤",
+    "bulkImportTimeoutMsg": "檔案上載過程花費時間長於平常，您將在上載完成後收到通知。您能在活動分頁檢視檔案上載狀況。",
+    "invalidFileFormat": "由於檔案類型不受支援，檔案上傳失敗。支援的檔案類型 csv。",
+    "tabLabels": {
+      "upload": "上載",
+      "activity": "活動"
+    },
+    "uploadStatus": {
+      "clearAllBtnTxt": "清除全部"
+    },
+    "btn": {
+      "templateDownloadBtn": "下載所有範本",
+      "entityDownloadBtn": "下載所有現存",
+      "singleTemplateDownloadBtn": "下載範本",
+      "singleEntityDownloadBtn": "下載現存記錄",
+      "activeUsersDownloadBtn": "下載活躍使用者",
+      "allUsersDownloadBtn": "下載所有使用者",
+      "uploadImmediately": "上載檔案",
+      "uploadAfterReview": "在上載前審視檔案"
+    },
+    "admin": {
+      "name": "管理員",
+      "employees": {
+        "name": "員工"
+      },
+      "teams": {
+        "name": "團隊"
+      },
+      "teamsUsersMapping": {
+        "name": "團隊委派"
+      },
+      "skillsUsersMapping": {
+        "name": "技能委派"
+      }
+    },
+    "acd": {
+      "name": "acd"
+    },
+    "thirdPartyAcd": {
+      "name": "第三方電話",
+      "recordingAccount": {
+        "name": "錄製帳戶"
+      },
+      "devices": {
+        "name": "裝置"
+      },
+      "remoteDevices": {
+        "name": "遠端裝置"
+      }
+    },
+    "activity": {
+      "item": "活動",
+      "headers": {
+        "uploadDate": "上載日期",
+        "activityDate": "活動日期",
+        "area": "已上載區域",
+        "entity": "實體",
+        "triggeredBy": "觸發事件：",
+        "user": "使用者",
+        "status": "狀態"
+      },
+      "successStatus": "已成功上載",
+      "downloadSuccessStatus": "下載成功",
+      "uploadFailed": "無法上載",
+      "downloadFailed": "下載失敗",
+      "errorStatusSingle": "已發現錯誤",
+      "errorStatusMultiple": "已發現的錯誤",
+      "inProgressStatus": "正在上載",
+      "downloadInProgressStatus": "正在下載",
+      "reviewBtn": "審視錯誤",
+      "downloadBtn": "下載",
+      "noItemsOverlay": "尚未定義活動"
+    },
+    "uploadSuccessMessage": "已開始上載",
+    "uploadFailureMessage": "無法開始上載",
+    "downloadFailureMessage": "無法啟動下載！",
+    "downloadRecordsSuccessMsg": "已成功下載現存記錄",
+    "downloadRecordsFailureMsg": "無法下載現存記錄",
+    "downloadRecordsNoDataExistsMsg": "沒有要下載的紀錄",
+    "downloadRecordsProgressMsg": "正在進行現存下載",
+    "reviewErrorsPage": {
+      "pageTitle": "員工上載錯誤",
+      "pageTrailer": "上載錯誤",
+      "trailer": "上載",
+      "downloadErrors": "下載錯誤",
+      "cancel": "取消",
+      "submit": "提交",
+      "totalErrors": "錯誤總數：",
+      "totalErrorsLeft": "尚餘錯誤總數：",
+      "processingError": "正在處理的錯誤",
+      "fieldErrors": "欄位錯誤",
+      "none": "無",
+      "entities": {
+        "user": {
+          "entityName": "員工"
+        },
+        "team": {
+          "entityName": "團隊"
+        },
+        "user-team": {
+          "entityName": "團隊委派"
+        },
+        "user-skills": {
+          "entityName": "技能委派"
+        },
+        "recording-account": {
+          "entityName": "錄製帳戶"
+        },
+        "device": {
+          "entityName": "裝置"
+        },
+        "sab": {
+          "entityName": "標準通訊錄"
+        },
+        "remote-device": {
+          "entityName": "遠端裝置"
+        }
+      },
+      "errorReport": "error-report",
+      "rowHeader": "列",
+      "errorHeader": "錯誤",
+      "commonErrorMessage": "處理中錯誤",
+      "errorFieldStartLineSingle": "欄目中的錯誤",
+      "errorFieldStartLineMultiple": "欄目中的錯誤",
+      "validationErrors": {
+        "mandatoryFieldError": "欄目不能留空",
+        "emailFieldError": "此電郵地址無效",
+        "usernameFieldError": "使用者名稱應為電郵地址格式",
+        "booleanFieldError": "此欄位只能填寫對或錯",
+        "numberFieldError": "此欄位只能填寫數字",
+        "nameFieldError": "糟了，您不能使用 \\ ! < > ? % \" ",
+        "phoneFieldError": "電話數值無效",
+        "virtualAgentTypeFieldError": "此欄位只能填寫關閉、電子機械人或電子問卷"
+      },
+      "downloadErrorsSuccessMsg": "已成功下載錯誤",
+      "downloadErrorsFailureMsg": "無法下載錯誤",
+      "invalidTemplateMessage": "上傳的範本無效"
+    }
+  },
+  "createDailyRuleModal": {
+    "shiftLength": "值班長度：",
+    "shiftType": "班組類型：",
+    "hours": "小時",
+    "shiftStartBetween": "值班開始於",
+    "startTimeIncrement": "開始時間增長：",
+    "createDailyRuleHeader": "建立新的每日規則",
+    "editDailyRuleHeader": "編輯每日規則",
+    "addActivities": "新增活動",
+    "activitiesCodes": "活動代碼",
+    "relativeStart": "相應開始",
+    "slack": "Slack",
+    "updateDailyRuleHeader": "#fffff",
+    "length": "長度",
+    "earliestStart": "最早開始",
+    "latestStart": "最遲開始",
+    "startIncrement": "開始增長",
+    "ruleDescription": "規則描述",
+    "successMsg": "已成功建立員工！",
+    "updateErrorMsg": "無法建立新員工。",
+    "updateSuccessMsg": "已成功更新員工！",
+    "namePlaceholder": "未命名每日規則"
+  },
+  "userPage": {
+    "pageTitle": "員工",
+    "newUserBtn": "建立員工",
+    "importUsersBtn": "匯入員工",
+    "itemsCountAngular": "員工",
+    "selectedItems": "已選取",
+    "searchPlaceholder": "開始輸入以尋找使用者",
+    "noItemsOverlay": "尚未新增使用者",
+    "noItemsOverlayGrid": "使用此篩選器未找到任何使用者",
+    "noUsersSubText": "選擇以上「新增使用者」以新增使用者",
+    "createUserPage": {
+      "breadcrumb": "員工",
+      "createUserPageTitle": "建立新員工",
+      "cancel": "取消",
+      "create": "建立",
+      "createAndInvite": "建立及邀請",
+      "createAndActivate": "建立及啟用",
+      "save": "儲存",
+      "teamErrorMsg": "團隊為必須項目。",
+      "getAllTeamsError": "取回團隊時發生錯誤。過一段時間後再試。",
+      "getGroupsError": "在取回群組時出錯，請稍後重試。",
+      "getEmployeeGroupsError": "在取回僱員群組時出錯，請稍後重試。",
+      "formLabels": {
+        "mandatorySymbol": "*",
+        "firstName": "名字",
+        "middleName": "中間名",
+        "lastName": "姓氏",
+        "emailAddress": "電郵地址",
+        "displayName": "顯示名稱",
+        "primaryRole": "主要角色",
+        "username": "使用者名稱",
+        "mobileNumber": "手機號碼",
+        "telephone1": "電話 1",
+        "telephone2": "電話 2",
+        "timeZone": "時區",
+        "osLogin": "OS 登入",
+        "assignToGroup": "獲委派至排程單元",
+        "assignToGroups": "獲委派至群組",
+        "assignToSkills": "獲委派至技能",
+        "assignToTeams": "已獲指派至團隊",
+        "assignToGroupPlaceHolder": "尚未有委派的排程單元",
+        "rank": "排名",
+        "rankInterval": "1 至 999",
+        "country": "國家",
+        "countryPlaceholder": "選擇國家",
+        "hireDate": "聘用日期",
+        "timeZonePlaceholder": "選取時區",
+        "typePlaceholder": "選擇或建立類型",
+        "type": "類型",
+        "teamPlaceholder": "選取團隊",
+        "defaultTag": "（預設）",
+        "groupsDropDown": " 群組",
+        "acdLoginId": "ACD 登入 ID",
+        "acdLoginIdInUse": "ACD 登入 ID「{{value}}」已供此頁面使用。",
+        "maxLimitOfACD": "您不能輸入多於 {{items}} 個項目",
+        "acdLoginIdValidationError": "項目「{{value}}」不是有效項目。",
+        "customAttributes": {
+          "heading": "屬性",
+          "canBeEvaluatedLabel": "將能被評估/指導",
+          "canBeScheduled": "可以編排",
+          "canBeRecorded": "可以被錄音（語音）",
+          "canBeRecordedScreen": "可以被錄影（畫面）",
+          "canBeRecordedDefault": "可以被錄製",
+          "canBeAnalyzed": "可以被分析",
+          "canBeMeasured": "可以被衡量",
+          "nonBillableUser": "可收費使用者",
+          "digitalEngagement": "Digital Engagement",
+          "customerCard": "Customer Card",
+          "agentIntegrations": "客服專員整合",
+          "canViewBIReports": "可以檢視 BI 報告",
+          "canEditBIReports": "可以編輯 BI 報告",
+          "virtualAgentEnabled": "已啟用虛擬客服專員",
+          "smartreachheading": "SMART REACH 屬性",
+          "smartreach": "SmartReach",
+          "smartreachuser": "SmartReach 使用者",
+          "smartreachagent": "SmartReach 客服專員",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartreachdesk": "服務台",
+          "smartreachecc": "Enhanced Customer Card",
+          "dataCollectionEnabled": "資料收集已啟用"
+        },
+        "location": {
+          "locationsDropdown": "位置",
+          "placeholder": "選擇位置",
+          "errorMessages": {
+            "failedLoadLocations": "無法載入位置定義。重試。"
+          }
+        },
+        "userSourceDropdownLabel": "來源",
+        "division": {
+          "division": "部門",
+          "placeholder": "選擇部門",
+          "errorMessages": {
+            "failedLoadDivisions": "無法載入部門。重試。"
+          },
+          "warningModal": {
+            "warningHeader": "警告",
+            "modalBody": "此操作可能會修改使用者的部門，影響其可見度。",
+            "modalBodySub": "確定要繼續？"
+          }
+        }
+      },
+      "popover": {
+        "warningMessage": "所有變更將會遺失",
+        "confirmMessage": "確定要在未儲存的情況下退出嗎？",
+        "saveWarningMessage": "使用者沒有指派登入驗證器或登入驗證器處於非活躍狀態，使用者將無法登入。",
+        "saveConfirmMessage": "是否繼續？",
+        "createInviteWarningMessage": "使用者沒有指派登入驗證器或登入驗證器處於非活躍狀態，使用者將無法登入。",
+        "createConfirmMessage": "是否繼續？"
+      },
+      "populateFromTemplateModal": {
+        "title": "從範本填充",
+        "description": "僱員範本",
+        "cancel": "取消",
+        "header": "從範本填充僱員記錄",
+        "populate": "填充",
+        "populateTemplate": "填充範本",
+        "message": "從清單中選擇範本，覆寫目前的僱員記錄。此動作所做的變更必須儲存才能生效。",
+        "placeholder": "選擇範本",
+        "createNewTemplate": "建立新範本",
+        "error": "無法填充範本。",
+        "success": "已成功填充僱員記錄。",
+        "errorSecondaryRole": "在可用選項中找不到次要角色。如果範本中的次要角色目前被選為主要角色，則可能發生這種情況。",
+        "errorWemSkill": "未找到技能或權限遺失。",
+        "errorOmnichannelSkill": "範本中的部分全通路技能處於非活躍狀態或不可用。"
+      },
+      "createTypeModal": {
+        "header": "建立類型",
+        "nameLabel": "名稱",
+        "placeholder": "輸入新類型",
+        "confirm": "確認",
+        "cancel": "取消"
+      },
+      "bcpLoadError": "擷取 BCP 資料時發生錯誤。過一段時間後重試。"
+    },
+    "importUsersModal": {
+      "header": "匯入員工",
+      "weSupportMessage": "透過上載 CSV 檔案匯入員工",
+      "downloadMessage1": "您可以下載 CSV 檔案範本",
+      "downloadMessage2": "",
+      "downloadLink": "在此。",
+      "selectFileMessage": "",
+      "successMsg": "已成功匯入員工。",
+      "errorMsg": "無法匯入員工。",
+      "downloadTemplates": "下載範本",
+      "dragAndFropText": "拖放以上載或",
+      "browsFileText": "瀏覽檔案",
+      "importErrorsList": {
+        "header": "匯入錯誤",
+        "invalidUser": "角色並未存在於系統內",
+        "invalidUserRole": "角色和員工狀態不相符",
+        "userAlreadyExists": "無法建立員工，具有相同使用者名稱的員工已存在。",
+        "userCreateFailed": "無法建立員工，請檢查輸入",
+        "invalidUserStatus": "活躍員工的電郵地址無法變更。",
+        "cannotChangeOwnRole": "您不能變更自身角色。"
+      }
+    }
+  },
+  "createUserModal": {
+    "updateUserHeader": "編輯員工",
+    "createUserHeader": "建立新員工",
+    "createAndInvite": "建立及邀請",
+    "createAndActivate": "建立及啟用",
+    "popoverMessage1": " 所有變更將會遺失。",
+    "popoverMessage2": "確定要在未儲存的情況下退出嗎？",
+    "errorMsg": "無法建立新員工。",
+    "successMsg": "已成功建立員工！",
+    "updateErrorMsg": "無法建立新員工。",
+    "updateMfaErrorMsg": "無法更新 MFA 細節。",
+    "updateSuccessMsg": "已成功更新員工！",
+    "getUserByIdError": "在取回僱員資訊細節時出錯，請稍後重試。",
+    "getGroupsError": "在取回群組時出錯，請稍後重試。",
+    "getSkillsError": "在取回技能時出錯，請稍後重試。",
+    "getEmployeeGroupsError": "在取回僱員群組時出錯，請稍後重試。",
+    "getAllTeamsError": "取回團隊時發生錯誤。過一段時間後再試。",
+    "getRolesError": "取回角色時發生錯誤。過一段時間後再試。",
+    "getAvailabilityError": "在取回僱員可到任時間時出錯，請稍後重試。",
+    "getShiftPreferencesError": "在取回值班喜好時出錯，請稍後重試。",
+    "getVisibilityError": "在取回可視性資料時出錯，請稍後重試。",
+    "getSelectedViewsError": "提取所選視圖資料時出現錯誤。請過一段時間後重試。",
+    "teamErrorMsg": "團隊為必須項目。",
+    "acdLoginId": "ACD 登入 ID",
+    "acdLoginIdInUse": "ACD 登入 ID「{{value}}」已供此頁面使用。",
+    "maxLimitOfACD": "您不能輸入多於 {{items}} 個項目",
+    "reviveUserAlert": "已存在使用此電郵地址的帳戶。想要重新啟用此帳戶？",
+    "reviveUserAlertWithUserName": "已存在使用此使用者名稱並且已被刪除的帳戶。想要重新啟用此帳戶？",
+    "verificationEmailWillBeSent": "驗證電郵將在儲存後傳送至此地址。",
+    "resendVerificationEmail": "重新傳送驗證電郵",
+    "resendVerificationEmailFailureMsg": "無法重新傳送驗證電郵",
+    "verificationEmailSent": "已成功傳送電郵！",
+    "descriptionLengthExceededError": "描述長度已逾 255 字元的上限",
+    "formLabels": {
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "email": "電郵地址",
+      "username": "使用者名稱",
+      "mobileNumber": "手機號碼",
+      "telephone1": "電話 1",
+      "telephone2": "電話 2",
+      "timeZone": "時區",
+      "osLogin": "OS 登入",
+      "assignToGroup": "獲委派至排程單元",
+      "assignToGroups": "獲委派至群組",
+      "assignToSkills": "獲委派至技能",
+      "assignToTeams": "已獲指派至團隊",
+      "assignToGroupPlaceHolder": "尚未有委派的排程單元",
+      "maxHoursPerWeek": "最大小時/週",
+      "rank": "排名",
+      "rankInterval": "1 至 999",
+      "timeZonePlaceHolder": "時區",
+      "country": "國家",
+      "countryPlaceholder": "選擇國家",
+      "hireDate": "聘用日期",
+      "role": "主要角色",
+      "rolePlaceholder": "選擇角色",
+      "typePlaceholder": "選擇或建立類型",
+      "teamPlaceholder": "選取團隊",
+      "timeZonePlaceholder": "選取時區",
+      "userPicture": "頭像",
+      "upload": "上載",
+      "create": "建立員工",
+      "day": "天",
+      "month": "月",
+      "year": "年份",
+      "middleName": "中間名",
+      "displayName": "顯示名稱",
+      "type": "類型",
+      "statusIconHoverTip": {
+        "pending": "電郵尚待驗證。",
+        "complete": "已驗證電郵。",
+        "warning": "不允許使用電郵網域"
+      },
+      "roles": {
+        "agent": "客服專員",
+        "manager": "經理",
+        "admin": "管理員"
+      },
+      "groupsDropDown": "{{selectedCount}} 個群組",
+      "skillsDropDown": "{{selectedCount}} 個技能",
+      "wfoSkillsDropDown": "顯示 {{totalCount}} 個技能",
+      "wfoSkillsDropDownLimitTo": "顯示 {{limitCount}}/{{totalCount}} 個技能。輸入以搜尋",
+      "customAttributes": {
+        "heading": "屬性",
+        "canBeEvaluatedLabel": "將能被評估/指導",
+        "canBeScheduled": "可以編排",
+        "canBeRecorded": "可以被錄音（語音）",
+        "canBeRecordedScreen": "可以被錄影（畫面）",
+        "canBeRecordedDefault": "可以被錄製",
+        "canBeAnalyzed": "可以被分析",
+        "canBeMeasured": "可以被衡量",
+        "nonBillableUser": "可收費使用者",
+        "digitalEngagement": "Digital Engagement",
+        "customerCard": "Customer Card",
+        "agentIntegrations": "客服專員整合",
+        "canViewBIReports": "可以檢視 BI 報告",
+        "canEditBIReports": "可以編輯 BI 報告",
+        "virtualAgentEnabled": "已啟用虛擬客服專員",
+        "smartreachuser": "SmartReach 使用者",
+        "smartreachagent": "Smartreach 客服專員",
+        "performanceManagementInsights": "Performance Management Insights",
+        "performanceManagementAct": "Performance Management Act",
+        "smartreachdesk": "服務台",
+        "smartreachecc": "Enhanced Customer Card",
+        "dataCollectionEnabled": "資料收集已啟用"
+      },
+      "MFALabel": "MFA",
+      "mfaSecret": "MFA 秘密",
+      "mfaTimeStep": "MFA 權杖期限",
+      "mfaTimeStepUnit": "秒",
+      "mfaTimeStepInterval": "15-300",
+      "clearButton": "清除",
+      "generateButton": "產生",
+      "externalIdentity": "外部身份",
+      "defaultTag": "（預設）"
+    },
+    "skillsTab": {
+      "header": "選擇技能",
+      "assignedTxt": "已指派技能",
+      "addBtn": "新增",
+      "selectTxt": "選取員工",
+      "selectedTxt": "已選取："
+    },
+    "secondaryRolesTab": {
+      "secondaryRoles": "次要角色",
+      "secondaryRolesDropdown": "選擇角色",
+      "addRoles": "新增角色",
+      "addRolesFTOn": "套用",
+      "itemscount": "{{count}} 個已指派角色",
+      "roleName": "角色名稱",
+      "rolesList": "角色清單",
+      "assignedRoles": "已指派角色 | {{count}} 總數",
+      "errorMsg": "已選取最多次要角色 (10)",
+      "noItemsOverlay": "未有已指派角色"
+    },
+    "securityTab": {
+      "loginAuthenticator": "登入驗證器",
+      "loginAuthenticatorPlaceholder": "選取驗證器",
+      "noneSelected": "沒有選擇任何一個",
+      "getAllAuthenticatorsError": "在獲取登入驗證器時出現錯誤。過一段時間後再試。",
+      "loginAuthenticatorInfo": "登入驗證器缺失或非活躍。"
+    },
+    "visibilityTab": {
+      "visibility": "可視性",
+      "views": "視圖",
+      "viewsDropdown": "選擇視圖",
+      "addViews": "新增視圖",
+      "addViewsFTOn": "套用",
+      "itemscount": "{{count}} 已指派視圖",
+      "viewName": "檢視名稱",
+      "viewDesc": "檢視描述",
+      "viewType": "檢視類型",
+      "assignedViews": "已指派視圖 | {{count}} 總數",
+      "errorMsg": "已選取最多視圖數目 (3)",
+      "maxSelectionErrorMsg": "最多可選取 3 個視圖",
+      "maxSelectionErrorMsgViews": "最多可選取 10 個視圖",
+      "noItemsOverlay": "未有已指派視圖",
+      "viewTypes": {
+        "transaction": "互動-區段"
+      }
+    },
+    "lockUserTab": {
+      "lockUser": "鎖定使用者",
+      "views": "視圖",
+      "daysSelectorLable": "使用者被鎖定前的非活躍天數",
+      "neverLockUser": "永不鎖定使用者",
+      "on": "開",
+      "off": "關",
+      "inactivityDaysMessage": "閒置天數必須介於 7 到 90 天之間"
+    },
+    "ssoStateTab": {
+      "SSOState": "自訂 SSO 狀態",
+      "daysSelectorLabel": "為使用者狀態設定時間",
+      "on": "開",
+      "off": "關",
+      "SSOStateValueMessage": "使用者狀態值必須介於 1 到 168 之間"
+    },
+    "tabs": {
+      "bcpType": "BCP 類型",
+      "bcpNoAccess": "無法存取 BCP 租戶",
+      "primaryTenant": "主要租戶",
+      "secondaryTenant": "次要租戶"
+    }
+  },
+  "filter": {
+    "clearall": "清除全部",
+    "close": "關閉"
+  },
+  "formExample": {
+    "enterYourName": "輸入姓名：",
+    "enterYourEmail": "輸入電郵地址：",
+    "enterYourAge": "輸入年齡：",
+    "createPassword": "建立密碼：",
+    "confirmPassword": "確定密碼：",
+    "errorMessages": {
+      "required": "您留空了欄位……",
+      "minLength": "您的欄位太短",
+      "maxLength": "您的欄位太長",
+      "email": "您的電郵地址無效",
+      "password": " 您的密碼須包含英文字母或數字，也必須包含一個特殊字元、一個數字及一個大楷字母。",
+      "match": "此密碼與之前輸入的密碼不符",
+      "minLengthPassword": "您的密碼須為至少 8 個字元",
+      "maxLengthPassword": "密碼太長……",
+      "minAge": "您必須為 10 歲或以上！",
+      "maxAge": "您必須 80 歲或以下！",
+      "number": "僅限數字哦，朋友！"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "此乃必填欄位。",
+    "minLength": "您輸入的內容太短",
+    "nameFieldValidation": "!    \\ < > ?    % \" 或表情符號不可用",
+    "nameFieldValidation2": "糟了，您不能使用 \\ / ! + < > ? # & , % \" ",
+    "maxLength": "您輸入的內容太長",
+    "email": "您輸入的電郵地址無效",
+    "userName": "使用者名稱應為電郵地址格式",
+    "emailExists": "此電郵地址已存在，請嘗試另一電郵地址。",
+    "userNameExists": "此使用者名稱已存在，請嘗試另一個新稱",
+    "number": "僅限數字！",
+    "pattern": "此欄位的格式不正確",
+    "password": "您的密碼須為至少 8 個字元，當中包括 1 個數字及 1 個大楷字母",
+    "match": "此密碼與之前的密碼不符",
+    "compareTo": "此密碼與之前的密碼不符",
+    "minLengthPassword": "您的密碼須為至少 8 個字元",
+    "maxLengthPassword": "您的密碼太長",
+    "min": "數字太小",
+    "max": "數字太大",
+    "uniqueString": "此名稱已存在。請嘗試一個新地址。",
+    "lowerThen": "最小值不能高於最大值",
+    "weeklyMaxLowerThanSumDailyMin": "每日規則要求的最少日數超過每週規則的最大天數。",
+    "weeklyMinGreaterThanSumDailyMax": "每週規則的最少日數超過每日規則要求的最多天數",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "最少每日組合總時數不能多於每週最多總時數",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "最多每日組合總時數不能少於每調最少總時數",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最少天數超過獨有天總數。",
+    "possibleDaysLowerThanMinDays": "可能天數不符合每週規則要求的最少天數。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "每週規則的最少天數超過獨有天總數。",
+    "noAddedShiftPatters": "您必須選擇至少一個每日規則",
+    "shiftLengthLowerThanActivityLength": "活動長度總和和相應開始不能大於值班長度",
+    "shiftLengthLowerThanTotalActivityLength": "活動總長度不能超過值班長度",
+    "relativeStartLowerThanSlack": "Slack 值不能大於相應開始值",
+    "activitiesOverlap": "活動不能重疊",
+    "serverError": "未知伺服器錯誤",
+    "notValidRegex": "不能使用以下字元：^/!\\+<>?#&,%.",
+    "uniqueTitle": "此名稱已存在。請嘗試一個新地址。",
+    "timeRangeOutsideOfRange": "無效聘用日期",
+    "invalidFileFormat": "無效檔案格式",
+    "integerInvalid": "必須為整數。",
+    "refusalTimeRange": "數值必須在 15 至 300 之間",
+    "invalidMobileNumber": "您所輸入的手機號碼無效",
+    "invalidTelephone": "您輸入的電話號碼無效",
+    "userActivityBlocked": "由於已編排的維護工作，員工建立和編輯暫時不可用，正常服務將很快恢復。",
+    "invalidMfaSecret": "無效 MFA 秘密",
+    "invalidTotalContactCount": "總聯絡計數值必須少於所有聯絡計數總和",
+    "nonBillableMaxCountReached": "您最多可以有 5 個不可收費使用者。",
+    "nonBillableIncreasedLimitReached": "您最多可以有 25 個不可收費使用者。",
+    "invalidMediaSum": "所有通道設定為關閉，所有聯總數必須大於 0。",
+    "incorrectMediaValue": "{{who}}的{{mediaType}}值{{incorrectValue}}無效。",
+    "digitalEngagmentUserLimitReached": "已啟用的 Digital Engagement 使用者數目已被超過",
+    "hierarchiesFailure": "無法取回階層",
+    "descriptionLengthExceededError": "描述長度已超過 255 個字元的上限",
+    "cannotDropTeamsOnTeams": "無法執行此操作，因為團隊不可為團隊的子節點",
+    "cannotDropOUOnTeams": "無法執行此操作，因為組織單位不可為團隊的子系",
+    "cannotDropSUOnTeams": "無法執行此操作，因為排程單元不可為團隊的子節點",
+    "cannotDropOUOnSU": "無法執行此操作，因為組織單位不可為排程單元的子系",
+    "failedToCreateUser": "建立使用者失敗",
+    "failedToUpdateUser": "無法更新使用者",
+    "maxAllowedLimitExceeded": "超出允許的最大檢視限制",
+    "notAllowedToChangeOwnUserView": "不允許變更自己的使用者視圖",
+    "typeAlreadyExists": "類型已存在。"
+  },
+  "groupsListPage": {
+    "pageTitle": "群組",
+    "groups": "群組",
+    "itemsCount": "正在檢視 {{count}}",
+    "totalItemsCount": "總共 {{count}}",
+    "userCount": "",
+    "selectedItems": "已選取 {{selectedCount}}",
+    "untitledTeam": "未命名群組",
+    "createGroup": "新群組",
+    "cancel": "取消",
+    "save": "儲存",
+    "confirm": "確認",
+    "newGroupPageTitle": "建立新群組",
+    "create": "建立",
+    "filters": {
+      "status": "{{count}} 個狀態",
+      "group": "{{count}} 個群組"
+    },
+    "changeAuditHistoryTab": {
+      "GroupAuditable": {
+        "id": "id",
+        "name": "名稱",
+        "usersIds": "使用者 ID"
+      },
+      "noRowsOverlayText": "沒有找到變更歷史資料",
+      "itemsCountLabel": "變更"
+    },
+    "tabLabels": {
+      "changeHistory": " 變更歷史",
+      "general": "一般",
+      "assignedUsers": "已獲指派使用者",
+      "zeroRow": "0 個總數"
+    },
+    "generalInfo": {
+      "groupName": "群組名稱",
+      "title": "群組資訊",
+      "mandatorySymbol": "*"
+    },
+    "users": {
+      "searchPlaceholder": "開始輸入以尋找使用者",
+      "noItemsOverlay": "尚未新增使用者",
+      "noItemsOverlayGrid": "使用此篩選器未找到任何使用者",
+      "noUsersSubText": "選擇以上「新增使用者」以新增使用者",
+      "columns": {
+        "name": "名稱",
+        "username": "使用者名稱",
+        "email": "電郵",
+        "group": "群組",
+        "status": "狀態"
+      },
+      "popovers": {
+        "messageAddedUser": "您必須重新指派此使用者至另一群組以將其移除。",
+        "messageNewUser": "由此群組移除使用者？",
+        "bulkMessageAddedUser": "您必須重新指派此使用者至另一群組以將其移除。",
+        "bulkMessageNewUser": "由此群組移除使用者？"
+      },
+      "userSelectionModal": {
+        "noUserAddedText": "未有新增使用者",
+        "noUserSelectedText": "未有已選取使用者"
+      },
+      "modal": {
+        "noItemsOverlay": "沒有可供指派的使用者",
+        "title": "新增使用者",
+        "saveLabel": "確認",
+        "cancelLabel": "取消"
+      },
+      "buttons": {
+        "addUsers": "新增使用者",
+        "removeUsers": "移除使用者"
+      }
+    },
+    "createSuccessMessage": "已成功建立群組。",
+    "updateFailureMsg": "未有儲存群組",
+    "popover": {
+      "warningMessage": " 所有變更將會遺失。",
+      "confirmMessage": "確定要在未儲存的情況下退出嗎？"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "未儲存資料",
+        "unsavedChanges": "如果您離開此頁面，所有變更將會遺失。",
+        "areYouSureLeavePage": "確定要繼續？"
+      }
+    },
+    "userAssignmentFailureMsg": "使用者指派失敗",
+    "userLabels": {
+      "unassignedUsersLabel": "所有取消指派使用者",
+      "assignedUsersLabel": "已獲指派使用者",
+      "userSearchPlaceholder": "開始輸入以尋找使用者"
+    },
+    "removeSelectedUsersMsg": "您將移除所選使用者。繼續？",
+    "removeSelectedUnavailableCodeMsg": "您將移除所選的不可用代碼。繼續？",
+    "status": {
+      "active": "活躍",
+      "inactive": "非活躍",
+      "all": "全部",
+      "pending": "待處理",
+      "unregistered": "未登記"
+    }
+  },
+  "importUsersModal": {
+    "header": "匯入員工",
+    "weSupportMessage": "透過上載 CSV 檔案匯入員工",
+    "downloadMessage1": "您可以下載 CSV 檔案範本",
+    "downloadMessage2": "",
+    "downloadLink": "在此。",
+    "selectFileMessage": "",
+    "successMsg": "已成功匯入員工。",
+    "errorMsg": "無法匯入員工。",
+    "downloadTemplates": "下載範本",
+    "dragAndFropText": "拖放以上載或",
+    "browsFileText": "瀏覽檔案",
+    "importErrorsList": {
+      "header": "匯入錯誤",
+      "invalidUser": "角色並未存在於系統內",
+      "invalidUserRole": "角色及使用者狀態不符",
+      "userAlreadyExists": "無法建立使用者，已存在同名使用者。",
+      "userCreateFailed": "無法建立使用者，請檢查輸入內容",
+      "invalidUserStatus": "活躍使用者的電郵地址無法變更。",
+      "cannotChangeOwnRole": "您不能變更自身角色。"
+    }
+  },
+  "metaInfo": {
+    "title": "Nice SaaS WFM",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "success": {
+      "title": "成功",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "範例",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "表格範例",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "員工",
+      "description": "Nice SaaS WFM"
+    },
+    "groups": {
+      "title": "群組",
+      "description": "Nice SaaS WFM"
+    },
+    "groups/create": {
+      "title": "建立群組",
+      "description": "Nice SaaS WFM"
+    },
+    "groups/update": {
+      "title": "更新群組",
+      "description": "Nice SaaS WFM"
+    },
+    "accountSettings": {
+      "title": "帳戶設定",
+      "description": "Nice SaaS WFM"
+    },
+    "teams": {
+      "title": "團隊",
+      "description": "團隊"
+    },
+    "teams/create": {
+      "title": "建立團隊",
+      "description": "團隊"
+    },
+    "teams/update": {
+      "title": "更新團隊",
+      "description": "團隊"
+    },
+    "viewTeam": {
+      "title": "檢視團隊",
+      "description": "團隊"
+    },
+    "bulkUploadDownload": {
+      "title": "批量上載下載",
+      "description": "批量上載下載"
+    },
+    "bulkUploadDownload/reviewErrors": {
+      "title": "批量上載下載 - 審核錯誤",
+      "description": "批量上載下載 - 審核錯誤"
+    },
+    "hierarchies": {
+      "title": "階層",
+      "description": "階層"
+    },
+    "hierarchyManager": {
+      "title": "階層管理器",
+      "description": "階層管理器"
+    },
+    "hierarchyManagerV2": {
+      "title": "階層管理器",
+      "description": "階層管理器"
+    },
+    "security": {
+      "title": "安全性",
+      "description": "安全性"
+    },
+    "createGroup": {
+      "title": "建立群組"
+    },
+    "userManagement/create": {
+      "title": "建立使用者",
+      "description": "建立使用者"
+    },
+    "userManagement/update": {
+      "title": "更新使用者",
+      "description": "更新使用者"
+    },
+    "employeeGroups": {
+      "title": "排程單元",
+      "description": "Nice SaaS WFM"
+    }
+  },
+  "successPage": {
+    "welcomeMsg": "您好{{username}}"
+  },
+  "teamsListPage": {
+    "pageTitle": "團隊",
+    "goBackToHierarchy": "回到階層",
+    "teams": "團隊",
+    "teamCount": "{{count}} 個團隊",
+    "itemsCount": "正在檢視 {{count}}",
+    "totalItemsCount": "總共 {{count}}",
+    "userCount": "",
+    "selectedItems": "已選取 {{selectedCount}}",
+    "untitledTeam": "未命名團隊",
+    "createTeam": "新團隊",
+    "cancel": "取消",
+    "save": "儲存",
+    "saveAndActivate": "儲存及啟用",
+    "newTeamPageTitle": "建立新團隊",
+    "bulkOperationBtn": {
+      "activate": "啟用",
+      "deactivate": "停用"
+    },
+    "filters": {
+      "statusLabel": "狀態",
+      "status": "{{count}} 個狀態",
+      "team": "{{count}} 個團隊",
+      "selectStatus": "選擇狀態",
+      "userStatus": {
+        "active": "活躍",
+        "unregistered": "未登記",
+        "pending": "待處理",
+        "deleted": "已刪除"
+      }
+    },
+    "status": {
+      "active": "活躍",
+      "inactive": "非活躍",
+      "all": "全部"
+    },
+    "tabLabels": {
+      "general": "一般",
+      "assignedUsers": "已獲指派使用者",
+      "unavailableCodes": "不可用代碼",
+      "teamProperties": "團隊屬性",
+      "contactSettings": "聯絡設定",
+      "features": "功能",
+      "changeAuditHistory": "變更歷史",
+      "zeroRow": "0 個總數"
+    },
+    "changeAuditHistoryTab": {
+      "Team": {
+        "id": "id",
+        "name": "名稱",
+        "description": "描述",
+        "status": "狀態",
+        "leadUserId": "領導使用者 ID",
+        "isDefault": "為預設",
+        "createdBy": "建立者",
+        "lastModified": "最後修改",
+        "acdInfos": "ACD 資訊",
+        "customAttributes": {
+          "inViewChatMessaging": "Performance Management Chat Messaging",
+          "niceScreenRecording": "螢幕錄製",
+          "inViewCoaching": "Performance Management Coaching",
+          "niceAudioRecording": "錄音",
+          "niceWfmWorloadManager": "WFM 工作量管理器",
+          "niceQuaityManagement": "品質管理",
+          "inViewPerformanceMangement": "表現管理",
+          "niceQualityOptimization": "品質優化",
+          "maxReleasePreview": "使用上一 MAX 版本",
+          "inViewGamification": "Performance Management Gamification",
+          "inViewWallboard": "Performance Management Wallboard",
+          "niceWfmEssentials": "WFM Essentials",
+          "niceWfmAdvanced": "WFM Advanced",
+          "niceWfoAdvanced": "WFO Advanced"
+        },
+        "divisionId": "部門 Id"
+      },
+      "noRowsOverlayText": "沒有找到變更歷史資料",
+      "itemsCountLabel": "變更"
+    },
+    "generalInfo": {
+      "teamName": "團隊名稱",
+      "heading": "團隊資訊",
+      "teamDescription": "描述",
+      "teamLead": "團隊領導",
+      "teamId": "團隊 ID",
+      "noneSelected": "沒有選擇任何一個",
+      "mandatorySymbol": "*",
+      "hierarchyName": "名稱",
+      "hierarchyType": "類型",
+      "hierarchyParent": "家長",
+      "hierarchyAssociationHeading": "階層門關聯",
+      "emptyHierarchiesMessage": "此團隊未連結至任何組織階層。將其新增為現有組織階層中的節點，或建立新階層。",
+      "hierarchyPermission": "您未有權限以檢視階層細節",
+      "primaryHierarchy": "主要階層",
+      "warningModal": {
+        "warningHeader": "警告",
+        "modalBody": "在為團隊指派了部門，就無法變更。",
+        "modalBodySub": "確定要繼續？",
+        "divisionLink": "部門管理頁面",
+        "cancel": "取消",
+        "continue": "繼續"
+      },
+      "teamDivision": "部門",
+      "teamDivisionPlaceholder": "選擇部門"
+    },
+    "users": {
+      "searchPlaceholder": "開始輸入以尋找使用者",
+      "noItemsOverlay": "尚未新增使用者",
+      "noItemsOverlayGrid": "使用此篩選器未找到任何使用者",
+      "noUsersSubText": "選擇以上「新增使用者」以新增使用者",
+      "columns": {
+        "name": "名稱",
+        "username": "使用者名稱",
+        "email": "電郵",
+        "team": "團隊",
+        "status": "狀態"
+      },
+      "popovers": {
+        "messageAddedUser": "您必須重新指派此使用者至另一團隊以將其移除。",
+        "messageNewUser": "由此團隊移除使用者？",
+        "bulkMessageAddedUser": "您必須重新指派此使用者至另一團隊以將其移除。",
+        "bulkMessageNewUser": "由此團隊移除使用者？"
+      },
+      "userSelectionModal": {
+        "noUserAddedText": "未有新增使用者",
+        "noUserSelectedText": "未有已選取使用者"
+      },
+      "modal": {
+        "noItemsOverlay": "沒有可供指派的使用者",
+        "title": "新增使用者"
+      },
+      "buttons": {
+        "addUsers": "新增使用者",
+        "removeUsers": "移除使用者"
+      }
+    },
+    "unavailableCodes": {
+      "searchPlaceholder": "開始輸入以尋找不可用代碼",
+      "noItemsOverlay": "未有已新增的不可用代碼",
+      "noItemsOverlayGrid": "利用此篩選器未有找到不可用代碼",
+      "noUCSubText": "選取以上「新增不可用代碼」以進行新增",
+      "columns": {
+        "name": "名稱",
+        "afterContactWork": "聯絡工作後",
+        "agentTimeout": "客服專員逾時（最短）"
+      },
+      "popovers": {
+        "bulkRemoveConfirmation": "由此團隊移除所選的不可用代碼？",
+        "removeConfirmation": "要從此團隊中移除不可用的代碼嗎？"
+      },
+      "modal": {
+        "noItemsOverlay": "沒有可供指派的不可用代碼",
+        "title": "新增不可用代碼",
+        "noUnavailableCodesAddedText": "未有已新增的不可用代碼",
+        "noUnavailableCodesSelectedText": "未有已選取的不可用代碼"
+      },
+      "buttons": {
+        "addUnavailableCode": "新增不可用代碼",
+        "removeUnavailableCode": "移除不可用代碼"
+      }
+    },
+    "features": {
+      "enabledFeatures": "已啟用功能",
+      "performanceOptimization": "表現優化",
+      "inViewPerfManagement": "Performance Management",
+      "gamification": "Performance Management Gamification",
+      "chatMessage": " Performance ManagementChat Message",
+      "coaching": "Performance Management Coaching",
+      "inViewWallboard": "Performance Management Wallboard",
+      "maxReleasePreview": "使用上一 MAX 版本",
+      "maxPreview": "上一 MAX 版本",
+      "NICEWFO": "WFO ENTERPRISE",
+      "niceAudioRecording": "錄音",
+      "niceScreenRecording": "螢幕錄製",
+      "niceQualityManagement": "品質管理",
+      "niceQualityOptimization": "品質優化",
+      "niceWfmAdvanced": "WFM Advanced",
+      "niceWfmEssentials": "WFM Essentials",
+      "niceWfoEssentials": "WFO Essentials",
+      "niceWfoAdvanced": "WFO Advanced",
+      "cxoneCustomerAuthentication": "CXone 客戶驗證器"
+    },
+    "createSuccessMessage": "已成功建立團隊。",
+    "updateFailureMsg": "未有儲存團隊",
+    "popover": {
+      "warningMessage": "所有變更將會遺失",
+      "confirmMessage": "確定要在未儲存的情況下退出嗎？",
+      "hierarchyRedirectionConfirmationMessage": "您在此頁面或有未儲存變更，請選取以下選項之一以繼續檢視階層細節。"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "未儲存資料",
+        "unsavedChanges": "如果您離開此頁面，所有變更將會遺失。",
+        "areYouSureLeavePage": "確定要繼續？"
+      }
+    },
+    "saveDuplicateTeamModal": {
+      "addHeader": "複製團隊",
+      "subHeading": "團隊名稱",
+      "saveLabel": "重複",
+      "cancelLabel": "取消",
+      "successMsg": "已成功複製團隊",
+      "failureMsg": "在複製團隊時出錯",
+      "errors": {
+        "uniqueTitle": "此名稱已存在。請嘗試一個新地址。"
+      }
+    },
+    "teamProperties": {
+      "contactHandlingTab": {
+        "contactHandling": "聯絡處理",
+        "contactHandlingSubTitle": "團隊預設設定",
+        "teamDefaultsSingleChannel": "團隊預設值（單一通道處理）",
+        "teamDefaults": "團隊預設設定",
+        "teamDefault": "團隊預設",
+        "teamDefaultOff": "團隊預設（關閉）",
+        "deliveryMode": "傳輸模式",
+        "voice": "語音",
+        "chats": "聊天",
+        "singleChannelChatLbl": "同時進行的聊天",
+        "emails": "電郵",
+        "singleChannelEmailLbl": "自動駐留電郵",
+        "workItems": "工作項目",
+        "digital": "數位",
+        "requestContact": "Req 聯絡",
+        "contactAutoFocus": "自動對焦",
+        "totalContactCount": "聯絡總數",
+        "contactHandlingSettings": "聯絡處理設定",
+        "assignedUsers": "已獲指派使用者",
+        "noAssignedUsers": "未有已指派使用者。",
+        "first": "首個",
+        "last": "最後",
+        "sms": "SMS"
+      }
+    },
+    "activateSuccessMsg": "已成功啟用團隊",
+    "deactivateSuccessMsg": "已成功把團隊無效化",
+    "activateFailureMsg": "無法啟用團隊",
+    "deactivateFailureMsg": "無法把團隊無效化",
+    "hierarchyRemovalFailureMsg": "無法移除團隊階層關聯",
+    "bulkActivationSuccessMsg": "已成功啟用團隊",
+    "bulkDeactivationSuccessMsg": "已成功把團隊無效化",
+    "bulkActivationByPassMsg": "團隊已處於工作中",
+    "bulkDeactivationByPassMsg": "團隊已處於非工作中狀態",
+    "bulkActivationFailureMsg": "由於內部錯誤，無法啟用 {0} 團隊",
+    "bulkDeactivationFailureMsg": "無法停用{0}團隊",
+    "bulkHierarchyRemovalFailureMsg": "因為內部錯誤，無法移除 {0} 個團隊階層關聯",
+    "userAssignmentFailureMsg": "使用者指派失敗",
+    "userSuccessCountMsg": " 成功新增使用者",
+    "userFailureCountMsg": " 新增使用者失敗",
+    "userConfigurationFailureMsg": "無法更新僱員使用者配置",
+    "userLabels": {
+      "unassignedUsersLabel": "所有取消指派使用者",
+      "assignedUsersLabel": "已獲指派使用者",
+      "userSearchPlaceholder": "開始輸入以尋找使用者"
+    },
+    "removeSelectedUsersMsg": "您將移除所選使用者。繼續？",
+    "removeSelectedUnavailableCodeMsg": "您將移除所選的不可用代碼。繼續？",
+    "divisions": {
+      "label": "部門",
+      "placeholder": "選擇部門"
+    },
+    "userDivisionMismatchMsg": "使用者無法被移出其部門。"
+  },
+  "teamsPage": {
+    "pageTitle": "團隊",
+    "itemsCount": "{{count}} 個團隊",
+    "itemsCountAngular": "團隊",
+    "selectedItems": "已選取",
+    "createTeam": "新團隊",
+    "noItemsOverlay": "沒有已獲指派團隊。",
+    "cancel": "取消",
+    "create": "建立",
+    "save": "儲存",
+    "teamStrToReplace": "團隊",
+    "searchPlaceHolder": "開始輸入以尋找團隊",
+    "teamNamePlaceHolder": "未命名團隊",
+    "successMsg": "已成功建立團隊",
+    "failureMsg": "無法建立帳戶，請重試",
+    "defaultTooltip": "預設團隊",
+    "gridColumnsHeaders": {
+      "teamName": "名稱",
+      "status": "狀態",
+      "actions": "Actions",
+      "employees": "使用者",
+      "assignedUsers": "已獲指派使用者",
+      "teamId": "團隊 Id"
+    },
+    "filters": {
+      "status": "{{count}} 個狀態",
+      "searchPlaceholder": "開始輸入以尋找團隊"
+    },
+    "moreMenu": {
+      "activate": "啟用",
+      "deactivate": "停用",
+      "clone": "重複"
+    },
+    "teamStates": {
+      "all": "全部",
+      "active": "活躍",
+      "inactive": "非活躍"
+    },
+    "modalMessages": {
+      "hierarchies": {
+        "message": "團隊是一個或多個階層的一部分。在停用時，您是否也要從階層中刪除團隊關聯？",
+        "bulkMessage": "在停用選取的團隊時，您是否也要從階層中刪除團隊關聯？"
+      }
+    },
+    "newTeamNamePlaceholder": "未命名團隊",
+    "teamLeadPlaceHolder": "選取一個團隊領導……",
+    "addHeader": "建立新團隊",
+    "editTeam": "編輯團隊",
+    "employeesTab": {
+      "header": "員工",
+      "assignedEmployeesTxt": "已獲指派員工",
+      "addEmployeesBtn": "新增員工",
+      "selectEmployeesTxt": "選取員工",
+      "selectedTxt": "已選取："
+    },
+    "contactHandlingInfoTab": {
+      "header": "聯絡處理"
+    },
+    "failedLoadTeams": "載入團隊失敗。重試。",
+    "messages": {
+      "updateSuccess": "成功更新團隊",
+      "updateFailure": "無法更新團隊細節",
+      "updateSuccessStartedMsg": "已成功開始更新，此程序需要幾分鐘才能完成",
+      "failedToUpdateTeam": "團隊部門 ID 與現有團隊部門 ID 不符"
+    },
+    "hierarchyType": {
+      "ORGANIZATIONAL": "組織性的"
+    }
+  },
+  "userManagementPage": {
+    "failedLoadUsers": "無法載入使用者。重試。",
+    "pageTitle": "員工",
+    "newUserBtn": "新員工",
+    "importUsersBtn": "匯入員工",
+    "userListHeader": "{{orgName}} 的員工：",
+    "items": "員工",
+    "item": "員工",
+    "selectedItems": "已選取 {{selectedCount}}",
+    "billable": "可收費",
+    "non-billable": "不可收費",
+    "virtualAgentEnabled": "真",
+    "virtualAgentDisabled": "False",
+    "gridColumnsHeaders": {
+      "name": "名稱",
+      "email": "電郵",
+      "acdLogin": "ACD 登入",
+      "role": "角色",
+      "type": "類型",
+      "state": "狀態",
+      "group": "排程單元",
+      "userName": "使用者名稱",
+      "billable": "可收費",
+      "virtualAgentEnabled": "虛擬客服"
+    },
+    "filters": {
+      "schedulingUnits": " 排程單元",
+      "skills": " 技能",
+      "groups": " 群組",
+      "searchPlaceholder": "開始輸入以尋找使用者",
+      "label": "顯示",
+      "teams": " 團隊",
+      "billable": " 可收費",
+      "type": " 類型",
+      "division": " 部門"
+    },
+    "popover": {
+      "visibility": "您沒有檢視\n此資訊的權限",
+      "acdLoginLbl": "ACD 登入",
+      "hireDateLbl": "聘用日期：{{value}}",
+      "rankLbl": "等級：{{value}}",
+      "skillsLbl": "技能：{{value}}",
+      "visibilityInfo": "您無法變更自己的可視性。",
+      "roleInfo": "您不能變更自身角色。",
+      "visibilityRoleInfo": "您無檢視此資訊的權限，您無法變更自己的角色。"
+    },
+    "preferencesTab": {
+      "shiftPreferencesTitle": "值班偏好",
+      "TimePreferencesTitle": "休假偏好",
+      "TimePreferencesSubTitle": "沒有可用休假",
+      "PossibleDaysOff": "可能休假",
+      "day": "天",
+      "shiftTime": "輪班時間",
+      "noOptionsAvailable": "此員工已指派至非彈性規則，因此所有值班均是固定而不能根據偏好調整",
+      "noOptionsAvailableForShift": "沒有已指派值班。"
+    },
+    "userStates": {
+      "active": "活躍",
+      "pending": "待處理",
+      "unregistered": "邀請",
+      "inviting": "正在發送",
+      "deleted": "非活躍",
+      "locked": "解除鎖定",
+      "all": "全部",
+      "samlUnregistered": "啟用",
+      "lockedUser": "鎖定使用者",
+      "passwordLocked": "鎖定密碼"
+    },
+    "userRoles": {
+      "agent": "客服專員"
+    },
+    "bulkOperationsBtns": {
+      "inviteBtn": "邀請",
+      "deleteBtn": "刪除",
+      "deactivateBtn": "停用",
+      "activateBtn": "啟用",
+      "resetPasswordBtn": "重設密碼",
+      "tooltips": {
+        "invite": "邀請員工",
+        "delete": "刪除員工",
+        "resetPwd": "重設密碼"
+      }
+    },
+    "status": {
+      "invite": "邀請"
+    },
+    "tabLabels": {
+      "general": "一般",
+      "skills": "WEM 技能",
+      "availability": "可到任日期",
+      "preferences": "偏好",
+      "changeAuditHistory": "變更歷史",
+      "acd": "ACD",
+      "security": "安全性",
+      "contactHandling": "聯絡設定",
+      "secondaryRoles": "次要角色",
+      "accessKeys": "存取金鑰",
+      "visibility": "可視性",
+      "recordingAccounts": "錄製帳戶",
+      "bcp": "BCP"
+    },
+    "changeAuditHistory": {
+      "noRowsOverlayText": "沒有找到變更歷史資料",
+      "itemsCountLabel": "變更",
+      "User": {
+        "userName": "使用者名稱",
+        "firstName": "名字",
+        "lastName": "姓氏",
+        "emailAddress": "電郵地址",
+        "emailToBeVerified": "電郵（待驗證）",
+        "role": "主要角色",
+        "roleUUID": "主要角色",
+        "secondaryRoleIds": "次要角色",
+        "mobileNumber": "手機號碼",
+        "telephone1": "電話 1",
+        "telephone2": "電話 2",
+        "hireDate": "聘用日期",
+        "rank": "排名",
+        "views": "視圖",
+        "teamId": "已獲指派至團隊",
+        "groupIds": "已獲指派至群組",
+        "externalIdentity": "外部識別器",
+        "status": "狀態",
+        "acdInfos": "ACD 資訊",
+        "middleName": "中間名",
+        "displayName": "顯示名稱",
+        "timeZone": "時區",
+        "type": "類型",
+        "customAttributes": {
+          "canBeScheduled": "可以編排",
+          "canBeCoachedOrEvaluated": "可以被輔導或評估",
+          "canBeRecorded": "可以被錄音（語音）",
+          "canBeRecordedScreen": "可以被錄影（畫面）",
+          "canBeRecordedDefault": "可以被錄製",
+          "canBeAnalyzed": "可以被分析",
+          "osLogin": "OS 登入",
+          "digitalEngagement": "Digital Engagement",
+          "customerCard": "Customer Card",
+          "agentIntegrations": "客服專員整合",
+          "canViewBIReports": "可以檢視 BI 報告",
+          "canEditBIReports": "可以編輯 BI 報告",
+          "virtualAgentEnabled": "已啟用虛擬客服專員",
+          "hasSmartReachUserAccess": "SmartReach 使用者",
+          "hasSmartReachAgentAccess": "Smartreach 客服專員",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartReachDeskAccess": "服務台",
+          "smartReachECCAccess": "Enhanced Customer Card",
+          "dataCollectionEnabled": "資料收集已啟用"
+        },
+        "loginAuthenticatorId": "登入驗證器 Id",
+        "source": "來源",
+        "elevatedDivisionId": "已提升部門 Id"
+      }
+    },
+    "deleteSelectedUsersMsg": "您將停用所選員工的帳戶，此操作將防止員工登入。如果他們想要登入，則需要重新啟用帳戶。繼續？",
+    "deleteSingleUsersMsg": "您將停用此員工的帳戶，此操作將防止該員工登入。如果他／她想要登入，則需要重新啟用帳戶。繼續？",
+    "inviteSelectedUsersMsg": "所選員工將獲邀加入此應用程式。繼續？",
+    "resetPasswordSelectedUsersMsg": "這將強制所選使用者在登入時更新其密碼。是否繼續？",
+    "activateSelectedUsersMsg": "所選員工將被啟用。繼續？",
+    "reinviteUsersMsg": "您的邀請已逾時。請驗證電郵地址並重試。",
+    "reinviteBtnText": "重新傳送",
+    "inviteUsersSuccessMsg": "已成功邀請員工。",
+    "inviteUsersWarnMsg": "員工已處於工作中狀態",
+    "inviteUsersFailureMsg": "無法邀請員工",
+    "inviteSingleUserSuccessMsg": "已成功邀請員工",
+    "activateSingleSamlUserSuccessMsg": "已成功啟用員工",
+    "activateSingleUserSuccessMsg": "已成功啟用員工",
+    "activateSingleUserFailureMsg": "無法啟用員工",
+    "createAndInviteSingleUserSuccessMsg": "已成功建立並邀請員工",
+    "createAndActivateSingleSamlUserSuccessMsg": "已建立員工並成功啟用",
+    "inviteSingleUserFailureMsg": "無法邀請員工",
+    "deleteSingleUserSuccessMsg": "已成功把員工無效化，此員工未來的排程已刪除。",
+    "deleteSingleUserFailureMsg": "無法刪除員工",
+    "deleteUsersSuccessMsg": "{{numOfUsers}} 個員工已被成功停用。這些員工的未來排程已被刪除。",
+    "deleteUsersFailureMsg": "{{numOfFailedToDeleteUsers}}/{{totalExpected}} 個員工無法被刪除",
+    "deleteLoggedInUser": "您無法刪除你自己的員工",
+    "reactivateUser": "已成功啟用使用者",
+    "activateUsersSuccessMsg": "已成功啟用員工",
+    "activateUsersFailureMsg": "由於內部錯誤，無法啟用員工",
+    "resetUsersPasswordSuccessMsg": "成功重設密碼。",
+    "resetUsersPasswordFailureMsg": "密碼重設失敗",
+    "unlockUser": {
+      "popover": {
+        "warningMessage": "由於嘗試失敗次數太多，帳戶已被鎖。",
+        "confirmMessage": "您想要取消鎖定此使用者嗎？"
+      },
+      "messages": {
+        "unlockSuccess": "已成功取消鎖定員工。",
+        "unlockFailure": "無法取消鎖定此員工。"
+      },
+      "lockSubtitle": "（已鎖定帳戶）"
+    },
+    "actionPopover": {
+      "deactivateUser": "停用",
+      "activateUser": "啟用",
+      "resendInvitation": "重新傳送邀請",
+      "inviteUser": "邀請",
+      "resetPassword": "重設密碼",
+      "unlockUser": "解鎖使用者",
+      "unlockPassword": "解鎖密碼"
+    },
+    "modalMessages": {
+      "resetPassword": {
+        "title": "重設密碼？",
+        "confirmButtonText": "重設密碼",
+        "message": "這將強制使用者在登入時更新其密碼。確定要重設此使用者的密碼嗎？"
+      }
+    },
+    "unlockInactiveUser": {
+      "toasterMessages": {
+        "UnlockedSuccess": " 已解鎖",
+        "UnlockFailed": " 解鎖失敗",
+        "PasswordUnlockFailed": "使用者密碼解鎖失敗",
+        "PasswordForUser": "使用者密碼",
+        "failedLoadEmployee": "加載員工失敗"
+      }
+    },
+    "userNotInSameDivisionMsg": {
+      "errorDescription": "使用者與登入使用者不屬於同一部門。",
+      "failureMsg": "無法為上層部門的使用者重設密碼。"
+    }
+  },
+  "commonButtons": {
+    "SingleContactDefault": "單一聯絡（預設）",
+    "Omnichannel": "全通道",
+    "SingleContact": "單一聯絡",
+    "ok": "確定",
+    "cancel": "取消",
+    "no": "否",
+    "noDefault": "是（預設）",
+    "yes": "是",
+    "yesDefault": "否（預設）",
+    "save": "儲存",
+    "delete": "刪除",
+    "invite": "邀請",
+    "edit": "編輯",
+    "update": "更新",
+    "upload": "上載",
+    "today": "今天",
+    "showAll": "全部顯示",
+    "clearAll": "清除全部",
+    "close": "關閉",
+    "create": "建立",
+    "selectAll": "全選",
+    "generate": "產生",
+    "chooseFile": "選擇檔案",
+    "add": "新增",
+    "publish": "發布",
+    "set": "設定",
+    "day": "天",
+    "week": "週",
+    "refresh": "刷新",
+    "off": "關",
+    "on": "開",
+    "discard": "放棄變更",
+    "view": "檢視詳情",
+    "remove": "移除"
+  },
+  "defaultValues": {
+    "defaultNumeric": "{{numericValue}}（預設）"
+  },
+  "weekDays": {
+    "sunday": "星期日",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六"
+  },
+  "weekShortDays": {
+    "SUN": "星期日",
+    "MON": "星期一",
+    "TUE": "星期二",
+    "WED": "星期三",
+    "THU": "星期四",
+    "FRI": "星期五",
+    "SAT": "星期六"
+  },
+  "scheduler": {
+    "noeditsAllowed": "部分已展示值班不可編輯，請變更日期以編輯值班。",
+    "netstaffing": {
+      "diff": "差異",
+      "req": "要求",
+      "staff": "員工"
+    },
+    "publishModal": {
+      "header": "發布新排程",
+      "publishConformation": "您所選的部分日期已發布。如排程有所修改，員工將收到新議程。",
+      "noSchedulesToPublish": "在所選日期範圍未有排程。",
+      "attention": "注意！",
+      "publishAnywayBtn": "仍然發布",
+      "schedulingUnit": "排程單元",
+      "from": "開始：",
+      "to": "結束：",
+      "selectDatePlaceholder": "選擇日期",
+      "oneWeek": "1 星期",
+      "twoWeeks": "2 星期",
+      "threeWeeks": "3 星期",
+      "oneMonth": "1 個月",
+      "successMessage": "已成功發布日期"
+    },
+    "employeeCount": "{{count}} 個使用者",
+    "filters": {
+      "schedulingUnits": "{{count}} 個排程單元",
+      "skills": "{{count}} 個技能",
+      "groups": "{{count}} 個群組",
+      "searchPlaceholder": "開始輸入以尋找使用者"
+    },
+    "activityModal": {
+      "activityCodePlaceholder": "選擇一個活動代碼",
+      "addTitle": "新增活動 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "新增評論……",
+      "editTitle": "編輯活動 - {{userName}}",
+      "error": {
+        "conflict": "偵測到衝突，此活動將取代重疊活動。",
+        "invaliddatetime": "指定日期及/或時間無效。",
+        "daterange": "選擇日期：今日、昨日或明日。",
+        "openhours": "您不能在未開啟時進行排程",
+        "endBeforeStart": "結束日期必需與開始日期相同或在其之後。",
+        "timeRangeOutsideOfRange": "活動必須在時間線範圍 ({{start}} - {{end}}) 內開始或結束。",
+        "activityOverlappingTimeRange": "此活動在已檢索排程以外，或會取代現有活動。"
+      },
+      "end": "結束",
+      "remaining": "剩餘 {{currentLength}} 字元",
+      "remove": "移除",
+      "start": "開始"
+    },
+    "allDay": "全日",
+    "cancel": "取消",
+    "closed": "您不能在機構已關閉的情況下新增值班及活動。",
+    "employeeName": "名稱",
+    "hotkeys": {
+      "nextHotKey": "下一日",
+      "previousHotKey": "上一日",
+      "refreshHotKey": "由資料庫重新載入排程",
+      "saveHotKey": "儲存排程變更",
+      "todayHotKey": "前往今日"
+    },
+    "hours": "小時",
+    "menuItems": {
+      "addActivity": "新增活動",
+      "addShift": "新增班組",
+      "copyActivity": "複製活動",
+      "copyShift": "複製班組",
+      "editActivity": "編輯活動",
+      "editShift": "編輯班組",
+      "pasteActivity": "貼上活動",
+      "pasteShift": "貼上班組",
+      "removeActivity": "移除活動",
+      "removeShift": "移除班組",
+      "cancel": "關閉"
+    },
+    "name": "名稱",
+    "organizationClosed": "機構已關閉",
+    "publish": "發布",
+    "save": "儲存",
+    "saveAndPublish": "儲存並發布",
+    "scheduler": "排程管理器",
+    "settings": "排程管理器設定",
+    "setupModal": {
+      "tabs": {
+        "netStaffing": {
+          "title": "淨人手編排",
+          "range": {
+            "min": "人手不足",
+            "mid": "已獲平衡",
+            "max": "人手過多"
+          }
+        }
+      },
+      "saveSuccess": "已成功儲存排程管理器設定。",
+      "saveFailure": "在儲存排程管理器設定時出錯。"
+    },
+    "shiftModal": {
+      "addTitle": "新增班組 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "您的評論……",
+      "editTitle": "編輯班組 - {{userName}}",
+      "shiftType": "班組類型",
+      "error": {
+        "conflict": "偵測到衝突，此活動將取代重疊活動。",
+        "invalidtime": "指定的時間無效。",
+        "endBeforeStart": "結束日期必需與開始日期相同或在其之後。",
+        "timeRangeOutsideOfRange": "值班必須在時間線範圍 ({{start}} - {{end}}) 內開始或結束。",
+        "shiftOverlappingTimeRange": "此班組不在已檢索的排程內，並會替換現有班組。"
+      },
+      "end": "結束",
+      "remaining": "剩餘 {{currentLength}} 字元",
+      "remove": "移除",
+      "start": "開始"
+    },
+    "toasts": {
+      "saveSuccessMessage": "已成功儲存排程變更。",
+      "noShiftPaste": "無法貼上可視範圍以外的值班。",
+      "noShiftCopy": "無法複製可視範圍以外的班組。",
+      "noActivityPaste": "無法貼上可視範圍以外的活動。",
+      "multipleShifts": "請注意！同日有多個班組。",
+      "overlappingShiftsActivities": "請注意！有重疊的班組及/或活動。",
+      "noEdit": "無法編輯可視範圍以外的班組或活動。",
+      "noRemove": "無法刪除可視範圍以外的班組或活動。",
+      "noAddActivity": "無法向可視範圍以外的班組新增活動。"
+    },
+    "today": "今天",
+    "unavailable": "不可用",
+    "unsaved": "在未有儲存的情況下退出嗎？",
+    "dailyView": "每日檢視",
+    "weeklyView": "每週檢視"
+  },
+  "datePicker": {
+    "nextDay": "下一日",
+    "openCalendar": "開啟日曆",
+    "previousDay": "上一日",
+    "today": "今天"
+  },
+  "timePicker": {
+    "openTimePicker": "開啟時間選擇器"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "下一日",
+    "openCalendar": "開啟日曆",
+    "openTimeChooser": "開啟時間選擇器",
+    "previousDay": "上一日",
+    "today": "今天"
+  },
+  "recoverPassword": {
+    "recoverMessage": "透過三個簡單步驟回復原密碼：",
+    "step1": "在下方輸入您註冊使用的電郵地址",
+    "step2": "我們將會發送供您重設密碼的連結",
+    "step3": "使用此連結重設密碼",
+    "successMessage": "附有重設密碼連結的訊息已傳送至您的電郵",
+    "forgetPassword": "忘記密碼",
+    "forgetPasswordExplenation": "提交您的電郵地址，然後我們將向您發送重設密碼的連結。",
+    "resetBtn": "發送重設連結",
+    "back": "返回登入",
+    "checkYourEmail": "檢查電郵",
+    "mailSuccessSent": "我們將會發送供您重設密碼的連結",
+    "successSend": "已成功傳送重設密碼請求！"
+  },
+  "errors": {
+    "throttlingError": {
+      "code": "retryLater",
+      "message": "無法取得階層關聯資訊。請在幾分鐘後重試。"
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "無法登入"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "一般錯誤"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "此頁面不可用，請檢查連線，然後再試一次。"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "一般錯誤 {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "不可用參數"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "未經授權員工"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "伺服器並無任何回應，請稍後再試一次。"
+    },
+    "wrongCredentials": "您輸入了錯誤電郵地址或密碼",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "內部伺服器錯誤。"
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "內部錯誤。"
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "排程單元不存在。"
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "此名稱已存在。請嘗試一個新地址。"
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "此租戶或員工已存在，請嘗試新一個。"
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "此使用者名稱已存在，請嘗試另一個新稱"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "檔案並不存在。"
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "員工並不存在"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "並無要邀請的員工。"
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "無法建立員工。"
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "員工狀態無效。"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "機構名稱無效。"
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "電郵無效。"
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "員工名字無效。"
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "員工姓氏無效。"
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "無法刪除預設排程單元。"
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "缺少排程單元 ID。"
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "員工最大時數不在範圍內。"
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "員工密碼無效。"
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "無法更新預設群組。"
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "無法從預設群組移除員工。"
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "不正確員工密碼。"
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "員工不存在。"
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "您無法刪除你自己的員工"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "您無法刪除唯一管理員"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "您無法刪除已刪除的員工"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "無效密碼作業記號"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "無法建立帳戶"
+    },
+    "platform_user_manager_service_29": {
+      "code": "CUSTOM_ATTRIBUTE_TYPE_DOES_NOT_EXIST",
+      "message": "自訂屬性類型並不存在"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "機構名稱無效"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "並不支援檔案格式"
+    },
+    "platform_user_manager_service_32": {
+      "code": "USER_RANK_NOT_VALID",
+      "message": "員工排名無效"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "您沒有權限來變更角色"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "您無法變更自身角色"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "無法刪除上一名管理員。"
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "此名稱已存在。請嘗試一個新地址。"
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "因為新密碼與上一個密碼相同，無法變更密碼。"
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "您輸入了錯誤電郵地址或密碼"
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "請檢查細節，然後重新再試"
+    },
+    "platform_user_manager_service_40": {
+      "code": "EMPTY_EMAIL_LIST",
+      "message": "空間電郵清單"
+    },
+    "platform_user_manager_service_41": {
+      "code": "ROLE_DOES_NOT_EXIST",
+      "message": "角色並不存在"
+    },
+    "platform_user_manager_service_42": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "無效 ACD 登入 ID"
+    },
+    "platform_user_manager_service_43": {
+      "code": "ATTRIBUTE_VALUE_ALREADY_EXIST",
+      "message": "屬性值已存在"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "已存在 ACD 登入 ID"
+    },
+    "platform_user_manager_service_45": {
+      "code": "FAILED_TO_CREATE_USER_MAX_USERS_IN_TENANT_REACHED",
+      "message": "超出使用者最大限制"
+    },
+    "platform_user_manager_service_46": {
+      "code": "BAD_REQUEST",
+      "message": "新員工將超越使用者上限，請透過 CXoneSalesTeam@niceincontact.com 聯絡銷售人員"
+    },
+    "platform_user_manager_service_47": {
+      "code": "FAILED_TO_REVIVE_USER",
+      "message": "無法復原員工"
+    },
+    "platform_user_manager_service_48": {
+      "code": "UNABLE_TO_PARSE_DATE_FORMAT_MISMATCH",
+      "message": "無法解析日期格式"
+    },
+    "platform_user_manager_service_49": {
+      "code": "INVALID_FUTURE_DATED_LAST_ACCESS_TIME",
+      "message": "上次存取時間無效"
+    },
+    "platform_user_manager_service_50": {
+      "code": "USER_NAME_NOT_VALID",
+      "message": "員工名稱無效"
+    },
+    "platform_user_manager_service_51": {
+      "code": "USER_EMAIL_ALREADY_EXISTS",
+      "message": "已存在電郵"
+    },
+    "platform_user_manager_service_52": {
+      "code": "USERNAME_ALREADY_EXISTS",
+      "message": "員工名稱已存在"
+    },
+    "platform_user_manager_service_57": {
+      "code": "INVALID_USER_ROLE",
+      "message": "員工角色無效"
+    },
+    "platform_user_manager_service_59": {
+      "code": "USERNAME_NOT_IN_VALID_EMAIL_FORMAT",
+      "message": "使用者名稱應為電郵地址格式"
+    },
+    "platform_user_manager_service_60": {
+      "code": "DISPLAY_NAME_ALREADY_EXISTS",
+      "message": "員工顯示名稱已存在"
+    },
+    "platform_user_manager_service_61": {
+      "code": "DISPLAY_NAME_CANNOT_BE_NULL",
+      "message": "需要員工顯示名稱"
+    },
+    "platform_user_manager_service_62": {
+      "code": "DISPLAY_NAME_CANNOT_BE_EMPTY",
+      "message": "需要員工顯示名稱"
+    },
+    "platform_user_manager_service_64": {
+      "code": "MULTIPLE_USER_WITH_SAME_USERNAME_FOUND",
+      "message": "已找到多個使用者名稱相同的員工"
+    },
+    "platform_user_manager_service_65": {
+      "code": "TEAM_NOT_FOUND_FOR_ID",
+      "message": "使用已提供 ID 沒有找到團隊"
+    },
+    "platform_user_manager_service_66": {
+      "code": "INVALID_SEARCH_CRITERIA",
+      "message": "無效搜尋條件"
+    },
+    "platform_user_manager_service_67": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "團隊名稱無效"
+    },
+    "platform_user_manager_service_68": {
+      "code": "TEAM_ALREADY_EXISTS",
+      "message": "團隊已存在"
+    },
+    "platform_user_manager_service_69": {
+      "code": "TEAM_LEAD_USER_DOES_NOT_EXIST",
+      "message": "團隊領導並不存在"
+    },
+    "platform_user_manager_service_70": {
+      "code": "TEAM_LEAD_USER_NOT_PROVIDED",
+      "message": "沒有團隊領導的團隊"
+    },
+    "platform_user_manager_service_71": {
+      "code": "TENANT_SCHEMA_OR_USER_ID_DOES_NOT_EXIST",
+      "message": "租戶圖表或員工 ID 並不存在"
+    },
+    "platform_user_manager_service_72": {
+      "code": "INVALID_INPUT_OR_DUPLICATE_CLAIM_DATA",
+      "message": "輸入無效或申訴資料重複"
+    },
+    "platform_user_manager_service_73": {
+      "code": "REDIS_CACHING_ERROR",
+      "message": "redis 快取問題"
+    },
+    "platform_user_manager_service_74": {
+      "code": "REDIS_RETRIVAL_ERROR",
+      "message": "redis 快取問題"
+    },
+    "platform_user_manager_service_75": {
+      "code": "ROLE_MISSING",
+      "message": "缺少角色"
+    },
+    "platform_user_manager_service_76": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "取得角色細節的問題"
+    },
+    "platform_user_manager_service_77": {
+      "code": "SERVICE_USER_AUTHENTICATION_FAILED",
+      "message": "在驗證員工時出錯"
+    },
+    "platform_user_manager_service_78": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "取得角色細節的問題"
+    },
+    "platform_user_manager_service_81": {
+      "code": "IMPERSONATE_USER_UPDATE_NOT_ALLOWED",
+      "message": "不允許模擬使用者"
+    },
+    "platform_user_manager_service_83": {
+      "code": "REDIS_TEMPLATE_CREATION_ERROR",
+      "message": "redis 快取問題"
+    },
+    "platform_user_manager_service_84": {
+      "code": "INVALID_JOINT_USER_ATTRIBUTES",
+      "message": "聯合使用者屬性無效"
+    },
+    "platform_user_manager_service_85": {
+      "code": "INVALID_IMPORT_RUN_ID",
+      "message": "匯入運行 ID 無效"
+    },
+    "platform_user_manager_service_86": {
+      "code": "NO_REPORTS_FOUND_FOR_GIVEN_IMPORT_RUN",
+      "message": "並未發現特定匯入運行的報告"
+    },
+    "platform_user_manager_service_88": {
+      "code": " PERMISSION_DENIED",
+      "message": "權限遭拒"
+    },
+    "platform_user_manager_service_94": {
+      "code": "INVALID_INPUT",
+      "message": "輸入無效"
+    },
+    "platform_user_manager_service_95": {
+      "code": "RECORD_NOT_FOUND",
+      "message": "並未發現任何記錄"
+    },
+    "platform_user_manager_service_96": {
+      "code": "RECORD_ALREADY_EXISTS",
+      "message": "記錄已存在"
+    },
+    "platform_user_manager_service_99": {
+      "code": "AWS_USERPOOL_DELETION_FAILED",
+      "message": "使用者資源庫刪除失敗"
+    },
+    "platform_user_manager_service_100": {
+      "code": "EMPTY_APPLICATION_lIST",
+      "message": "應用程式清單為空"
+    },
+    "platform_user_manager_service_101": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "角色狀態無效"
+    },
+    "INVALID_ROLE_STATUS": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "角色狀態無效"
+    },
+    "user_upload_131": {
+      "code": "INVALID_VIEW_COUNT",
+      "message": "您最多可以為使用者指派 3 個視圖"
+    },
+    "user_upload_132": {
+      "code": "INVALID_VIEW_NAME",
+      "message": "無效的視圖名稱"
+    },
+    "user_upload_133": {
+      "code": "INVALID_INPUT",
+      "message": "輸入無效"
+    },
+    "user_upload_134": {
+      "code": "INVALID_AGENT_INTEGRATIONS",
+      "message": "無效值，應為是或否"
+    },
+    "platform_user_manager_service_102": {
+      "code": "INVALID_ROLE_MODIFIABLE_FLAG",
+      "message": "角色的可修改標記無效"
+    },
+    "platform_user_manager_service_111": {
+      "code": "INVALID_ROLENAME",
+      "message": "角色名稱無效"
+    },
+    "platform_user_manager_service_112": {
+      "code": "INVALID_USERNAME_ROLENAME",
+      "message": "員工姓名及角色名稱無效"
+    },
+    "platform_user_manager_service_114": {
+      "code": "INVALID_ROLE_PERMISSION",
+      "message": "針對角色的權限無效"
+    },
+    "platform_user_manager_service_115": {
+      "code": "INVALID_ROLE_ID",
+      "message": "角色 ID 無效"
+    },
+    "platform_user_manager_service_116": {
+      "code": "INVALID_LICENSE",
+      "message": "無效授權"
+    },
+    "platform_user_manager_service_117": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_NAME",
+      "message": "自訂屬性名稱無效"
+    },
+    "platform_user_manager_service_118": {
+      "code": "ATTRIBUTE_NAME_WITH_SPACE",
+      "message": "屬性名稱不能包含空格"
+    },
+    "platform_user_manager_service_125": {
+      "code": "INVALID_USER_ROLE_STATUS",
+      "message": "在重新啟用前，請指派員工至工作中角色"
+    },
+    "platform_user_manager_service_127": {
+      "code": "FAILED_TO_CREATE_ROLE",
+      "message": "無法建立角色"
+    },
+    "platform_user_manager_service_128": {
+      "code": "FAILED_TO_EDIT_ROLE",
+      "message": "無法編輯角色"
+    },
+    "platform_user_manager_service_132": {
+      "code": "INVALID_TEAM_STATUS",
+      "message": "團隊狀態無效"
+    },
+    "platform_user_manager_service_133": {
+      "code": "TEAM_LEAD_USER_NOT_ACTIVE",
+      "message": "團隊領導員工為非工作中狀態"
+    },
+    "platform_user_manager_service_134": {
+      "code": "INVALID_REQUEST",
+      "message": "無效的請求"
+    },
+    "platform_user_manager_service_135": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR",
+      "message": "無法登入驗證器"
+    },
+    "platform_user_manager_service_137": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR_ATTRIBUTE",
+      "message": "登入驗證器屬性無效"
+    },
+    "platform_user_manager_service_138": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_ENTITY_NAME",
+      "message": "自訂屬性實體名稱無效"
+    },
+    "platform_user_manager_service_140": {
+      "code": "INVALID_MFA_DETAILS",
+      "message": "MFA 細節無效"
+    },
+    "platform_user_manager_service_143": {
+      "code": "NOT_ALLOWED_TO_CHANGE_TEAM_STATUS",
+      "message": "不允許變更團隊狀況"
+    },
+    "platform_user_manager_service_152": {
+      "code": " USER_IS_TEAM_LEAD",
+      "message": "無法刪除作為團隊領導的員工"
+    },
+    "platform_user_manager_service_155": {
+      "code": "NO_USER_TO_UPDATE_EMAIL",
+      "message": "不存在要更新電郵的員工"
+    },
+    "platform_user_manager_service_156": {
+      "code": "NO_EMAIL_TO_UPDATE",
+      "message": "需要電郵以進行更新"
+    },
+    "platform_user_manager_service_160": {
+      "code": "USER_EMAIL_UPDATE_FAILED",
+      "message": "無法更新電郵"
+    },
+    "platform_user_manager_service_164": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "時區值無效"
+    },
+    "platform_user_manager_service_198": {
+      "code": "NOT_ALLOWED_TO_CHANGE_SCIM_PROVISIONED_FIELDS",
+      "message": "無法更新 SCIM 佈建欄位"
+    },
+    "platform_user_manager_service_200": {
+      "code": "EMAIL_DOMAIN_NOT_ALLOWED",
+      "message": "不允許使用電郵網域"
+    },
+    "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE",
+      "message": "自訂屬性值無效"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "內部伺服器錯誤。"
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "內部錯誤。"
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "此名稱已存在。請嘗試一個新地址。"
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "技能並不存在。"
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "員工無法擁有多於 50 項技能。"
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "技能名稱無效。"
+    },
+    "wfo_user_manager_service_8": {
+      "code": "INVALID_INPUT",
+      "message": "輸入無效"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "每週規則留空"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "錯誤的每週規則"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "錯誤的每週規則日期範圍"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "錯誤的每週規則小時範圍"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "每週規則的班組上限值少於最少日數每日規則總數"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "每週規則的班組下限值多於最多日數每日規則總數"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "每日時數下限總和大於每週時數上限"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "每日時數上限總和少於每週時數下限"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "可能日數的總和低於每日規則的相應最少日數"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "所有獨有可能日數的總和低於班組下限每日規則的總和"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "並未提供每週規則名稱"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "每日規則為空"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "全部獨有可能日數的總和低於每週班組下限"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "該日期格式無效"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "兩日之間的時段無效"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "所有內部伺服器出錯"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "發生內部錯誤"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "並不支援檔案格式"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "無法閱讀此檔案中的記錄"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "無法找到期望的欄位題目。請看看範例檔案。"
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "系統缺少技能"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "檔案缺少排程單元"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "最早每日開始時間遲於最遲開始時間"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "增長格式錯誤"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "每日規則開始時間並不在正確範圍內"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "每日活動長度大於每日規則長度"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack 格式錯誤"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "相應開始時間為較低 Slack 時間"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "活動長度總和大於每日長度"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "並未存在適用的活動組合"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "活動代碼超過每日規則轉變"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "並不支援檔案格式"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "活動代碼名稱無效"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "排程單位的時區錯誤"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "無法刪除預設活動代碼"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "請選擇一個範本"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "範本 Id 無效"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "表格名稱已存在"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "內部伺服器錯誤。"
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "內部錯誤。"
+    },
+    "hierarchy_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "內部伺服器錯誤。"
+    },
+    "hierarchy_manager_service_2": {
+      "code": "INVALID_INPUT",
+      "message": "輸入無效"
+    },
+    "hierarchy_manager_service_3": {
+      "code": "INVALID_REQUEST",
+      "message": "無效的請求"
+    },
+    "hierarchy_manager_service_12": {
+      "code": "INVALID_SEARCH_REQUEST_KEY",
+      "message": "搜尋金鑰無效"
+    },
+    "hierarchy_manager_service_23": {
+      "code": "INVALID_SEARCH_DIRECTION",
+      "message": "搜尋方向無效"
+    },
+    "hierarchy_manager_service_31": {
+      "code": "HIERARCHY_NAME_EXISTS",
+      "message": "階層名稱已存在"
+    },
+    "user_upload_100": {
+      "code": "INVALID_FIRST_NAME",
+      "message": "名字可能留空或有無效值"
+    },
+    "user_upload_101": {
+      "code": "INVALID_LAST_NAME",
+      "message": "姓氏留空或有無效值"
+    },
+    "user_upload_102": {
+      "code": "INVALID_USERNAME",
+      "message": "使用者名稱應為電郵地址格式"
+    },
+    "user_upload_103": {
+      "code": "INVALID_ROLE_NAME",
+      "message": "角色名稱留空或有無效值"
+    },
+    "user_upload_104": {
+      "code": "INVALID_EMAIL_ADDRESS",
+      "message": "此電郵地址無效"
+    },
+    "user_upload_105": {
+      "code": "INVALID_MOBILE_NUMBER",
+      "message": "無效手機號碼，必須僅包含數字及「‐」「+」號"
+    },
+    "user_upload_106": {
+      "code": "INVALID_RANK",
+      "message": "無效排名值，數值該在 1 至 999 之間"
+    },
+    "user_upload_107": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "團隊名稱無效或團隊並不存在"
+    },
+    "user_upload_108": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "使用者已存在"
+    },
+    "user_upload_109": {
+      "code": "INVALID_EXTERNAL_IDENTITY",
+      "message": "外部身份值無效"
+    },
+    "user_upload_110": {
+      "code": "INVALID_CAN_BE_COACHED_OR_EVALUATED_VALUE",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_111": {
+      "code": "INVALID_CAN_BE_SCHEDULED_VALUE",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_112": {
+      "code": "INVALID_CAN_BE_RECORDED_VALUE",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_113": {
+      "code": "INVALID_CAN_BE_ANALYZED_VALUE",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_114": {
+      "code": "INVALID_CAN_BE_MEASURED_VALUE",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_115": {
+      "code": "INVALID_OS_LOGIN_VALUE",
+      "message": "無效 OS 登入值"
+    },
+    "user_upload_119": {
+      "code": "INVALID_HIRE_DATE",
+      "message": "無效聘用日期，要求格式為 MMM-DD-YYYY (JUL-14-2015)"
+    },
+    "user_upload_120": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "時區值無效"
+    },
+    "user_upload_125": {
+      "code": "INVALID_MFA_SECRET",
+      "message": "無效 MFA 秘密"
+    },
+    "user_upload_126": {
+      "code": "INVALID_ROLE_NAME_RBAC",
+      "message": "角色名稱為空、有無效的值或您無指派此角色的權限"
+    },
+    "user_upload_121": {
+      "code": "INVALID_VIRTUAL_AGENT_ENABLED",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_122": {
+      "code": "INVALID_VIRTUAL_AGENT_TYPE",
+      "message": "無效值，應為電子機械人或電子問卷或關閉"
+    },
+    "user_upload_123": {
+      "code": "INVALID_CAN_VIEW_BI_REPORTS_VALUE",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_124": {
+      "code": "INVALID_CAN_BE_RECORDED_SCREEN_VALUE",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_127": {
+      "code": "INVALID_MIDDLE_NAME",
+      "message": "中間名的值無效"
+    },
+    "user_upload_128": {
+      "code": "INVALID_DISPLAY_NAME",
+      "message": "顯示名稱的值無效"
+    },
+    "user_upload_129": {
+      "code": "INVALID_TYPE",
+      "message": "類型有無效的值"
+    },
+    "user_upload_130": {
+      "code": "INVALID_ROLE",
+      "message": "角色名稱無效或其目前狀態為閒置"
+    },
+    "team_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "要求驗證失敗"
+    },
+    "team_upload_101": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "團隊名稱為空或有無效值"
+    },
+    "team_upload_102": {
+      "code": "INVALID_REQUEST_CONTACT",
+      "message": "要求合約應為是或否"
+    },
+    "team_upload_103": {
+      "code": "INVALID_WFO_ADVANCED",
+      "message": "WFO Advanced 應為是或否"
+    },
+    "team_upload_104": {
+      "code": "INVALID_QUALITY_MANAGEMENT",
+      "message": "品質管理應為是或否"
+    },
+    "team_upload_105": {
+      "code": "INVALID_INVIEW_PERFORMANCE_MGMT",
+      "message": "Performance Management 應為是或否"
+    },
+    "team_upload_106": {
+      "code": "INVALID_INVIEW_GAMIFICATION",
+      "message": "Performance Management Gamification 應為是或否"
+    },
+    "team_upload_107": {
+      "code": "INVALID_INVIEW_COACHING",
+      "message": "Performance Management Coaching 應為是或否"
+    },
+    "team_upload_108": {
+      "code": "INVALID_INVIEW_CHAT",
+      "message": "Performance Management Chat Message 應為是或否"
+    },
+    "team_upload_109": {
+      "code": "INVALID_AUDIO_RECORDING",
+      "message": "錄音應為是或否"
+    },
+    "team_upload_110": {
+      "code": "INVALID_SCREN_RECORDING",
+      "message": "螢幕錄影應為是或否"
+    },
+    "team_upload_111": {
+      "code": "INVALID_QUALITY_OPTIMIZATION",
+      "message": "品質優化應為是或否"
+    },
+    "team_upload_112": {
+      "code": "INVALID_WFM_ADVANCED",
+      "message": "WFM Advanced 應為是或否"
+    },
+    "team_upload_113": {
+      "code": "INVALID_WFM_ESSENTIALS",
+      "message": "WFM Essentials 應為是或否"
+    },
+    "team_upload_114": {
+      "code": "INVALID_WORKLOAD_MANAGER",
+      "message": "工作量管理器應為是或否"
+    },
+    "team_upload_115": {
+      "code": "INVALID_WFO_ESSENTIALS",
+      "message": "WFO Essentials 應為是或否"
+    },
+    "team_upload_116": {
+      "code": "INVALID_DELIVERY_MODE",
+      "message": "傳輸模式值無效"
+    },
+    "team_upload_117": {
+      "code": "INVALID_AUTO_AUTO_FOCUS",
+      "message": "自動對焦應為是或否"
+    },
+    "team_upload_118": {
+      "code": "INVALID_VOICE",
+      "message": "語音應為數字"
+    },
+    "team_upload_119": {
+      "code": "INVALID_CHAT",
+      "message": "聊天應為數字"
+    },
+    "team_upload_120": {
+      "code": "INVALID_EMAILS",
+      "message": "電郵應為數字"
+    },
+    "team_upload_121": {
+      "code": "INVALID_WORK_ITEM",
+      "message": "工作項目應為數字"
+    },
+    "team_upload_122": {
+      "code": "INVALID_TOTAL_CONTACT_COUNT",
+      "message": "總聯絡數目應為數字"
+    },
+    "team_upload_123": {
+      "code": "INVALID_SINGLE_CHANNEL_CHAT",
+      "message": "單一通道 - 同時聊天應為數字"
+    },
+    "team_upload_124": {
+      "code": "INVALID_SINGLE_CHANNEL_EMAILS",
+      "message": "單一通道 - 自動駐留電郵應為數字"
+    },
+    "team_upload_125": {
+      "code": "INVALID_TEAM_LEAD",
+      "message": "沒有團隊領導"
+    },
+    "team_upload_126": {
+      "code": "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE",
+      "message": "父或子節點屬性值無效"
+    },
+    "team_upload_128": {
+      "code": "INVALID_TEAM_DESCRIPTION",
+      "message": "您輸入的內容太長"
+    },
+    "team_upload_129": {
+      "code": "INVALID_TEMPLATE",
+      "message": "上傳的範本無效"
+    },
+    "user_team_upload_003": {
+      "code": "MISSING_TEAM_NAME",
+      "message": "團隊名稱不能留空"
+    },
+    "user_team_upload_004": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "已指派使用者不能為空"
+    },
+    "user_team_upload_005": {
+      "code": "TEAM_DOES_NOT_EXIST",
+      "message": "團隊並不存在"
+    },
+    "user_team_upload_006": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "使用者不存在"
+    },
+    "user_skills_upload_003": {
+      "code": "MISSING_SKILL_ID",
+      "message": "技能 ID 不能留空"
+    },
+    "user_skills_upload_004": {
+      "code": "MISSING_SKILL_NAME",
+      "message": "技能名稱不能留空。"
+    },
+    "user_skills_upload_005": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "已指派使用者不能為空"
+    },
+    "user_skills_upload_007": {
+      "code": "INVALID_SKILL_NAME",
+      "message": "技能名稱無效"
+    },
+    "user_skills_upload_008": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "使用者不存在"
+    },
+    "user_skills_upload_009": {
+      "code": "USER_SKILL_ALREADY_EXISTS",
+      "message": "使用者已獲委派至技能"
+    },
+    "user_skills_upload_010": {
+      "code": "SKILL_ID_NOT_FOUND",
+      "message": "無法找到技能 Id"
+    },
+    "user_skills_upload_011": {
+      "code": "DIGITAL_SKILL_CANNOT_ASSIGNED",
+      "message": "無法建立/修改電子技能指派。"
+    },
+    "recording_account_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "無效的請求"
+    },
+    "recording_account_upload_101": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "此欄位為空或值無效"
+    },
+    "recording_account_upload_102": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "此欄位為空或值無效"
+    },
+    "recording_account_upload_103": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "此欄位為空或值無效"
+    },
+    "recording_account_upload_104": {
+      "code": "FIELD_NOT_EMPTY",
+      "message": "此欄位為空"
+    },
+    "recording_account_upload_105": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "此欄位為空或值無效"
+    },
+    "recording_account_upload_106": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "此欄位為空或值無效"
+    },
+    "recording_account_upload_107": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "此欄位為空或值無效"
+    },
+    "recording_account_upload_108": {
+      "code": "EMPTY_FIELD_FOR_SELECTED",
+      "message": "對於所選操作，此欄位必須為空"
+    },
+    "recording_account_upload_109": {
+      "code": "UPDATED_VALUE_NOT_SAME",
+      "message": "更新後的值不能與該值相同"
+    },
+    "recording_account_upload_110": {
+      "code": "FIELD_VALUE_LIMIT",
+      "message": "該值不能超過 64 個字元"
+    },
+    "recording_account_upload_111": {
+      "code": "FIELD_UPDATED_VALUE_LIMIT",
+      "message": "該值不能超過 64 個字元"
+    },
+    "recording_account_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "電話系統不存在"
+    },
+    "recording_account_upload_121": {
+      "code": "INVALID_USER",
+      "message": "無效使用者"
+    },
+    "recording_account_upload_122": {
+      "code": "AMBIGUOUS_USER_NAME",
+      "message": "使用者名稱不明確"
+    },
+    "recording_account_upload_123": {
+      "code": "ID_ALREADY_EXIST_BUT_INACTIVE",
+      "message": "錄製帳戶已存在，但處於非活動狀態"
+    },
+    "recording_account_upload_124": {
+      "code": "ID_ALREADY_EXIST_BUT_DIFFERENT_USER_ID",
+      "message": "此錄製帳戶已存在，但具有不同的使用者 ID"
+    },
+    "recording_account_upload_125": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_ID",
+      "message": "此錄製帳戶已存在，但具有不同的使用者團隊 ID"
+    },
+    "recording_account_upload_126": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_NAME",
+      "message": "此錄製帳戶已存在，但具有不同的使用者名稱"
+    },
+    "recording_account_upload_127": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "此錄製帳戶不存在"
+    },
+    "recording_account_upload_128": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "此錄製帳戶已存在"
+    },
+    "recording_account_upload_140": {
+      "code": "DB_ERROR",
+      "message": "資料庫發生錯誤"
+    },
+    "recording_account_upload_141": {
+      "code": "USER_HUB_COMMUNICATION_ERROR",
+      "message": "與 UserHub 通訊時發生錯誤"
+    },
+    "recording_account_upload_142": {
+      "code": "NOT_AUTHORIZED",
+      "message": "未經授權存取 UserHub"
+    },
+    "recording_account_upload_143": {
+      "code": "FORBIDDEN_ACCESS",
+      "message": "禁止存取 UserHub"
+    },
+    "recording_account_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "無效輸入事件"
+    },
+    "device_upload_100": {
+      "code": "FIELD_NOT_VALID",
+      "message": "無效的請求"
+    },
+    "device_upload_101": {
+      "code": "FIELD_NOT_VALID",
+      "message": "此欄位為空或值無效"
+    },
+    "device_upload_102": {
+      "code": "FIELD_NOT_VALID",
+      "message": "此欄位為空或值無效"
+    },
+    "device_upload_103": {
+      "code": "FIELD_NOT_VALID",
+      "message": "此欄位為空或值無效"
+    },
+    "device_upload_104": {
+      "code": "FIELD_NOT_VALID",
+      "message": "此欄位為空或值無效"
+    },
+    "device_upload_105": {
+      "code": "FIELD_NOT_VALID",
+      "message": "UDI 不能超過 64 個字元"
+    },
+    "device_upload_106": {
+      "code": "DEVICE_NUMBER_FIELD_LIMIT",
+      "message": "裝置編號不能超過 64 個字元"
+    },
+    "device_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "電話系統不存在"
+    },
+    "device_upload_121": {
+      "code": "MONITORED_GROUP_NOT_EXIST",
+      "message": "被監控的組不存在"
+    },
+    "device_upload_122": {
+      "code": "FILTERED_GROUP_NOT_EXIST",
+      "message": "被篩選的組不存在"
+    },
+    "device_upload_123": {
+      "code": "REJECTED_GROUP_NOT_EXIST",
+      "message": "被拒絕的群不存在"
+    },
+    "device_upload_124": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "組類型不正確"
+    },
+    "device_upload_125": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "組類型不正確"
+    },
+    "device_upload_126": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "組類型不正確"
+    },
+    "device_upload_127": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "該裝置已存在，但具有不同的屬性"
+    },
+    "device_upload_128": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "此裝置不存在"
+    },
+    "device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "資料庫發生錯誤"
+    },
+    "device_upload_invalid_input": {
+      "code": "INPUT_EVENT_INVALID",
+      "message": "無效輸入事件"
+    },
+    "recording_account_download_100": {
+      "code": "INVALID_ACTIVITY_REQUEST",
+      "message": "正在請求的活動無效"
+    },
+    "recording_account_download_101": {
+      "code": "INVALID_ENTITY_REQUEST",
+      "message": "正在請求的實體無效"
+    },
+    "recording_account_download_102": {
+      "code": "INVALID_TOKEN",
+      "message": "權杖欄位缺失"
+    },
+    "recording_account_download_103": {
+      "code": "INVALID_REQUEST",
+      "message": "正在請求的欄位缺失"
+    },
+    "recording_account_download_140": {
+      "code": "DB_ERROR",
+      "message": "資料庫發生錯誤"
+    },
+    "user_upload_135": {
+      "code": "INVALID_AUTHENTICATOR_NAME",
+      "message": "無效登入驗證器名稱"
+    },
+    "remote_device_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "無效的請求"
+    },
+    "remote_device_upload_101": {
+      "code": "INVALID_ACTION",
+      "message": "此欄位為空或值無效"
+    },
+    "remote_device_upload_102": {
+      "code": "INVALID_TELEPHONY_SYSTEM",
+      "message": "此欄位為空或值無效"
+    },
+    "remote_device_upload_104": {
+      "code": "INVALID_SOURCE_DEVICE",
+      "message": "此欄位為空或值無效"
+    },
+    "remote_device_upload_106": {
+      "code": "SOURCE_DEVICE_FIELD_LIMIT",
+      "message": "此欄位不能超過 64 個字元"
+    },
+    "remote_device_upload_107": {
+      "code": "FIELD_NOT_VALID",
+      "message": "使用字母、數字和 @ # *"
+    },
+    "remote_device_upload_109": {
+      "code": "FIELD_LIMIT",
+      "message": "最多輸入 64 個字元"
+    },
+    "remote_device_upload_110": {
+      "code": "FIELD_NOT_VALID",
+      "message": "不能為空或未賦值"
+    },
+    "remote_device_upload_111": {
+      "code": "FIELD_NOT_VALID",
+      "message": "值已存在"
+    },
+    "remote_device_upload_108": {
+      "code": "INVALID_VENDOR",
+      "message": "無效的供應商。"
+    },
+    "remote_device_upload_120": {
+      "code": "UNKNOWN_TELEPHONY_SYSTEM",
+      "message": "電話系統不存在"
+    },
+    "remote_device_upload_128": {
+      "code": "NONEXISTENT_SOURCE_DEVICE",
+      "message": "此裝置不存在"
+    },
+    "remote_device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "資料庫發生錯誤"
+    },
+    "remote_device_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "無效輸入事件"
+    },
+    "recording_account_upload_112": {
+      "code": "INVALID_VALUE_PATTERN_AGENTID",
+      "message": "使用字母、數字和 @"
+    },
+    "recording_account_upload_113": {
+      "code": "INVALID_VALUE_PATTERN_EXTENSION",
+      "message": "使用字母、數字和 @ # *"
+    },
+    "recording_account_upload_114": {
+      "code": "VALUE_TOO_LONG_AGENTID",
+      "message": "輸入 2-64 個字元"
+    },
+    "recording_account_upload_115": {
+      "code": "VALUE_TOO_LONG_EXTENSION",
+      "message": "輸入 3-64 個字元"
+    },
+    "recording_account_upload_116": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_AGENTID",
+      "message": "使用字母、數字和 @"
+    },
+    "recording_account_upload_117": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_EXTENSION",
+      "message": "使用字母、數字和 @ # *"
+    },
+    "recording_account_upload_118": {
+      "code": "UPDATED_VALUE_TOO_LONG_AGENTID",
+      "message": "輸入 2-64 個字元"
+    },
+    "recording_account_upload_119": {
+      "code": "UPDATED_VALUE_TOO_LONG_EXTENSION",
+      "message": "輸入 3-64 個字元"
+    },
+    "user_upload_136": {
+      "code": "INVALID_DIGITAL_ENGAGEMENT",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_137": {
+      "code": "INVALID_CUSTOMER_CARD",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_138": {
+      "code": "INVALID_CAN_EDIT_BI_REPORTS",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_139": {
+      "code": "INVALID_HAS_SMART_REACH_USER_ACCESS",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_140": {
+      "code": "INVALID_HAS_SMART_REACH_AGENT_ACCESS",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_141": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_INSIGHTS",
+      "message": "無效值，應為是或否"
+    },
+    "user_upload_142": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_ACT",
+      "message": "無效值，應為是或否"
+    },
+    "platform_user_manager_service_181": {
+      "code": "VIEW_LIMIT_EXCEEDED",
+      "message": "超出允許的最大檢視限制"
+    },
+    "user_upload_143": {
+      "code": "INVALID_TEMPLATE_NAME",
+      "message": "找不到擁有該名稱的範本，請檢查拼寫並重新嘗試"
+    },
+    "platform_user_manager_service_194": {
+      "code": "platform_user_manager_service_194",
+      "message": "團隊無法被移出其部門。"
+    },
+    "platform_user_manager_service_217": {
+      "code": "platform_user_manager_service_217",
+      "message": "團隊部門 ID 與篩選的使用者部門 ID 不符。"
+    },
+    "user_upload_145": {
+      "code": "INVALID_MFA_TIME_PERIOD",
+      "message": "無效值，此值應在 15 至 300 之間"
+    },
+    "user_upload_146": {
+      "code": "INVALID_TEMPLATE",
+      "message": "上傳的範本無效"
+    },
+    "user_team_upload_007": {
+      "code": "INVALID_TEMPLATE",
+      "message": "上傳的範本無效"
+    }
+  },
+  "weekdayTimeBlocksDirective": {
+    "allDay": "全日",
+    "closed": "已關閉",
+    "removeAllTimeBlocksTooltip": "移除全部"
+  },
+  "noItemsOverlay": {
+    "grid": "尚未定義 {{itemLabel}}",
+    "modal": {
+      "employeeTab": "尚無獲委派員工"
+    }
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "排程單元"
+  },
+  "groupsPage": {
+    "pageTitle": "群組",
+    "newGroupBtn": "新群組",
+    "searchGroup": "開始打字以尋找群組",
+    "gridNoRowsOverlay": "未有已建立群組",
+    "items": "群組",
+    "item": "群組",
+    "selected": "已選取",
+    "errorDelete": "沒有選取任何列以作刪除",
+    "gridColumnsHeaders": {
+      "name": "名稱",
+      "employees": "員工",
+      "action": "動作"
+    },
+    "deleteSelectedGroupsMsg": "您將要刪除所選群組。繼續？",
+    "filters": {
+      "statusLabel": "狀態",
+      "status": "{{count}} 個狀態",
+      "group": "{{count}} 個群組",
+      "clearAll": "清除全部",
+      "close": "關閉"
+    },
+    "popover": {
+      "message": "此群組將由所有員工中刪除。確定？"
+    },
+    "toastMessage": {
+      "deleteSuccess": "已成功刪除群組。",
+      "deleteFailure": "無法刪除群組。",
+      "groupsResponseError": "取回群組時出錯"
+    },
+    "createNewGroupModal": {
+      "addHeader": "建立新群組",
+      "editHeader": "編輯群組",
+      "groupNamePlaceholder": "未命名群組",
+      "popover": {
+        "message1": "所有變更將會遺失",
+        "message2": "確定要在未儲存的情況下退出嗎？"
+      },
+      "employeesTab": {
+        "header": "員工",
+        "assignedEmployeesTxt": "已獲指派員工",
+        "addEmployeesBtn": "新增員工",
+        "selectEmployeesTxt": "選取員工",
+        "selectedTxt": "已選取：",
+        "AlreadyAssignedUsers": "已指派員工"
+      }
+    },
+    "successAdd": "已成功加入新群組",
+    "successEdit": "已成功編輯群組",
+    "assignedUsers": {
+      "addUsersModal": {
+        "title": "新增使用者",
+        "omnibar": {
+          "searchPlaceholderText": "開始輸入以尋找使用者"
+        }
+      }
+    },
+    "warningModal": {
+      "title": "您確定嗎？",
+      "message": "如果您重新命名群組，則不會更新已完成的使用舊名稱的互動分段。",
+      "cancelBtn": "取消",
+      "confirmBtn": "確認"
+    }
+  },
+  "accountSettingsPage": {
+    "pageTitle": "行政帳戶設定",
+    "cancel": "取消",
+    "save": "儲存",
+    "userSessionTimeout": {
+      "header": "閒置逾時",
+      "disabledWarning": "警告：閒置使用者將無法自動登出。",
+      "tooLowWarning": "已允許閒置時間最少須為 5 分鐘。",
+      "tooHighWarning": "已允許閒置時間最多為 8 小時，且沒有關閉閒置逾時。",
+      "hours": "小時",
+      "minutes": "分鐘",
+      "description": "在登出前使用者閒置的時間長度。"
+    },
+    "hostConfigurationSectionHeader": "主機",
+    "stylingSectionHeader": "造型",
+    "bannerSectionHeader": "登入橫額",
+    "allowedEmailDomainsSectionHeader": "允許的電郵網域",
+    "bannerWillClear": "關閉橫額將清除所有已儲存橫額設定。",
+    "customHostnameEntryFieldLabel": "自訂主機名稱",
+    "domainEntryFieldLabel": "網域",
+    "domainGridHeader": "網域",
+    "overlayNoRowsMsg": "沒有要顯示的電郵網域",
+    "addDomainBtn": "新增",
+    "fontColorFieldLabel": "橫額文字",
+    "backgroundColorFieldLabel": "橫額背景",
+    "hostnameLengthValidationError": "主機名稱的長度不能逾 63 個字元。",
+    "hostnameCharValidationError": "主機名稱不能包含任何特殊字元（#?!@%^）。」",
+    "emailDomainLengthValidationError": "網域長度不能超過 190 個字元。",
+    "emailDomainDuplicateError": "網域已經在清單中",
+    "emailDomainMaxLength": "允許的電郵網域不能超過 300 個。",
+    "emailDomainCharValidationError": "網域無效。",
+    "errorMsg": "無法儲存主機名稱。",
+    "errorDuplicate": "已存在此主機名稱。請用另一名稱。",
+    "errorDirty": "主機名稱不能包含粗言，請使用另一名稱。",
+    "errorReserved": "主機名稱包含系統預留的文字，請使用另一名稱。",
+    "saveSuccess": "已成功配置及儲存帳戶設定。",
+    "saveFailure": "在儲存輸入項目時出錯。",
+    "successMsg": "已成功更新帳戶i資訊",
+    "failureMsg": "在更新帳戶資訊時出錯",
+    "popover": {
+      "warningMessage": "所有變更將會遺失",
+      "confirmMessage": "確定要在未儲存的情況下退出嗎？",
+      "domainMessage": "儲存後該網域將被刪除。您確定嗎？"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "未儲存資料",
+        "unsavedChanges": "如果您離開此頁面，所有變更將會遺失。",
+        "areYouSureLeavePage": "確定要繼續？"
+      }
+    },
+    "timeZone": "租客時區",
+    "bannerPlaceHolder": "在此插入文字...",
+    "scim": {
+      "header": "SCIM",
+      "scimProvisionedFields": "SCIM 已佈建的欄位",
+      "days": "天",
+      "scimToken": "SCIM 權杖",
+      "showToken": "顯示 SCIM",
+      "generate": "產生",
+      "expiringToken": "權杖過期時間為",
+      "scimTokenGeneratedSuccess": "成功產生 SCIM 權杖",
+      "scimTokenGeneratedFailure": "產生 SCIM 權杖時出現錯誤",
+      "scimTokenGenerationWarning": "您的權杖已產生。離開此頁面後，您無法檢索此權杖。如果該權杖丟失，則需要建立一個新權杖。",
+      "scimTokenCopiedToClipboard": "已複製 SCIM 權杖到剪貼簿"
+    },
+    "lockInactiveUsers": {
+      "header": "鎖定使用者",
+      "description": "使用者被鎖定前的非活躍天數",
+      "enablementWarning": "警告：這將為該租戶的所有使用者設定非活躍設定。"
+    },
+    "toggleOn": "開",
+    "toggleOff": "關",
+    "ssoStateDuration": {
+      "header": "自訂 SSO 狀態",
+      "description": "為使用者狀態設定時間",
+      "enablementWarning": "警告：這將為該租戶的所有使用者設定 SSO 狀態。"
+    },
+    "scimTokenSectionHeader": "SCIM 權杖",
+    "scimUserProvisionedFields": "使用者選擇",
+    "daysToExpireOldTokens": "舊權杖到期的天數",
+    "disableMarketingPanelLabel": "停用行銷面板",
+    "overlayNoRowsAddAppMsg": "沒有要顯示的其他應用程式",
+    "additionalApplications": {
+      "name": "名稱",
+      "link": "連結",
+      "addButton": "新增",
+      "linkLengthValidationError": "連結不得超過 2048 個字元",
+      "linkValidationError": "連結必須以 http:// 或 https:// 開頭",
+      "nameLengthValidationError": "名稱不得超過 50 個字元",
+      "sectionHeader": "其他應用程式",
+      "popoverMessage": "儲存後該應用程式將被刪除。您確定嗎？"
+    },
+    "tabs": {
+      "scimTabTitle": "SCIM",
+      "userSettingsTabTitle": "使用者設定",
+      "additionalAppsTabTitle": "其他應用程式",
+      "hostTabTitle": "主機"
+    }
+  },
+  "add-entity-ui": {
+    "entityCount": "",
+    "selectAllLabel": "全選"
+  },
+  "generic-users": {
+    "searchPlaceholder": "開始輸入以尋找使用者",
+    "noItemsOverlay": "尚未新增使用者",
+    "noItemsOverlayGrid": "使用此篩選器未找到任何使用者",
+    "noUsersSubText": "選擇以上「新增使用者」以新增使用者",
+    "itemsCount": "正在檢視 {{count}}",
+    "totalItemsCount": " 總計",
+    "totalItemsCountLabel": " 總計",
+    "userCount": "",
+    "tabLabels": {
+      "general": "一般",
+      "assignedUsers": "已獲指派使用者",
+      "zeroRow": "0 個總數"
+    },
+    "columns": {
+      "name": "名稱",
+      "username": "使用者名稱",
+      "email": "電郵",
+      "status": "狀態",
+      "role": "角色",
+      "action": "動作"
+    },
+    "popovers": {
+      "messageAddedUser": "您必須重新指派此使用者至另一角色以將其移除。",
+      "messageNewUser": "由此角色移除使用者？",
+      "bulkMessageAddedUser": "您必須重新指派此使用者至另一角色以將其移除。",
+      "bulkMessageNewUser": "由此角色移除使用者？"
+    },
+    "userSelectionModal": {
+      "noUserAddedText": "未有新增使用者",
+      "noUserSelectedText": "未有已選取使用者"
+    },
+    "modal": {
+      "noItemsOverlay": "尚未新增使用者",
+      "title": "新增使用者"
+    },
+    "buttons": {
+      "addUsers": "新增使用者",
+      "removeUsers": "移除使用者"
+    }
+  },
+  "hierarchiesPage": {
+    "pageTitle": "階層",
+    "newHierarchy": "新階層",
+    "itemsCount": "{{count}} 階層",
+    "searchPlaceholder": "開始輸入以尋找階層",
+    "noItemsOverlay": "未有已定義階層",
+    "saveAndActivate": "儲存及啟用",
+    "save": "儲存",
+    "cancel": "取消",
+    "createSuccessMessage": "已成功建立階層。",
+    "updateSuccessMessage": "已成功更新階層。",
+    "createErrorMessage": "在建立階層時出現問題，請稍後重試。",
+    "updateErrorMessage": "在更新階層時出現問題，請稍後重試。",
+    "openHierarchyErrorMessage": "在檢視此階層時出現問題，請稍後重試。",
+    "nodeSuccessfullyDropped": "{{draggedEntityName}} {{draggedEntityType}} 已新增到 {{droppedEntityName}} {{droppedEntityType}} 之下。",
+    "hierarchyManager": {
+      "pageTitle": "階層",
+      "newHierarchy": "建立新階層",
+      "cancel": "取消",
+      "hierarchyNamePlaceholder": "階層名稱",
+      "hierarchyType": "選擇階層類型",
+      "errorMessages": {
+        "typeRequired": "此欄位為必填欄位",
+        "nameRequired": "此欄位為必填欄位",
+        "duplicateName": "此名稱已存在。請嘗試一個新地址。"
+      }
+    },
+    "gridColumnHeaders": {
+      "hierarchyName": "階層名稱",
+      "hierarchyType": "類型",
+      "lastModifiedBy": "最後修改者",
+      "lastModifiedDate": "最後修改",
+      "hierarchyStatus": "狀態",
+      "hierarchyActions": "ACTIONS",
+      "applications": "應用程式"
+    },
+    "hierarchyStatus": {
+      "active": "活躍",
+      "inactive": "非活躍"
+    },
+    "hierarchyTypeCamelCase": {
+      "Organizational": "組織性的"
+    },
+    "hierarchyHamburgerMenu": {
+      "activate": "啟用",
+      "deactivate": "停用"
+    },
+    "hierarchyManagerToastMessages": {
+      "failureTemplatesHierarchy": "由階層取得範本時出現問題，請稍後重試。",
+      "successDeactivatingHierarchy": "已成功把階層無效化。",
+      "failureDeactivatingHierarchy": "在把階層無效化時出現問題，請稍後重試。",
+      "successActivatingHierarchy": "已成功啟用階層。",
+      "failureActivatingHierarchy": "在啟用階層時出現問題，請稍後重試。"
+    },
+    "popovers": {
+      "deactivateHierarchy": {
+        "msg": "您將把階層無效化，想要繼續？"
+      },
+      "activateHierarchy": {
+        "msg": "你確定要啟用此階層嗎？"
+      },
+      "mappingApplicationsHierarchyPopover": {
+        "msg": "因為已配對至一個或多個應用程式，此階層無法無效化。"
+      },
+      "warningMessage": "所有變更將會遺失",
+      "confirmMessage": "確定要在未儲存的情況下退出嗎？",
+      "deleteNodeWarningChildren": "刪除此節點將刪除此節點下的所有子及對等節點。想要繼續？",
+      "deleteNodeWarning": "您將刪除此節點。想要繼續？",
+      "visibility": "您沒有檢視\n此資訊的權限"
+    },
+    "modalMessages": {
+      "transition": {
+        "title": "未儲存資料",
+        "unsavedChanges": "如果您離開此頁面，所有變更將會遺失。",
+        "warningMessage": "確定要繼續？"
+      }
+    },
+    "components": {
+      "nodeActionComponent": {
+        "title": {
+          "addChild": "新增子",
+          "addPeer": "新增對等",
+          "containers": "容器",
+          "members": "成員",
+          "expandBranch": "展開分支",
+          "collapseBranch": "摺疊分支",
+          "rename": "編輯",
+          "delete": "刪除",
+          "info": "資訊"
+        },
+        "hierarchyTypeLabel": "組織性單位",
+        "defaultNodeName": "未命名"
+      },
+      "members": {
+        "headerText": "成員",
+        "headerTextAfter": "新增成員",
+        "searchPlaceHolder": "搜尋成員",
+        "type": "使用者",
+        "employeeButton": "員工",
+        "teamsButton": "團隊",
+        "AddButton": "新增",
+        "RemoveButton": "移除",
+        "noMembersSearchTxt": "團隊內沒有使用者",
+        "noResultSearchTxt": "沒有發現結果",
+        "noMembersTxt": {
+          "heading": "未有新增成員",
+          "subHeading": "按下",
+          "subHeading1": " 以新增成員。",
+          "subHeading2": "一旦已新增成員，他們將在此展示"
+        }
+      },
+      "containers": {
+        "headerText": "容器",
+        "searchPlaceHolder": "搜尋容器",
+        "type": "團隊"
+      }
+    },
+    "messages": {
+      "error": {
+        "failedToLoadHierarchies": "無法載入階層，請稍後重試。"
+      }
+    }
+  },
+  "hierarchiesPageV2": {
+    "pageTitle": "階層",
+    "itemsCount": "{{count}} 階層",
+    "searchPlaceholder": "開始輸入以尋找階層",
+    "noItemsOverlay": "未有已定義階層",
+    "saveAndActivate": "儲存及啟用",
+    "createSuccessMessage": "已成功建立階層。",
+    "updateSuccessMessage": "已成功更新階層。",
+    "updateNameMessage": "已成功更新階層名稱。",
+    "updateAppMessage": "已成功更新應用程式配對。",
+    "createErrorMessage": "在建立階層時出現問題，請稍後重試。",
+    "updateErrorMessage": "在更新階層時出現問題，請稍後重試。",
+    "openHierarchyErrorMessage": "在檢視此階層時出現問題，請稍後重試。",
+    "openHierarchyTemplateErrorMessage": "在載入階層範本時出現問題，請稍後重試。",
+    "openHierarchyApplicationErrorMessage": "在載入階層應用程式時出現問題，請稍後重試。",
+    "subtreeDepthViolationErrorMessage": "因為超過可允許的階層深度（10 層），操作無法執行",
+    "subtreeNodeLimitViolationErrorMessage": "此操作超出了允許的階層結構節點限制，因此無法執行。",
+    "modalMessages": {
+      "transition": {
+        "title": "未儲存資料",
+        "unsavedChanges": "如果您離開此頁面，所有變更將會遺失。",
+        "warningMessage": "確定要繼續？"
+      }
+    },
+    "hierarchyManager": {
+      "pageTitle": "階層",
+      "close": "關閉",
+      "save": "儲存",
+      "create": "建立",
+      "cancel": "取消",
+      "update": "更新",
+      "hierarchyName": "名稱",
+      "hierarchyType": "類型",
+      "application": "應用程式",
+      "hierarchyNamePlaceholder": "新增階層名稱",
+      "hierarchyTypePlaceholder": "選擇類型",
+      "applicationPlaceholder": "選擇應用程式",
+      "newHierarchy": "建立新階層",
+      "formLabels": {
+        "teamPlaceholder": "選取團隊",
+        "suPlaceholder": "選擇排程單元"
+      },
+      "team": {
+        "warningMsg": "團隊以「{{existingParent}}」OU 的子節點存在。透過「新增」動作，團隊節點將移至「{{newParent}}」OU 下"
+      },
+      "components": {
+        "members": {
+          "headerText": "成員",
+          "addButton": "新增",
+          "headerTextAfter": "新增成員",
+          "cancelButton": "取消",
+          "saveButton": "儲存",
+          "removeButton": "移除",
+          "viewDetailsButton": "檢視團隊細節",
+          "viewSUDetailsButton": "檢視詳情",
+          "searchPlaceHolder": "搜尋成員",
+          "type": "使用者",
+          "noResultSearchTxt": "沒有發現結果",
+          "associationMsg": "使用者已是「{{ouname}}」成員",
+          "noMembersTxt": {
+            "heading": "未有新增成員",
+            "subHeading": "按下「新增」以新增成員。",
+            "subHeading1": "一旦已新增成員，他們將在此展示。"
+          }
+        },
+        "nodeComponent": {
+          "hierarchyTypeLabel": {
+            "OU": "組織單位",
+            "TEAM": "團隊",
+            "SU": "排程單元"
+          }
+        }
+      },
+      "popovers": {
+        "confirmMsg": "請選擇任何一個以繼續",
+        "deleteNodeWarning": "你將由此階層刪除此 OU ，有了這操作，此 OU 下包括所有子節點的網絡將會刪除。",
+        "deleteSUNodeWarning": "你將從此階層移除此 SU。有了這操作，此 SU 下包括所有子節點的網絡（如有）將會刪除。",
+        "deleteTeamNodeWarning": "你將從此階層移除此團隊。",
+        "deleteWarning3": "是否要繼續？",
+        "deleteSUWarning4": " 這階層的 SU？",
+        "replaceTeamNodeWarning1": "目前存在團隊的上方為",
+        "replaceSUNodeWarning1": "目前存在 SU 的上方為",
+        "replaceNodeWarning1": " 且將被移至下方",
+        "replaceNodeWarning2": ".是否要繼續？",
+        "OUDescription": "此操作將創立機構單位（OU）類型的子節點。在 OU 建立後，您將能新增成員",
+        "TeamDescription": "此操作將透過選取其中一個現有團隊來建立團隊類型子節點。在團隊節點建立後，您將能檢視團隊資訊及成員資格",
+        "SUDescription": "此操作將透過選取其中一個現有 SU 來建立排程單元類型（SU）子節點。在團隊節點建立後，您將能新增子節點、檢視 SU 資訊及成員資格",
+        "editNodePopover": {
+          "popoverTitle": "編輯細節",
+          "nameLabel": "名稱"
+        },
+        "addNodePopover": {
+          "popoverTitle": {
+            "ou": "新增機構單位",
+            "team": "新增團隊",
+            "su": "新增排程單元"
+          },
+          "nameLabel": {
+            "ou": "名稱",
+            "team": "新增現有團隊",
+            "su": "新增現存排程單元"
+          },
+          "validation": {
+            "teamValidation": "目前已新增團隊的上方為",
+            "suValidation": "目前已新增 SU 的上方為",
+            "nonLeafSUMoveValidation": "此排程單元已作為階層內的父節點存在"
+          }
+        },
+        "infoNodePopover": {
+          "popoverTitle": "團隊資訊",
+          "nameLabel": "名稱",
+          "TeamLeadLabel": "團隊領導"
+        },
+        "suInfoNodePopover": {
+          "popoverTitle": "排程單元資訊",
+          "nameLabel": "名稱",
+          "TimeZoneLabel": "時區"
+        }
+      },
+      "saved": "已儲存",
+      "saving": "正在儲存…",
+      "minuteAgo": "分鐘前",
+      "minutesAgo": "分鐘前"
+    },
+    "template": {
+      "templateType": {
+        "ou": "新增機構單位",
+        "team": "新增團隊",
+        "su": "新增排程單元"
+      }
+    }
+  },
+  "employeeGroupsPage": {
+    "pageTitle": "排程單元",
+    "items": "單位",
+    "item": "排程單元",
+    "errorDelete": "沒有選取任何列以作刪除",
+    "errorDeleteNoId": "已刪除此排程單元，請刷新頁面。",
+    "bulkOperationsBtns": {
+      "deleteBtn": "刪除"
+    },
+    "gridColumnsHeaders": {
+      "id": "ID",
+      "name": "名稱",
+      "employees": "員工",
+      "timeZone": "時區",
+      "unit": "單位"
+    },
+    "deleteSelectedGroupMsg": "這些單位將從所有員工移除，您確定嗎？",
+    "popover": {
+      "message": "警告！刪除此項目將把所有已獲指派員工移至預設排程單元，並將影響其時間編排。"
+    },
+    "tooltip": {
+      "message": "此 SU 為階層的一部分，您必須從階層將其移除才能將其刪除。",
+      "deleteSUsInHeirarchyMessage": "所選單位為階層的一部分，您必須從階層將其移除才能將其刪除。"
+    },
+    "errorMessages": {
+      "required": "您留空了欄位",
+      "minLength": "您輸入的內容太短",
+      "maxLength": "您輸入的內容太長",
+      "uniqueGroupName": "此名稱已存在。請嘗試一個新地址。",
+      "defaultGroupName": "預設群組名稱無法編輯",
+      "defaultGroupAddEmployees": "如要移動員工，請編輯目標排程單元，並向其新增員工。",
+      "cannotDeleteDefaultGroup": "此預設群組無法刪除"
+    },
+    "formLabels": {
+      "groupName": "排程單元名稱",
+      "users": "員工",
+      "timeZone": "時區"
+    },
+    "addNewGroup": "新單位",
+    "totalItems": "{{count}} 個排程單元",
+    "createNewGroupModal": {
+      "addHeader": "建立新排程單元",
+      "editHeader": "編輯排程單元",
+      "groupNamePlaceholder": "未命名單位",
+      "generalInfoTab": {
+        "header": "操作時間",
+        "firstDayOfWeekInstruction": "本星期的首日",
+        "timeZoneInstruction": "時區",
+        "operationWorkingHoursHeader": "營運工作時間",
+        "day": "天",
+        "workHours": "工作時數",
+        "from": "開始時間",
+        "to": "到",
+        "hour": "時",
+        "hours": "小時",
+        "allDayWorkingHours": "全日",
+        "amountOfHours": {
+          "numOfHours": "（{{hours}}小時）",
+          "closed": "（已關閉）"
+        },
+        "daysOfWeek": {
+          "monday": "星期一",
+          "tuesday": "星期二",
+          "wednesday": "星期三",
+          "thursday": "星期四",
+          "friday": "星期五",
+          "saturday": "星期六",
+          "sunday": "星期日"
+        }
+      },
+      "employeesTab": {
+        "header": "員工",
+        "assignedEmployeesTxt": "已獲指派員工",
+        "addEmployeesBtn": "新增員工",
+        "selectEmployeesTxt": "選取員工",
+        "selectedTxt": "已選取："
+      },
+      "successAdd": "已成功加入新的排程編排單位",
+      "successEdit": "已成功編輯排程編排單位"
+    },
+    "suDeleteWarningModal": {
+      "header": "錯誤刪除排程單元"
+    }
+  }
+}

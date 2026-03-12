@@ -1,0 +1,29 @@
+{
+  "aaiAdminUIApp": {
+    "AAH": "상담원 어시스트 허브",
+    "AAITitle": "AAI 관리자",
+    "AuthenticationWait": "인증 대기 중...",
+    "AutomationAndAIAppTitle": "자동화 및 AI",
+    "CT": "지속적 스트림",
+    "HubTitle": "CXone Mpower 허브",
+    "IHF": "Integration Hub",
+    "IntegrationsAppTitle": "통합",
+    "PermissionText": "권한 필수",
+    "STT": "턴 바이 턴",
+    "TH": "지속적 스트림",
+    "TRHB": "Transcription Hub",
+    "TTS": "클라우드 TTS 허브",
+    "UnauthorisedText": "이 페이지를 보려면 권한이 필요합니다. 관리자에게 문의하십시오.",
+    "VAH": "가상 상담원 허브",
+    "VBH": "음성 생체인식 허브",
+    "notSelectedConfiguration": "왼쪽 메뉴에서 구성을 선택하십시오!",
+    "CTS": "대화 내용 구독",
+    "RTS": "구독",
+    "CM": "채널 매핑",
+    "IT": "통합",
+    "PS": "Presence Sync 매핑",
+    "UCAASITG": "UCaaS 통합",
+    "PC": "Presence Connect",
+    "DS": "Directory Sync"
+  }
+}

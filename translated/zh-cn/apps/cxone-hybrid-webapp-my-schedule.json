@@ -1,0 +1,2485 @@
+{
+  "mySchedule": {
+    "enhancedTradeModal": {
+      "modalTitle": "交易班次",
+      "okLabel": "提交交易请求",
+      "fromLabel": "来自",
+      "toLabel": "到",
+      "preferredShiftLabel": "首选班次日期和时间",
+      "betweenLabel": "介于",
+      "grid": {
+        "shiftStart": "班次开始时间",
+        "shiftEnd": "班次结束时间",
+        "agentName": "坐席姓名",
+        "gridNotSet": "尚未设置班次偏好",
+        "gridNoRowsOverlay": "未找到匹配班次。更新您的交换偏好",
+        "gridNoAgent": "未找到任何坐席",
+        "gridError": "无法加载数据。请重试。",
+        "wfo_service_schedule_manager_79": "无法交换班次。交换时间少于所需的最小值。",
+        "wfo_service_schedule_manager_88": "无法拆分活动。选择不同的请求者时间。",
+        "wfo_service_schedule_manager_90": "不允许部分日内交易",
+        "wfo_service_schedule_manager_78": "不能交易轮班。交易轮班时间与要求的时间过于接近。",
+        "wfo_service_schedule_manager_68": "不能交易轮班。计划表还未发布。",
+        "wfo_service_schedule_manager_77": "不能交易轮班。将交易日期从请求日期移到允许期限之外。",
+        "wfo_service_schedule_manager_65": "不能交易轮班。过去的日期不允许进行轮班交易。",
+        "wfo_service_schedule_manager_62": "不能交易轮班。对于待定的时间表更改请求，不允许进行轮班交易。",
+        "wfo_service_schedule_manager_87": "不能交易轮班。当天的未结交易请求数超过了配置的限制。",
+        "wfo_service_schedule_manager_76": "交易不允许。"
+      },
+      "header": {
+        "shift": "班次",
+        "searchTitle": "搜索坐席",
+        "selectedRow": "仅显示所选",
+        "selected": "已选择"
+      },
+      "tradeConfigMsg": "基于系统交换配置",
+      "weekdayDropdown": "选择首选日期",
+      "findShiftBtnText": "查找匹配班次",
+      "openTradeMessage": {
+        "requestorWaitForApproval": "已将班次交换请求发送给 {{totalRequests}} 名员工并正在等待接受",
+        "requesteeInvitedForTrade": "{{requestorName}} 正在邀请您进行班次交易",
+        "requesteeAcceptedTrade": "您接受了这笔交易。等待主管批准",
+        "viewRequest": "查看请求",
+        "decline": "拒绝",
+        "cancel": "取消"
+      },
+      "fullDayTradeOption": "全职班次",
+      "partialDayTradeOption": "兼职班次",
+      "nonTradeableActivityPresent": "轮班时间包含不可交易的活动",
+      "startTimeLateThanEndTime": "开始时间必须早于结束时间。",
+      "minAdvanceNotice": "交易申请必须至少提前{{stringTime}}提交",
+      "minPartialShiftDuration": "选择至少{{minStringTime}}",
+      "fullDayShiftLabel": "轮班时间",
+      "partialShiftLabel": "部分轮班时间",
+      "popOverNonTradableActivity": "轮班时间包含不可交易的活动",
+      "popOverMinAdvNotice": "交易申请必须至少提前{{stringTime}}提交",
+      "popOverPartialTradeDisabled": "根据系统交易配置，只允许全天交易",
+      "popOverPartialRequestPending": "当部分日间交易请求正在等待时，不允许进行全日交易",
+      "popOverFullDayRequestPending": "当全日交易请求待定时，不允许部分日间交易",
+      "maxSelectionMessage": "你可以选择最多{{maxSelectionPossible}}班次。",
+      "daysNotSelectedtLabel": "此字段为必填项"
+    },
+    "tradeValidations": {
+      "wfo_service_schedule_manager_68": "不能交易班次。计划表还未发布。",
+      "tradeFailure": "不能交易轮班。未知错误。",
+      "generalError": "交易失败。请稍后再试。",
+      "wfo_service_schedule_manager_78": "无法交换班次。班次交换日期离请求日期太近。",
+      "wfo_service_schedule_manager_77": "不能交易轮班。将交易日期从请求日期移到允许期限之外。",
+      "wfo_service_schedule_manager_65": "不能交易轮班。过去的日期不允许进行轮班交易。",
+      "wfo_service_schedule_manager_62": "不能交易轮班。对于待定的时间表更改请求，不允许进行轮班交易。",
+      "wfo_service_schedule_manager_88": "无法交换班次。发布的时间表为空。",
+      "non_tradable": "无法交换班次。您班次中至少有一个活动无法交易。",
+      "wfo_service_schedule_manager_87": "不能交易轮班。当天的未结交易请求数超过了配置的限制。",
+      "wfo_service_schedule_manager_76": "交易不允许。",
+      "tradeSuccess": "交易请求已成功发送至全部所选坐席。",
+      "tradeSuccessPartial": "已成功将交易请求发送至 {{successCount}} 个代理。",
+      "tradeSubmissionFailure": "交换请求失败。",
+      "tradeAccpeted": "交易请求已成功接受。",
+      "trdaeDecline": "交易请求已成功拒绝。"
+    },
+    "errorRead": "加载计划时发生错误。",
+    "pageTitle": "我的计划",
+    "userName": "{{userName}}",
+    "actionButton": "操作",
+    "actionLinks": {
+      "tradeShift": "交易班次",
+      "userPreferences": "班次首选项",
+      "userTORBalance": "休假余额"
+    },
+    "showSummary": {
+      "onCall": "呼叫应答",
+      "outOfOfficeAgent": "不在办公室",
+      "noData": "无数据"
+    },
+    "tradeModal": {
+      "agentLabel": "交易对象：",
+      "agentPlaceHolder": "选择坐席",
+      "okLabel": "递交",
+      "modalTitle": "交易 {{date}}|{{time}}"
+    },
+    "userPreferencesModal": {
+      "okLabel": "保存",
+      "modalTitle": "班次首选项",
+      "updateSuccessMsg": "员工更新成功！"
+    },
+    "openTradeMessage": {
+      "requestorWaitForApproval": "交易请求已提交并等待批准",
+      "requesteeInvitedForTrade": "{{requestorName}} 正在邀请您进行班次交易",
+      "requesteeAcceptedTrade": "您接受了这笔交易。等待主管批准",
+      "viewRequest": "查看请求",
+      "decline": "拒绝",
+      "cancel": "取消"
+    },
+    "toasts": {
+      "updateFailed": "更新班次交易请求状态时出现问题",
+      "canceledFailed": "取消班次交易请求时出现问题",
+      "declinedFailed": "拒绝班次交易请求时出现问题",
+      "acceptedFailed": "接受班次交易请求时出现问题",
+      "retrieveFailed": "检索班次交易请求时出现问题",
+      "canceledSuccess": "交换请求取消成功。",
+      "noTradeAvaliable": "该交易请求已不再可用。"
+    },
+    "sideBySideModal": {
+      "modalTitle": "班次交易",
+      "declineBtnLabel": "拒绝",
+      "acceptBtnLabel": "接听",
+      "requesteeHeaderLabel": "您给出",
+      "requestorHeaderLabel": "您获得",
+      "headerLabelFormat": "{{date}} | {{time}}",
+      "error": {
+        "tradeDateHasPassed": "这种转移交易不再活跃",
+        "scheduleRequestExists": "您无法对换班次，因为您在这一天有多个待处理的计划表请求。",
+        "nonTradableError": "交易已取消。 您或所选代理的轮班中有一项无法交易的活动。",
+        "generalError": "轮次交易失败。"
+      }
+    },
+    "agentInitiatedSchedule": {
+      "dirtyMode": {
+        "cancel": "取消",
+        "submitRequest": "提交请求"
+      },
+      "menuOptions": {
+        "requestTimeoff": "请求休假",
+        "addActivity": "添加活动",
+        "deleteActivity": "删除活动",
+        "editRequest": "编辑请求",
+        "editActivityTime": "编辑活动时间",
+        "cancelRequest": "取消请求",
+        "cancelActivity": "取消请求"
+      },
+      "requestExistLabel": "您在这一天有多个待处理的请求。",
+      "singleFullDayRequestExistLabel": "这一天的待处理全天请求 ({{activityCode}})。",
+      "multipleFullDayRequestExistLabel": "{{requestStartDate}}-{{requestEndDate}} 的待处理全天请求 ({{activityCode}})。",
+      "dirtyModeSingleFullDayRequestLabel": "全天请求 - {{activityCode}}",
+      "dirtyModeMultipleFullDayRequestLabel": "{{requestStartDate}} - {{requestEndDate}} - {{activityCode}}",
+      "invalidRequestLabel": "某些活动已被删除，或它们的配置已更改。取消所有请求。",
+      "fullDayInvalidRequestLabel": "活动 {{activityCode}} 已删除或修改。待处理的全天请求不再有效。",
+      "viewRequests": "查看请求",
+      "cancelRequests": "全部取消",
+      "deletedActivityName": "已删除的活动",
+      "messages": {
+        "requestSubmitted": "请求提交成功。",
+        "submitRequestFailure": "无法提交请求。请稍后再试。",
+        "submitRequestFailureWithRefresh": "无法提交请求。刷新页面并重试。",
+        "submitRequestFailureScheduleChanged": "无法提交请求。您的计划安排已更新。刷新页面并重试。",
+        "submitRequestFailureDiscarded": "无法提交请求。您的计划安排已更新，且您之前的请求已被放弃。刷新页面。",
+        "requestCanceled": "请求已成功取消。",
+        "allRequestsCanceled": "请求已成功取消。",
+        "cancelRequestFailureAlreadyApprovedDeclined": "无法取消请求。您的计划安排已更新。刷新页面并重试。",
+        "cancelAllRequestsFailureAlreadyApprovedDeclined": "无法取消请求。您的计划安排已更新。刷新页面并重试。",
+        "cancelRequestFailureDiscarded": "无法取消请求。您的计划安排已更新，且您之前的请求已被放弃。刷新页面。",
+        "cancelAllRequestsFailureDiscarded": "无法取消请求。您的计划安排已更新，且您之前的请求已被放弃。刷新页面。",
+        "cancelRequestFailureWithRefresh": "无法取消请求。刷新页面并重试。",
+        "cancelAllRequestsFailureWithRefresh": "无法取消请求。刷新页面并重试。",
+        "cancelRequestFailure": "无法取消请求。请稍后再试。",
+        "cancelAllRequestsFailure": "无法取消请求。请稍后再试。",
+        "modalInitFailure": "无法打开活动窗口。请刷新页面。",
+        "failedToLoadRequests": "无法加载待处理的请求。请刷新页面。",
+        "requestTimezoneDiff": "无法加载来自不同时区的待处理请求。",
+        "submitRequestConfirmation": "您的请求与预定的活动重叠。一旦获得批准，新活动将覆盖您请求的时间段的现有时间表。",
+        "cancelRequestConfirmation": " 所有更改都将丢失。继续吗？",
+        "cancelAllRequestsConfirmation": "您要删除这一天的所有待处理请求吗？",
+        "confirmationContinue": "继续吗？",
+        "confirmationYes": "是",
+        "confirmationNo": "否",
+        "cannotEditOvernightActivity": "您只能从开始日期编辑此活动。",
+        "cannotDeleteOvernightActivity": "您只能从开始日期删除此活动。",
+        "cannotCreateShiftTradeRequest": "您无法对换班次，因为您在这一天有多个待处理的计划表请求。",
+        "cannotCreateScheduleRequest": "您无法更改计划安排，因为您在这一天有一个待处理的班次交易请求。",
+        "cannotLoadPendingTradeRequests": "无法加载待处理的交易请求。请刷新页面。",
+        "generalConflictErr": "您有相互冲突的请求。",
+        "cannotCancelOvernightActivity": "您仅可从开始日期取消此活动。",
+        "pastDateCancelationNotAllowed": "必须提前取消。请联系您的经理取消。",
+        "scheduleChangedPostApproval": "时间表在您的休假申请获得批准后发生更改。请联系您的经理取消。",
+        "moreThan1DayCancelationNotAllowed": "不支持超过一天的取消。请联系您的经理取消。",
+        "cannotLoadWeeklyScheduleData": "无法加载每周计划表数据。"
+      },
+      "activityModal": {
+        "title": "新的休假请求",
+        "addActivityTitle": "添加活动",
+        "editActivityTitle": "编辑活动",
+        "removeActivityTitle": "删除活动",
+        "submitButton": "递交",
+        "saveButton": "保存",
+        "addActivitySaveButton": "增加",
+        "removeActivitySaveButton": "删除",
+        "cancelButton": "取消",
+        "unpublishedDayMessage": "您没有这一天的已发布的时间表，因此您只能请求全天休假。",
+        "restrictFullDaysMessage": "您只能为此活动申请全天。",
+        "overnightMessage": "这是一个隔夜活动。您只能编辑开始日期的小时数。",
+        "activityCodePlaceholder": "选择一个活动代码",
+        "fullDay": "全天",
+        "activityLabel": "活动类型",
+        "balanceLabel": "我的休假余额",
+        "startLabel": "开始",
+        "endLabel": "结束",
+        "commentLabel": "评论",
+        "commentPlaceHolder": "添加评论...",
+        "remaining": " 剩余字符数",
+        "remainingBalance": "您还剩 {{remainingDays}}/{{totalDays}} 天",
+        "noBalance": "您已用完 {{totalDays}} 天的余额",
+        "validations": {
+          "invalidPartialActivityCodeNumHours": "此活动必须在 {{partialDayRequestMinHours}}-{{partialDayRequestMaxHours}} 小时之间",
+          "invalidPartialActivityHours": "必须在开始时间之后",
+          "invalidDaysBalance": "您的余额只剩下 {{remaining}} 天",
+          "invalidHoursBalance": "您的余额只剩下 {{remainingBalanceHoursString}} 小时",
+          "noRemainingDaysBalance": "此活动没有剩余天数",
+          "overlappingRequests": "您此时已有待处理的请求",
+          "overlappingShiftTradeRequests": "您在此时间范围内有一个待处理的交易请求",
+          "REQUEST_CREATION_TIME_DAYS_IN_ADVANCE": "此申请必须至少提前 {{DAYS_IN_ADVANCE}} 天提交",
+          "REQUEST_CREATION_TIME_SAME_DAY": "您只能为此活动提出同日请求。",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_FUTURE": "您最多只能在今天之后 {{MAX_DAYS_IN_FUTURE}} 天提出请求。",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_PAST": "您最多只能在今天之前 {{MAX_DAYS_IN_PAST}} 天提出请求。",
+          "AGENT_SENIORITY": "您必须至少工作 {{AGENT_MINIMUM_SENIORITY_DAYS}} 天才能提交此请求。",
+          "AGENT_BALANCE": "您没有足够的休假余额。",
+          "SCHEDULING_UNIT_BALANCE": "您不能申请在此时间段内休假。",
+          "SCHEDULING_UNIT_STAFFING": "所选活动/天数的人员编制水平过低",
+          "SCHEDULING_UNIT_NO_PUBLISHED_SCHEDULE": "所选活动/天数没有预测或发布的时间表",
+          "selfIntervalAutoTime": "所选时间范围内的所有时段均不可用于自动批准休假",
+          "selfIntervalManagerTime": "所选时间范围内的所有时段均不可用于批准所需的休假",
+          "invalidPartialFulldayTO": "部分休息时间必须少于总班次时长",
+          "extraHoursIntervalConsumingShift": "额外时数必须在班次之外",
+          "selfExtraHoursAutoTime": "所选时间范围内的所有时段均不可用于自动批准额外时数",
+          "selfExtraHoursTime": "所选时间范围内的所有时段均不可用于批准所需额外时数",
+          "AGENT_BALANCE_FOR_EH": "您没有足够的额外时数余额。",
+          "AGENT_MAX_HOURS_A_DAY": "时数超过每日限制",
+          "AGENT_MAX_HOURS_A_WEEK": "时数超过每周限制"
+        },
+        "selfIntervalTitle": "选择休假",
+        "startDate": "开始日期",
+        "startTime": "标准偏差",
+        "endDate": "结束日期",
+        "endTime": "结束时间",
+        "selfIntervalExtraHoursTitle": "选择额外时数"
+      },
+      "comparisonModal": {
+        "viewFromScheduleManager": "计划安排管理器",
+        "requestExceedingRange": "此请求持续 {{totalDays}} 天，从 {{fromDate}} 到 {{toDate}}。要查看坐席的完整计划安排，请单击 ",
+        "agentTitle": "我的计划安排请求",
+        "managerTitle": "排程请求",
+        "currentSchedule": "当前的计划安排",
+        "revisedSchedule": "修改后的计划安排",
+        "requestUpdatedWarning": "此请求最近已更新。"
+      },
+      "timeGroupLabel": "选择开始和结束日期/时间",
+      "self_Interval": "自助服务",
+      "select_self_service": "选择..."
+    },
+    "agentScheduleCancellation": {
+      "messages": {
+        "confirmationNo": "停留",
+        "confirmationYes": "取消请求",
+        "confirmationMessage1": "取消请求？",
+        "confirmationMessage2": "您的时间表将恢复至之前状态。",
+        "canNotCancelTimeOff": "无法取消休假",
+        "internalError": "发生了一个内部服务器错误。请再试一次。"
+      }
+    },
+    "today": "今天",
+    "selfServiceTO": {
+      "autoTOPopover": "自动时间段",
+      "managerTOPopover": "批准所需的时间段",
+      "noSelfIntervalActivityPresentForDay": "当天没有自助服务活动。",
+      "generalError": "无法加载自助服务数据。"
+    },
+    "weeklyViewTradeSideBySideModal": {
+      "viewTradeRequest": "查看收到的请求",
+      "declineTradeRequest": "拒绝全部已收到的请求",
+      "cancelTradeRequest": "取消全部已发送的请求",
+      "viewPendingRequest": "查看请求",
+      "deletePendingRequest": "全部取消",
+      "pendingRequestsText": "待处理的请求",
+      "cancelPendingRequestTitle": "取消待处理的请求",
+      "deleteAllPendingActivityRequestsConfirmation": "您是否要取消以下项目的所有待处理的请求",
+      "dontCancelButtonText": "不要取消",
+      "noRequestsForThisDay": "这一天没有任何请求。",
+      "tradeHeading": "交易请求",
+      "pendingActivityRequestHeader": "活动请求",
+      "pendingTradeRequestHeader": "交易请求",
+      "close": "关闭",
+      "fullDayTimeoffMsg": "这一天全天休息。"
+    },
+    "selfServiceEH": {
+      "autoEHPopover": "自动额外时数",
+      "managerEHPopover": "需要批准的额外时数",
+      "noSelfIntervalActivityPresentForDay": "当天没有自助服务活动。",
+      "generalError": "无法加载自助服务数据。",
+      "noPermissionToAddOpenActivity": "无法添加活动。需要权限。"
+    },
+    "day": "天",
+    "week": "周"
+  },
+  "myTimeOffRequests": {
+    "myTimeOffbalanceModal": {
+      "title": "我的休假余额",
+      "total": "总计",
+      "taken": "取走",
+      "earned": "获得的",
+      "scheduled": "已计划",
+      "remaining": "剩余",
+      "usage": "使用",
+      "invalidRemainingDays": "此活动没有剩余天数",
+      "activity": "活动"
+    },
+    "pageTitle": "排程请求",
+    "gridHeaderPlaceholder": "开始输入以查找请求",
+    "scheduleRequestsTitle": "排程请求",
+    "newButton": "新请求",
+    "timeOffStatusButton": "休假余额",
+    "items": "请求",
+    "item": "请求",
+    "gridNoRowsOverlay": "尚未创建请求",
+    "gridColumns": {
+      "dates": "请求的日期",
+      "time": "请求的时间",
+      "requestOn": "请求的日期",
+      "activityType": "活动类型",
+      "comments": "坐席评论",
+      "status": "状态",
+      "statusUpdateComment": "审查人"
+    },
+    "by": "通过",
+    "system": "系统",
+    "fullDay": "全天",
+    "days": "天数",
+    "noComments": "没有评论",
+    "cancelRequest": "取消",
+    "deletedActivity": "已删除的活动",
+    "requestStatusType": {
+      "approved": "已批准",
+      "declined": "已拒绝",
+      "pending": "待决",
+      "canceled": "已取消",
+      "discarded": "已丢弃",
+      "auto_approved": "已批准",
+      "auto_declined": "已拒绝",
+      "canceled_approved_request": "已取消 - 已批准请求"
+    },
+    "modal": {
+      "title": "新的休假请求"
+    },
+    "messages": {
+      "createSuccess": "已创建新的休假请求",
+      "createFailed": "休假请求创建失败",
+      "cancelSuccess": "休假请求已被取消",
+      "cancelFailed": "休假请求取消失败"
+    }
+  },
+  "common": {
+    "more": "更多..."
+  },
+  "niceNavigationUi": {
+    "global": {
+      "warningIcon": "警告"
+    },
+    "globalNavigation": {
+      "sideBar": {
+        "wfmModuleLinks": {
+          "scheduler": "计划安排管理器",
+          "realTimeAdherence": "实时坚持",
+          "intradayDashboard": "当天信息",
+          "forecasting": "预测",
+          "generateForecast": "生成预测",
+          "forecastingProfiles": "预测配置文件",
+          "specialDays": "特殊日期",
+          "acdImportHistorical": "ACD 历史数据",
+          "scheduling": "排程",
+          "generateSchedule": "生成计划表",
+          "biddingManager": "竞标经理",
+          "importStaffingPlan": "导入人员编制计划",
+          "timeOffRequests": "请求",
+          "requests": "请求",
+          "setup": "设置",
+          "activityCodes": "活动代码",
+          "acdActivitiesMapping": " ACD 映射",
+          "dailyRule": "每日规则",
+          "weeklyRules": "每周规则",
+          "rotationRules": "轮换规则",
+          "shiftBiddingTemplates": "竞标模板",
+          "seatLimits": "席位限制",
+          "shiftTrading": "班次交易",
+          "intradayManager": "当日经理",
+          "timeOffPlanning": "休假规划",
+          "summary": "摘要",
+          "rules": "规则",
+          "requestHandling": "管理请求",
+          "approvalRules": "审批规则"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "我的计划",
+          "tasks": "任务",
+          "evaluations": "评估",
+          "plansMonitoring": "计划监控",
+          "performanceMonitoring": "绩效监控",
+          "myTimeOffRequests": "休假请求",
+          "scheduleRequests": "排程请求",
+          "shiftBidding": "班次竞标",
+          "calibrations": "校准",
+          "coaching": "辅导",
+          "groupCoaching": "群组辅导",
+          "selfAssessments": "自我评估",
+          "marketplace": "市场",
+          "myPersona": "我的个人资料",
+          "pursuits": "我的事务",
+          "1on1coaching": "1 对 1 辅导",
+          "recentInteractions": "最近 Interactions"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "我的计划",
+          "myTimeOffRequests": "休假请求",
+          "scheduleRequests": "排程请求",
+          "evaluations": "评估",
+          "shiftBidding": "班次竞标",
+          "coaching": "辅导",
+          "groupCoaching": "群组辅导",
+          "marketplace": "市场",
+          "myDashboards": "My Dashboard",
+          "pursuits": "我的事务",
+          "1on1coaching": "1 对 1 辅导",
+          "recentInteractions": "最近交互"
+        }
+      }
+    }
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "计划安排已更改",
+      "content": "%%DATE%%的计划安排已更改。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "计划安排已更改",
+      "content": "%%FROM_DATE%%到 %%TO_DATE%% 的计划安排已更改。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "新的休假请求",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "休假请求已被拒绝",
+      "content": "请求 %%FROM_DATE%%至 %%TO_DATE%%。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "休假请求已被批准",
+      "content": "请求 %%FROM_DATE%%至 %%TO_DATE%%。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "休假请求已被取消",
+      "content": "请求 %%FROM_DATE%%至 %%TO_DATE%%。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_DISPUTE": {
+      "title": "从审查反馈的评价",
+      "content": "无需任何操作。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_ACKNOWLEDGE": {
+      "title": "收到新评价",
+      "content": "需要您的审查。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_COMPLETED": {
+      "title": "收到新评价",
+      "content": "无需任何操作",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_COACHING_STARTED": {
+      "title": "新的辅导包可用",
+      "content": "需要您进行操作",
+      "link": {
+        "name": "复查",
+        "url": "/qm/#/myCoachings"
+      }
+    },
+    "SHIFT_BID_STATUS_UPDATED_TO_ACTIVE": {
+      "title": "新的竞标现已开放",
+      "content": "在 %%FROM_DATE%% - %%TO_DATE%% 投标。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "您有 {{Count}}条未读通知"
+  },
+  "filter": {
+    "clearall": "全部清除",
+    "close": "关闭"
+  },
+  "generateSchedulesPage": {
+    "labels": {
+      "newRequestOff": "请求休假",
+      "pageTitle": "自动计划表生成器",
+      "newJobButtonText": "生成新的计划表",
+      "items": "计划表生成作业",
+      "selectedItems": "{{selectedCount}}选择",
+      "gridColumnsHeaders": {
+        "schedulingUnit": "调度单元",
+        "schedulingDate": "排程日期",
+        "initiatedBy": "发起人",
+        "jobDate": "作业日期",
+        "status": "状态"
+      },
+      "gridNoRowsOverlay": "尚未生成排程作业",
+      "viewErrors": "查看错误"
+    },
+    "statuses": {
+      "GENERATION_STARTING": "生成开始...",
+      "GENERATION_STARTED": "已开始生成。",
+      "GENERATION_SCHEDULING": "正在创建计划表...",
+      "GENERATION_SCHEDULING_COMPLETE": "排程完成。",
+      "GENERATION_STORING_SCHEDULES": "正在存储计划表...",
+      "GENERATION_STORING_SCHEDULES_COMPLETE": "存储计划完成。",
+      "GENERATION_CANCELLING": "正在取消生成...",
+      "GENERATION_CANCELLED": "生成已取消。",
+      "GENERATION_COMPLETED": "已成功。{{message}}",
+      "GENERATION_COMPLETED_WITH_WARNINGS": "已成功。{{message}}",
+      "GENERATION_VALIDATION_FAILED": "验证失败。",
+      "GENERATION_ERRORED": "失败。{{message}}"
+    },
+    "statusDetailTitles": {
+      "internalError": "内部错误",
+      "suNotFound": "排程单元：{{suName}}",
+      "noUsersHaveSkills": "排程单元：{{suName}}",
+      "someUsersHaveNoSkills": "排程单元：{{suName}}",
+      "noUsersAssignedToSu": "排程单元：{{suName}}",
+      "noUsersInSuAssignedWeeklyRules": "排程单元：{{suName}}",
+      "someUsersInSuNotAssignedWeeklyRules": "排程单元：{{suName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "每日规则：{{dailyRuleName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "每日规则：{{dailyRuleName}}",
+      "employeeUnavailiabilityViolatesMinUsage": "每周规则：{{weeklyRuleName}}",
+      "employeeUnavailiabilityViolatesMinDays": "每周规则：{{weeklyRuleName}}"
+    },
+    "statusDetails": {
+      "internalError": "内部错误",
+      "suNotFound": "未找到排程单元",
+      "noUsersHaveSkills": "“{{suName}}”排程单元的员工均不具备技能",
+      "someUsersHaveNoSkills": "“{{suName}}”排程单元的一些员工没有技能",
+      "noUsersAssignedToSu": "没有员工被分配到排程单元",
+      "noUsersInSuAssignedWeeklyRules": "“{{suName}}”排程单元中没有员工有每周规则",
+      "someUsersInSuNotAssignedWeeklyRules": "“{{suName}}”排程单元中没有每周规则的员工没有计划安排",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "每周规则“{{weeklyRuleName}}”由“{{suName}}”排程单元中的坐席使用，而每日规则“{{dailyRuleName}}”不遵守运营时间。您必须更新每日规则开始时间。",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "每周规则“{{weeklyRuleName}}”由“{{suName}}”排程单元中的坐席使用，而一个或多个每日规则不遵守运营时间。您必须减小每周规则最小值。",
+      "employeeUnavailiabilityViolatesMinUsage": "员工“{{employeeName}}”被定义为在每日规则“{{dailyRuleName}}”的计划工作时间在 Admin 中不可用。您必须更新每周规则“{{weeklyRuleName}}”或员工可用性。",
+      "employeeUnavailiabilityViolatesMinDays": "员工“{{employeeName}}”被定义为在每日规则“{{dailyRuleName}}”的计划工作时间在 Admin 中不可用。您必须更新每周规则“{{weeklyRuleName}}”或员工可用性。"
+    },
+    "modal": {
+      "header": "生成新的计划表",
+      "schedulingUnits": "排程单元",
+      "scheduleUnit": "调度单元",
+      "schedulingUnitsDropDown": "{{selectedCount}}个排程单元",
+      "noMoreThanLimitSchedulingUnitsCouldBeScheduled": "最多只能安排 {{items}}个排程单元",
+      "from": "开始",
+      "to": "结束",
+      "selectDatePlaceholder": "选择日期",
+      "oneWeek": "1周",
+      "twoWeeks": "2周",
+      "threeWeeks": "3周",
+      "fourWeeks": "4W",
+      "oneMonth": "1个月",
+      "advanceRotation": "提前轮换",
+      "useMultiSkill": "使用多技能排程",
+      "loadForecastDataBtn": "加载预测数据",
+      "forecastDataTabHeader": "预测数据",
+      "attention": "注意！",
+      "schedulesExistPopoverTxt": "您选择的某些日期已经有计划安排。此作业将覆盖这些计划安排，并会自动向员工发布更新后的计划安排（如果之前他们的计划安排已发布）。",
+      "doNotAdvanceRotationPopoverTxt": "您将要生成一个包含轮换规则的计划表，但尚未移动到下一次轮换。",
+      "missingForecastDataPopoverTxt": "某些日期不包含预测数据。这些日期的计划安排不会反映需求要求。",
+      "lessThanMinimumSchedulingUnitsSelectedTxt": "您必须至少选择 1 个排程单元",
+      "weeklyRulesMismatchWithSchedulerType": "某些每周规则与此类排程不兼容。{{mismatchedEmployeeCount}}/{{totalWeeklyRuleEmployeeCount}} 名员工将不会收到计划安排。",
+      "staffingPlanSUMismatch": "选定的人员配备计划不适用于一个或多个选定的排程单元。您想继续吗？",
+      "generateAnywayBtn": "继续生成",
+      "noForecastDataTxt": "此日期范围没有预测数据。",
+      "forecastDataLoads": "发现预测数据。",
+      "importForecastData": "导入预测文件并重试...",
+      "goToImportForecastPageBtn": "转至导入预测页面",
+      "ManualPlanning": "手动规划 (CSV)",
+      "AutomaticPlanning": "自动规划（生成预测）",
+      "CSVFile": "CSV 文件",
+      "GeneratedForecast": "生成的预测",
+      "missingStaffingPlan": "您必须选择人员配备计划",
+      "staffingPlan": "人员配备计划",
+      "endDateInPast": "结束日期必须是未来的日期",
+      "startDateInPast": "开始日期不能是过去"
+    },
+    "serviceStatusMessages": {
+      "noUsersInSuAssignedWeeklyRules": "无法生成计划安排。没有定义每周规则",
+      "noUsersAssignedToSu": "无法生成计划安排。没有分配到排程单元的员工",
+      "jobAddSucceeded": "成功添加了一项新作业",
+      "jobAddSucceededPlural": "成功添加了 {{jobCount}}项新作业",
+      "jobAddFailed": "未能添加一项新作业",
+      "jobAddFailedPlural": "添加 {{jobCount}}项新作业失败"
+    },
+    "detailsListModal": {
+      "header": "错误摘要"
+    },
+    "deleteMessage": "您将要删除此排程作业。是否继续？",
+    "deleteSucess": "计划作业已成功删除。"
+  },
+  "generalErrorMessages": {
+    "required": "此字段为必填项",
+    "minLength": "您的条目太短",
+    "nameFieldValidation": "糟糕，您不能使用 \\ / ! + < > ? # & , % \"",
+    "maxLength": "您的条目太长",
+    "email": "您输入的电子邮件地址无效",
+    "emailExists": "电子邮件地址已存在。请尝试一个新的电子邮件地址",
+    "number": "仅限数字！",
+    "pattern": "此字段的格式不正确",
+    "password": "密码必须至少由 8 个字符组成，其中包含至少 1 个数字和 1 个大写字母",
+    "match": "此密码与之前输入的密码不符",
+    "minLengthPassword": "密码必须至少包含 8 个字符",
+    "maxLengthPassword": "您的密码太长",
+    "min": "数字太小",
+    "max": "数字太大",
+    "uniqueString": "此名称已存在。尝试一个新的。",
+    "lowerThen": "最小值不能超过最大值",
+    "weeklyMaxLowerThanSumDailyMin": "每日规则要求的最小天数超过了每周规则中的最大天数。",
+    "weeklyMinGreaterThanSumDailyMax": "每周规则中的最小天数超过了每日规则要求的最大天数。",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "每日最小组合的总小时数不能大于每周的最大总小时数",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "每日最大组合的总小时数不能小于每周的最小总小时数",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最小天数超过唯一天数的总数。",
+    "possibleDaysLowerThanMinDays": "可能的天数不符合每周规则要求的最少天数。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "每周规则中的最小天数超过了唯一天数的数量。",
+    "noAddedShiftPatters": "您必须至少选择一项每日规则",
+    "shiftLengthLowerThanActivityLength": "活动长度、相对开始和空闲的总和不能大于班次长度",
+    "shiftLengthLowerThanTotalActivityLength": "活动总时长不能超过班次时长",
+    "relativeStartLowerThanSlack": "空闲时间不能大于相对起始值",
+    "activitiesOverlap": "活动不允许有重叠的可能",
+    "activityCountsOverLimit": "预先规划的活动不能超过 10 个",
+    "serverError": "内部服务器错误。请再试一次。",
+    "invalidFileFormat": "无效的文件格式",
+    "someRequiredFieldsAreIncomplete": "必填字段填写不完整。"
+  },
+  "metaInfo": {
+    "selfService": {
+      "title": "支持 - 下载"
+    },
+    "title": "Nice SaaS WFM",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "登录",
+      "description": "Nice SaaS WFM"
+    },
+    "success": {
+      "title": "成功",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "示例",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "表单示例",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "员工",
+      "description": "Nice SaaS WFM"
+    },
+    "createAccount": {
+      "title": "创建帐户",
+      "description": "Nice SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "活动代码",
+      "description": "Nice SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " ACD 映射",
+      "description": "Nice SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "每日规则",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftBiddingTemplates": {
+      "title": "班次模板",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftTrading": {
+      "title": "班次交易",
+      "description": "Nice SaaS WFM"
+    },
+    "timeOffPlanning": {
+      "rules": {
+        "title": "规则",
+        "description": "Nice SaaS WFM"
+      },
+      "summary": {
+        "title": "摘要",
+        "description": "Nice SaaS WFM"
+      }
+    },
+    "timeOffRules": {
+      "title": "休假规则",
+      "description": "Nice SaaS WFM"
+    },
+    "timeOffSummary": {
+      "title": "休假总结",
+      "description": "Nice SaaS WFM"
+    },
+    "createNewRule": {
+      "title": "新规则",
+      "description": "Nice SaaS WFM"
+    },
+    "biddingManager": {
+      "title": "竞标经理",
+      "description": "Nice SaaS WFM"
+    },
+    "bidsView": {
+      "title": "竞标经理",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftBidding": {
+      "title": "班次竞标",
+      "description": "Nice SaaS WFM"
+    },
+    "bidPatterns": {
+      "title": "班次竞标",
+      "description": "Nice SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "调度单元",
+      "description": "Nice SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "过期邀请",
+      "description": "Nice SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "生成计划表",
+      "description": "Nice SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "我的计划",
+      "description": "Nice SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "My Dashboard",
+      "description": "Nice SaaS WFM"
+    },
+    "myTimeOffRequests": {
+      "title": "排程请求",
+      "description": "Nice SaaS WFM"
+    },
+    "intradayManager": {
+      "title": "当日经理",
+      "description": "Nice SaaS WFM"
+    },
+    "qpManager": {
+      "title": "质量规划程序",
+      "description": "Nice SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "表单执行器",
+      "description": "Nice SaaS WFM"
+    },
+    "recoverPassword": {
+      "title": "恢复密码",
+      "description": "Nice SaaS WFM"
+    },
+    "resetPassword": {
+      "title": "重置密码",
+      "description": "Nice SaaS WFM"
+    },
+    "scheduler": {
+      "title": "计划安排管理器",
+      "description": "Nice SaaS WFM"
+    },
+    "setPassword": {
+      "title": "设置密码",
+      "description": "Nice SaaS WFM"
+    },
+    "skills": {
+      "title": "技能",
+      "description": "Nice SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "用户界面套件库",
+      "description": "Nice SaaS WFM",
+      "userRoles": "{{selectedCount}} 员工角色"
+    },
+    "weeklyRules": {
+      "title": "每周规则",
+      "description": "Nice SaaS WFM"
+    },
+    "manageForms": {
+      "title": "管理表单",
+      "description": "Nice SaaS WFM"
+    },
+    "templateManager": {
+      "title": "模板管理器",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "表单设计器",
+      "description": "Nice SaaS WFM"
+    },
+    "forecastData": {
+      "title": "导入预测数据",
+      "description": "Nice SaaS WFM"
+    },
+    "historicalData": {
+      "title": "历史数据",
+      "description": "Nice SaaS WFM"
+    },
+    "groups": {
+      "title": "组",
+      "description": "Nice SaaS WFM"
+    },
+    "realTimeAdherence": {
+      "title": "实时坚持",
+      "description": "实时坚持"
+    },
+    "timeOffRequests": {
+      "title": "请求",
+      "description": "Nice SaaS WFM"
+    },
+    "requests": {
+      "title": "管理请求",
+      "description": "管理坐席请求"
+    },
+    "automaticApprovalRules": {
+      "title": "批准规则",
+      "description": "管理审批规则"
+    },
+    "automaticApprovalRuleSettings": {
+      "title": "审批规则设置",
+      "description": "管理审批规则设置"
+    },
+    "generatedForecasts": {
+      "title": "生成预测",
+      "description": "生成预测"
+    },
+    "generateForecast": {
+      "title": "生成预测",
+      "description": "生成预测"
+    },
+    "forecastingProfiles": {
+      "title": "预测配置文件",
+      "description": "预测配置文件"
+    },
+    "forecastingProfileView": {
+      "title": "预测配置文件",
+      "description": "预测配置文件"
+    },
+    "importStaffingJob": {
+      "title": "人员配备计划",
+      "description": "人员配备计划"
+    },
+    "specialDays": {
+      "title": "特殊日期",
+      "description": "特殊日期"
+    },
+    "specialDayView": {
+      "title": "特殊日期",
+      "description": "特殊日期"
+    }
+  },
+  "commonButtons": {
+    "ok": "确定",
+    "back": "返回",
+    "cancel": "取消",
+    "done": "已完成",
+    "no": "否",
+    "yes": "是",
+    "save": "保存",
+    "delete": "删除",
+    "continue": "继续",
+    "invite": "邀请",
+    "edit": "编辑",
+    "update": "更新",
+    "upload": "上传",
+    "today": "今天",
+    "showAll": "显示全部",
+    "clearAll": "全部清除",
+    "clearData": "清除数据",
+    "close": "关闭",
+    "create": "创建",
+    "selectAll": "全选",
+    "generate": "生成",
+    "selectFile": "选择文件",
+    "chooseFile": "选择文件...",
+    "add": "增加",
+    "publish": "发布",
+    "set": "设置",
+    "day": "天",
+    "week": "周",
+    "copy": "复制",
+    "from": "来自",
+    "to": "收件人",
+    "duplicate": "重复"
+  },
+  "languages": {
+    "english": "英语",
+    "russian": "俄语",
+    "spanish": "西班牙语",
+    "chinese": "中文"
+  },
+  "weekDays": {
+    "sunday": "周日",
+    "monday": "周一",
+    "tuesday": "周二",
+    "wednesday": "周三",
+    "thursday": "周四",
+    "friday": "周五",
+    "saturday": "周六"
+  },
+  "weekShortDays": {
+    "SUN": "星期天",
+    "MON": "星期一",
+    "TUE": "星期二",
+    "WED": "星期三",
+    "THU": "星期四",
+    "FRI": "星期五",
+    "SAT": "星期六"
+  },
+  "scheduler": {
+    "noeditsAllowed": "部分显示的班次不可编辑。请更改日期以编辑班次。",
+    "netstaffing": {
+      "diff": "差异",
+      "req": "请求",
+      "staff": "人员"
+    },
+    "publishModal": {
+      "header": "发布新的计划表",
+      "publishConformation": "您选择的一些日期已经发布计划表。如果计划表发生变化，将为员工更新为新日程。",
+      "noSchedulesToPublish": "所选日期范围内没有计划表。",
+      "attention": "注意！",
+      "publishAnywayBtn": "继续发布",
+      "schedulingUnits": "调度单元",
+      "schedulingUnitsDropDown": "{{selectedCount}}个排程单元",
+      "publishPopoverHeader": "发布至",
+      "publishSummaryHeader": "已发布",
+      "from": "开始：",
+      "to": "结束：",
+      "selectDatePlaceholder": "选择日期",
+      "oneWeek": "1周",
+      "twoWeeks": "2周",
+      "threeWeeks": "3周",
+      "oneMonth": "1个月",
+      "successMessage": "成功发布日期"
+    },
+    "employeeCount": "{{count}}个用户",
+    "filters": {
+      "schedulingUnits": "{{count}}个排程单元",
+      "skills": "{{count}}项技能",
+      "groups": "{{count}}个组",
+      "activityCodes": "{{count}} 个活动代码",
+      "searchPlaceholder": "开始输入以查找员工"
+    },
+    "activityModal": {
+      "activityCodePlaceholder": "选择一个活动代码",
+      "addTitle": "添加活动 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "添加评论...",
+      "editTitle": "编辑活动 - {{userName}}",
+      "error": {
+        "conflict": "检测到冲突。此活动将取代重叠的活动。",
+        "invaliddatetime": "指定的日期和/或时间无效。",
+        "daterange": "选择一个日期：今天、昨天或明天。",
+        "openhours": "您无法在未开放时排程",
+        "endBeforeStart": "结束日期必须与开始日期相同或晚于开始日期。",
+        "timeRangeOutsideOfRange": "活动必须在时间线范围 ({{start}}- {{end}}) 内开始或结束。",
+        "activityOverlappingTimeRange": "此活动在检索到的计划表之外，可能会替换现有活动。",
+        "xssInvalidCharacter": "这些字符无效 < >"
+      },
+      "selectingOOOActivityWithoutDaysOff": "添加此活动可能会导致员工的休假余额出现赤字",
+      "end": "结束",
+      "remaining": "剩余 {{currentLength}}个字符",
+      "remove": "删除",
+      "start": "开始"
+    },
+    "allDay": "全天",
+    "cancel": "取消",
+    "closed": "当组织关闭时，您无法添加班次和活动。",
+    "employeeName": "名称",
+    "hotkeys": {
+      "nextHotKey": "次日",
+      "previousHotKey": "前一天",
+      "refreshHotKey": "从数据库重新加载计划表",
+      "saveHotKey": "保存计划安排更改",
+      "todayHotKey": "转到今天"
+    },
+    "hours": "小时",
+    "menuItems": {
+      "addActivity": "添加活动",
+      "addShift": "添加班次",
+      "copyActivity": "复制活动",
+      "copyShift": "复制班次",
+      "editActivity": "编辑活动",
+      "editShift": "编辑班次",
+      "pasteActivity": "粘贴活动",
+      "pasteShift": "粘贴班次",
+      "removeActivity": "删除活动",
+      "removeShift": "删除班次",
+      "cancel": "关闭"
+    },
+    "name": "名称",
+    "viewScheduleChangeMenu": "查看计划表更改",
+    "organizationClosed": "组织关闭",
+    "publish": "发布",
+    "save": "保存",
+    "saveAndPublish": "保存并发布",
+    "scheduler": "计划安排管理器",
+    "settingsDropDown": {
+      "title": "设置",
+      "setup": {
+        "title": "净人员编制阈值"
+      },
+      "manualSchedule": {
+        "title": "复制计划安排",
+        "duplicateTitle": "复制员工计划安排"
+      },
+      "broadcast": {
+        "title": "广播消息",
+        "messageText": "消息",
+        "schedulingUnits": "调度单元",
+        "broadcastNow": "现在广播",
+        "remaining": "剩余 {{currentLength}}个字符",
+        "schedulingUnitsDropDown": "{{selectedCount}}个排程单元",
+        "durationsDropDown": "持续时间",
+        "commentPlaceholder": "输入您的消息...",
+        "durationsDropDownLabel": "消息持续时间",
+        "durations": {
+          "30": "30 秒",
+          "60": "1 分钟",
+          "300": "5 分钟"
+        }
+      },
+      "timeOff": {
+        "title": "休假管理",
+        "formLabels": {
+          "saveLabel": "已完成",
+          "timeOffTo": "设置休假",
+          "timeOffToPlaceholder": "选择坐席...",
+          "timeOffType": "休假活动",
+          "timeOffTypePlaceholder": "选择活动",
+          "from": "来自",
+          "to": "到",
+          "showOnAgentSched": "在坐席计划表上显示",
+          "disableOverride": "不能被自动调度器覆盖",
+          "allAgents": "所有坐席"
+        },
+        "errors": {
+          "getEmployees": "接收员工名单时出错",
+          "getActivities": "接收休假活动代码列表时出错",
+          "endBeforeStart": "结束日期必须与开始日期相同或晚于开始日期。",
+          "invalidDate": "指定的日期无效。"
+        }
+      },
+      "scheduleExport": {
+        "title": "计划表导出",
+        "generating": "正在生成导出文件，请稍候...",
+        "schedulingUnits": "排程单元",
+        "agentPlaceHolder": "座席姓名",
+        "agent": "坐席",
+        "start": "开始",
+        "end": "结束",
+        "download": "下载",
+        "1w": "1周",
+        "2w": "2周",
+        "3w": "3周",
+        "1m": "1个月"
+      },
+      "copyEmployeeSchedule": {
+        "title": "复制员工计划表",
+        "formLabels": {
+          "saveLabel": "复制",
+          "scheduleOf": "复制计划表：",
+          "copyEmployeeFromPlaceholder": "选择员工...",
+          "timeOffType": "休假活动",
+          "timeOffTypePlaceholder": "选择活动",
+          "from": "介于以下日期之间：",
+          "to": "到",
+          "showOnAgentSched": "在坐席计划表上显示",
+          "disableOverride": "不能被自动调度器覆盖",
+          "addEmployeeTitle": "将计划表粘贴至以下员工",
+          "allAgents": "所有坐席",
+          "employeesCount": "员工",
+          "addEmployeesButton": "增加员工",
+          "selectEmployee": "选择员工",
+          "employeesFilter": "开始输入以查找员工",
+          "Employee": "员工",
+          "Evaluator": "评估员",
+          "Manager": "经理",
+          "Administrator": "管理员"
+        },
+        "errors": {
+          "getEmployees": "接收员工名单时出错",
+          "getActivities": "接收休假活动代码列表时出错",
+          "invalidDate": "指定的日期无效。",
+          "endBeforeStart": "结束日期必须与开始日期相同或晚于开始日期。",
+          "noEmployeeSelected": "您必须选择一名员工。",
+          "noEmployeesSelected": "您必须至少选择 1 名员工。"
+        }
+      },
+      "meetingScheduler": {
+        "title": "会议调度器",
+        "formLabels": {
+          "scheduleLabel": "计划安排",
+          "activity": "活动",
+          "scheduleType": "计划类型",
+          "fixTime": "固定时间",
+          "flexibleTime": "弹性时间",
+          "duration": "持续时间",
+          "min": "分钟",
+          "date": "日期",
+          "time": "时间",
+          "timezone": "时区",
+          "comment": "Comment",
+          "activityCodePlaceholder": "选择一项活动",
+          "scheduleUpTo": "安排至",
+          "employees": "员工",
+          "numberSimultaneous": "同时",
+          "fromDate": "来自",
+          "toDate": "收件人",
+          "commentPlaceholder": "此评论将出现在代理的计划表中",
+          "remaining": "剩余 {{currentLength}}个字符",
+          "addEmployeeTitle": "为这些员工创建会议",
+          "employeesFilter": "开始输入以查找员工",
+          "Employee": "员工"
+        },
+        "errors": {
+          "getEmployees": "接收员工名单时出错",
+          "getActivities": "接收活动代码列表时出错",
+          "getTimezone": "接收时区列表时出错",
+          "invalidDate": "指定的日期无效",
+          "startDateInPast": "您不能选择过去的日期",
+          "startTimeInPast": "您不能选择过去的时间",
+          "noEmployeesSelected": "您必须至少选择 1 名员工",
+          "minutes": "输入 {{min}}-{{max}} 之间的数字",
+          "numberSimultaneous": "输入 {{min}}-{{max}} 之间的数字",
+          "violateMaxUpTo": "日期范围与最大值不兼容",
+          "fromDateInPast": "您不能选择过去的日期",
+          "toDateBeforeFromDate": "“自”日期必须早于“至”日期",
+          "overThreeMonth": "范围不能超过 3 个月",
+          "timeOffMessage": "休假，将被排除在本次会议之外。",
+          "employeesCount": "{{count}}名员工",
+          "noShiftMessage": "在定义的时间范围内没有安排的班次，将被排除在外。",
+          "conflictActivitiesMessage": "有将被覆盖的现有活动。",
+          "conflictActivitiesPopover": "该会议可能会覆盖其他现有活动。是否继续？",
+          "noShiftPopover": "在定义的时间范围内没有班次的坐席代表将不会被安排参加此会议。是否继续？",
+          "errorRead": "加载会议调度器模式时出错。",
+          "errorValidate": "验证会议请求时出错。",
+          "errorSchedule": "安排会议时出错。"
+        }
+      }
+    },
+    "changeHistoryComponent": {
+      "revertBtn": "还原",
+      "revertMessage": "这将覆盖当前计划安排。是否继续？",
+      "revertSuccess": "计划表已成功恢复。"
+    },
+    "changeHistoryModal": {
+      "actionHeading": "操作",
+      "agent": "坐席",
+      "agentPlaceholder": "选择座席员",
+      "applyButton": "应用",
+      "changedByHeading": "更改",
+      "date": "日期",
+      "dateAndTimeHeading": "更改的日期和时间",
+      "modalTitle": "计划表更改历史记录",
+      "noHistoryData": "没有可用的计划表历史记录",
+      "revertButton": "还原",
+      "timezone": "时区",
+      "timezonePlaceholder": "选择时区",
+      "categoryChanges": {
+        "MANUAL": "手动更改",
+        "AUTO": "计划表生成",
+        "TIMEOFF": "休假请求",
+        "TIMEOFF_REQUEST": "休假请求",
+        "TIMEOFF_MANAGEMENT": "休假管理",
+        "COPY": "复制时间表",
+        "DUPLICATE": "复制时间表",
+        "TRADE": "班次交易",
+        "PUBLISH": "用户发布",
+        "REVERT": "由用户恢复",
+        "EXTERNAL_MEETING": "外部会议请求",
+        "AGENT_CHANGE": "坐席发起的请求",
+        "FIXED_MEETING": "固定会议请求",
+        "FLEXIBLE_MEETING": "弹性会议请求"
+      }
+    },
+    "setupModal": {
+      "tabs": {
+        "netStaffing": {
+          "title": "净人员编制",
+          "range": {
+            "min": "人员配备不足",
+            "mid": "平衡",
+            "max": "人员配备超员"
+          }
+        }
+      },
+      "saveSuccess": "计划安排管理器设置已成功保存。",
+      "saveFailure": "保存计划安排管理器设置时出错。"
+    },
+    "shiftModal": {
+      "addTitle": "添加班次 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "您的评论...",
+      "editTitle": "编辑班次 - {{userName}}",
+      "shiftType": "班次类型",
+      "error": {
+        "conflict": "检测到冲突。此活动将取代重叠的活动。",
+        "invalidtime": "指定的时间无效。",
+        "endBeforeStart": "结束日期必须与开始日期相同或晚于开始日期。",
+        "timeRangeOutsideOfRange": "班次必须在时间线范围 ({{start}}- {{end}}) 内开始或结束。",
+        "shiftOverlappingTimeRange": "此班次在检索到的时间表之外，可能会替换现有班次。",
+        "xssInvalidCharacter": "这些字符无效 < >"
+      },
+      "end": "结束",
+      "remaining": "剩余 {{currentLength}}个字符",
+      "remove": "删除",
+      "start": "开始"
+    },
+    "toasts": {
+      "saveSuccessMessage": "计划安排变更已成功保存。",
+      "broadcastSuccessMessage": "消息广播成功。",
+      "meetingSuccessMessage": "会议已成功创建。",
+      "noShiftPaste": "无法粘贴超出可见范围的班次。",
+      "noShiftCopy": "无法复制超出可见范围的班次。",
+      "noActivityPaste": "无法粘贴超出可见范围的活动。",
+      "multipleShifts": "注意！同一天有多个班次。",
+      "overlappingShiftsActivities": "注意！存在重叠的班次和/或活动",
+      "noEdit": "无法编辑超出可见范围的班次或活动。",
+      "noRemove": "无法删除超出可见范围的班次或活动。",
+      "noAddActivity": "无法将活动添加到超出可见范围的班次。",
+      "remainingTORExceededAllotedTimeOff": "一些员工现在的休假余额不足。"
+    },
+    "manualScheduleAssistant": {
+      "summary": "摘要",
+      "source": "复制自",
+      "destination": "收件人",
+      "forEmployees": "对于员工",
+      "chooseType": "复制计划表类型",
+      "destinationEmptyErrorMsg": "您必须至少选择一个日期",
+      "employeeEmptyErrorMsg": "您必须至少选择一名员工",
+      "timeFrame": "时间范围",
+      "showLess": "显示更少...",
+      "showMore": "显示更多...",
+      "day": "天",
+      "week": "周",
+      "duplicateScheduleFor": "复制计划表",
+      "allEmployees": "所有员工",
+      "selectedEmployeesPrefix": "（",
+      "selectedEmployeesSuffix": " 已选）",
+      "addEmployees": "增加员工",
+      "selectEmployees": "选择员工",
+      "specificEmployees": "特定员工",
+      "sourceDay": "来源日",
+      "sourceWeek": "来源周",
+      "destinationDay": "目标天",
+      "destinationWeek": "目标周",
+      "resetAll": "全部重置",
+      "copySchedule": "复制计划表",
+      "copyScheduleJobStarted": {
+        "code": "Copy Schedule Started",
+        "message": "计划表复制已开始。"
+      },
+      "copyScheduleJobFinishedSuccess": {
+        "code": "Copy Schedule Finished",
+        "message": "计划表复制成功。"
+      },
+      "duplicateScheduleJobStarted": {
+        "code": "Duplicate Schedule Started",
+        "message": "计划表复制已开始。"
+      },
+      "duplicateScheduleJobFinishedSuccess": {
+        "code": "Duplicate Schedule Finished",
+        "message": "计划复制成功。"
+      },
+      "iWantTo": "我想要",
+      "copyTitle": "将计划表复制给其他人",
+      "copyDescription": "将一名员工在同一时间范围内的时间表复制至其他员工",
+      "duplicateTitle": "复制个人计划表",
+      "duplicateDescription": "从一天/一周中选择员工计划表并复制它们以供相同员工未来使用"
+    },
+    "today": "今天",
+    "unavailable": "不可用",
+    "unsaved": "退出而不保存更改？",
+    "dailyView": "每日视图",
+    "weeklyView": "每周视图",
+    "firstDayOfWeek": "一周的第一天："
+  },
+  "scheduleEventTooltip": {
+    "shiftTitle": "班次"
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "登录失败"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "常规错误"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "此页面不可用。请检查您的连接并重试。"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "常规错误{{ details }}"
+    },
+    "CopyScheduleJobRunningError": {
+      "code": "Copy Schedule Run Job Error",
+      "message": "另一个复制作业正在运行。请稍后再试。"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "无效参数"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "未授权员工"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "服务器没有响应。请稍后再试。"
+    },
+    "wrongCredentials": "您输入的电子邮件地址或密码不正确",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部错误。"
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "排程单元不存在。"
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "此名称已存在。尝试一个新的。"
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "此租户或员工已存在。请尝试一个新的租户或员工。"
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "电子邮件地址已存在。请尝试一个新的电子邮件地址"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "文件不存在。"
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "员工不存在"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "没有可邀请的员工。"
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "员工创建失败。"
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "员工身份无效"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "组织名称无效。"
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "电子邮件地址无效。"
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "员工名字无效。"
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "员工姓氏无效。"
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "无法删除默认排程单元。"
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "缺少排程单元 ID。"
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "员工最大工作小时数超出范围。"
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "员工密码无效。"
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "无法更新默认群组。"
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "无法从默认群组中删除员工。"
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "员工密码不正确。"
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "员工不存在。"
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "您不能删除您自己的员工。"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "您不能删除唯一的管理员"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "您不能删除已被删除的员工"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "无效的密码令牌"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "帐户创建失败"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "组织名称无效"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "不支持该文件格式"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "您无权更改角色"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "你不能改变自己的角色"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "无法删除上一个管理员。"
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "此名称已存在。尝试一个新的。"
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "无法更改密码，因为旧密码和新密码相同。"
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "您输入的电子邮件地址或密码不正确"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD 登录 ID 已存在"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "新员工将超过用户限制，请联系销售人员 CXoneSalesTeam@niceincontact.com"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部错误。"
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "此名称已存在。尝试一个新的。"
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "技能不存在。"
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "一名员工的技能不能超过 50 项。"
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "技能名称无效"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "每周规则为空"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "每周规则错误"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "每周规则天数范围错误"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "每周规则小时数范围错误"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "VALUE OF MAX SHIFTS OF WEEKLY RULE IS LOWER THAN TOTAL OF MIN DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "VALUE OF MIN SHIFTS OF WEEKLY RULE IS GREATER THAN TOTAL OF MAX DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "TOTAL SUM OF DAILY MIN HOURS IS BIGGER THAN WEEKLY MAX HOURS"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "TOTAL SUM OF DAILY MAX HOURS IS LOWER THAN WEEKLY MIN HOURS"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "TOTAL SUM OF POSSIBLE DAYS IS LOWER THAN THE CORRESPONDING MIN DAY OF THE DAILY RULE"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN THE TOTAL SUM OF MIN SHIFTS PER DAILY RULE"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "NO NAME FOR WEEKLY RULE WAS GIVEN"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "DAILY RULES ARE EMPTY"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN MINIMUM SHIFTS PER WEEK"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "日期格式无效"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "两个日期之间的时间段无效"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "发生内部服务器错误"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "发生了一个内部错误"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "不支持该文件格式"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "无法读取文件中的记录"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "找不到预期的列标题。查看样本文件。"
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "系统中缺少技能"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "文件中缺少排程单元"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "每日最早开始时间晚于最晚开始时间"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "增量格式错误"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "每日规则开始时间不在正确范围内"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "每日活动长度大于每日规则长度"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack format is wrong"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "相对开始时间是较低的空闲时间"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "活动时长总和大于每日时长"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "不存在有效的活动组合"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "活动代码超出每日规则班次"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "不支持该文件格式"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "活动代码名称无效"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "排程单元中的时区错误"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "无法删除默认活动代码"
+    },
+    "wfo_service_schedule_manager_45": {
+      "code": "TIMEOFF_REQUEST_PARAMS_ARE_INVALID",
+      "message": "保存休假请求时出错"
+    },
+    "wfo_service_schedule_manager_46": {
+      "code": "TIMEOFF_REQUEST_DATES_ARE_INVALID",
+      "message": "保存休假请求时出错"
+    },
+    "wfo_service_schedule_manager_47": {
+      "code": "TIMEOFF_REQUEST_ERROR_WHILE_TIMEOFF_CREATION",
+      "message": "请求获得批准后，为坐席创建休假活动时出错"
+    },
+    "wfo_service_schedule_manager_48": {
+      "code": "TIMEOFF_REQUEST_STATUS_CANCELED",
+      "message": "休假请求已被取消"
+    },
+    "wfo_service_schedule_manager_50": {
+      "code": "SUM_OF_DAILY_RULE_MAX_DAYS_LESS_THAN_WEEKLY_RULE_MIN_DAYS",
+      "message": "每日规则中定义的最大天数总和必须大于或等于每周最小总天数"
+    },
+    "wfo_service_schedule_manager_51": {
+      "code": "SUM_OF_DAILY_RULE_MIN_DAYS_GREATER_THAN_WEEKLY_RULE_MAX_DAYS",
+      "message": "每日规则中定义的最小天数总和不得超过每周最大总天数"
+    },
+    "wfo_service_schedule_manager_52": {
+      "code": "NO_VALID_DAILY_RULE_COMBINATIONS_EXIST_GIVEN_CONSTRAINTS",
+      "message": "由于规则约束，这种规则组合可能不会产生有效结果。请尝试不同的组合"
+    },
+    "wfo_service_schedule_manager_53": {
+      "code": "SINGLE_DAILY_RULE_DAYS_NOT_EQUAL_TO_WEEKLY_RULE_DAYS",
+      "message": "单个每日规则最小值和最大值必须与每周值匹配"
+    },
+    "wfo_service_schedule_manager_54": {
+      "code": "LESS_THAN_TEN_HOURS_BETWEEN_SHIFTS",
+      "message": "班次之间必须至少间隔 10 个小时"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "请选择一个模板"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "模板 ID 无效"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "表单名称已存在"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_forecaster_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "wfo_forecaster_service_2": {
+      "code": "NO_SOURCE_AND_FILE_PATH_FOUND",
+      "message": "NO_SOURCE_AND_FILE_PATH_FOUND."
+    },
+    "wfo_forecaster_service_6": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "找不到预期的列标题。查看样本文件。"
+    },
+    "wfo_forecaster_service_7": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "系统中缺少技能。"
+    },
+    "wfo_forecaster_service_8": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "不支持该文件格式"
+    },
+    "wfm_service_shift_bid92": {
+      "code": "NO_USERS_IN_SHIFT_BIDDING",
+      "message": "班次竞标没有分配用户"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部错误。"
+    }
+  },
+  "biddingManagerPage": {
+    "responseRate": "响应率",
+    "pageTitle": "竞标经理",
+    "newButton": "生成新的竞标",
+    "items": "竞标",
+    "item": "竞标",
+    "selectedItems": "{{selectedCount}}选择",
+    "gridNoRowsOverlay": "尚未生成任何竞标",
+    "unknownSU": "未知",
+    "gridColumns": {
+      "schedulingUnit": "调度单元",
+      "biddingDataRange": "竞标日期范围",
+      "createdAt": "作业日期",
+      "responseRate": "响应率",
+      "status": "状态",
+      "action": "操作"
+    },
+    "statuses": {
+      "generate": "生成新的竞标",
+      "draft": "草稿",
+      "active": "开标",
+      "closed": "竞标截止",
+      "cancelled": "已取消",
+      "award": "分配班次",
+      "awarded": "分配的班次",
+      "error": "错误：",
+      "delete": "删除"
+    },
+    "errorDetails": {
+      "noUsersAssignedToSu": "所选排程单元中没有用户",
+      "noUsersInSuAssignedWeeklyRules": "所选排程单元中没有用户",
+      "NO_USERS_IN_SHIFT_BIDDING": "计划表为空。用户/计划表限制",
+      "NO_ACTIVE_USERS_IN_SHIFT_BIDDING": "所选排程单元中没有活动的用户",
+      "INTERNAL_ERROR": "常规错误"
+    },
+    "actions": {
+      "cancel": "取消竞标",
+      "open": "开标",
+      "close": "竞标截止",
+      "assign": "分配班次",
+      "delete": "删除"
+    },
+    "messages": {
+      "createSuccess": "生成新的竞标..",
+      "updateSuccess": "竞标更新成功",
+      "createFailed": "无法生成新的竞标",
+      "createFailedSinceSUEmpty": "没有用户分配给排程单元",
+      "createFailedSinceTemplateMissing": "排程单元中没有用户被分配到班次竞标模板",
+      "updateFailed": "竞标更新失败",
+      "deleteWarning": "您将要删除此竞标。是否继续？",
+      "deleteSuccess": "班次竞标已成功删除"
+    },
+    "modal": {
+      "title": "生成新的竞标",
+      "moreThanMaximumSchedulingUnitsSelectedTxt": "最多可以选择 1 个排程单元进行生成。"
+    }
+  },
+  "bidWeeklyShiftPatterns": {
+    "topHeader": "{{weekDates}}的每周班次模式",
+    "headers": {
+      "totalHours": "总小时数",
+      "patternsAvailable": "可用的模式"
+    },
+    "placeHolderText": "根据您的优先级从上到下排列模式"
+  },
+  "staffingPlansPage": {
+    "pageTitle": "人员配备计划",
+    "importBtn": "导入人员编制计划",
+    "items": "人员配备计划",
+    "selectedItems": "{{selectedCount}}选择",
+    "gridColumnsHeaders": {
+      "dateRange": "人员编制计划日期范围",
+      "fileName": "人员编制计划文件名",
+      "importDate": "导入日期",
+      "importedBy": "导入者",
+      "status": "状态"
+    },
+    "errorDelete": "删除人员配备计划时出错。",
+    "successDelete": "人员配备计划已成功删除",
+    "deleteSelectedStaffingPlansMsg": "您将要删除选定的人员配备计划。是否继续？",
+    "deleteSingledStaffingPlanMsg": "您将要删除此人员配备计划。是否继续？",
+    "gridNoRowsOverlay": "尚未导入人员编制计划",
+    "bulkOperationsBtns": {
+      "deleteBtn": "删除"
+    },
+    "statuses": {
+      "succeeded": "已成功",
+      "failed": "失败",
+      "partial": "部分成功。已导出 {{totalRowsCount}}条记录中的 {{successRowsCount}} 条。",
+      "na": "不适用",
+      "emptyFile": "空文件"
+    },
+    "importModal": {
+      "header": "导入人员编制计划",
+      "firstParagraph": "通过上传 CSV 文件导入人员配备计划",
+      "downloadMessage1": "您可以在此处",
+      "downloadMessage2": "",
+      "downloadLink": "下载 CSV 文件的模板。",
+      "selectFileMessage": "",
+      "secondParagraph": "确保有整个日期范围的人员配备计划数据",
+      "successMsg": "人员配备计划数据导入成功",
+      "warnMsg": "人员配备计划导入流程已完成但出现错误",
+      "errorMsg": "人员编制计划导入失败",
+      "EmptyFile": "人员配备文件为空",
+      "sizeLimitationErrorMsg": "人员配备计划导入失败。文件大小大于 10MB 的最大值"
+    },
+    "importErrorsListModal": {
+      "header": "导入错误",
+      "rowsWereImportedSuccessfully": "成功导入了 {{totalRowsCount}}行中的 {{succeededRowsCount}} 行",
+      "tooMuchErrors": "导入已停止。发现大量错误。显示前 {{amountOfRows}}"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "尚未定义任何{{itemLabel}}",
+    "modal": {
+      "employeeTab": "尚未分配员工"
+    }
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "排程单元"
+  },
+  "shiftBiddingPage": {
+    "pageTitle": "班次竞标",
+    "items": "班次竞标",
+    "item": "班次竞标",
+    "emptyMessage": "尚未创建竞标",
+    "gridColumnsHeaders": {
+      "datesRange": "竞标日期范围",
+      "jobDate": "作业日期",
+      "by": "发起人",
+      "status": "状态",
+      "isSubmitted": "已提交的竞标"
+    }
+  },
+  "shiftBiddingPatternsPage": {
+    "errorGettingBid": "",
+    "submitButton": "提交竞标",
+    "submitSuccess": "竞标已成功提交",
+    "helpMessage": "根据您的优先级从上到下排列模式",
+    "smallScreenWarning": "放大屏幕以查看可用的班次模式并进行竞标。"
+  },
+  "requestsPage": {
+    "pageTitle": "请求",
+    "tabs": {
+      "timeOff": "活动请求",
+      "trades": "班次交易请求"
+    }
+  },
+  "timeOffRequestsPage": {
+    "pageTitle": "请求",
+    "filters": {
+      "noAvailableSchedulingUnits": "无法加载排程单元筛选器。显示所有排程单元请求。",
+      "multiSelectSchedulingUnitsPlaceholder": "{{count}}个排程单元",
+      "disabledMultiSelectSchedulingUnitsPlaceholder": "全部",
+      "showOnlyPendingRequests": "仅显示待处理",
+      "NoPendingRequests": "没有待处理的请求",
+      "gridLabel": "{{pendingRequests}} 个待处理的请求，共 {{totalRequests}} 个请求",
+      "pendingOnlyGridLabel": "{{pendingRequests}} 个待处理的请求",
+      "loadTimeZonesFailure": "无法加载时区。请刷新页面。"
+    },
+    "item": "请求",
+    "items": "请求",
+    "newItems": "待定",
+    "selectedItems": "{{selectedCount}}选择",
+    "managerComment": {
+      "remaining": "剩余 {{currentLength}}个字符"
+    },
+    "gridColumnsHeaders": {
+      "requestOn": "请求的日期",
+      "requestBy": "请求人",
+      "activityType": "活动类型",
+      "status": "状态",
+      "reviewedBy": "审查人",
+      "empty": "",
+      "actions": "操作",
+      "dates": "请求的日期"
+    },
+    "manageRequestModal": {
+      "approveRequest": "批准请求",
+      "DeclineRequest": "拒绝请求",
+      "textarePlaceHolder": "评论...",
+      "approveBtn": "批准",
+      "declineBtn": "拒绝",
+      "cancelBtn": "取消",
+      "singleDayRequestMsg": "请求将是{{requestType}}，原因：",
+      "bulkRequestContent": "选择您想要{{requestType}}的日期。",
+      "bulkRequestContentv2": "未选定的日期将保持待定状态。",
+      "netstaffingMsg": "确保您已查看这些日期的人员编制要求。",
+      "netstaffingMsgClose": "解除",
+      "textCount": "255"
+    },
+    "reviewedBy": "审查人：",
+    "requestOn": "请求时间：",
+    "fullDay": "全天",
+    "days": "天数",
+    "day": "天",
+    "system": "系统",
+    "decline": "拒绝",
+    "accept": "接听",
+    "gridNoRowsOverlay": "尚未创建请求",
+    "viewInScheduler": "在调度器中查看",
+    "by": "通过",
+    "deletedActivityTitle": "已删除的活动",
+    "statuses": {
+      "button_approved": "批准",
+      "approved": "已批准",
+      "button_declined": "拒绝",
+      "declined": "已拒绝",
+      "pending": "待定",
+      "new": "新",
+      "discarded": "已丢弃",
+      "auto_approved": "已自动批准",
+      "auto_declined": "已自动拒绝",
+      "cancelled_approved_request": "已取消 - 已批准请求"
+    },
+    "messages": {
+      "updateSuccess": "请求已成功更新。",
+      "updateFailed": "未能更新休假请求。",
+      "updateApprovedError": "无法批准此请求。请稍后再试。",
+      "updateDeclinedError": "无法拒绝此请求。请稍后再试。",
+      "managerApproveRequestWhichAlreadyApproved": "无法批准此请求。另一位经理已经批准。",
+      "managerApproveRequestWhichAlreadyDeclined": "无法批准此请求。另一位经理已经拒绝。",
+      "managerDeclinedRequestWhichAlreadyDeclined": "无法拒绝此请求。另一位经理已经拒绝。",
+      "managerDeclinedRequestWhichAlreadyApproved": "无法拒绝此请求。另一位经理已经批准。",
+      "managerApproveDiscardedRequest": "无法批准请求。计划安排已更改，请求已取消。",
+      "managerDeclinedDiscardedRequest": "无法拒绝请求。计划安排已更改，请求已取消。",
+      "updateApprovedAgentError": "无法批准此请求。员工已取消或更新。",
+      "updateDeclinedAgentError": "无法拒绝此请求。员工已取消或更新。",
+      "netStaffingError": "无法获得净人员编制数据。请稍后再试。",
+      "loadAllRequestsFailure": "无法显示所有请求。请重试。",
+      "requestStatusUpdatedWarning": "此请求已被处理或删除。"
+    },
+    "typeComment": "输入评论..."
+  },
+  "shiftTradeRequestsPage": {
+    "pageTitle": "班次交易",
+    "item": "请求",
+    "items": "请求",
+    "selectedItems": "{{selectedCount}}选择",
+    "gridColumnsHeaders": {
+      "requestOn": "请求的日期",
+      "requestBy": "请求人",
+      "tradeWith": "交易对象",
+      "activityType": "活动类型",
+      "status": "状态",
+      "reviewedBy": "审查人",
+      "empty": " ",
+      "actions": "操作",
+      "dates": "请求的日期",
+      "requestedDate": "请求的日期",
+      "viewTrade": " 查看交易",
+      "requestedTime": "请求的时间",
+      "tradeType": "请求类型",
+      "userComment": "用户评论"
+    },
+    "decline": "拒绝",
+    "accept": "接听",
+    "gridNoRowsOverlay": "尚未创建请求",
+    "viewTrade": "查看交易",
+    "by": "通过",
+    "statuses": {
+      "button_approved": "批准",
+      "approved": "已批准",
+      "button_declined": "拒绝",
+      "declined": "已拒绝",
+      "pending": "待定",
+      "new": "新"
+    },
+    "messages": {
+      "updateSuccess": "班次交易请求已更新",
+      "updateFailed": "班次交易请求更新失败"
+    },
+    "system": "系统",
+    "tradeRequestStatus": {
+      "ACCEPTED_BY_REQUESTEE": "接受",
+      "CREATED": "待定",
+      "CANCELED_BY_REQUESTOR": "已取消",
+      "REJECTED_BY_REQUESTEE": "已拒绝",
+      "WITHDRAW_BY_REQUESTEE": "撤消",
+      "APPROVED_BY_MANAGER": "已批准",
+      "DECLINED_BY_MANAGER": "已拒绝",
+      "APPROVED_BY_SYSTEM": "已批准",
+      "DECLINED_BY_SYSTEM": "已拒绝",
+      "CANCELED_BY_SYSTEM": "已取消",
+      "EXPIRED": "已过期",
+      "Errored": "出错"
+    }
+  },
+  "timeOffPlanning": {
+    "rules": {
+      "pageTitle": "规则",
+      "newButton": "新规则",
+      "item": "规则",
+      "items": "规则",
+      "upTo": "最多不超过",
+      "errorRead": "加载休假规则时出错。",
+      "deleteSelectedRulesMsg": "您确定要删除选定的规则吗？",
+      "deleteSingleRuleMsg": "确实想要删除此规则吗？",
+      "errorDelete": "删除休假规则时出错。",
+      "successDelete": "已成功删除休假规则",
+      "gridNoRowsOverlay": "尚未创建规则",
+      "gridColumns": {
+        "name": "名称",
+        "allotmentType": "分配类型",
+        "allottedDays": "分配的天数",
+        "schedulingUnit": "调度单元",
+        "activityCodes": "活动代码"
+      },
+      "createNewRule": {
+        "pageTitle": "创建新规则",
+        "namePlaceholder": "名称",
+        "schedulingUnit": "排程单元",
+        "schedulingUnitPlaceholder": "选择排程单元",
+        "activityCodes": "活动代码",
+        "activityCodesPlaceholder": "选择活动代码",
+        "allotment": "分配",
+        "years": "年",
+        "daysPerYears": "天 / 年",
+        "fixedAmount": "定额",
+        "seniorityBased": "基于工龄的",
+        "seniority": "工龄",
+        "errorAdd": "创建休假规则时出错。",
+        "successAdd": "新规则创建成功。",
+        "timeOffAccrual": "应计休假时间：",
+        "percentPerMonth": "% 每个月",
+        "confirmations": {
+          "warningMessage": " 所有更改都将丢失。",
+          "confirmMessage": "您确定要退出而不保存吗？"
+        }
+      },
+      "editRule": {
+        "pageTitle": "编辑规则",
+        "successUpdate": "已成功编辑休假规则",
+        "errorUpdate": "更新休假规则时出错。"
+      },
+      "alertModal": {
+        "modalTitle": "规则已存在",
+        "modalContent": "此活动/排程单元已存在规则。您想要覆盖它吗？"
+      }
+    },
+    "summary": {
+      "pageTitle": "摘要",
+      "editAllocation": "手动分配将在明年之前断开坐席与规则的连接。是否继续？",
+      "activityType": "活动类型",
+      "gridColumns": {
+        "employee": "员工",
+        "daysPerYear": "每年的天数",
+        "daysYear": "天 / 年",
+        "daysTaken": "获取的天数",
+        "used": "使用的",
+        "earned": "获得的",
+        "accruals": "累计",
+        "scheduled": "已计划",
+        "remaining": "剩余"
+      },
+      "gridAlert": {
+        "thisValueCannot": "该值不能",
+        "exceedYearDays": "超过 365 天"
+      },
+      "warningMessageModal": {
+        "title": "离开页面？",
+        "unsavedChanges": "您有未保存的数据。",
+        "areYouSureLeavePage": "确定未保存就退出吗？"
+      },
+      "edited": "已编辑",
+      "NA": "不适用",
+      "userIsNotAssignedToWeeklyRule": "无法计算余额。此用户未分配至任何规则。"
+    }
+  },
+  "userManagementPage": {
+    "pageTitle": "员工",
+    "newUserBtn": "新员工",
+    "importUsersBtn": "导入员工",
+    "userListHeader": "{{orgName}}的员工：",
+    "items": "员工",
+    "item": "员工",
+    "selectedItems": "{{selectedCount}}选择",
+    "gridColumnsHeaders": {
+      "name": "名称",
+      "email": "电子邮件",
+      "acdLogin": "ACD 登入",
+      "role": "角色",
+      "state": "状态",
+      "group": "调度单元"
+    },
+    "filters": {
+      "schedulingUnits": "{{count}}个排程单元",
+      "skills": "{{count}}项技能",
+      "groups": "{{count}}个组",
+      "searchPlaceholder": "开始输入以查找员工"
+    },
+    "popover": {
+      "acdLoginLbl": "ACD 登入",
+      "hireDateLbl": "聘用日期：{{value}}",
+      "rankLbl": "级别：{{value}}",
+      "skillsLbl": "技能：{{value}}"
+    },
+    "preferencesTab": {
+      "shiftPreferencesTitle": "轮班时间",
+      "TimePreferencesTitle": "休假首选项",
+      "TimePreferencesSubTitle": "没有休息日",
+      "PossibleDaysOff": "可能的休息日",
+      "day": "天",
+      "shiftTime": "轮班时间",
+      "noOptionsAvailable": "这个员工被分配到没有灵活性的规则，所以轮班是固定的，没有按偏好来可言",
+      "noOptionsAvailableForShift": "没有指定的班次。",
+      "noPreference": "无偏好"
+    },
+    "userStates": {
+      "active": "活跃",
+      "pending": "待定",
+      "unregistered": "邀请",
+      "inviting": "发送中"
+    },
+    "balkOperationsBtns": {
+      "inviteBtn": "邀请",
+      "deleteBtn": "删除",
+      "tooltips": {
+        "invite": "邀请员工",
+        "delete": "删除员工"
+      }
+    },
+    "status": {
+      "invite": "邀请"
+    },
+    "tabLabels": {
+      "general": "一般",
+      "skills": "技能",
+      "availability": "可用性",
+      "preferences": "偏好"
+    },
+    "deleteSelectedUsersMsg": "您将要删除所选员工。此操作无法撤消。是否继续？",
+    "deleteSingleUsersMsg": "您将要删除该员工。此操作无法撤消。是否继续？",
+    "inviteSelectedUsersMsg": "选定的员工将被邀请加入此应用程序。继续吗？",
+    "reinviteUsersMsg": "邀请函已过期。核实电子邮件地址并重试。",
+    "reinviteBtnText": "重新发送",
+    "inviteUsersSuccessMsg": "员工已被成功邀请",
+    "inviteUsersWarnMsg": "员工已经激活",
+    "inviteUsersFailureMsg": "邀请员工失败",
+    "deleteSingleUserSuccessMsg": "员工已成功删除。该员工的未来日程已被删除。",
+    "deleteSingleUserFailureMsg": "员工无法被删除",
+    "deleteUsersSuccessMsg": "{{numOfUsers}}名员工已被成功删除。该员工的未来计划表已被删除。",
+    "deleteUsersFailureMsg": "{{numOfFailedToDeleteUsers}}由于{{totalExpected}}员工无法被删除",
+    "deleteLoggedInUser": "您不能删除您自己的员工。",
+    "dragText": "拖拽到此处以设置优先级",
+    "noPreference": "无偏好"
+  },
+  "automaticApprovalRulesPage": {
+    "pageTitle": "审批规则",
+    "searchPlaceholderText": "开始输入以查找规则",
+    "newRule": "新规则",
+    "rule": "规则",
+    "rules": "规则",
+    "CreateNewRulePageTitle": "创建新规则",
+    "deleteSingleRuleMsg": "确实想要删除此规则吗？",
+    "gridNoRowsOverlay": {
+      "none": "未找到结果",
+      "empty": "未找到任何规则",
+      "error": "加载数据时出错"
+    },
+    "showActiveOnly": "仅活跃",
+    "gridColumnsHeaders": {
+      "name": "名称",
+      "schedulingUnits": "排程单元",
+      "activityCodes": "活动代码",
+      "occurrence": "发生",
+      "Status": "状态"
+    },
+    "statuses": {
+      "active": "活跃",
+      "inactive": "不活动",
+      "broken": "破坏",
+      "expired": "已过期",
+      "pending": "待定"
+    },
+    "brokenStatusTooltips": {
+      "noSu": "相关的排程单元已被删除。请向规则添加新的 SU。",
+      "noAc": "相关的活动代码已被删除。请向规则添加新的活动代码。",
+      "noSuAndAc": "相关的活动代码和排程单元已被删除。请向规则添加新的活动代码和 SU。"
+    },
+    "statusesSuccessActions": {
+      "active": "规则激活成功",
+      "inactive": "规则停用成功",
+      "delete": "规则删除成功"
+    },
+    "ruleActions": {
+      "duplicate": "重复",
+      "edit": "编辑",
+      "delete": "删除",
+      "activate": "启动",
+      "deactivate": "停用"
+    }
+  },
+  "cxone-components": {
+    "dropdowns": {
+      "showing": "显示",
+      "outof": "越出",
+      "selectall": "全选",
+      "clearall": "全部清除",
+      "searchingFor": "搜索",
+      "noresults": "未找到结果",
+      "footerText": " ",
+      "defaultPlaceholder": {
+        "single": "选择项目",
+        "multiple": "选择项目"
+      }
+    }
+  },
+  "automaticApprovalNewRulePage": {
+    "newTitle": "新审批规则",
+    "editTitle": "编辑审批规则",
+    "scheduling_unit": "排程单元",
+    "activity_codes": "活动",
+    "name": "名称",
+    "conditionsTitle": "条件",
+    "agent": "坐席",
+    "agentFirstOption": "取决于休假余额",
+    "agentSecondOption": "坐席资历",
+    "daysSinceHireDate": "自雇用之日算起的天数",
+    "groupTimeOffBalance": "群组休假余额",
+    "forAllDays": "对于所有日期",
+    "hours": "小时",
+    "forSpecificDays": "对于特定日期",
+    "forSpecificDaysDescription": "至少选择一天",
+    "daysList": {
+      "Monday": "周一",
+      "Tuesday": "周二",
+      "Wednesday": "周三",
+      "Thursday": "周四",
+      "Friday": "周五",
+      "Saturday": "周六",
+      "Sunday": "周日"
+    },
+    "requestCreationTime": "请求创建时间",
+    "inAdvance": "提前",
+    "sameDay": "同日",
+    "timeFrame": "时间范围",
+    "days": "天数",
+    "from": "来自",
+    "daysInThePastTo": "过往天数",
+    "daysInTheFuture": "未来天数",
+    "conditionsNotMet": "未满足条件时",
+    "declineAutomatically": "自动拒绝",
+    "sendForManagerApproval": "发送给经理审批",
+    "cancelWarningMsg1": " 所有更改都将丢失。",
+    "cancelWarningMsg2": "是否退出而不保存？",
+    "successUpdateMsg": "规则更新成功。",
+    "successCreateMsg": "规则创建成功",
+    "uniqueNameErrorMsg": "已存在具有此名称的规则"
+  },
+  "automaticApprovalRuleConfig": {
+    "newModeTitle": "新审批规则",
+    "editModeTitle": "编辑审批规则",
+    "tabs": {
+      "conditions": {
+        "tabTitle": "条件",
+        "agentTimeOffBalance": "坐席休假余额",
+        "schedulingUnitTimeOffBalance": "调度单位休假余额",
+        "dailyBalance": "每日余额",
+        "hours": "小时",
+        "balanceForCustomDays": "自定义天数余额",
+        "forSpecificDaysDescription": "至少选择 1 天",
+        "daysList": {
+          "Monday": "周一",
+          "Tuesday": "周二",
+          "Wednesday": "周三",
+          "Thursday": "周四",
+          "Friday": "周五",
+          "Saturday": "周六",
+          "Sunday": "周日"
+        },
+        "minimumDaysSinceHire": "雇用后的最少天数",
+        "submissionTime": "提交时间",
+        "timeRestrictionTypes": {
+          "inAdvance": "提前",
+          "sameDay": "同日",
+          "timeFrame": "在时间范围内"
+        },
+        "minimumDaysInAdvance": "最少提前几天",
+        "maximumDaysBeforeTimeOffDate": "休假日期前的最多天数",
+        "maximumDaysAfterTimeOffDate": "休假日期后的最多天数",
+        "conditionsNotMet": "当至少一个所选条件不满足时",
+        "declineAutomatically": "拒绝",
+        "sendForManagerApproval": "发送给经理"
+      },
+      "general": {
+        "tabTitle": "一般",
+        "name": "名称",
+        "uniqueNameErrorMsg": "已存在具有此名称的规则",
+        "schedulingUnit": "排程单元",
+        "activityCodes": "活动"
+      },
+      "netStaffing": {
+        "tabTitle": "净人员编制",
+        "defineNetStaffing": "定义净人员编制",
+        "noSettingsLabel": "尚未定义净人员编制",
+        "header": {
+          "undoAll": "全部撤消",
+          "confirmUndoAll": "您确定要撤销所做的全部更改吗？",
+          "confirmUndoAllYes": "全部撤消",
+          "confirmUndoAllNo": "取消",
+          "deleteAll": "全部删除",
+          "confirmDeleteAll": "您确定要删除所有净人员编制图表吗？",
+          "confirmDeleteAllYes": "全部删除",
+          "confirmDeleteAllNo": "取消",
+          "legend": {
+            "notDefined": "未定义",
+            "approve": "批准",
+            "sendToManager": "发送给经理",
+            "decline": "拒绝"
+          }
+        },
+        "conditions": {
+          "daysLabel": "天数：",
+          "addNetStaffingButton": "添加净人员编制",
+          "autoApproveStepperLabel": "批准",
+          "autoApproveStepperPercentageLabel": "％ 及以上",
+          "autoDeclineStepperLabel": "拒绝",
+          "autoDeclineStepperPercentageLabel": "% 及以下",
+          "undefinedColumnTooltipLabel": "未定义",
+          "approveTooltipLabel": "批准：",
+          "approveTooltipPercentageLabel": "多于",
+          "declineTooltipLabel": "拒绝：",
+          "declineTooltipPercentageLabel": "小于",
+          "clearSelectedButtonLabel": "清除所选",
+          "menuItems": {
+            "delete": "删除",
+            "clear": "清除",
+            "copySettings": "复制设置",
+            "pasteSettings": "粘贴设置"
+          }
+        },
+        "footer": {
+          "noScheduleNoForecastLabel": "如果不存在预测或已发布的时间表："
+        }
+      }
+    }
+  },
+  "userAgenda": {
+    "header": "日程",
+    "noEvents": "没有计划安排",
+    "shiftStart": "班次开始时间",
+    "shiftEnd": "班次结束时间"
+  }
+}

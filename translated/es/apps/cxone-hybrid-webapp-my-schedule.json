@@ -1,0 +1,2485 @@
+{
+  "mySchedule": {
+    "enhancedTradeModal": {
+      "modalTitle": "Intercambiar turno",
+      "okLabel": "Enviar solicitud de intercambio",
+      "fromLabel": "DESDE",
+      "toLabel": "HASTA",
+      "preferredShiftLabel": "Día y hora de turno preferidos",
+      "betweenLabel": "Entre",
+      "grid": {
+        "shiftStart": "Inicio de turno",
+        "shiftEnd": "Fin de turno",
+        "agentName": "Nombre del agente",
+        "gridNotSet": "Preferencia de turno no establecida todavía",
+        "gridNoRowsOverlay": "No se han encontrado turnos coincidentes. Actualice sus preferencias de intercambio",
+        "gridNoAgent": "No se encontraron agentes",
+        "gridError": "No ha sido posible cargar los datos. Vuelva a intentarlo.",
+        "wfo_service_schedule_manager_79": "No es posible intercambiar el turno. Las horas de intercambio son inferiores al valor mínimo requerido.",
+        "wfo_service_schedule_manager_88": "No se puede dividir la actividad. Seleccione unas horas de solicitante diferentes.",
+        "wfo_service_schedule_manager_90": "Los intercambios de días parciales no están permitidos.",
+        "wfo_service_schedule_manager_78": "No es posible intercambiar el turno. La hora de intercambio de turno es demasiado cercana a la hora solicitada.",
+        "wfo_service_schedule_manager_68": "No es posible intercambiar el turno. La programación aún no está publicada.",
+        "wfo_service_schedule_manager_77": "No es posible intercambiar el turno. La fecha de intercambio de turno está fuera del periodo permitido a partir de la fecha solicitada.",
+        "wfo_service_schedule_manager_65": "No es posible intercambiar el turno. Los intercambios de turno no están permitidos para fechas pasadas.",
+        "wfo_service_schedule_manager_62": "No se puede intercambiar el turno. El intercambio de turno no está permitido para las solicitudes de cambios de programación pendientes.",
+        "wfo_service_schedule_manager_87": "No se puede intercambiar turno. El número de solicitudes de intercambio abiertas en el día supera el límite configurado.",
+        "wfo_service_schedule_manager_76": "Intercambio no permitido."
+      },
+      "header": {
+        "shift": "turno",
+        "searchTitle": "Buscar agente",
+        "selectedRow": "Mostrar solo seleccionados",
+        "selected": "seleccionado"
+      },
+      "tradeConfigMsg": "Con base en la configuración de intercambio del sistema",
+      "weekdayDropdown": "Seleccionar días preferidos",
+      "findShiftBtnText": "Buscar turnos coincidentes",
+      "openTradeMessage": {
+        "requestorWaitForApproval": "La solicitud de intercambio de turno se ha enviado a {{totalRequests}} empleados y está a la espera de aceptación",
+        "requesteeInvitedForTrade": "{{requestorName}} lo está invitando a intercambiar turnos",
+        "requesteeAcceptedTrade": "Aceptó este intercambio. Esperando la aprobación de un supervisor",
+        "viewRequest": "Ver solicitud",
+        "decline": "Rechazar",
+        "cancel": "Cancelar"
+      },
+      "fullDayTradeOption": "Turno completo",
+      "partialDayTradeOption": "Turno parcial",
+      "nonTradeableActivityPresent": "La hora del intercambio contiene actividades no intercambiables",
+      "startTimeLateThanEndTime": "El tiempo de inicio debe ser anterior al tiempo de finalización",
+      "minAdvanceNotice": "La solicitud de intercambio debe enviarse con al menos {{stringTime}} de antelación",
+      "minPartialShiftDuration": "Seleccione al menos {{minStringTime}}",
+      "fullDayShiftLabel": "Horas de turno",
+      "partialShiftLabel": "Horas de turno parciales",
+      "popOverNonTradableActivity": "La hora del intercambio contiene actividades no intercambiables",
+      "popOverMinAdvNotice": "La solicitud de intercambio debe enviarse con al menos {{stringTime}} de antelación",
+      "popOverPartialTradeDisabled": "La configuración de intercambios del sistema solo permite intercambios de día completo",
+      "daysNotSelectedtLabel": "Este campo es obligatorio",
+      "popOverPartialRequestPending": "No se permite el intercambio de día completo cuando hay una solicitud de intercambio de día parcial pendiente",
+      "popOverFullDayRequestPending": "No se permite el intercambio de día parcial cuando hay una solicitud de intercambio de día completo pendiente",
+      "maxSelectionMessage": "Puede seleccionar un máximo de {{maxSelectionPossible}} turnos."
+    },
+    "tradeValidations": {
+      "wfo_service_schedule_manager_68": "No es posible intercambiar el turno. La programación aún no está publicada.",
+      "tradeFailure": "No se puede intercambiar turno. Error desconocido.",
+      "generalError": "Falló el intercambio. Inténtelo nuevamente en otro momento.",
+      "wfo_service_schedule_manager_78": "No es posible intercambiar el turno. La fecha de intercambio de turno es demasiado próxima a la fecha solicitada.",
+      "wfo_service_schedule_manager_77": "No es posible intercambiar el turno. La fecha de intercambio de turno está fuera del periodo permitido a partir de la fecha solicitada.",
+      "wfo_service_schedule_manager_65": "No es posible intercambiar el turno. Los intercambios de turno no están permitidos para fechas pasadas.",
+      "wfo_service_schedule_manager_62": "No se puede intercambiar el turno. El intercambio de turno no está permitido para las solicitudes de cambios de programación pendientes.",
+      "wfo_service_schedule_manager_88": "No es posible intercambiar el turno. La programación publicada está vacía.",
+      "non_tradable": "No se puede intercambiar el turno. Al menos una actividad de su turno no es intercambiable.",
+      "wfo_service_schedule_manager_87": "No se puede intercambiar turno. El número de solicitudes de intercambio abiertas en el día supera el límite configurado.",
+      "wfo_service_schedule_manager_76": "Intercambio no permitido.",
+      "tradeSuccess": "Solicitud de intercambio enviada correctamente a todos los agentes seleccionados.",
+      "tradeSuccessPartial": "Solicitud de intercambio enviada correctamente a {{successCount}} agentes.",
+      "tradeSubmissionFailure": "Se ha producido un error en la solicitud de intercambio.",
+      "tradeAccpeted": "Solicitud de intercambio aceptada correctamente.",
+      "trdaeDecline": "Solicitud de intercambio denegada correctamente."
+    },
+    "agentInitiatedSchedule": {
+      "activityModal": {
+        "activityLabel": "TIPO DE ACTIVIDAD",
+        "balanceLabel": "MI EQUILIBRIO DE TIEMPO LIBRE",
+        "startLabel": "COMENZAR",
+        "endLabel": "FINALIZAR",
+        "commentLabel": "COMENTAR",
+        "commentPlaceHolder": "Añadir comentarios...",
+        "title": "Nueva solicitud de tiempo libre",
+        "addActivityTitle": "Añadir actividad",
+        "editActivityTitle": "Editar Actividad",
+        "removeActivityTitle": "Eliminar Actividad",
+        "submitButton": "Enviar",
+        "saveButton": "Guardar",
+        "addActivitySaveButton": "Agregar",
+        "removeActivitySaveButton": "Quitar",
+        "cancelButton": "Cancelar",
+        "unpublishedDayMessage": "No tiene un calendario publicado para este día, por lo que solo puede solicitar tiempo libre para días completos.",
+        "restrictFullDaysMessage": "Solo puede solicitar días completos para esta actividad.",
+        "overnightMessage": "Esta es una actividad durante la noche. Solo puede modificar las horas de la fecha de inicio.",
+        "activityCodePlaceholder": "Seleccionar un código de actividad",
+        "fullDay": "Todo el día",
+        "remaining": " caracteres restantes",
+        "remainingBalance": "Tiene {{remainingDays}}/{{totalDays}} días restantes",
+        "noBalance": "Ha utilizado los {{totalDays}} días de su saldo",
+        "validations": {
+          "invalidPartialActivityCodeNumHours": "Esta actividad debe estar entre {{partialDayRequestMinHours}}-{{partialDayRequestMaxHours}} horas",
+          "invalidPartialActivityHours": "Debe ser posterior a Start Time (hora de inicio)",
+          "invalidDaysBalance": "Solo le quedan {{remaining}} días en su saldo",
+          "invalidHoursBalance": "Solo le quedan {{remainingBalanceHoursString}} horas en su saldo",
+          "noRemainingDaysBalance": "No tiene ningún día libre restante para esta actividad",
+          "overlappingRequests": "Ya tiene una solicitud pendiente en este momento",
+          "overlappingShiftTradeRequests": "Tiene una solicitud de intercambio pendiente en ese intervalo de tiempo",
+          "REQUEST_CREATION_TIME_DAYS_IN_ADVANCE": "La solicitud debe presentarse con al menos {{DAYS_IN_ADVANCE}} de antelación",
+          "REQUEST_CREATION_TIME_SAME_DAY": "Solo puede realizar solicitudes el mismo día para esta actividad.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_FUTURE": "Solo puede realizar solicitudes hasta {{MAX_DAYS_IN_FUTURE}} a partir de ahora.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_PAST": "Solo puede realizar solicitudes hasta {{MAX_DAYS_IN_PAST}} antes de hoy.",
+          "AGENT_SENIORITY": "Tiene que trabajar al menos {{AGENT_MINIMUM_SENIORITY_DAYS}} días para presentar esta solicitud.",
+          "AGENT_BALANCE": "No tiene suficiente equilibrio de tiempo libre.",
+          "SCHEDULING_UNIT_BALANCE": "No puede solicitar tiempo libre para esta franja horaria.",
+          "SCHEDULING_UNIT_STAFFING": "El nivel de plantilla de personal es demasiado bajo para los días/actividad seleccionados",
+          "SCHEDULING_UNIT_NO_PUBLISHED_SCHEDULE": "No existe previsión o calendario publicado para los días/actividad seleccionados",
+          "selfIntervalAutoTime": "Todas las franjas horarias del período seleccionado no están disponibles para la aprobación automática de tiempo libre",
+          "selfIntervalManagerTime": "Todas las franjas horarias del período seleccionado no están disponibles para el tiempo libre de aprobación requerida",
+          "invalidPartialFulldayTO": "El tiempo libre parcial debe ser inferior a la duración total del turno",
+          "extraHoursIntervalConsumingShift": "Las horas extra deben estar fuera del turno",
+          "selfExtraHoursAutoTime": "Todas las franjas horarias del período seleccionado no están disponibles para la aprobación automática de horas extra",
+          "selfExtraHoursTime": "Todas las franjas horarias del período seleccionado no están disponibles para las horas extra de aprobación requerida",
+          "AGENT_BALANCE_FOR_EH": "No tiene suficiente saldo de horas extra.",
+          "AGENT_MAX_HOURS_A_DAY": "Las horas exceden el límite máximo diario",
+          "AGENT_MAX_HOURS_A_WEEK": "Las horas exceden el límite máximo semanal"
+        },
+        "selfIntervalTitle": "Seleccionar tiempo libre",
+        "startDate": "FECHA DE INICIO",
+        "startTime": "DESVIACIÓN ESTÁNDAR",
+        "endDate": "FECHA DE FINALIZACIÓN",
+        "endTime": "HORA DE FINALIZACIÓN",
+        "selfIntervalExtraHoursTitle": "Seleccionar Horas extra"
+      },
+      "dirtyMode": {
+        "cancel": "Cancelar",
+        "submitRequest": "Enviar solicitud"
+      },
+      "menuOptions": {
+        "requestTimeoff": "Solicitar tiempo libre",
+        "addActivity": "Añadir actividad",
+        "deleteActivity": "Eliminar Actividad",
+        "editRequest": "Modificar solicitud",
+        "editActivityTime": "Modificar tiempo de actividad",
+        "cancelRequest": "Cancelar solicitud",
+        "cancelActivity": "Cancelar solicitud"
+      },
+      "requestExistLabel": "Tiene solicitudes pendientes para ese día.",
+      "singleFullDayRequestExistLabel": "Solicitud de día completo pendiente ({{activityCode}}) para ese día.",
+      "multipleFullDayRequestExistLabel": "Solicitud de día completo pendiente ({{activityCode}}) para {{requestStartDate}} - {{requestEndDate}}.",
+      "dirtyModeSingleFullDayRequestLabel": "Solicitud de día completo - {{activityCode}}",
+      "dirtyModeMultipleFullDayRequestLabel": "{{requestStartDate}} - {{requestEndDate}} - {{activityCode}}",
+      "invalidRequestLabel": "Se borraron algunas actividades o sus configuraciones cambiaron. Cancele todas las solicitudes.",
+      "viewRequests": "Ver solicitudes",
+      "cancelRequests": "Cancelar todo",
+      "deletedActivityName": "Actividad borrada",
+      "messages": {
+        "requestSubmitted": "Solicitud enviada con éxito.",
+        "submitRequestFailure": "No ha sido posible enviar la solicitud. Vuelva a intentarlo más tarde.",
+        "submitRequestFailureWithRefresh": "No ha sido posible enviar la solicitud. Actualice la página y vuelva a intentarlo.",
+        "submitRequestFailureScheduleChanged": "No ha sido posible enviar la solicitud. Se ha actualizado su calendario. Actualice la página y vuelva a intentarlo.",
+        "submitRequestFailureDiscarded": "No ha sido posible enviar la solicitud. Se ha actualizado su programación y sus solicitudes anteriores se han descartado. Actualice la página.",
+        "requestCanceled": "Solicitud cancelada con éxito.",
+        "allRequestsCanceled": "Solicitudes canceladas correctamente.",
+        "cancelRequestFailureAlreadyApprovedDeclined": "No ha sido posible cancelar la solicitud. Se ha actualizado su calendario. Actualice la página y vuelva a intentarlo.",
+        "cancelAllRequestsFailureAlreadyApprovedDeclined": "No ha sido posible cancelar las solicitudes. Se ha actualizado su programación. Actualice la página y vuelva a intentarlo.",
+        "cancelRequestFailureDiscarded": "No ha sido posible cancelar la solicitud. Se ha actualizado su programación y las solicitudes anteriores se han descartado. Actualice la página.",
+        "cancelAllRequestsFailureDiscarded": "No ha sido posible cancelar las solicitudes. Se ha actualizado su programación y las solicitudes anteriores se han descartado. Actualice la página.",
+        "cancelRequestFailureWithRefresh": "No ha sido posible cancelar la solicitud. Actualice la página y vuelva a intentarlo.",
+        "cancelAllRequestsFailureWithRefresh": "No ha sido posible cancelar las solicitudes. Actualice la página y vuelva a intentarlo.",
+        "cancelRequestFailure": "No ha sido posible cancelar la solicitud. Vuelva a intentarlo más tarde.",
+        "cancelAllRequestsFailure": "No ha sido posible cancelar las solicitudes. Vuelva a intentarlo más tarde.",
+        "modalInitFailure": "No ha sido posible abrir la ventana Actividad. Actualice la página.",
+        "failedToLoadRequests": "No ha sido posible cargar las solicitudes pendientes. Actualice la página.",
+        "requestTimezoneDiff": "No ha sido posible cargar las solicitudes pendientes de zonas horarias distintas.",
+        "submitRequestConfirmation": "Sus solicitudes coinciden con las actividades programadas. Una vez aprobadas, las nuevas actividades anularán las actividades existentes para las franjas horarias seleccionadas.",
+        "cancelRequestConfirmation": " Todos los cambios se perderán. ¿Desea continuar?",
+        "cancelAllRequestsConfirmation": "¿Desea borrar todas las solicitudes pendientes para este día?",
+        "confirmationContinue": "¿Desea continuar?",
+        "confirmationYes": "Sí",
+        "confirmationNo": "No",
+        "cannotEditOvernightActivity": "Solo puede modificar esta actividad desde la fecha de inicio.",
+        "cannotDeleteOvernightActivity": "Solo puede borrar esta actividad desde la fecha de inicio.",
+        "cannotCreateShiftTradeRequest": "No puede intercambiar turnos porque tiene solicitudes de programación pendientes para ese día.",
+        "cannotCreateScheduleRequest": "No puede cambiar su programación porque tiene un intercambio de turno pendiente para ese día.",
+        "cannotLoadPendingTradeRequests": "No es posible cargar las solicitudes de intercambio pendientes. Actualice la página.",
+        "generalConflictErr": "Tiene solicitudes incompatibles.",
+        "cannotCancelOvernightActivity": "Solo puede cancelar esta actividad desde la fecha de inicio.",
+        "pastDateCancelationNotAllowed": "Las cancelaciones deben realizarse con antelación. Póngase en contacto con su gerente para cancelar.",
+        "scheduleChangedPostApproval": "La programación ha cambiado después de aprobarse su solicitud de tiempo libre. Póngase en contacto con su gerente para cancelar.",
+        "moreThan1DayCancelationNotAllowed": "No es posible cancelar para más de un día. Póngase en contacto con su gerente para cancelar.",
+        "cannotLoadWeeklyScheduleData": "No se pudieron cargar los datos de la programación semanal."
+      },
+      "comparisonModal": {
+        "viewFromScheduleManager": "Administrador de programación",
+        "requestExceedingRange": "Esta solicitud es para {{totalDays}} días, de {{fromDate}} a {{toDate}}. Para ver la programación completa del agente, haga clic en ",
+        "agentTitle": "Mis solicitudes de programación",
+        "managerTitle": "Solicitudes de programación",
+        "currentSchedule": "Programación actual",
+        "revisedSchedule": "Programación revisada",
+        "requestUpdatedWarning": "Esta solicitud se ha actualizado recientemente."
+      },
+      "fullDayInvalidRequestLabel": "La actividad {{activityCode}} se ha eliminado o modificado. La solicitud de día completo pendiente ya no es válida.",
+      "timeGroupLabel": "Selección de fecha/hora de inicio y finalización",
+      "self_Interval": "Autoservicio",
+      "select_self_service": "Seleccionar..."
+    },
+    "errorRead": "Se produjo un error mientras se cargaba la programación.",
+    "pageTitle": "Programación",
+    "userName": "{{userName}}",
+    "actionButton": "Actions",
+    "actionLinks": {
+      "tradeShift": "Intercambiar turno",
+      "userPreferences": "Preferencias de turno",
+      "userTORBalance": "Equilibrio de tiempo libre"
+    },
+    "showSummary": {
+      "onCall": "DE TURNO",
+      "outOfOfficeAgent": "FUERA DE LA OFICINA",
+      "noData": "Sin datos"
+    },
+    "tradeModal": {
+      "agentLabel": "Intercambiar con:",
+      "agentPlaceHolder": "Seleccionar Agent",
+      "okLabel": "Enviar",
+      "modalTitle": "Intercambiar {{date}} | {{time}}"
+    },
+    "userPreferencesModal": {
+      "okLabel": "Guardar",
+      "modalTitle": "Preferencias de turno",
+      "updateSuccessMsg": "¡El empleado se actualizó correctamente!"
+    },
+    "openTradeMessage": {
+      "requestorWaitForApproval": "Solicitud de intercambio emitida y esperando aprobación",
+      "requesteeInvitedForTrade": "{{requestorName}} lo está invitando a intercambiar turnos",
+      "requesteeAcceptedTrade": "Aceptó este intercambio. Esperando la aprobación de un supervisor",
+      "viewRequest": "Ver solicitud",
+      "decline": "Rechazar",
+      "cancel": "Cancelar"
+    },
+    "toasts": {
+      "updateFailed": "Hubo un problema con la actualización del estado de la solicitud de intercambio de turnos",
+      "canceledFailed": "Hubo un problema para cancelar la solicitud de intercambio de turnos",
+      "declinedFailed": "Hubo un problema para rechazar la solicitud de intercambio de turnos",
+      "acceptedFailed": "Hubo un problema para aceptar la solicitud de intercambio de turnos",
+      "retrieveFailed": "Hubo un problema para recuperar las solicitudes de intercambio de turnos",
+      "canceledSuccess": "Solicitud de intercambio cancelada correctamente.",
+      "noTradeAvaliable": "La solicitud de intercambio ya no está disponible"
+    },
+    "sideBySideModal": {
+      "modalTitle": "Intercambio de turnos",
+      "declineBtnLabel": "Rechazar",
+      "acceptBtnLabel": "Aceptar",
+      "requesteeHeaderLabel": "Usted da",
+      "requestorHeaderLabel": "Usted obtiene",
+      "headerLabelFormat": "{{date}} | {{time}}",
+      "error": {
+        "tradeDateHasPassed": "Este intercambio de turno ya no está activo",
+        "scheduleRequestExists": "No puede intercambiar turnos porque tiene solicitudes de programación pendientes para ese día.",
+        "nonTradableError": "Intercambio rechazado. Su turno o el del agente seleccionado tiene una actividad que no puede ser intercambiada.",
+        "generalError": "Se ha producido un error en el intercambio de turno."
+      }
+    },
+    "agentScheduleCancellation": {
+      "messages": {
+        "confirmationNo": "Permanecer",
+        "confirmationYes": "Cancelar solicitud",
+        "confirmationMessage1": "¿Desea cancelar la solicitud?",
+        "confirmationMessage2": "Su programación volverá al estado anterior.",
+        "canNotCancelTimeOff": "No es posible cancelar el tiempo libre",
+        "internalError": "Se produjo un error de servidor interno. Vuelva a intentar."
+      }
+    },
+    "today": "Hoy",
+    "selfServiceTO": {
+      "autoTOPopover": "Tiempo libre automático",
+      "managerTOPopover": "Aprobación requerida para tiempo libre",
+      "noSelfIntervalActivityPresentForDay": "No hay actividad de autoservicio para el día.",
+      "generalError": "No se pudieron cargar los datos de autoservicio."
+    },
+    "weeklyViewTradeSideBySideModal": {
+      "viewTradeRequest": "Ver solicitud recibida",
+      "declineTradeRequest": "Rechazar todas las solicitudes recibidas",
+      "cancelTradeRequest": "Cancelar todas las solicitudes enviadas",
+      "viewPendingRequest": "Ver solicitudes",
+      "deletePendingRequest": "Cancelar todo",
+      "pendingRequestsText": "Solicitudes pendientes",
+      "cancelPendingRequestTitle": "Cancelar solicitudes pendientes",
+      "deleteAllPendingActivityRequestsConfirmation": "¿Desea cancelar todas las solicitudes pendientes para ",
+      "dontCancelButtonText": "No cancelar",
+      "noRequestsForThisDay": "No hay solicitudes para este día.",
+      "tradeHeading": "Solicitud de intercambio",
+      "pendingActivityRequestHeader": "Solicitudes de actividad",
+      "pendingTradeRequestHeader": "Solicitudes de intercambio",
+      "close": "Cerrar",
+      "fullDayTimeoffMsg": "Hay día completo de tiempo libre para este día."
+    },
+    "selfServiceEH": {
+      "autoEHPopover": "Horas extra automáticas",
+      "managerEHPopover": "Aprobación requerida para horas extra",
+      "noSelfIntervalActivityPresentForDay": "No hay actividad de autoservicio para el día.",
+      "generalError": "No se pudieron cargar los datos de autoservicio.",
+      "noPermissionToAddOpenActivity": "No se puede agregar la actividad. Se requiere permiso."
+    },
+    "day": "Día",
+    "week": "Semana"
+  },
+  "myTimeOffRequests": {
+    "myTimeOffbalanceModal": {
+      "usage": "Uso",
+      "title": "Mi equilibrio de tiempo libre",
+      "total": "total",
+      "taken": "tomado",
+      "earned": "obtenido",
+      "scheduled": "programado",
+      "remaining": "restante",
+      "invalidRemainingDays": "No tiene ningún día libre restante para esta actividad",
+      "activity": "Actividad"
+    },
+    "gridColumns": {
+      "statusUpdateComment": "REVISADO POR",
+      "dates": "FECHAS SOLICITADAS",
+      "requestOn": "SOLICITADO EL",
+      "activityType": "TIPO DE ACTIVIDAD",
+      "comments": "COMENTARIO DE AGENTE",
+      "status": "ESTADO",
+      "time": "TIEMPO SOLICITADO"
+    },
+    "system": "Sistema",
+    "pageTitle": "Solicitudes de programación",
+    "gridHeaderPlaceholder": "Empiece a escribir para encontrar una solicitud",
+    "scheduleRequestsTitle": "Solicitudes de programación",
+    "newButton": "Nueva solicitud",
+    "timeOffStatusButton": "Equilibrio de tiempo libre",
+    "items": "Solicitudes",
+    "item": "Solicitud",
+    "gridNoRowsOverlay": "No se creó ninguna solicitud todavía",
+    "by": "Por",
+    "fullDay": "Día completo",
+    "days": "días",
+    "noComments": "Sin comentarios",
+    "cancelRequest": "Cancelar",
+    "deletedActivity": "Actividad borrada",
+    "requestStatusType": {
+      "approved": "aprobado",
+      "declined": "rechazado",
+      "pending": "Pendiente",
+      "canceled": "cancelado",
+      "discarded": "Descartado",
+      "auto_approved": "aprobado",
+      "auto_declined": "rechazado",
+      "canceled_approved_request": "Cancelado - Solicitud aprobada"
+    },
+    "modal": {
+      "title": "Nueva solicitud de tiempo libre"
+    },
+    "messages": {
+      "createSuccess": "Se ha creado una nueva solicitud de tiempo libre",
+      "createFailed": "Se produjo un error al crear una Solicitud de tiempo libre",
+      "cancelSuccess": "La solicitud de tiempo libre se canceló",
+      "cancelFailed": "Se produjo un error al cancelar la solicitud de tiempo libre"
+    }
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "wfmModuleLinks": {
+          "requestHandling": "Gestionar solicitudes",
+          "scheduler": "Administrador de programación",
+          "realTimeAdherence": "Observancia en tiempo real",
+          "intradayDashboard": "Intradía",
+          "forecasting": "Previsión",
+          "generateForecast": "Generar previsión",
+          "forecastingProfiles": "Perfiles de previsión",
+          "specialDays": "Días especiales",
+          "acdImportHistorical": "Datos históricos de ACD",
+          "scheduling": "Programación",
+          "generateSchedule": "Generar programación",
+          "biddingManager": "Gestor de oferta",
+          "importStaffingPlan": "Importar plan de plantilla de personal",
+          "timeOffRequests": "Solicitudes",
+          "requests": "Solicitudes",
+          "setup": "Configuración",
+          "activityCodes": "Códigos de actividades",
+          "acdActivitiesMapping": " Mapeado de ACD",
+          "dailyRule": "Reglas diarias",
+          "weeklyRules": "Reglas semanales",
+          "rotationRules": "Reglas de rotación",
+          "shiftBiddingTemplates": "Plantillas de oferta",
+          "seatLimits": "Límites de asientos",
+          "shiftTrading": "Intercambio de turnos",
+          "intradayManager": "Gestor de Intradía",
+          "timeOffPlanning": "Planificación de tiempo libre",
+          "summary": "Resumen",
+          "rules": "Reglas",
+          "approvalRules": "Reglas de aprobación"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "Programación",
+          "tasks": "Tareas",
+          "evaluations": "Evaluaciones",
+          "plansMonitoring": "Supervisión de plan",
+          "performanceMonitoring": "Monitoreo de desempeño",
+          "myTimeOffRequests": "Solicitudes de tiempo libre",
+          "scheduleRequests": "Solicitudes de programación",
+          "shiftBidding": "Oferta de turnos",
+          "calibrations": "Calibraciones",
+          "coaching": "Coaching",
+          "groupCoaching": "Coaching de grupo",
+          "selfAssessments": "Autoevaluaciones",
+          "marketplace": "Mercado",
+          "myPersona": "Mi persona",
+          "pursuits": "Mis objetivos",
+          "1on1coaching": "Coaching 1 a 1",
+          "recentInteractions": "Interactions reciente"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "Programación",
+          "myTimeOffRequests": "Solicitudes de tiempo libre",
+          "scheduleRequests": "Solicitudes de programación",
+          "evaluations": "Evaluaciones",
+          "shiftBidding": "Oferta de turnos",
+          "coaching": "Coaching",
+          "groupCoaching": "Coaching de grupo",
+          "marketplace": "Mercado",
+          "myDashboards": "Mi Dashboard",
+          "pursuits": "Mis objetivos",
+          "1on1coaching": "Coaching 1 a 1",
+          "recentInteractions": "Interacciones recientes"
+        }
+      }
+    },
+    "global": {
+      "warningIcon": "Advertencia"
+    }
+  },
+  "metaInfo": {
+    "requests": {
+      "title": "Gestionar solicitudes",
+      "description": "Gestionar solicitudes de agentes"
+    },
+    "selfService": {
+      "title": "Soporte - Descargas"
+    },
+    "title": "Nice SaaS WFM ",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "Inicio de sesión",
+      "description": "Nice SaaS WFM"
+    },
+    "success": {
+      "title": "Éxito",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "Ejemplos",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "Ejemplos de formularios",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "Empleados",
+      "description": "Nice SaaS WFM"
+    },
+    "createAccount": {
+      "title": "Crear cuenta",
+      "description": "Nice SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "Códigos de actividades",
+      "description": "Nice SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " Mapeado de ACD",
+      "description": "Nice SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "Reglas diarias",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftBiddingTemplates": {
+      "title": "Cambiar plantillas",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftTrading": {
+      "title": "Intercambio de turnos",
+      "description": "Nice SaaS WFM"
+    },
+    "timeOffPlanning": {
+      "rules": {
+        "title": "Reglas",
+        "description": "Nice SaaS WFM"
+      },
+      "summary": {
+        "title": "Resumen",
+        "description": "Nice SaaS WFM"
+      }
+    },
+    "timeOffRules": {
+      "title": "Reglas de tiempo libre",
+      "description": "Nice SaaS WFM"
+    },
+    "timeOffSummary": {
+      "title": "Resumen de tiempo libre",
+      "description": "Nice SaaS WFM"
+    },
+    "createNewRule": {
+      "title": "Nueva regla",
+      "description": "Nice SaaS WFM"
+    },
+    "biddingManager": {
+      "title": "Gestor de oferta",
+      "description": "Nice SaaS WFM"
+    },
+    "bidsView": {
+      "title": "Gestor de oferta",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftBidding": {
+      "title": "Oferta de turnos",
+      "description": "Nice SaaS WFM"
+    },
+    "bidPatterns": {
+      "title": "Oferta de turnos",
+      "description": "Nice SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "Unidad de programación",
+      "description": "Nice SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "Invitación caducada",
+      "description": "Nice SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "Generar programación",
+      "description": "Nice SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "Programación",
+      "description": "Nice SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "Mi Dashboard",
+      "description": "Nice SaaS WFM"
+    },
+    "myTimeOffRequests": {
+      "title": "Solicitudes de programación",
+      "description": "Nice SaaS WFM"
+    },
+    "intradayManager": {
+      "title": "Gestor de Intradía",
+      "description": "Nice SaaS WFM"
+    },
+    "qpManager": {
+      "title": "Quality Planner",
+      "description": "Nice SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "Ejecutor de formulario",
+      "description": "Nice SaaS WFM"
+    },
+    "recoverPassword": {
+      "title": "Recuperar contraseña",
+      "description": "Nice SaaS WFM"
+    },
+    "resetPassword": {
+      "title": "Restablecer contraseña",
+      "description": "Nice SaaS WFM"
+    },
+    "scheduler": {
+      "title": "Administrador de programación",
+      "description": "Nice SaaS WFM"
+    },
+    "setPassword": {
+      "title": "Establecer contraseña",
+      "description": "Nice SaaS WFM"
+    },
+    "skills": {
+      "title": "Habilidades",
+      "description": "Nice SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "Galería de UI Kit",
+      "description": "Nice SaaS WFM",
+      "userRoles": "{{selectedCount}} Roles de empleados"
+    },
+    "weeklyRules": {
+      "title": "Reglas semanales",
+      "description": "Nice SaaS WFM"
+    },
+    "manageForms": {
+      "title": "Administrar formularios",
+      "description": "Nice SaaS WFM"
+    },
+    "templateManager": {
+      "title": "Gestor de plantillas",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "Diseñador de formularios",
+      "description": "Nice SaaS WFM"
+    },
+    "forecastData": {
+      "title": "Importar datos de previsión",
+      "description": "Nice SaaS WFM"
+    },
+    "historicalData": {
+      "title": "Datos históricos",
+      "description": "Nice SaaS WFM"
+    },
+    "groups": {
+      "title": "Grupos",
+      "description": "Nice SaaS WFM"
+    },
+    "realTimeAdherence": {
+      "title": "Observancia en tiempo real",
+      "description": "Observancia en tiempo real"
+    },
+    "timeOffRequests": {
+      "title": "Solicitudes",
+      "description": "Nice SaaS WFM"
+    },
+    "automaticApprovalRules": {
+      "title": "Reglas de aprobación",
+      "description": "Gestionar reglas de aprobación"
+    },
+    "automaticApprovalRuleSettings": {
+      "title": "Ajustes de reglas de aprobación",
+      "description": "Gestionar ajustes de reglas de aprobación"
+    },
+    "generatedForecasts": {
+      "title": "Generar previsión",
+      "description": "Generar previsión"
+    },
+    "generateForecast": {
+      "title": "Generar previsión",
+      "description": "Generar previsión"
+    },
+    "forecastingProfiles": {
+      "title": "Perfiles de previsión",
+      "description": "Perfiles de previsión"
+    },
+    "forecastingProfileView": {
+      "title": "Perfil de previsión",
+      "description": "Perfil de previsión"
+    },
+    "importStaffingJob": {
+      "title": "Planes de plantilla de personal",
+      "description": "Planes de plantilla de personal"
+    },
+    "specialDays": {
+      "title": "Días especiales",
+      "description": "Días especiales"
+    },
+    "specialDayView": {
+      "title": "Día especial",
+      "description": "Día especial"
+    }
+  },
+  "automaticApprovalRulesPage": {
+    "statuses": {
+      "broken": "Roto",
+      "expired": "Caducado",
+      "pending": "Pendiente",
+      "active": "Activo",
+      "inactive": "Inactivo"
+    },
+    "brokenStatusTooltips": {
+      "noSu": "Se han borrado las unidades de programación relacionadas. Añada nuevas UP a la regla.",
+      "noAc": "Se han borrado los códigos de actividad relacionados. Añada nuevos códigos de actividad a la regla.",
+      "noSuAndAc": "Se han borrado los códigos de actividad y las unidades de programación relacionados. Añada nuevos códigos de actividad y UP a la regla."
+    },
+    "pageTitle": "Reglas de aprobación",
+    "searchPlaceholderText": "Empiece a escribir para encontrar una regla",
+    "newRule": "Nueva regla",
+    "rule": "regla",
+    "rules": "reglas",
+    "CreateNewRulePageTitle": "Crear nueva regla",
+    "deleteSingleRuleMsg": "¿Está seguro de que desea suprimir esta regla?",
+    "gridNoRowsOverlay": {
+      "none": "No se encontraron resultados",
+      "empty": "No se han encontrado reglas",
+      "error": "Error al cargar los datos"
+    },
+    "showActiveOnly": "Solo activos",
+    "gridColumnsHeaders": {
+      "name": "Nombre",
+      "schedulingUnits": "Unidades de programación",
+      "activityCodes": "Códigos de actividades",
+      "occurrence": "ocurrencia",
+      "Status": "Estado"
+    },
+    "statusesSuccessActions": {
+      "active": "Regla activada correctamente",
+      "inactive": "Regla desactivada correctamente",
+      "delete": "Regla eliminada correctamente"
+    },
+    "ruleActions": {
+      "duplicate": "Duplicar",
+      "edit": "Editar",
+      "delete": "Borrar",
+      "activate": "Activar",
+      "deactivate": "Desactivar"
+    }
+  },
+  "common": {
+    "more": "más..."
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "Programación cambiada",
+      "content": "La programación del %%DATE%% se ha cambiado.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "Programación cambiada",
+      "content": "La programación entre %%FROM_DATE%% y %%TO_DATE%% se ha cambiado.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "Nueva solicitud de tiempo libre",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "La solicitud de tiempo libre fue denegada",
+      "content": "Solicite para el %%FROM_DATE%% hasta %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "La solicitud de tiempo libre fue aprobada",
+      "content": "Solicite para el %%FROM_DATE%% hasta %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "La solicitud de tiempo libre fue cancelada",
+      "content": "Solicite para el %%FROM_DATE%% hasta %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_DISPUTE": {
+      "title": "Evaluación que vuelve de la revisión",
+      "content": "No es necesario realizar ninguna acción.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_ACKNOWLEDGE": {
+      "title": "Llegó una nueva evaluación",
+      "content": "Se requiere su revisión.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_COMPLETED": {
+      "title": "Llegó una nueva evaluación",
+      "content": "No es necesario realizar ninguna acción",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_COACHING_STARTED": {
+      "title": "Nuevo paquete de Coaching disponible",
+      "content": "Es necesario que realice una acción",
+      "link": {
+        "name": "Revisar",
+        "url": "/qm/#/myCoachings"
+      }
+    },
+    "SHIFT_BID_STATUS_UPDATED_TO_ACTIVE": {
+      "title": "Nueva oferta abierta ahora",
+      "content": "Haga sus ofertas para %%FROM_DATE%% - %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "Tiene {{Count}} notificaciones sin leer"
+  },
+  "filter": {
+    "clearall": "Borrar todo",
+    "close": "Cerrar"
+  },
+  "generateSchedulesPage": {
+    "labels": {
+      "newRequestOff": "Solicitar tiempo libre",
+      "pageTitle": "Generador de programación automática",
+      "newJobButtonText": "Generar nuevas programaciones",
+      "items": "trabajos de generación de programación",
+      "selectedItems": "{{selectedCount}} seleccionadas",
+      "gridColumnsHeaders": {
+        "schedulingUnit": "Unidad de programación",
+        "schedulingDate": "Fecha de programación",
+        "initiatedBy": "Iniciado por",
+        "jobDate": "Fecha del trabajo",
+        "status": "Estado"
+      },
+      "gridNoRowsOverlay": "No se han generado trabajos de programación todavía",
+      "viewErrors": "Ver errores"
+    },
+    "statuses": {
+      "GENERATION_STARTING": "La generación está comenzando...",
+      "GENERATION_STARTED": "La generación comenzó.",
+      "GENERATION_SCHEDULING": "Creando programaciones...",
+      "GENERATION_SCHEDULING_COMPLETE": "Programación finalizada.",
+      "GENERATION_STORING_SCHEDULES": "Almacenando programaciones...",
+      "GENERATION_STORING_SCHEDULES_COMPLETE": "Almacenamiento de programaciones finalizado.",
+      "GENERATION_CANCELLING": "Cancelando programaciones...",
+      "GENERATION_CANCELLED": "Generación cancelada.",
+      "GENERATION_COMPLETED": "Éxito. {{message}}",
+      "GENERATION_COMPLETED_WITH_WARNINGS": "Éxito. {{message}}",
+      "GENERATION_VALIDATION_FAILED": "Falló la validación.",
+      "GENERATION_ERRORED": "Falló. {{message}}"
+    },
+    "statusDetailTitles": {
+      "internalError": "Error interno",
+      "suNotFound": "Unidad de programación: {{suName}}",
+      "noUsersHaveSkills": "Unidad de programación: {{suName}}",
+      "someUsersHaveNoSkills": "Unidad de programación: {{suName}}",
+      "noUsersAssignedToSu": "Unidad de programación: {{suName}}",
+      "noUsersInSuAssignedWeeklyRules": "Unidad de programación: {{suName}}",
+      "someUsersInSuNotAssignedWeeklyRules": "Unidad de programación: {{suName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "Regla diaria: {{dailyRuleName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "Regla diaria: {{dailyRuleName}}",
+      "employeeUnavailiabilityViolatesMinUsage": "Regla semanal: {{weeklyRuleName}}",
+      "employeeUnavailiabilityViolatesMinDays": "Regla semanal: {{weeklyRuleName}}"
+    },
+    "statusDetails": {
+      "internalError": "Error interno",
+      "suNotFound": "No se encontró la unidad de programación",
+      "noUsersHaveSkills": "Ninguno de los empleados en la unidad de programación “{{suName}}\" tiene habilidades",
+      "someUsersHaveNoSkills": "Algunos de los empleados en la unidad de programación “{{suName}}\" no tienen habilidades",
+      "noUsersAssignedToSu": "No hay empleados asignados a la unidad de programación",
+      "noUsersInSuAssignedWeeklyRules": "Ningún empleado en la unidad de programación “{{suName}}\" tiene reglas semanales",
+      "someUsersInSuNotAssignedWeeklyRules": "No hay programaciones para empleados en la unidad de programación “{{suName}}\" sin reglas semanales",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "La regla semanal ”{{weeklyRuleName}}” se usa por agentes en la unidad de programación “{{suName}}” y la regla diaria “{{dailyRuleName}}” no se ajusta a los horarios de operación. Debe actualizar la hora de inicio de la regla diaria.",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "La regla semanal “{{weeklyRuleName}}” se usa por agentes en la unidad de programación “{{suName}}” y una o varias reglas diarias no se ajustan a los horarios de operación. Debe disminuir el mínimo de la regla semanal.",
+      "employeeUnavailiabilityViolatesMinUsage": "El empleado “{{employeeName}}” se define como no disponible en Admin en las horas de trabajo programadas para la regla diaria “{{dailyRuleName}}”. Debe actualizar la regla semanal “{{weeklyRuleName}}” o la disponibilidad del empleado.",
+      "employeeUnavailiabilityViolatesMinDays": "El empleado “{{employeeName}}” se define como no disponible en Admin en las horas de trabajo programadas para la regla diaria “{{dailyRuleName}}”. Debe actualizar la regla semanal “{{weeklyRuleName}}” o la disponibilidad del empleado."
+    },
+    "modal": {
+      "header": "Generar nuevas programaciones",
+      "schedulingUnits": "Unidades de programación",
+      "scheduleUnit": "Unidad de programación",
+      "schedulingUnitsDropDown": "{{selectedCount}} unidades de programación",
+      "noMoreThanLimitSchedulingUnitsCouldBeScheduled": "No se pudieron programar más de {{items}} unidades de programación",
+      "from": "Comenzar",
+      "to": "Finalizar",
+      "selectDatePlaceholder": "Seleccionar fecha",
+      "oneWeek": "1S",
+      "twoWeeks": "2S",
+      "threeWeeks": "3S",
+      "fourWeeks": "4S",
+      "oneMonth": "1M",
+      "advanceRotation": "Avanzar rotación",
+      "useMultiSkill": "Usar programación multitareas",
+      "loadForecastDataBtn": "Cargar datos de previsión",
+      "forecastDataTabHeader": "Datos de previsión",
+      "attention": "¡Atención!",
+      "schedulesExistPopoverTxt": "Algunas de las fechas que ha seleccionado ya tienen programación. Este trabajo sustituirá esas programaciones y publicará automáticamente las programaciones actualizadas para el empleado si sus programaciones ya se habían publicado previamente.",
+      "doNotAdvanceRotationPopoverTxt": "Va a generar una programación que incluye reglas de rotación y no ha pasado a la siguiente rotación.",
+      "missingForecastDataPopoverTxt": "Algunas de las fechas no contienen datos de previsión. Las programaciones para estas fechas no reflejarán los requerimientos de demanda.",
+      "lessThanMinimumSchedulingUnitsSelectedTxt": "Debe seleccionar al menos 1 unidad de programación",
+      "weeklyRulesMismatchWithSchedulerType": "Algunas de las reglas semanales no son compatibles con este tipo de programación. {{mismatchedEmployeeCount}}/{{totalWeeklyRuleEmployeeCount}} empleados no recibirán programaciones.",
+      "staffingPlanSUMismatch": "El plan de plantilla de personal seleccionado no es aplicable a una o más de las unidades de programación seleccionadas. ¿Desea continuar?",
+      "generateAnywayBtn": "Generar de todos modos",
+      "noForecastDataTxt": "No hay datos de previsión para este rango de fecha.",
+      "forecastDataLoads": "No se encontraron los datos de la previsión.",
+      "importForecastData": "Importar el archivo de previsión y volver a intentar...",
+      "goToImportForecastPageBtn": "Ir a la página Importar previsión",
+      "ManualPlanning": "Planificación manual (CSV)",
+      "AutomaticPlanning": "Planificación automática (previsión generada)",
+      "CSVFile": "Archivo CSV",
+      "GeneratedForecast": "Previsión generada",
+      "missingStaffingPlan": "Debe seleccionar un plan de plantilla de personal",
+      "staffingPlan": "Plan de plantilla de personal",
+      "endDateInPast": "La fecha de finalización debe ser una fecha futura",
+      "startDateInPast": "La fecha de comienzo no puede estar en el pasado"
+    },
+    "serviceStatusMessages": {
+      "noUsersInSuAssignedWeeklyRules": "La programación no se pudo generar. No hay reglas semanales definidas",
+      "noUsersAssignedToSu": "La programación no se pudo generar. No hay empleados asignados a la unidad de programación",
+      "jobAddSucceeded": "Se añadió correctamente un nuevo trabajo",
+      "jobAddSucceededPlural": "Se añadieron correctamente {{jobCount}} trabajos nuevos",
+      "jobAddFailed": "Se produjo un error al añadir un nuevo trabajo",
+      "jobAddFailedPlural": "Se produjo un error al añadir {{jobCount}} trabajos nuevos"
+    },
+    "detailsListModal": {
+      "header": "Resumen de errores"
+    },
+    "deleteMessage": "Está a punto de borrar este trabajo de programación. ¿Desea continuar?",
+    "deleteSucess": "El trabajo de programación fue eliminado correctamente."
+  },
+  "generalErrorMessages": {
+    "required": "Este campo es obligatorio",
+    "minLength": "Su entrada es demasiado corta",
+    "nameFieldValidation": "Uy, no puede usar \\ / ! + < > ? # & , % \" ",
+    "maxLength": "Su entrada es demasiado larga",
+    "email": "La dirección de correo electrónico que introdujo no es válida",
+    "emailExists": "La dirección de correo electrónico ya existe. Intentar con otra",
+    "number": "¡Solo números!",
+    "pattern": "Formato incorrecto para este campo",
+    "password": "Su contraseña debe tener como mínimo 8 caracteres y debe incluir al menos 1 número y 1 letra mayúscula",
+    "match": "Esta contraseña no coincide con la contraseña anterior",
+    "minLengthPassword": "Su contraseña debe ser de al menos 8 caracteres",
+    "maxLengthPassword": "Su contraseña es demasiado larga",
+    "min": "El número es muy pequeño",
+    "max": "El número es demasiado grande",
+    "uniqueString": "Este nombre ya existe. Pruebe con una nueva.",
+    "lowerThen": "El valor mínimo no puede exceder el valor máximo",
+    "weeklyMaxLowerThanSumDailyMin": "La cantidad mínima de días requeridos por las reglas diarias excede la cantidad máxima de días en la regla semanal.",
+    "weeklyMinGreaterThanSumDailyMax": "La cantidad mínima de días en la regla semanal excede la cantidad máxima de días requerida por las reglas diarias.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "El total de horas de combinaciones diarias mínimas no puede exceder el máximo de horas totales por semana",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "El total de horas de combinaciones diarias máximas no puede ser menor que el mínimo de horas totales por semana",
+    "uniqueDaysCounterLowerThanSumDailyMin": "La cantidad mínima de días excede la cantidad total de días únicos.",
+    "possibleDaysLowerThanMinDays": "La cantidad de días posibles no cumple con la cantidad mínima de días requerida por la regla semanal.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "La cantidad mínima de días en la regla semanal excede la cantidad de días únicos.",
+    "noAddedShiftPatters": "Debe seleccionar al menos una regla diaria",
+    "shiftLengthLowerThanActivityLength": "La suma de la duración de la actividad, el comienzo relativo y el tiempo sin actividad no puede ser mayor que la duración del turno",
+    "shiftLengthLowerThanTotalActivityLength": "La duración total de las actividades no puede exceder la duración del turno",
+    "relativeStartLowerThanSlack": "El tiempo de poca actividad no puede ser mayor que el valor de comienzo relativo",
+    "activitiesOverlap": "Las actividades no tienen permitida la posibilidad de superposición",
+    "activityCountsOverLimit": "Las actividades preplanificadas no pueden exceder las 10",
+    "serverError": "Error de servidor interno. Vuelva a intentar.",
+    "invalidFileFormat": "Formato de archivo no válido",
+    "someRequiredFieldsAreIncomplete": "Algunos campos obligatorios están incompletos."
+  },
+  "commonButtons": {
+    "ok": "Aceptar",
+    "back": "Atrás",
+    "cancel": "Cancelar",
+    "done": "Terminado",
+    "no": "No",
+    "yes": "Sí",
+    "save": "Guardar",
+    "delete": "Borrar",
+    "continue": "Continuar",
+    "invite": "Invitar",
+    "edit": "Editar",
+    "update": "Actualizar",
+    "upload": "Cargar",
+    "today": "Hoy",
+    "showAll": "Mostrar todo",
+    "clearAll": "Borrar todo",
+    "clearData": "Borrar datos",
+    "close": "Cerrar",
+    "create": "Crear",
+    "selectAll": "Seleccionar todo",
+    "generate": "Generar",
+    "selectFile": "Seleccionar archivo",
+    "chooseFile": "Elegir archivo...",
+    "add": "Agregar",
+    "publish": "Publicar",
+    "set": "Establecer",
+    "day": "Día",
+    "week": "Semana",
+    "copy": "Copiar",
+    "from": "De",
+    "to": "Para",
+    "duplicate": "Duplicar"
+  },
+  "languages": {
+    "english": "Inglés",
+    "russian": "Ruso",
+    "spanish": "Español",
+    "chinese": "Chino"
+  },
+  "weekDays": {
+    "sunday": "Domingo",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado"
+  },
+  "weekShortDays": {
+    "SUN": "DOM",
+    "MON": "LUN",
+    "TUE": "MAR",
+    "WED": "MIÉ",
+    "THU": "JUE",
+    "FRI": "VIE",
+    "SAT": "SÁB"
+  },
+  "scheduler": {
+    "noeditsAllowed": "Los turnos que se muestra parcialmente no se pueden editar. Cambie las fechas para editar el turno.",
+    "netstaffing": {
+      "diff": "Dif",
+      "req": "Solic",
+      "staff": "Personal"
+    },
+    "publishModal": {
+      "header": "Publicar nuevas programaciones",
+      "publishConformation": "Algunas de las fechas que ha seleccionado ya estaban publicadas. Los empleados se actualizarán con la nueva agenda en caso de que haya cambios en las programaciones.",
+      "noSchedulesToPublish": "No hay programaciones en el rango de fechas seleccionado.",
+      "attention": "¡Atención!",
+      "publishAnywayBtn": "Publicar de todos modos",
+      "schedulingUnits": "Unidad de programación",
+      "schedulingUnitsDropDown": "{{selectedCount}} unidades de programación",
+      "publishPopoverHeader": "Publicado para",
+      "publishSummaryHeader": "Publicado",
+      "from": "Comienzo:",
+      "to": "Fin:",
+      "selectDatePlaceholder": "Seleccionar fecha",
+      "oneWeek": "1S",
+      "twoWeeks": "2S",
+      "threeWeeks": "3S",
+      "oneMonth": "1M",
+      "successMessage": "Las fechas se publicaron correctamente"
+    },
+    "employeeCount": "{{count}} usuarios",
+    "filters": {
+      "schedulingUnits": "{{count}} unidades de programación",
+      "skills": "{{count}} habilidades",
+      "groups": "{{count}} grupos",
+      "activityCodes": "{{count}} códigos de actividades",
+      "searchPlaceholder": "Comience a escribir para encontrar empleado"
+    },
+    "activityModal": {
+      "activityCodePlaceholder": "Seleccionar un código de actividad",
+      "addTitle": "Añadir actividad - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Añadir comentarios...",
+      "editTitle": "Editar Actividad - {{userName}}",
+      "error": {
+        "conflict": "Se detectó un conflicto. Esta actividad reemplazará a actividades que se superponen.",
+        "invaliddatetime": "La fecha y/o tiempo especificado no son válidos.",
+        "daterange": "Seleccionar una fecha: hoy, ayer o mañana.",
+        "openhours": "No puede programar cuando no está abierta",
+        "endBeforeStart": "La fecha de finalización debe ser la misma que la fecha de comienzo o debe ser posterior.",
+        "timeRangeOutsideOfRange": "La actividad debe comenzar o finalizar dentro del intervalo de tiempo ({{start}} - {{end}}).",
+        "activityOverlappingTimeRange": "Esta actividad se encuentra fuera de la programación recuperada y podría reemplazar a las actividades existentes.",
+        "xssInvalidCharacter": "Estos caracteres no son válidos < >"
+      },
+      "selectingOOOActivityWithoutDaysOff": "Añadir esta actividad podría crear un déficit en el equilibrio de tiempo libre del empleado",
+      "end": "Finalizar",
+      "remaining": "{{currentLength}} caracteres restantes",
+      "remove": "Quitar",
+      "start": "Comenzar"
+    },
+    "allDay": "Todo el día",
+    "cancel": "Cancelar",
+    "closed": "No pueden añadir Turnos y Actividades cuando la organización está cerrada.",
+    "employeeName": "Nombre",
+    "hotkeys": {
+      "nextHotKey": "Día siguiente",
+      "previousHotKey": "Día anterior",
+      "refreshHotKey": "Vuelva a cargar las programaciones desde la base de datos",
+      "saveHotKey": "Guardar cambios en la programación",
+      "todayHotKey": "Ir a hoy"
+    },
+    "hours": "Horas",
+    "menuItems": {
+      "addActivity": "Añadir actividad",
+      "addShift": "Añadir Turno",
+      "copyActivity": "Copiar Actividad",
+      "copyShift": "Copiar Turno",
+      "editActivity": "Editar Actividad",
+      "editShift": "Editar Turno",
+      "pasteActivity": "Pegar Actividad",
+      "pasteShift": "Pegar Turno",
+      "removeActivity": "Eliminar Actividad",
+      "removeShift": "Eliminar Turno",
+      "cancel": "Cerrar"
+    },
+    "name": "Nombre",
+    "viewScheduleChangeMenu": "Ver cambios de programación",
+    "organizationClosed": "Organización cerrada",
+    "publish": "Publicar",
+    "save": "Guardar",
+    "saveAndPublish": "Guardar y Publicar",
+    "scheduler": "Administrador de programación",
+    "settingsDropDown": {
+      "title": "Configuración",
+      "setup": {
+        "title": "Umbral de plantilla de personal neta"
+      },
+      "manualSchedule": {
+        "title": "Copiar/Duplicar programación",
+        "duplicateTitle": "Duplicar programación de empleado"
+      },
+      "broadcast": {
+        "title": "Transmitir mensaje",
+        "messageText": "Mensaje",
+        "schedulingUnits": "Unidad de programación",
+        "broadcastNow": "Transmitir ahora",
+        "remaining": "{{currentLength}} caracteres restantes",
+        "schedulingUnitsDropDown": "{{selectedCount}} unidades de programación",
+        "durationsDropDown": "Duración",
+        "commentPlaceholder": "Escriba su mensaje...",
+        "durationsDropDownLabel": "Duración del mensaje",
+        "durations": {
+          "30": "30 segundos",
+          "60": "1 minuto",
+          "300": "5 minutos"
+        }
+      },
+      "timeOff": {
+        "title": "Gestión de tiempo libre",
+        "formLabels": {
+          "saveLabel": "Terminado",
+          "timeOffTo": "ESTABLECER TIEMPO LIBRE PARA",
+          "timeOffToPlaceholder": "Seleccionar Agent...",
+          "timeOffType": "ACTIVIDAD DE TIEMPO LIBRE",
+          "timeOffTypePlaceholder": "Seleccionar actividad",
+          "from": "De",
+          "to": "Para",
+          "showOnAgentSched": "Mostrar en la programación del agente",
+          "disableOverride": "No puede ser sobrescrito por el programador automático",
+          "allAgents": "Todos los agentes"
+        },
+        "errors": {
+          "getEmployees": "Se produjo un error al recibir la lista de empleados",
+          "getActivities": "Se produjo un error al recibir la lista de códigos de actividades de tiempo libre",
+          "endBeforeStart": "La fecha de finalización debe ser la misma que la fecha de comienzo o debe ser posterior.",
+          "invalidDate": "La fecha especificada no es válida."
+        }
+      },
+      "scheduleExport": {
+        "title": "Exportación de programación",
+        "generating": "Generating Export File, Please wait…",
+        "schedulingUnits": "Unidades de programación",
+        "agentPlaceHolder": "Nombre de Agent",
+        "agent": "Agent",
+        "start": "Comenzar",
+        "end": "Finalizar",
+        "download": "Descargar",
+        "1w": "1S",
+        "2w": "2S",
+        "3w": "3S",
+        "1m": "1M"
+      },
+      "copyEmployeeSchedule": {
+        "title": "Copiar programación del empleado",
+        "formLabels": {
+          "saveLabel": "Copiar",
+          "scheduleOf": "Copiar la programación de:",
+          "copyEmployeeFromPlaceholder": "Seleccionar empleado...",
+          "timeOffType": "ACTIVIDAD DE TIEMPO LIBRE",
+          "timeOffTypePlaceholder": "Seleccionar actividad",
+          "from": "Entre las fechas de:",
+          "to": "HASTA",
+          "showOnAgentSched": "Mostrar en la programación del agente",
+          "disableOverride": "No puede ser sobrescrito por el programador automático",
+          "addEmployeeTitle": "Pegar programación a los siguientes empleados",
+          "allAgents": "Todos los agentes",
+          "employeesCount": "Empleados",
+          "addEmployeesButton": "Añadir empleados",
+          "selectEmployee": "Seleccionar empleado",
+          "employeesFilter": "Comience a escribir para encontrar empleado",
+          "Employee": "Empleado",
+          "Evaluator": "Evaluador",
+          "Manager": "Gerente",
+          "Administrator": "Administrador"
+        },
+        "errors": {
+          "getEmployees": "Se produjo un error al recibir la lista de empleados",
+          "getActivities": "Se produjo un error al recibir la lista de códigos de actividades de tiempo libre",
+          "invalidDate": "La fecha especificada no es válida.",
+          "endBeforeStart": "La fecha de finalización debe ser la misma que la fecha de comienzo o debe ser posterior.",
+          "noEmployeeSelected": "Debe seleccionar un empleado.",
+          "noEmployeesSelected": "Debe seleccionar al menos a 1 empleado."
+        }
+      },
+      "meetingScheduler": {
+        "title": "Programador de reuniones",
+        "formLabels": {
+          "scheduleLabel": "Programación",
+          "activity": "Actividad",
+          "scheduleType": "Tipo de programación",
+          "fixTime": "Hora fija",
+          "flexibleTime": "Hora flexible",
+          "duration": "Duración",
+          "min": "mín",
+          "date": "Fecha",
+          "time": "Tiempo",
+          "timezone": "Zona horaria",
+          "comment": "Comment",
+          "activityCodePlaceholder": "Seleccionar una actividad",
+          "scheduleUpTo": "Programar hasta",
+          "employees": "Empleados",
+          "numberSimultaneous": "simultáneas",
+          "fromDate": "De",
+          "toDate": "Para",
+          "commentPlaceholder": "Este comentario aparecerá en el calendario del agente",
+          "remaining": "{{currentLength}} caracteres restantes",
+          "addEmployeeTitle": "Crear reunión para estos empleados",
+          "employeesFilter": "Comience a escribir para encontrar empleado",
+          "Employee": "Empleado"
+        },
+        "errors": {
+          "getEmployees": "Se produjo un error al recibir la lista de empleados",
+          "getActivities": "Se ha producido un error al recibir la lista de códigos de actividad",
+          "getTimezone": "Se ha producido un error al recibir la lista de zonas horarias",
+          "invalidDate": "La fecha especificada no es válida",
+          "startDateInPast": "No puede seleccionar una fecha pasada",
+          "startTimeInPast": "No puede seleccionar una hora pasada",
+          "noEmployeesSelected": "Debe seleccionar al menos 1 empleado",
+          "minutes": "Introduzca un número entre {{min}}-{{max}}",
+          "numberSimultaneous": "Introduzca un número entre {{min}}-{{max}}",
+          "violateMaxUpTo": "El intervalo de fechas no es compatible con el máximo",
+          "fromDateInPast": "No puede seleccionar una fecha pasada",
+          "toDateBeforeFromDate": "La fecha Desde debe ser anterior a la fecha Hasta",
+          "overThreeMonth": "El intervalo no puede superar los 3 meses",
+          "timeOffMessage": "tienen tiempo libre y serán excluidos de esta reunión.",
+          "employeesCount": "{{count}} empleados ",
+          "noShiftMessage": "no tienen un turno programado en el intervalo horario definido y serán excluidos.",
+          "conflictActivitiesMessage": "tienen actividades existentes que se anularán.",
+          "conflictActivitiesPopover": "Esta reunión podría anular otras actividades existentes. ¿Desea continuar?",
+          "noShiftPopover": "No se incluirá en esta reunión a los agentes que no tengan turnos en el intervalo horario definido. ¿Desea continuar?",
+          "errorRead": "Se ha producido un error al cargar el modal de programador de reuniones.",
+          "errorValidate": "Se ha producido un error al validar la solicitud de reunión.",
+          "errorSchedule": "Se ha producido un error al programar la reunión."
+        }
+      }
+    },
+    "changeHistoryComponent": {
+      "revertBtn": "Revertir",
+      "revertMessage": "Esta acción sustituirá la programación actual. ¿Desea continuar?",
+      "revertSuccess": "La programación se ha revertido correctamente."
+    },
+    "changeHistoryModal": {
+      "actionHeading": "Acción",
+      "agent": "Agente",
+      "agentPlaceholder": "Seleccionar un Agent",
+      "applyButton": "Aplicar",
+      "changedByHeading": "Modificado por",
+      "date": "Fecha",
+      "dateAndTimeHeading": "Fecha y hora del cambio",
+      "modalTitle": "Historial de cambios en la programación",
+      "noHistoryData": "No hay ningún historial disponible para la programación",
+      "revertButton": "Revertir",
+      "timezone": "Zona horaria",
+      "timezonePlaceholder": "Seleccione una zona horaria",
+      "categoryChanges": {
+        "MANUAL": "Cambios manuales",
+        "AUTO": "Generación de programación",
+        "TIMEOFF": "Solicitud de tiempo libre",
+        "TIMEOFF_REQUEST": "Solicitud de tiempo libre",
+        "TIMEOFF_MANAGEMENT": "Gestión de tiempo libre",
+        "COPY": "Copiar programación",
+        "DUPLICATE": "Duplicar programación",
+        "TRADE": "Intercambio de turno",
+        "PUBLISH": "Publicado por el usuario",
+        "REVERT": "Revertido por el usuario",
+        "EXTERNAL_MEETING": "Solicitud de reunión externa",
+        "AGENT_CHANGE": "Solicitud iniciada por Agent",
+        "FIXED_MEETING": "Solicitud de reunión fija",
+        "FLEXIBLE_MEETING": "Solicitud de reunión flexible"
+      }
+    },
+    "setupModal": {
+      "tabs": {
+        "netStaffing": {
+          "title": "Plantilla de personal neta",
+          "range": {
+            "min": "Falto de personal",
+            "mid": "Equilibrado",
+            "max": "Exceso de personal"
+          }
+        }
+      },
+      "saveSuccess": "Los ajustes del Administrador de programación se han guardado correctamente.",
+      "saveFailure": "Se produjo un error al guardar los ajustes del Administrador de programación."
+    },
+    "shiftModal": {
+      "addTitle": "Añadir Turno - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Sus comentarios...",
+      "editTitle": "Editar Turno - {{userName}}",
+      "shiftType": "Tipo de turno",
+      "error": {
+        "conflict": "Se detectó un conflicto. Esta actividad reemplazará a actividades que se superponen.",
+        "invalidtime": "El tiempo especificado no es válido.",
+        "endBeforeStart": "La fecha de finalización debe ser la misma que la fecha de comienzo o debe ser posterior.",
+        "timeRangeOutsideOfRange": "El turno debe comenzar o finalizar dentro del intervalo de tiempo ({{start}} - {{end}}).",
+        "shiftOverlappingTimeRange": "Este turno se encuentra fuera de la programación recuperada y podría reemplazar a turnos existentes.",
+        "xssInvalidCharacter": "Estos caracteres no son válidos < >"
+      },
+      "end": "Finalizar",
+      "remaining": "{{currentLength}} caracteres restantes",
+      "remove": "Quitar",
+      "start": "Comenzar"
+    },
+    "toasts": {
+      "saveSuccessMessage": "Los cambios en la programación se han guardado correctamente.",
+      "broadcastSuccessMessage": "Mensaje transmitido correctamente.",
+      "meetingSuccessMessage": "La reunión se ha creado con éxito.",
+      "noShiftPaste": "No se puede pegar un turno que esté fuera del rango visible.",
+      "noShiftCopy": "No se puede copiar un turno que esté fuera del rango visible.",
+      "noActivityPaste": "No se puede pegar una actividad que esté fuera del rango visible.",
+      "multipleShifts": "¡Atención! Hay múltiples turnos para el mismo día.",
+      "overlappingShiftsActivities": "¡Atención! Hay turnos y/o actividades que se superponen",
+      "noEdit": "No se puede editar un turno o una actividad que esté fuera del rango visible.",
+      "noRemove": "No se puede eliminar un turno o una actividad que esté fuera del rango visible.",
+      "noAddActivity": "No se puede añadir un turno que esté fuera del rango visible.",
+      "remainingTORExceededAllotedTimeOff": "Algunos de los empleados ahora tienen déficit en su equilibrio de tiempo libre."
+    },
+    "manualScheduleAssistant": {
+      "summary": "Resumen",
+      "source": "duplicar desde",
+      "destination": "Para",
+      "forEmployees": "Para empleados ",
+      "chooseType": "Copiar tipo de programación",
+      "destinationEmptyErrorMsg": "Debe seleccionar al menos una fecha",
+      "employeeEmptyErrorMsg": "Debe seleccionar al menos un empleado",
+      "timeFrame": "Período de tiempo",
+      "showLess": "Mostrar menos...",
+      "showMore": "Mostrar más...",
+      "day": "Día",
+      "week": "Semana",
+      "duplicateScheduleFor": "Duplicar programación para",
+      "allEmployees": "Todos los empleados",
+      "selectedEmployeesPrefix": "(",
+      "selectedEmployeesSuffix": " seleccionados)",
+      "addEmployees": "Añadir empleados",
+      "selectEmployees": "Seleccionar empleados",
+      "specificEmployees": "Especificar empleados",
+      "sourceDay": "Día fuente",
+      "sourceWeek": "Semana fuente",
+      "destinationDay": "Día(s) de destino",
+      "destinationWeek": "Semana(s) de destino",
+      "resetAll": "Restablecer todo",
+      "copySchedule": "Copiar programaciones",
+      "copyScheduleJobStarted": {
+        "code": "Copy Schedule Started",
+        "message": "Comenzó la copia de la programación."
+      },
+      "copyScheduleJobFinishedSuccess": {
+        "code": "Copy Schedule Finished",
+        "message": "La programación se copió correctamente."
+      },
+      "duplicateScheduleJobStarted": {
+        "code": "Duplicate Schedule Started",
+        "message": "Comenzó la duplicación de la programación."
+      },
+      "duplicateScheduleJobFinishedSuccess": {
+        "code": "Duplicate Schedule Finished",
+        "message": "La programación se duplicó correctamente."
+      },
+      "iWantTo": "Quiero",
+      "copyTitle": "Copiar la programación a otros",
+      "copyDescription": "Copiar una programación desde un empleado a otros empleados, a lo largo del mismo período de tiempo",
+      "duplicateTitle": "Duplicar programaciones personales",
+      "duplicateDescription": "Seleccionar programaciones de empleados de un día/semana y duplicarlas para el uso futuro de los mismos empleados"
+    },
+    "today": "Hoy",
+    "unavailable": "No disponible",
+    "unsaved": "¿Desea salir sin guardar los cambios?",
+    "dailyView": "Vista diaria",
+    "weeklyView": "Vista semanal",
+    "firstDayOfWeek": "Primer día de la semana:"
+  },
+  "scheduleEventTooltip": {
+    "shiftTitle": "Turno"
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "No se pudo iniciar sesión"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Error general"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "Esta página no se encuentra disponible. Verifique su conexión e inténtelo nuevamente."
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Error general {{ details }}"
+    },
+    "CopyScheduleJobRunningError": {
+      "code": "Copy Schedule Run Job Error",
+      "message": "Se está ejecutando otra tarea de copiado. Inténtelo nuevamente más tarde."
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Parámetros no válidos"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Empleado no autorizado"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "No hay respuesta del servidor. Inténtelo nuevamente más tarde."
+    },
+    "wrongCredentials": "Ha introducido un correo electrónico incorrecto o una contraseña no válida",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Error de servidor interno."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Error interno."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "La unidad de programación no existe."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "Este nombre ya existe. Pruebe con una nueva."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "Este abonado o empleado ya existe. Intente con otro."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "La dirección de correo electrónico ya existe. Intentar con otra"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "El archivo no existe."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "El empleado no existe"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "No hay empleados para invitar."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "Se produjo un error al crear el empleado."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "Estado de empleado no válido"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "Nombre de organización no válido."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Correo electrónico no válido."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "Nombre de pila del empleado no válido."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "Apellido del empleado no válido."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "No se puede borrar la unidad de programación predeterminada."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "falta la ID de la unidad de programación."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "La cantidad máxima de horas del empleado no está dentro del rango."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "La contraseña del empleado no es válida."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "No se puede actualizar el grupo predeterminado."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "No se puede eliminar a los empleados del grupo predeterminado."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "Contraseña de empleado incorrecta."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "El empleado no existe."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "No puede borrar a su propio empleado"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "No puede borrar al único administrador"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "No puede borrar a un empleado que ya ha sido borrado"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "Token de contraseña no válido"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "Se produjo un error al crear la cuenta"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "El nombre de la organización no es válido"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "El formato del archivo no es compatible"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "No tiene permiso para cambiar el rol"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "No puede cambiar su propio rol"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "No puede borrar el último admin."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "Este nombre ya existe. Intente con otro."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "No puede cambiar la contraseña porque la anterior y la nueva son iguales."
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "Ha introducido un correo electrónico incorrecto o una contraseña no válida"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "La ID de inicio de sesión de ACD ya existe"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "El nuevo empleado excederá el límite de usuarios, póngase en contacto con ventas a CXoneSalesTeam@niceincontact.com"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Error de servidor interno."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Error interno."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "Este nombre ya existe. Pruebe con una nueva."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "La habilidad no existe."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "Un empleado no puede tener más de 50 habilidades."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "El nombre de la habilidad no es válido"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "La regla semanal está vacía"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "regla semanal incorrecta"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "rango de días de regla semanal incorrecto"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "rango de horas de regla semanal incorrecto"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "EL VALOR MAX DE TURNOS EN LA REGLA SEMANAL ES MENOR QUE EL MÍNIMO TOTAL DE DÍAS DE LA REGLA DIARIA"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "EL VALOR MIN DE TURNOS EN LA REGLA SEMANAL ES MENOR QUE EL MAX TOTAL DE DÍAS DE LA REGLA DIARIA"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "LA SUMA TOTAL DEL MIN DE HORAS POR DÍA ES MAYOR QUE EL MAX DE HORAS POR SEMANA"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "LA SUMA TOTAL DEL MAX DE HORAS POR DÍA ES MENOR QUE EL MIN DE HORAS POR SEMANA"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "LA SUMA TOTAL DE LOS DÍAS POSIBLES ES MENOR QUE EL MÍNIMO DE DÍAS CORRESPONDIENTE DE LA REGLA DIARIA"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "LA SUMA TOTAL DE TODOS LOS POSIBLES DÍAS ÚNICOS ES MENOR QUE LA SUMA TOTAL DEL MÍNIMO DE TURNOS POR REGLA DIARIA"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "NO SE LE DIO NOMBRE A LA REGLA SEMANAL"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "LAS REGLAS DIARIAS ESTÁN VACÍAS"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "LA SUMA TOTAL DE TODOS LOS DÍAS POSIBLES ÚNICOS ES MENOR QUE EL MÍNIMO DE TURNOS POR SEMANA"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "El formato de fecha no es válido"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "El período de tiempo entre dos fechas no es válido"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Se produjo un error interno del servidor"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "Se produjo un error interno"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "El formato del archivo no es compatible"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "No se pudieron leer los registros del archivo"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "No se pudieron encontrar los títulos de columnas esperados. Busque en el archivo de muestra."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Faltan las habilidades en el sistema"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "Faltan las Unidades de programación en el archivo"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "El primer comienzo diario está después del último comienzo"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "El formato de incremento es incorrecto"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "Los tiempos de comienzo de la regla diaria no están dentro del rango correcto"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "La duración de la actividad diaria es mayor que la duración de la regla diaria"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "El formato de Slack es incorrecto"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "El tiempo de comienzo relativo es menor que el tiempo de poca actividad"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "La suma de la duración de las actividades es mayor que la duración diaria"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "No existe una combinación de actividades válidas"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "El código de actividad excede el turno de la regla diaria"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "El formato del archivo no es compatible"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "El nombre del Código de actividad no es válido"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "La zona horaria en la unidad de programación es incorrecta"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "No se puede borrar el código de actividad predeterminado"
+    },
+    "wfo_service_schedule_manager_45": {
+      "code": "TIMEOFF_REQUEST_PARAMS_ARE_INVALID",
+      "message": "Se produjo un error mientras se guardaba la solicitud de tiempo libre"
+    },
+    "wfo_service_schedule_manager_46": {
+      "code": "TIMEOFF_REQUEST_DATES_ARE_INVALID",
+      "message": "Se produjo un error mientras se guardaba la solicitud de tiempo libre"
+    },
+    "wfo_service_schedule_manager_47": {
+      "code": "TIMEOFF_REQUEST_ERROR_WHILE_TIMEOFF_CREATION",
+      "message": "Cuando se aprobó la solicitud, se produjo un error al crear una actividad de tiempo libre para el agente"
+    },
+    "wfo_service_schedule_manager_48": {
+      "code": "TIMEOFF_REQUEST_STATUS_CANCELED",
+      "message": "La solicitud de tiempo libre ya fue cancelada"
+    },
+    "wfo_service_schedule_manager_50": {
+      "code": "SUM_OF_DAILY_RULE_MAX_DAYS_LESS_THAN_WEEKLY_RULE_MIN_DAYS",
+      "message": "La suma de la máxima cantidad de días definida en las reglas diarias debe ser mayor o igual que el mínimo total por semana"
+    },
+    "wfo_service_schedule_manager_51": {
+      "code": "SUM_OF_DAILY_RULE_MIN_DAYS_GREATER_THAN_WEEKLY_RULE_MAX_DAYS",
+      "message": "La suma de la mínima cantidad de días definida en las reglas diarias no debe exceder el máximo total por semana"
+    },
+    "wfo_service_schedule_manager_52": {
+      "code": "NO_VALID_DAILY_RULE_COMBINATIONS_EXIST_GIVEN_CONSTRAINTS",
+      "message": "Esta combinación de reglas puede que no genere resultados válidos debido a restricciones en las reglas. Intente con una combinación diferente"
+    },
+    "wfo_service_schedule_manager_53": {
+      "code": "SINGLE_DAILY_RULE_DAYS_NOT_EQUAL_TO_WEEKLY_RULE_DAYS",
+      "message": "Los valores mínimos y máximos de una sola regla diaria deben coincidir con los valores semanales"
+    },
+    "wfo_service_schedule_manager_54": {
+      "code": "LESS_THAN_TEN_HOURS_BETWEEN_SHIFTS",
+      "message": "Debe haber al menos 10 horas entre turnos"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "Seleccione una plantilla"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "La ID de la plantilla no es válida"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "El nombre del formulario ya existe"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_forecaster_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Error de servidor interno."
+    },
+    "wfo_forecaster_service_2": {
+      "code": "NO_SOURCE_AND_FILE_PATH_FOUND",
+      "message": "NO_SOURCE_AND_FILE_PATH_FOUND."
+    },
+    "wfo_forecaster_service_6": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "No se pudieron encontrar los títulos de columnas esperados. Busque en el archivo de muestra."
+    },
+    "wfo_forecaster_service_7": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Las habilidades no se encuentran en el sistema."
+    },
+    "wfo_forecaster_service_8": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "El formato del archivo no es compatible"
+    },
+    "wfm_service_shift_bid92": {
+      "code": "NO_USERS_IN_SHIFT_BIDDING",
+      "message": "La oferta de turnos no tiene usuarios asignados"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Error de servidor interno."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Error interno."
+    }
+  },
+  "biddingManagerPage": {
+    "responseRate": "Índice de respuesta",
+    "pageTitle": "Gestor de oferta",
+    "newButton": "Generar nueva oferta",
+    "items": "ofertas",
+    "item": "oferta",
+    "selectedItems": "{{selectedCount}} seleccionadas",
+    "gridNoRowsOverlay": "No se generaron ofertas todavía",
+    "unknownSU": "Desconocido",
+    "gridColumns": {
+      "schedulingUnit": "Unidad de programación",
+      "biddingDataRange": "Rango de fecha de oferta",
+      "createdAt": "Fecha del trabajo",
+      "responseRate": "Índice de respuesta",
+      "status": "Estado",
+      "action": "Acción"
+    },
+    "statuses": {
+      "generate": "Generar nueva oferta",
+      "draft": "Borrador",
+      "active": "Oferta abierta",
+      "closed": "Oferta cerrada",
+      "cancelled": "cancelado",
+      "award": "Asignando turnos",
+      "awarded": "Turnos asignados",
+      "error": "Error: ",
+      "delete": "Borrar"
+    },
+    "errorDetails": {
+      "noUsersAssignedToSu": "No hay usuarios en la unidad de programación seleccionada",
+      "noUsersInSuAssignedWeeklyRules": "No hay usuarios en la unidad de programación seleccionada",
+      "NO_USERS_IN_SHIFT_BIDDING": "Vaciar programación. Restricciones de usuario/programación",
+      "NO_ACTIVE_USERS_IN_SHIFT_BIDDING": "No hay usuarios activos en la unidad de programación seleccionada",
+      "INTERNAL_ERROR": "Error general"
+    },
+    "actions": {
+      "cancel": "Cancelar oferta",
+      "open": "Abrir oferta",
+      "close": "Cerrar oferta",
+      "assign": "Asignar turnos",
+      "delete": "Borrar"
+    },
+    "messages": {
+      "createSuccess": "Generar nueva oferta...",
+      "updateSuccess": "Oferta actualizada correctamente",
+      "createFailed": "Se produjo un error al generar nueva oferta",
+      "createFailedSinceSUEmpty": "No hay usuarios asignados a la unidad de programación",
+      "createFailedSinceTemplateMissing": "No hay usuarios en la unidad de programación asignados a las plantillas de oferta de turnos",
+      "updateFailed": "Falló la actualización de la oferta",
+      "deleteWarning": "Está a punto de borrar esta oferta. ¿Desea continuar?",
+      "deleteSuccess": "La oferta de turnos se borró correctamente"
+    },
+    "modal": {
+      "title": "Generar nueva oferta",
+      "moreThanMaximumSchedulingUnitsSelectedTxt": "Se puede seleccionar como máximo 1 unidad de programación para la generación."
+    }
+  },
+  "bidWeeklyShiftPatterns": {
+    "topHeader": "Patrones de turnos semanales para {{weekDates}}",
+    "headers": {
+      "totalHours": "Total de horas",
+      "patternsAvailable": "Patrones disponibles"
+    },
+    "placeHolderText": "Ordenar patrones de arriba hacia abajo de acuerdo con su prioridad"
+  },
+  "staffingPlansPage": {
+    "pageTitle": "Planes de plantilla de personal",
+    "importBtn": "Importar plan de plantilla de personal",
+    "items": "planes de plantilla de personal",
+    "selectedItems": "{{selectedCount}} seleccionadas",
+    "gridColumnsHeaders": {
+      "dateRange": "Rango de fechas del plan de plantilla de personal",
+      "fileName": "Nombre de archivo del plan de plantilla de personal",
+      "importDate": "Fecha de importación",
+      "importedBy": "Importado por",
+      "status": "Estado"
+    },
+    "errorDelete": "Se produjo un error mientras se borraba el plan de plantilla de personal.",
+    "successDelete": "El plan de plantilla de personal se ha eliminado correctamente",
+    "deleteSelectedStaffingPlansMsg": "Está a punto de borrar los Planes de plantilla de personal seleccionados. ¿Desea continuar?",
+    "deleteSingledStaffingPlanMsg": "Está a punto de borrar este plan de plantilla de personal. ¿Desea continuar?",
+    "gridNoRowsOverlay": "No se importó ningún plan de plantilla de personal todavía",
+    "bulkOperationsBtns": {
+      "deleteBtn": "Borrar"
+    },
+    "statuses": {
+      "succeeded": "Conexión exitosa",
+      "failed": "Falló",
+      "partial": "Éxito parcial. {{successRowsCount}} de {{totalRowsCount}} registros importados.",
+      "na": "N/P",
+      "emptyFile": "Vaciar archivo"
+    },
+    "importModal": {
+      "header": "Importar plan de plantilla de personal",
+      "firstParagraph": "Importe el plan de plantilla de personal cargando un archivo de CSV",
+      "downloadMessage1": "Puede descargar una plantilla de un archivo CSV",
+      "downloadMessage2": "",
+      "downloadLink": "aquí.",
+      "selectFileMessage": "",
+      "secondParagraph": "Asegúrese de que haya datos del plan de plantilla de personal para todo el rango de fechas",
+      "successMsg": "Los datos del plan de plantilla de personal se importaron correctamente",
+      "warnMsg": "El proceso de importación del plan de plantilla de personal se completó con errores",
+      "errorMsg": "Falló la importación del plan de plantilla de personal",
+      "EmptyFile": "El archivo del plan de plantilla de personal está vacío",
+      "sizeLimitationErrorMsg": "La importación del plan de plantilla de personal no se pudo realizar. El tamaño del archivo es mayor que el máximo de 10 MB"
+    },
+    "importErrorsListModal": {
+      "header": "Errores de importación",
+      "rowsWereImportedSuccessfully": "{{succeededRowsCount}} de {{totalRowsCount}} se importaron correctamente",
+      "tooMuchErrors": "La importación se detuvo. Se encontró una gran cantidad de errores. Se muestran las primeras {{amountOfRows}}"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "Todavía no se ha definido ningún {{itemLabel}}",
+    "modal": {
+      "employeeTab": "No hay empleados asignados aún"
+    }
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "Unidades de programación"
+  },
+  "shiftBiddingPage": {
+    "pageTitle": "Oferta de turnos",
+    "items": "Ofertas de turno",
+    "item": "Oferta de turnos",
+    "emptyMessage": "No se crearon ofertas todavía",
+    "gridColumnsHeaders": {
+      "datesRange": "Rango de fecha de oferta",
+      "jobDate": "Fecha del trabajo",
+      "by": "Iniciado por",
+      "status": "Estado",
+      "isSubmitted": "Oferta enviada"
+    }
+  },
+  "shiftBiddingPatternsPage": {
+    "errorGettingBid": "",
+    "submitButton": "Enviar oferta",
+    "submitSuccess": "La oferta se ha enviado correctamente",
+    "helpMessage": "Ordenar patrones de arriba hacia abajo de acuerdo con su prioridad",
+    "smallScreenWarning": "Agrandar la pantalla para ver los patrones de turnos disponibles y colocar su oferta."
+  },
+  "requestsPage": {
+    "pageTitle": "Solicitudes",
+    "tabs": {
+      "timeOff": "Solicitudes de actividad",
+      "trades": "Solicitudes de intercambio de turnos"
+    }
+  },
+  "timeOffRequestsPage": {
+    "pageTitle": "Solicitudes",
+    "filters": {
+      "noAvailableSchedulingUnits": "No se ha podido cargar el filtro de unidad de programación. Se muestran todas las solicitudes de unidad de programación.",
+      "multiSelectSchedulingUnitsPlaceholder": "{{count}} unidades de programación",
+      "disabledMultiSelectSchedulingUnitsPlaceholder": "Todas",
+      "showOnlyPendingRequests": "Solo mostrar pendientes",
+      "NoPendingRequests": "No hay solicitudes pendientes",
+      "gridLabel": "{{pendingRequests}} Pendientes de {{totalRequests}} solicitudes",
+      "pendingOnlyGridLabel": "{{pendingRequests}} solicitudes pendientes",
+      "loadTimeZonesFailure": "No ha sido posible cargar las zonas horarias. Actualice la página."
+    },
+    "item": "Solicitud",
+    "items": "Solicitudes",
+    "newItems": "Pendiente",
+    "selectedItems": "{{selectedCount}} seleccionadas",
+    "managerComment": {
+      "remaining": "{{currentLength}} caracteres restantes"
+    },
+    "gridColumnsHeaders": {
+      "requestOn": "Solicitado el",
+      "requestBy": "Solicitado por",
+      "activityType": "Tipo de actividad",
+      "status": "Estado",
+      "reviewedBy": "Revisado por",
+      "empty": "",
+      "actions": "Actions",
+      "dates": "Fechas solicitadas"
+    },
+    "manageRequestModal": {
+      "approveRequest": "Aprobar Solicitud",
+      "DeclineRequest": "Rechazar Solicitud",
+      "textarePlaceHolder": "Comentar...",
+      "approveBtn": "Aprobar",
+      "declineBtn": "Rechazar",
+      "cancelBtn": "Cancelar",
+      "singleDayRequestMsg": "La solicitud será {{requestType}} para:",
+      "bulkRequestContent": "Seleccione las fechas que desee para {{requestType}}.",
+      "bulkRequestContentv2": "Las fechas sin seleccionar permanecerán pendientes.",
+      "netstaffingMsg": "Asegúrese de haber revisado los requisitos de personal en estas fechas.",
+      "netstaffingMsgClose": "Descartar",
+      "textCount": "255"
+    },
+    "reviewedBy": "Revisado por",
+    "requestOn": "Solicitado el",
+    "fullDay": "Día completo",
+    "days": "días",
+    "day": "día",
+    "system": "Sistema",
+    "decline": "Rechazar",
+    "accept": "Aceptar",
+    "gridNoRowsOverlay": "Todavía no se han creado solicitudes",
+    "viewInScheduler": "Visualizar en el programador",
+    "by": "Por",
+    "deletedActivityTitle": "Actividad borrada",
+    "statuses": {
+      "button_approved": "Aprobar",
+      "approved": "Aprobado",
+      "button_declined": "Rechazar",
+      "declined": "Rechazado",
+      "pending": "Pendiente",
+      "new": "Nuevo",
+      "discarded": "Descartado",
+      "auto_approved": "Aprobado automáticamente",
+      "auto_declined": "Rechazado automáticamente",
+      "cancelled_approved_request": "Cancelado - Solicitud aprobada"
+    },
+    "messages": {
+      "updateSuccess": "Solicitud actualizada correctamente.",
+      "updateFailed": "No ha sido posible actualizar la solicitud de tiempo libre.",
+      "updateApprovedError": "No ha sido posible aprobar esta solicitud. Vuelva a intentarlo más tarde.",
+      "updateDeclinedError": "No ha sido posible rechazar esta solicitud. Vuelva a intentarlo más tarde.",
+      "managerApproveRequestWhichAlreadyApproved": "No ha sido posible aprobar esta solicitud. Otro gerente ya la ha aprobado.",
+      "managerApproveRequestWhichAlreadyDeclined": "No ha sido posible aprobar esta solicitud. Otro gerente ya la ha rechazado.",
+      "managerDeclinedRequestWhichAlreadyDeclined": "No ha sido posible rechazar esta solicitud. Otro gerente ya la ha rechazado.",
+      "managerDeclinedRequestWhichAlreadyApproved": "No ha sido posible rechazar esta solicitud. Otro gerente ya la ha aprobado.",
+      "managerApproveDiscardedRequest": "No ha sido posible aprobar esta solicitud. La programación ha sido modificada y se ha cancelado la solicitud.",
+      "managerDeclinedDiscardedRequest": "No ha sido posible rechazar esta solicitud. La programación ha sido modificada y se ha cancelado la solicitud.",
+      "updateApprovedAgentError": "No ha sido posible aprobar esta solicitud. El empleado la ha cancelado o actualizado.",
+      "updateDeclinedAgentError": "No ha sido posible rechazar esta solicitud. El empleado la ha cancelado o actualizado.",
+      "netStaffingError": "No ha sido posible obtener datos de plantilla de personal neta. Vuelva a intentarlo más tarde.",
+      "loadAllRequestsFailure": "No ha sido posible mostrar todas las solicitudes. Vuelva a intentarlo.",
+      "requestStatusUpdatedWarning": "Esta solicitud ha sido gestionada o eliminada."
+    },
+    "typeComment": "Escribir comentario..."
+  },
+  "shiftTradeRequestsPage": {
+    "pageTitle": "Intercambio de turno",
+    "item": "Solicitud",
+    "items": "Solicitudes",
+    "selectedItems": "{{selectedCount}} seleccionadas",
+    "gridColumnsHeaders": {
+      "requestOn": "Solicitado el",
+      "requestBy": "Solicitado por",
+      "tradeWith": "Intercambiar con",
+      "activityType": "Tipo de actividad",
+      "status": "Estado",
+      "reviewedBy": "Revisado por",
+      "empty": " ",
+      "actions": "Acciones",
+      "dates": "Fechas solicitadas",
+      "requestedDate": "Fecha solicitada",
+      "viewTrade": " Ver intercambio",
+      "requestedTime": "Tiempo solicitado",
+      "tradeType": "Tipo de solicitud",
+      "userComment": "Comentario de usuario"
+    },
+    "decline": "Rechazar",
+    "accept": "Aceptar",
+    "gridNoRowsOverlay": "No se creó ninguna solicitud todavía",
+    "viewTrade": "Ver intercambio",
+    "by": "Por",
+    "statuses": {
+      "button_approved": "Aprobar",
+      "approved": "Aprobado",
+      "button_declined": "Rechazar",
+      "declined": "Rechazado",
+      "pending": "Pendiente",
+      "new": "Nuevo"
+    },
+    "messages": {
+      "updateSuccess": "La solicitud de intercambio de turno se ha actualizado correctamente.",
+      "updateFailed": "Se produjo un error al actualizar la solicitud de intercambio de turno"
+    },
+    "system": "Sistema",
+    "tradeRequestStatus": {
+      "ACCEPTED_BY_REQUESTEE": "Aceptado",
+      "CREATED": "Pendiente",
+      "CANCELED_BY_REQUESTOR": "Cancelado",
+      "REJECTED_BY_REQUESTEE": "Rechazado",
+      "WITHDRAW_BY_REQUESTEE": "Retirarse",
+      "APPROVED_BY_MANAGER": "Aprobado",
+      "DECLINED_BY_MANAGER": "Rechazado",
+      "APPROVED_BY_SYSTEM": "Aprobado",
+      "DECLINED_BY_SYSTEM": "Rechazado",
+      "CANCELED_BY_SYSTEM": "Cancelado",
+      "EXPIRED": "Caducado",
+      "Errored": "Error en"
+    }
+  },
+  "timeOffPlanning": {
+    "rules": {
+      "pageTitle": "Reglas",
+      "newButton": "Nueva regla",
+      "item": "Regla",
+      "items": "Reglas",
+      "upTo": "Hasta",
+      "errorRead": "Se produjo un error mientras se cargaban las reglas de tiempo libre.",
+      "deleteSelectedRulesMsg": "¿Está seguro de que desea borrar las reglas seleccionadas?",
+      "deleteSingleRuleMsg": "¿Está seguro de que desea suprimir esta regla?",
+      "errorDelete": "Se produjo un error mientras se borraba la regla de tiempo libre.",
+      "successDelete": "La regla de tiempo libre se eliminó correctamente",
+      "gridNoRowsOverlay": "Todavía no se creó ninguna regla",
+      "gridColumns": {
+        "name": "Nombre",
+        "allotmentType": "Tipo de asignación",
+        "allottedDays": "Días asignados",
+        "schedulingUnit": "Unidad de programación",
+        "activityCodes": "Códigos de actividades"
+      },
+      "createNewRule": {
+        "pageTitle": "Crear nueva regla",
+        "namePlaceholder": "Nombre",
+        "schedulingUnit": "Unidad de programación",
+        "schedulingUnitPlaceholder": "Seleccionar unidad de programación",
+        "activityCodes": "Códigos de actividades",
+        "activityCodesPlaceholder": "Seleccionar códigos de actividades",
+        "allotment": "Asignación",
+        "years": "Años",
+        "daysPerYears": "Días / Año",
+        "fixedAmount": "Monto fijo",
+        "seniorityBased": "Basado en antigüedad",
+        "seniority": "Antigüedad",
+        "errorAdd": "Se produjo un error cuando se creaba la regla de tiempo libre.",
+        "successAdd": "Se creó una nueva regla correctamente.",
+        "timeOffAccrual": "Tiempo libre acumulado:",
+        "percentPerMonth": "% por mes",
+        "confirmations": {
+          "warningMessage": " Todos los cambios se perderán.",
+          "confirmMessage": "¿Está seguro de que quiere salir sin guardar?"
+        }
+      },
+      "editRule": {
+        "pageTitle": "Editar regla",
+        "successUpdate": "La regla de tiempo libre se editó correctamente",
+        "errorUpdate": "Se produjo un error mientras se actualizaba la regla de tiempo libre."
+      },
+      "alertModal": {
+        "modalTitle": "La regla ya existe",
+        "modalContent": "Ya existe una regla para esta actividad/unidad de programación. ¿Desea anularla?"
+      }
+    },
+    "summary": {
+      "pageTitle": "Resumen",
+      "editAllocation": "La asignación manual desconectará al agente de la regla hasta el año que viene. ¿Desea continuar?",
+      "activityType": "Tipo de actividad",
+      "gridColumns": {
+        "employee": "empleado",
+        "daysPerYear": "días por año",
+        "daysYear": "días / año",
+        "daysTaken": "días tomados",
+        "used": "usado",
+        "earned": "obtenido",
+        "accruals": "acumulados",
+        "scheduled": "programado",
+        "remaining": "restante"
+      },
+      "gridAlert": {
+        "thisValueCannot": "Este valor no puede",
+        "exceedYearDays": "exceder los 365 días"
+      },
+      "warningMessageModal": {
+        "title": "¿Desea abandonar la página?",
+        "unsavedChanges": "Tiene datos sin guardar.",
+        "areYouSureLeavePage": "¿Está seguro de que desea salir sin guardar?"
+      },
+      "edited": "Editado",
+      "NA": "N/P",
+      "userIsNotAssignedToWeeklyRule": "No se puede calcular el equilibrio. Este usuario no está asignado a ninguna regla."
+    }
+  },
+  "userManagementPage": {
+    "pageTitle": "Empleados",
+    "newUserBtn": "Nuevo empleado",
+    "importUsersBtn": "Importar empleados",
+    "userListHeader": "Empleados en {{orgName}}:",
+    "items": "empleados",
+    "item": "empleado",
+    "selectedItems": "{{selectedCount}} seleccionadas",
+    "gridColumnsHeaders": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "acdLogin": "Inicio de sesión en ACD",
+      "role": "Rol",
+      "state": "Estado",
+      "group": "Unidad de programación"
+    },
+    "filters": {
+      "schedulingUnits": "{{count}} unidades de programación",
+      "skills": "{{count}} habilidades",
+      "groups": "{{count}} grupos",
+      "searchPlaceholder": "Comience a escribir para encontrar empleado"
+    },
+    "popover": {
+      "acdLoginLbl": "Inicio de sesión en ACD",
+      "hireDateLbl": "Fecha de contratación: {{value}}",
+      "rankLbl": "Clasificación: {{value}}",
+      "skillsLbl": "Habilidades: {{value}}"
+    },
+    "preferencesTab": {
+      "shiftPreferencesTitle": "Preferencias de turno",
+      "TimePreferencesTitle": "Preferencias de tiempo libre",
+      "TimePreferencesSubTitle": "No hay días libres disponibles",
+      "PossibleDaysOff": "Posibles días libres",
+      "day": "día",
+      "shiftTime": "horario de turno",
+      "noOptionsAvailable": "Este empleado está asignado a reglas sin flexibilidad, por lo tanto los turnos son fijos, no hay preferencias disponibles",
+      "noOptionsAvailableForShift": "No se asignó turno.",
+      "noPreference": "Ninguna preferencia"
+    },
+    "userStates": {
+      "active": "Activo",
+      "pending": "Pendiente",
+      "unregistered": "Invitar",
+      "inviting": "Enviando"
+    },
+    "balkOperationsBtns": {
+      "inviteBtn": "Invitar",
+      "deleteBtn": "Borrar",
+      "tooltips": {
+        "invite": "Invitar al empleado",
+        "delete": "Borrar empleado"
+      }
+    },
+    "status": {
+      "invite": "Invitar"
+    },
+    "tabLabels": {
+      "general": "General",
+      "skills": "Habilidades",
+      "availability": "Disponibilidad",
+      "preferences": "Preferencias"
+    },
+    "deleteSelectedUsersMsg": "Está a punto de borrar a los empleados seleccionados. Esta acción no se puede deshacer. ¿Desea continuar?",
+    "deleteSingleUsersMsg": "Está a punto de borrar a este empleado. Esta acción no se puede deshacer. ¿Desea continuar?",
+    "inviteSelectedUsersMsg": "Los empleados seleccionados serán invitados a unirse a esta aplicación. ¿Desea continuar?",
+    "reinviteUsersMsg": "La invitación caducó. Verifique la dirección de correo electrónico e inténtelo nuevamente.",
+    "reinviteBtnText": "Reenviar",
+    "inviteUsersSuccessMsg": "Los empleados fueron invitados correctamente",
+    "inviteUsersWarnMsg": "Los empleados ya estaban activos",
+    "inviteUsersFailureMsg": "Falló la invitación a los empleados",
+    "deleteSingleUserSuccessMsg": "El empleado fue borrado correctamente. Se borraron las programaciones futuras del empleado.",
+    "deleteSingleUserFailureMsg": "No se pudo borrar al empleado",
+    "deleteUsersSuccessMsg": "{{numOfUsers}} empleados borrados correctamente. Se eliminaron las programaciones futuras de estos empleados.",
+    "deleteUsersFailureMsg": "{{numOfFailedToDeleteUsers}} de {{totalExpected}} empleados no se pudieron eliminar",
+    "deleteLoggedInUser": "No puede borrar a su propio empleado",
+    "dragText": "Arrastrar aquí para definir prioridad",
+    "noPreference": "Ninguna preferencia"
+  },
+  "cxone-components": {
+    "dropdowns": {
+      "showing": "Mostrando",
+      "outof": "Fuera de",
+      "selectall": "Seleccionar todo",
+      "clearall": "Borrar todo",
+      "searchingFor": "Buscando",
+      "noresults": "No se han encontrado resultados",
+      "footerText": " ",
+      "defaultPlaceholder": {
+        "single": "Seleccionar elemento",
+        "multiple": "Seleccionar elementos"
+      }
+    }
+  },
+  "automaticApprovalNewRulePage": {
+    "newTitle": "Nueva regla de aprobación",
+    "editTitle": "Editar regla de aprobación",
+    "scheduling_unit": "Unidades de programación",
+    "activity_codes": "Actividades",
+    "name": "Nombre",
+    "conditionsTitle": "Condiciones",
+    "agent": "Agente",
+    "agentFirstOption": "Depende del equilibrio de tiempo libre",
+    "agentSecondOption": "Antigüedad del agente",
+    "daysSinceHireDate": "días desde la fecha de contratación",
+    "groupTimeOffBalance": "Equilibrio de tiempo libre de grupo",
+    "forAllDays": "Para todos los días",
+    "hours": "Horas",
+    "forSpecificDays": "Para días específicos",
+    "daysList": {
+      "Monday": "Lunes",
+      "Tuesday": "Martes",
+      "Wednesday": "Miércoles",
+      "Thursday": "Jueves",
+      "Friday": "Viernes",
+      "Saturday": "Sábado",
+      "Sunday": "Domingo"
+    },
+    "requestCreationTime": "Hora de creación de la solicitud",
+    "inAdvance": "Por adelantado",
+    "sameDay": "Mismo día",
+    "timeFrame": "Período de tiempo",
+    "days": "días",
+    "from": "de",
+    "daysInThePastTo": "días pasados hasta",
+    "daysInTheFuture": "días futuros",
+    "conditionsNotMet": "Cuando no se cumplen las condiciones",
+    "declineAutomatically": "Rechazar automáticamente",
+    "sendForManagerApproval": "Enviar para aprobación de gerente",
+    "cancelWarningMsg1": " Todos los cambios se perderán.",
+    "cancelWarningMsg2": "¿Desea salir sin guardar?",
+    "successUpdateMsg": "Regla actualizada correctamente.",
+    "successCreateMsg": "Regla creada correctamente.",
+    "uniqueNameErrorMsg": "Ya existe una regla con este nombre",
+    "forSpecificDaysDescription": "Seleccione al menos un día"
+  },
+  "automaticApprovalRuleConfig": {
+    "newModeTitle": "Nueva regla de aprobación",
+    "editModeTitle": "Editar regla de aprobación",
+    "tabs": {
+      "conditions": {
+        "tabTitle": "condiciones",
+        "agentTimeOffBalance": "Equilibrio de tiempo libre de agente",
+        "schedulingUnitTimeOffBalance": "Programación de equilibrio de tiempo libre de unidad",
+        "dailyBalance": "Equilibrio diario",
+        "hours": "Horas",
+        "balanceForCustomDays": "Equilibrio para días personalizados",
+        "forSpecificDaysDescription": "Seleccione al menos 1 día",
+        "daysList": {
+          "Monday": "Lunes",
+          "Tuesday": "Martes",
+          "Wednesday": "Miércoles",
+          "Thursday": "Jueves",
+          "Friday": "Viernes",
+          "Saturday": "Sábado",
+          "Sunday": "Domingo"
+        },
+        "minimumDaysSinceHire": "Días mínimos desde contratación",
+        "submissionTime": "Tiempo de envío",
+        "timeRestrictionTypes": {
+          "inAdvance": "Por adelantado",
+          "sameDay": "Mismo día",
+          "timeFrame": "Dentro de período de tiempo"
+        },
+        "minimumDaysInAdvance": "Días mínimos de antelación",
+        "maximumDaysBeforeTimeOffDate": "Días mínimos antes de la fecha de tiempo libre",
+        "maximumDaysAfterTimeOffDate": "Días máximos después de la fecha de tiempo libre",
+        "conditionsNotMet": "Cuando no se cumpla como mínimo una condición seleccionada",
+        "declineAutomatically": "Rechazar",
+        "sendForManagerApproval": "Enviar a gerente"
+      },
+      "general": {
+        "tabTitle": "general",
+        "name": "Nombre",
+        "uniqueNameErrorMsg": "Ya existe una regla con este nombre",
+        "schedulingUnit": "Unidades de programación",
+        "activityCodes": "Actividades"
+      },
+      "netStaffing": {
+        "tabTitle": "plantilla de personal neta",
+        "defineNetStaffing": "Definir plantilla de personal neta",
+        "noSettingsLabel": "Plantilla de personal neta todavía no definida",
+        "header": {
+          "undoAll": "Deshacer todo",
+          "deleteAll": "Borrar todo",
+          "legend": {
+            "notDefined": "No definido",
+            "approve": "Aprobar",
+            "sendToManager": "Enviar a gerente",
+            "decline": "Rechazar"
+          },
+          "confirmUndoAll": "¿Seguro que desea deshacer todos los cambios que ha realizado?",
+          "confirmUndoAllYes": "Deshacer todo",
+          "confirmUndoAllNo": "Cancelar",
+          "confirmDeleteAll": "¿Seguro que desea borrar todos los gráficos de plantilla de personal neta?",
+          "confirmDeleteAllYes": "Borrar todo",
+          "confirmDeleteAllNo": "Cancelar"
+        },
+        "conditions": {
+          "daysLabel": "Días:",
+          "addNetStaffingButton": "Añadir plantilla de personal neta",
+          "autoApproveStepperLabel": "Aprobar",
+          "autoApproveStepperPercentageLabel": "% y superior",
+          "autoDeclineStepperLabel": "Rechazar",
+          "autoDeclineStepperPercentageLabel": "% e inferior",
+          "undefinedColumnTooltipLabel": "No definido",
+          "approveTooltipLabel": "Aprobar:",
+          "approveTooltipPercentageLabel": "superior a",
+          "declineTooltipLabel": "Rechazar:",
+          "declineTooltipPercentageLabel": "Menor de",
+          "clearSelectedButtonLabel": "Borrar seleccionado",
+          "menuItems": {
+            "delete": "Borrar",
+            "clear": "Borrar",
+            "copySettings": "Copiar ajustes",
+            "pasteSettings": "Pegar ajustes"
+          }
+        },
+        "footer": {
+          "noScheduleNoForecastLabel": "Si no hay previsión o calendario publicado:"
+        }
+      }
+    }
+  },
+  "userAgenda": {
+    "header": "Agenda",
+    "noEvents": "No hay programación",
+    "shiftStart": "Inicio de turno",
+    "shiftEnd": "Fin de turno"
+  }
+}

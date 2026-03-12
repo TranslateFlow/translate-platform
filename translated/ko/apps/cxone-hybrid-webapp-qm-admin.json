@@ -1,0 +1,2651 @@
+{
+  "activityCodeDropdown": {
+    "placeholder": "활동 코드 선택..."
+  },
+  "activityCodes": {
+    "buttons": {
+      "addActivityCode": "신규 활동 코드",
+      "deleteActivityCode": "삭제"
+    },
+    "deleteConfirmation1": "활동 코드를 시스템에서 제거하려고 합니다.",
+    "deleteConfirmation2": "과거 인스턴스는 남게 됩니다.",
+    "deleteMultipleConfirmation1": "선택한 활동 코드가 이 목록에서 제거됩니다.",
+    "deleteMultipleConfirmation2": "이러한 활동의 인스턴스는 스케줄러에 나타날 수 있으며 별도로 제거해야 합니다.",
+    "errorAdd": "활동 코드를 생성하는 동안 오류가 발생했습니다.",
+    "errorDelete": "활동 코드를 삭제하는 동안 오류가 발생했습니다.",
+    "errorMultipleDelete": "활동 코드를 삭제하는 동안 오류가 발생했습니다.",
+    "errorRead": "활동 코드를 로드하는 동안 오류가 발생했습니다.",
+    "errorUpdate": "활동 코드를 업데이트하는 동안 오류가 발생했습니다.",
+    "fieldLabels": {
+      "acdEvents": "ACD 이벤트",
+      "category": "표시 형식",
+      "length": "기본 길이",
+      "name": "활동 코드 이름",
+      "open": "근무 대기 중",
+      "overtime": "초과 근무",
+      "priority": "우선순위",
+      "shiftType": "근무 시간 유형",
+      "workHours": "작업 시간"
+    },
+    "item": "활동 코드",
+    "items": "활동 코드",
+    "modal": {
+      "activate": {
+        "activateBtn": "활성화",
+        "activityExistMsg": "시스템이 같은 이름의 활동이 과거에 생성되었음을 감지했습니다. 이 활동을 다시 활성화하거나 다른 이름으로 신규 활동을 생성할 수 있습니다."
+      },
+      "addTitle": "신규 활동 코드 생성",
+      "editTitle": "활동 코드 편집",
+      "errors": {
+        "lengthRange": "1분 ~ 1,440분 사이에서 입력하십시오.",
+        "notValidRegex": "사용할 수 없는 문자: ^/!\\+<>?#&,%.",
+        "priorityRange": "우선순위는 1 ~ 100 사이여야 합니다.",
+        "uniqueTitle": "같은 이름이 이미 있습니다. 신규로 시도하십시오."
+      },
+      "fieldLabels": {
+        "attributes": "속성",
+        "category": "표시 형식",
+        "length": "기본 길이(분)",
+        "open": "열기",
+        "overtime": "초과 근무",
+        "priority": "우선순위",
+        "shiftType": "근무 시간 유형으로 설정 가능",
+        "title": "이름",
+        "workHours": "작업 시간"
+      }
+    },
+    "pageTitle": "활동 코드",
+    "serviceStatusMessages": {
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_FALSE": "이름을 변경할 수 없습니다. 같은 이름의 활동이 소프트 삭제 False로 존재하지만 고유 ID가 일치하지 않습니다.",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_TRUE": "활동 코드 이름을 '{{activityCode.title}}'(으)로 변경할 수 없습니다. 같은 이름의 활동 코드가 이전에 있었으며 삭제되었습니다. 이 이름의 신규 활동 코드를 생성할 수 있습니다.",
+      "ACTIVITY_CODE_EXISTS_WITH_SOFT_DELETE": "이름을 변경할 수 없습니다. 같은 이름의 활동이 이전에 있었으며 삭제되었습니다. 이 이름으로 신규 활동을 생성할 수 있습니다.",
+      "ACTIVITY_WITH_TITLE_EXISTS": "이 제목의 활동이 이미 있습니다.",
+      "NO_ACTIVITY_CODE_EXISTS": "지정된 제목의 활동 코드가 없습니다.",
+      "REUSED_EXISTING_ACTIVITY_CODE": "같은 이름의 활동 코드가 이전에 존재하였으며 다시 사용되고 있습니다."
+    },
+    "successAdd": "신규 활동 코드가 추가되었습니다.",
+    "successDelete": "활동 코드가 제거되었습니다.",
+    "successDeleteMultiple": "활동 코드가 제거되었습니다.",
+    "successEdit": "활동 코드가 편집되었습니다."
+  },
+  "categoryManagerPage": {
+    "pageTitle": "카테고리 매니저"
+  },
+  "commonButtons": {
+    "activate": "활성화",
+    "add": "추가",
+    "cancel": "취소",
+    "chooseFile": "파일 선택",
+    "clearAll": "모두 지우기",
+    "close": "닫기",
+    "create": "생성",
+    "day": "일",
+    "delete": "삭제",
+    "done": "완료",
+    "download": "다운로드",
+    "edit": "편집",
+    "generate": "생성",
+    "invite": "초대",
+    "no": "아니요",
+    "ok": "확인",
+    "publish": "게시",
+    "reset": "재설정",
+    "save": "저장",
+    "saveAndActivate": "저장 및 활성화",
+    "saveAsDraft": "초안으로 저장",
+    "selectAll": "전체 선택",
+    "set": "설정",
+    "showAll": "모두 표시",
+    "today": "오늘",
+    "update": "업데이트",
+    "upload": "업로드",
+    "week": "주",
+    "yes": "예"
+  },
+  "createUserModal": {
+    "acdLoginId": "ACD 로그인 ID",
+    "createUserHeader": "신규 직원 생성",
+    "errorMsg": "신규 직원을 생성하지 못했습니다.",
+    "formLabels": {
+      "assignToGroup": "일정 단위 배정",
+      "assignToGroupPlaceHolder": "배정된 일정 단위 없음",
+      "assignToGroups": "그룹 배정",
+      "assignToSkills": "스킬 배정",
+      "country": "국가",
+      "countryPlaceholder": "국가 선택",
+      "create": "직원 생성",
+      "day": "일",
+      "email": "이메일 주소",
+      "firstName": "이름",
+      "groupsDropDown": "{{selectedCount}}개의 그룹",
+      "hireDate": "채용 날짜",
+      "lastName": "성",
+      "maxHoursPerWeek": "최대 시간/주",
+      "mobileNumber": "휴대폰 번호",
+      "month": "월",
+      "rank": "순위",
+      "rankInterval": "1~999",
+      "role": "역할",
+      "rolePlaceholder": "역할 선택",
+      "roles": {
+        "admin": "관리자",
+        "employee": "직원",
+        "manager": "매니저"
+      },
+      "skillsDropDown": "{{selectedCount}}개의 스킬",
+      "timeZonePlaceHolder": "시간대",
+      "upload": "업로드",
+      "userPicture": "프로필 사진",
+      "year": "년"
+    },
+    "maxLimitOfACD": "{{items}}개를 초과하는 아이템은 입력할 수 없습니다.",
+    "popoverMessage1": "모든 변경 사항이 손실됩니다.",
+    "popoverMessage2": "저장하지 않고 종료하시겠습니까?",
+    "reviveUserAlert": "이 이메일 주소의 계정이 이미 있습니다. 이 계정을 다시 활성화하거나 다른 이메일 주소로 신규 계정을 생성할 수 있습니다.",
+    "skillsTab": {
+      "addBtn": "추가",
+      "assignedTxt": "배정된 스킬",
+      "header": "스킬 선택",
+      "selectTxt": "직원 선택",
+      "selectedTxt": "선택:"
+    },
+    "successMsg": "직원이 생성되었습니다!",
+    "updateErrorMsg": "신규 직원을 생성하지 못했습니다.",
+    "updateSuccessMsg": "직원이 업데이트되었습니다!",
+    "updateUserHeader": "직원 편집"
+  },
+  "datePicker": {
+    "nextDay": "다음 날",
+    "openCalendar": "달력 열기",
+    "previousDay": "전날",
+    "today": "오늘"
+  },
+  "designerComponent": {
+    "COACHING": {
+      "testForm": "테스트 패키지"
+    },
+    "EVALUATION": {
+      "testForm": "테스트 양식"
+    },
+    "createTemplate": "신규 템플릿",
+    "selectTemplate": "템플릿 선택",
+    "templateOptions": "템플릿 옵션"
+  },
+  "errors": {
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "서버에서 응답이 없습니다. 나중에 다시 시도하십시오."
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "일반 오류"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "일반 오류 {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "잘못된 매개변수"
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "로그인 실패"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "이 페이지는 이용불가 상태입니다. 연결을 확인하고 다시 시도하십시오."
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "권한이 없는 직원"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "내부 서버 오류."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "내부 오류."
+    },
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "내부 서버 오류."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "직원을 생성하지 못했습니다."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "잘못된 직원 상태"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "잘못된 조직 이름."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "잘못된 이메일."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "잘못된 직원 이름."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "잘못된 직원 성."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "기본 일정 단위를 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "세부 정보를 확인하고 다시 시도하십시오."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "일정 단위 ID가 없습니다."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "직원 최대 시간이 범위를 벗어났습니다."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "직원 암호가 유효하지 않습니다."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "내부 오류."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "기본 그룹을 업데이트할 수 없습니다."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "기본 그룹에서 직원을 제거할 수 없습니다."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "직원 암호가 잘못되었습니다."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "직원이 없습니다."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "자신의 직원은 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "유일한 관리자는 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "이미 삭제된 직원은 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "잘못된 암호 토큰"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "계정을 생성하지 못했습니다."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "일정 단위가 없습니다."
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "조직 이름이 잘못되었습니다."
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "파일 형식이 지원되지 않습니다."
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "역할을 변경할 권한이 없습니다."
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "자신의 역할은 변경할 수 없습니다."
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "마지막 관리자는 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "같은 이름이 이미 있습니다. 신규로 시도하십시오."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "이전 암호와 신규 암호가 같으므로 암호를 변경할 수 없습니다."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "같은 이름이 이미 있습니다. 신규로 시도하십시오."
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD 로그인 ID가 이미 있습니다."
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "신규 직원이 사용자 수 한도를 초과합니다. 영업팀에 CXoneSalesTeam@niceincontact.com으로 문의하십시오."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "이 테넌트 또는 직원이 이미 있습니다. 신규로 시도하십시오."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "이메일 주소가 이미 있습니다. 신규로 시도하십시오."
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "파일이 없습니다."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "직원이 없습니다."
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "초대할 직원이 없습니다."
+    },
+    "qp_data_service_1": {
+      "code": "DUPLICATE_PLAN_NAME_ERROR",
+      "message": "계획 이름이 이미 있습니다."
+    },
+    "qp_data_service_10": {
+      "code": "Invalid License",
+      "message": "잘못된 라이선스"
+    },
+    "qp_data_service_12": {
+      "code": "FORM_NOT_ACTIVE",
+      "message": "평가 양식이 활성 상태가 아닙니다."
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "템플릿을 선택하십시오."
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "양식 이름이 이미 있습니다."
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "템플릿 ID가 잘못되었습니다."
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "주간 규칙이 비어 있습니다."
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "모든 고유일 가능 일수의 총 합계가 일일 규칙당 최소 근무의 총 합계보다 작습니다."
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "주간 규칙에 대한 이름이 지정되지 않았습니다."
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "일일 규칙이 비어 있습니다."
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "모든 고유일 가능 일수의 총 합계가 주당 최소 근무보다 작습니다."
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "날짜 형식이 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "두 날짜 사이의 기간이 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "내부 서버 오류가 발생했습니다."
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "내부 오류가 발생했습니다."
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "파일 형식이 지원되지 않습니다."
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "파일의 레코드를 읽을 수 없습니다."
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "잘못된 주간 규칙"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "예상되는 열 제목을 찾을 수 없습니다. 샘플 파일을 확인하십시오."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "시스템에 스킬이 없습니다."
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "파일에 일정 단위가 없습니다."
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "가장 빠른 일일 시작 시간이 가작 늦은 시작 시간 이후입니다."
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "증분 형식이 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "일일 규칙 시작 시간이 올바른 범위를 벗어났습니다."
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "일일 활동 길이가 일일 규칙 길이보다 깁니다."
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "여유 시간 형식이 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "상대 시작 시간이 여유 시간보다 작습니다."
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "활동 길이의 합계가 일일 길이보다 큽니다."
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "잘못된 주간 규칙 일수 범위"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "유효한 활동 조합이 없습니다."
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "활동 코드가 일일 규칙 근무 시간을 초과했습니다."
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "파일 형식이 지원되지 않습니다."
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "활동 코드 이름이 유효하지 않습니다."
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "일정 단위의 시간대가 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "잘못된 주간 규칙 시간 범위"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "기본 활동 코드를 삭제할 수 없습니다."
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "주간 규칙의 최대 근무 시간 값이 일일 규칙의 최소 일수 합계보다 작습니다."
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "주간 규칙의 최소 근무 시간 값이 일일 규칙의 총 최대 일수보다 큽니다."
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "일일 최소 시간의 총 합계가 주간 최대 시간보다 큽니다."
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "일일 최대 시간의 총 합계가 주간 최소 시간보다 작습니다."
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "가능 일수의 총 합계가 일일 규칙의 해당 최소 일수보다 작습니다."
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "내부 서버 오류."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "내부 오류."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "같은 이름이 이미 있습니다. 신규로 시도하십시오."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "스킬이 없습니다."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "한 직원이 50개가 넘는 스킬을 보유할 수 없습니다."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "스킬 이름이 유효하지 않습니다."
+    },
+    "wrongCredentials": "이메일 주소나 암호를 잘못 입력하셨습니다."
+  },
+  "expiredInvitationPage": {
+    "explanationText1": "초대가 만료되었습니다.",
+    "explanationText2": "보낸 사람에게 알렸으므로, 곧 신규 초대를 받으실 수 있습니다.",
+    "sorryHeader": "죄송합니다..."
+  },
+  "filter": {
+    "clear": "지우기",
+    "clearall": "모두 지우기",
+    "close": "닫기"
+  },
+  "filterDropDown": {
+    "completed": "완료",
+    "notCompleted": "완료되지 않음"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "일정 단위"
+  },
+  "formDesignerElements": {
+    "attachment": {
+      "questionTitle": "제목 설정",
+      "title": "첨부",
+      "tooltipContent": "양식에 파일을 첨부하십시오."
+    },
+    "checkbox": {
+      "choice": {
+        "choice1": "선택 1",
+        "choice2": "선택 2"
+      },
+      "questionTitle": "질문 설정",
+      "title": "확인란",
+      "tooltipContent": "토글 옵션이 포함된 질문을 추가하십시오. 평가자는 하나 또는 여러 개의 옵션을 선택할 수 있습니다. 채점 가능한 아이템입니다."
+    },
+    "datetime": {
+      "questionTitle": "질문 설정",
+      "timeQuestionTitle": "질문 설정",
+      "title": "날짜/시간",
+      "tooltipContent": "날짜/시간 선택기를 추가하십시오."
+    },
+    "dropdown": {
+      "choice": {
+        "choice1": "선택 1",
+        "choice2": "선택 2"
+      },
+      "questionTitle": "질문 설정",
+      "title": "드롭다운",
+      "tooltipContent": "가능한 답변 목록이 포함된 질문을 추가하십시오. 평가자는 하나 이상의 응답을 선택할 수 있습니다."
+    },
+    "hyperlink": {
+      "questionTitle": "텍스트 입력",
+      "title": "하이퍼링크",
+      "tooltipContent": "양식에 하이퍼링크를 생성하십시오."
+    },
+    "interactions": {
+      "questionTitle": "제목 설정",
+      "title": "인터랙션",
+      "tooltipContent": "양식에 인터랙션을 추가하십시오."
+    },
+    "label": {
+      "questionTitle": "제목 설정",
+      "title": "레이블",
+      "tooltipContent": "양식에 텍스트 요소를 추가하십시오."
+    },
+    "radio": {
+      "choice": {
+        "choice1": "선택 1",
+        "choice2": "선택 2"
+      },
+      "questionTitle": "질문 설정",
+      "title": "라디오",
+      "tooltipContent": "질문과 여러 가지 옵션을 추가하십시오. 평가자는 하나의 옵션을 선택할 수 있습니다. 채점 가능한 아이템입니다."
+    },
+    "section": {
+      "questionTitle": "제목 설정",
+      "title": "섹션",
+      "tooltipContent": "양식 내에 섹션을 생성하십시오. 섹션에서 질문을 정리할 수 있습니다."
+    },
+    "text": {
+      "questionTitle": "질문 설정",
+      "title": "짧은 텍스트",
+      "tooltipContent": "양식에 한 줄의 자유 텍스트 필드를 추가하십시오."
+    },
+    "textarea": {
+      "questionTitle": "질문 설정",
+      "title": "긴 텍스트",
+      "tooltipContent": "양식에 여러 줄의 자유 텍스트 영역을 추가하십시오."
+    },
+    "yesno": {
+      "choice": {
+        "no": "아니요",
+        "yes": "예"
+      },
+      "questionTitle": "질문 설정",
+      "title": "예/아니요",
+      "tooltipContent": "예/아니요 질문을 양식에 추가하십시오. 평가자는 한 개의 응답을 선택할 수 있습니다. 채점 가능한 아이템입니다."
+    }
+  },
+  "formDesignerPage": {
+    "EVALUATION": {
+      "failAdd": "신규 양식을 추가하지 못했습니다. 다시 시도하십시오.",
+      "popover": {
+        "savePublishFormMsg": "활성 양식을 편집하시겠습니까? 이 작업은 이미 사용 중인 양식에 영향을 주지 않습니다."
+      },
+      "saveFormModal": {
+        "activeFormHeader": "양식 활성화",
+        "formPlaceholder": "양식 이름 입력",
+        "saveFormHeader": "양식 저장"
+      },
+      "successAdd": "양식이 추가되었습니다.",
+      "successEdit": "양식이 편집되었습니다.",
+      "testFormModal": {
+        "header": "테스트 양식",
+        "submit": "확인"
+      }
+    },
+    "activate": "저장 및 활성화",
+    "attachment": {
+      "browseForFile": "파일 찾아보기",
+      "dragAndDropElement": "파일을 끌어서 놓아 업로드하거나",
+      "failedFileUpload": "파일을 업로드하지 못했습니다. 다시 시도하십시오.",
+      "fileCorrupted": "파일이 손상되었거나 바이러스에 감염되었습니다.",
+      "fileSizeExceeded": "파일을 업로드하지 못했습니다. 파일이 15MB 한도를 초과합니다.",
+      "fileTypeMismatch": "파일을 업로드하지 못했습니다. 파일 형식과 확장자가 일치하지 않습니다. 다시 시도하십시오.",
+      "fileTypeNotAllowed": "파일을 업로드하지 못했습니다. 파일 형식이 지원되지 않습니다.",
+      "fileUploadProgress": "{{total}}개 중 {{loaded}}개",
+      "insertFile": "파일 삽입",
+      "linkTextLabel": "링크 텍스트",
+      "mandatoryFieldText": "이 필드는 필수입니다.",
+      "maxFileSize": "파일은 {{maxSize}} 미만이어야 합니다.",
+      "progressBarText": "진행 상황",
+      "scanningFile": "파일의 바이러스 여부를 검사 중입니다. 잠시 기다려 주십시오...",
+      "tooBigToUpload": "너무 커서 업로드할 수 없습니다.",
+      "uploadFile": "파일 업로드",
+      "zeroFileSizeError": "파일을 업로드하지 못했습니다. 선택한 파일이 비어 있습니다. 다시 시도하십시오."
+    },
+    "cancel": "취소",
+    "close": "닫기",
+    "compareMode": {
+      "questionNotApplicable": "이 질문은 해당되지 않습니다.",
+      "sectionNotApplicable": "이 섹션은 해당되지 않습니다."
+    },
+    "createEditRuleModal": {
+      "addAnotherRule": "다른 규칙 추가",
+      "header": "규칙 설정",
+      "hide": "숨기기",
+      "ifSelection": "만약 선택이",
+      "ifThe": "만약"
+    },
+    "criticalQuestionAnswersErrorMessage": "한 개 이상의 정답과 한 개의 오답을 정의해야 합니다.",
+    "criticalQuestionAnswersHelpText": "불합격 점수를 받게 되는 답변에 플래그를 지정합니다. 한 개 이상의 오답과 한 개의 정답을 정의해야 합니다.",
+    "criticalQuestionEnableScoringHelpHeader": "채점 활성화",
+    "criticalQuestionEnableScoringHelpText": "채점을 활성화하여 이 질문을 중요함으로 표시합니다.",
+    "criticalQuestionHelpHeader": "중요한 질문",
+    "criticalQuestionHelpText": "이 질문은 인터랙션의 중요한 요소를 다룹니다. 중요한 질문에 실패하면 불합격 상담원 점수를 받게 됩니다.",
+    "criticalQuestionMessageModal": {
+      "message1": "이 질문을 중요함으로 표시하면 일부 규칙이 무효화되어 제거됩니다.",
+      "message2": "정말로 계속하시겠습니까?",
+      "title": "규칙 무효화"
+    },
+    "criticalQuestionScoringMessageModal": {
+      "message1": "채점을 비활성화했습니다. 지금 저장하면 모든 중요한 질문이 삭제됩니다.",
+      "message2": "정말로 계속하시겠습니까?"
+    },
+    "criticalQuestionToolTip": "이 질문은 중요한 질문입니다. 실패하면 점수가 0으로 재설정됩니다.",
+    "criticalQuestionValidationError": "한 개 이상의 정답과 한 개의 오답을 정의하십시오.",
+    "criticalQuestionsValidationError": "{{ count }}개의 질문에 오류가 발생했습니다. 확인하고 다시 저장하십시오.",
+    "dateTimeComponent": {
+      "at": "시점"
+    },
+    "deleteRuleWarningModal": {
+      "rulesRemoved": "양식 질문을 재정렬하여 일부 규칙이 무효화되고 제거되었습니다.",
+      "title": "잘못된 규칙 제거 완료",
+      "wantsToRevert": "이 변경 사항을 실행 취소하시겠습니까?"
+    },
+    "duration": "지속 시간",
+    "durationErrorMsg": "이 필드는 필수입니다.",
+    "elementAttributeComponent": {
+      "NA": "해당 없음",
+      "addList": "값 목록",
+      "addMultiple": "여러 개 추가",
+      "addRule": "+ 규칙 추가",
+      "aspectRatio": "가로 세로 비율 잠금",
+      "backgroundColor": "배경색",
+      "bold": "굵게",
+      "browse": "찾아보기",
+      "choices": "선택",
+      "criticalQuestion": "중요함으로 표시",
+      "dateFormat": "날짜 형식",
+      "dateLabel": "날짜",
+      "displayDate": "날짜 표시",
+      "fileUploadErrorExtensionMsg": "파일 형식이 잘못되었습니다. 지원되는 형식: JPG, PNG, GIF, BMP, JPEG",
+      "fileUploadSizeErrorMsg": "파일이 너무 큽니다. 파일은 2MB 미만이어야 합니다.",
+      "fontColor": "레이블 색",
+      "fontIndent": "정렬",
+      "fontSize": "크기",
+      "fontStyle": "스타일",
+      "fontType": "글꼴",
+      "header": "헤더",
+      "headerFields": {
+        "AgentName": "상담원 이름",
+        "Duration": "인터랙션 지속 시간",
+        "HireDate": "채용 날짜",
+        "InteractionDate": "인터랙션 날짜",
+        "ReviewDate": "검토 날짜",
+        "SegmentContactId": "컨택 ID",
+        "SegmentId": "세그먼트 ID",
+        "StartDate": "평가 시작 날짜",
+        "failLoadHeaderFields": "헤더 필드를 로드하지 못했습니다. 다시 시도하십시오.",
+        "headerFieldSelectedOption": " {{selectedCount}}명 선택",
+        "headerFieldsLabel": "헤더 필드"
+      },
+      "height": "높이",
+      "horizontal": "가로",
+      "image": "이미지",
+      "italics": "기울임꼴",
+      "label": "제목",
+      "layout": "레이아웃",
+      "limitCharacters": "문자 수 제한",
+      "logic": "논리",
+      "mandatory": "필수",
+      "multiple": "다중 선택",
+      "prePopulatedHintText": "힌트 텍스트",
+      "properties": "속성",
+      "px": "(px)",
+      "question": "질문",
+      "rule": "규칙",
+      "setCurrentDate": "현재 날짜 사용",
+      "setCurrentTime": "현재 시간 사용",
+      "single": "단일 선택",
+      "startTime": "시작 시간",
+      "subText": "지침",
+      "subTitle": "부제목",
+      "text": "텍스트",
+      "timeLabel": "시간",
+      "underline": "밑줄",
+      "url": "URL",
+      "useNA": "해당 없음 사용",
+      "vertical": "세로",
+      "visible": "표시",
+      "width": "너비"
+    },
+    "elementListComponent": {
+      "characters": "문자",
+      "component": "요소",
+      "errorMsg": "이 필드는 필수입니다.",
+      "invalidDate": "잘못된 날짜",
+      "invalidTime": "잘못된 시간",
+      "selectOption": " {{selectedCount}}개의 옵션"
+    },
+    "elementType": {
+      "attachment": "첨부",
+      "checkbox": "확인란",
+      "datetime": "날짜/시간",
+      "dropdown": "드롭다운",
+      "header": "헤더",
+      "hyperlink": "하이퍼링크",
+      "interactions": "인터랙션",
+      "label": "레이블",
+      "radio": "라디오",
+      "section": "섹션",
+      "text": "짧은 텍스트",
+      "textarea": "긴 텍스트",
+      "yesno": "예/아니요"
+    },
+    "errorInteraction": "이용가능한 인터랙션 없음",
+    "errorLoadingHeader": "헤더를 로드하지 못했습니다.",
+    "errorLoadingLogo": "양식 로고를 로드하지 못했습니다.",
+    "errorRead": "양식 디자이너를 로드하는 동안 오류가 발생했습니다.",
+    "example": "예:",
+    "failAdd": "신규 양식을 추가하지 못했습니다.",
+    "failLoadElements": "양식 요소를 로드하지 못했습니다. 다시 시도하십시오.",
+    "failPublish": "신규 양식을 활성화하지 못했습니다.",
+    "failedRename": "양식 이름이 이미 있습니다.",
+    "formTitle": {
+      "subTitle": "부제목 입력",
+      "title": "제목 입력"
+    },
+    "hour": "h",
+    "inActivate": "비활성화",
+    "info": {
+      "critical": "중요함",
+      "required": "필수"
+    },
+    "interactions": {
+      "agentName": "상담원 이름",
+      "duration": "기간",
+      "interactionsBtn": "인터랙션 추가",
+      "startDateAndTime": "시작 날짜 및 시간",
+      "type": "유형"
+    },
+    "labels": "레이블",
+    "manageFormsBreadcrumb": "양식 매니저",
+    "minutes": "m",
+    "objectiveExample": "1. 상담원이 에스컬레이션 프로토콜을 학습합니다.",
+    "objectives": "Objectives",
+    "pageTitle": "신규 양식 생성",
+    "preview": "미리보기",
+    "questionBank": {
+      "deleteQuestionPopoverMsg": "선택한 질문을 삭제하려고 합니다. 이 작업은 취소할 수 없습니다. 계속하시겠습니까?",
+      "duplicateQuestion": "이 질문은 질문 은행에 이미 있습니다.",
+      "elements": "요소",
+      "failedLoadQuestionBank": "질문을 로드하지 못했습니다. 잠시 후 다시 시도하십시오.",
+      "questionBank": "질문 은행",
+      "questionDeleteFailed": "질문이 삭제되지 않았습니다. 잠시 후 다시 시도하십시오.",
+      "questionDeleteSuccess": "질문이 삭제되었습니다.",
+      "questionSaveSuccess": "질문이 저장되었습니다.",
+      "saveQuestionFailed": "질문이 저장되지 않았습니다. 잠시 후 다시 시도하십시오.",
+      "searchBank": "은행 검색"
+    },
+    "save": "저장",
+    "saveAsDraft": "초안으로 저장",
+    "saveFormModal": {
+      "activeFormHeader": "양식 활성화",
+      "formPlaceholder": "양식 이름 입력",
+      "popover": {
+        "message1": "모든 변경 사항이 손실됩니다.",
+        "message2": "저장하지 않고 종료하시겠습니까?"
+      },
+      "saveFormHeader": "양식 저장"
+    },
+    "score": "점수",
+    "scoreFormModal": {
+      "add": "+ 추가",
+      "addHeader": "채점",
+      "calculatedScore": "계산된 가중치 점수",
+      "currentPoints": "현재 포인트",
+      "display": "표시",
+      "drpDwnPlaceHolder": "%",
+      "enableRanking": "순위 활성화",
+      "enableScoring": "채점 활성화",
+      "from": "시작",
+      "maxPoints": "최대 포인트:",
+      "maxScoreZeroMessage": "최소 점수는 0보다 커야 합니다.",
+      "outOf": "/",
+      "ranking": {
+        "defaultFailedLabel": "실패",
+        "defaultPassedLabel": "통과",
+        "validationMsg": {
+          "completeRange": "범위가 잘못되었습니다. 정의된 범위의 합이 100%여야 합니다.",
+          "emptyRange": "빈 범위",
+          "invalidRange": "잘못된 범위",
+          "requiredField": "필수 필드"
+        }
+      },
+      "rankingNoteMsg": "참고: 순위를 사용하면 점수 대신 표시됩니다.",
+      "saveLabel": "저장",
+      "scorable": "채점 가능",
+      "setRangeFormScore": "양식 점수의 범위를 설정합니다.",
+      "setRanking": "순위 설정",
+      "setScoring": "채점 설정",
+      "to": "종료"
+    },
+    "sectionScore": "섹션 점수",
+    "selectTemplateModal": {
+      "customDisclaimer": "참고: 모든 사용자 지정이 재설정됩니다.",
+      "selectThemeHeader": "템플릿 변경",
+      "selectThemeMsg": "양식에 대한 템플릿을 선택하십시오."
+    },
+    "successAdd": "신규 양식이 추가되었습니다.",
+    "successPublish": "양식이 활성화되었습니다.",
+    "toolTips": {
+      "collapse": "축소",
+      "duplicate": "복제",
+      "expand": "확장",
+      "logic": "규칙 정의",
+      "saveToBank": "은행에 저장",
+      "scoring": "채점 정의",
+      "settings": "설정"
+    },
+    "warningMessageModal": {
+      "areYouSureLeavePage": "정말로 저장하지 않고 나가시겠습니까?",
+      "title": "페이지에서 나가시겠습니까?",
+      "unsavedChanges": "저장하지 않은 데이터가 있습니다."
+    },
+    "workFlowSettingsModal": {
+      "agentCanAcknowledge": "상담원이 확인 가능",
+      "agentCanRequestReview": "상담원이 검토 요청 가능",
+      "agentCanReview": "상담원이 검토 가능",
+      "agentCanViewScoring": "상담원에게 점수 표시",
+      "assignedEvaluator": "배정된 평가자",
+      "getUser": {
+        "error": "사용자를 검색하지 못했습니다."
+      },
+      "header": "설정",
+      "noOptionSelectedErrorMessage": "이 필드는 필수입니다.",
+      "qpInteractionsFetchError": "배정된 인터랙션을 가져오지 못했습니다.",
+      "specificEvaluator": "특정인:",
+      "successSave": "워크플로 설정이 완료되었습니다.",
+      "successUpdate": "워크플로 설정이 업데이트되었습니다.",
+      "workflow": "워크플로",
+      "workflowInteractionsFetchError": "평가된 인터랙션을 가져오지 못했습니다.",
+      "workflowStartError": "워크플로를 시작하는 동안 오류가 발생했습니다."
+    }
+  },
+  "formManager": {
+    "dropdownType": {
+      "multiple": "다중",
+      "single": "단일"
+    },
+    "elementType": {
+      "dateTime": "날짜/시간",
+      "dropdown": "드롭다운",
+      "formArea": "formArea",
+      "hyperlink": "하이퍼링크",
+      "label": "레이블",
+      "radio": "라디오",
+      "section": "섹션",
+      "yesno": "예/아니요"
+    },
+    "formStatus": {
+      "deleted": "삭제",
+      "disabled": "사용 안 함",
+      "draft": "초안",
+      "published": "게시 완료"
+    },
+    "logicMode": {
+      "bulkEdit": "bulkEdit",
+      "newRule": "newRule",
+      "singleEdit": "singleEdit"
+    }
+  },
+  "generalErrorMessages": {
+    "activitiesOverlap": "활동은 겹칠 수 없습니다.",
+    "email": "입력한 이메일 주소가 유효하지 않습니다.",
+    "emailExists": "이메일 주소가 이미 있습니다. 신규로 시도하십시오.",
+    "generalError": "일반 오류",
+    "lowerThen": "최소값은 최대값을 초과할 수 없습니다.",
+    "match": "이 암호는 이전 암호와 일치하지 않습니다.",
+    "max": "숫자가 너무 큽니다.",
+    "maxLength": "입력한 값이 너무 깁니다.",
+    "maxLengthPassword": "암호가 너무 깁니다.",
+    "min": "숫자가 너무 작습니다.",
+    "minLength": "입력한 값이 너무 짧습니다.",
+    "minLengthPassword": "암호는 8자 이상이어야 합니다.",
+    "missingPermissionError": "이 작업을 수행할 수 있는 올바른 권한이 없습니다.",
+    "nameFieldValidation": "죄송합니다. \\ / ! + < > ? # & , % \" 문자는 사용할 수 없습니다. ",
+    "noAddedShiftPatters": "하나 이상의 일일 규칙을 선택해야 합니다.",
+    "number": "숫자만 가능합니다!",
+    "password": "암호는 8자 이상이어야 하며, 최소 1개의 숫자와 최소 1개의 대문자를 포함해야 합니다.",
+    "pattern": "이 필드에 맞지 않는 형식",
+    "possibleDaysLowerThanMinDays": "가능 일수가 주간 규칙에서 요구하는 최소 일수를 충족하지 않습니다.",
+    "relativeStartLowerThanSlack": "여유 시간은 상대 시작 값보다 클 수 없습니다.",
+    "required": "이 필드는 필수입니다.",
+    "serverError": "알 수 없는 서버 오류",
+    "shiftLengthLowerThanActivityLength": "활동 길이와 상대 시작의 합계는 근무 시간 길이보다 클 수 없습니다.",
+    "shiftLengthLowerThanTotalActivityLength": "활동의 총 길이는 근무 시간의 길이를 초과할 수 없습니다.",
+    "uniqueDaysCounterLowerThanSumDailyMin": "최소 일수가 고유일의 총 일수를 초과합니다.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "주간 규칙의 최소 일수가 고유일의 일수를 초과합니다.",
+    "uniqueString": "같은 이름이 이미 있습니다. 신규로 시도하십시오.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "최소 일일 조합의 총 시간은 주당 최대 총 시간보다 클 수 없습니다.",
+    "weeklyMaxLowerThanSumDailyMin": "일일 규칙에서 요구하는 최소 일수가 주간 규칙의 최대 일수를 초과합니다.",
+    "weeklyMinGreaterThanSumDailyMax": "주간 규칙의 최소 일수가 일일 규칙에서 요구하는 최대 일수를 초과합니다.",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "최대 일일 조합의 총 시간은 주당 최소 총 시간보다 작을 수 없습니다."
+  },
+  "globalNavigation": {
+    "sideBar": {
+      "formManagerAppLinks": {
+        "formDesigner": "양식 디자이너",
+        "manageForms": "양식 매니저",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "템플릿 매니저"
+      },
+      "formManagerAppName": "QM 도구",
+      "mySpaceAppLinks": {
+        "calibration": "교정",
+        "myDashboard": "내 대시보드",
+        "myEvaluations": "내 평가",
+        "mySchedule": "내 일정",
+        "myTasks": "내 작업",
+        "performanceMonitoring": "성과 모니터링",
+        "plansMonitoring": "계획 모니터링"
+      },
+      "mySpaceAppName": "내 영역",
+      "schedulerAppLinks": {
+        "acdActivitiesMapping": "ACD 매핑",
+        "activityCodes": "활동 코드",
+        "dailyRule": "일일 규칙",
+        "forecastData": "예측 데이터 가져오기",
+        "generateSchedule": "일정 생성",
+        "managementUnits": "일정 단위",
+        "realTimeAdherence": "실시간 일정 준수",
+        "scheduler": "일정 매니저",
+        "weeklyRules": "주간 규칙"
+      },
+      "schedulerAppName": "스케줄러",
+      "setupAppLinks": {
+        "groups": "그룹",
+        "skills": "스킬",
+        "users": "직원"
+      },
+      "setupAppName": "관리자"
+    },
+    "wfmHeader": {
+      "accountSetupOption": "계정 설정",
+      "changePasswordOption": "암호 변경",
+      "contactUs": "문의하기",
+      "help": "도움말",
+      "logoutOption": "로그아웃",
+      "myProfileOption": "내 프로필",
+      "selfService": "지원 - 다운로드",
+      "wfmText": "EVOLVE WFM"
+    }
+  },
+  "importUsersModal": {
+    "downloadLink": "여기에서 다운로드할 수 있습니다.",
+    "downloadMessage1": "CSV 파일의 템플릿을 ",
+    "downloadMessage2": "",
+    "errorMsg": "직원을 가져오지 못했습니다.",
+    "header": "직원 가져오기",
+    "importErrorsList": {
+      "header": "가져오기 오류"
+    },
+    "selectFileMessage": "",
+    "successMsg": "직원을 가져왔습니다.",
+    "weSupportMessage": "CSV 파일을 업로드하여 직원을 가져옵니다."
+  },
+  "languages": {
+    "chinese": "중국어",
+    "english": "영어",
+    "russian": "러시아어",
+    "spanish": "스페인어"
+  },
+  "manageFormsPage": {
+    "EVALUATION": {
+      "errorMsg": {
+        "alreadyPublished": "양식이 이미 활성 상태입니다.",
+        "alreadyUnpublished": "일부 양식이 초안이거나 활성화되어 있지 않아 비활성화할 수 없습니다. 양식을 활성화하고 다시 시도하십시오.",
+        "multiFormDelete": "일부 양식이 활성 상태이어서 삭제할 수 없습니다. 양식을 비활성화하고 다시 시도하십시오.",
+        "noFormToDelete": "삭제할 양식이 없습니다."
+      },
+      "failAdd": "신규 양식을 추가하지 못했습니다. 다시 시도하십시오.",
+      "failedRename": "양식 이름이 이미 있습니다.",
+      "gridColumnsHeaders": {
+        "title": "양식 이름"
+      },
+      "itemCount": "{{count}}개의 양식",
+      "itemSearchPlaceholder": "양식을 찾으려면 입력을 시작하십시오.",
+      "popover": {
+        "activeFormsCannotBeDeleted": "활성 양식은 삭제할 수 없습니다. 양식을 비활성화하고 다시 시도하십시오.",
+        "deleteSelectedFormsMsg": "선택한 양식을 삭제하시겠습니까? 이 작업은 취소할 수 없으며 기존 워크플로에 영향을 줄 수 있습니다.",
+        "deleteSingleDraftFormMsg": "선택한 양식을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+        "deleteSingleFormMsg": "선택한 양식을 삭제하시겠습니까? 이 작업은 취소할 수 없으며 기존 워크플로에 영향을 줄 수 있습니다.",
+        "messagePublish": "선택한 양식을 활성화하시겠습니까?",
+        "messageUnpublish": "양식을 비활성화하시겠습니까? 이 작업은 기존 워크플로에 영향을 줄 수 있습니다."
+      },
+      "renameFormModal": {
+        "header": "양식 이름 바꾸기",
+        "subHeading": "양식 이름"
+      },
+      "saveDuplicateFormModal": {
+        "addHeader": "양식 복제",
+        "errors": {
+          "uniqueTitle": "같은 이름이 이미 있습니다. 신규로 시도하십시오."
+        },
+        "subHeading": "양식 이름"
+      },
+      "successAdd": "양식이 추가되었습니다.",
+      "successDelete": "양식이 삭제되었습니다.",
+      "successDuplicate": "양식이 복제되었습니다.",
+      "successMultiPublish": "양식이 활성화되었습니다.",
+      "successPublish": "양식이 활성화되었습니다.",
+      "successRename": "양식의 이름이 변경되었습니다.",
+      "successUnpublish": "양식이 비활성화되었습니다."
+    },
+    "createForm": "신규 양식",
+    "errorMsg": {
+      "publishErrorNoWorkflowSettings": "활성화하지 못했습니다. 워크플로 설정을 정의해야 합니다.",
+      "publishErrorNoWorkflowSettingsMulti": "일부 양식을 활성화하지 못했습니다. 이 양식에 대한 워크플로 설정을 정의해야 합니다.",
+      "singleFormDelete": "활성 양식은 삭제할 수 없습니다. 먼저 양식을 비활성화해야 합니다."
+    },
+    "errorRead": "양식을 로드하는 동안 오류가 발생했습니다.",
+    "gridColumnsHeaders": {
+      "actions": "작업",
+      "active": "활성",
+      "bulkOperationsBtns": {
+        "activate": "활성화",
+        "deactivate": "비활성화",
+        "delete": "삭제"
+      },
+      "createdBy": "생성자",
+      "draft": "초안",
+      "form": "양식 이름",
+      "inactive": "비활성",
+      "lastModified": "마지막 수정",
+      "status": "상태",
+      "version": "버전"
+    },
+    "item": "양식",
+    "items": "양식",
+    "modals": {
+      "cancel": "취소",
+      "change": "변경"
+    },
+    "moreMenu": {
+      "activate": "활성화",
+      "deactivate": "비활성화",
+      "duplicate": "복제",
+      "rename": "이름 바꾸기"
+    },
+    "noItemsOverlay": "일치하는 결과 없음",
+    "pageTitle": "양식 매니저",
+    "successRename": "양식의 이름이 변경되었습니다."
+  },
+  "manageTemplatePage": {
+    "createTemplateModal": {
+      "duplicateTemplate": "템플릿이 이미 있습니다.",
+      "enableNumbering": "사용",
+      "errorMsg": "템플릿을 생성하지 못했습니다.",
+      "header": "신규 템플릿",
+      "headerImage": "헤더 이미지",
+      "logoErrorMsg": "로고를 업로드하지 못했습니다.",
+      "logoFileMsg": "업로드할 올바른 파일을 선택해야 합니다.",
+      "numbering": "번호 매기기",
+      "popover": {
+        "message1": "모든 변경 사항이 손실됩니다.",
+        "message2": "저장하지 않고 종료하시겠습니까?"
+      },
+      "setBgColor": "배경색",
+      "setDefaultTemplate": "이 템플릿을 기본값으로 설정",
+      "successMsg": "템플릿이 생성되었습니다.",
+      "templatePlaceholder": "템플릿 이름을 입력하십시오."
+    },
+    "pageTitle": "",
+    "tabs": {
+      "design": "디자인",
+      "settings": "설정"
+    }
+  },
+  "messages": {
+    "noResultsText": "결과를 찾지 못했습니다."
+  },
+  "metaInfo": {
+    "UIKitGallery": {
+      "description": "Nice SaaS WFM",
+      "title": "UI 키트 갤러리",
+      "userRoles": "{{selectedCount}}개의 직원 역할"
+    },
+    "acdActivitiesMapping": {
+      "description": "Nice SaaS WFM",
+      "title": " ACD 매핑"
+    },
+    "activityCodes": {
+      "description": "Nice SaaS WFM",
+      "title": "활동 코드"
+    },
+    "categoryManager": {
+      "description": "Nice SaaS WFM",
+      "title": "카테고리 매니저"
+    },
+    "createAccount": {
+      "description": "Nice SaaS WFM",
+      "title": "계정 생성"
+    },
+    "dailyRule": {
+      "description": "Nice SaaS WFM",
+      "title": "일일 규칙"
+    },
+    "description": "Nice SaaS WFM",
+    "employeeGroups": {
+      "description": "Nice SaaS WFM",
+      "title": "일정 단위"
+    },
+    "examples": {
+      "description": "Nice SaaS WFM",
+      "title": "예"
+    },
+    "expiredInvitation": {
+      "description": "Nice SaaS WFM",
+      "title": "만료된 초대"
+    },
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "formDesigner": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 디자이너"
+    },
+    "formDesignerNew": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 디자이너"
+    },
+    "formDesignerOld": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 디자이너"
+    },
+    "form_example": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 예시"
+    },
+    "generateschedule": {
+      "description": "Nice SaaS WFM",
+      "title": "일정 생성"
+    },
+    "interactionPlayer": {
+      "description": "인터랙션 플레이어",
+      "title": "인터랙션 플레이어"
+    },
+    "login": {
+      "description": "Nice SaaS WFM",
+      "title": "로그인"
+    },
+    "manageForms": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 매니저"
+    },
+    "myDashboard": {
+      "description": "Nice SaaS WFM",
+      "title": "내 대시보드"
+    },
+    "mySchedule": {
+      "description": "Nice SaaS WFM",
+      "title": "내 일정"
+    },
+    "ng1FormDesignerPage": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 디자이너"
+    },
+    "ng2FormDesignerPage": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 디자이너"
+    },
+    "planDetails": {
+      "description": "계획 모니터링 세부 정보",
+      "title": "계획 모니터링 세부 정보"
+    },
+    "qmScoreMetric": {
+      "description": "QM 점수 메트릭",
+      "title": "QM 점수 메트릭"
+    },
+    "qpPlanDetails": {
+      "description": "Quality Planner",
+      "title": "Quality Planner"
+    },
+    "qpPlanManager": {
+      "description": "Quality Planner",
+      "title": "Quality Planner"
+    },
+    "selfService": {
+      "title": "지원 - 다운로드"
+    },
+    "success": {
+      "description": "Nice SaaS WFM",
+      "title": "성공"
+    },
+    "templateManager": {
+      "description": "Nice SaaS WFM",
+      "title": "템플릿 매니저"
+    },
+    "title": "Nice SaaS WFM ",
+    "userManagement": {
+      "description": "Nice SaaS WFM",
+      "title": "직원"
+    },
+    "workflowFormSelector": {
+      "description": "워크플로 양식 선택기",
+      "title": "워크플로 양식 선택기"
+    },
+    "qpPlanDetailsTicket": {
+      "title": "Quality Planner 티켓",
+      "description": "Quality Planner 티켓"
+    }
+  },
+  "mySchedule": {
+    "errorRead": "일정을 로드하는 동안 오류가 발생했습니다.",
+    "pageTitle": "내 일정",
+    "userName": "{{userName}}"
+  },
+  "ng2FormDesignerPage": {
+    "manageFormsBreadcrumb": "양식 매니저",
+    "warningMessageModal": {
+      "areYouSureLeavePage": "정말로 저장하지 않고 나가시겠습니까?",
+      "title": "페이지에서 나가시겠습니까?",
+      "unsavedChanges": "저장하지 않은 데이터가 있습니다."
+    }
+  },
+  "ng2ManageFormsPage": {
+    "active": "활성",
+    "cancel": "취소",
+    "change": "변경",
+    "columnHeaders": {
+      "actions": "작업",
+      "createdBy": "생성자",
+      "lastModified": "마지막 수정",
+      "status": "상태",
+      "title": "양식 이름",
+      "version": "버전"
+    },
+    "createForm": "신규 양식",
+    "draft": "초안",
+    "inactive": "비활성",
+    "message": {
+      "alreadyPublished": "양식이 이미 활성 상태입니다.",
+      "alreadyUnpublished": "일부 양식이 초안이거나 활성화되어 있지 않아 비활성화할 수 없습니다. 양식을 활성화하고 다시 시도하십시오.",
+      "failAdd": "신규 양식을 추가하지 못했습니다. 다시 시도하십시오.",
+      "failedRename": "양식 이름이 이미 있습니다.",
+      "failedUpdate": "양식을 업데이트하지 못했습니다.",
+      "multiFormDelete": "일부 양식이 활성 상태이어서 삭제할 수 없습니다. 양식을 비활성화하고 다시 시도하십시오.",
+      "noFormToDelete": "삭제할 양식이 없습니다.",
+      "publishErrorNoWorkflowSettings": "활성화하지 못했습니다. 워크플로 설정을 정의해야 합니다.",
+      "publishErrorNoWorkflowSettingsMulti": "일부 양식을 활성화하지 못했습니다. 이 양식에 대한 워크플로 설정을 정의해야 합니다.",
+      "singleFormDelete": "활성 양식은 삭제할 수 없습니다. 먼저 양식을 비활성화해야 합니다.",
+      "successDelete": "양식이 삭제되었습니다.",
+      "successDuplicate": "양식이 복제되었습니다.",
+      "successMultiPublish": "양식이 활성화되었습니다.",
+      "successPublish": "양식이 활성화되었습니다.",
+      "successRename": "양식의 이름이 변경되었습니다.",
+      "successUnpublish": "양식이 비활성화되었습니다."
+    },
+    "noRowsText": "일치하는 결과 없음",
+    "omnibar": {
+      "bulkOperations": {
+        "activate": "활성화",
+        "deactivate": "비활성화",
+        "delete": "삭제"
+      },
+      "itemCount": "{{ count }}개의 양식",
+      "itemLabel": "양식",
+      "itemsLabel": "양식",
+      "searchPlaceholder": "양식을 찾으려면 입력을 시작하십시오.",
+      "selectedItemCount": "{{ count }}개 선택"
+    },
+    "pageTitle": "양식 매니저",
+    "popover": {
+      "activate": "활성화",
+      "activeFormsCannotBeDeleted": "활성 양식은 삭제할 수 없습니다. 양식을 비활성화하고 다시 시도하십시오.",
+      "deactivate": "비활성화",
+      "deleteSelectedFormsMsg": {
+        "line1": "선택한 양식을 삭제하시겠습니까?",
+        "line2": "이 작업은 취소할 수 없으며 기존 워크플로에 영향을 줄 수 있습니다."
+      },
+      "deleteSingleDraftFormMsg": "선택한 양식을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+      "deleteSingleFormMsg": "선택한 양식을 삭제하시겠습니까? 이 작업은 취소할 수 없으며 기존 워크플로에 영향을 줄 수 있습니다.",
+      "duplicate": "복제",
+      "messagePublish": "선택한 양식을 활성화하시겠습니까?",
+      "messageUnpublish": {
+        "line1": "양식을 비활성화하시겠습니까?",
+        "line2": "이 작업은 기존 워크플로에 영향을 줄 수 있습니다."
+      },
+      "rename": "이름 바꾸기"
+    },
+    "renameFormModal": {
+      "header": "양식 이름 바꾸기",
+      "subHeading": "양식 이름"
+    },
+    "saveDuplicateFormModal": {
+      "addHeader": "양식 복제",
+      "errors": {
+        "uniqueTitle": "같은 이름이 이미 있습니다. 신규로 시도하십시오."
+      },
+      "subHeading": "양식 이름"
+    }
+  },
+  "ng2QMEditAccessibleTeams": {
+    "buttons": {
+      "apply": "적용",
+      "cancel": "취소",
+      "ok": "확인",
+      "showSelected": "선택 항목만 표시"
+    },
+    "customSelectTeams": "팀 사용자 지정 선택",
+    "gridColumnsHeaders": {
+      "teamName": "팀 이름"
+    },
+    "modalHeader": "팀 선택",
+    "noItemsOverlay": "일치하는 결과 없음",
+    "noTeamAddedMessage": "추가된 팀 없음",
+    "noTeamSelectedMessage": "선택된 팀 없음",
+    "notAccessibleTeamError": "평가자가 더 이상 팀에 액세스할 수 없습니다.",
+    "omnibarMessage": "팀 검색",
+    "removeEvaluator": "평가자 제거",
+    "selectTeamsToggleONHeader": "사용자 지정 팀 선택 켜기",
+    "selectTeamsToggleOffHeader": "사용자 지정 팀 선택 끄기",
+    "switchOffSelectTeamsToggleMessage": "평가자를 위한 사용자 지정 팀 선택을 허용하지 않으려면 끄기를 선택합니다.",
+    "switchOnSelectTeamsToggleMessage": "평가자를 위한 사용자 지정 팀 선택을 허용하려면 켜기를 선택합니다."
+  },
+  "ng2QualityPlannerPage": {
+    "planActions": {
+      "activate": "활성화",
+      "deactivate": "비활성화",
+      "duplicate": "복제",
+      "extend": "확장"
+    },
+    "planStatus": {
+      "active": "활성",
+      "deleted": "삭제",
+      "draft": "초안",
+      "expired": "만료",
+      "inactive": "비활성",
+      "pending": "보류 중",
+      "running": "실행 중"
+    },
+    "qpPlanDetails": {
+      "RBAC_cannot_activate_error": "품질 계획을 활성화할 수 없습니다. 관리자에게 문의하십시오.",
+      "RBAC_cannot_deactivate_error": "품질 계획을 비활성화할 수 없습니다. 관리자에게 문의하십시오.",
+      "RBAC_cannot_delete_error": "품질 계획을 삭제할 수 없습니다. 관리자에게 문의하십시오.",
+      "RBAC_cannot_duplicate_error": "품질 계획을 복제할 수 없습니다. 관리자에게 문의하십시오.",
+      "collaborativeEvaluation": "협업 평가",
+      "collaborativeEvaluationHelpText": "이 평가는 상담원과 평가자가 모두 수행한 다음 비교됩니다.",
+      "deleteQualityPlanError": "품질 계획을 삭제하지 못했습니다. 다시 시도하십시오.",
+      "description": "설명",
+      "editEvaluatorSelectiveFieldsEditMsg": "변경할 수 있는 필드: 계획 이름, 설명, 배정 평가 양식, 통화 필터링 설정, 평가자",
+      "editEvaluatorsInfoIconMsg": "평가자에 대한 변경 사항은 계획 분배에 영향을 줍니다.",
+      "errorActivatingPlan": "품질 계획을 활성화하는 도중 오류가 발생했습니다.",
+      "errorActivatingPlanPermissionIssue": "이 계획을 활성화할 수 없습니다. 일부 평가자는 인터랙션을 평가할 권한이 없습니다.",
+      "errorActivatingPlanStatusIssue": "이 계획을 활성화할 수 없습니다. 활성 평가자가 없습니다.",
+      "errorDeactivatingPlan": "품질 계획을 비활성화하는 도중 오류가 발생했습니다.",
+      "errorSavingPlan": "품질 계획 저장 중 오류 발생",
+      "errorSavingPlanDueToFilters": "이 계획을 저장할 수 없습니다. 변경할 수 없는 필드를 편집했습니다.",
+      "evaluationType": "평가 유형",
+      "name": "이름",
+      "pageTitle": "신규 품질 계획 생성",
+      "planAgentGroups": {
+        "AlreadyAssignedGroups": "배정된 상담원 그룹",
+        "addAgentGroupsButton": "상담원 그룹 추가",
+        "agentGroupsCount": "{{count}}개의 상담원 그룹",
+        "agentGroupsHeader": "상담원",
+        "cancelButton": "취소",
+        "errorMessage": "하나 이상의 상담원 그룹을 선택해야 합니다.",
+        "noAgentGroupsAssignedMessage": "아직 배정된 상담원 그룹 없음",
+        "omnibarMessage": "상담원 그룹을 찾으려면 입력을 시작하십시오.",
+        "selectAgentGroupsHeader": "상담원 그룹 선택",
+        "selectedAgentGroupsLabel": "선택한 상담원 그룹",
+        "selectedTxt": "선택:"
+      },
+      "planDuration": {
+        "emptyDatePickerLabel": "날짜 선택",
+        "endDateLabel": "종료",
+        "errorMessage": "평가 양식을 선택해야 합니다.",
+        "oneTimeLabel": "일회성 계획 - 시작 및 종료 날짜:",
+        "oneTimePlanNewLabel": "일회성",
+        "planDurationMessage": "선택한 기간 내에 발생한 통화를 평가합니다.",
+        "planDurationTitle": "계획 정의",
+        "recurringLabel": "반복적",
+        "recurringOptions": {
+          "monthly": "월간",
+          "weekly": "주간"
+        },
+        "selectForm": "양식 선택",
+        "startDateLabel": "시작"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "평가 양식 배정"
+      },
+      "planEvaluators": {
+        "Administrator": "관리자",
+        "Evaluator": "평가자",
+        "Manager": "매니저",
+        "addEvaluatorsButton": "평가자 추가",
+        "alreadyAssignedEvaluators": "배정된 평가자",
+        "cancelButton": "취소",
+        "customTeamSelection": "사용자 지정 팀 선택",
+        "errorMessage": "한 명 이상의 평가자를 선택해야 합니다.",
+        "errorMessages": {
+          "atleastSingleTeamRequired": "평가자당 하나 이상의 팀을 선택해야 합니다.",
+          "required": "한 명 이상의 평가자를 선택해야 합니다."
+        },
+        "evaluators": "평가자",
+        "evaluatorsCount": "{{count}}명의 평가자",
+        "evaluatorsHeader": "평가자",
+        "gridColumnsHeaders": {
+          "accessibleTeams": "액세스 가능한 팀",
+          "dailyEvaluations": "일일 평가",
+          "fullName": "이름",
+          "role": "역할",
+          "selectedTeams": "선택된 팀"
+        },
+        "modalHeader": "평가자 추가",
+        "noEvaluatorsAddedMessage": "추가된 평가자 없음",
+        "noEvaluatorsAssignedMessage": "아직 배정된 평가자 없음",
+        "noEvaluatorsSelectedMessage": "선택된 평가자 없음",
+        "omnibarMessage": "평가자를 찾으려면 입력을 시작하십시오.",
+        "selectEvaluatorsHeader": "평가자 선택",
+        "selectedEvaluatorsLabel": "선택한 평가자"
+      },
+      "planFilters": {
+        "acdSkillsAndCallReasonsFilter": {
+          "dispostionsLabel": "처분",
+          "filterLabel": "ACD",
+          "multipathDropdownDisabledInfoIconMsg": "NICE 인게이지는 ACD 스킬 및 CSAT 채점을 지원하지 않습니다",
+          "recordingSrcSkillCsatDisabledInfoIconMsg": "레코딩 소스는 ACD 스킬 및 CSAT 점수를 지원하지 않습니다.",
+          "selectCallReasons": "통화 이유 선택",
+          "selectSkills": "스킬 선택",
+          "skillsLabel": "스킬"
+        },
+        "agentBehaviourFilter": {
+          "addAnotherAgentBehaviorSentiment": "다른 것 추가",
+          "dropdownPlaceHolderText": "행동 유형 선택",
+          "errorInDropDownMessage": "상담원 행동 선택",
+          "errorMessage": "이 필드는 필수입니다.",
+          "filterLabel": "상담원 행동",
+          "operatorLabel": "입니다",
+          "selectAgentBehaviorSentiment": "상담원 행동 및 점수 선택",
+          "sentiments": {
+            "moderately_negative": "약간 부정적",
+            "moderately_positive": "약간 긍정적",
+            "neutral": "중립",
+            "strongly_negative": "매우 부정적",
+            "strongly_positive": "매우 긍정적"
+          }
+        },
+        "atLeastOneFilterMandatoryMessage": "하나 이상의 필터를 선택해야 합니다.",
+        "businessDataFilter": {
+          "dropdownPlaceHolderText": "데이터 형식 선택",
+          "errorInDropDownMessage": "비즈니스 데이터 형식 선택",
+          "errorMessage": "이 필드는 필수입니다.",
+          "false": "False",
+          "filterLabel": "비즈니스 데이터",
+          "inactiveBusinessDataMsg": "이 비즈니스 데이터는 활성 상태가 아닙니다.",
+          "inputPlaceHolderForNumber": "번호 입력",
+          "inputPlaceHolderForText": "텍스트 입력",
+          "operatorLabel": "입니다",
+          "true": "True"
+        },
+        "callDirectionFilter": {
+          "callDirectionLabel": "통화 방향:",
+          "filterLabel": "방향",
+          "inboundLabel": "인바운드",
+          "incomingLabel": "수신",
+          "internalLabel": "내부",
+          "outboundLabel": "아웃바운드",
+          "outgoingLabel": "발신"
+        },
+        "callDurationFilter": {
+          "Between": "범위",
+          "Greater": "초과",
+          "Less": "미만",
+          "callDurationLabel": "통화 길이:",
+          "durationExceedMaxMessage": "최대 통화 길이는 최소 통화 길이보다 길어야 합니다.",
+          "durationLessThenZeroMessage": "통화 길이는 0보다 커야 합니다."
+        },
+        "categoriesFilter": {
+          "categories": "카테고리",
+          "categoryConfidenceLabel": "높은 신뢰도만",
+          "noCategoriesSelected": "아직 선택된 카테고리 없음",
+          "qmaCategoryDeprecationText": "QMA 카테고리는 몇 차례 릴리스 후에 지원 중단합니다.",
+          "selectCategories": "카테고리 선택",
+          "selectedCategories": "선택한 카테고리({{count}})",
+          "selectedIACategories": "선택한 IA 카테고리({{count}})",
+          "selectedQMACategories": "선택한 QM 카테고리({{count}})"
+        },
+        "channelsFilter": {
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "CHAT": "채팅",
+          "CUSTOM_PRIVATE": "사용자 지정",
+          "EMAIL": "이메일",
+          "FB_PRIVATE": "Facebook Messenger",
+          "GOOGLE_BUSINESS_MESSAGES_PRIVATE": "Google Business Messenger",
+          "LINE": "LINE Messaging",
+          "LINE_PRIVATE": "LINE Messaging",
+          "MICROSOFT_TEAMS_PRIVATE": "Microsoft Teams",
+          "SLACK_PRIVATE": "여유 시간",
+          "SMS": "SMS",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "TW_PRIVATE": "Twitter Direct Messages",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "VOICE": "음성",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "WORKITEM": "워크 아이템"
+        },
+        "clear": "지우기",
+        "enhancedSentimentFilter": {
+          "cancelButton": "취소",
+          "changeButton": "변경",
+          "enlightenSentiments": {
+            "label": "Enlighten 감성",
+            "subLabel": "예측 순고객추천지수"
+          },
+          "sentimentPopoverText": "감성 유형을 변경하면 이전 선택 항목이 제거됩니다.",
+          "sentiments": {
+            "label": "감성",
+            "subLabel": "대화에 사용된 단어 또는 구문에서 감지된 전반적인 분위기"
+          },
+          "title": "감성 선택"
+        },
+        "enlightenSentimentFilter": {
+          "enlightenSentiment": {
+            "MODERATELYNEGATIVE": "약간 부정적",
+            "MODERATELYPOSITIVE": "약간 긍정적",
+            "NEGATIVE": "부정적",
+            "NEUTRAL": "중립",
+            "POSITIVE": "긍정적",
+            "STRONGELYPOSITIVE": "매우 긍정적",
+            "STRONGLYNEGATIVE": "매우 부정적",
+            "VERYNEGATIVE": "매우 부정적",
+            "VERYPOSITIVE": "매우 긍정적"
+          },
+          "sentimentFacet": {
+            "agentSide": "상담원측",
+            "anySide": "양측",
+            "bothSides": "상담원 및 고객",
+            "customerSide": "고객측"
+          }
+        },
+        "feedbackScoreFilter": {
+          "label": "CSAT 점수",
+          "to": "-"
+        },
+        "filterLicenseError": "현재 테넌트에 대한 라이선스를 가져오지 못했습니다. 다시 시도하십시오.",
+        "filteringHeader": "필터링",
+        "filteringMessage": "",
+        "interactionFilter": {
+          "allInteractionLabel": "모두",
+          "filterLabel": "인터랙션",
+          "withScreenLabel": "화면 포함",
+          "withoutScreenLabel": "화면 제외"
+        },
+        "recordedSegmentFilter": {
+          "channelLabel": "채널",
+          "chatLabel": "채팅",
+          "emailLabel": "이메일",
+          "filterLabel": "레코딩된 세그먼트 유형",
+          "smsLabel": "SMS",
+          "voiceAndScreenLabel": "음성 및 화면",
+          "voiceLabel": "음성",
+          "voiceOnlyLabel": "음성 전용"
+        },
+        "recordingSourceFilter": {
+          "dropdownPlaceHolderText": "소스 선택",
+          "recordingSourceLabel": "레코딩 소스",
+          "reordingSouceFitlerTooltipText": "평가할 인터랙션의 레코딩 소스를 선택합니다."
+        },
+        "sentimentFilter": {
+          "filterLabel": "감성",
+          "sentiment": {
+            "MIXED": "혼합",
+            "NEGATIVE": "부정적",
+            "NEUTRAL": "중립",
+            "POSITIVE": "긍정적"
+          },
+          "sentimentFacet": {
+            "agentSide": "상담원측",
+            "anySide": "양측",
+            "bothSides": "상담원 및 고객",
+            "customerSide": "고객측"
+          }
+        },
+        "smsChannelStatusError": "현재 테넌트에 대한 SMS 채널 상태를 가져오지 못했습니다. 다시 시도하십시오.",
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "최대 티켓 시간은 최소 티켓 시간보다 커야 합니다.",
+          "durationExceedMinMessage": "최소 티켓 시간은 최대 티켓 시간보다 작아야 합니다.",
+          "durationLessThenZeroMessage": "통화 길이는 0보다 커야 합니다."
+        },
+        "customAttributesAPIErrorMessage": "사용자 지정 속성 가져오기 실패: "
+      },
+      "planSampling": {
+        "daysBackExceedMaxMessage": "계획 기간은 {{durationInDays}}일입니다. 1 ~ {{daysRange}}일 범위에서 선택하십시오.",
+        "daysLabel": "요일",
+        "exclude": "제외",
+        "excludeEvaluatedInteractionsText": "평가 목적으로 평가한 또는 태그가 지정된 인터랙션은 제외",
+        "include": "포함",
+        "includeOrExcludeInteractionsEvaluatedOrTaggedForEvaluation": "평가 목적으로 평가되거나 태그가 지정된 상호 작용 포함 또는 제외",
+        "numDaysBackLabel": "마지막 인터랙션 포함",
+        "numSegmentsPerAgentLabel": "상담원당 인터랙션",
+        "samplingHeader": "샘플링",
+        "newSamplingHeader": "배포용 샘플 선택",
+        "includeInteractionsLabel": "인터랙션 포함",
+        "excludeInteractionsLabel": "인터랙션 제외",
+        "fromLastDaysLabel": "최근부터",
+        "excludeInteractionsText": "평가 완료 / 평가 태그 지정",
+        "timeBasedSelectionLabel": "시간 기반 선택",
+        "startTimeLabel": "시작 시간",
+        "endTimeLabel": "종료 시간",
+        "startTimeSubtext": "인터랙션이 시작된 시점을 기준으로 인터랙션을 가져옵니다.",
+        "endTimeSubtext": "인터랙션이 종료된 시점을 기준으로 인터랙션을 가져옵니다."
+      },
+      "planSummary": {
+        "interactionsPerAgent": "상담원당 인터랙션",
+        "interactionsPerDayPerEvaluator": "평가자당 일일 평가",
+        "planDays": "계획의 총 일수",
+        "planSummary": "계획 요약",
+        "totalInteractions": "계획의 총 평가"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "상담원",
+        "errorMessages": {
+          "required": "하나 이상의 팀을 선택해야 합니다."
+        },
+        "groups": "그룹",
+        "noTeamsSelected": "아직 선택된 팀 없음",
+        "selectGroups": "그룹 선택",
+        "selectTeams": "팀 선택",
+        "selectedAgents": "현재 총 상담원 수: ",
+        "teams": "팀"
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "시간대 "
+      },
+      "qualityPlansPageBreadcrumb": "품질 계획",
+      "selectiveFieldsEditMsg": "편집할 수 있는 필드: 계획 이름, 설명, 평가 배정 양식, 통화 필터링",
+      "standardEvaluation": "표준 평가",
+      "standardEvaluationHelpText": "이 평가는 평가자만이 수행합니다.",
+      "successActivatingPlan": "품질 계획이 활성화되었습니다.",
+      "successDeactivatingPlan": "품질 계획이 비활성화되었습니다.",
+      "successSavingActivePlan": "품질 계획을 저장했습니다. 변경 사항은 다음 분배 시 적용됩니다.",
+      "successSavingPlan": "품질 계획을 저장했습니다. ",
+      "successdelete": "계획을 삭제했습니다.",
+      "errorActivatingTeamAndGroupIssue": "이 계획을 활성화할 수 없습니다. 유효하지 않은 팀이나 그룹이 있습니다.",
+      "selectDivision": "부서",
+      "selectItems": "아이템 선택",
+      "defaultDivisionMsg": "기본 부서가 있습니다.",
+      "selectDivisionMsg": "품질 계획을 진행할 부서를 선택하십시오.",
+      "divisionLoadingErrorMsg": "내부 서버 오류. 다시 시도하십시오."
+    },
+    "qualityPlannerPage": {
+      "gridColumnsHeaders": {
+        "evaluationType": "평가 유형",
+        "planAction": "작업",
+        "planActivate": "활성화",
+        "planLastModified": "마지막 수정",
+        "planName": "계획 이름",
+        "planOccurrence": "계획 발생",
+        "planState": "상태"
+      },
+      "modals": {
+        "duplicatePlan": {
+          "duplicate": "복제",
+          "errorDuplicatingPlanMissingPermissionError": "이 작업을 수행할 수 있는 올바른 권한이 없습니다.",
+          "errorMessage": "계획 이름이 이미 있습니다.",
+          "header": "계획 복제",
+          "inputText": "계획 이름",
+          "successMessage": "계획을 복제했습니다."
+        }
+      },
+      "newPlanButton": "신규 계획",
+      "noItemsOverlay": "일치하는 결과 없음",
+      "omnibar": {
+        "itemCount": "{{ count }}개의 계획",
+        "searchPlaceholder": "계획을 찾으려면 입력을 시작하십시오."
+      },
+      "pageTitle": "품질 계획",
+      "planCount": "{{count}}개의 계획",
+      "planCountLabel": "계획",
+      "planOccurrence": {
+        "monthly": "월간 반복적 계획",
+        "oneTime": "일회성",
+        "recurring": "반복적",
+        "weekly": "주간 반복적 계획"
+      },
+      "planSearchPlaceholder": "계획을 찾으려면 입력을 시작하십시오.",
+      "plansCountLabel": "계획",
+      "popovers": {
+        "activatePlan": {
+          "msg1": "계획에 오류가 있습니다. 계획을 활성화하기 전에 오류를 수정해야 합니다.",
+          "msg2": "어떤 작업을 수행하시겠습니까?"
+        },
+        "closeModal": {
+          "message1": "모든 변경 사항이 손실됩니다.",
+          "message2": "저장하지 않고 종료하시겠습니까?"
+        },
+        "deactivatePlan": {
+          "msg1": "이 계획을 비활성화하려고 합니다. 평가자가 더 이상의 인터랙션을 받지 않습니다.",
+          "msg2": "계속하시겠습니까?"
+        },
+        "deletePlan": {
+          "msg1": "이 계획을 삭제하려고 합니다. 이 작업은 취소할 수 없습니다.",
+          "msg2": "계속하시겠습니까?"
+        }
+      },
+      "warningMessageModal": {
+        "areYouSureLeavePage": "정말로 저장하지 않고 나가시겠습니까?",
+        "title": "페이지에서 나가시겠습니까?",
+        "unsavedChanges": "저장하지 않은 데이터가 있습니다."
+      },
+      "planTabForSegments": "세그먼트용 Quality Planner",
+      "planTabForTickets": "티켓용 Quality Planner",
+      "SearchByPlanStatusPlaceholder": "계획 상태별로 검색"
+    }
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleLinks": {
+          "categoryManager": "카테고리 매니저",
+          "manageForms": "양식 매니저",
+          "qpPlanManager": "Quality Planner"
+        },
+        "formManagerModuleNameFormatted": "QM 도구"
+      }
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "일치하는 결과 없음",
+    "modal": {
+      "employeeTab": "아직 배정된 직원 없음"
+    }
+  },
+  "notification": {
+    "notificationTitle": "읽지 않은 알림이 {{Count}}개 있습니다."
+  },
+  "notificationTemplates": {
+    "APPROVED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%% ~ %%TO_DATE%%에 대한 요청.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "휴가 요청이 승인되었습니다."
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%% ~ %%TO_DATE%%에 대한 요청.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "휴가 요청이 취소되었습니다."
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%% ~ %%TO_DATE%%에 대한 요청.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "휴가 요청이 거부되었습니다."
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "신규 휴가 요청"
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "content": "%%FROM_DATE%% ~ %%TO_DATE%% 사이의 일정이 변경되었습니다.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "일정 변경 완료"
+    },
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "content": "%%DATE%% 일정이 변경되었습니다.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "일정 변경 완료"
+    }
+  },
+  "qpWidget": {
+    "gridColumnsHeaders": {
+      "agentName": "상담원 이름",
+      "duration": "기간",
+      "evaluationDate": "평가 날짜",
+      "evaluationStatus": "평가 상태",
+      "interactionId": "인터랙션 ID",
+      "score": "점수",
+      "startTime": "인터랙션 시작",
+      "status": "상태",
+      "type": "유형"
+    },
+    "noItemsOverlay": "일치하는 결과 없음",
+    "qpInteractionEvalStatus": {
+      "assigned": "배정 완료",
+      "inProgress": "진행 중",
+      "pending": "보류 중인 평가"
+    },
+    "qpWidgetEvaluatorHeader": "내 작업"
+  },
+  "qualityPlaner": {
+    "planActions": {
+      "activate": "활성화",
+      "deactivate": "비활성화",
+      "duplicate": "복제",
+      "extend": "확장"
+    },
+    "planStatus": {
+      "active": "활성",
+      "deleted": "삭제",
+      "draft": "초안",
+      "expired": "만료",
+      "inactive": "비활성",
+      "pending": "보류 중",
+      "running": "실행 중"
+    },
+    "qualityPlanerPage": {
+      "collaborativeEvaluation": " 협업",
+      "gridColumnsHeaders": {
+        "evaluationType": "평가 유형",
+        "planAction": "작업",
+        "planActivate": "활성화",
+        "planLastModified": "마지막 수정",
+        "planName": "계획 이름",
+        "planOccurrence": "계획 발생",
+        "planState": "상태"
+      },
+      "itemsCountLabel": "계획",
+      "modals": {
+        "duplicatePlan": {
+          "duplicate": "복제",
+          "header": "계획 복제",
+          "inputText": "계획 이름",
+          "successMsg": "계획을 복제했습니다.",
+          "placeholder": "계획 이름 입력"
+        }
+      },
+      "newPlanButton": "신규 계획",
+      "noItemsOverlay": "일치하는 결과 없음",
+      "pageTitle": "품질 계획",
+      "planCount": "{{count}}개의 계획",
+      "planOccurrence": {
+        "monthly": "월간 반복적 계획",
+        "oneTime": "일회성",
+        "recurring": "반복적",
+        "weekly": "주간 반복적 계획"
+      },
+      "planSearchPlaceholder": "계획을 찾으려면 입력을 시작하십시오.",
+      "popovers": {
+        "activatePlan": {
+          "msg1": "계획에 오류가 있습니다. 계획을 활성화하기 전에 오류를 수정해야 합니다.",
+          "msg2": "어떤 작업을 수행하시겠습니까?"
+        },
+        "closeModal": {
+          "message1": "모든 변경 사항이 손실됩니다.",
+          "message2": "저장하지 않고 종료하시겠습니까?"
+        },
+        "deactivatePlan": {
+          "msg1": "이 계획을 비활성화하려고 합니다. 평가자가 더 이상의 인터랙션을 받지 않습니다.",
+          "msg2": "계속하시겠습니까?"
+        },
+        "deletePlan": {
+          "msg1": "이 계획을 삭제하려고 합니다. 이 작업은 취소할 수 없습니다.",
+          "msg2": "계속하시겠습니까?"
+        }
+      },
+      "standardEvaluation": "표준",
+      "warningMessageModal": {
+        "areYouSureLeavePage": "정말로 저장하지 않고 나가시겠습니까?",
+        "title": "페이지에서 나가시겠습니까?",
+        "unsavedChanges": "저장하지 않은 데이터가 있습니다."
+      },
+      "newTicketPlanButton": "티켓용 신규 플랜",
+      "newSegmentPlanButton": "세그먼트용 신규 플랜",
+      "SearchByPlanStatusPlaceholder": "계획 상태별로 검색"
+    },
+    "qualityPlannerNewPlanPage": {
+      "collaborativeEvaluation": "협업",
+      "collaborativeEvaluationHelpText": "이 평가는 상담원과 평가자가 모두 수행한 다음 비교됩니다.",
+      "deleteQualityPlanError": "품질 계획을 삭제하지 못했습니다. 다시 시도하십시오.",
+      "description": "설명",
+      "errorActivatingPlan": "품질 계획을 활성화하는 도중 오류가 발생했습니다.",
+      "errorActivatingPlanPermissionIssue": "이 계획을 활성화할 수 없습니다. 일부 평가자는 인터랙션을 평가할 권한이 없습니다.",
+      "errorActivatingPlanStatusIssue": "이 계획을 활성화할 수 없습니다. 활성 평가자가 없습니다.",
+      "errorDeactivatingPlan": "품질 계획을 비활성화하는 도중 오류가 발생했습니다.",
+      "errorSavingPlan": "품질 계획 저장 중 오류 발생",
+      "errorSavingPlanDueToFilters": "이 계획을 저장할 수 없습니다. 변경할 수 없는 필드를 편집했습니다.",
+      "evaluationType": "평가 유형",
+      "name": "이름",
+      "pageTitle": "신규 품질 계획 생성",
+      "planAgentGroups": {
+        "AlreadyAssignedGroups": "배정된 상담원 그룹",
+        "addAgentGroupsButton": "상담원 그룹 추가",
+        "agentGroupsCount": "{{count}}개의 상담원 그룹",
+        "agentGroupsHeader": "상담원",
+        "cancelButton": "취소",
+        "errorMessage": "하나 이상의 상담원 그룹을 선택해야 합니다.",
+        "noAgentGroupsAssignedMessage": "아직 배정된 상담원 그룹 없음",
+        "omnibarMessage": "상담원 그룹을 찾으려면 입력을 시작하십시오.",
+        "selectAgentGroupsHeader": "상담원 그룹 선택",
+        "selectedAgentGroupsLabel": "선택한 상담원 그룹",
+        "selectedTxt": "선택:"
+      },
+      "planDuration": {
+        "emptyDatePickerLabel": "날짜 선택",
+        "endDateLabel": "종료",
+        "errorMessage": "평가 양식을 선택해야 합니다.",
+        "oneTimeLabel": "일회성 계획 - 시작 및 종료 날짜:",
+        "planDurationMessage": "선택한 기간 내에 발생한 통화를 평가합니다.",
+        "planDurationTitle": "계획 정의",
+        "recurringLabel": "반복적",
+        "recurringOptions": {
+          "monthly": "월간",
+          "weekly": "주간"
+        },
+        "selectForm": "양식 선택",
+        "startDateLabel": "시작"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "평가 배정 양식:"
+      },
+      "planEvaluators": {
+        "Administrator": "관리자",
+        "Evaluator": "평가자",
+        "Manager": "매니저",
+        "addEvaluatorsButton": "평가자 추가",
+        "alreadyAssignedEvaluators": "배정된 평가자",
+        "cancelButton": "취소",
+        "errorMessage": "한 명 이상의 평가자를 선택해야 합니다.",
+        "evaluatorsCount": "{{count}}명의 평가자",
+        "evaluatorsHeader": "평가자",
+        "noEvaluatorsAssignedMessage": "아직 배정된 평가자 없음",
+        "omnibarMessage": "평가자를 찾으려면 입력을 시작하십시오.",
+        "selectEvaluatorsHeader": "평가자 선택",
+        "selectedEvaluatorsLabel": "선택한 평가자"
+      },
+      "planFilters": {
+        "acdSkillsAndCallReasonsFilter": {
+          "dispostionsLabel": "처분",
+          "filterLabel": "ACD",
+          "selectDispositions": "처분 선택",
+          "selectSkills": "스킬 선택",
+          "skillsLabel": "스킬"
+        },
+        "atLeastOneFilterMandatoryMessage": "하나 이상의 필터를 선택해야 합니다.",
+        "businessDataFilter": {
+          "dropdownPlaceHolderText": "데이터 형식 선택",
+          "errorInDropDownMessage": "비즈니스 데이터 형식 선택",
+          "errorMessage": "이 필드는 필수입니다.",
+          "filterLabel": "비즈니스 데이터",
+          "inactiveBusinessDataMsg": "이 비즈니스 데이터는 활성 상태가 아닙니다.",
+          "inputPlaceHolderForNumber": "번호 입력",
+          "inputPlceHolderForText": "텍스트 입력",
+          "operatorLabel": "입니다"
+        },
+        "callDirectionFilter": {
+          "callDirectionLabel": "통화 방향:",
+          "filterLabel": "방향",
+          "inboundLabel": "인바운드",
+          "incomingLabel": "수신",
+          "internalLabel": "내부",
+          "outboundLabel": "아웃바운드",
+          "outgoingLabel": "발신"
+        },
+        "callDurationFilter": {
+          "Between": "범위",
+          "Greater": "초과",
+          "Less": "미만",
+          "callDurationLabel": "통화 길이:",
+          "durationExceedMaxMessage": "최대 통화 길이는 최소 통화 길이보다 길어야 합니다.",
+          "durationLessThenZeroMessage": "통화 길이는 0보다 커야 합니다."
+        },
+        "categoriesFilter": {
+          "categories": "카테고리",
+          "categoryConfidenceLabel": "높은 신뢰도만",
+          "noCategoriesSelected": "아직 선택된 카테고리 없음",
+          "selectCategories": "카테고리 선택",
+          "selectedCategories": "선택한 카테고리({{count}}) "
+        },
+        "channelFilters": {
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "CHAT": "채팅",
+          "CUSTOM_PRIVATE": "사용자 지정",
+          "EMAIL": "이메일",
+          "FB_PRIVATE": "Facebook Messenger",
+          "LINE": "LINE Messaging",
+          "LINE_PRIVATE": "LINE Messaging",
+          "SMS": "SMS",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "TW_PRIVATE": "Twitter Direct Messages",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "VOICE": "음성",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "WORKITEM": "워크 아이템"
+        },
+        "feedbackScoreFilter": {
+          "label": "CSAT 점수",
+          "to": "-"
+        },
+        "filterLicenseError": "현재 테넌트에 대한 라이선스를 가져오지 못했습니다. 다시 시도하십시오.",
+        "filteringHeader": "필터링",
+        "filteringMessage": "",
+        "interactionFilter": {
+          "allInteractionLabel": "모두",
+          "filterLabel": "인터랙션",
+          "withScreenLabel": "화면 포함",
+          "withoutScreenLabel": "화면 제외"
+        },
+        "recordedSegmentFilter": {
+          "channelLabel": "채널",
+          "chatLabel": "채팅",
+          "emailLabel": "이메일",
+          "filterLabel": "레코딩된 세그먼트 유형",
+          "smsLabel": "SMS",
+          "voiceAndScreenLabel": "음성 및 화면",
+          "voiceLabel": "음성",
+          "voiceOnlyLabel": "음성 전용"
+        },
+        "smsChannelStatusError": "현재 테넌트에 대한 SMS 채널 상태를 가져오지 못했습니다. 다시 시도하십시오.",
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "최대 티켓 시간은 최소 티켓 시간보다 커야 합니다.",
+          "durationExceedMinMessage": "최소 티켓 시간은 최대 티켓 시간보다 작아야 합니다.",
+          "durationLessThenZeroMessage": "통화 길이는 0보다 커야 합니다."
+        }
+      },
+      "planSampling": {
+        "daysBackExceedMaxMessage": "계획 기간은 {{durationInDays}}일입니다. 1 ~ {{daysRange}}일 범위에서 선택하십시오.",
+        "daysLabel": "요일",
+        "numDaysBackLabel": "마지막 인터랙션 포함",
+        "numSegmentsPerAgentLabel": "상담원당 인터랙션 수",
+        "samplingHeader": "샘플링"
+      },
+      "planSummary": {
+        "interactionsPerAgent": "상담원당 인터랙션",
+        "interactionsPerDayPerEvaluator": "평가자당 일일 평가",
+        "planDays": "계획의 총 일수",
+        "planSummary": "계획 요약",
+        "totalInteractions": "계획의 총 평가"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "상담원",
+        "errorMessages": {
+          "required": "하나 이상의 팀을 선택해야 합니다."
+        },
+        "groups": "그룹",
+        "noTeamsSelected": "아직 선택된 팀 없음",
+        "selectGroups": "그룹 선택",
+        "selectTeams": "팀 선택",
+        "selected": " 선택 완료",
+        "selectedAgents": "현재 총 상담원 수: ",
+        "teams": "팀"
+      },
+      "qualityPlansPageBreadcrumb": "품질 계획",
+      "selectiveFieldsEditMsg": "편집할 수 있는 필드: 계획 이름, 설명, 평가 배정 양식, 통화 필터링",
+      "standardEvaluation": "표준",
+      "standardEvaluationHelpText": "이 평가는 평가자만이 수행합니다.",
+      "successActivatingPlan": "품질 계획이 활성화되었습니다.",
+      "successDeactivatingPlan": "품질 계획이 비활성화되었습니다.",
+      "successSavingActivePlan": "품질 계획을 저장했습니다. 변경 사항은 다음 분배 시 적용됩니다.",
+      "successSavingPlan": "품질 계획을 저장했습니다. ",
+      "successdelete": "계획을 삭제했습니다.",
+      "ticketFilters": {
+        "DirectionType": {
+          "Incoming": "수신",
+          "Outgoing": "발신"
+        },
+        "Messages": {
+          "DirectionTypeRequired": "하나 이상의 미디어 유형이 선택되어야 합니다.",
+          "MaxDurationValidation": "최대 기간은 최소 기간보다 커야 합니다.",
+          "MaxCountValidation": "최대 개수는 최소 개수보다 커야 합니다.",
+          "FieldRequired": "이 필드는 필수입니다."
+        },
+        "TicketFilter": {
+          "TicketType": "티켓 유형",
+          "Priority": "우선순위",
+          "Status": "상태",
+          "Direction": "방향",
+          "Score": "점수",
+          "CSATScore": "CSAT 점수",
+          "HoldTimeDuration": "보류 시간",
+          "TalkTimeDuration": "통화 시간",
+          "TotalHandleTimeDuration": "총 처리 시간",
+          "WaitTimeDuration": "대기 시간",
+          "WrapTimeDuration": "마무리 시간",
+          "TotalReplies": "총 응답 수",
+          "TotalReopens": "총 재개설 수",
+          "excludeEvaluatedOrTaggedInteractionsText": "평가된/평가를 위해 태그 지정된 인터랙션 제외",
+          "sentiment": "감성",
+          "agentBehavior": "상담원 행동"
+        }
+      }
+    }
+  },
+  "selfService": {
+    "acdInstallerTitle": "ACD 설치 프로그램",
+    "firstParagraph": "ACD 설치 프로그램이 ACD(자동 통화 분배) 시스템과 EvolveWFM 간의 연결을 설정합니다. 이후 EvolveWFM은 ACD 이벤트를 수신하고 RTA(실시간 일정 준수) 정보를 생성할 수 있습니다.",
+    "generateKeyButton": "키 생성",
+    "generateKeyExplanation": "API 키를 생성하려면 관리자 권한이 있어야 합니다.",
+    "generateKeyHeader": "API 키 생성",
+    "installersList": {
+      "fileName": "파일 이름",
+      "title": "ACD 설치 프로그램 다운로드",
+      "vendor": "공급업체",
+      "version": "버전"
+    },
+    "instructionsHeader": "설치 지침",
+    "instructions_1": "1. 셀프 서비스, 온프레미스 통합 영역에서 설치 프로그램 배포를 다운로드합니다.",
+    "instructions_2": "2. 다운로드한 설치 프로그램 배포를 편리한 위치(예: C:/Temp/AvayaCMSInstaller)에 압축 해제합니다.",
+    "instructions_3": "3. 설치를 시작하려면 Windows에서 install.bat를 실행하거나 Linux에서 install.sh를 실행합니다.",
+    "instructions_4": "4. 설치 마법사에 따라 Avaya CMS ASC를 구성합니다.",
+    "modal": {
+      "copyBtn": "클립보드에 복사",
+      "email": "이메일 주소",
+      "generate": "생성",
+      "generateBtnText": "생성",
+      "password": "암호",
+      "result": "API 키가 생성되었습니다.",
+      "title": "EvolveWFM 이메일 주소와 암호를 입력한 다음 [생성]을 클릭하십시오."
+    }
+  },
+  "setupPage": {
+    "qmScoreMetricPage": {
+      "averageOfPercentages": "백분율 평균",
+      "averageOfPercentagesInfo": "얻은 질문 포인트 총 개수 / 가능한 질문 포인트 총 개수 * 100 = % 점수 / 실시한 평가 개수",
+      "averageOfValues": "값 평균",
+      "averageOfValuesInfo": "얻은 질문 포인트 총 개수 / 가능한 질문 포인트 총 개수 * 100",
+      "loadQMMetricFormulaErrorMessage": "페이지를 로드할 수 없습니다. 서버에 연결되지 않았습니다. 다시 시도하십시오. 문제가 지속되면 시스템 관리자에게 문의하십시오.",
+      "pageTitle": "QM 점수 메트릭",
+      "qmMetricFormula": "QM 메트릭 수식",
+      "qmScoreMetricErrorMessage": "선택한 QM 메트릭 수식을 저장할 수 없습니다. 다시 시도하십시오.",
+      "qmScoreMetricSaveSuccessMessage": "QM 메트릭 수식이 저장되었습니다."
+    }
+  },
+  "successPage": {
+    "welcomeMsg": "{{username}}님, 안녕하세요? "
+  },
+  "teamsAndGroups": {
+    "errorMessages": {
+      "required": "하나 이상의 팀을 선택해야 합니다."
+    },
+    "groups": "그룹",
+    "selectGroups": "그룹 선택",
+    "selectTeams": "팀 선택",
+    "teams": "팀"
+  },
+  "templateManagerPage": {
+    "createTemplate": "신규 템플릿",
+    "item": "양식",
+    "items": "양식",
+    "pageTitle": "템플릿 매니저"
+  },
+  "timePicker": {
+    "openTimePicker": "시작 시간 선택"
+  },
+  "uikitGallery": {
+    "searchPlaceholder": "직원을 찾으려면 입력을 시작하십시오.",
+    "selectedCount": "{{count}}명 선택",
+    "userCount": "{{count}}명의 직원"
+  },
+  "weekDays": {
+    "friday": "금요일",
+    "monday": "월요일",
+    "saturday": "토요일",
+    "sunday": "일요일",
+    "thursday": "목요일",
+    "tuesday": "화요일",
+    "wednesday": "수요일"
+  },
+  "weekShortDays": {
+    "FRI": "금",
+    "MON": "월",
+    "SAT": "토",
+    "SUN": "일",
+    "THU": "목",
+    "TUE": "화",
+    "WED": "수"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "다음 날",
+    "openCalendar": "달력 열기",
+    "openTimeChooser": "시작 시간 선택기",
+    "previousDay": "전날",
+    "today": "오늘"
+  },
+  "workflowFormSelector": {
+    "change": "변경",
+    "changeFormHeader": "양식 변경",
+    "disabledFormInPlanMessage": "평가에 대한 양식을 선택하십시오.",
+    "noFormInPlanMessage": "평가에 대한 양식을 선택하십시오.",
+    "noFormsMsg": "이용가능한 양식이 없습니다.",
+    "select": "선택",
+    "selectFormHeader": "양식 선택",
+    "workflowFormSelectorText": "실행을 시작할 양식을 선택하십시오."
+  },
+  "workflowStatusUI": {
+    "Assigned": "신규",
+    "Auto-acknowledged": "자동 확인 완료",
+    "Claimed": "신규",
+    "Completed": "완료",
+    "Completed_Acknowledged": "완료",
+    "Completed_and_Not_Reviewed": "완료 검토 없음",
+    "Completed_and_Reviewed": "완료 검토 완료",
+    "Dispute": "이의제기 완료",
+    "Expired": "만료",
+    "InProgress": "초안",
+    "InReview": "이의제기 완료",
+    "PartiallyCompleted": "부분 완료",
+    "Pending_Acknowledgement": "신규",
+    "Request_Review": "이의제기 완료",
+    "Reviewed_and_Completed": "검토 완료",
+    "Sent_To_Agent": "제출 완료",
+    "WaitingForAgent": "상담원을 기다리는 중",
+    "WaitingForEvaluator": "평가자를 기다리는 중",
+    "selfAssessment": {
+      "completed": "완료",
+      "draft": "초안",
+      "expired": "만료",
+      "new": "신규"
+    }
+  },
+  "workflowStatuses": {
+    "Claimed": "클레임 완료",
+    "Completed": "완료",
+    "Completed_Acknowledged": "완료 확인 완료",
+    "Dispute": "이의제기",
+    "InProgress": "진행 중",
+    "InReview": "검토 중",
+    "Pending_Acknowledgement": "보류 중인 확인",
+    "Request_Review": "검토 요청",
+    "Reviewed_and_Completed": "검토 및 완료"
+  },
+  "workflowType": {
+    "evaluations": "평가"
+  },
+  "ticketQualityPlannerPage": {
+    "planStatus": {
+      "draft": "초안",
+      "active": "활성",
+      "inactive": "비활성",
+      "running": "실행 중",
+      "expired": "만료",
+      "pending": "보류 중",
+      "deleted": "삭제"
+    },
+    "planActions": {
+      "activate": "활성화",
+      "deactivate": "비활성화",
+      "extend": "확장",
+      "duplicate": "복제"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "품질 계획",
+      "newTicketPlanButton": "티켓용 신규 플랜",
+      "newSegmentPlanButton": "세그먼트용 신규 플랜",
+      "noItemsOverlay": "일치하는 결과 없음",
+      "plansCountLabel": "계획",
+      "planCountLabel": "계획",
+      "planCount": "{{count}}개의 계획",
+      "planSearchPlaceholder": "계획을 찾으려면 입력을 시작하십시오.",
+      "planTabForSegments": "세그먼트용 Quality Planner",
+      "planTabForTickets": "티켓용 Quality Planner",
+      "gridColumnsHeaders": {
+        "planName": "계획 이름",
+        "evaluationType": "평가 유형",
+        "planOccurrence": "계획 발생",
+        "planLastModified": "마지막 수정",
+        "planState": "상태",
+        "planAction": "작업",
+        "planActivate": "활성화"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }}개의 계획",
+        "searchPlaceholder": "계획을 찾으려면 입력을 시작하십시오."
+      },
+      "planOccurrence": {
+        "recurring": "반복적",
+        "monthly": "월간 반복적 계획",
+        "weekly": "주간 반복적 계획",
+        "oneTime": "일회성"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "이 계획을 삭제하려고 합니다. 이 작업은 취소할 수 없습니다.",
+          "msg2": "계속하시겠습니까?"
+        },
+        "activatePlan": {
+          "msg1": "계획에 오류가 있습니다. 계획을 활성화하기 전에 오류를 수정해야 합니다.",
+          "msg2": "어떤 작업을 수행하시겠습니까?"
+        },
+        "deactivatePlan": {
+          "msg1": "이 계획을 비활성화하려고 합니다. 평가자가 더 이상의 인터랙션을 받지 않습니다.",
+          "msg2": "계속하시겠습니까?"
+        },
+        "closeModal": {
+          "message1": "모든 변경 사항이 손실됩니다.",
+          "message2": "저장하지 않고 종료하시겠습니까?"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "계획 이름",
+          "successMessage": "계획을 복제했습니다.",
+          "errorMessage": "계획 이름이 이미 있습니다.",
+          "header": "계획 복제",
+          "duplicate": "복제",
+          "errorDuplicatingPlanMissingPermissionError": "이 작업을 수행할 수 있는 올바른 권한이 없습니다."
+        }
+      },
+      "warningMessageModal": {
+        "title": "페이지에서 나가시겠습니까?",
+        "unsavedChanges": "저장하지 않은 데이터가 있습니다.",
+        "areYouSureLeavePage": "정말로 저장하지 않고 나가시겠습니까?"
+      }
+    },
+    "qpPlanDetails": {
+      "RBAC_cannot_delete_error": "품질 계획을 삭제할 수 없습니다. 관리자에게 문의하십시오.",
+      "RBAC_cannot_activate_error": "품질 계획을 활성화할 수 없습니다. 관리자에게 문의하십시오.",
+      "RBAC_cannot_duplicate_error": "품질 계획을 복제할 수 없습니다. 관리자에게 문의하십시오.",
+      "RBAC_cannot_deactivate_error": "품질 계획을 비활성화할 수 없습니다. 관리자에게 문의하십시오.",
+      "pageTitle": "신규 품질 계획 생성",
+      "qualityPlansPageBreadcrumb": "품질 계획",
+      "name": "이름",
+      "description": "설명",
+      "errorSavingPlan": "품질 계획 저장 중 오류 발생",
+      "errorSavingPlanDueToFilters": "이 계획을 저장할 수 없습니다. 변경할 수 없는 필드를 편집했습니다.",
+      "successSavingPlan": "품질 계획을 저장했습니다. ",
+      "successSavingActivePlan": "품질 계획을 저장했습니다. 변경 사항은 다음 분배 시 적용됩니다.",
+      "selectiveFieldsEditMsg": "편집할 수 있는 필드: 계획 이름, 설명, 평가 배정 양식, 통화 필터링",
+      "editEvaluatorSelectiveFieldsEditMsg": "변경할 수 있는 필드: 계획 이름, 설명, 배정 평가 양식, 통화 필터링 설정, 평가자",
+      "editEvaluatorsInfoIconMsg": "평가자에 대한 변경 사항은 계획 분배에 영향을 줍니다.",
+      "successActivatingPlan": "품질 계획이 활성화되었습니다.",
+      "successDeactivatingPlan": "품질 계획이 비활성화되었습니다.",
+      "errorActivatingPlan": "품질 계획을 활성화하는 도중 오류가 발생했습니다.",
+      "errorActivatingPlanPermissionIssue": "이 계획을 활성화할 수 없습니다. 일부 평가자는 인터랙션을 평가할 권한이 없습니다.",
+      "errorActivatingPlanStatusIssue": "이 계획을 활성화할 수 없습니다. 활성 평가자가 없습니다.",
+      "errorDeactivatingPlan": "품질 계획을 비활성화하는 도중 오류가 발생했습니다.",
+      "successdelete": "계획을 삭제했습니다.",
+      "deleteQualityPlanError": "품질 계획을 삭제하지 못했습니다. 다시 시도하십시오.",
+      "evaluationType": "평가 유형",
+      "standardEvaluation": "표준 평가",
+      "standardEvaluationHelpText": "이 평가는 평가자만이 수행합니다.",
+      "collaborativeEvaluation": "협업 평가",
+      "collaborativeEvaluationHelpText": "이 평가는 상담원과 평가자가 모두 수행한 다음 비교됩니다.",
+      "planDuration": {
+        "planDurationTitle": "계획 정의",
+        "planDurationMessage": "선택한 기간 내에 발생한 통화를 평가합니다.",
+        "recurringLabel": "반복적",
+        "oneTimeLabel": "일회성 계획 - 시작 및 종료 날짜:",
+        "oneTimePlanNewLabel": "일회성",
+        "startDateLabel": "시작",
+        "endDateLabel": "종료",
+        "emptyDatePickerLabel": "날짜 선택",
+        "selectForm": "양식 선택",
+        "errorMessage": "평가 양식을 선택해야 합니다.",
+        "recurringOptions": {
+          "monthly": "월간",
+          "weekly": "주간"
+        }
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "평가자",
+        "noEvaluatorsAssignedMessage": "아직 배정된 평가자 없음",
+        "noEvaluatorsSelectedMessage": "선택된 평가자 없음",
+        "noEvaluatorsAddedMessage": "추가된 평가자 없음",
+        "selectedEvaluatorsLabel": "선택한 평가자",
+        "addEvaluatorsButton": "평가자 추가",
+        "modalHeader": "평가자 추가",
+        "selectEvaluatorsHeader": "평가자 선택",
+        "cancelButton": "취소",
+        "errorMessage": "한 명 이상의 평가자를 선택해야 합니다.",
+        "omnibarMessage": "평가자를 찾으려면 입력을 시작하십시오.",
+        "evaluatorsCount": "{{count}}명의 평가자",
+        "evaluators": "평가자",
+        "Evaluator": "평가자",
+        "Manager": "매니저",
+        "Administrator": "관리자",
+        "alreadyAssignedEvaluators": "배정된 평가자",
+        "customTeamSelection": "사용자 지정 팀 선택",
+        "gridColumnsHeaders": {
+          "fullName": "이름",
+          "role": "역할",
+          "accessibleTeams": "액세스 가능한 팀",
+          "selectedTeams": "선택된 팀",
+          "dailyEvaluations": "일일 평가"
+        },
+        "errorMessages": {
+          "required": "한 명 이상의 평가자를 선택해야 합니다.",
+          "atleastSingleTeamRequired": "평가자당 하나 이상의 팀을 선택해야 합니다."
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "상담원",
+        "noAgentGroupsAssignedMessage": "아직 배정된 상담원 그룹 없음",
+        "selectedAgentGroupsLabel": "선택한 상담원 그룹",
+        "addAgentGroupsButton": "상담원 그룹 추가",
+        "selectAgentGroupsHeader": "상담원 그룹 선택",
+        "cancelButton": "취소",
+        "errorMessage": "하나 이상의 상담원 그룹을 선택해야 합니다.",
+        "omnibarMessage": "상담원 그룹을 찾으려면 입력을 시작하십시오.",
+        "agentGroupsCount": "{{count}}개의 상담원 그룹",
+        "selectedTxt": "선택:",
+        "AlreadyAssignedGroups": "배정된 상담원 그룹"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "상담원",
+        "teams": "팀",
+        "groups": "그룹",
+        "noTeamsSelected": "아직 선택된 팀 없음",
+        "selectTeams": "팀 선택",
+        "selectGroups": "그룹 선택",
+        "selectedAgents": "현재 총 상담원 수: ",
+        "errorMessages": {
+          "required": "하나 이상의 팀을 선택해야 합니다."
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "샘플링",
+        "newSamplingHeader": "배포용 샘플 선택",
+        "numSegmentsPerAgentLabel": "상담원당 인터랙션",
+        "numDaysBackLabel": "마지막 인터랙션 포함",
+        "daysLabel": "요일",
+        "daysBackExceedMaxMessage": "계획 기간은 {{durationInDays}}일입니다. 1 ~ {{daysRange}}일 범위에서 선택하십시오.",
+        "excludeEvaluatedInteractionsText": "평가 목적으로 평가한 또는 태그가 지정된 인터랙션은 제외",
+        "include": "포함",
+        "exclude": "제외",
+        "includeInteractionsLabel": "인터랙션 포함",
+        "excludeInteractionsLabel": "인터랙션 제외",
+        "fromLastDaysLabel": "최근부터",
+        "excludeInteractionsText": "평가 완료 / 평가 태그 지정",
+        "timeBasedSelectionLabel": "시간 기반 선택",
+        "startTimeLabel": "시작 시간",
+        "endTimeLabel": "종료 시간",
+        "startTimeSubtext": "인터랙션이 시작된 시점을 기준으로 인터랙션을 가져옵니다.",
+        "endTimeSubtext": "인터랙션이 종료된 시점을 기준으로 인터랙션을 가져옵니다."
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "시간대 "
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "평가 양식 배정",
+        "dropdownNewLabel": "평가 양식"
+      },
+      "planSummary": {
+        "planSummary": "계획 요약",
+        "totalInteractions": "계획의 총 평가",
+        "interactionsPerDayPerEvaluator": "평가자당 일일 평가",
+        "planDays": "계획의 총 일수",
+        "interactionsPerAgent": "상담원당 인터랙션"
+      },
+      "ticketFiltersEnterInput": "입력하기",
+      "filters": {
+        "includeInteractionsFromLast": "인터랙션 포함: 최근",
+        "days": "요일",
+        "filtersHeader": "필터"
+      },
+      "ticketFiltersMultiSelect": "값 선택",
+      "planCategoriesTicket": {
+        "categoriesHeader": "카테고리",
+        "qmaCategoriesLabel": "QMA 카테고리"
+      }
+    },
+    "planType": {
+      "ticket": "티켓",
+      "segment": "세그먼트"
+    }
+  }
+}

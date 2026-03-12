@@ -1,0 +1,20 @@
+{
+  "aaiAdminUIApp": {
+    "AutomationAndAIAppTitle": "Automation & AI",
+    "HubTitle": "Hubs",
+    "notSelectedConfiguration": "Please select a Configuration from left menu!",
+    "VAH": "Virtual Agent Hub",
+    "AAH": "Agent Assist Hub",
+    "TRHB": "Transcription Hub",
+    "TH": "Continuous Stream",
+    "CT": "Continuous Stream",
+    "STT": "Turn By Turn",
+    "TTS": "Cloud TTS Hub",
+    "VBH": "Voice Biometrics Hub",
+    "AuthenticationWait": "Waiting for authentication...",
+    "PermissionText": "Permissions Required",
+    "UnauthorisedText": "You need privileges to view this page. Contact your administrator.",
+    "AAITitle": "AAI Admin",
+    "IHF": "Integration Hub"
+  }
+}

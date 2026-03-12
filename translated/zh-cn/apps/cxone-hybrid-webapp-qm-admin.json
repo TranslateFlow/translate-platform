@@ -1,0 +1,2651 @@
+{
+  "ng2QualityPlannerPage": {
+    "qpPlanDetails": {
+      "planEvaluators": {
+        "evaluatorsHeader": "评估员",
+        "noEvaluatorsAssignedMessage": "尚未分配评估员",
+        "noEvaluatorsSelectedMessage": "未选择评估员",
+        "noEvaluatorsAddedMessage": "未添加评估员",
+        "selectedEvaluatorsLabel": "选定的评估员",
+        "addEvaluatorsButton": "添加评估员",
+        "modalHeader": "添加评估员",
+        "selectEvaluatorsHeader": "选择评估员",
+        "cancelButton": "取消",
+        "errorMessage": "您必须至少选择 1 位评估员",
+        "omnibarMessage": "开始输入以查找评估员",
+        "evaluatorsCount": "{{count}} 位评估者",
+        "evaluators": "评估员",
+        "Evaluator": "评估员",
+        "Manager": "经理",
+        "Administrator": "管理员",
+        "gridColumnsHeaders": {
+          "fullName": "名称",
+          "role": "角色",
+          "accessibleTeams": "可访问团队",
+          "dailyEvaluations": "每日评估",
+          "selectedTeams": "选定的团队"
+        },
+        "errorMessages": {
+          "required": "您必须至少选择一名评估员",
+          "atleastSingleTeamRequired": "您必须至少为每个评估者选择一个团队"
+        },
+        "alreadyAssignedEvaluators": "分配的评估员",
+        "customTeamSelection": "自定义团队选择"
+      },
+      "pageTitle": "创建新的质量计划",
+      "qualityPlansPageBreadcrumb": "质量计划",
+      "name": "名称",
+      "description": "说明",
+      "errorSavingPlan": "保存质量计划时出错",
+      "errorSavingPlanDueToFilters": "无法保存此计划。您编辑了无法更改的字段。",
+      "successSavingPlan": "质量计划保存成功",
+      "successSavingActivePlan": "质量计划已成功保存。更改将在下一次分配中生效。",
+      "selectiveFieldsEditMsg": "可编辑的字段：计划名称、描述、分配评估表单、呼叫过滤",
+      "successActivatingPlan": "质量计划已成功激活。",
+      "successDeactivatingPlan": "质量计划已成功停用。",
+      "errorActivatingPlan": "激活质量计划时出错。",
+      "errorActivatingPlanPermissionIssue": "无法激活此计划。一些评估员无权对交互进行评估。",
+      "errorActivatingPlanStatusIssue": "无法激活此计划。没有活跃的评估员。",
+      "errorDeactivatingPlan": "停用质量计划时出错。",
+      "successdelete": "计划删除成功。",
+      "deleteQualityPlanError": "质量计划删除失败。请再试一次。",
+      "evaluationType": "评估类型",
+      "standardEvaluation": "标准评估",
+      "standardEvaluationHelpText": "此评估将仅由评估员执行",
+      "collaborativeEvaluation": "协同评估",
+      "collaborativeEvaluationHelpText": "该评估将由坐席代表和评估员共同执行，然后进行比较",
+      "planDuration": {
+        "planDurationTitle": "计划定义",
+        "planDurationMessage": "评估在选定时间段内发生的呼叫：",
+        "recurringLabel": "重新出现",
+        "oneTimeLabel": "一次性计划 - 开始和结束日期：",
+        "startDateLabel": "来自",
+        "endDateLabel": "到",
+        "emptyDatePickerLabel": "选择日期",
+        "selectForm": "选择一个表单",
+        "errorMessage": "您必须选择一个评估表单",
+        "recurringOptions": {
+          "monthly": "每月",
+          "weekly": "每周"
+        },
+        "oneTimePlanNewLabel": "一次"
+      },
+      "planFilters": {
+        "filteringHeader": "过滤",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "您必须至少选择 1 个筛选器",
+        "filterLicenseError": "无法获得当前租户的许可。请再试一次。",
+        "smsChannelStatusError": "无法获取当前租户的 SMS 渠道状态。请再试一次。",
+        "callDirectionFilter": {
+          "callDirectionLabel": "呼叫方向：",
+          "filterLabel": "方向",
+          "inboundLabel": "呼入",
+          "incomingLabel": "呼入",
+          "outboundLabel": "出站",
+          "outgoingLabel": "呼出",
+          "internalLabel": "内部"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "呼叫时长：",
+          "Less": "小于",
+          "Greater": "大于",
+          "Between": "介于",
+          "durationExceedMaxMessage": "最大呼叫时长必须大于最小呼叫时长",
+          "durationLessThenZeroMessage": "呼叫时长必须大于 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "记录的片段类型",
+          "voiceOnlyLabel": "仅语音",
+          "channelLabel": "信道",
+          "voiceLabel": "语音",
+          "voiceAndScreenLabel": "语音和屏幕",
+          "chatLabel": "聊天",
+          "emailLabel": "电子邮件",
+          "smsLabel": "短信"
+        },
+        "channelsFilter": {
+          "VOICE": "语音",
+          "FB_PRIVATE": "Facebook Messenger",
+          "CHAT": "聊天",
+          "EMAIL": "电子邮件",
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "LINE": "LINE Messaging",
+          "LINE_PRIVATE": "LINE Messaging",
+          "TW_PRIVATE": "Twitter Direct Messages",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "SMS": "短信",
+          "CUSTOM_PRIVATE": "自定义",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "WORKITEM": "工作项目",
+          "GOOGLE_BUSINESS_MESSAGES_PRIVATE": "Google Business Messenger",
+          "MICROSOFT_TEAMS_PRIVATE": "Microsoft Teams",
+          "SLACK_PRIVATE": "Slack"
+        },
+        "categoriesFilter": {
+          "categories": "类型",
+          "selectCategories": "选择类别",
+          "selectedCategories": "所选类别 ({{count}})",
+          "noCategoriesSelected": "尚未选择类别",
+          "categoryConfidenceLabel": "仅高置信度",
+          "selectedIACategories": "所选 IA 类别 ({{count}})",
+          "selectedQMACategories": "所选 QM 类别 ({{count}})",
+          "qmaCategoryDeprecationText": "QMA 类别将在几个版本后被弃用"
+        },
+        "sentimentFilter": {
+          "filterLabel": "情绪",
+          "sentimentFacet": {
+            "anySide": "任一侧",
+            "agentSide": "坐席侧",
+            "customerSide": "客户侧",
+            "bothSides": "坐席和客户"
+          },
+          "sentiment": {
+            "POSITIVE": "阳性",
+            "NEGATIVE": "阴性",
+            "NEUTRAL": "中性",
+            "MIXED": "混合"
+          }
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "filterLabel": "ACD",
+          "skillsLabel": "多项技术",
+          "dispostionsLabel": "处置",
+          "selectSkills": "选择技能",
+          "selectCallReasons": "选择所有原因",
+          "multipathDropdownDisabledInfoIconMsg": "NICE Engage 不支持 ACD 技能和 CSAT 分数",
+          "recordingSrcSkillCsatDisabledInfoIconMsg": "记录源不支持 ACD 技能和 CSAT 分数"
+        },
+        "businessDataFilter": {
+          "filterLabel": "业务数据",
+          "operatorLabel": "是",
+          "errorMessage": "此字段为必填项",
+          "errorInDropDownMessage": "选择业务数据类型",
+          "dropdownPlaceHolderText": "选择数据类型",
+          "inputPlaceHolderForNumber": "输入号码",
+          "inputPlaceHolderForText": "输入文本",
+          "inactiveBusinessDataMsg": "此业务数据不活动",
+          "true": "真",
+          "false": "假"
+        },
+        "interactionFilter": {
+          "filterLabel": "互动",
+          "withScreenLabel": "有屏幕",
+          "withoutScreenLabel": "无屏幕",
+          "allInteractionLabel": "全部"
+        },
+        "feedbackScoreFilter": {
+          "label": "CSAT 分数",
+          "to": "收件人"
+        },
+        "clear": "清除",
+        "agentBehaviourFilter": {
+          "filterLabel": "坐席行为",
+          "operatorLabel": "是",
+          "errorMessage": "此字段为必填项",
+          "errorInDropDownMessage": "选择坐席行为",
+          "dropdownPlaceHolderText": "选择行为类型",
+          "sentiments": {
+            "strongly_negative": "非常反对",
+            "moderately_negative": "一般反对",
+            "neutral": "中性",
+            "moderately_positive": "一般赞成",
+            "strongly_positive": "非常赞成"
+          },
+          "selectAgentBehaviorSentiment": "选择坐席行为与分数",
+          "addAnotherAgentBehaviorSentiment": "添加另一个"
+        },
+        "recordingSourceFilter": {
+          "recordingSourceLabel": "录制文件来源",
+          "dropdownPlaceHolderText": "选择一项来源",
+          "reordingSouceFitlerTooltipText": "为要评估的交互选择记录源"
+        },
+        "enlightenSentimentFilter": {
+          "sentimentFacet": {
+            "anySide": "任一侧",
+            "agentSide": "坐席侧",
+            "customerSide": "客户侧",
+            "bothSides": "坐席和客户"
+          },
+          "enlightenSentiment": {
+            "POSITIVE": "正面",
+            "NEGATIVE": "负面",
+            "VERYPOSITIVE": "非常正面",
+            "VERYNEGATIVE": "非常负面",
+            "NEUTRAL": "中性",
+            "STRONGLYNEGATIVE": "非常反对",
+            "MODERATELYNEGATIVE": "一般反对",
+            "MODERATELYPOSITIVE": "一般赞成",
+            "STRONGELYPOSITIVE": "非常赞成"
+          }
+        },
+        "enhancedSentimentFilter": {
+          "title": "选择情绪",
+          "cancelButton": "取消",
+          "changeButton": "更改",
+          "sentimentPopoverText": "更改情绪类型将移除之前的选择",
+          "sentiments": {
+            "label": "情绪",
+            "subLabel": "通过对话中使用的单词或短语检测到的整体情绪"
+          },
+          "enlightenSentiments": {
+            "label": "Enlighten 情绪",
+            "subLabel": "预测净推荐值"
+          }
+        },
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "最大票证时间必须大于最小票证时间",
+          "durationExceedMinMessage": "最小票证时间必须小于最大票证时间",
+          "durationLessThenZeroMessage": "呼叫时长必须大于 0"
+        },
+        "customAttributesAPIErrorMessage": "无法获取自定义属性："
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "代理",
+        "noAgentGroupsAssignedMessage": "尚未分配座席组",
+        "selectedAgentGroupsLabel": "所选坐席组",
+        "addAgentGroupsButton": "添加坐席组",
+        "selectAgentGroupsHeader": "选择坐席组",
+        "cancelButton": "取消",
+        "errorMessage": "您必须至少选择 1 个坐席组",
+        "omnibarMessage": "开始输入以查找坐席组",
+        "agentGroupsCount": "{{count}} 个坐席组",
+        "selectedTxt": "选择：",
+        "AlreadyAssignedGroups": "已分配的坐席组"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "坐席",
+        "teams": "团队",
+        "groups": "组",
+        "noTeamsSelected": "尚未选择团队",
+        "selectTeams": "选择团队",
+        "selectGroups": "选择组",
+        "selectedAgents": "当前坐席总数：",
+        "errorMessages": {
+          "required": "您必须至少选择一个团队"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "采样",
+        "numSegmentsPerAgentLabel": "每名坐席的交互次数",
+        "numDaysBackLabel": "包含上次交互",
+        "daysLabel": "天数",
+        "daysBackExceedMaxMessage": "计划持续时间为 {{durationInDays}} 天。从 1 到 {{daysRange}} 天中选择。",
+        "includeOrExcludeInteractionsEvaluatedOrTaggedForEvaluation": "包含或排除已评估或标记为评估的交互",
+        "include": "包括",
+        "exclude": "排除",
+        "excludeEvaluatedInteractionsText": "排除已评估或已标记的交互进行评估",
+        "newSamplingHeader": "用于分发的样本选择",
+        "includeInteractionsLabel": "包括交互",
+        "excludeInteractionsLabel": "排除交互",
+        "fromLastDaysLabel": "来自最后一个",
+        "excludeInteractionsText": "已评估/标记为评估",
+        "timeBasedSelectionLabel": "基于时间的选择",
+        "startTimeLabel": "标准偏差",
+        "endTimeLabel": "结束时间",
+        "startTimeSubtext": "根据交互开始时间拉动交互",
+        "endTimeSubtext": "根据交互结束时间拉动交互"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "分配评估表单："
+      },
+      "planSummary": {
+        "planSummary": "计划摘要",
+        "totalInteractions": "计划总体评估",
+        "interactionsPerDayPerEvaluator": "每名评估员的每日评估",
+        "planDays": "计划总天数",
+        "interactionsPerAgent": "每名坐席的交互"
+      },
+      "editEvaluatorSelectiveFieldsEditMsg": "可以编辑的字段：计划名称、描述、分配评估表、呼叫过滤",
+      "editEvaluatorsInfoIconMsg": "更改评估员会影响计划描述",
+      "planTimeZoneSelection": {
+        "dropdownLabel": "时区"
+      },
+      "RBAC_cannot_delete_error": "无法删除质量计划。请联系您的管理员。",
+      "RBAC_cannot_activate_error": "无法启动质量计划。请联系您的管理员。",
+      "RBAC_cannot_duplicate_error": "无法复制质量计划。请联系您的管理员。",
+      "RBAC_cannot_deactivate_error": "无法取消质量计划。请联系您的管理员。",
+      "errorActivatingTeamAndGroupIssue": "无法激活此计划。它有一些无效的团队或组",
+      "selectDivision": "部门",
+      "selectItems": "选择项目",
+      "defaultDivisionMsg": "您拥有默认部门",
+      "selectDivisionMsg": "选择一个部门以继续执行质量计划",
+      "divisionLoadingErrorMsg": "内部服务器错误。請重試"
+    },
+    "planStatus": {
+      "draft": "草稿",
+      "active": "活跃",
+      "inactive": "不活动",
+      "running": "正在运行",
+      "expired": "已过期",
+      "pending": "待定",
+      "deleted": "已删除"
+    },
+    "planActions": {
+      "activate": "启动",
+      "deactivate": "停用",
+      "extend": "扩展",
+      "duplicate": "重复"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "质量计划",
+      "newPlanButton": "新计划",
+      "noItemsOverlay": "未找到匹配项",
+      "plansCountLabel": "计划",
+      "planCountLabel": "计划",
+      "planCount": "{{count}} 个计划",
+      "planSearchPlaceholder": "开始输入以查找计划",
+      "gridColumnsHeaders": {
+        "planName": "计划名称",
+        "evaluationType": "评估类型",
+        "planOccurrence": "计划发生次数",
+        "planLastModified": "最后修改",
+        "planState": "状态",
+        "planAction": "操作",
+        "planActivate": "启动"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }} 个计划",
+        "searchPlaceholder": "开始输入以查找计划"
+      },
+      "planOccurrence": {
+        "recurring": "重新出现",
+        "monthly": "月度循环计划",
+        "weekly": "每周循环计划",
+        "oneTime": "一次"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "您将要删除此计划。此操作无法撤消。",
+          "msg2": "继续吗？"
+        },
+        "activatePlan": {
+          "msg1": "计划中有错误。您需要在激活计划之前修复错误。",
+          "msg2": "你想要做什么？"
+        },
+        "deactivatePlan": {
+          "msg1": "您将要停用此计划。评估员将不会再获得任何互动。",
+          "msg2": "继续吗？"
+        },
+        "closeModal": {
+          "message1": "所有更改都将丢失",
+          "message2": "您确定要退出而不保存吗？"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "计划名称",
+          "successMessage": "计划已成功复制。",
+          "errorMessage": "计划名称已存在",
+          "header": "复制计划",
+          "duplicate": "重复",
+          "errorDuplicatingPlanMissingPermissionError": "您没有执行此操作的正确权限。"
+        }
+      },
+      "warningMessageModal": {
+        "title": "离开页面？",
+        "unsavedChanges": "您有未保存的数据。",
+        "areYouSureLeavePage": "确定未保存就退出吗？"
+      },
+      "planTabForSegments": "细分市场质量规划程序",
+      "planTabForTickets": "票证质量规划程序",
+      "SearchByPlanStatusPlaceholder": "按计划状态搜索"
+    }
+  },
+  "qualityPlaner": {
+    "qualityPlannerNewPlanPage": {
+      "planEvaluators": {
+        "evaluatorsHeader": "评估员",
+        "noEvaluatorsAssignedMessage": "尚未分配评估员",
+        "selectedEvaluatorsLabel": "选定的评估员",
+        "addEvaluatorsButton": "添加评估员",
+        "selectEvaluatorsHeader": "选择评估员",
+        "cancelButton": "取消",
+        "errorMessage": "您必须至少选择 1 名评估员",
+        "omnibarMessage": "开始输入以查找评估员",
+        "evaluatorsCount": "{{count}} 位评估者",
+        "Evaluator": "评估员",
+        "Manager": "经理",
+        "Administrator": "管理员",
+        "alreadyAssignedEvaluators": "分配的评估员"
+      },
+      "pageTitle": "创建新的质量计划",
+      "qualityPlansPageBreadcrumb": "质量计划",
+      "name": "名称",
+      "description": "说明",
+      "errorSavingPlan": "保存质量计划时出错",
+      "errorSavingPlanDueToFilters": "无法保存此计划。您编辑了无法更改的字段。",
+      "successSavingPlan": "质量计划保存成功",
+      "successSavingActivePlan": "质量计划已成功保存。更改将在下一次分配中生效。",
+      "selectiveFieldsEditMsg": "可编辑的字段：计划名称、描述、分配评估表单、呼叫过滤",
+      "successActivatingPlan": "质量计划已成功激活。",
+      "successDeactivatingPlan": "质量计划已成功停用。",
+      "errorActivatingPlan": "激活质量计划时出错。",
+      "errorActivatingPlanPermissionIssue": "无法激活此计划。一些评估员无权对交互进行评估。",
+      "errorActivatingPlanStatusIssue": "无法激活此计划。没有活跃的评估员。",
+      "errorDeactivatingPlan": "停用质量计划时出错。",
+      "successdelete": "计划删除成功。",
+      "deleteQualityPlanError": "质量计划删除失败。请再试一次。",
+      "evaluationType": "评估类型",
+      "standardEvaluation": "标准",
+      "standardEvaluationHelpText": "此评估将仅由评估员执行",
+      "collaborativeEvaluation": "协同",
+      "collaborativeEvaluationHelpText": "该评估将由坐席代表和评估员共同执行，然后进行比较",
+      "planDuration": {
+        "planDurationTitle": "计划定义",
+        "planDurationMessage": "评估在选定时间段内发生的呼叫：",
+        "recurringLabel": "重新出现",
+        "oneTimeLabel": "一次性计划 - 开始和结束日期：",
+        "startDateLabel": "开始",
+        "endDateLabel": "到",
+        "emptyDatePickerLabel": "选择日期",
+        "selectForm": "选择一个表单",
+        "errorMessage": "您必须选择一个评估表单",
+        "recurringOptions": {
+          "monthly": "每月",
+          "weekly": "每周"
+        }
+      },
+      "planFilters": {
+        "filteringHeader": "过滤",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "您必须至少选择 1 个筛选器",
+        "filterLicenseError": "无法获得当前租户的许可。请再试一次。",
+        "smsChannelStatusError": "无法获取当前租户的 SMS 渠道状态。请再试一次。",
+        "callDirectionFilter": {
+          "callDirectionLabel": "呼叫方向：",
+          "filterLabel": "方向",
+          "inboundLabel": "呼入",
+          "incomingLabel": "呼入",
+          "outboundLabel": "出站",
+          "outgoingLabel": "呼出",
+          "internalLabel": "内部"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "呼叫时长：",
+          "Less": "小于",
+          "Greater": "大于",
+          "Between": "介于",
+          "durationExceedMaxMessage": "最大呼叫时长必须大于最小呼叫时长",
+          "durationLessThenZeroMessage": "呼叫时长必须大于 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "记录的片段类型",
+          "voiceOnlyLabel": "仅语音",
+          "channelLabel": "信道",
+          "voiceLabel": "语音",
+          "voiceAndScreenLabel": "语音和屏幕",
+          "chatLabel": "聊天",
+          "emailLabel": "电子邮件",
+          "smsLabel": "短信"
+        },
+        "channelFilters": {
+          "VOICE": "语音",
+          "FB_PRIVATE": "Facebook Messenger",
+          "CHAT": "聊天",
+          "EMAIL": "电子邮件",
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "LINE_PRIVATE": "LINE Messaging",
+          "LINE": "LINE Messaging",
+          "TW_PRIVATE": "Twitter Direct Messages",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "SMS": "短信",
+          "CUSTOM_PRIVATE": "自定义",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "WORKITEM": "工作项目"
+        },
+        "interactionFilter": {
+          "filterLabel": "互动",
+          "withScreenLabel": "有屏幕",
+          "withoutScreenLabel": "无屏幕",
+          "allInteractionLabel": "全部"
+        },
+        "categoriesFilter": {
+          "categories": "类型",
+          "selectCategories": "选择类别",
+          "selectedCategories": "所选类别 ({{count}})",
+          "noCategoriesSelected": "尚未选择类别",
+          "categoryConfidenceLabel": "仅高置信度"
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "filterLabel": "ACD",
+          "skillsLabel": "多项技术",
+          "dispostionsLabel": "处置",
+          "selectSkills": "选择技能",
+          "selectDispositions": "选择处置"
+        },
+        "businessDataFilter": {
+          "filterLabel": "业务数据",
+          "operatorLabel": "是",
+          "errorMessage": "此字段为必填项",
+          "errorInDropDownMessage": "选择业务数据类型",
+          "dropdownPlaceHolderText": "选择数据类型",
+          "inputPlaceHolderForNumber": "输入号码",
+          "inputPlceHolderForText": "输入文本",
+          "inactiveBusinessDataMsg": "此业务数据不活动"
+        },
+        "feedbackScoreFilter": {
+          "label": "CSAT 分数",
+          "to": "收件人"
+        },
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "最大票证时间必须大于最小票证时间",
+          "durationExceedMinMessage": "最小票证时间必须小于最大票证时间",
+          "durationLessThenZeroMessage": "呼叫时长必须大于 0"
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "坐席",
+        "noAgentGroupsAssignedMessage": "尚未分配座席组",
+        "selectedAgentGroupsLabel": "所选坐席组",
+        "addAgentGroupsButton": "添加坐席组",
+        "selectAgentGroupsHeader": "选择坐席组",
+        "cancelButton": "取消",
+        "errorMessage": "您必须至少选择 1 个坐席组",
+        "omnibarMessage": "开始输入以查找坐席组",
+        "agentGroupsCount": "{{count}} 个坐席组",
+        "selectedTxt": "选择：",
+        "AlreadyAssignedGroups": "已分配的坐席组"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "代理",
+        "selected": " 已选择",
+        "teams": "团队",
+        "groups": "组",
+        "noTeamsSelected": "尚未选择团队",
+        "selectTeams": "选择团队",
+        "selectGroups": "选择组",
+        "selectedAgents": "当前坐席总数：",
+        "errorMessages": {
+          "required": "您必须至少选择一个团队"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "采样",
+        "numSegmentsPerAgentLabel": "每名坐席的交互次数：",
+        "numDaysBackLabel": "包含上次交互",
+        "daysLabel": "天数",
+        "daysBackExceedMaxMessage": "计划持续时间为 {{durationInDays}} 天。从 1 到 {{daysRange}} 天中选择。"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "分配评估表单："
+      },
+      "planSummary": {
+        "planSummary": "计划摘要",
+        "totalInteractions": "计划总体评估",
+        "interactionsPerDayPerEvaluator": "每名评估员的每日评估",
+        "planDays": "计划总天数",
+        "interactionsPerAgent": "每名坐席的交互"
+      },
+      "ticketFilters": {
+        "DirectionType": {
+          "Incoming": "呼入",
+          "Outgoing": "呼出"
+        },
+        "Messages": {
+          "DirectionTypeRequired": "应至少选择一个方向类型。",
+          "MaxDurationValidation": "最大持续时间应大于最小持续时间",
+          "MaxCountValidation": "最大计数应大于最小计数。",
+          "FieldRequired": "此字段为必填项"
+        },
+        "TicketFilter": {
+          "TicketType": "票证类型",
+          "Priority": "优先权",
+          "Status": "状态",
+          "Direction": "方向",
+          "Score": "分数",
+          "CSATScore": "CSAT 分数",
+          "HoldTimeDuration": "保持时间",
+          "TalkTimeDuration": "交谈时间",
+          "TotalHandleTimeDuration": "总处理时间",
+          "WaitTimeDuration": "等待时间",
+          "WrapTimeDuration": "结束时间",
+          "TotalReplies": "总回复数",
+          "TotalReopens": "总重新打开次数",
+          "excludeEvaluatedOrTaggedInteractionsText": "排除已评估/已标记的评估交互",
+          "sentiment": "情绪",
+          "agentBehavior": "坐席行为"
+        }
+      }
+    },
+    "planStatus": {
+      "draft": "草稿",
+      "active": "活跃",
+      "inactive": "不活动",
+      "running": "正在运行",
+      "expired": "已过期",
+      "pending": "待定",
+      "deleted": "已删除"
+    },
+    "planActions": {
+      "activate": "启动",
+      "deactivate": "停用",
+      "extend": "扩展",
+      "duplicate": "重复"
+    },
+    "qualityPlanerPage": {
+      "pageTitle": "质量计划",
+      "newPlanButton": "新计划",
+      "noItemsOverlay": "未找到匹配项",
+      "itemsCountLabel": "计划",
+      "planCount": "{{count}} 个计划",
+      "planSearchPlaceholder": "开始输入以查找计划",
+      "collaborativeEvaluation": " 协同",
+      "standardEvaluation": "标准",
+      "gridColumnsHeaders": {
+        "planName": "计划名称",
+        "evaluationType": "评估类型",
+        "planOccurrence": "计划发生次数",
+        "planLastModified": "最后修改",
+        "planState": "状态",
+        "planAction": "操作",
+        "planActivate": "启动"
+      },
+      "planOccurrence": {
+        "recurring": "重新出现",
+        "monthly": "月度循环计划",
+        "weekly": "每周循环计划",
+        "oneTime": "一次"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "您将要删除此计划。此操作无法撤消。",
+          "msg2": "继续吗？"
+        },
+        "activatePlan": {
+          "msg1": "计划中有错误。您需要在激活计划之前修复错误。",
+          "msg2": "你想要做什么？"
+        },
+        "deactivatePlan": {
+          "msg1": "您将要停用此计划。评估员将不会再获得任何互动。",
+          "msg2": "继续吗？"
+        },
+        "closeModal": {
+          "message1": "所有更改都将丢失",
+          "message2": "您确定要退出而不保存吗？"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "计划名称",
+          "successMsg": "计划已成功复制。",
+          "header": "复制计划",
+          "duplicate": "重复",
+          "placeholder": "输入计划名称"
+        }
+      },
+      "warningMessageModal": {
+        "title": "离开页面？",
+        "unsavedChanges": "您有未保存的数据。",
+        "areYouSureLeavePage": "确定未保存就退出吗？"
+      },
+      "newTicketPlanButton": "票证新计划",
+      "newSegmentPlanButton": "细分市场新计划",
+      "SearchByPlanStatusPlaceholder": "按计划状态搜索"
+    }
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleNameFormatted": "QM 工具",
+        "formManagerModuleLinks": {
+          "manageForms": "表单管理器",
+          "categoryManager": "分类管理器",
+          "qpPlanManager": "质量规划程序"
+        }
+      }
+    }
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "计划安排已更改",
+      "content": "%%DATE%%的计划安排已更改。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "计划安排已更改",
+      "content": "%%FROM_DATE%%到 %%TO_DATE%% 的计划安排已更改。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "新的休假请求",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "休假请求已被拒绝",
+      "content": "请求 %%FROM_DATE%%至 %%TO_DATE%%。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "休假请求已被批准",
+      "content": "请求 %%FROM_DATE%%至 %%TO_DATE%%。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "休假请求已被取消",
+      "content": "请求 %%FROM_DATE%%至 %%TO_DATE%%。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "您有 {{Count}}条未读通知"
+  },
+  "selfService": {
+    "installersList": {
+      "fileName": "文件名称",
+      "vendor": "供应商",
+      "version": "版本",
+      "title": "下载 ACD 安装程序"
+    },
+    "acdInstallerTitle": "ACD 安装程序",
+    "firstParagraph": "ACD 安装程序在 ACD（自动呼叫分配）系统和 EvolveWFM 之间建立连接。然后，EvolveWFM 就可以接收 ACD 事件并生成 RTA（实时遵守度）信息了。",
+    "instructionsHeader": "安装说明",
+    "instructions_1": "1. 通过自助服务、本地集成区域下载分发的安装程序",
+    "instructions_2": "2. 将下载的安装程序分发版解压到便于使用的位置（例如 C:/Temp/AvayaCMSInstaller）",
+    "instructions_3": "3. 若要开始安装，对于 Windows 系统，执行 install.bat，或者对于 Linux 系统，则执行 install.sh",
+    "instructions_4": "4. 按照安装程序向导配置您的 Avaya CMS ASC",
+    "generateKeyButton": "生成密钥",
+    "generateKeyHeader": "生成 API 密钥",
+    "generateKeyExplanation": "您必须以管理员身份生成 API 密钥",
+    "modal": {
+      "title": "输入您的 EvolveWFM 电子邮箱地址和密码，然后单击\"生成\"",
+      "result": "已成功生成 API 密钥",
+      "generateBtnText": "生成",
+      "email": "电子邮件地址",
+      "password": "密码",
+      "copyBtn": "复制到剪贴板",
+      "generate": "生成"
+    }
+  },
+  "activityCodes": {
+    "buttons": {
+      "addActivityCode": "新活动代码",
+      "deleteActivityCode": "删除"
+    },
+    "deleteMultipleConfirmation1": "选中的活动代码将从该列表中删除。",
+    "deleteMultipleConfirmation2": "这些活动的实例可能出现在调度器中，应单独删除。",
+    "deleteConfirmation1": "您将从系统中删除活动代码。",
+    "deleteConfirmation2": "历史实例将保留。",
+    "errorAdd": "创建活动代码时出错。",
+    "errorDelete": "删除活动代码时出错",
+    "errorMultipleDelete": "删除活动代码时出错。",
+    "errorUpdate": "更新活动代码时出错。",
+    "errorRead": "加载活动代码时出错。",
+    "pageTitle": "活动代码",
+    "items": "活动代码",
+    "item": "活动代码",
+    "fieldLabels": {
+      "name": "活动代码名称",
+      "category": "显示为",
+      "length": "默认长度",
+      "open": "打开",
+      "workHours": "工作小时数",
+      "overtime": "加班",
+      "priority": "优先权",
+      "acdEvents": "ACD 事件",
+      "shiftType": "班次类型"
+    },
+    "modal": {
+      "editTitle": "编辑活动代码",
+      "addTitle": "创建新活动代码",
+      "errors": {
+        "lengthRange": "输入 1 到 1,440 分钟之间的数字。",
+        "priorityRange": "优先输入 1 到 100 之间的数字。",
+        "uniqueTitle": "此名称已存在。尝试一个新的。",
+        "notValidRegex": "不能使用这些字符：^/!\\+<>?#&,%."
+      },
+      "fieldLabels": {
+        "attributes": "属性",
+        "category": "显示为",
+        "length": "默认长度（分钟）",
+        "open": "打开",
+        "overtime": "加班",
+        "priority": "优先权",
+        "title": "名称",
+        "workHours": "工作小时数",
+        "shiftType": "可以设置为班次类型"
+      },
+      "activate": {
+        "activityExistMsg": "系统检测到过去曾创建过同名活动。您可以重新激活此活动或创建一个具有不同名称的新活动。",
+        "activateBtn": "启动"
+      }
+    },
+    "serviceStatusMessages": {
+      "REUSED_EXISTING_ACTIVITY_CODE": "正在重新使用以前存在的同名活动代码。",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_TRUE": "活动代码名称不能更改为“{{activityCode.title}}”。以前存在同名的活动代码并已被删除。您可以使用此名称创建新的活动代码。",
+      "ACTIVITY_CODE_EXISTS_WITH_SOFT_DELETE": "名称不能更改。以前存在同名活动并已被删除。您可以使用此名称创建新活动。",
+      "NO_ACTIVITY_CODE_EXISTS": "不存在具有特定标题的活动代码。",
+      "ACTIVITY_WITH_TITLE_EXISTS": "已存在具有此标题的活动。",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_FALSE": "无法更改名称。存在软删除错误但唯一 ID 不匹配的同名活动。"
+    },
+    "successAdd": "已成功添加新活动代码",
+    "successDelete": "活动代码已成功删除",
+    "successDeleteMultiple": "活动代码已成功删除",
+    "successEdit": "活动代码已成功编辑"
+  },
+  "activityCodeDropdown": {
+    "placeholder": "选择一个活动代码..."
+  },
+  "expiredInvitationPage": {
+    "sorryHeader": "我们很抱歉...",
+    "explanationText1": "您的邀请已过期。",
+    "explanationText2": "我们已通知发件人，您可能很快就会收到新的邀请。"
+  },
+  "filter": {
+    "clearall": "全部清除",
+    "close": "关闭",
+    "clear": "清除"
+  },
+  "filterDropDown": {
+    "completed": "已完成",
+    "notCompleted": "未完成"
+  },
+  "successPage": {
+    "welcomeMsg": "您好{{username}}"
+  },
+  "importUsersModal": {
+    "header": "导入员工",
+    "weSupportMessage": "通过上传 CSV 文件导入员工。",
+    "downloadMessage1": "您可以在此处",
+    "downloadMessage2": "",
+    "downloadLink": "下载 CSV 文件的模板。",
+    "selectFileMessage": "",
+    "successMsg": "员工导入成功。",
+    "errorMsg": "无法导入员工。",
+    "importErrorsList": {
+      "header": "导入错误"
+    }
+  },
+  "createUserModal": {
+    "updateUserHeader": "编辑员工",
+    "createUserHeader": "创建新员工",
+    "popoverMessage1": " 所有更改都将丢失。",
+    "popoverMessage2": "您确定要退出而不保存吗？",
+    "errorMsg": "无法创建新员工。",
+    "successMsg": "员工创建成功！",
+    "updateErrorMsg": "无法创建新员工。",
+    "updateSuccessMsg": "员工更新成功！",
+    "acdLoginId": "ACD 登录 ID",
+    "maxLimitOfACD": "您不能输入超过 {{items}}个项目",
+    "reviveUserAlert": "已存在一个使用此电子邮件地址的帐户。您可以重新激活此帐户或使用不同的电子邮件地址创建一个新帐户",
+    "formLabels": {
+      "firstName": "名",
+      "lastName": "姓",
+      "email": "电子邮件地址",
+      "mobileNumber": "手机号码",
+      "assignToGroup": "已分配至排程单元",
+      "assignToGroups": "已分配至群组",
+      "assignToSkills": "已分配至技能",
+      "assignToGroupPlaceHolder": "未分配排程单元",
+      "maxHoursPerWeek": "最大值小时/周",
+      "rank": "级别",
+      "rankInterval": "1-999",
+      "timeZonePlaceHolder": "时区",
+      "country": "国家",
+      "countryPlaceholder": "选择国家/地区",
+      "hireDate": "聘用日期",
+      "role": "角色",
+      "rolePlaceholder": "选择角色",
+      "userPicture": "个人资料图片",
+      "upload": "上传",
+      "create": "创建员工",
+      "day": "天",
+      "month": "月",
+      "year": "年",
+      "roles": {
+        "employee": "员工",
+        "manager": "经理",
+        "admin": "管理员"
+      },
+      "groupsDropDown": "{{selectedCount}}个组",
+      "skillsDropDown": "{{selectedCount}}项技能"
+    },
+    "skillsTab": {
+      "header": "选择技能",
+      "assignedTxt": "已分配的技能",
+      "addBtn": "增加",
+      "selectTxt": "选择员工",
+      "selectedTxt": "选择："
+    }
+  },
+  "generalErrorMessages": {
+    "required": "要求必须填写此字段。",
+    "minLength": "您的条目太短",
+    "nameFieldValidation": "糟糕，您不能使用 \\ / ! + < > ? # & , % \"",
+    "maxLength": "您的条目太长",
+    "email": "您输入的电子邮件地址无效",
+    "emailExists": "电子邮件地址已存在。请尝试一个新的电子邮件地址",
+    "number": "仅限数字！",
+    "pattern": "此字段的格式不正确",
+    "password": "密码必须至少由 8 个字符组成，其中包含至少 1 个数字和 1 个大写字母",
+    "match": "此密码与之前输入的密码不符",
+    "minLengthPassword": "密码必须至少包含 8 个字符",
+    "maxLengthPassword": "您的密码太长",
+    "min": "数字太小",
+    "max": "数字太大",
+    "uniqueString": "此名称已存在。尝试一个新的。",
+    "lowerThen": "最小值不能超过最大值",
+    "weeklyMaxLowerThanSumDailyMin": "每日规则要求的最小天数超过了每周规则中的最大天数。",
+    "weeklyMinGreaterThanSumDailyMax": "每周规则中的最小天数超过了每日规则要求的最大天数。",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "每日最小组合的总小时数不能大于每周的最大总小时数",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "每日最大组合的总小时数不能小于每周的最小总小时数",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最小天数超过唯一天数的总数。",
+    "possibleDaysLowerThanMinDays": "可能的天数不符合每周规则要求的最少天数。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "每周规则中的最小天数超过了唯一天数的数量。",
+    "noAddedShiftPatters": "您必须至少选择一项每日规则",
+    "shiftLengthLowerThanActivityLength": "活动时长和相对开始的总和不能大于班次时长",
+    "shiftLengthLowerThanTotalActivityLength": "活动总时长不能超过班次时长",
+    "relativeStartLowerThanSlack": "空闲时间不能大于相对起始值",
+    "activitiesOverlap": "活动不能重叠",
+    "serverError": "未知服务器错误",
+    "generalError": "常规错误",
+    "missingPermissionError": "您没有执行此操作的正确权限。"
+  },
+  "metaInfo": {
+    "selfService": {
+      "title": "支持 - 下载"
+    },
+    "title": "Nice SaaS WFM",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "登录",
+      "description": "Nice SaaS WFM"
+    },
+    "success": {
+      "title": "成功",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "示例",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "表单示例",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "员工",
+      "description": "Nice SaaS WFM"
+    },
+    "createAccount": {
+      "title": "创建帐户",
+      "description": "Nice SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "活动代码",
+      "description": "Nice SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " ACD 映射",
+      "description": "Nice SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "每日规则",
+      "description": "Nice SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "调度单元",
+      "description": "Nice SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "过期邀请",
+      "description": "Nice SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "生成计划表",
+      "description": "Nice SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "我的计划",
+      "description": "Nice SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "My Dashboard",
+      "description": "Nice SaaS WFM"
+    },
+    "categoryManager": {
+      "title": "分类管理器",
+      "description": "Nice SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "用户界面套件库",
+      "description": "Nice SaaS WFM",
+      "userRoles": "{{selectedCount}} 员工角色"
+    },
+    "manageForms": {
+      "title": "表单管理器",
+      "description": "Nice SaaS WFM"
+    },
+    "templateManager": {
+      "title": "模板管理器",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "表单设计器",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesignerOld": {
+      "title": "表单设计器",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesignerNew": {
+      "title": "表单设计器",
+      "description": "Nice SaaS WFM"
+    },
+    "qpPlanManager": {
+      "title": "质量规划程序",
+      "description": "质量规划程序"
+    },
+    "qpPlanDetails": {
+      "title": "质量规划程序",
+      "description": "质量规划程序"
+    },
+    "workflowFormSelector": {
+      "title": "工作流表单选择器",
+      "description": "工作流表单选择器"
+    },
+    "interactionPlayer": {
+      "title": "交互播放器",
+      "description": "交互播放器"
+    },
+    "planDetails": {
+      "title": "计划监控详情",
+      "description": "计划监控详情"
+    },
+    "ng1FormDesignerPage": {
+      "title": "表单设计器",
+      "description": "Nice SaaS WFM"
+    },
+    "ng2FormDesignerPage": {
+      "title": "表单设计器",
+      "description": "Nice SaaS WFM"
+    },
+    "qmScoreMetric": {
+      "title": "QM 评分指标",
+      "description": "QM 评分指标"
+    },
+    "qpPlanDetailsTicket": {
+      "title": "质量规划程序票证",
+      "description": "质量规划程序票证"
+    }
+  },
+  "commonButtons": {
+    "ok": "确定",
+    "cancel": "取消",
+    "no": "否",
+    "yes": "是",
+    "save": "保存",
+    "delete": "删除",
+    "activate": "启动",
+    "saveAndActivate": "保存和激活",
+    "saveAsDraft": "保存为草稿",
+    "invite": "邀请",
+    "edit": "编辑",
+    "update": "更新",
+    "upload": "上传",
+    "today": "今天",
+    "showAll": "显示全部",
+    "clearAll": "全部清除",
+    "close": "关闭",
+    "create": "创建",
+    "selectAll": "全选",
+    "generate": "生成",
+    "chooseFile": "选择文件",
+    "add": "增加",
+    "publish": "发布",
+    "set": "设置",
+    "reset": "重置",
+    "day": "天",
+    "week": "周",
+    "done": "已完成",
+    "download": "下载"
+  },
+  "languages": {
+    "english": "英语",
+    "russian": "俄语",
+    "spanish": "西班牙语",
+    "chinese": "中文"
+  },
+  "weekDays": {
+    "sunday": "周日",
+    "monday": "周一",
+    "tuesday": "周二",
+    "wednesday": "周三",
+    "thursday": "周四",
+    "friday": "周五",
+    "saturday": "周六"
+  },
+  "weekShortDays": {
+    "SUN": "星期天",
+    "MON": "星期一",
+    "TUE": "星期二",
+    "WED": "星期三",
+    "THU": "星期四",
+    "FRI": "星期五",
+    "SAT": "星期六"
+  },
+  "globalNavigation": {
+    "wfmHeader": {
+      "contactUs": "联系我们",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "登出",
+      "changePasswordOption": "更改密码",
+      "accountSetupOption": "账户设置",
+      "myProfileOption": "我的配置文件",
+      "help": "帮助",
+      "selfService": "支持 - 下载"
+    },
+    "sideBar": {
+      "setupAppName": "ADMIN",
+      "setupAppLinks": {
+        "users": "员工",
+        "skills": "技能",
+        "groups": "组"
+      },
+      "schedulerAppName": "调度器",
+      "schedulerAppLinks": {
+        "activityCodes": "活动代码",
+        "realTimeAdherence": "实时坚持",
+        "acdActivitiesMapping": " ACD 映射",
+        "managementUnits": "调度单元",
+        "scheduler": "计划安排管理器",
+        "generateSchedule": "生成计划表",
+        "dailyRule": "每日规则",
+        "weeklyRules": "每周规则",
+        "forecastData": "导入预测数据"
+      },
+      "mySpaceAppName": "我的空间",
+      "mySpaceAppLinks": {
+        "mySchedule": "我的计划",
+        "myDashboard": "My Dashboard",
+        "myTasks": "我的任务",
+        "myEvaluations": "我的评估",
+        "performanceMonitoring": "绩效监控",
+        "plansMonitoring": "计划监控",
+        "calibration": "校准"
+      },
+      "formManagerAppName": "QM 工具",
+      "formManagerAppLinks": {
+        "manageForms": "表单管理器",
+        "formDesigner": "表单设计器",
+        "qpPlanManager": "质量规划程序",
+        "templateManager": "模板管理器"
+      }
+    }
+  },
+  "mySchedule": {
+    "errorRead": "加载计划时发生错误。",
+    "pageTitle": "我的计划",
+    "userName": "{{userName}}"
+  },
+  "datePicker": {
+    "nextDay": "次日",
+    "openCalendar": "打开日历",
+    "previousDay": "前一天",
+    "today": "今天"
+  },
+  "timePicker": {
+    "openTimePicker": "打开时间选择器"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "次日",
+    "openCalendar": "打开日历",
+    "openTimeChooser": "打开时间选取器",
+    "previousDay": "前一天",
+    "today": "今天"
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "登录失败"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "常规错误"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "此页面不可用。请检查您的连接并重试。"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "常规错误{{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "无效参数"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "未授权员工"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "服务器没有响应。请稍后再试。"
+    },
+    "wrongCredentials": "您输入的电子邮件地址或密码不正确",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部错误。"
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "排程单元不存在。"
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "此名称已存在。尝试一个新的。"
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "此租户或员工已存在。请尝试一个新的租户或员工。"
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "电子邮件地址已存在。请尝试一个新的电子邮件地址"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "文件不存在。"
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "员工不存在"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "没有可邀请的员工。"
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "员工创建失败。"
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "员工身份无效"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "组织名称无效。"
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "电子邮件地址无效。"
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "员工名字无效。"
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "员工姓氏无效。"
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "无法删除默认排程单元。"
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "缺少排程单元 ID。"
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "员工最大工作小时数超出范围。"
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "员工密码无效。"
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "无法更新默认群组。"
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "无法从默认群组中删除员工。"
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "员工密码不正确。"
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "员工不存在。"
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "您不能删除您自己的员工。"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "您不能删除唯一的管理员"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "您不能删除已被删除的员工"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "无效的密码令牌"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "帐户创建失败"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "组织名称无效"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "不支持该文件格式"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "您无权更改角色"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "你不能改变自己的角色"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "无法删除上一个管理员。"
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "此名称已存在。尝试一个新的。"
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "无法更改密码，因为旧密码和新密码相同。"
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "请检查您的详细信息，然后重试"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD 登录 ID 已存在"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "新员工将超过用户限制，请联系销售人员 CXoneSalesTeam@niceincontact.com"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部错误。"
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "此名称已存在。尝试一个新的。"
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "技能不存在。"
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "一名员工的技能不能超过 50 项。"
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "技能名称无效"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "每周规则为空"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "每周规则错误"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "每周规则天数范围错误"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "每周规则小时数范围错误"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "VALUE OF MAX SHIFTS OF WEEKLY RULE IS LOWER THAN TOTAL OF MIN DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "VALUE OF MIN SHIFTS OF WEEKLY RULE IS GREATER THAN TOTAL OF MAX DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "TOTAL SUM OF DAILY MIN HOURS IS BIGGER THAN WEEKLY MAX HOURS"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "TOTAL SUM OF DAILY MAX HOURS IS LOWER THAN WEEKLY MIN HOURS"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "TOTAL SUM OF POSSIBLE DAYS IS LOWER THAN THE CORRESPONDING MIN DAY OF THE DAILY RULE"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN THE TOTAL SUM OF MIN SHIFTS PER DAILY RULE"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "NO NAME FOR WEEKLY RULE WAS GIVEN"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "DAILY RULES ARE EMPTY"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN MINIMUM SHIFTS PER WEEK"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "日期格式无效"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "两个日期之间的时间段无效"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "发生内部服务器错误"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "发生了一个内部错误"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "不支持该文件格式"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "无法读取文件中的记录"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "找不到预期的列标题。查看样本文件。"
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "系统中缺少技能"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "文件中缺少排程单元"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "每日最早开始时间晚于最晚开始时间"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "增量格式错误"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "每日规则开始时间不在正确范围内"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "每日活动长度大于每日规则长度"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack format is wrong"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "相对开始时间是较低的空闲时间"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "活动时长总和大于每日时长"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "不存在有效的活动组合"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "活动代码超出每日规则班次"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "不支持该文件格式"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "活动代码名称无效"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "排程单元中的时区错误"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "无法删除默认活动代码"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "请选择一个模板"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "模板 ID 无效"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "表单名称已存在"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部错误。"
+    },
+    "qp_data_service_1": {
+      "code": "DUPLICATE_PLAN_NAME_ERROR",
+      "message": "计划名称已存在"
+    },
+    "qp_data_service_12": {
+      "code": "FORM_NOT_ACTIVE",
+      "message": "评估表单未激活。"
+    },
+    "qp_data_service_10": {
+      "code": "Invalid License",
+      "message": "Invalid License"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "未找到匹配项",
+    "modal": {
+      "employeeTab": "尚未分配员工"
+    }
+  },
+  "uikitGallery": {
+    "userCount": "{{count}}名员工",
+    "selectedCount": "已选择 {{count}}",
+    "searchPlaceholder": "开始输入以查找员工"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "排程单元"
+  },
+  "ng2ManageFormsPage": {
+    "pageTitle": "表单管理器",
+    "createForm": "新表单",
+    "omnibar": {
+      "itemCount": "{{ count }} 个表单",
+      "itemLabel": "表单",
+      "itemsLabel": "表单",
+      "selectedItemCount": "{{ count }}选择",
+      "searchPlaceholder": "开始输入以查找表单",
+      "bulkOperations": {
+        "activate": "启动",
+        "deactivate": "停用",
+        "delete": "删除"
+      }
+    },
+    "columnHeaders": {
+      "title": "表单名称",
+      "version": "版本",
+      "lastModified": "最后修改",
+      "createdBy": "创建人",
+      "status": "状态",
+      "actions": "操作"
+    },
+    "noRowsText": "未找到匹配项",
+    "active": "活跃",
+    "inactive": "不活动",
+    "draft": "草稿",
+    "change": "更改",
+    "cancel": "取消",
+    "message": {
+      "successPublish": "表单已成功激活。",
+      "successUnpublish": "表单已成功停用。",
+      "successDelete": "表单已成功删除。",
+      "successRename": "表单已成功重命名。",
+      "alreadyPublished": "表单已激活。",
+      "alreadyUnpublished": "一些表单为草稿或非活动状态，无法停用。激活表单并重试。",
+      "multiFormDelete": "某些表单处于活动状态，无法删除。停用表单并重试。",
+      "noFormToDelete": "没有可删除的表格。",
+      "failAdd": "添加新表单失败。再试一次。",
+      "failedRename": "表单名称已存在。",
+      "failedUpdate": "表单更新失败。",
+      "successDuplicate": "表单复制成功。",
+      "successMultiPublish": "表单已成功激活。",
+      "singleFormDelete": "无法删除活动的表单。您需要先停用表单",
+      "publishErrorNoWorkflowSettings": "激活失败。必须定义工作流设置",
+      "publishErrorNoWorkflowSettingsMulti": "某些表单激活失败。必须为这些表单定义工作流设置"
+    },
+    "popover": {
+      "messagePublish": "激活所选表格？",
+      "messageUnpublish": {
+        "line1": "停用表格？",
+        "line2": "这可能会影响现有的工作流程。"
+      },
+      "deleteSelectedFormsMsg": {
+        "line1": "删除选中的表单？",
+        "line2": "此操作无法撤消，并且可能会影响现有的工作流程。"
+      },
+      "deleteSingleFormMsg": "删除选中的表单？此操作无法撤消，并且可能会影响现有的工作流程。",
+      "activeFormsCannotBeDeleted": "无法删除活动的表单。停用表单并重试。",
+      "deleteSingleDraftFormMsg": "删除选中的表单？此操作无法撤消。",
+      "activate": "启动",
+      "deactivate": "停用",
+      "duplicate": "重复",
+      "rename": "重命名"
+    },
+    "saveDuplicateFormModal": {
+      "addHeader": "复制表格",
+      "subHeading": "表单名称",
+      "errors": {
+        "uniqueTitle": "此名称已存在。尝试一个新的。"
+      }
+    },
+    "renameFormModal": {
+      "header": "重命名表单",
+      "subHeading": "表单名称"
+    }
+  },
+  "manageFormsPage": {
+    "pageTitle": "表单管理器",
+    "createForm": "新表单",
+    "items": "表单",
+    "item": "表单",
+    "noItemsOverlay": "未找到匹配项",
+    "errorRead": "加载表单时出错",
+    "modals": {
+      "cancel": "取消",
+      "change": "更改"
+    },
+    "EVALUATION": {
+      "saveDuplicateFormModal": {
+        "addHeader": "复制表格",
+        "subHeading": "表单名称",
+        "errors": {
+          "uniqueTitle": "此名称已存在。尝试一个新的。"
+        }
+      },
+      "renameFormModal": {
+        "header": "重命名表单",
+        "subHeading": "表单名称"
+      },
+      "gridColumnsHeaders": {
+        "title": "表单名称"
+      },
+      "itemCount": "{{count}} 个表单",
+      "itemSearchPlaceholder": "开始输入以查找表单",
+      "successAdd": "表单添加成功。",
+      "successDuplicate": "表单复制成功。",
+      "failAdd": "添加新表单失败。再试一次。",
+      "successPublish": "表单已成功激活。",
+      "successUnpublish": "表单已成功停用。",
+      "successDelete": "表单已成功删除。",
+      "successMultiPublish": "表单已成功激活。",
+      "successRename": "表单已成功重命名。",
+      "failedRename": "表单名称已存在。",
+      "popover": {
+        "messagePublish": "激活所选表格？",
+        "messageUnpublish": "停用表格？这可能会影响现有的工作流程。",
+        "deleteSelectedFormsMsg": "删除选中的表单？此操作无法撤消，并且可能会影响现有的工作流程。",
+        "deleteSingleFormMsg": "删除选中的表单？此操作无法撤消，并且可能会影响现有的工作流程。",
+        "activeFormsCannotBeDeleted": "无法删除活动的表单。停用表单并重试。",
+        "deleteSingleDraftFormMsg": "删除选中的表单？此操作无法撤消。"
+      },
+      "errorMsg": {
+        "alreadyPublished": "表单已激活。",
+        "alreadyUnpublished": "一些表单为草稿或非活动状态，无法停用。激活表单并重试。",
+        "multiFormDelete": "某些表单处于活动状态，无法删除。停用表单并重试。",
+        "noFormToDelete": "没有可删除的表格。"
+      }
+    },
+    "gridColumnsHeaders": {
+      "form": "表单名称",
+      "status": "状态",
+      "lastModified": "最后修改",
+      "createdBy": "创建人",
+      "actions": "操作",
+      "active": "活跃",
+      "inactive": "不活动",
+      "draft": "草稿",
+      "version": "版本",
+      "bulkOperationsBtns": {
+        "activate": "启动",
+        "delete": "删除",
+        "deactivate": "停用"
+      }
+    },
+    "moreMenu": {
+      "activate": "启动",
+      "deactivate": "停用",
+      "duplicate": "重复",
+      "rename": "重命名"
+    },
+    "successRename": "表单已成功重命名",
+    "errorMsg": {
+      "singleFormDelete": "无法删除活动的表单。您需要先停用表单",
+      "publishErrorNoWorkflowSettings": "激活失败。必须定义工作流设置",
+      "publishErrorNoWorkflowSettingsMulti": "某些表单激活失败。必须为这些表单定义工作流设置"
+    }
+  },
+  "formDesignerPage": {
+    "pageTitle": "创建新表单",
+    "manageFormsBreadcrumb": "表单管理器",
+    "saveAsDraft": "保存为草稿",
+    "save": "保存",
+    "score": "分数",
+    "sectionScore": "部分分数",
+    "activate": "保存和激活",
+    "inActivate": "禁用",
+    "cancel": "取消",
+    "close": "关闭",
+    "preview": "预览",
+    "errorRead": "加载表单设计器时出错",
+    "errorInteraction": "没有可用的交互",
+    "errorLoadingLogo": "无法加载表单徽标",
+    "errorLoadingHeader": "无法加载标头",
+    "criticalQuestionsValidationError": "{{ count }} 个问题有错误。请再次验证并保存",
+    "criticalQuestionValidationError": "请定义至少一个正确和一个错误的答案",
+    "criticalQuestionEnableScoringHelpHeader": "启用评分",
+    "criticalQuestionEnableScoringHelpText": "启用评分以将此问题标记为关键。",
+    "criticalQuestionHelpHeader": "关键问题",
+    "criticalQuestionHelpText": "该问题涉及交互的关键元素。未能正确回答关键问题将导致座席分数不合格。",
+    "criticalQuestionAnswersHelpText": "标记将导致分数不合格的答案。您必须至少定义一个错误答案和一个正确答案。",
+    "criticalQuestionAnswersErrorMessage": "您必须至少定义一个正确答案和一个错误答案。",
+    "criticalQuestionToolTip": "这是一个关键问题。回答错误会使分数重置为 0。",
+    "formTitle": {
+      "title": "输入标题",
+      "subTitle": "输入副标题"
+    },
+    "saveFormModal": {
+      "saveFormHeader": "保存表单",
+      "activeFormHeader": "激活表单",
+      "formPlaceholder": "输入表单名称",
+      "popover": {
+        "message1": "所有更改都将丢失",
+        "message2": "您确定要退出而不保存吗？"
+      }
+    },
+    "scoreFormModal": {
+      "addHeader": "评分",
+      "enableScoring": "启用评分",
+      "calculatedScore": "计算出的加权分数",
+      "currentPoints": "当前分数",
+      "maxPoints": "最高分数：",
+      "maxScoreZeroMessage": "最低分数必须大于 0",
+      "scorable": "可计分",
+      "outOf": "的",
+      "saveLabel": "保存",
+      "setScoring": "设置评分",
+      "setRanking": "设置评级",
+      "enableRanking": "启用评级",
+      "rankingNoteMsg": "注意：使用评级将取代分数显示",
+      "setRangeFormScore": "设置表单分数的范围",
+      "from": "来自",
+      "to": "到",
+      "display": "显示",
+      "drpDwnPlaceHolder": "%",
+      "add": "+ 添加",
+      "ranking": {
+        "defaultFailedLabel": "失败",
+        "defaultPassedLabel": "合格",
+        "validationMsg": {
+          "emptyRange": "范围为空",
+          "completeRange": "范围无效。定义的范围总和必须为 100%",
+          "invalidRange": "无效范围",
+          "requiredField": "必填字段"
+        }
+      }
+    },
+    "selectTemplateModal": {
+      "selectThemeHeader": "更改模板",
+      "selectThemeMsg": "为表单选择一个模板",
+      "customDisclaimer": "注意：您所做的任何自定义都将被重置"
+    },
+    "elementListComponent": {
+      "component": "元素",
+      "selectOption": " {{selectedCount}} 个选项",
+      "errorMsg": "此字段为必填项",
+      "invalidDate": "无效日期",
+      "invalidTime": "无效时间",
+      "characters": "字符"
+    },
+    "elementAttributeComponent": {
+      "properties": "属性",
+      "NA": "不适用",
+      "label": "标题",
+      "text": "文本",
+      "question": "问题",
+      "subText": "说明",
+      "url": "URL",
+      "prePopulatedHintText": "提示文本",
+      "limitCharacters": "字符限制",
+      "mandatory": "必填",
+      "criticalQuestion": "标记为关键",
+      "visible": "可见",
+      "layout": "布局",
+      "vertical": "垂直",
+      "horizontal": "水平",
+      "choices": "选择",
+      "fontType": "字体",
+      "fontSize": "尺寸",
+      "fontIndent": "对齐",
+      "fontColor": "标签颜色",
+      "fontStyle": "样式",
+      "addMultiple": "添加多个",
+      "italics": "斜体",
+      "bold": "加粗",
+      "underline": "下划线",
+      "backgroundColor": "背景颜色",
+      "useNA": "使用 N/A",
+      "dateLabel": "日期",
+      "timeLabel": "时间",
+      "setCurrentDate": "使用当前日期",
+      "dateFormat": "日期格式",
+      "displayDate": "显示日期",
+      "setCurrentTime": "使用当前时间",
+      "startTime": "标准偏差",
+      "single": "单选",
+      "multiple": "多选",
+      "addList": "数值列表",
+      "image": "图像",
+      "fileUploadErrorExtensionMsg": "文件类型无效。支持的格式：JPG、PNG、GIF、BMP、JPEG",
+      "fileUploadSizeErrorMsg": "文件太大。文件必须小于 2 MB",
+      "logic": "逻辑",
+      "addRule": "+ 添加规则",
+      "rule": "规则",
+      "width": "宽度",
+      "height": "高度",
+      "px": "(px)",
+      "aspectRatio": "锁定长宽比",
+      "header": "标题",
+      "subTitle": "副标题",
+      "browse": "浏览",
+      "headerFields": {
+        "headerFieldsLabel": "标头字段",
+        "headerFieldSelectedOption": " 已选择 {{selectedCount}}",
+        "AgentName": "坐席姓名",
+        "ReviewDate": "审查日期",
+        "StartDate": "评估开始日期",
+        "Duration": "交互持续时间",
+        "HireDate": "聘用日期",
+        "InteractionDate": "交互日期",
+        "failLoadHeaderFields": "无法加载标头字段。再试一次",
+        "SegmentId": "分段 ID",
+        "SegmentContactId": "通话 ID"
+      }
+    },
+    "dateTimeComponent": {
+      "at": "位于"
+    },
+    "workFlowSettingsModal": {
+      "header": "设置",
+      "workflow": "工作流",
+      "agentCanReview": "坐席可以审查",
+      "agentCanAcknowledge": "坐席可以确认",
+      "agentCanRequestReview": "坐席可以请求审查",
+      "assignedEvaluator": "指定的评估员",
+      "specificEvaluator": "一名特定的人员：",
+      "agentCanViewScoring": "向坐席显示分数",
+      "successSave": "已成功设置工作流设置",
+      "successUpdate": "已成功更新工作流设置",
+      "workflowStartError": "启动工作流时出错",
+      "qpInteractionsFetchError": "无法获取分配的交互",
+      "workflowInteractionsFetchError": "无法获取评估的交互",
+      "noOptionSelectedErrorMessage": "此字段为必填项",
+      "getUser": {
+        "error": "检索用户失败"
+      }
+    },
+    "warningMessageModal": {
+      "title": "离开页面？",
+      "unsavedChanges": "您有未保存的数据。",
+      "areYouSureLeavePage": "确定未保存就退出吗？"
+    },
+    "criticalQuestionMessageModal": {
+      "title": "规则无效",
+      "message1": "将此问题标记为关键会使某些规则无效并加以删除。",
+      "message2": "是否确定要继续？"
+    },
+    "criticalQuestionScoringMessageModal": {
+      "message1": "你已禁用评分。立即保存将删除所有关键问题。",
+      "message2": "是否确定要继续？"
+    },
+    "createEditRuleModal": {
+      "header": "设置规则",
+      "ifSelection": "如果选择",
+      "ifThe": "如果",
+      "addAnotherRule": "添加另一个规则",
+      "hide": "隐藏"
+    },
+    "deleteRuleWarningModal": {
+      "title": "已删除无效规则",
+      "rulesRemoved": "对表单问题重新排序会使一些规则无效并加以删除。",
+      "wantsToRevert": "您要撤消这些更改吗？"
+    },
+    "successAdd": "已成功添加新表单",
+    "successPublish": "表单已成功激活。",
+    "failAdd": "添加新表单失败",
+    "failPublish": "激活新表单失败",
+    "failedRename": "表单名称已存在。",
+    "failLoadElements": "加载表单元素失败。再试一次。",
+    "EVALUATION": {
+      "successAdd": "表单添加成功。",
+      "successEdit": "表单编辑成功。",
+      "failAdd": "添加新表单失败。再试一次。",
+      "saveFormModal": {
+        "saveFormHeader": "保存表单",
+        "activeFormHeader": "激活表单",
+        "formPlaceholder": "输入表单名称"
+      },
+      "testFormModal": {
+        "header": "测试表单",
+        "submit": "生效"
+      },
+      "popover": {
+        "savePublishFormMsg": "编辑活动表单？此操作不会影响已在使用的表单。"
+      }
+    },
+    "questionBank": {
+      "questionBank": "问题库",
+      "elements": "元素",
+      "searchBank": "搜索库",
+      "deleteQuestionPopoverMsg": "您将要删除所选问题。此操作无法撤消。是否继续？",
+      "failedLoadQuestionBank": "无法加载问题。请稍后再试",
+      "questionDeleteSuccess": "问题已成功删除",
+      "questionDeleteFailed": "问题未被删除。请稍后再试",
+      "questionSaveSuccess": "问题已成功保存",
+      "duplicateQuestion": "此题已存在于题库中",
+      "saveQuestionFailed": "问题未保存。请稍后再试"
+    },
+    "elementType": {
+      "section": "部分",
+      "yesno": "是/否",
+      "checkbox": "复选框",
+      "radio": "无线电",
+      "datetime": "日期/时间",
+      "dropdown": "下拉菜单",
+      "hyperlink": "超链接",
+      "label": "标签",
+      "text": "短文本",
+      "textarea": "长文本",
+      "header": "标题",
+      "attachment": "附件",
+      "interactions": "交互"
+    },
+    "toolTips": {
+      "saveToBank": "保存至题库",
+      "duplicate": "重复",
+      "logic": "定义规则",
+      "scoring": "定义评分",
+      "settings": "设置",
+      "expand": "展开",
+      "collapse": "折叠"
+    },
+    "example": "示例",
+    "objectiveExample": "1. 坐席将学习上报协议",
+    "labels": "标签",
+    "objectives": "目标",
+    "duration": "持续时间",
+    "durationErrorMsg": "此字段为必填项",
+    "hour": "h",
+    "minutes": "m",
+    "attachment": {
+      "insertFile": "插入文件",
+      "tooBigToUpload": "太大，所以无法上传。",
+      "maxFileSize": "文件必须小于 {{maxSize}}。",
+      "fileUploadProgress": "{{loaded}} 个，总计 {{total}} 个",
+      "failedFileUpload": "上传文件失败。请再试一次。",
+      "fileTypeMismatch": "无法上传文件。文件类型和扩展名不匹配。请再试一次。",
+      "fileTypeNotAllowed": "无法上传文件。文件类型不受支持。",
+      "fileSizeExceeded": "无法上传文件。该文件超过了 15 MB 的限制。",
+      "zeroFileSizeError": "无法上传文件。您选择的文件是空的。请再试一次。",
+      "dragAndDropElement": "拖放上传或",
+      "browseForFile": "浏览文件",
+      "scanningFile": "正在扫描文件是否包含病毒，请稍候....",
+      "fileCorrupted": "文件已损坏或感染病毒。",
+      "linkTextLabel": "链接文本",
+      "uploadFile": "上传文件",
+      "progressBarText": "进度",
+      "mandatoryFieldText": "此字段为必填项"
+    },
+    "interactions": {
+      "interactionsBtn": "添加交互",
+      "type": "类型",
+      "agentName": "坐席姓名",
+      "startDateAndTime": "开始日期和时间",
+      "duration": "持续时间"
+    },
+    "info": {
+      "required": "必填",
+      "critical": "关键"
+    },
+    "compareMode": {
+      "questionNotApplicable": "该问题不适用",
+      "sectionNotApplicable": "该部分不适用"
+    }
+  },
+  "formManager": {
+    "formStatus": {
+      "draft": "草稿",
+      "published": "已发布",
+      "deleted": "已删除",
+      "disabled": "已禁用"
+    },
+    "elementType": {
+      "formArea": "表单区域",
+      "section": "部分",
+      "dateTime": "日期时间",
+      "dropdown": "下拉菜单",
+      "hyperlink": "超链接",
+      "radio": "无线电",
+      "yesno": "是否",
+      "label": "标签"
+    },
+    "dropdownType": {
+      "single": "单",
+      "multiple": "多个"
+    },
+    "logicMode": {
+      "newRule": "新规则",
+      "singleEdit": "单个编辑",
+      "bulkEdit": "批量编辑"
+    }
+  },
+  "templateManagerPage": {
+    "pageTitle": "模板管理器",
+    "createTemplate": "新模板",
+    "items": "表单",
+    "item": "表单"
+  },
+  "qpWidget": {
+    "qpWidgetEvaluatorHeader": "我的任务",
+    "noItemsOverlay": "未找到匹配项",
+    "gridColumnsHeaders": {
+      "interactionId": "交互 ID",
+      "type": "类型",
+      "agentName": "座席员姓名",
+      "startTime": "交互开始",
+      "duration": "持续时间",
+      "status": "状态",
+      "evaluationStatus": "评估状态",
+      "evaluationDate": "评估日期",
+      "score": "分数"
+    },
+    "qpInteractionEvalStatus": {
+      "pending": "待评估",
+      "inProgress": "进行中",
+      "assigned": "已分配"
+    }
+  },
+  "designerComponent": {
+    "templateOptions": "模板选项",
+    "createTemplate": "新模板",
+    "selectTemplate": "选择模板",
+    "EVALUATION": {
+      "testForm": "测试表单"
+    },
+    "COACHING": {
+      "testForm": "测试包"
+    }
+  },
+  "manageTemplatePage": {
+    "pageTitle": "",
+    "createTemplateModal": {
+      "header": "新模板",
+      "successMsg": "模板创建成功",
+      "logoErrorMsg": "徽标上传失败",
+      "logoFileMsg": "您必须选择正确的文件才能上传",
+      "errorMsg": "创建模板失败",
+      "duplicateTemplate": "模板已存在",
+      "templatePlaceholder": "输入模板名称",
+      "headerImage": "标头图像",
+      "setDefaultTemplate": "将此模板设置为默认值",
+      "setBgColor": "背景颜色",
+      "popover": {
+        "message1": "所有更改都将丢失",
+        "message2": "您确定要退出而不保存吗？"
+      },
+      "numbering": "编号",
+      "enableNumbering": "已启用。"
+    },
+    "tabs": {
+      "design": "设计",
+      "settings": "设置"
+    }
+  },
+  "teamsAndGroups": {
+    "teams": "团队",
+    "groups": "组",
+    "selectTeams": "选择团队",
+    "selectGroups": "选择组",
+    "errorMessages": {
+      "required": "您必须至少选择一个团队"
+    }
+  },
+  "messages": {
+    "noResultsText": "我们未找到任何结果"
+  },
+  "categoryManagerPage": {
+    "pageTitle": "分类管理器"
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "请选择一个表单开始执行：",
+    "select": "选择",
+    "change": "更改",
+    "noFormsMsg": "没有可用的表单。",
+    "selectFormHeader": "选择表单",
+    "changeFormHeader": "更改表单",
+    "noFormInPlanMessage": "选择一个表单进行评估。",
+    "disabledFormInPlanMessage": "选择一个表单进行评估。"
+  },
+  "workflowStatuses": {
+    "Claimed": "已领取",
+    "InProgress": "进行中",
+    "Dispute": "争议",
+    "InReview": "正在审查",
+    "Request_Review": "请求审查",
+    "Pending_Acknowledgement": "待确认",
+    "Completed": "已完成",
+    "Completed_Acknowledged": "已完成并确认",
+    "Reviewed_and_Completed": "已审查并完成"
+  },
+  "workflowStatusUI": {
+    "Assigned": "新",
+    "Claimed": "新",
+    "InProgress": "草稿",
+    "Dispute": "已提出挑战",
+    "InReview": "已提出挑战",
+    "Request_Review": "已提出挑战",
+    "Pending_Acknowledgement": "新",
+    "Completed": "已完成",
+    "Completed_Acknowledged": "已完成",
+    "Reviewed_and_Completed": "已完成审查",
+    "Completed_and_Not_Reviewed": "已完成但未审查",
+    "Completed_and_Reviewed": "已完成并通过审查",
+    "selfAssessment": {
+      "new": "新",
+      "draft": "草稿",
+      "completed": "已完成",
+      "expired": "已过期"
+    },
+    "Expired": "已过期",
+    "Auto-acknowledged": "自动确认",
+    "Sent_To_Agent": "已提交",
+    "WaitingForEvaluator": "等待评估员",
+    "WaitingForAgent": "等待坐席",
+    "PartiallyCompleted": "部分完成"
+  },
+  "workflowType": {
+    "evaluations": "评估"
+  },
+  "formDesignerElements": {
+    "section": {
+      "title": "部分",
+      "tooltipContent": "在表单中创建一个部分。您可以在该部分中组织问题。",
+      "questionTitle": "设置标题"
+    },
+    "yesno": {
+      "title": "是/否",
+      "tooltipContent": "在表单中添加是/否问题。评估员可以选择一个答案。这是一个可计分项。",
+      "questionTitle": "设置问题",
+      "choice": {
+        "yes": "是",
+        "no": "否"
+      }
+    },
+    "checkbox": {
+      "title": "复选框",
+      "tooltipContent": "添加带有触发选项的问题。评估员可以选择一个或多个选项。这是一个可计分项。",
+      "questionTitle": "设置问题",
+      "choice": {
+        "choice1": "选择 1",
+        "choice2": "选择 2"
+      }
+    },
+    "radio": {
+      "title": "无线电",
+      "tooltipContent": "添加一个问题和几个选项。评估员可以选择一个选项。这是一个可计分项。",
+      "questionTitle": "设置问题",
+      "choice": {
+        "choice1": "选择 1",
+        "choice2": "选择 2"
+      }
+    },
+    "datetime": {
+      "title": "日期/时间",
+      "tooltipContent": "添加日期/时间选取器。",
+      "questionTitle": "设置问题",
+      "timeQuestionTitle": "设置问题"
+    },
+    "dropdown": {
+      "title": "下拉菜单",
+      "tooltipContent": "添加一个包含可能答案列表的问题。评估员可以选择一个或多个答案。",
+      "questionTitle": "设置问题",
+      "choice": {
+        "choice1": "选择 1",
+        "choice2": "选择 2"
+      }
+    },
+    "hyperlink": {
+      "title": "超链接",
+      "tooltipContent": "在表单中创建一个超链接。",
+      "questionTitle": "输入文本"
+    },
+    "label": {
+      "title": "标签",
+      "tooltipContent": "向表单添加文本元素。",
+      "questionTitle": "设置标题"
+    },
+    "text": {
+      "title": "短文本",
+      "tooltipContent": "向表单添加单行自由文本字段。",
+      "questionTitle": "设置问题"
+    },
+    "textarea": {
+      "title": "长文本",
+      "tooltipContent": "向表单添加多行自由文本区域。",
+      "questionTitle": "设置问题"
+    },
+    "interactions": {
+      "title": "交互",
+      "tooltipContent": "向表单添加交互",
+      "questionTitle": "设置标题"
+    },
+    "attachment": {
+      "title": "附件",
+      "tooltipContent": "将文件附在表单之后",
+      "questionTitle": "设置标题"
+    }
+  },
+  "ng2FormDesignerPage": {
+    "manageFormsBreadcrumb": "表单管理器",
+    "warningMessageModal": {
+      "title": "离开页面？",
+      "unsavedChanges": "您有未保存的数据。",
+      "areYouSureLeavePage": "确定未保存就退出吗？"
+    }
+  },
+  "setupPage": {
+    "qmScoreMetricPage": {
+      "pageTitle": "QM 评分指标",
+      "qmMetricFormula": "QM 指标公式",
+      "averageOfValues": "数值平均值",
+      "averageOfPercentages": "百分百平均值",
+      "averageOfValuesInfo": "获得的问题点总数/可能的问题点总数 * 100",
+      "averageOfPercentagesInfo": "获得的问题点总数/可能的问题点总数 * 100 = % 得分/进行的评估数",
+      "qmScoreMetricSaveSuccessMessage": "QM 指标公式已成功保存。",
+      "qmScoreMetricErrorMessage": "无法保存选定的 QM 指标公式，请重试。",
+      "loadQMMetricFormulaErrorMessage": "无法加载页面。未连接到服务器。请再试一次。如果这种情况仍然存在，请与系统管理员联系。"
+    }
+  },
+  "ng2QMEditAccessibleTeams": {
+    "buttons": {
+      "cancel": "取消",
+      "apply": "应用",
+      "showSelected": "仅显示所选",
+      "ok": "确定"
+    },
+    "gridColumnsHeaders": {
+      "teamName": "团队名称"
+    },
+    "noItemsOverlay": "未找到匹配项",
+    "customSelectTeams": "自定义选择团队",
+    "removeEvaluator": "移除评估者",
+    "omnibarMessage": "搜索项目",
+    "noTeamSelectedMessage": "未添加团队",
+    "noTeamAddedMessage": "未添加团队",
+    "modalHeader": "团队选择",
+    "switchOnSelectTeamsToggleMessage": "选择 “开”，以允许评估者自定义团队选择。",
+    "switchOffSelectTeamsToggleMessage": "选择 “关”，以允许评估者自定义团队选择。",
+    "selectTeamsToggleONHeader": "打开“自定义团队选择”",
+    "selectTeamsToggleOffHeader": "关闭“自定义团队选择”",
+    "notAccessibleTeamError": "评估者不再能够接触团队"
+  },
+  "ticketQualityPlannerPage": {
+    "planStatus": {
+      "draft": "草稿",
+      "active": "活跃",
+      "inactive": "不活动",
+      "running": "正在运行",
+      "expired": "已过期",
+      "pending": "待定",
+      "deleted": "已删除"
+    },
+    "planActions": {
+      "activate": "启动",
+      "deactivate": "停用",
+      "extend": "扩展",
+      "duplicate": "重复"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "质量计划",
+      "newTicketPlanButton": "票证新计划",
+      "newSegmentPlanButton": "细分市场新计划",
+      "noItemsOverlay": "未找到匹配项",
+      "plansCountLabel": "计划",
+      "planCountLabel": "计划",
+      "planCount": "{{count}} 个计划",
+      "planSearchPlaceholder": "开始输入以查找计划",
+      "planTabForSegments": "细分市场质量规划程序",
+      "planTabForTickets": "票证质量规划程序",
+      "gridColumnsHeaders": {
+        "planName": "计划名称",
+        "evaluationType": "评估类型",
+        "planOccurrence": "计划发生次数",
+        "planLastModified": "最后修改",
+        "planState": "状态",
+        "planAction": "操作",
+        "planActivate": "启动"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }} 个计划",
+        "searchPlaceholder": "开始输入以查找计划"
+      },
+      "planOccurrence": {
+        "recurring": "重新出现",
+        "monthly": "月度循环计划",
+        "weekly": "每周循环计划",
+        "oneTime": "一次"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "您将要删除此计划。此操作无法撤消。",
+          "msg2": "继续吗？"
+        },
+        "activatePlan": {
+          "msg1": "计划中有错误。您需要在激活计划之前修复错误。",
+          "msg2": "你想要做什么？"
+        },
+        "deactivatePlan": {
+          "msg1": "您将要停用此计划。评估员将不会再获得任何互动。",
+          "msg2": "继续吗？"
+        },
+        "closeModal": {
+          "message1": "所有更改都将丢失",
+          "message2": "您确定要退出而不保存吗？"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "计划名称",
+          "successMessage": "计划已成功复制。",
+          "errorMessage": "计划名称已存在",
+          "header": "复制计划",
+          "duplicate": "重复",
+          "errorDuplicatingPlanMissingPermissionError": "您没有执行此操作的正确权限。"
+        }
+      },
+      "warningMessageModal": {
+        "title": "离开页面？",
+        "unsavedChanges": "您有未保存的数据。",
+        "areYouSureLeavePage": "确定未保存就退出吗？"
+      }
+    },
+    "qpPlanDetails": {
+      "RBAC_cannot_delete_error": "无法删除质量计划。请联系您的管理员。",
+      "RBAC_cannot_activate_error": "无法启动质量计划。请联系您的管理员。",
+      "RBAC_cannot_duplicate_error": "无法复制质量计划。请联系您的管理员。",
+      "RBAC_cannot_deactivate_error": "无法取消质量计划。请联系您的管理员。",
+      "pageTitle": "创建新的质量计划",
+      "qualityPlansPageBreadcrumb": "质量计划",
+      "name": "名称",
+      "description": "说明",
+      "errorSavingPlan": "保存质量计划时出错",
+      "errorSavingPlanDueToFilters": "无法保存此计划。您编辑了无法更改的字段。",
+      "successSavingPlan": "质量计划保存成功",
+      "successSavingActivePlan": "质量计划已成功保存。更改将在下一次分配中生效。",
+      "selectiveFieldsEditMsg": "可编辑的字段：计划名称、描述、分配评估表单、呼叫过滤",
+      "editEvaluatorSelectiveFieldsEditMsg": "可以编辑的字段：计划名称、描述、分配评估表、呼叫过滤",
+      "editEvaluatorsInfoIconMsg": "更改评估员会影响计划描述",
+      "successActivatingPlan": "质量计划已成功激活。",
+      "successDeactivatingPlan": "质量计划已成功停用。",
+      "errorActivatingPlan": "激活质量计划时出错。",
+      "errorActivatingPlanPermissionIssue": "无法激活此计划。一些评估员无权对交互进行评估。",
+      "errorActivatingPlanStatusIssue": "无法激活此计划。没有活跃的评估员。",
+      "errorDeactivatingPlan": "停用质量计划时出错。",
+      "successdelete": "计划删除成功。",
+      "deleteQualityPlanError": "质量计划删除失败。请再试一次。",
+      "evaluationType": "评估类型",
+      "standardEvaluation": "标准评估",
+      "standardEvaluationHelpText": "此评估将仅由评估员执行",
+      "collaborativeEvaluation": "协同评估",
+      "collaborativeEvaluationHelpText": "该评估将由坐席代表和评估员共同执行，然后进行比较",
+      "planDuration": {
+        "planDurationTitle": "计划定义",
+        "planDurationMessage": "评估在选定时间段内发生的呼叫：",
+        "recurringLabel": "重新出现",
+        "oneTimeLabel": "一次性计划 - 开始和结束日期：",
+        "oneTimePlanNewLabel": "一次",
+        "startDateLabel": "来自",
+        "endDateLabel": "到",
+        "emptyDatePickerLabel": "选择日期",
+        "selectForm": "选择一个表单",
+        "errorMessage": "您必须选择一个评估表单",
+        "recurringOptions": {
+          "monthly": "每月",
+          "weekly": "每周"
+        }
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "评估员",
+        "noEvaluatorsAssignedMessage": "尚未分配评估员",
+        "noEvaluatorsSelectedMessage": "未选择评估员",
+        "noEvaluatorsAddedMessage": "未添加评估员",
+        "selectedEvaluatorsLabel": "选定的评估员",
+        "addEvaluatorsButton": "添加评估员",
+        "modalHeader": "添加评估员",
+        "selectEvaluatorsHeader": "选择评估员",
+        "cancelButton": "取消",
+        "errorMessage": "您必须至少选择 1 位评估员",
+        "omnibarMessage": "开始输入以查找评估员",
+        "evaluatorsCount": "{{count}} 位评估者",
+        "evaluators": "评估员",
+        "Evaluator": "评估员",
+        "Manager": "经理",
+        "Administrator": "管理员",
+        "alreadyAssignedEvaluators": "分配的评估员",
+        "customTeamSelection": "自定义团队选择",
+        "gridColumnsHeaders": {
+          "fullName": "名称",
+          "role": "角色",
+          "accessibleTeams": "可访问团队",
+          "selectedTeams": "选定的团队",
+          "dailyEvaluations": "每日评估"
+        },
+        "errorMessages": {
+          "required": "您必须至少选择一名评估员",
+          "atleastSingleTeamRequired": "您必须至少为每个评估者选择一个团队"
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "代理",
+        "noAgentGroupsAssignedMessage": "尚未分配座席组",
+        "selectedAgentGroupsLabel": "所选坐席组",
+        "addAgentGroupsButton": "添加坐席组",
+        "selectAgentGroupsHeader": "选择坐席组",
+        "cancelButton": "取消",
+        "errorMessage": "您必须至少选择 1 个坐席组",
+        "omnibarMessage": "开始输入以查找坐席组",
+        "agentGroupsCount": "{{count}} 个坐席组",
+        "selectedTxt": "选择：",
+        "AlreadyAssignedGroups": "已分配的坐席组"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "坐席",
+        "teams": "团队",
+        "groups": "组",
+        "noTeamsSelected": "尚未选择团队",
+        "selectTeams": "选择团队",
+        "selectGroups": "选择组",
+        "selectedAgents": "当前坐席总数：",
+        "errorMessages": {
+          "required": "您必须至少选择一个团队"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "采样",
+        "newSamplingHeader": "用于分发的样本选择",
+        "numSegmentsPerAgentLabel": "每名坐席的交互次数",
+        "numDaysBackLabel": "包含上次交互",
+        "daysLabel": "天数",
+        "daysBackExceedMaxMessage": "计划持续时间为 {{durationInDays}} 天。从 1 到 {{daysRange}} 天中选择。",
+        "excludeEvaluatedInteractionsText": "排除已评估或已标记的交互进行评估",
+        "include": "包括",
+        "exclude": "排除",
+        "includeInteractionsLabel": "包括交互",
+        "excludeInteractionsLabel": "排除交互",
+        "fromLastDaysLabel": "来自最后一个",
+        "excludeInteractionsText": "已评估/标记为评估",
+        "timeBasedSelectionLabel": "基于时间的选择",
+        "startTimeLabel": "标准偏差",
+        "endTimeLabel": "结束时间",
+        "startTimeSubtext": "根据交互开始时间拉动交互",
+        "endTimeSubtext": "根据交互结束时间拉动交互"
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "时区"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "分配评估表单：",
+        "dropdownNewLabel": "评估表单"
+      },
+      "planSummary": {
+        "planSummary": "计划摘要",
+        "totalInteractions": "计划总体评估",
+        "interactionsPerDayPerEvaluator": "每名评估员的每日评估",
+        "planDays": "计划总天数",
+        "interactionsPerAgent": "每名坐席的交互"
+      },
+      "ticketFiltersEnterInput": "输入意见",
+      "filters": {
+        "includeInteractionsFromLast": "包括上次交互",
+        "days": "天数",
+        "filtersHeader": "过滤器"
+      },
+      "ticketFiltersMultiSelect": "选择值",
+      "planCategoriesTicket": {
+        "categoriesHeader": "类型",
+        "qmaCategoriesLabel": "QMA 类别"
+      }
+    },
+    "planType": {
+      "ticket": "用于票证",
+      "segment": "针对片段"
+    }
+  }
+}

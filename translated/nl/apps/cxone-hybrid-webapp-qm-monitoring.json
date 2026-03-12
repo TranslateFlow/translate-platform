@@ -1,0 +1,946 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleNameFormatted": "QM-tools",
+        "formManagerModuleLinks": {
+          "manageForms": "Formulierbeheer",
+          "categoryManager": "Categoriebeheer",
+          "qpPlanManager": "Quality Planner"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "Mijn planning",
+          "tasks": "Taken",
+          "evaluations": "Evaluaties",
+          "plansMonitoring": "Planbewaking",
+          "performanceMonitoring": "Performance Monitoring",
+          "scheduleRequests": "Planningsverzoeken",
+          "myTimeOffRequests": "Verlofaanvragen",
+          "shiftBidding": "Inschrijven op diensten",
+          "calibrations": "Kalibraties",
+          "groupCoaching": "Groepscoaching",
+          "selfAssessments": "Zelfbeoordelingen",
+          "marketplace": "Marktplaats",
+          "myPersona": "Mijn persona",
+          "pursuits": "Mijn opvolgingen",
+          "1on1coaching": "1-op-1 coaching",
+          "recentInteractions": "Recente interacties",
+          "evaluatorAssignments": "Toewijzingen beoordelaar",
+          "qualityPerformance": "Kwaliteitsprestaties"
+        },
+        "coachingModuleLinks": {
+          "coachingPackage": "Coachingpakketten",
+          "coachingPlans": "Coachingplannen",
+          "coachingManager": "Coachingbeheer",
+          "smartInsights": "SMART-inzichten"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "Mijn planning",
+          "myTimeOffRequests": "Verlofaanvragen",
+          "scheduleRequests": "Planningsverzoeken",
+          "evaluations": "Evaluaties",
+          "shiftBidding": "Inschrijven op diensten",
+          "coaching": "Coaching",
+          "groupCoaching": "Groepscoaching",
+          "selfAssessments": "Zelfbeoordelingen",
+          "marketplace": "Marktplaats",
+          "myDashboards": "Mijn dashboard",
+          "pursuits": "Mijn opvolgingen",
+          "1on1coaching": "1-op-1 coaching",
+          "recentInteractions": "Recente interacties"
+        }
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "U hebt {{Count}} ongelezen melding"
+  },
+  "filter": {
+    "clearall": "Alles wissen",
+    "close": "Sluiten",
+    "clear": "Wissen"
+  },
+  "filterDropDown": {
+    "completed": "Voltooid",
+    "notCompleted": "Niet voltooid"
+  },
+  "successPage": {
+    "welcomeMsg": "Hallo {{username}} "
+  },
+  "generalErrorMessages": {
+    "no-data": "Geen gegevens",
+    "loading": "Bezig met laden",
+    "required": "Dit veld is vereist.",
+    "minLength": "De invoer is te kort",
+    "nameFieldValidation": "De volgende tekens zijn niet toegestaan: \\ / ! + < > ? # & , % \" ",
+    "maxLength": "De invoer is te lang",
+    "email": "Het e-mailadres dat u hebt ingevoerd is niet geldig",
+    "emailExists": "Het e-mailadres bestaat al. Probeer een andere waarde",
+    "number": "Alleen cijfers!",
+    "pattern": "Onjuiste notatie voor dit veld",
+    "password": "Het wachtwoord moet minimaal 8 tekens lang zijn, met minimaal 1 cijfer en 1 hoofdletter",
+    "match": "Dit wachtwoord komt niet overeen met het vorige wachtwoord",
+    "minLengthPassword": "Het wachtwoord moet minimaal 8 tekens lang zijn",
+    "maxLengthPassword": "Uw wachtwoord is te lang",
+    "min": "Waarde is te klein",
+    "max": "Waarde is te groot",
+    "uniqueString": "Deze naam bestaat al. Probeer een nieuwe.",
+    "lowerThen": "De minimumwaarde mag niet groter zijn dan de maximumwaarde",
+    "weeklyMaxLowerThanSumDailyMin": "Het minimum aantal dagen volgens de dagregels is groter dan het maximum aantal dagen in de weekregel.",
+    "weeklyMinGreaterThanSumDailyMax": "Het minimum aantal dagen in de weekregel is groter dan het maximum aantal dagen volgens de dagregels.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "Totaal aantal uren van de minimale dagelijkse combinaties mag niet groter zijn dan het maximum aantal uren per week",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "Totaal aantal uren van de maximale dagelijkse combinaties mag niet kleiner zijn dan het minimum aantal uren per week",
+    "uniqueDaysCounterLowerThanSumDailyMin": "Het minimum aantal dagen is groter dan het totaal aantal unieke dagen.",
+    "possibleDaysLowerThanMinDays": "Het aantal mogelijke dagen voldoet niet aan het minimum aantal dagen dat wordt vereist door de weekregel.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "Het minimum aantal dagen in de weekregel is groter dan het aantal unieke dagen.",
+    "noAddedShiftPatters": "U moet minimaal één dagregel selecteren",
+    "shiftLengthLowerThanActivityLength": "Som van activiteitslengte en relatieve start mag niet groter zijn dan dienstduur",
+    "shiftLengthLowerThanTotalActivityLength": "De totale lengte van de activiteiten mag niet langer zijn dan de lengte van de dienst",
+    "relativeStartLowerThanSlack": "Slack mag niet meer zijn dan relatieve starttijd",
+    "activitiesOverlap": "Activiteiten mogen niet overlappen",
+    "serverError": "Onbekende serverfout",
+    "generalError": "Algemene fout",
+    "missingPermissionError": "U hebt niet de juiste machtigingen om deze actie uit te voeren."
+  },
+  "metaInfo": {
+    "title": "NICE SaaS WFM ",
+    "description": "NICE SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "success": {
+      "title": "Geslaagd",
+      "description": "NICE SaaS WFM"
+    },
+    "performanceMonitoring": {
+      "title": "Performance Monitoring",
+      "description": "NICE SaaS WFM"
+    },
+    "plansMonitoring": {
+      "title": "Planbewaking",
+      "description": "NICE SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "Form Executor",
+      "description": "NICE SaaS WFM"
+    },
+    "interactionPlayer": {
+      "title": "Interaction Player",
+      "description": "Interaction Player"
+    },
+    "planDetails": {
+      "title": "Details planbewaking",
+      "description": "Details planbewaking"
+    },
+    "calibrations": {
+      "title": "Kalibraties",
+      "description": "Kalibraties"
+    },
+    "performanceDetails": {
+      "title": "Details Performance Monitoring",
+      "description": "Details Performance Monitoring"
+    },
+    "selfAssessments": {
+      "title": "Zelfbeoordelingen",
+      "description": "Zelfbeoordelingen"
+    },
+    "supervisorPerformanceMonitoring": {
+      "title": "Performance Monitoring",
+      "description": "NICE SaaS WFM"
+    },
+    "evaluatorAssignments": {
+      "title": "Toewijzingen beoordelaar",
+      "description": "NICE SaaS WFM"
+    },
+    "supervisorPerformanceDetails": {
+      "title": "Details Performance Monitoring",
+      "description": "Details Performance Monitoring"
+    },
+    "qualityPerformance": {
+      "title": "Kwaliteitsprestaties",
+      "description": "NICE SaaS WFM"
+    },
+    "supervisorQualityPerformance": {
+      "title": "Kwaliteitsprestaties",
+      "description": "NICE SaaS WFM"
+    },
+    "calibrationDetails": {
+      "title": "Kalibratiedetails",
+      "description": "Kalibratiedetails"
+    }
+  },
+  "commonButtons": {
+    "ok": "OK",
+    "cancel": "Annuleren",
+    "no": "Nee",
+    "yes": "Ja",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "activate": "Activeren",
+    "saveAndActivate": "Opslaan en activeren",
+    "saveAsDraft": "Opslaan als concept",
+    "invite": "Uitnodigen",
+    "edit": "Bewerken",
+    "update": "Bijwerken",
+    "upload": "Uploaden",
+    "today": "Vandaag",
+    "showAll": "Alles weergeven",
+    "clearAll": "Alles wissen",
+    "close": "Sluiten",
+    "create": "Maken",
+    "selectAll": "Alles selecteren",
+    "generate": "Genereren",
+    "chooseFile": "Bestand selecteren",
+    "add": "Toevoegen",
+    "publish": "Publiceren",
+    "set": "Instellen",
+    "reset": "Resetten",
+    "day": "Dag",
+    "week": "Week",
+    "done": "Gereed",
+    "download": "Downloaden"
+  },
+  "languages": {
+    "english": "Engels",
+    "russian": "Russisch",
+    "spanish": "Spaans",
+    "chinese": "Chinees"
+  },
+  "weekDays": {
+    "sunday": "Zondag",
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "saturday": "Zaterdag"
+  },
+  "weekShortDays": {
+    "SUN": "ZO",
+    "MON": "MA",
+    "TUE": "DI",
+    "WED": "WO",
+    "THU": "DO",
+    "FRI": "VR",
+    "SAT": "ZA"
+  },
+  "globalNavigation": {
+    "wfmHeader": {
+      "contactUs": "Contactgegevens",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "Uitloggen",
+      "changePasswordOption": "Wachtwoord wijzigen",
+      "accountSetupOption": "Account configureren",
+      "myProfileOption": "Mijn profiel",
+      "help": "Help",
+      "selfService": "Support - Downloads"
+    },
+    "sideBar": {
+      "setupAppName": "ADMIN",
+      "setupAppLinks": {
+        "users": "Medewerkers",
+        "skills": "Skills",
+        "groups": "Groepen"
+      },
+      "schedulerAppName": "SCHEDULER",
+      "schedulerAppLinks": {
+        "activityCodes": "Activiteitscodes",
+        "realTimeAdherence": "Realtime Adherence",
+        "acdActivitiesMapping": " ACD-toewijzing",
+        "managementUnits": "Planningseenheid",
+        "scheduler": "Planningbeheer",
+        "generateSchedule": "Planning genereren",
+        "dailyRule": "Dagregels",
+        "weeklyRules": "Weekregels",
+        "forecastData": "Prognosegegevens importeren"
+      },
+      "mySpaceAppName": "MIJN RUIMTE",
+      "mySpaceAppLinks": {
+        "mySchedule": "Mijn planning",
+        "myDashboard": "Mijn dashboard",
+        "myTasks": "Mijn taken",
+        "myEvaluations": "Mijn evaluaties",
+        "performanceMonitoring": "Performance Monitoring",
+        "plansMonitoring": "Planbewaking",
+        "calibration": "Kalibratie",
+        "qualityPerformance": "Kwaliteitsprestaties"
+      },
+      "formManagerAppName": "QM-TOOLS",
+      "formManagerAppLinks": {
+        "manageForms": "Formulierbeheer",
+        "formDesigner": "Form Designer",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "Sjabloonbeheer"
+      }
+    }
+  },
+  "formExecutorPage": {
+    "pageTitle": "Formuliergegevens",
+    "submitBtn": "Verzenden",
+    "sentToAgentMsg": "Verzonden naar agent",
+    "acknowledgeMsg": "Bevestigd",
+    "executionErrorMsg": "Verzenden is mislukt",
+    "acknowledgeErrorMsg": "Bevestigen is mislukt",
+    "executionRetrieveErrorMsg": "Ophalen van gegevens is mislukt met uitvoering-ID: {{executor}}.",
+    "roleNotSupportedMsg": "Rol niet ondersteund: {{role}}.",
+    "noWorkflowAssociatedMsg": "Geen workflow gekoppeld; koppel een workflow.",
+    "generalErrorMsg": "Kan deze actie niet voltooien. Er is een fout opgetreden.",
+    "changeForm": "Wijzigingsformulier",
+    "cancel": "Annuleren",
+    "scoreLabel": "Score: ",
+    "Submit": "Evaluatie verzonden naar agent",
+    "CompleteNoReview": "Evaluatie ingediend",
+    "Acknowledge": "Evaluatie bevestigd",
+    "Dispute": "Verzonden naar beoordelaar voor aanvraagbeoordeling",
+    "RequestReview": "Aanvraagbeoordeling voltooid",
+    "RequestReviewModalHeader": "Aanvraagbeoordeling",
+    "SubmitNoAck": "Evaluatie ingediend",
+    "InProgress": "Evaluatie is opgeslagen als concept.",
+    "InReview": "Evaluatie is opgeslagen als concept.",
+    "Self-Assessment-Completed": "Zelfbeoordeling is voltooid.",
+    "Self-Assessment-InProgress": "Zelfbeoordeling is als concept opgeslagen.",
+    "criticalQuestionIndicationMessage": "U hebt vraag nummer {{criticalFailureQuestions}} niet correct beantwoord. Omdat dit een kritieke vraag was, is uw score opnieuw ingesteld op 0.",
+    "criticalQuestionsIndicationMessage": "U hebt vraag nummer {{criticalFailureQuestions}} niet correct beantwoord. Omdat dit kritieke vragen waren, is uw score opnieuw ingesteld op 0.",
+    "mismatchedAnswersMessage": "Niet overeenkomende antwoorden",
+    "evaluatorTitle": "Beoordelaar",
+    "agentTitle": "Agent",
+    "errorLoadingAnswers": "Kan de formulierantwoorden niet laden. Probeer het formulier opnieuw te openen",
+    "formDataAttributeQuestion": {
+      "agentRequest": "Reden voor agentaanvraag:",
+      "evaluatorReview": "Beoordelingsoverzicht van beoordelaar:"
+    },
+    "EVALUATION": {
+      "retrieveFormErrorMsg": "Kan formulier niet ophalen",
+      "close": "Sluiten"
+    },
+    "footerButtons": {
+      "Dispute": "Aanvraagbeoordeling",
+      "Acknowledge": "Bevestigen",
+      "Self-Assessment-InProgress": "Opslaan",
+      "Self-Assessment-Completed": "Verzenden",
+      "InProgress": "Opslaan als concept",
+      "CompleteNoReview": "Verzenden",
+      "InReview": "Opslaan als concept",
+      "RequestReview": "Verzenden naar agent",
+      "Submit": "Verzenden naar agent",
+      "SubmitNoAck": "Verzenden",
+      "Coaching-InProgress": "Opslaan",
+      "Coaching-Completed": "Verzenden"
+    }
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Inloggen is mislukt"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Algemene fout"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Algemene fout {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Ongeldige parameters"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Niet-geautoriseerde medewerker"
+    },
+    "wrongCredentials": "U hebt een verkeerd e-mailadres of wachtwoord ingevoerd"
+  },
+  "teamsAndGroups": {
+    "teams": "Teams",
+    "groups": "Groepen",
+    "selectTeams": "Teams selecteren",
+    "selectGroups": "Groepen selecteren",
+    "errorMessages": {
+      "required": "U moet minimaal één team selecteren"
+    },
+    "selected": " geselecteerd"
+  },
+  "plansMonitoring": {
+    "plansMonitoring": "Planbewaking",
+    "name": "Naam",
+    "distributionRate": "Distributie (%)",
+    "completionRate": "Voltooiing (%)",
+    "avgEvalutionPerDay": "Gem. evaluaties / dag",
+    "remainingDays": "Resterende dagen",
+    "status": "Status",
+    "planCount": "actieve plannen",
+    "noPlansAvailable": "Geen plannen actief",
+    "planSummary": "Planoverzicht",
+    "noOfEvaluators": "Aantal beoordelaars",
+    "noOfAgents": "Aantal agents",
+    "noOfInteractionsPerAgents": "Aantal interacties / agent",
+    "evaluatorsStatus": "Voortgang beoordelaars",
+    "aboveDailyAvg": "Boven dagelijks gemiddelde",
+    "belowDailyAvg": "Onder dagelijks gemiddelde",
+    "none": "Geen",
+    "team": "Team",
+    "evaluators": "{{count}} beoordelaars",
+    "actualAndExpected": "Voltooid / verwacht",
+    "consumptionTrend": "Consumptietrend",
+    "planOccurrence": "Planuitvoering",
+    "recurringMonthly": "Maandelijks terugkerend",
+    "recurringWeekly": "Wekelijks terugkerend",
+    "errorFetchingPlanDetailsData": "Laden van detailgegevens van planbewaking is mislukt",
+    "noDistributionDrilldown": "Distributie van dit plan is nog niet begonnen.",
+    "drillDownTitle": "Gegevens niet beschikbaar",
+    "timePeriod": "Periode",
+    "current": "huidige",
+    "nextScheduledRun": "Volgende planningsuitvoering: ",
+    "ontrack": "Op schema",
+    "offtrack": "Niet op schema",
+    "active": "Actief",
+    "date": "Datum",
+    "noOfEvaluations": "Aantal evaluaties",
+    "avgEvaluations": "Gem. evaluaties",
+    "textForEvals": " Evals)",
+    "occurrence": {
+      "recurring": "Terugkerend",
+      "monthly": "Maandelijks terugkerend plan",
+      "weekly": "Wekelijks terugkerend plan",
+      "oneTime": "Eenmalig"
+    },
+    "gridColumnsHeaders": {
+      "evaluators": "TEAMS (BEOORDELAARS)",
+      "actualAndExpected": "VOLTOOID / VERWACHT",
+      "consumptionTrend": "CONSUMPTIETREND"
+    },
+    "evaluator": "Beoordelaars",
+    "activeAgents": "Actieve agents",
+    "interactionsPerAgent": "Interacties per agent",
+    "evaluatorProgress": "Voortgang beoordelaar",
+    "pm_warnUnexpectedDistributionMsg": "De waarde is mogelijk hoger dan verwacht. Bevat interacties van actieve en inactieve agents terwijl ze actief waren in de huidige cyclus.",
+    "pd_warnUnexpectedDistributionMsg": "De waarde is hoger dan verwacht. Bevat interacties van actieve en inactieve agents terwijl ze actief waren in de huidige cyclus.",
+    "warnUnexpectedCompletionMsg": "De waarde is mogelijk hoger dan verwacht. Bevat evaluaties voor actieve en inactieve agents terwijl ze actief waren in de huidige cyclus.",
+    "pageTitle": "Toewijzingen beoordelaar",
+    "tabs": {
+      "planMonitoring": "PLANNEN MONITOREN",
+      "evaluatorQueue": "EVALUATIES BEHEREN"
+    },
+    "ng2evaluatorQueueTab": {
+      "omnibarSearchPlaceholder": "Agent zoeken",
+      "omnibarItemCount": "{{ count }} items",
+      "gridColumnsHeaders": {
+        "channeltype": " TYPE",
+        "agentName": "AGENTNAAM",
+        "planName": "PLANNAAM",
+        "evaluationAssignee": "EVALUATIE TOEGEWEZEN PERSOON",
+        "evaluationType": "EVALUATIETYPE",
+        "evaluationStartDate": "STARTDATUM EVALUATIE",
+        "dueDate": "VERVALDATUM",
+        "score": "SCORE",
+        "evaluationStatus": "EVALUATIESTATUS",
+        "formName": "FORMULIERNAAM",
+        "action": "ACTIE",
+        "duration": "DUUR",
+        "evaluationSubject": "ONDERWERP VAN EVALUATIE"
+      },
+      "dateRange": "DATUMBEREIK",
+      "changeAssignee": {
+        "modalHeader": "Toegewezen persoon wijzigen",
+        "changeAssigneeButton": "Toegewezen persoon wijzigen",
+        "searchPlaceholder": "NAAM BEOORDELAAR SELECTEREN",
+        "noEvaluatorAvailable": "Geen beoordelaar beschikbaar",
+        "reassignSuccessMessage": "Toegewezen persoon is gewijzigd",
+        "reassignErrorMessage": "De evaluatie is ingediend. U hebt geen toegang om deze opnieuw toe te wijzen."
+      },
+      "dismiss": "Verwijderen",
+      "infoText": "Gegevens vóór de functierelease 'Evaluatie toewijzingen' is niet beschikbaar"
+    }
+  },
+  "messages": {
+    "noResultsText": "Er zijn geen resultaten gevonden"
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "Selecteer een formulier om de uitvoering te starten:",
+    "select": "Selecteren",
+    "change": "Wijzigen",
+    "noFormsMsg": "Geen formulier beschikbaar.",
+    "selectFormHeader": "Formulier selecteren",
+    "changeFormHeader": "Formulier wijzigen",
+    "noFormInPlanMessage": "Selecteer een formulier voor de evaluatie.",
+    "disabledFormInPlanMessage": "Selecteer een formulier voor de evaluatie."
+  },
+  "workflowStatuses": {
+    "Claimed": "Geclaimd",
+    "InProgress": "In uitvoering",
+    "Dispute": "Betwisten",
+    "InReview": "Wordt beoordeeld",
+    "Request_Review": "Aanvraagbeoordeling",
+    "Pending_Acknowledgement": "In afwachting van bevestiging",
+    "Completed": "Voltooid",
+    "Completed_Acknowledged": "Voltooid bevestigd",
+    "Reviewed_and_Completed": "Beoordeeld en voltooid"
+  },
+  "workflowStatusUI": {
+    "Assigned": "Nieuw",
+    "Claimed": "Nieuw",
+    "InProgress": "Concept",
+    "Dispute": "Betwist",
+    "InReview": "Betwist",
+    "Request_Review": "Betwist",
+    "Pending_Acknowledgement": "Nieuw",
+    "Completed": "Voltooid",
+    "Completed_Acknowledged": "Voltooid",
+    "Reviewed_and_Completed": "Beoordeling voltooid",
+    "Completed_and_Not_Reviewed": "Geen beoordeling voltooid",
+    "Completed_and_Reviewed": "Voltooid en beoordeeld",
+    "selfAssessment": {
+      "new": "Nieuw",
+      "draft": "Concept",
+      "completed": "Voltooid",
+      "expired": "Vervallen"
+    },
+    "Expired": "Vervallen",
+    "Auto-acknowledged": "Automatisch bevestigd",
+    "Sent_To_Agent": "Verzonden naar agent",
+    "WaitingForEvaluator": "Wachten op beoordelaar",
+    "WaitingForAgent": "Wachten op agent",
+    "PartiallyCompleted": "Gedeeltelijk voltooid",
+    "Appealed": "Beroep ingediend",
+    "Sent_To_Supervisor": "Verzonden naar supervisor",
+    "In_Progress": "In uitvoering"
+  },
+  "workflowType": {
+    "evaluations": "EVALUATIES"
+  },
+  "performanceMonitoring": {
+    "performanceMonitoring": "Performance Monitoring",
+    "selectGroup": "Groep selecteren",
+    "evaluationDeleted": "Evaluatie is verwijderd.",
+    "evaluationDeletionError": "Kan de beoordeling niet verwijderen.",
+    "teams": "Teams",
+    "groups": "Groepen",
+    "team": "Team",
+    "group": "Groep",
+    "averageScore": "Gemiddelde score",
+    "changeInPoints": "Verandering in punten",
+    "noOfEvaluations": "Aantal evaluaties",
+    "diffFromPreviousTime": "Verschil Van vorige keer",
+    "loadPerformanceData": "Prestatiegegevens laden",
+    "selectTimePeriod": "Periode selecteren",
+    "fromDate": "Van",
+    "toDate": "Tot",
+    "NoGroupSelected": "Er is nog geen groep geselecteerd",
+    "NoTeamSelected": "Er is nog geen filter geselecteerd",
+    "noAgents": "Geen overeenkomst gevonden",
+    "noAgentsInGroup": "Er zijn geen agents in de geselecteerde groepen",
+    "noEvaluationsFound": "Er zijn geen evaluaties in deze teams/groepen",
+    "errorFetchingGroupData": "Kan gegevens niet laden",
+    "errorFetchingPerformanceDetailsData": "Kan gegevens niet laden",
+    "dateOfInteraction": "Datum van interactie",
+    "duration": "Duur",
+    "planName": "Plannaam",
+    "findEmployeePlaceHolder": "Begin met typen om een medewerker te vinden",
+    "teamName": "Team",
+    "evaluatedOn": "Geëvalueerd op",
+    "evaluatedBy": "Geëvalueerd door",
+    "score": "Score",
+    "status": "Status",
+    "groupName": "Groepsnaam",
+    "fromDateHeader": "Datum vanaf",
+    "toDateHeader": "tot datum",
+    "evaluations": "Evaluaties",
+    "noItemsOverlay": "Er zijn nog geen evaluaties voltooid",
+    "evaluation_Type": "Evaluatietype",
+    "collaborativeEvaluation": "Gezamenlijk",
+    "standardEvaluation": "Standaard",
+    "evaluatorTitle": "Beoordelaar",
+    "agentTitle": "Agent",
+    "formName": "Formuliernaam",
+    "formVersion": "Formulierversie",
+    "deleteReasonModal": {
+      "textareaPlaceholder": "Voer tekst in...",
+      "confirmMessage1": "Het verwijderen van deze evaluatie kan gevolgen hebben voor de gemiddelde evaluatiescore.",
+      "confirmMessage2": "Doorgaan?",
+      "cancelMessage1": " Alle wijzigingen gaan verloren. ",
+      "cancelMessage2": "Doorgaan?",
+      "requiredField": "Dit veld is vereist.",
+      "deleteButton": "Verwijderen",
+      "deleteEvaluationTaskHeader": "Evaluatie verwijderen",
+      "reasonLabel": "Reden",
+      "charactersRemainingText": "{{count}} tekens resterend",
+      "WarningText": "Als u deze evaluatie verwijdert, verandert de gemiddelde evaluatiescore."
+    },
+    "evaluationReport": {
+      "generateEvaluationReport": "Evaluatierapport genereren",
+      "generateReportFailed": "Kan evaluatierapport niet genereren",
+      "generateReportSuccess": "Evaluatierapport is gegenereerd",
+      "from": "Van",
+      "to": "Tot",
+      "type": "Type",
+      "evaluation": "Evaluatie",
+      "calibration": "Kalibratie",
+      "selfAssessment": "Zelfbeoordeling",
+      "generate": "Genereren",
+      "create": "Rapport genereren",
+      "agent": "Agent",
+      "form": "Formulier",
+      "formVersion": "Formulierversie",
+      "downloadInProgress": "Uw rapport wordt gedownload.",
+      "downloadSuccess": "Het rapport is gedownload.",
+      "downloadError": "Kan rapport niet downloaden. Probeer het later opnieuw.",
+      "placeholder": {
+        "agent": "Agent selecteren",
+        "form": "Formulier selecteren",
+        "formVersion": "Formulierversie selecteren"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "Evaluatieformulier niet beschikbaar",
+      "message": "Deze evaluatie is betwist en wordt momenteel opnieuw beoordeeld. Komt na voltooiing beschikbaar."
+    },
+    "calibrationEvaluation": "Kalibratie",
+    "qualityPerformance": "Kwaliteitsprestaties"
+  },
+  "ng2PerformanceMonitoring": {
+    "performanceMonitoring": "Performance Monitoring",
+    "selectGroup": "Groep selecteren",
+    "evaluationDeleted": "Evaluatie is verwijderd.",
+    "evaluationDeletionError": "Kan de beoordeling niet verwijderen.",
+    "teams": "Teams",
+    "groups": "Groepen",
+    "team": "Team",
+    "group": "Groep",
+    "averageScore": "Gemiddelde score",
+    "changeInPoints": "Verandering in punten",
+    "noOfEvaluations": "Aantal evaluaties",
+    "diffFromPreviousTime": "Verschil Van vorige keer",
+    "loadPerformanceData": "Prestatiegegevens laden",
+    "selectTimePeriod": "Periode selecteren",
+    "fromDate": "Van",
+    "toDate": "Tot",
+    "NoGroupSelected": "Er is nog geen groep geselecteerd",
+    "NoTeamSelected": "Er is nog geen filter geselecteerd",
+    "noAgents": "Geen overeenkomst gevonden",
+    "noAgentsInGroup": "Er zijn geen agents in de geselecteerde groepen",
+    "noEvaluationsFound": "Er zijn geen evaluaties in deze teams/groepen",
+    "errorFetchingGroupData": "Kan gegevens niet laden",
+    "errorFetchingPerformanceDetailsData": "Kan gegevens niet laden",
+    "dateOfInteraction": "Datum van interactie",
+    "duration": "Duur",
+    "planName": "Plannaam",
+    "findEmployeePlaceHolder": "Begin met typen om een medewerker te vinden",
+    "teamName": "Team",
+    "evaluatedOn": "Geëvalueerd op",
+    "evaluatedBy": "Geëvalueerd door",
+    "score": "Score",
+    "status": "Status",
+    "groupName": "Groepsnaam",
+    "fromDateHeader": "Datum vanaf",
+    "toDateHeader": "tot datum",
+    "evaluations": "Evaluaties",
+    "evaluation": "Evaluatie",
+    "noItemsOverlay": "Er zijn nog geen evaluaties voltooid",
+    "evaluation_Type": "Evaluatietype",
+    "collaborativeEvaluation": "Gezamenlijk",
+    "standardEvaluation": "Standaard",
+    "evaluatorTitle": "Beoordelaar",
+    "agentTitle": "Agent",
+    "formName": "Formuliernaam",
+    "formVersion": "Formulierversie",
+    "evaluationSubject": "ONDERWERP VAN EVALUATIE",
+    "employee": "Medewerker",
+    "segment": "Segment",
+    "N/A": "N.v.t.",
+    "deleteReasonModal": {
+      "textareaPlaceholder": "Voer tekst in...",
+      "confirmMessage1": "Het verwijderen van deze evaluatie kan gevolgen hebben voor de gemiddelde evaluatiescore.",
+      "confirmMessage2": "Doorgaan?",
+      "cancelMessage1": " Alle wijzigingen gaan verloren. ",
+      "cancelMessage2": "Doorgaan?",
+      "requiredField": "Dit veld is vereist.",
+      "deleteButton": "Verwijderen",
+      "deleteEvaluationTaskHeader": "Evaluatie verwijderen",
+      "reasonLabel": "Reden",
+      "charactersRemainingText": "{{count}} tekens resterend",
+      "WarningText": "Als u deze evaluatie verwijdert, verandert de gemiddelde evaluatiescore."
+    },
+    "employeeEvaluation": {
+      "create": "Nieuwe evaluatie",
+      "header": "Nieuwe evaluatie uitvoeren",
+      "submitBtn": "Evalueren"
+    },
+    "evaluationReport": {
+      "generateEvaluationReport": "Evaluatierapport genereren",
+      "generateReportFailed": "Kan evaluatierapport niet genereren",
+      "generateReportSuccess": "Evaluatierapport is gegenereerd",
+      "from": "Van",
+      "to": "Tot",
+      "type": "Type",
+      "evaluation": "Evaluatie",
+      "calibration": "Kalibratie",
+      "selfAssessment": "Zelfbeoordeling",
+      "generate": "Genereren",
+      "create": "Rapport genereren",
+      "agent": "Agent",
+      "form": "Formulier",
+      "formVersion": "Formulierversie",
+      "downloadInProgress": "Uw rapport wordt gedownload.",
+      "downloadSuccess": "Het rapport is gedownload.",
+      "downloadError": "Kan rapport niet downloaden. Probeer het later opnieuw.",
+      "placeholder": {
+        "agent": "Agent selecteren",
+        "form": "Formulier selecteren",
+        "formVersion": "Formulierversie selecteren"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "Evaluatieformulier niet beschikbaar",
+      "message": "Deze evaluatie is betwist en wordt opnieuw beoordeeld. Komt na voltooiing beschikbaar.",
+      "message1": "Deze evaluatie is betwist en wordt opnieuw beoordeeld.",
+      "message2": "Komt na voltooiing beschikbaar.",
+      "message1_new": "Voor deze evaluatie is beroep ingediend en deze wordt opnieuw beoordeeld."
+    },
+    "NA": "N.v.t.",
+    "averageScoreNullTooltipText": "Ofwel is scoring niet ingeschakeld in het formulier OF Mogelijke punten &  Verdiende punten zijn niet beschikbaar voor de historische gegevens",
+    "calibrationEvaluation": "Kalibratie",
+    "evaluationSummary": {
+      "genAISummaryTooltipText": "Overzicht evaluaties",
+      "genAISummaryButton": "Overzichtdetails",
+      "summaryUnavailableText": "Overzicht is niet beschikbaar",
+      "generateSummaryText": "Wilt u een overzicht genereren?",
+      "generateSummaryButton": "Overzicht genereren",
+      "generatingSummaryText": "Bezig met genereren van overzicht",
+      "troubleInSummaryGenerationText": "Kan geen overzicht genereren",
+      "tryAgainButton": "Probeer het opnieuw.",
+      "cardSummaryUnavailableText": "Uw evaluatieoverzicht is voorbereid en wacht op uw beoordeling",
+      "cardSummaryUnavailableSubText": "Controleer de details van het Overzicht evaluaties",
+      "summaryGenerationFailureErrorMessage": "Kan overzicht evaluaties niet ophalen/opslaan"
+    },
+    "qualityPerformance": "Kwaliteitsprestaties",
+    "ticket": "Ticket"
+  },
+  "calibration": {
+    "calibration": "Kalibraties",
+    "calibrationScore": "Kalibratiescore",
+    "noItemsOverlay": "Er zijn nog geen kalibraties ontvangen",
+    "days": "d",
+    "NA": "N.v.t.",
+    "createCalibration": "Nieuwe kalibratie",
+    "gridColumnsHeaders": {
+      "calibrationName": "KALIBRATIENAAM",
+      "agentName": "AGENTNAAM",
+      "initiatedBy": "GEÏNITIEERD DOOR",
+      "calibrationForm": "KALIBRATIEFORMULIER",
+      "originalScore": "OORSPRONKELIJKE SCORE",
+      "calibrationScore": "KALIBRATIESCORE",
+      "completionRate": "VOLTOOIINGSPERCENTAGE",
+      "remainingDays": "RESTERENDE DAGEN",
+      "modal": {
+        "maxScore": "MAX. SCORE",
+        "questions": "VRAGEN",
+        "originalScore": "OORSPRONKELIJKE SCORE",
+        "calibrations": "GEM. SCORE",
+        "variance": "AFWIJKING (%)"
+      },
+      "actions": "Acties"
+    },
+    "calibrationSearchPlaceholder": "Kalibratie zoeken",
+    "calibrationsCount": "{{count}} kalibraties",
+    "errors": {
+      "calibrationsError": "Kan kalibraties niet laden. Probeer het opnieuw.",
+      "calibrationScoreError": "Kan vragen niet laden. Probeer het opnieuw.",
+      "deleteCalibrationError": "Kalibratie verwijderen is mislukt. Probeer het opnieuw.",
+      "overviewAPIFailure": "Fout bij het ophalen van overzichtgegevens kalibratie",
+      "participantQuestionAPIFailure": "Ophalen kalibratiedeelnemers en vragen rastergegevens is mislukt.",
+      "questionDrilldownAPIFailure": "Fout bij het ophalen van ingezoomde gegevens van kalibratievragen"
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "Kan deze kalibratie niet verwijderen. De kalibratie is momenteel actief.",
+      "deleteCalibration": "Geselecteerde kalibratie verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "deleteOthersCalibration": "Kan deze kalibratie niet verwijderen. De kalibratie is gemaakt door een andere gebruiker."
+    },
+    "success": {
+      "deleteCalibration": "Kalibratie is verwijderd."
+    },
+    "calibrationOverviewCards": {
+      "typeOfCalibration": "Type kalibratie",
+      "dueDate": "Vervaldatum",
+      "interactionDate": "Interactiedatum",
+      "initiatedBy": "Geïnitieerd door",
+      "evaluationForm": "Evaluatieformulier",
+      "calibrationScore": "Kalibratiescore",
+      "originalScore": "Oorspronkelijke score",
+      "minScore": "Min. Score: ",
+      "maxScore": "Max. score:",
+      "daysRemaining": "Dagen resterend: ",
+      "completion": "Voltooiing: ",
+      "calibrationType": "Kalibratietype",
+      "initiatedDate": "Geïnitieerde datum",
+      "daysLeft": "Dagen resterend: "
+    },
+    "calibrationDetailsGridColumns": {
+      "questions": "VRAGEN",
+      "variance": "AFWIJKING",
+      "avgScore": "GEM. SCORE"
+    },
+    "placeHolders": {
+      "selectEvaluators": "Beoordelaars selecteren",
+      "selectParticipants": "Deelnemer selecteren",
+      "selectQuestions": "Vragen selecteren"
+    },
+    "labels": {
+      "evaluators": "Beoordelaars",
+      "participants": "Deelnemers",
+      "answer": "Antwoord",
+      "questionType": "Vraagtype",
+      "allQuestions": "Alle vragen",
+      "originalAnswer": "Oorspronkelijk antwoord",
+      "calibrationDetails": "Kalibratiedetails"
+    },
+    "tooltip": {
+      "variance": "Afwijking:",
+      "evaluationScore": "Evaluatiescore:",
+      "participantNotCompletedCalibration": "Deelnemer heeft de kalibratie nog niet voltooid."
+    },
+    "radioLabels": {
+      "completed": "Voltooid",
+      "notCompleted": "Niet voltooid",
+      "all": "Alle",
+      "evaluatorType": "Beoordelaartype"
+    },
+    "calibrationQuestionOverviewCards": {
+      "originalScore": "Oorspronkelijke score",
+      "variance": "Afwijking",
+      "avgScore": "Gem. score",
+      "maxScore": "Max. score",
+      "minScore": "Min. score"
+    },
+    "calibrationQuestionDrilldownGridColumns": {
+      "evaluatorName": "Naam beoordelaar",
+      "variance": "AFWIJKING",
+      "score": "SCORE",
+      "participantName": "NAAM DEELNEMER"
+    }
+  },
+  "ng2Calibration": {
+    "calibration": "Kalibraties",
+    "calibrationScore": "Kalibratiescore",
+    "noItemsOverlay": "Er zijn nog geen kalibraties ontvangen",
+    "days": "d",
+    "NA": "N.v.t.",
+    "createCalibration": "Nieuwe kalibratie",
+    "gridColumnsHeaders": {
+      "calibrationName": "KALIBRATIENAAM",
+      "agentName": "AGENTNAAM",
+      "initiatedBy": "GEÏNITIEERD DOOR",
+      "calibrationForm": "KALIBRATIEFORMULIER",
+      "originalScore": "OORSPRONKELIJKE SCORE",
+      "calibrationScore": "KALIBRATIESCORE",
+      "completionRate": "VOLTOOIINGSPERCENTAGE",
+      "remainingDays": "RESTERENDE DAGEN",
+      "modal": {
+        "maxScore": "MAX. SCORE",
+        "questions": "VRAGEN",
+        "originalScore": "OORSPRONKELIJKE SCORE",
+        "calibrations": "GEM. SCORE",
+        "variance": "AFWIJKING (%)"
+      },
+      "actions": "Acties",
+      "calibrationSubject": "KALIBRATIEONDERWERP"
+    },
+    "calibrationSearchPlaceholder": "Kalibratie zoeken",
+    "calibrationsCount": "Kalibraties",
+    "calibrationCount": "Kalibratie",
+    "errors": {
+      "calibrationsError": "Kan kalibraties niet laden. Probeer het opnieuw.",
+      "calibrationScoreError": "Kan vragen niet laden. Probeer het opnieuw.",
+      "deleteCalibrationError": "Kalibratie verwijderen is mislukt. Probeer het opnieuw."
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "Kan deze kalibratie niet verwijderen. De kalibratie is momenteel actief.",
+      "deleteCalibration": "Geselecteerde kalibratie verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "deleteOthersCalibration": "Kan deze kalibratie niet verwijderen. De kalibratie is gemaakt door een andere gebruiker."
+    },
+    "success": {
+      "deleteCalibration": "Kalibratie is verwijderd."
+    },
+    "forTicket": "Voor ticket",
+    "forInteraction": "Voor interactie"
+  },
+  "selfAssessment": {
+    "title": "Zelfbeoordelingen",
+    "itemsCount": "{{count}} zelfbeoordelingen",
+    "items": "Zelfbeoordelingen",
+    "newAssessment": "Nieuwe zelfbeoordeling",
+    "noItemsOverlay": "Er zijn geen beoordelingen gestart",
+    "gridColumnsHeaders": {
+      "initiatedBy": "Geïnitieerd door",
+      "agentName": "Agentnaam",
+      "interactionDate": "Interactiedatum",
+      "duration": "Duur",
+      "remainingDays": "Resterende dagen",
+      "score": "Score",
+      "status": "Status",
+      "actions": "Acties",
+      "formName": "Formuliernaam"
+    },
+    "failedToLoadAssessments": "Kan zelfbeoordelingsgegevens niet laden",
+    "status": {
+      "awaiting": "Openstaand",
+      "completed": "Voltooid",
+      "expired": "Vervallen"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "Openstaande beoordeling kan niet worden verwijderd",
+      "deleteAssessmentMsg1": "U staat op het punt om deze beoordeling te verwijderen. Deze actie kan niet ongedaan worden gemaakt.",
+      "deleteAssessmentMsg2": "Doorgaan?",
+      "cannotDeleteOtherUsersSelfAssessment": "Deze zelfbeoordeling is geïnitieerd door een andere gebruiker en kan niet worden verwijderd."
+    },
+    "selfAssessmentStatus": "STATUS ZELFBEOORDELINGEN",
+    "singleStatusPlaceHolder": "1 status geselecteerd",
+    "twoStatusesPlaceHolder": "2 statussen geselecteerd",
+    "threeStatusesPlaceHolder": "3 statussen geselecteerd",
+    "assessmentDeletedSuccess": "Beoordeling is verwijderd.",
+    "assessmentDeleteFailed": "Kan beoordeling niet verwijderen. Probeer het opnieuw."
+  },
+  "ng2SelfAssessment": {
+    "title": "Zelfbeoordelingen",
+    "itemsCount": "Zelfbeoordelingen",
+    "items": "Zelfbeoordelingen",
+    "newAssessment": "Nieuwe zelfbeoordeling",
+    "noItemsOverlay": "Er zijn geen beoordelingen gestart",
+    "gridColumnsHeaders": {
+      "initiatedBy": "Geïnitieerd door",
+      "agentName": "Agentnaam",
+      "interactionDate": "Interactiedatum",
+      "duration": "Duur",
+      "remainingDays": "Resterende dagen",
+      "score": "Score",
+      "status": "Status",
+      "actions": "Acties",
+      "formName": "Formuliernaam"
+    },
+    "failedToLoadAssessments": "Kan zelfbeoordelingsgegevens niet laden",
+    "status": {
+      "awaiting": "Openstaand",
+      "completed": "Voltooid",
+      "expired": "Vervallen",
+      "newSelfAssessment": "Nieuwe zelfbeoordeling",
+      "inProgressSelfAssessment": "Zelfbeoordeling in uitvoering",
+      "completedSelfAssessment": "Voltooide zelfbeoordeling",
+      "expiredSelfAssessment": "Verlopen zelfbeoordeling"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "Openstaande beoordeling kan niet worden verwijderd",
+      "deleteAssessmentMsg1": "U staat op het punt om deze beoordeling te verwijderen. Deze actie kan niet ongedaan worden gemaakt.",
+      "deleteAssessmentMsg2": "Doorgaan?",
+      "cannotDeleteOtherUsersSelfAssessment": "Deze zelfbeoordeling is geïnitieerd door een andere gebruiker en kan niet worden verwijderd."
+    },
+    "selfAssessmentStatus": "STATUS ZELFBEOORDELINGEN",
+    "assessmentDeletedSuccess": "Beoordeling is verwijderd.",
+    "assessmentDeleteFailed": "Kan beoordeling niet verwijderen. Probeer het opnieuw."
+  },
+  "channels": {
+    "voice-icon": "Interactietype: stem",
+    "sms-icon": "Interactietype: SMS",
+    "chat-icon": "Interactietype: chatten",
+    "email-icon": "Interactietype: e-mail",
+    "recording-icon": "Interactietype: Opname",
+    "whatsapp-icon": "Interactietype: Whatsapp"
+  }
+}

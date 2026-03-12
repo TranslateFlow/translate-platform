@@ -1,0 +1,3598 @@
+{
+  "recordingAccounts": {
+    "buttonText": "新帐户",
+    "retryBtn": "刷新",
+    "labelText": {
+      "column1": "电话服务系统",
+      "column2": "帐户类型",
+      "column3": "值"
+    },
+    "inputFieldText": {
+      "extensionID": "输入唯一的值",
+      "telephonySystem": "选择..."
+    },
+    "noSystemBtn": "设置电话服务系统",
+    "noAccountMessage": "尚未创建录制文件帐户",
+    "noTelephonyMessage1": "没有配置电话服务系统。",
+    "noTelephonyMessage2": "设置电话服务系统，",
+    "noTelephonyMessage3": "然后单击“刷新”以创建录制文件帐户。",
+    "infoMessage": "您最多可以创建 10 个录制文件帐户。",
+    "uivalidation": {
+      "required": "此字段为必填项",
+      "duplicateExtension": "所选帐户类型和系统的值已存在",
+      "characterLimitAgentID": "输入 2-64 个字符",
+      "alphanumericAgentID": "使用字母、数字和 @",
+      "characterLimitExtension": "输入 3-64 个字符",
+      "alphanumericExtension": "使用字母、数字和 @ # *",
+      "unmonitoredExtension": "该分机未被 TSAPI 接口监控。来自此分机的通话将不会被录音。"
+    },
+    "error": {
+      "telephonySystem": "无法加载电话服务系统。",
+      "createUpdateAccount": "无法添加或更新录制文件帐户。"
+    }
+  },
+  "bulkUploadDownloadManagementPage": {
+    "title": "批量上传门户",
+    "leftDashboardHeader": "批量上传",
+    "leftDashboardText": "在同一位置批量上传列表中任何项目的多条记录。该功能可用于添加新记录，或更新平台上已创建的现有记录",
+    "templateDownloadHeading": "这个包含了页面上使用的所有模板。",
+    "entityDownloadHeading": "下载此列表中所有当前存在的项目（即用户、团队、角色等）",
+    "rightDashboardHeader": "您必须至少添加一个文件才能开始上传过程",
+    "uploadSuccessMsg": "正在上传（数量）个文件，此过程可能需要几分钟",
+    "downloadSuccessMsg": "正在下载文件。下载文件时请避免进行任何进一步更新，以避免数据差异",
+    "uploadEmptyFileSuccessMsg": "未从上传的文件中找到记录",
+    "uploadfailureMsg": "一个或多个文件上传失败",
+    "uploadInvalidFileType": "无效的文件格式。请选择一个 CSV 文件上传。",
+    "uploadRecordLimitBreached": "上传的文件最多应包含 1000 条记录。",
+    "wrong_file_type": "platform_upload_download_manager_service_3",
+    "upload_record_limit_error": "platform_upload_download_manager_service_8",
+    "fileUploadfailureMsg": "上传失败",
+    "dragAndFropText": "拖放上传或",
+    "fileTypeInfoTxt": "支持的文件类型：csv",
+    "browsFileText": "浏览文件",
+    "fileProcessingMsg": "文件处理",
+    "inProcessFileTxt": "进行中",
+    "bulkImportSuccessMsg": "上传成功",
+    "bulkImportWarningMsg": "上传成功，但发生错误",
+    "bulkImportTimeoutMsg": "文件上传时间比平时长。上传完成后，您将收到通知。您可以”Activity“（活动）选项卡中查看文件上传状态。",
+    "invalidFileFormat": "由于文件类型不受支持，文件上传失败。支持的文件类型 csv。",
+    "tabLabels": {
+      "upload": "上传",
+      "activity": "活动"
+    },
+    "uploadStatus": {
+      "clearAllBtnTxt": "全部清除"
+    },
+    "btn": {
+      "templateDownloadBtn": "下载所有模板",
+      "entityDownloadBtn": "下载所有已有的",
+      "singleTemplateDownloadBtn": "下载模板",
+      "singleEntityDownloadBtn": "下载现有记录",
+      "activeUsersDownloadBtn": "下载活跃用户",
+      "allUsersDownloadBtn": "下载所有用户",
+      "uploadImmediately": "上传文件",
+      "uploadAfterReview": "上传前检查文件"
+    },
+    "admin": {
+      "name": "admin",
+      "employees": {
+        "name": "员工"
+      },
+      "teams": {
+        "name": "团队"
+      },
+      "teamsUsersMapping": {
+        "name": "团队分配"
+      },
+      "skillsUsersMapping": {
+        "name": "技能分配"
+      }
+    },
+    "acd": {
+      "name": "acd"
+    },
+    "thirdPartyAcd": {
+      "name": "第三方电话服务",
+      "recordingAccount": {
+        "name": "录制文件帐户"
+      },
+      "devices": {
+        "name": "装置"
+      },
+      "remoteDevices": {
+        "name": "远程设备"
+      }
+    },
+    "activity": {
+      "item": "活动",
+      "headers": {
+        "uploadDate": "上传日期",
+        "activityDate": "活动日期",
+        "area": "上传位置",
+        "entity": "实体",
+        "triggeredBy": "触发者",
+        "user": "用户",
+        "status": "状态"
+      },
+      "successStatus": "上传成功",
+      "downloadSuccessStatus": "下载成功",
+      "uploadFailed": "上传失败",
+      "downloadFailed": "下载失败",
+      "errorStatusSingle": "发现一个错误",
+      "errorStatusMultiple": "发现多个错误",
+      "inProgressStatus": "正在上传",
+      "downloadInProgressStatus": "正在下载",
+      "reviewBtn": "查看错误",
+      "downloadBtn": "下载",
+      "noItemsOverlay": "尚未定义任何活动"
+    },
+    "uploadSuccessMessage": "已启动上传",
+    "uploadFailureMessage": "无法启动上传",
+    "downloadFailureMessage": "启动下载失败！",
+    "downloadRecordsSuccessMsg": "已成功下载现有记录",
+    "downloadRecordsFailureMsg": "下载现有记录失败",
+    "downloadRecordsNoDataExistsMsg": "没有可下载的记录",
+    "downloadRecordsProgressMsg": "正在执行一个下载任务",
+    "reviewErrorsPage": {
+      "pageTitle": "员工上传错误",
+      "pageTrailer": "上传错误",
+      "trailer": "上传",
+      "downloadErrors": "下载错误",
+      "cancel": "取消",
+      "submit": "递交",
+      "totalErrors": "总错误数：",
+      "totalErrorsLeft": "剩余错误总数：",
+      "processingError": "处理错误",
+      "fieldErrors": "字段错误",
+      "none": "无",
+      "entities": {
+        "user": {
+          "entityName": "员工"
+        },
+        "team": {
+          "entityName": "团队"
+        },
+        "user-team": {
+          "entityName": "团队分配"
+        },
+        "user-skills": {
+          "entityName": "技能分配"
+        },
+        "recording-account": {
+          "entityName": "录制文件帐户"
+        },
+        "device": {
+          "entityName": "装置"
+        },
+        "sab": {
+          "entityName": "标准通讯录"
+        },
+        "remote-device": {
+          "entityName": "远程设备"
+        }
+      },
+      "errorReport": "error-report",
+      "rowHeader": "行",
+      "errorHeader": "错误",
+      "commonErrorMessage": "处理错误",
+      "errorFieldStartLineSingle": "字段错误",
+      "errorFieldStartLineMultiple": "字段错误",
+      "validationErrors": {
+        "mandatoryFieldError": "字段不能为空",
+        "emailFieldError": "电子邮件地址无效",
+        "usernameFieldError": "用户名应为电子邮件地址格式",
+        "booleanFieldError": "该字段仅允许填写 true 或 false",
+        "numberFieldError": "该字段只允许填写数字",
+        "nameFieldError": "糟糕，您不能使用 \\ ! < > ? % \"",
+        "phoneFieldError": "电话值无效",
+        "virtualAgentTypeFieldError": "该字段仅允许填写 OFF、数字机器人或数字调查"
+      },
+      "downloadErrorsSuccessMsg": "错误下载成功",
+      "downloadErrorsFailureMsg": "错误下载失败",
+      "invalidTemplateMessage": "上传的模板无效"
+    }
+  },
+  "createDailyRuleModal": {
+    "shiftLength": "班次时长：",
+    "shiftType": "班次类型：",
+    "hours": "小时",
+    "shiftStartBetween": "班次开始时间：",
+    "startTimeIncrement": "开始时间增量：",
+    "createDailyRuleHeader": "创建新的每日规则",
+    "editDailyRuleHeader": "编辑每日规则",
+    "addActivities": "添加活动",
+    "activitiesCodes": "活动代码",
+    "relativeStart": "相对开始时间",
+    "slack": "Slack",
+    "updateDailyRuleHeader": "#fffff",
+    "length": "长度",
+    "earliestStart": "最早开始时间",
+    "latestStart": "最晚开始时间",
+    "startIncrement": "开始时间增量",
+    "ruleDescription": "规则说明",
+    "successMsg": "员工创建成功！",
+    "updateErrorMsg": "无法创建新员工。",
+    "updateSuccessMsg": "员工更新成功！",
+    "namePlaceholder": "无标题每日规则"
+  },
+  "userPage": {
+    "pageTitle": "员工",
+    "newUserBtn": "创建员工",
+    "importUsersBtn": "导入员工",
+    "itemsCountAngular": "员工",
+    "selectedItems": "已选择",
+    "searchPlaceholder": "开始键入以查找用户",
+    "noItemsOverlay": "尚未有任何用户被添加",
+    "noItemsOverlayGrid": "未找到使用此筛选器的用户",
+    "noUsersSubText": "选择上面的“添加用户”以添加一些",
+    "createUserPage": {
+      "breadcrumb": "员工",
+      "createUserPageTitle": "创建新员工",
+      "cancel": "取消",
+      "create": "创建",
+      "createAndInvite": "创建和邀请",
+      "createAndActivate": "创建和激活",
+      "save": "保存",
+      "teamErrorMsg": "需要团队。",
+      "getAllTeamsError": "获取团队时出错。一段时间后重试。",
+      "getGroupsError": "获取组时出错。请稍后再试。",
+      "getEmployeeGroupsError": "获取员工组时出错。请稍后再试。",
+      "formLabels": {
+        "mandatorySymbol": "*",
+        "firstName": "名字",
+        "middleName": "中间名",
+        "lastName": "姓氏",
+        "emailAddress": "电子邮件地址",
+        "displayName": "显示名称",
+        "primaryRole": "主要角色",
+        "username": "用户名称",
+        "mobileNumber": "手机号码",
+        "telephone1": "电话1",
+        "telephone2": "电话2",
+        "timeZone": "时区",
+        "osLogin": "OS 登入",
+        "assignToGroup": "已分配至排程单元",
+        "assignToGroups": "已分配至群组",
+        "assignToSkills": "已分配至技能",
+        "assignToTeams": "分配至团队",
+        "assignToGroupPlaceHolder": "未分配排程单元",
+        "rank": "级别",
+        "rankInterval": "1-999",
+        "country": "国家",
+        "countryPlaceholder": "选择国家/地区",
+        "hireDate": "聘用日期",
+        "timeZonePlaceholder": "选择时区",
+        "typePlaceholder": "选择或创建类型",
+        "type": "类型",
+        "teamPlaceholder": "选择团队",
+        "defaultTag": " （默认）",
+        "groupsDropDown": " 组",
+        "acdLoginId": "ACD 登入 ID",
+        "acdLoginIdInUse": "ACD 登录 ID \"{{value}}\" 已被此页面使用。",
+        "maxLimitOfACD": "您不能输入超过 {{items}}个项目",
+        "acdLoginIdValidationError": "项目\"{{value}}”不是有效条目。",
+        "customAttributes": {
+          "heading": "属性",
+          "canBeEvaluatedLabel": "可以接受评估/辅导",
+          "canBeScheduled": "可以进行排程",
+          "canBeRecorded": "可以录音（语音）",
+          "canBeRecordedScreen": "可以录制（屏幕）",
+          "canBeRecordedDefault": "可以录制",
+          "canBeAnalyzed": "可以进行分析",
+          "canBeMeasured": "可以进行测量",
+          "nonBillableUser": "非计费用户",
+          "digitalEngagement": "数字参与",
+          "customerCard": "Customer Card",
+          "agentIntegrations": "代理整合",
+          "canViewBIReports": "可以查看 BI 报告",
+          "canEditBIReports": "可以编辑 BI 报告",
+          "virtualAgentEnabled": "已启用虚拟坐席",
+          "smartreachheading": "SMART REACH 属性",
+          "smartreach": "SmartReach",
+          "smartreachuser": "SmartReach 用户",
+          "smartreachagent": "SmartReach 坐席",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartreachdesk": "办公桌",
+          "smartreachecc": "Enhanced Customer Card",
+          "dataCollectionEnabled": "数据集合已启用"
+        },
+        "location": {
+          "locationsDropdown": "位置",
+          "placeholder": "选择位置",
+          "errorMessages": {
+            "failedLoadLocations": "加载位置定义失败。请再试一次。"
+          }
+        },
+        "userSourceDropdownLabel": "来源",
+        "division": {
+          "division": "部门",
+          "placeholder": "选择部门",
+          "errorMessages": {
+            "failedLoadDivisions": "加载部门失败。请再试一次。"
+          },
+          "warningModal": {
+            "warningHeader": "警告",
+            "modalBody": "此操作可能会修改用户的部门，从而影响其可见性。",
+            "modalBodySub": "是否确定要继续？"
+          }
+        }
+      },
+      "popover": {
+        "warningMessage": "所有更改都将丢失",
+        "confirmMessage": "您确定要退出而不保存吗？",
+        "saveWarningMessage": "用户没有分配登录验证器或登录验证器处于非活动状态，用户将无法登录。",
+        "saveConfirmMessage": "继续吗？",
+        "createInviteWarningMessage": "用户没有分配 Login Authenticator 或 Login Authenticator 处于不活动状态，用户将无法登录。",
+        "createConfirmMessage": "继续吗？"
+      },
+      "populateFromTemplateModal": {
+        "title": "从模板填充",
+        "description": "员工模板",
+        "cancel": "取消",
+        "header": "从模板填充员工记录",
+        "populate": "填充",
+        "populateTemplate": "填充模板",
+        "message": "从列表中选择一个模板以覆盖当前员工记录。必须保存此操作所做的更改才能让更改生效。",
+        "placeholder": "选择模板",
+        "createNewTemplate": "创建新模板",
+        "error": "无法填充模板。",
+        "success": "员工记录已成功填充。",
+        "errorSecondaryRole": "在可用选项中未找到次要角色。如果当前选择模板中的次要角色作为主要角色，则可能会发生这种情况。",
+        "errorWemSkill": "未找到技能或缺少权限。",
+        "errorOmnichannelSkill": "模板中的部分全渠道技能处于未激活或不可用状态。"
+      },
+      "createTypeModal": {
+        "header": "创建类型",
+        "nameLabel": "名称",
+        "placeholder": "输入新类型",
+        "confirm": "确认",
+        "cancel": "取消"
+      },
+      "bcpLoadError": "获取 BCP 数据时发生错误。一段时间后重试。"
+    },
+    "importUsersModal": {
+      "header": "导入员工",
+      "weSupportMessage": "通过上传 CSV 文件导入员工。",
+      "downloadMessage1": "您可以在此处",
+      "downloadMessage2": "",
+      "downloadLink": "下载 CSV 文件的模板。",
+      "selectFileMessage": "",
+      "successMsg": "成功导入员工。",
+      "errorMsg": "无法导入员工。",
+      "downloadTemplates": "下载模板",
+      "dragAndFropText": "拖放上传或",
+      "browsFileText": "浏览文件",
+      "importErrorsList": {
+        "header": "导入错误",
+        "invalidUser": "角色在系统中不存在",
+        "invalidUserRole": "角色和员工状态不匹配",
+        "userAlreadyExists": "无法创建员工，具有相同用户名的员工已存在。",
+        "userCreateFailed": "无法创建员工，请检查输入",
+        "invalidUserStatus": "无法更改在职员工的电子邮件地址。",
+        "cannotChangeOwnRole": "你不能改变自己的角色。"
+      }
+    }
+  },
+  "createUserModal": {
+    "updateUserHeader": "编辑员工",
+    "createUserHeader": "创建新员工",
+    "createAndInvite": "创建和邀请",
+    "createAndActivate": "创建和激活",
+    "popoverMessage1": " 所有更改都将丢失。",
+    "popoverMessage2": "您确定要退出而不保存吗？",
+    "errorMsg": "无法创建新员工。",
+    "successMsg": "员工创建成功！",
+    "updateErrorMsg": "无法创建新员工。",
+    "updateMfaErrorMsg": "MFA 详细信息更新失败。",
+    "updateSuccessMsg": "员工更新成功！",
+    "getUserByIdError": "获取员工详细信息时出错。请稍后再试。",
+    "getGroupsError": "获取组时出错。请稍后再试。",
+    "getSkillsError": "获取技能时出错。请稍后再试。",
+    "getEmployeeGroupsError": "获取员工组时出错。请稍后再试。",
+    "getAllTeamsError": "获取团队时出错。一段时间后重试。",
+    "getRolesError": "获取角色时出错。一段时间后重试。",
+    "getAvailabilityError": "获取员工可用性时出错。请稍后再试。",
+    "getShiftPreferencesError": "获取班次首选项时出错。请稍后再试。",
+    "getVisibilityError": "获取可见性数据时出错。请稍后再试。",
+    "getSelectedViewsError": "提取所选视图数据时发生错误。请一段时间后重试。",
+    "teamErrorMsg": "需要团队。",
+    "acdLoginId": "ACD 登录 ID",
+    "acdLoginIdInUse": "ACD 登录 ID \"{{value}}\" 已被此页面使用。",
+    "maxLimitOfACD": "您不能输入超过 {{items}}个项目",
+    "reviveUserAlert": "已存在一个使用此电子邮件地址的帐户。您要重新激活此帐户吗？",
+    "reviveUserAlertWithUserName": "已存在一个使用此用户名的帐户但已被删除。您要重新激活它吗？",
+    "verificationEmailWillBeSent": "保存后，将向此地址发送验证电子邮件。",
+    "resendVerificationEmail": "重新发送验证电子邮件",
+    "resendVerificationEmailFailureMsg": "重新发送验证邮件失败",
+    "verificationEmailSent": "邮件发送成功！",
+    "descriptionLengthExceededError": "描述长度已超过 255 个字符的最大限制",
+    "formLabels": {
+      "firstName": "名字",
+      "lastName": "姓",
+      "email": "电子邮件地址",
+      "username": "用户名称",
+      "mobileNumber": "手机号码",
+      "telephone1": "电话1",
+      "telephone2": "电话2",
+      "timeZone": "时区",
+      "osLogin": "OS 登入",
+      "assignToGroup": "已分配至排程单元",
+      "assignToGroups": "已分配至群组",
+      "assignToSkills": "已分配至技能",
+      "assignToTeams": "分配至团队",
+      "assignToGroupPlaceHolder": "未分配排程单元",
+      "maxHoursPerWeek": "最大值小时/周",
+      "rank": "级别",
+      "rankInterval": "1-999",
+      "timeZonePlaceHolder": "时区",
+      "country": "国家",
+      "countryPlaceholder": "选择国家/地区",
+      "hireDate": "聘用日期",
+      "role": "主要角色",
+      "rolePlaceholder": "选择角色",
+      "typePlaceholder": "选择或创建类型",
+      "teamPlaceholder": "选择团队",
+      "timeZonePlaceholder": "选择时区",
+      "userPicture": "个人资料图片",
+      "upload": "上传",
+      "create": "创建员工",
+      "day": "天",
+      "month": "月",
+      "year": "年",
+      "middleName": "中间名",
+      "displayName": "显示名称",
+      "type": "类型",
+      "statusIconHoverTip": {
+        "pending": "电子邮件正在等待验证。",
+        "complete": "电子邮件已通过验证。",
+        "warning": "不允许使用电子邮件域名"
+      },
+      "roles": {
+        "agent": "坐席",
+        "manager": "经理",
+        "admin": "管理员"
+      },
+      "groupsDropDown": "{{selectedCount}}个组",
+      "skillsDropDown": "{{selectedCount}}项技能",
+      "wfoSkillsDropDown": "显示 {{totalCount}}项技能",
+      "wfoSkillsDropDownLimitTo": "显示 {{limitCount}}/{{totalCount}} 项技能。键入以搜索",
+      "customAttributes": {
+        "heading": "属性",
+        "canBeEvaluatedLabel": "可以接受评估/辅导",
+        "canBeScheduled": "可以进行排程",
+        "canBeRecorded": "可以录音（语音）",
+        "canBeRecordedScreen": "可以录制（屏幕）",
+        "canBeRecordedDefault": "可以录制",
+        "canBeAnalyzed": "可以进行分析",
+        "canBeMeasured": "可以进行测量",
+        "nonBillableUser": "非计费用户",
+        "digitalEngagement": "数字参与",
+        "customerCard": "Customer Card",
+        "agentIntegrations": "代理整合",
+        "canViewBIReports": "可以查看 BI 报告",
+        "canEditBIReports": "可以编辑 BI 报告",
+        "virtualAgentEnabled": "已启用虚拟坐席",
+        "smartreachuser": "SmartReach 用户",
+        "smartreachagent": "Smartreach 坐席",
+        "performanceManagementInsights": "Performance Management Insights",
+        "performanceManagementAct": "Performance Management Act",
+        "smartreachdesk": "办公桌",
+        "smartreachecc": "Enhanced Customer Card",
+        "dataCollectionEnabled": "数据集合已启用"
+      },
+      "MFALabel": "MFA",
+      "mfaSecret": "MFA 密钥",
+      "mfaTimeStep": "MFA 令牌有效期",
+      "mfaTimeStepUnit": "秒",
+      "mfaTimeStepInterval": "15-300",
+      "clearButton": "清除",
+      "generateButton": "生成",
+      "externalIdentity": "外部身份",
+      "defaultTag": " （默认）"
+    },
+    "skillsTab": {
+      "header": "选择技能",
+      "assignedTxt": "已分配的技能",
+      "addBtn": "增加",
+      "selectTxt": "选择员工",
+      "selectedTxt": "选择："
+    },
+    "secondaryRolesTab": {
+      "secondaryRoles": "次要角色",
+      "secondaryRolesDropdown": "选择角色",
+      "addRoles": "添加角色",
+      "addRolesFTOn": "应用",
+      "itemscount": "{{count}}个分配的角色",
+      "roleName": "角色名称",
+      "rolesList": "角色清单",
+      "assignedRoles": "分配的角色 | {{count}}总计",
+      "errorMsg": "已选择最大数量 (10) 的次要角色",
+      "noItemsOverlay": "尚未分配角色"
+    },
+    "securityTab": {
+      "loginAuthenticator": "Login Authenticator",
+      "loginAuthenticatorPlaceholder": "选择身份验证器",
+      "noneSelected": "无已选",
+      "getAllAuthenticatorsError": "获取登录身份验证程序时发生错误。一段时间后重试。",
+      "loginAuthenticatorInfo": "登录身份验证程序丢失或处于非活动状态。"
+    },
+    "visibilityTab": {
+      "visibility": "可见性",
+      "views": "浏览量",
+      "viewsDropdown": "选择视图",
+      "addViews": "添加视图",
+      "addViewsFTOn": "应用",
+      "itemscount": "{{count}} 个已分配视图",
+      "viewName": "视图名称",
+      "viewDesc": "视图描述",
+      "viewType": "视图类型",
+      "assignedViews": "已分配视图 |总共 {{count}} 个",
+      "errorMsg": "已选择最大视图数 (3)",
+      "maxSelectionErrorMsg": "最多可选择 3 个视图",
+      "maxSelectionErrorMsgViews": "最多可选择 10 个视图",
+      "noItemsOverlay": "尚未分配视图",
+      "viewTypes": {
+        "transaction": "交互片段"
+      }
+    },
+    "lockUserTab": {
+      "lockUser": "锁定用户",
+      "views": "浏览量",
+      "daysSelectorLable": "用户可被锁定前的非活动天数",
+      "neverLockUser": "从不锁定用户",
+      "on": "开启",
+      "off": "关",
+      "inactivityDaysMessage": "不活动天数必须在 7 到 90 之间"
+    },
+    "ssoStateTab": {
+      "SSOState": "自定义 SSO 状态",
+      "daysSelectorLabel": "设置用户状态的时间",
+      "on": "开启",
+      "off": "关",
+      "SSOStateValueMessage": "用户状态值必须介于 1 到 168 之间"
+    },
+    "tabs": {
+      "bcpType": "BCP 类型",
+      "bcpNoAccess": "无 BCP 租户访问权限",
+      "primaryTenant": "主租户",
+      "secondaryTenant": "次租户"
+    }
+  },
+  "filter": {
+    "clearall": "全部清除",
+    "close": "关闭"
+  },
+  "formExample": {
+    "enterYourName": "输入您的姓名：",
+    "enterYourEmail": "输入您的电子邮件地址：",
+    "enterYourAge": "输入您的年龄：",
+    "createPassword": "创建一个密码：",
+    "confirmPassword": "确认你的密码：",
+    "errorMessages": {
+      "required": "您未填写该字段...",
+      "minLength": "您的字段过短",
+      "maxLength": "您的字段过长",
+      "email": "您的电子邮件地址无效",
+      "password": " 您的密码必须由字母或数字字符组成。还必须包含至少一个特殊字符、一个数字以及一个大写字母。",
+      "match": "此密码与之前输入的密码不符",
+      "minLengthPassword": "密码必须至少包含 8 个字符",
+      "maxLengthPassword": "密码过长...",
+      "minAge": "您必须至少年满 10 岁！",
+      "maxAge": "您必须小于 80 岁！",
+      "number": "仅能使用数字！"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "要求必须填写此字段。",
+    "minLength": "您的条目太短",
+    "nameFieldValidation": "！\\ < >？% \" 或表情符号不受支持",
+    "nameFieldValidation2": "糟糕，您不能使用 \\ / ! + < > ? # & , % \"",
+    "maxLength": "您的条目太长",
+    "email": "您输入的电子邮件地址无效",
+    "userName": "用户名应为电子邮件地址格式",
+    "emailExists": "电子邮件地址已存在。请尝试一个新的电子邮件地址",
+    "userNameExists": "该帐户名已经存在。请尝试一个新的帐户名",
+    "number": "仅限数字！",
+    "pattern": "此字段的格式不正确",
+    "password": "密码必须至少由 8 个字符组成，其中包含至少 1 个数字和 1 个大写字母",
+    "match": "此密码与之前输入的密码不符",
+    "compareTo": "此密码与之前输入的密码不符",
+    "minLengthPassword": "密码必须至少包含 8 个字符",
+    "maxLengthPassword": "您的密码太长",
+    "min": "数字太小",
+    "max": "数字太大",
+    "uniqueString": "此名称已存在。尝试一个新的。",
+    "lowerThen": "最小值不能超过最大值",
+    "weeklyMaxLowerThanSumDailyMin": "每日规则要求的最小天数超过了每周规则中的最大天数。",
+    "weeklyMinGreaterThanSumDailyMax": "每周规则中的最小天数超过了每日规则要求的最大天数。",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "每日最小组合的总小时数不能大于每周的最大总小时数",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "每日最大组合的总小时数不能小于每周的最小总小时数",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最小天数超过唯一天数的总数。",
+    "possibleDaysLowerThanMinDays": "可能的天数不符合每周规则要求的最少天数。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "每周规则中的最小天数超过了唯一天数的数量。",
+    "noAddedShiftPatters": "您必须至少选择一项每日规则",
+    "shiftLengthLowerThanActivityLength": "活动时长和相对开始的总和不能大于班次时长",
+    "shiftLengthLowerThanTotalActivityLength": "活动总时长不能超过班次时长",
+    "relativeStartLowerThanSlack": "空闲时间不能大于相对起始值",
+    "activitiesOverlap": "活动不能重叠",
+    "serverError": "未知服务器错误",
+    "notValidRegex": "不能使用这些字符：^/!\\+<>?#&,%.",
+    "uniqueTitle": "此名称已存在。尝试一个新的。",
+    "timeRangeOutsideOfRange": "无效的雇用日期",
+    "invalidFileFormat": "无效的文件格式",
+    "integerInvalid": "必须是整数。",
+    "refusalTimeRange": "值必须介于 15 到 300 之间",
+    "invalidMobileNumber": "您输入的手机号码无效",
+    "invalidTelephone": "您输入的电话号码无效",
+    "userActivityBlocked": "在此计划维护期间，员工创建和编辑暂时不可用。很快就会恢复正常服务。",
+    "invalidMfaSecret": "无效的 MFA 密钥",
+    "invalidTotalContactCount": "联系人总计数必须小于所有联系人计数的总和",
+    "nonBillableMaxCountReached": "您最多可以拥有 5 个非计费用户。",
+    "nonBillableIncreasedLimitReached": "您最多可以拥有 25 个非计费用户",
+    "invalidMediaSum": "所有频道都无法设置为关闭。所有联系人的总和必须大于 0。",
+    "incorrectMediaValue": "{{who}} 的 {{mediaType}} 的值 {{incorrectValue}} 无效。",
+    "digitalEngagmentUserLimitReached": "已超过启用数字接入的用户数量",
+    "hierarchiesFailure": "获取层次结构失败",
+    "descriptionLengthExceededError": "描述长度已超过 255 个字符的最大限制",
+    "cannotDropTeamsOnTeams": "无法执行此操作，因为团队不能是团队的子节点",
+    "cannotDropOUOnTeams": "无法执行此操作，因为组织单元不能是团队的子节点",
+    "cannotDropSUOnTeams": "此操作无法执行，因为排程单元不能是团队的子节点",
+    "cannotDropOUOnSU": "无法执行此操作，因为组织单元不能是排程单元的子节点",
+    "failedToCreateUser": "创建用户失败",
+    "failedToUpdateUser": "更新用户失败",
+    "maxAllowedLimitExceeded": "超出允许的最大查看限制",
+    "notAllowedToChangeOwnUserView": "不允许更改自己的用户视图",
+    "typeAlreadyExists": "该类型已存在。"
+  },
+  "groupsListPage": {
+    "pageTitle": "组",
+    "groups": "组",
+    "itemsCount": "浏览{{count}}",
+    "totalItemsCount": "{{count}}总数",
+    "userCount": "",
+    "selectedItems": "{{selectedCount}}选择",
+    "untitledTeam": "无标题组",
+    "createGroup": "新建组",
+    "cancel": "取消",
+    "save": "保存",
+    "confirm": "确认",
+    "newGroupPageTitle": "创建新组",
+    "create": "创建",
+    "filters": {
+      "status": "{{count}}个状态",
+      "group": "{{count}}个组"
+    },
+    "changeAuditHistoryTab": {
+      "GroupAuditable": {
+        "id": "Id",
+        "name": "名称",
+        "usersIds": "用户 Id"
+      },
+      "noRowsOverlayText": "未找到更改历史记录数据",
+      "itemsCountLabel": "变化"
+    },
+    "tabLabels": {
+      "changeHistory": " 更改历史记录",
+      "general": "一般",
+      "assignedUsers": "已分配用户",
+      "zeroRow": "0 总数"
+    },
+    "generalInfo": {
+      "groupName": "组名",
+      "title": "组信息",
+      "mandatorySymbol": "*"
+    },
+    "users": {
+      "searchPlaceholder": "开始键入以查找用户",
+      "noItemsOverlay": "尚未有任何用户被添加",
+      "noItemsOverlayGrid": "未找到使用此筛选器的用户",
+      "noUsersSubText": "选择上面的“添加用户”以添加一些",
+      "columns": {
+        "name": "名称",
+        "username": "用户名称",
+        "email": "电子邮件",
+        "group": "组",
+        "status": "状态"
+      },
+      "popovers": {
+        "messageAddedUser": "您必须将此用户重新分配到另一个组才能将其删除。",
+        "messageNewUser": "从该组中删除用户？",
+        "bulkMessageAddedUser": "您必须将用户重新分配到另一个组才能将其删除。",
+        "bulkMessageNewUser": "从此组中删除用户？"
+      },
+      "userSelectionModal": {
+        "noUserAddedText": "尚未有任何用户添加",
+        "noUserSelectedText": "尚未选择任何用户"
+      },
+      "modal": {
+        "noItemsOverlay": "没有可分配的用户",
+        "title": "添加用户",
+        "saveLabel": "确认",
+        "cancelLabel": "取消"
+      },
+      "buttons": {
+        "addUsers": "添加用户",
+        "removeUsers": "删除用户"
+      }
+    },
+    "createSuccessMessage": "已成功创建组。",
+    "updateFailureMsg": "未保存组",
+    "popover": {
+      "warningMessage": " 所有更改都将丢失。",
+      "confirmMessage": "您确定要退出而不保存吗？"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "未保存的数据",
+        "unsavedChanges": "如果您离开该页面，您的更改将会丢失。",
+        "areYouSureLeavePage": "是否确定要继续？"
+      }
+    },
+    "userAssignmentFailureMsg": "用户分配失败",
+    "userLabels": {
+      "unassignedUsersLabel": "所有未分配的用户",
+      "assignedUsersLabel": "已分配用户",
+      "userSearchPlaceholder": "开始键入以查找用户"
+    },
+    "removeSelectedUsersMsg": "您将要删除选定的用户。是否继续？",
+    "removeSelectedUnavailableCodeMsg": "您将要删除所选的不可用的代码。是否继续？",
+    "status": {
+      "active": "活跃",
+      "inactive": "不活动",
+      "all": "全部",
+      "pending": "待定",
+      "unregistered": "未注册"
+    }
+  },
+  "importUsersModal": {
+    "header": "导入员工",
+    "weSupportMessage": "通过上传 CSV 文件导入员工。",
+    "downloadMessage1": "您可以在此处",
+    "downloadMessage2": "",
+    "downloadLink": "下载 CSV 文件的模板。",
+    "selectFileMessage": "",
+    "successMsg": "成功导入员工。",
+    "errorMsg": "无法导入员工。",
+    "downloadTemplates": "下载模板",
+    "dragAndFropText": "拖放上传或",
+    "browsFileText": "浏览文件",
+    "importErrorsList": {
+      "header": "导入错误",
+      "invalidUser": "角色在系统中不存在",
+      "invalidUserRole": "角色和用户状态不匹配",
+      "userAlreadyExists": "创建用户失败，已存在具有相同用户名的用户。",
+      "userCreateFailed": "用户创建失败，请检查输入",
+      "invalidUserStatus": "无法更改活跃用户的电子邮件地址。",
+      "cannotChangeOwnRole": "你不能改变自己的角色。"
+    }
+  },
+  "metaInfo": {
+    "title": "Nice SaaS WFM",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "success": {
+      "title": "成功",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "示例",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "表单示例",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "员工",
+      "description": "Nice SaaS WFM"
+    },
+    "groups": {
+      "title": "组",
+      "description": "Nice SaaS WFM"
+    },
+    "groups/create": {
+      "title": "创建组",
+      "description": "Nice SaaS WFM"
+    },
+    "groups/update": {
+      "title": "更新组",
+      "description": "Nice SaaS WFM"
+    },
+    "accountSettings": {
+      "title": "账户设置",
+      "description": "Nice SaaS WFM"
+    },
+    "teams": {
+      "title": "团队",
+      "description": "团队"
+    },
+    "teams/create": {
+      "title": "创建团队",
+      "description": "团队"
+    },
+    "teams/update": {
+      "title": "更新团队",
+      "description": "团队"
+    },
+    "viewTeam": {
+      "title": "查看团队",
+      "description": "团队"
+    },
+    "bulkUploadDownload": {
+      "title": "批量上传下载",
+      "description": "批量上传下载"
+    },
+    "bulkUploadDownload/reviewErrors": {
+      "title": "批量上传下载 - 检查错误",
+      "description": "批量上传下载 - 检查错误"
+    },
+    "hierarchies": {
+      "title": "层次结构",
+      "description": "层次结构"
+    },
+    "hierarchyManager": {
+      "title": "层级结构管理器",
+      "description": "层级结构管理器"
+    },
+    "hierarchyManagerV2": {
+      "title": "层级结构管理器",
+      "description": "层级结构管理器"
+    },
+    "security": {
+      "title": "安全",
+      "description": "安全"
+    },
+    "createGroup": {
+      "title": "创建组"
+    },
+    "userManagement/create": {
+      "title": "创建用户",
+      "description": "创建用户"
+    },
+    "userManagement/update": {
+      "title": "更新用户",
+      "description": "更新用户"
+    },
+    "employeeGroups": {
+      "title": "调度单元",
+      "description": "Nice SaaS WFM"
+    }
+  },
+  "successPage": {
+    "welcomeMsg": "您好{{username}}"
+  },
+  "teamsListPage": {
+    "pageTitle": "团队",
+    "goBackToHierarchy": "返回层次结构",
+    "teams": "团队",
+    "teamCount": "{{count}}团队",
+    "itemsCount": "浏览{{count}}",
+    "totalItemsCount": "{{count}}总数",
+    "userCount": "",
+    "selectedItems": "{{selectedCount}}选择",
+    "untitledTeam": "无标题团队",
+    "createTeam": "新团队",
+    "cancel": "取消",
+    "save": "保存",
+    "saveAndActivate": "保存和激活",
+    "newTeamPageTitle": "创建新团队",
+    "bulkOperationBtn": {
+      "activate": "启动",
+      "deactivate": "停用"
+    },
+    "filters": {
+      "statusLabel": "状态",
+      "status": "{{count}}个状态",
+      "team": "{{count}}团队",
+      "selectStatus": "选择状态",
+      "userStatus": {
+        "active": "活跃",
+        "unregistered": "未注册",
+        "pending": "待定",
+        "deleted": "已删除"
+      }
+    },
+    "status": {
+      "active": "活跃",
+      "inactive": "不活动",
+      "all": "全部"
+    },
+    "tabLabels": {
+      "general": "一般",
+      "assignedUsers": "已分配用户",
+      "unavailableCodes": "不可用的代码",
+      "teamProperties": "团队属性",
+      "contactSettings": "联系人设置",
+      "features": "功能",
+      "changeAuditHistory": "更改历史记录",
+      "zeroRow": "0 总数"
+    },
+    "changeAuditHistoryTab": {
+      "Team": {
+        "id": "Id",
+        "name": "名称",
+        "description": "说明",
+        "status": "状态",
+        "leadUserId": "领先用户 Id",
+        "isDefault": "为默认值",
+        "createdBy": "创建人",
+        "lastModified": "最后修改",
+        "acdInfos": "ACD 信息",
+        "customAttributes": {
+          "inViewChatMessaging": "绩效管理聊天消息",
+          "niceScreenRecording": "录屏",
+          "inViewCoaching": "Performance Management辅导",
+          "niceAudioRecording": "音频录制",
+          "niceWfmWorloadManager": "WFM 工作负载管理器",
+          "niceQuaityManagement": "质量管理",
+          "inViewPerformanceMangement": "绩效管理",
+          "niceQualityOptimization": "质量优化",
+          "maxReleasePreview": "使用之前的 MAX 版本",
+          "inViewGamification": "Performance Management游戏化",
+          "inViewWallboard": "Performance Management看板",
+          "niceWfmEssentials": "WFM Essentials",
+          "niceWfmAdvanced": "WFM Advanced",
+          "niceWfoAdvanced": "WFO Advanced"
+        },
+        "divisionId": "部门 Id"
+      },
+      "noRowsOverlayText": "未找到变更历史数据",
+      "itemsCountLabel": "变化"
+    },
+    "generalInfo": {
+      "teamName": "团队名称",
+      "heading": "团队信息",
+      "teamDescription": "说明",
+      "teamLead": "团队主管",
+      "teamId": "团队 ID",
+      "noneSelected": "无已选",
+      "mandatorySymbol": "*",
+      "hierarchyName": "名称",
+      "hierarchyType": "类型",
+      "hierarchyParent": "父级",
+      "hierarchyAssociationHeading": "层级结构关联",
+      "emptyHierarchiesMessage": "该团队未关联任何组织层级。请将其添加为现有组织层级中的节点，或新建组织层级。",
+      "hierarchyPermission": "您无权查看层次结构详细信息",
+      "primaryHierarchy": "主要层次结构",
+      "warningModal": {
+        "warningHeader": "警告",
+        "modalBody": "一旦为团队分配了部门，就无法更改。",
+        "modalBodySub": "是否确定要继续？",
+        "divisionLink": "部门管理页面",
+        "cancel": "取消",
+        "continue": "继续"
+      },
+      "teamDivision": "部门",
+      "teamDivisionPlaceholder": "选择部门"
+    },
+    "users": {
+      "searchPlaceholder": "开始键入以查找用户",
+      "noItemsOverlay": "尚未有任何用户被添加",
+      "noItemsOverlayGrid": "未找到使用此筛选器的用户",
+      "noUsersSubText": "选择上面的“添加用户”以添加一些",
+      "columns": {
+        "name": "名称",
+        "username": "用户名称",
+        "email": "电子邮件",
+        "team": "团队",
+        "status": "状态"
+      },
+      "popovers": {
+        "messageAddedUser": "您必须将此用户重新分配至另一个团队才能将其删除。",
+        "messageNewUser": "从该团队中删除用户？",
+        "bulkMessageAddedUser": "您必须将用户重新分配至另一个团队才能将其删除。",
+        "bulkMessageNewUser": "从该团队中删除用户？"
+      },
+      "userSelectionModal": {
+        "noUserAddedText": "尚未有任何用户添加",
+        "noUserSelectedText": "尚未选择任何用户"
+      },
+      "modal": {
+        "noItemsOverlay": "没有可分配的用户",
+        "title": "添加用户"
+      },
+      "buttons": {
+        "addUsers": "添加用户",
+        "removeUsers": "删除用户"
+      }
+    },
+    "unavailableCodes": {
+      "searchPlaceholder": "开始输入以查找不可用的代码",
+      "noItemsOverlay": "尚未添加不可用的代码",
+      "noItemsOverlayGrid": "使用此筛选器未找到不可用的代码",
+      "noUCSubText": "选择上面的\"Add Unavailable Code\"（添加不可用的代码）来添加一些代码",
+      "columns": {
+        "name": "名称",
+        "afterContactWork": "通话后处理工作",
+        "agentTimeout": "坐席超时（分钟）"
+      },
+      "popovers": {
+        "bulkRemoveConfirmation": "从此团队中删除选定的不可用的代码？",
+        "removeConfirmation": "从这个团队删除不可用的代码？"
+      },
+      "modal": {
+        "noItemsOverlay": "没有可分配的不可用的代码",
+        "title": "添加不可用代码",
+        "noUnavailableCodesAddedText": "尚未添加不可用的代码",
+        "noUnavailableCodesSelectedText": "尚未选择不可用的代码"
+      },
+      "buttons": {
+        "addUnavailableCode": "添加不可用代码",
+        "removeUnavailableCode": "删除不可用的代码"
+      }
+    },
+    "features": {
+      "enabledFeatures": "已启用的功能",
+      "performanceOptimization": "性能优化",
+      "inViewPerfManagement": "Performance Management",
+      "gamification": "绩效管理游戏化",
+      "chatMessage": " 绩效管理聊天消息",
+      "coaching": "绩效管理辅导",
+      "inViewWallboard": "绩效管理看板",
+      "maxReleasePreview": "使用之前的 MAX 版本",
+      "maxPreview": "以前的 MAX 版本",
+      "NICEWFO": "WFO ENTERPRISE",
+      "niceAudioRecording": "音频录制",
+      "niceScreenRecording": "录屏",
+      "niceQualityManagement": "质量管理",
+      "niceQualityOptimization": "质量优化",
+      "niceWfmAdvanced": "WFM Advanced",
+      "niceWfmEssentials": "WFM Essentials",
+      "niceWfoEssentials": "WFO Essentials",
+      "niceWfoAdvanced": "WFO Advanced",
+      "cxoneCustomerAuthentication": "CXone 客户身份验证"
+    },
+    "createSuccessMessage": "已成功创建团队。",
+    "updateFailureMsg": "团队未保存",
+    "popover": {
+      "warningMessage": "所有更改都将丢失",
+      "confirmMessage": "您确定要退出而不保存吗？",
+      "hierarchyRedirectionConfirmationMessage": "此页面上可能有一些未保存的更改。请选择以下选项之一以继续查看层次结构详细信息。"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "未保存的数据",
+        "unsavedChanges": "如果您离开该页面，您的更改将会丢失。",
+        "areYouSureLeavePage": "是否确定要继续？"
+      }
+    },
+    "saveDuplicateTeamModal": {
+      "addHeader": "复制团队",
+      "subHeading": "团队名称",
+      "saveLabel": "重复",
+      "cancelLabel": "取消",
+      "successMsg": "团队复制成功",
+      "failureMsg": "复制团队时出错",
+      "errors": {
+        "uniqueTitle": "此名称已存在。尝试一个新的。"
+      }
+    },
+    "teamProperties": {
+      "contactHandlingTab": {
+        "contactHandling": "通话处理",
+        "contactHandlingSubTitle": "团队默认值",
+        "teamDefaultsSingleChannel": "团队默认值（单信道处理）",
+        "teamDefaults": "团队默认值",
+        "teamDefault": "默认团队",
+        "teamDefaultOff": "团队默认值（关闭）",
+        "deliveryMode": "交付模式",
+        "voice": "声音",
+        "chats": "聊天",
+        "singleChannelChatLbl": "并行聊天",
+        "emails": "电子邮件",
+        "singleChannelEmailLbl": "自动驻留的电子邮件",
+        "workItems": "工作项目",
+        "digital": "数字",
+        "requestContact": "请求联系人",
+        "contactAutoFocus": "自动聚焦",
+        "totalContactCount": "联系人总数",
+        "contactHandlingSettings": "联系人处理设置",
+        "assignedUsers": "已分配用户",
+        "noAssignedUsers": "尚未分配用户。",
+        "first": "第一个",
+        "last": "最后一个",
+        "sms": "短信"
+      }
+    },
+    "activateSuccessMsg": "团队激活成功",
+    "deactivateSuccessMsg": "团队停用成功",
+    "activateFailureMsg": "无法激活团队",
+    "deactivateFailureMsg": "无法停用团队",
+    "hierarchyRemovalFailureMsg": "无法删除团队层次结构关联",
+    "bulkActivationSuccessMsg": "团队激活成功",
+    "bulkDeactivationSuccessMsg": "团队停用成功",
+    "bulkActivationByPassMsg": "团队已处于活动状态",
+    "bulkDeactivationByPassMsg": "团队已处于不活动状态",
+    "bulkActivationFailureMsg": "由于内部错误，无法激活 {0}个团队",
+    "bulkDeactivationFailureMsg": "无法停用 {0} 团队",
+    "bulkHierarchyRemovalFailureMsg": "由于内部错误，无法删除 {0} 个团队层次结构关联",
+    "userAssignmentFailureMsg": "用户分配失败",
+    "userSuccessCountMsg": " 已成功添加用户",
+    "userFailureCountMsg": " 无法添加用户",
+    "userConfigurationFailureMsg": "无法更新团队用户配置",
+    "userLabels": {
+      "unassignedUsersLabel": "所有未分配的用户",
+      "assignedUsersLabel": "已分配用户",
+      "userSearchPlaceholder": "开始键入以查找用户"
+    },
+    "removeSelectedUsersMsg": "您将要删除选定的用户。是否继续？",
+    "removeSelectedUnavailableCodeMsg": "您将要删除所选的不可用的代码。是否继续？",
+    "divisions": {
+      "label": "部门",
+      "placeholder": "选择部门"
+    },
+    "userDivisionMismatchMsg": "用户不可移出所属部门。"
+  },
+  "teamsPage": {
+    "pageTitle": "团队",
+    "itemsCount": "{{count}}团队",
+    "itemsCountAngular": "团队",
+    "selectedItems": "已选择",
+    "createTeam": "新团队",
+    "noItemsOverlay": "尚未分配团队。",
+    "cancel": "取消",
+    "create": "创建",
+    "save": "保存",
+    "teamStrToReplace": "团队",
+    "searchPlaceHolder": "开始输入以查找团队",
+    "teamNamePlaceHolder": "无标题团队",
+    "successMsg": "团队创建成功",
+    "failureMsg": "无法创建团队。请重试",
+    "defaultTooltip": "默认团队",
+    "gridColumnsHeaders": {
+      "teamName": "名称",
+      "status": "状态",
+      "actions": "操作",
+      "employees": "用户",
+      "assignedUsers": "已分配用户",
+      "teamId": "团队 Id"
+    },
+    "filters": {
+      "status": "{{count}}个状态",
+      "searchPlaceholder": "开始输入以查找团队"
+    },
+    "moreMenu": {
+      "activate": "启动",
+      "deactivate": "停用",
+      "clone": "重复"
+    },
+    "teamStates": {
+      "all": "全部",
+      "active": "活跃",
+      "inactive": "不活动"
+    },
+    "modalMessages": {
+      "hierarchies": {
+        "message": "团队是一个或多个层次结构的一部分。在停用时，您是否还想从层次结构中移除团队关联？",
+        "bulkMessage": "在停用所选团队时，您是否还想从层次结构中移除团队关联？"
+      }
+    },
+    "newTeamNamePlaceholder": "无标题团队",
+    "teamLeadPlaceHolder": "选择团队主管...",
+    "addHeader": "创建新团队",
+    "editTeam": "编辑团队",
+    "employeesTab": {
+      "header": "员工",
+      "assignedEmployeesTxt": "已分配员工",
+      "addEmployeesBtn": "增加员工",
+      "selectEmployeesTxt": "选择员工",
+      "selectedTxt": "选择："
+    },
+    "contactHandlingInfoTab": {
+      "header": "通话处理"
+    },
+    "failedLoadTeams": "加载团队失败。请重试。",
+    "messages": {
+      "updateSuccess": "团队更新成功",
+      "updateFailure": "无法更新团队详细信息",
+      "updateSuccessStartedMsg": "已成功开始更新，这个过程需要几分钟的时间完成",
+      "failedToUpdateTeam": "团队部门 ID 与现有团队部门 ID 不匹配"
+    },
+    "hierarchyType": {
+      "ORGANIZATIONAL": "组织"
+    }
+  },
+  "userManagementPage": {
+    "failedLoadUsers": "无法加载用户。请再试一次。",
+    "pageTitle": "员工",
+    "newUserBtn": "新员工",
+    "importUsersBtn": "导入员工",
+    "userListHeader": "{{orgName}}的员工：",
+    "items": "员工",
+    "item": "员工",
+    "selectedItems": "{{selectedCount}}选择",
+    "billable": "计费",
+    "non-billable": "非计费",
+    "virtualAgentEnabled": "真",
+    "virtualAgentDisabled": "假",
+    "gridColumnsHeaders": {
+      "name": "名称",
+      "email": "电子邮件",
+      "acdLogin": "ACD 登入",
+      "role": "角色",
+      "type": "类型",
+      "state": "状态",
+      "group": "调度单元",
+      "userName": "用户名称",
+      "billable": "计费",
+      "virtualAgentEnabled": "虚拟代理"
+    },
+    "filters": {
+      "schedulingUnits": " 调度单元",
+      "skills": " 技能",
+      "groups": " 组",
+      "searchPlaceholder": "开始键入以查找用户",
+      "label": "显示",
+      "teams": " 团队",
+      "billable": " 计费",
+      "type": " 类型",
+      "division": " 部门"
+    },
+    "popover": {
+      "visibility": "您没有查看此信息的权限 \n",
+      "acdLoginLbl": "ACD 登入",
+      "hireDateLbl": "聘用日期：{{value}}",
+      "rankLbl": "级别：{{value}}",
+      "skillsLbl": "技能：{{value}}",
+      "visibilityInfo": "您无法更改自己的可见性。",
+      "roleInfo": "你不能改变自己的角色。",
+      "visibilityRoleInfo": "您没有查看此信息的权限，您无法更改自己的角色。"
+    },
+    "preferencesTab": {
+      "shiftPreferencesTitle": "班次首选项",
+      "TimePreferencesTitle": "休息日偏好",
+      "TimePreferencesSubTitle": "没有休息日",
+      "PossibleDaysOff": "可能的休息日",
+      "day": "天",
+      "shiftTime": "轮班时间",
+      "noOptionsAvailable": "这个员工被分配到没有灵活性的规则，所以轮班是固定的，没有按偏好来可言",
+      "noOptionsAvailableForShift": "没有指定的班次。"
+    },
+    "userStates": {
+      "active": "活跃",
+      "pending": "待定",
+      "unregistered": "邀请",
+      "inviting": "发送中",
+      "deleted": "不活动",
+      "locked": "解锁",
+      "all": "全部",
+      "samlUnregistered": "启动",
+      "lockedUser": "已锁定用户",
+      "passwordLocked": "已锁定密码"
+    },
+    "userRoles": {
+      "agent": "坐席"
+    },
+    "bulkOperationsBtns": {
+      "inviteBtn": "邀请",
+      "deleteBtn": "删除",
+      "deactivateBtn": "停用",
+      "activateBtn": "启动",
+      "resetPasswordBtn": "重置 P/W",
+      "tooltips": {
+        "invite": "邀请员工",
+        "delete": "删除员工",
+        "resetPwd": "重置密码"
+      }
+    },
+    "status": {
+      "invite": "邀请"
+    },
+    "tabLabels": {
+      "general": "一般",
+      "skills": "WEM 技能",
+      "availability": "可用性",
+      "preferences": "偏好",
+      "changeAuditHistory": "更改历史记录",
+      "acd": "ACD",
+      "security": "安全",
+      "contactHandling": "联系人设置",
+      "secondaryRoles": "次要角色",
+      "accessKeys": "访问密钥",
+      "visibility": "可见性",
+      "recordingAccounts": "录制文件帐户",
+      "bcp": "BCP"
+    },
+    "changeAuditHistory": {
+      "noRowsOverlayText": "未找到更改历史记录数据",
+      "itemsCountLabel": "变化",
+      "User": {
+        "userName": "用户名称",
+        "firstName": "名字",
+        "lastName": "姓",
+        "emailAddress": "电子邮件地址",
+        "emailToBeVerified": "电子邮件（验证待处理）",
+        "role": "主要角色",
+        "roleUUID": "主要角色",
+        "secondaryRoleIds": "次要角色",
+        "mobileNumber": "手机号码",
+        "telephone1": "电话1",
+        "telephone2": "电话2",
+        "hireDate": "聘用日期",
+        "rank": "级别",
+        "views": "浏览量",
+        "teamId": "分配给团队",
+        "groupIds": "分配给小组",
+        "externalIdentity": "外部标识符",
+        "status": "状态",
+        "acdInfos": "ACD 信息",
+        "middleName": "中间名",
+        "displayName": "显示名称",
+        "timeZone": "时区",
+        "type": "类型",
+        "customAttributes": {
+          "canBeScheduled": "可以安排时间",
+          "canBeCoachedOrEvaluated": "可以被辅导或评估",
+          "canBeRecorded": "可以录音（语音）",
+          "canBeRecordedScreen": "可以录制（屏幕）",
+          "canBeRecordedDefault": "可以录制",
+          "canBeAnalyzed": "可以分析",
+          "osLogin": "OS 登入",
+          "digitalEngagement": "数字参与",
+          "customerCard": "Customer Card",
+          "agentIntegrations": "代理整合",
+          "canViewBIReports": "可以查看 BI 报告",
+          "canEditBIReports": "可以编辑 BI 报告",
+          "virtualAgentEnabled": "已启用虚拟坐席",
+          "hasSmartReachUserAccess": "SmartReach 用户",
+          "hasSmartReachAgentAccess": "Smartreach 坐席",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartReachDeskAccess": "办公桌",
+          "smartReachECCAccess": "Enhanced Customer Card",
+          "dataCollectionEnabled": "数据集合已启用"
+        },
+        "loginAuthenticatorId": "登录身份验证程序 ID",
+        "source": "来源",
+        "elevatedDivisionId": "提升的部门 Id"
+      }
+    },
+    "deleteSelectedUsersMsg": "您将要停用所选员工。此操作将阻止员工登录，并且需要重新激活他们才能启用登录。继续吗？",
+    "deleteSingleUsersMsg": "您将要停用此员工。此操作将阻止员工登录，并且需要重新激活他们才能启用登录。继续吗？",
+    "inviteSelectedUsersMsg": "选定的员工将被邀请加入此应用程序。继续吗？",
+    "resetPasswordSelectedUsersMsg": "这将迫使选定的用户在登录时更新他们的密码。继续吗？",
+    "activateSelectedUsersMsg": "选定的员工将被激活。继续吗？",
+    "reinviteUsersMsg": "邀请函已过期。核实电子邮件地址并重试。",
+    "reinviteBtnText": "重新发送",
+    "inviteUsersSuccessMsg": "员工已被成功邀请",
+    "inviteUsersWarnMsg": "员工已经激活",
+    "inviteUsersFailureMsg": "邀请员工失败",
+    "inviteSingleUserSuccessMsg": "员工已被成功邀请",
+    "activateSingleSamlUserSuccessMsg": "员工已被成功激活",
+    "activateSingleUserSuccessMsg": "员工已被成功激活",
+    "activateSingleUserFailureMsg": "员工无法被激活",
+    "createAndInviteSingleUserSuccessMsg": "已成功创建并邀请员工",
+    "createAndActivateSingleSamlUserSuccessMsg": "已成功创建并激活员工",
+    "inviteSingleUserFailureMsg": "员工无法被邀请",
+    "deleteSingleUserSuccessMsg": "员工已被成功停用。该员工的未来计划表已被删除。",
+    "deleteSingleUserFailureMsg": "员工无法被删除",
+    "deleteUsersSuccessMsg": "{{numOfUsers}}员工已被成功停用。该员工的未来计划表已被删除。",
+    "deleteUsersFailureMsg": "{{numOfFailedToDeleteUsers}}由于{{totalExpected}}员工无法被删除",
+    "deleteLoggedInUser": "您不能删除您自己的员工。",
+    "reactivateUser": "用户已被成功激活",
+    "activateUsersSuccessMsg": "员工已被成功激活",
+    "activateUsersFailureMsg": "由于内部错误员工无法被激活",
+    "resetUsersPasswordSuccessMsg": "密码重置成功。",
+    "resetUsersPasswordFailureMsg": "密码重置失败",
+    "unlockUser": {
+      "popover": {
+        "warningMessage": "由于登录尝试失败次数过多，此帐户被锁定。",
+        "confirmMessage": "是否要解锁此用户？"
+      },
+      "messages": {
+        "unlockSuccess": "员工解锁成功。",
+        "unlockFailure": "无法解锁员工。"
+      },
+      "lockSubtitle": "（帐户已锁定）"
+    },
+    "actionPopover": {
+      "deactivateUser": "停用",
+      "activateUser": "启动",
+      "resendInvitation": "重新发送邀请",
+      "inviteUser": "邀请",
+      "resetPassword": "重置 P/W",
+      "unlockUser": "解锁用户",
+      "unlockPassword": "解锁密码"
+    },
+    "modalMessages": {
+      "resetPassword": {
+        "title": "重置密码？",
+        "confirmButtonText": "重置密码",
+        "message": "这将迫使用户在登录时更新他们的密码。您确定要重置这个用户的密码吗？"
+      }
+    },
+    "unlockInactiveUser": {
+      "toasterMessages": {
+        "UnlockedSuccess": " 已解锁",
+        "UnlockFailed": " 解锁失败",
+        "PasswordUnlockFailed": "用户密码解锁失败 ",
+        "PasswordForUser": "用户密码 ",
+        "failedLoadEmployee": "加载员工失败"
+      }
+    },
+    "userNotInSameDivisionMsg": {
+      "errorDescription": "该用户与登录用户不属同一部门。",
+      "failureMsg": "无法重置父级部门用户的密码。"
+    }
+  },
+  "commonButtons": {
+    "SingleContactDefault": "单个联系人（默认）",
+    "Omnichannel": "全信道",
+    "SingleContact": "单个联系人",
+    "ok": "确定",
+    "cancel": "取消",
+    "no": "否",
+    "noDefault": "无（默认）",
+    "yes": "是",
+    "yesDefault": "是（默认）",
+    "save": "保存",
+    "delete": "删除",
+    "invite": "邀请",
+    "edit": "编辑",
+    "update": "更新",
+    "upload": "上传",
+    "today": "今天",
+    "showAll": "显示全部",
+    "clearAll": "全部清除",
+    "close": "关闭",
+    "create": "创建",
+    "selectAll": "全选",
+    "generate": "生成",
+    "chooseFile": "选择文件",
+    "add": "增加",
+    "publish": "发布",
+    "set": "设置",
+    "day": "天",
+    "week": "周",
+    "refresh": "刷新",
+    "off": "关",
+    "on": "开启",
+    "discard": "放弃更改",
+    "view": "查看详细信息",
+    "remove": "删除"
+  },
+  "defaultValues": {
+    "defaultNumeric": "{{numericValue}}（默认）"
+  },
+  "weekDays": {
+    "sunday": "周日",
+    "monday": "周一",
+    "tuesday": "周二",
+    "wednesday": "周三",
+    "thursday": "周四",
+    "friday": "周五",
+    "saturday": "周六"
+  },
+  "weekShortDays": {
+    "SUN": "星期天",
+    "MON": "星期一",
+    "TUE": "星期二",
+    "WED": "星期三",
+    "THU": "星期四",
+    "FRI": "星期五",
+    "SAT": "星期六"
+  },
+  "scheduler": {
+    "noeditsAllowed": "部分显示的班次不可编辑。请更改日期以编辑班次。",
+    "netstaffing": {
+      "diff": "差异",
+      "req": "请求",
+      "staff": "人员"
+    },
+    "publishModal": {
+      "header": "发布新的计划表",
+      "publishConformation": "您选择的一些日期已经发布计划表。如果计划表发生变化，将为员工更新为新日程。",
+      "noSchedulesToPublish": "所选日期范围内没有计划表。",
+      "attention": "注意！",
+      "publishAnywayBtn": "继续发布",
+      "schedulingUnit": "调度单元",
+      "from": "开始：",
+      "to": "结束：",
+      "selectDatePlaceholder": "选择日期",
+      "oneWeek": "1周",
+      "twoWeeks": "2周",
+      "threeWeeks": "3周",
+      "oneMonth": "1个月",
+      "successMessage": "成功发布日期"
+    },
+    "employeeCount": "{{count}}个用户",
+    "filters": {
+      "schedulingUnits": "{{count}}个排程单元",
+      "skills": "{{count}}项技能",
+      "groups": "{{count}}个组",
+      "searchPlaceholder": "开始键入以查找用户"
+    },
+    "activityModal": {
+      "activityCodePlaceholder": "选择一个活动代码",
+      "addTitle": "添加活动 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "添加评论...",
+      "editTitle": "编辑活动 - {{userName}}",
+      "error": {
+        "conflict": "检测到冲突。此活动将取代重叠的活动。",
+        "invaliddatetime": "指定的日期和/或时间无效。",
+        "daterange": "选择一个日期：今天、昨天或明天。",
+        "openhours": "您无法在未开放时排程",
+        "endBeforeStart": "结束日期必须与开始日期相同或晚于开始日期。",
+        "timeRangeOutsideOfRange": "活动必须在时间线范围 ({{start}}- {{end}}) 内开始或结束。",
+        "activityOverlappingTimeRange": "此活动在检索到的计划表之外，可能会替换现有活动。"
+      },
+      "end": "结束",
+      "remaining": "剩余 {{currentLength}}个字符",
+      "remove": "删除",
+      "start": "开始"
+    },
+    "allDay": "全天",
+    "cancel": "取消",
+    "closed": "当组织关闭时，您无法添加班次和活动。",
+    "employeeName": "名称",
+    "hotkeys": {
+      "nextHotKey": "次日",
+      "previousHotKey": "前一天",
+      "refreshHotKey": "从数据库重新加载计划表",
+      "saveHotKey": "保存计划安排更改",
+      "todayHotKey": "转到今天"
+    },
+    "hours": "小时",
+    "menuItems": {
+      "addActivity": "添加活动",
+      "addShift": "添加班次",
+      "copyActivity": "复制活动",
+      "copyShift": "复制班次",
+      "editActivity": "编辑活动",
+      "editShift": "编辑班次",
+      "pasteActivity": "粘贴活动",
+      "pasteShift": "粘贴班次",
+      "removeActivity": "删除活动",
+      "removeShift": "删除班次",
+      "cancel": "关闭"
+    },
+    "name": "名称",
+    "organizationClosed": "组织关闭",
+    "publish": "发布",
+    "save": "保存",
+    "saveAndPublish": "保存并发布",
+    "scheduler": "计划安排管理器",
+    "settings": "计划安排管理器设置",
+    "setupModal": {
+      "tabs": {
+        "netStaffing": {
+          "title": "净人员编制",
+          "range": {
+            "min": "人员配备不足",
+            "mid": "平衡",
+            "max": "人员配备超员"
+          }
+        }
+      },
+      "saveSuccess": "计划安排管理器设置已成功保存。",
+      "saveFailure": "保存计划安排管理器设置时出错。"
+    },
+    "shiftModal": {
+      "addTitle": "添加班次 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "您的评论...",
+      "editTitle": "编辑班次 - {{userName}}",
+      "shiftType": "班次类型",
+      "error": {
+        "conflict": "检测到冲突。此活动将取代重叠的活动。",
+        "invalidtime": "指定的时间无效。",
+        "endBeforeStart": "结束日期必须与开始日期相同或晚于开始日期。",
+        "timeRangeOutsideOfRange": "班次必须在时间线范围 ({{start}}- {{end}}) 内开始或结束。",
+        "shiftOverlappingTimeRange": "此班次在检索到的时间表之外，可能会替换现有班次。"
+      },
+      "end": "结束",
+      "remaining": "剩余 {{currentLength}}个字符",
+      "remove": "删除",
+      "start": "开始"
+    },
+    "toasts": {
+      "saveSuccessMessage": "计划安排变更已成功保存。",
+      "noShiftPaste": "无法粘贴超出可见范围的班次。",
+      "noShiftCopy": "无法复制超出可见范围的班次。",
+      "noActivityPaste": "无法粘贴超出可见范围的活动。",
+      "multipleShifts": "注意！同一天有多个班次。",
+      "overlappingShiftsActivities": "注意！存在重叠的班次和/或活动",
+      "noEdit": "无法编辑超出可见范围的班次或活动。",
+      "noRemove": "无法删除超出可见范围的班次或活动。",
+      "noAddActivity": "无法将活动添加到超出可见范围的班次。"
+    },
+    "today": "今天",
+    "unavailable": "不可用",
+    "unsaved": "退出而不保存更改？",
+    "dailyView": "每日视图",
+    "weeklyView": "每周视图"
+  },
+  "datePicker": {
+    "nextDay": "次日",
+    "openCalendar": "打开日历",
+    "previousDay": "前一天",
+    "today": "今天"
+  },
+  "timePicker": {
+    "openTimePicker": "打开时间选择器"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "次日",
+    "openCalendar": "打开日历",
+    "openTimeChooser": "打开时间选取器",
+    "previousDay": "前一天",
+    "today": "今天"
+  },
+  "recoverPassword": {
+    "recoverMessage": "通过三个简单的步骤恢复您的密码：",
+    "step1": "在下面输入您注册时使用的电子邮件地址",
+    "step2": "我们将通过电子邮件向您发送密码重置链接",
+    "step3": "使用此链接重置您的密码",
+    "successMessage": "带有密码重置链接的消息已发送至您的电子邮件地址",
+    "forgetPassword": "忘记密码",
+    "forgetPasswordExplenation": "提交您的电子邮件，我们将向您发送一个链接以重置您的密码。",
+    "resetBtn": "发送重置链接",
+    "back": "返回登录",
+    "checkYourEmail": "查看你的电子邮件",
+    "mailSuccessSent": "我们向您发送了一封电子邮件，其中包含密码重置链接",
+    "successSend": "重置密码请求发送成功"
+  },
+  "errors": {
+    "throttlingError": {
+      "code": "retryLater",
+      "message": "无法获取层次结构关联信息。请在几分钟后重试。"
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "登录失败"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "常规错误"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "此页面不可用。请检查您的连接并重试。"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "常规错误{{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "无效参数"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "未授权员工"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "服务器没有响应。请稍后再试。"
+    },
+    "wrongCredentials": "您输入的电子邮件地址或密码不正确",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部错误。"
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "排程单元不存在。"
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "此名称已存在。尝试一个新的。"
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "此租户或员工已存在。请尝试一个新的租户或员工。"
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "该帐户名已经存在。请尝试一个新的帐户名"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "文件不存在。"
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "员工不存在"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "没有可邀请的员工。"
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "员工创建失败。"
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "员工身份无效"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "组织名称无效。"
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "电子邮件地址无效。"
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "员工名字无效。"
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "员工姓氏无效。"
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "无法删除默认排程单元。"
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "缺少排程单元 ID。"
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "员工最大工作小时数超出范围。"
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "员工密码无效。"
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "无法更新默认群组。"
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "无法从默认群组中删除员工。"
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "员工密码不正确。"
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "员工不存在。"
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "您不能删除您自己的员工。"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "您不能删除唯一的管理员"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "您不能删除已被删除的员工"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "无效的密码令牌"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "帐户创建失败"
+    },
+    "platform_user_manager_service_29": {
+      "code": "CUSTOM_ATTRIBUTE_TYPE_DOES_NOT_EXIST",
+      "message": "自定义属性类型不存在"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "组织名称无效"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "不支持该文件格式"
+    },
+    "platform_user_manager_service_32": {
+      "code": "USER_RANK_NOT_VALID",
+      "message": "员工评级无效"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "您无权更改角色"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "你不能改变自己的角色"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "无法删除上一个管理员。"
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "此名称已存在。尝试一个新的。"
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "无法更改密码，因为旧密码和新密码相同。"
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "您输入的电子邮件地址或密码不正确"
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "请检查您的详细信息，然后重试"
+    },
+    "platform_user_manager_service_40": {
+      "code": "EMPTY_EMAIL_LIST",
+      "message": "电子邮件列表为空"
+    },
+    "platform_user_manager_service_41": {
+      "code": "ROLE_DOES_NOT_EXIST",
+      "message": "角色不存在"
+    },
+    "platform_user_manager_service_42": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "无效的 ACD 登录 ID"
+    },
+    "platform_user_manager_service_43": {
+      "code": "ATTRIBUTE_VALUE_ALREADY_EXIST",
+      "message": "属性值已存在"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD 登录 ID 已存在"
+    },
+    "platform_user_manager_service_45": {
+      "code": "FAILED_TO_CREATE_USER_MAX_USERS_IN_TENANT_REACHED",
+      "message": "已超出用户数上限"
+    },
+    "platform_user_manager_service_46": {
+      "code": "BAD_REQUEST",
+      "message": "新员工将超过用户限制，请联系销售人员 CXoneSalesTeam@niceincontact.com"
+    },
+    "platform_user_manager_service_47": {
+      "code": "FAILED_TO_REVIVE_USER",
+      "message": "重新激活员工失败"
+    },
+    "platform_user_manager_service_48": {
+      "code": "UNABLE_TO_PARSE_DATE_FORMAT_MISMATCH",
+      "message": "无法解析日期格式"
+    },
+    "platform_user_manager_service_49": {
+      "code": "INVALID_FUTURE_DATED_LAST_ACCESS_TIME",
+      "message": "上次访问时间无效"
+    },
+    "platform_user_manager_service_50": {
+      "code": "USER_NAME_NOT_VALID",
+      "message": "员工姓名无效"
+    },
+    "platform_user_manager_service_51": {
+      "code": "USER_EMAIL_ALREADY_EXISTS",
+      "message": "电子邮件已存在"
+    },
+    "platform_user_manager_service_52": {
+      "code": "USERNAME_ALREADY_EXISTS",
+      "message": "员工姓名已存在"
+    },
+    "platform_user_manager_service_57": {
+      "code": "INVALID_USER_ROLE",
+      "message": "员工角色无效"
+    },
+    "platform_user_manager_service_59": {
+      "code": "USERNAME_NOT_IN_VALID_EMAIL_FORMAT",
+      "message": "用户名称应为电子邮件地址格式"
+    },
+    "platform_user_manager_service_60": {
+      "code": "DISPLAY_NAME_ALREADY_EXISTS",
+      "message": "员工的显示名称已存在"
+    },
+    "platform_user_manager_service_61": {
+      "code": "DISPLAY_NAME_CANNOT_BE_NULL",
+      "message": "员工需要显示姓名"
+    },
+    "platform_user_manager_service_62": {
+      "code": "DISPLAY_NAME_CANNOT_BE_EMPTY",
+      "message": "员工需要显示姓名"
+    },
+    "platform_user_manager_service_64": {
+      "code": "MULTIPLE_USER_WITH_SAME_USERNAME_FOUND",
+      "message": "找到多个用户名相同的员工"
+    },
+    "platform_user_manager_service_65": {
+      "code": "TEAM_NOT_FOUND_FOR_ID",
+      "message": "找不到指定 ID 的团队"
+    },
+    "platform_user_manager_service_66": {
+      "code": "INVALID_SEARCH_CRITERIA",
+      "message": "搜索条件无效"
+    },
+    "platform_user_manager_service_67": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "团队名称无效"
+    },
+    "platform_user_manager_service_68": {
+      "code": "TEAM_ALREADY_EXISTS",
+      "message": "团队已经存在"
+    },
+    "platform_user_manager_service_69": {
+      "code": "TEAM_LEAD_USER_DOES_NOT_EXIST",
+      "message": "团队主管不存在"
+    },
+    "platform_user_manager_service_70": {
+      "code": "TEAM_LEAD_USER_NOT_PROVIDED",
+      "message": "没有团队主管的团队"
+    },
+    "platform_user_manager_service_71": {
+      "code": "TENANT_SCHEMA_OR_USER_ID_DOES_NOT_EXIST",
+      "message": "租户架构或员工 ID 不存在"
+    },
+    "platform_user_manager_service_72": {
+      "code": "INVALID_INPUT_OR_DUPLICATE_CLAIM_DATA",
+      "message": "无效的输入或重复的领取数据"
+    },
+    "platform_user_manager_service_73": {
+      "code": "REDIS_CACHING_ERROR",
+      "message": "redis 缓存问题"
+    },
+    "platform_user_manager_service_74": {
+      "code": "REDIS_RETRIVAL_ERROR",
+      "message": "redis 缓存问题"
+    },
+    "platform_user_manager_service_75": {
+      "code": "ROLE_MISSING",
+      "message": "角色缺失"
+    },
+    "platform_user_manager_service_76": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "获取角色详细信息的问题"
+    },
+    "platform_user_manager_service_77": {
+      "code": "SERVICE_USER_AUTHENTICATION_FAILED",
+      "message": "验证员工身份时出错"
+    },
+    "platform_user_manager_service_78": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "获取角色详细信息的问题"
+    },
+    "platform_user_manager_service_81": {
+      "code": "IMPERSONATE_USER_UPDATE_NOT_ALLOWED",
+      "message": "不允许更新模拟用户"
+    },
+    "platform_user_manager_service_83": {
+      "code": "REDIS_TEMPLATE_CREATION_ERROR",
+      "message": "redis 缓存问题"
+    },
+    "platform_user_manager_service_84": {
+      "code": "INVALID_JOINT_USER_ATTRIBUTES",
+      "message": "联合用户属性无效"
+    },
+    "platform_user_manager_service_85": {
+      "code": "INVALID_IMPORT_RUN_ID",
+      "message": "导入运行 ID 无效"
+    },
+    "platform_user_manager_service_86": {
+      "code": "NO_REPORTS_FOUND_FOR_GIVEN_IMPORT_RUN",
+      "message": "未找到给定导入运行的报告"
+    },
+    "platform_user_manager_service_88": {
+      "code": " PERMISSION_DENIED",
+      "message": "权限已被拒绝"
+    },
+    "platform_user_manager_service_94": {
+      "code": "INVALID_INPUT",
+      "message": "输入无效"
+    },
+    "platform_user_manager_service_95": {
+      "code": "RECORD_NOT_FOUND",
+      "message": "未找到记录"
+    },
+    "platform_user_manager_service_96": {
+      "code": "RECORD_ALREADY_EXISTS",
+      "message": "记录已存在"
+    },
+    "platform_user_manager_service_99": {
+      "code": "AWS_USERPOOL_DELETION_FAILED",
+      "message": "用户池删除失败"
+    },
+    "platform_user_manager_service_100": {
+      "code": "EMPTY_APPLICATION_lIST",
+      "message": "申请列表为空"
+    },
+    "platform_user_manager_service_101": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "角色状态无效"
+    },
+    "INVALID_ROLE_STATUS": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "角色状态无效"
+    },
+    "user_upload_131": {
+      "code": "INVALID_VIEW_COUNT",
+      "message": "您最多可以为用户分配 3 个视图"
+    },
+    "user_upload_132": {
+      "code": "INVALID_VIEW_NAME",
+      "message": "视图名称无效"
+    },
+    "user_upload_133": {
+      "code": "INVALID_INPUT",
+      "message": "输入无效"
+    },
+    "user_upload_134": {
+      "code": "INVALID_AGENT_INTEGRATIONS",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "platform_user_manager_service_102": {
+      "code": "INVALID_ROLE_MODIFIABLE_FLAG",
+      "message": "角色的可修改标志无效"
+    },
+    "platform_user_manager_service_111": {
+      "code": "INVALID_ROLENAME",
+      "message": "角色名称无效"
+    },
+    "platform_user_manager_service_112": {
+      "code": "INVALID_USERNAME_ROLENAME",
+      "message": "员工姓名和角色名称无效"
+    },
+    "platform_user_manager_service_114": {
+      "code": "INVALID_ROLE_PERMISSION",
+      "message": "角色权限无效"
+    },
+    "platform_user_manager_service_115": {
+      "code": "INVALID_ROLE_ID",
+      "message": "无效的角色 ID"
+    },
+    "platform_user_manager_service_116": {
+      "code": "INVALID_LICENSE",
+      "message": "许可无效"
+    },
+    "platform_user_manager_service_117": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_NAME",
+      "message": "自定义属性名称无效"
+    },
+    "platform_user_manager_service_118": {
+      "code": "ATTRIBUTE_NAME_WITH_SPACE",
+      "message": "属性名称中不允许有空格"
+    },
+    "platform_user_manager_service_125": {
+      "code": "INVALID_USER_ROLE_STATUS",
+      "message": "请在重新激活之前将员工分配至活动角色"
+    },
+    "platform_user_manager_service_127": {
+      "code": "FAILED_TO_CREATE_ROLE",
+      "message": "角色创建失败"
+    },
+    "platform_user_manager_service_128": {
+      "code": "FAILED_TO_EDIT_ROLE",
+      "message": "角色编辑失败"
+    },
+    "platform_user_manager_service_132": {
+      "code": "INVALID_TEAM_STATUS",
+      "message": "团队状态无效"
+    },
+    "platform_user_manager_service_133": {
+      "code": "TEAM_LEAD_USER_NOT_ACTIVE",
+      "message": "团队主管员工不活动"
+    },
+    "platform_user_manager_service_134": {
+      "code": "INVALID_REQUEST",
+      "message": "无效请求"
+    },
+    "platform_user_manager_service_135": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR",
+      "message": "登录身份验证器无效"
+    },
+    "platform_user_manager_service_137": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR_ATTRIBUTE",
+      "message": "登录身份验证器属性无效"
+    },
+    "platform_user_manager_service_138": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_ENTITY_NAME",
+      "message": "自定义属性实体名称无效"
+    },
+    "platform_user_manager_service_140": {
+      "code": "INVALID_MFA_DETAILS",
+      "message": "MFA 详细信息无效"
+    },
+    "platform_user_manager_service_143": {
+      "code": "NOT_ALLOWED_TO_CHANGE_TEAM_STATUS",
+      "message": "不允许更改团队状态"
+    },
+    "platform_user_manager_service_152": {
+      "code": " USER_IS_TEAM_LEAD",
+      "message": "无法删除作为团队主管的员工"
+    },
+    "platform_user_manager_service_155": {
+      "code": "NO_USER_TO_UPDATE_EMAIL",
+      "message": "员工不存在，无法更新电子邮件地址"
+    },
+    "platform_user_manager_service_156": {
+      "code": "NO_EMAIL_TO_UPDATE",
+      "message": "需要更新电子邮件地址"
+    },
+    "platform_user_manager_service_160": {
+      "code": "USER_EMAIL_UPDATE_FAILED",
+      "message": "电子邮件地址更新失败"
+    },
+    "platform_user_manager_service_164": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "无效的时区值"
+    },
+    "platform_user_manager_service_198": {
+      "code": "NOT_ALLOWED_TO_CHANGE_SCIM_PROVISIONED_FIELDS",
+      "message": "无法更新 SCIM 配置的字段"
+    },
+    "platform_user_manager_service_200": {
+      "code": "EMAIL_DOMAIN_NOT_ALLOWED",
+      "message": "不允许使用电子邮件域名"
+    },
+    "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE",
+      "message": "无效的自定义属性值"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部错误。"
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "此名称已存在。尝试一个新的。"
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "技能不存在。"
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "一名员工的技能不能超过 50 项。"
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "技能名称无效"
+    },
+    "wfo_user_manager_service_8": {
+      "code": "INVALID_INPUT",
+      "message": "输入无效"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "每周规则为空"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "每周规则错误"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "每周规则天数范围错误"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "每周规则小时数范围错误"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "VALUE OF MAX SHIFTS OF WEEKLY RULE IS LOWER THAN TOTAL OF MIN DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "VALUE OF MIN SHIFTS OF WEEKLY RULE IS GREATER THAN TOTAL OF MAX DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "TOTAL SUM OF DAILY MIN HOURS IS BIGGER THAN WEEKLY MAX HOURS"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "TOTAL SUM OF DAILY MAX HOURS IS LOWER THAN WEEKLY MIN HOURS"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "TOTAL SUM OF POSSIBLE DAYS IS LOWER THAN THE CORRESPONDING MIN DAY OF THE DAILY RULE"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN THE TOTAL SUM OF MIN SHIFTS PER DAILY RULE"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "NO NAME FOR WEEKLY RULE WAS GIVEN"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "DAILY RULES ARE EMPTY"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN MINIMUM SHIFTS PER WEEK"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "日期格式无效"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "两个日期之间的时间段无效"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "发生内部服务器错误"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "发生了一个内部错误"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "不支持该文件格式"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "无法读取文件中的记录"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "找不到预期的列标题。查看样本文件。"
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "系统中缺少技能"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "文件中缺少排程单元"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "每日最早开始时间晚于最晚开始时间"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "增量格式错误"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "每日规则开始时间不在正确范围内"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "每日活动长度大于每日规则长度"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack format is wrong"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "相对开始时间是较低的空闲时间"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "活动时长总和大于每日时长"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "不存在有效的活动组合"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "活动代码超出每日规则班次"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "不支持该文件格式"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "活动代码名称无效"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "排程单元中的时区错误"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "无法删除默认活动代码"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "请选择一个模板"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "模板 ID 无效"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "表单名称已存在"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部错误。"
+    },
+    "hierarchy_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部服务器错误。"
+    },
+    "hierarchy_manager_service_2": {
+      "code": "INVALID_INPUT",
+      "message": "输入无效"
+    },
+    "hierarchy_manager_service_3": {
+      "code": "INVALID_REQUEST",
+      "message": "无效请求"
+    },
+    "hierarchy_manager_service_12": {
+      "code": "INVALID_SEARCH_REQUEST_KEY",
+      "message": "无效的搜索关键字"
+    },
+    "hierarchy_manager_service_23": {
+      "code": "INVALID_SEARCH_DIRECTION",
+      "message": "无效的搜索方向"
+    },
+    "hierarchy_manager_service_31": {
+      "code": "HIERARCHY_NAME_EXISTS",
+      "message": "层次结构名称已存在"
+    },
+    "user_upload_100": {
+      "code": "INVALID_FIRST_NAME",
+      "message": "名字为空或值无效"
+    },
+    "user_upload_101": {
+      "code": "INVALID_LAST_NAME",
+      "message": "姓氏为空或值无效"
+    },
+    "user_upload_102": {
+      "code": "INVALID_USERNAME",
+      "message": "用户名称应为电子邮件地址格式"
+    },
+    "user_upload_103": {
+      "code": "INVALID_ROLE_NAME",
+      "message": "角色名称为空或具有无效值"
+    },
+    "user_upload_104": {
+      "code": "INVALID_EMAIL_ADDRESS",
+      "message": "电子邮件地址无效"
+    },
+    "user_upload_105": {
+      "code": "INVALID_MOBILE_NUMBER",
+      "message": "无效的手机号码，只能包含数字和“-”“+”符号"
+    },
+    "user_upload_106": {
+      "code": "INVALID_RANK",
+      "message": "无效的评级值，应该介于 1 到 999 之间"
+    },
+    "user_upload_107": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "团队名称无效或团队不存在"
+    },
+    "user_upload_108": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "用户已存在"
+    },
+    "user_upload_109": {
+      "code": "INVALID_EXTERNAL_IDENTITY",
+      "message": "无效的外部身份值"
+    },
+    "user_upload_110": {
+      "code": "INVALID_CAN_BE_COACHED_OR_EVALUATED_VALUE",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_111": {
+      "code": "INVALID_CAN_BE_SCHEDULED_VALUE",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_112": {
+      "code": "INVALID_CAN_BE_RECORDED_VALUE",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_113": {
+      "code": "INVALID_CAN_BE_ANALYZED_VALUE",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_114": {
+      "code": "INVALID_CAN_BE_MEASURED_VALUE",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_115": {
+      "code": "INVALID_OS_LOGIN_VALUE",
+      "message": "无效的 OS 登录值"
+    },
+    "user_upload_119": {
+      "code": "INVALID_HIRE_DATE",
+      "message": "雇用日期无效，所需格式为 MMM-DD-YYYY (JUL-14-2015)"
+    },
+    "user_upload_120": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "无效的时区值"
+    },
+    "user_upload_125": {
+      "code": "INVALID_MFA_SECRET",
+      "message": "无效的 MFA 密钥"
+    },
+    "user_upload_126": {
+      "code": "INVALID_ROLE_NAME_RBAC",
+      "message": "角色名称为空、值无效或您无权分配此角色"
+    },
+    "user_upload_121": {
+      "code": "INVALID_VIRTUAL_AGENT_ENABLED",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_122": {
+      "code": "INVALID_VIRTUAL_AGENT_TYPE",
+      "message": "无效值，应为\"数字机器人\"或\"数字调查\"或 OFF"
+    },
+    "user_upload_123": {
+      "code": "INVALID_CAN_VIEW_BI_REPORTS_VALUE",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_124": {
+      "code": "INVALID_CAN_BE_RECORDED_SCREEN_VALUE",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_127": {
+      "code": "INVALID_MIDDLE_NAME",
+      "message": "中间名的值无效"
+    },
+    "user_upload_128": {
+      "code": "INVALID_DISPLAY_NAME",
+      "message": "显示名称的值无效"
+    },
+    "user_upload_129": {
+      "code": "INVALID_TYPE",
+      "message": "类型的值无效"
+    },
+    "user_upload_130": {
+      "code": "INVALID_ROLE",
+      "message": "角色名称无效或其当前处于非活动状态"
+    },
+    "team_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "请求验证失败"
+    },
+    "team_upload_101": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "团队名称为空或具有无效值"
+    },
+    "team_upload_102": {
+      "code": "INVALID_REQUEST_CONTACT",
+      "message": "请求联系应为 TRUE 或 FALSE"
+    },
+    "team_upload_103": {
+      "code": "INVALID_WFO_ADVANCED",
+      "message": "WFO Advanced 应为 TRUE 或 FALSE"
+    },
+    "team_upload_104": {
+      "code": "INVALID_QUALITY_MANAGEMENT",
+      "message": "质量管理应为 TRUE 或 FALSE"
+    },
+    "team_upload_105": {
+      "code": "INVALID_INVIEW_PERFORMANCE_MGMT",
+      "message": "绩效管理应为 TRUE 或 FALSE"
+    },
+    "team_upload_106": {
+      "code": "INVALID_INVIEW_GAMIFICATION",
+      "message": "绩效管理游戏化应为 TRUE 或 FALSE"
+    },
+    "team_upload_107": {
+      "code": "INVALID_INVIEW_COACHING",
+      "message": "绩效管理辅导应为 TRUE 或 FALSE"
+    },
+    "team_upload_108": {
+      "code": "INVALID_INVIEW_CHAT",
+      "message": "绩效管理聊天消息应为 TRUE 或 FALSE"
+    },
+    "team_upload_109": {
+      "code": "INVALID_AUDIO_RECORDING",
+      "message": "音频录制应为 TRUE 或 FALSE"
+    },
+    "team_upload_110": {
+      "code": "INVALID_SCREN_RECORDING",
+      "message": "屏幕录制应为 TRUE 或 FALSE"
+    },
+    "team_upload_111": {
+      "code": "INVALID_QUALITY_OPTIMIZATION",
+      "message": "质量优化应为 TRUE 或 FALSE"
+    },
+    "team_upload_112": {
+      "code": "INVALID_WFM_ADVANCED",
+      "message": "WFM Advanced 应为 TRUE 或 FALSE"
+    },
+    "team_upload_113": {
+      "code": "INVALID_WFM_ESSENTIALS",
+      "message": "WFM Essentials 应为 TRUE 或 FALSE"
+    },
+    "team_upload_114": {
+      "code": "INVALID_WORKLOAD_MANAGER",
+      "message": "Workload Manager 应为 TRUE 或 FALSE"
+    },
+    "team_upload_115": {
+      "code": "INVALID_WFO_ESSENTIALS",
+      "message": "WFO Essentials 应为 TRUE 或 FALSE"
+    },
+    "team_upload_116": {
+      "code": "INVALID_DELIVERY_MODE",
+      "message": "无效的交付模式值"
+    },
+    "team_upload_117": {
+      "code": "INVALID_AUTO_AUTO_FOCUS",
+      "message": "自动关注应为 TRUE 或 FALSE"
+    },
+    "team_upload_118": {
+      "code": "INVALID_VOICE",
+      "message": "声音应该是一个数字"
+    },
+    "team_upload_119": {
+      "code": "INVALID_CHAT",
+      "message": "聊天应该是一个数字"
+    },
+    "team_upload_120": {
+      "code": "INVALID_EMAILS",
+      "message": "电子邮件应该是一个数字"
+    },
+    "team_upload_121": {
+      "code": "INVALID_WORK_ITEM",
+      "message": "工作项应该是一个数字"
+    },
+    "team_upload_122": {
+      "code": "INVALID_TOTAL_CONTACT_COUNT",
+      "message": "联系总数应该是一个数字"
+    },
+    "team_upload_123": {
+      "code": "INVALID_SINGLE_CHANNEL_CHAT",
+      "message": "单信道 - 并行聊天应该是一个数字"
+    },
+    "team_upload_124": {
+      "code": "INVALID_SINGLE_CHANNEL_EMAILS",
+      "message": "单信道 - 自动驻留的电子邮件应该是一个数字"
+    },
+    "team_upload_125": {
+      "code": "INVALID_TEAM_LEAD",
+      "message": "团队主管不存在"
+    },
+    "team_upload_126": {
+      "code": "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE",
+      "message": "父或子属性值无效"
+    },
+    "team_upload_128": {
+      "code": "INVALID_TEAM_DESCRIPTION",
+      "message": "您的条目太长"
+    },
+    "team_upload_129": {
+      "code": "INVALID_TEMPLATE",
+      "message": "上传的模板无效"
+    },
+    "user_team_upload_003": {
+      "code": "MISSING_TEAM_NAME",
+      "message": "团队名称不能为空"
+    },
+    "user_team_upload_004": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "分配的用户不能为空"
+    },
+    "user_team_upload_005": {
+      "code": "TEAM_DOES_NOT_EXIST",
+      "message": "团队不存在"
+    },
+    "user_team_upload_006": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "用户不存在"
+    },
+    "user_skills_upload_003": {
+      "code": "MISSING_SKILL_ID",
+      "message": "技能 ID 不能为空"
+    },
+    "user_skills_upload_004": {
+      "code": "MISSING_SKILL_NAME",
+      "message": "技能名称不能为空。"
+    },
+    "user_skills_upload_005": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "分配的用户不能为空"
+    },
+    "user_skills_upload_007": {
+      "code": "INVALID_SKILL_NAME",
+      "message": "技能名称无效"
+    },
+    "user_skills_upload_008": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "用户不存在"
+    },
+    "user_skills_upload_009": {
+      "code": "USER_SKILL_ALREADY_EXISTS",
+      "message": "已分配至技能的用户"
+    },
+    "user_skills_upload_010": {
+      "code": "SKILL_ID_NOT_FOUND",
+      "message": "未找到技能 ID"
+    },
+    "user_skills_upload_011": {
+      "code": "DIGITAL_SKILL_CANNOT_ASSIGNED",
+      "message": "无法创建/修改数字技能分配。"
+    },
+    "recording_account_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "无效请求"
+    },
+    "recording_account_upload_101": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "此字段为空或值无效"
+    },
+    "recording_account_upload_102": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "此字段为空或值无效"
+    },
+    "recording_account_upload_103": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "此字段为空或值无效"
+    },
+    "recording_account_upload_104": {
+      "code": "FIELD_NOT_EMPTY",
+      "message": "此字段为空"
+    },
+    "recording_account_upload_105": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "此字段为空或值无效"
+    },
+    "recording_account_upload_106": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "此字段为空或值无效"
+    },
+    "recording_account_upload_107": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "此字段为空或值无效"
+    },
+    "recording_account_upload_108": {
+      "code": "EMPTY_FIELD_FOR_SELECTED",
+      "message": "对于所选操作，此字段必须为空"
+    },
+    "recording_account_upload_109": {
+      "code": "UPDATED_VALUE_NOT_SAME",
+      "message": "更新后的值不能与该值相同"
+    },
+    "recording_account_upload_110": {
+      "code": "FIELD_VALUE_LIMIT",
+      "message": "值不能超过 64 个字符"
+    },
+    "recording_account_upload_111": {
+      "code": "FIELD_UPDATED_VALUE_LIMIT",
+      "message": "值不能超过 64 个字符"
+    },
+    "recording_account_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "电话系统不存在"
+    },
+    "recording_account_upload_121": {
+      "code": "INVALID_USER",
+      "message": "无效用户"
+    },
+    "recording_account_upload_122": {
+      "code": "AMBIGUOUS_USER_NAME",
+      "message": "用户名称不明确"
+    },
+    "recording_account_upload_123": {
+      "code": "ID_ALREADY_EXIST_BUT_INACTIVE",
+      "message": "录制文件帐户已存在，但处于非活动状态"
+    },
+    "recording_account_upload_124": {
+      "code": "ID_ALREADY_EXIST_BUT_DIFFERENT_USER_ID",
+      "message": "此录制文件帐户已存在，但具有不同的用户 ID"
+    },
+    "recording_account_upload_125": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_ID",
+      "message": "此录制文件帐户已存在，但具有不同的用户团队 ID"
+    },
+    "recording_account_upload_126": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_NAME",
+      "message": "此录制文件帐户已存在，但具有不同的用户名称"
+    },
+    "recording_account_upload_127": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "此录制文件帐户不存在"
+    },
+    "recording_account_upload_128": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "此录制文件帐户已存在"
+    },
+    "recording_account_upload_140": {
+      "code": "DB_ERROR",
+      "message": "数据库发生错误"
+    },
+    "recording_account_upload_141": {
+      "code": "USER_HUB_COMMUNICATION_ERROR",
+      "message": "与 UserHub 通信时发生错误"
+    },
+    "recording_account_upload_142": {
+      "code": "NOT_AUTHORIZED",
+      "message": "未经授权访问 UserHub"
+    },
+    "recording_account_upload_143": {
+      "code": "FORBIDDEN_ACCESS",
+      "message": "禁止访问 UserHub"
+    },
+    "recording_account_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "无效输入事件"
+    },
+    "device_upload_100": {
+      "code": "FIELD_NOT_VALID",
+      "message": "无效请求"
+    },
+    "device_upload_101": {
+      "code": "FIELD_NOT_VALID",
+      "message": "此字段为空或值无效"
+    },
+    "device_upload_102": {
+      "code": "FIELD_NOT_VALID",
+      "message": "此字段为空或值无效"
+    },
+    "device_upload_103": {
+      "code": "FIELD_NOT_VALID",
+      "message": "此字段为空或值无效"
+    },
+    "device_upload_104": {
+      "code": "FIELD_NOT_VALID",
+      "message": "此字段为空或值无效"
+    },
+    "device_upload_105": {
+      "code": "FIELD_NOT_VALID",
+      "message": "UDI 不能超过 64 个字符"
+    },
+    "device_upload_106": {
+      "code": "DEVICE_NUMBER_FIELD_LIMIT",
+      "message": "设备编号不能超过 64 个字符"
+    },
+    "device_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "电话系统不存在"
+    },
+    "device_upload_121": {
+      "code": "MONITORED_GROUP_NOT_EXIST",
+      "message": "被监控的组不存在"
+    },
+    "device_upload_122": {
+      "code": "FILTERED_GROUP_NOT_EXIST",
+      "message": "被过滤的组不存在"
+    },
+    "device_upload_123": {
+      "code": "REJECTED_GROUP_NOT_EXIST",
+      "message": "被拒绝的群不存在"
+    },
+    "device_upload_124": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "组类型不正确"
+    },
+    "device_upload_125": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "组类型不正确"
+    },
+    "device_upload_126": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "组类型不正确"
+    },
+    "device_upload_127": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "该设备已存在，但具有不同属性"
+    },
+    "device_upload_128": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "该设备不存在"
+    },
+    "device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "数据库发生错误"
+    },
+    "device_upload_invalid_input": {
+      "code": "INPUT_EVENT_INVALID",
+      "message": "无效输入事件"
+    },
+    "recording_account_download_100": {
+      "code": "INVALID_ACTIVITY_REQUEST",
+      "message": "请求中的无效活动"
+    },
+    "recording_account_download_101": {
+      "code": "INVALID_ENTITY_REQUEST",
+      "message": "请求中的无效实体"
+    },
+    "recording_account_download_102": {
+      "code": "INVALID_TOKEN",
+      "message": "代号字段缺失"
+    },
+    "recording_account_download_103": {
+      "code": "INVALID_REQUEST",
+      "message": "请求中缺失字段"
+    },
+    "recording_account_download_140": {
+      "code": "DB_ERROR",
+      "message": "数据库发生错误"
+    },
+    "user_upload_135": {
+      "code": "INVALID_AUTHENTICATOR_NAME",
+      "message": "登录身份验证器名称无效"
+    },
+    "remote_device_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "无效请求"
+    },
+    "remote_device_upload_101": {
+      "code": "INVALID_ACTION",
+      "message": "此字段为空或值无效"
+    },
+    "remote_device_upload_102": {
+      "code": "INVALID_TELEPHONY_SYSTEM",
+      "message": "此字段为空或值无效"
+    },
+    "remote_device_upload_104": {
+      "code": "INVALID_SOURCE_DEVICE",
+      "message": "此字段为空或值无效"
+    },
+    "remote_device_upload_106": {
+      "code": "SOURCE_DEVICE_FIELD_LIMIT",
+      "message": "该字段不能超过 64 个字符"
+    },
+    "remote_device_upload_107": {
+      "code": "FIELD_NOT_VALID",
+      "message": "使用字母、数字和 @ # *"
+    },
+    "remote_device_upload_109": {
+      "code": "FIELD_LIMIT",
+      "message": "输入最多 64 个字符"
+    },
+    "remote_device_upload_110": {
+      "code": "FIELD_NOT_VALID",
+      "message": "不能为为空"
+    },
+    "remote_device_upload_111": {
+      "code": "FIELD_NOT_VALID",
+      "message": "值已经存在"
+    },
+    "remote_device_upload_108": {
+      "code": "INVALID_VENDOR",
+      "message": "无效供应商。"
+    },
+    "remote_device_upload_120": {
+      "code": "UNKNOWN_TELEPHONY_SYSTEM",
+      "message": "电话系统不存在"
+    },
+    "remote_device_upload_128": {
+      "code": "NONEXISTENT_SOURCE_DEVICE",
+      "message": "该设备不存在"
+    },
+    "remote_device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "数据库发生错误"
+    },
+    "remote_device_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "无效输入事件"
+    },
+    "recording_account_upload_112": {
+      "code": "INVALID_VALUE_PATTERN_AGENTID",
+      "message": "使用字母、数字和 @"
+    },
+    "recording_account_upload_113": {
+      "code": "INVALID_VALUE_PATTERN_EXTENSION",
+      "message": "使用字母、数字和 @ # *"
+    },
+    "recording_account_upload_114": {
+      "code": "VALUE_TOO_LONG_AGENTID",
+      "message": "输入 2-64 个字符"
+    },
+    "recording_account_upload_115": {
+      "code": "VALUE_TOO_LONG_EXTENSION",
+      "message": "输入 3-64 个字符"
+    },
+    "recording_account_upload_116": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_AGENTID",
+      "message": "使用字母、数字和 @"
+    },
+    "recording_account_upload_117": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_EXTENSION",
+      "message": "使用字母、数字和 @ # *"
+    },
+    "recording_account_upload_118": {
+      "code": "UPDATED_VALUE_TOO_LONG_AGENTID",
+      "message": "输入 2-64 个字符"
+    },
+    "recording_account_upload_119": {
+      "code": "UPDATED_VALUE_TOO_LONG_EXTENSION",
+      "message": "输入 3-64 个字符"
+    },
+    "user_upload_136": {
+      "code": "INVALID_DIGITAL_ENGAGEMENT",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_137": {
+      "code": "INVALID_CUSTOMER_CARD",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_138": {
+      "code": "INVALID_CAN_EDIT_BI_REPORTS",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_139": {
+      "code": "INVALID_HAS_SMART_REACH_USER_ACCESS",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_140": {
+      "code": "INVALID_HAS_SMART_REACH_AGENT_ACCESS",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_141": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_INSIGHTS",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "user_upload_142": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_ACT",
+      "message": "无效值，应为 TRUE 或 FALSE"
+    },
+    "platform_user_manager_service_181": {
+      "code": "VIEW_LIMIT_EXCEEDED",
+      "message": "超出允许的最大查看限制"
+    },
+    "user_upload_143": {
+      "code": "INVALID_TEMPLATE_NAME",
+      "message": "未找到该名称对应的模板，请检查拼写后重试"
+    },
+    "platform_user_manager_service_194": {
+      "code": "platform_user_manager_service_194",
+      "message": "团队不可移出所属部门。"
+    },
+    "platform_user_manager_service_217": {
+      "code": "platform_user_manager_service_217",
+      "message": "团队部门 ID 与筛选用户部门 ID 不匹配。"
+    },
+    "user_upload_145": {
+      "code": "INVALID_MFA_TIME_PERIOD",
+      "message": "值无效，需介于 15 至 300 之间"
+    },
+    "user_upload_146": {
+      "code": "INVALID_TEMPLATE",
+      "message": "上传的模板无效"
+    },
+    "user_team_upload_007": {
+      "code": "INVALID_TEMPLATE",
+      "message": "上传的模板无效"
+    }
+  },
+  "weekdayTimeBlocksDirective": {
+    "allDay": "全天",
+    "closed": "关闭",
+    "removeAllTimeBlocksTooltip": "全部删除"
+  },
+  "noItemsOverlay": {
+    "grid": "尚未定义任何{{itemLabel}}",
+    "modal": {
+      "employeeTab": "尚未分配员工"
+    }
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "排程单元"
+  },
+  "groupsPage": {
+    "pageTitle": "组",
+    "newGroupBtn": "新建组",
+    "searchGroup": "开始输入以查找组",
+    "gridNoRowsOverlay": "尚未创建群组",
+    "items": "组",
+    "item": "组",
+    "selected": "已选择",
+    "errorDelete": "没有选择要删除的行",
+    "gridColumnsHeaders": {
+      "name": "名称",
+      "employees": "员工",
+      "action": "操作"
+    },
+    "deleteSelectedGroupsMsg": "您将要删除所选组。是否继续？",
+    "filters": {
+      "statusLabel": "状态",
+      "status": "{{count}}个状态",
+      "group": "{{count}}个组",
+      "clearAll": "全部清除",
+      "close": "关闭"
+    },
+    "popover": {
+      "message": "该组将从所有员工中删除。你确定要删除吗？"
+    },
+    "toastMessage": {
+      "deleteSuccess": "已成功删除组。",
+      "deleteFailure": "无法删除组。",
+      "groupsResponseError": "删除应用程序时发生错误"
+    },
+    "createNewGroupModal": {
+      "addHeader": "创建新组",
+      "editHeader": "编辑组",
+      "groupNamePlaceholder": "无标题组",
+      "popover": {
+        "message1": "所有更改都将丢失",
+        "message2": "您确定要退出而不保存吗？"
+      },
+      "employeesTab": {
+        "header": "员工",
+        "assignedEmployeesTxt": "已分配员工",
+        "addEmployeesBtn": "增加员工",
+        "selectEmployeesTxt": "选择员工",
+        "selectedTxt": "选择：",
+        "AlreadyAssignedUsers": "已分配的员工"
+      }
+    },
+    "successAdd": "已成功添加新组",
+    "successEdit": "已成功编辑组",
+    "assignedUsers": {
+      "addUsersModal": {
+        "title": "添加用户",
+        "omnibar": {
+          "searchPlaceholderText": "开始键入以查找用户"
+        }
+      }
+    },
+    "warningModal": {
+      "title": "您确定吗？",
+      "message": "如果您重新命名一个组，用旧名称完成的交互片段将不会被更新。",
+      "cancelBtn": "取消",
+      "confirmBtn": "确认"
+    }
+  },
+  "accountSettingsPage": {
+    "pageTitle": "管理员帐户设置",
+    "cancel": "取消",
+    "save": "保存",
+    "userSessionTimeout": {
+      "header": "空闲超时",
+      "disabledWarning": "警告：空闲用户不会自动注销。",
+      "tooLowWarning": "允许的空闲时间必须至少为 5 分钟。",
+      "tooHighWarning": "在不关闭空闲超时的情况下，允许的空闲时间最多为 8 小时。",
+      "hours": "小时",
+      "minutes": "分钟",
+      "description": "用户在注销前的空闲时间长度。"
+    },
+    "hostConfigurationSectionHeader": "主机托管",
+    "stylingSectionHeader": "式样",
+    "bannerSectionHeader": "登录横幅",
+    "allowedEmailDomainsSectionHeader": "允许的电子邮件域名",
+    "bannerWillClear": "关闭横幅将清除所有保存的横幅设置。",
+    "customHostnameEntryFieldLabel": "自定义主机名",
+    "domainEntryFieldLabel": "域名",
+    "domainGridHeader": "域名",
+    "overlayNoRowsMsg": "没有显示的电子邮件域名",
+    "addDomainBtn": "增加",
+    "fontColorFieldLabel": "横幅文本",
+    "backgroundColorFieldLabel": "横幅背景",
+    "hostnameLengthValidationError": "主机名的长度不能超过 63 个字符。",
+    "hostnameCharValidationError": "主机名不能包含任何特殊字符 (#?!@%^).”",
+    "emailDomainLengthValidationError": "域名的长度不能超过 190 个字符。",
+    "emailDomainDuplicateError": "域名已经在列表中",
+    "emailDomainMaxLength": "允许的电子邮件域名不能超过 300 个。",
+    "emailDomainCharValidationError": "域名无效。",
+    "errorMsg": "主机名保存失败。",
+    "errorDuplicate": "此主机名已存在。请使用不同的名称。",
+    "errorDirty": "主机名不能包含脏话。请使用不同的名称。",
+    "errorReserved": "此主机名包含系统保留的文本。请使用不同的名称。",
+    "saveSuccess": "帐户设置已成功配置并保存。",
+    "saveFailure": "保存您的输入时出错。",
+    "successMsg": "账户信息更新成功",
+    "failureMsg": "更新帐户信息时出错",
+    "popover": {
+      "warningMessage": "所有更改都将丢失",
+      "confirmMessage": "您确定要退出而不保存吗？",
+      "domainMessage": "保存后该域名将被删除。您确定吗？"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "未保存的数据",
+        "unsavedChanges": "如果您离开该页面，您的更改将会丢失。",
+        "areYouSureLeavePage": "是否确定要继续？"
+      }
+    },
+    "timeZone": "租户时区",
+    "bannerPlaceHolder": "在此处插入文本...",
+    "scim": {
+      "header": "SCIM",
+      "scimProvisionedFields": "SCIM 预配字段",
+      "days": "天数",
+      "scimToken": "Scim 令牌",
+      "showToken": "显示令牌",
+      "generate": "生成",
+      "expiringToken": "令牌剩余有效期",
+      "scimTokenGeneratedSuccess": "SCIM 令牌生成成功",
+      "scimTokenGeneratedFailure": "生成 SCIM 令牌时出错",
+      "scimTokenGenerationWarning": "您的令牌已生成。离开此页面后，您将无法检索此令牌。如果此令牌丢失，则需要创建新令牌。",
+      "scimTokenCopiedToClipboard": "已将 SCIM 令牌复制到剪贴板"
+    },
+    "lockInactiveUsers": {
+      "header": "锁定用户",
+      "description": "用户可被锁定前的非活动天数",
+      "enablementWarning": "警告：这将为该租户的所有用户设置不活动设置。"
+    },
+    "toggleOn": "开启",
+    "toggleOff": "关",
+    "ssoStateDuration": {
+      "header": "自定义 SSO 状态",
+      "description": "设置用户状态的时间",
+      "enablementWarning": "警告：这将为该租户的所有用户设置 SSO 状态。"
+    },
+    "scimTokenSectionHeader": "SCIM 令牌",
+    "scimUserProvisionedFields": "用户选择",
+    "daysToExpireOldTokens": "旧令牌有效期剩余天数",
+    "disableMarketingPanelLabel": "禁用市场营销面板",
+    "overlayNoRowsAddAppMsg": "暂无其他应用程序可展示",
+    "additionalApplications": {
+      "name": "名称",
+      "link": "链接",
+      "addButton": "增加",
+      "linkLengthValidationError": "链接长度不得超过 2048 个字符",
+      "linkValidationError": "链接必须以 http:// 或 https:// 开头",
+      "nameLengthValidationError": "名称长度不得超过 50 个字符",
+      "sectionHeader": "附加应用程序",
+      "popoverMessage": "保存后该应用程序将被删除。您确定吗？"
+    },
+    "tabs": {
+      "scimTabTitle": "SCIM",
+      "userSettingsTabTitle": "用户设置",
+      "additionalAppsTabTitle": "附加应用程序",
+      "hostTabTitle": "主机托管"
+    }
+  },
+  "add-entity-ui": {
+    "entityCount": "",
+    "selectAllLabel": "全选"
+  },
+  "generic-users": {
+    "searchPlaceholder": "开始键入以查找用户",
+    "noItemsOverlay": "尚未有任何用户被添加",
+    "noItemsOverlayGrid": "未找到使用此筛选器的用户",
+    "noUsersSubText": "选择上面的“添加用户”以添加一些",
+    "itemsCount": "浏览{{count}}",
+    "totalItemsCount": " 总计",
+    "totalItemsCountLabel": " 总计",
+    "userCount": "",
+    "tabLabels": {
+      "general": "一般",
+      "assignedUsers": "已分配用户",
+      "zeroRow": "0 总数"
+    },
+    "columns": {
+      "name": "名称",
+      "username": "用户名称",
+      "email": "电子邮件",
+      "status": "状态",
+      "role": "角色",
+      "action": "操作"
+    },
+    "popovers": {
+      "messageAddedUser": "您必须将此用户重新分配给另一个角色才能将其删除。",
+      "messageNewUser": "从此角色中删除用户？",
+      "bulkMessageAddedUser": "您必须将此用户重新分配给另一个角色才能将其删除。",
+      "bulkMessageNewUser": "从此角色中删除用户？"
+    },
+    "userSelectionModal": {
+      "noUserAddedText": "尚未有任何用户添加",
+      "noUserSelectedText": "尚未选择任何用户"
+    },
+    "modal": {
+      "noItemsOverlay": "尚未有任何用户被添加",
+      "title": "添加用户"
+    },
+    "buttons": {
+      "addUsers": "添加用户",
+      "removeUsers": "删除用户"
+    }
+  },
+  "hierarchiesPage": {
+    "pageTitle": "层次结构",
+    "newHierarchy": "新层次结构",
+    "itemsCount": "{{count}}个层次结构",
+    "searchPlaceholder": "开始输入以查找层次结构",
+    "noItemsOverlay": "尚未定义层次结构",
+    "saveAndActivate": "保存和激活",
+    "save": "保存",
+    "cancel": "取消",
+    "createSuccessMessage": "层次结构已成功创建。",
+    "updateSuccessMessage": "层次结构已成功更新。",
+    "createErrorMessage": "创建层次结构时出现了一些问题。请稍后再试。",
+    "updateErrorMessage": "更新层次结构时出现了一些问题。请稍后再试。",
+    "openHierarchyErrorMessage": "查看此层次结构时出现了一些问题。请稍后再试。",
+    "nodeSuccessfullyDropped": "已将 {{draggedEntityName}} {{draggedEntityType}} 添加到 {{droppedEntityName}} {{droppedEntityType}} 下。",
+    "hierarchyManager": {
+      "pageTitle": "层次结构",
+      "newHierarchy": "创建新层次结构",
+      "cancel": "取消",
+      "hierarchyNamePlaceholder": "层次结构名称",
+      "hierarchyType": "选择层次结构类型",
+      "errorMessages": {
+        "typeRequired": "此字段为必填项",
+        "nameRequired": "此字段为必填项",
+        "duplicateName": "此名称已存在。尝试一个新的。"
+      }
+    },
+    "gridColumnHeaders": {
+      "hierarchyName": "层次结构名称",
+      "hierarchyType": "类型",
+      "lastModifiedBy": "上次修改者",
+      "lastModifiedDate": "最后修改",
+      "hierarchyStatus": "状态",
+      "hierarchyActions": "操作",
+      "applications": "应用程序"
+    },
+    "hierarchyStatus": {
+      "active": "活跃",
+      "inactive": "不活动"
+    },
+    "hierarchyTypeCamelCase": {
+      "Organizational": "组织"
+    },
+    "hierarchyHamburgerMenu": {
+      "activate": "启动",
+      "deactivate": "停用"
+    },
+    "hierarchyManagerToastMessages": {
+      "failureTemplatesHierarchy": "获取层次结构模板时出现了一些问题。请稍后再试。",
+      "successDeactivatingHierarchy": "层次结构已成功停用。",
+      "failureDeactivatingHierarchy": "停用层次结构时出现了一些问题。请稍后再试。",
+      "successActivatingHierarchy": "层次结构已成功激活。",
+      "failureActivatingHierarchy": "激活层次结构时出现了一些问题。请稍后再试。"
+    },
+    "popovers": {
+      "deactivateHierarchy": {
+        "msg": "您将要停用该层次结构。是否继续？"
+      },
+      "activateHierarchy": {
+        "msg": "您确定要激活该层次结构吗？"
+      },
+      "mappingApplicationsHierarchyPopover": {
+        "msg": "无法停用该层次结构，因为它映射到一个或多个应用程序。"
+      },
+      "warningMessage": "所有更改都将丢失",
+      "confirmMessage": "您确定要退出而不保存吗？",
+      "deleteNodeWarningChildren": "删除此节点将删除此节点下的所有子节点和对等节点。是否继续？",
+      "deleteNodeWarning": "您将要删除此节点。是否继续？",
+      "visibility": "您没有查看此信息的权限 \n"
+    },
+    "modalMessages": {
+      "transition": {
+        "title": "未保存的数据",
+        "unsavedChanges": "如果您离开该页面，您的更改将会丢失。",
+        "warningMessage": "是否确定要继续？"
+      }
+    },
+    "components": {
+      "nodeActionComponent": {
+        "title": {
+          "addChild": "添加子节点",
+          "addPeer": "添加对等节点",
+          "containers": "容器",
+          "members": "成员",
+          "expandBranch": "展开分支",
+          "collapseBranch": "折叠分支",
+          "rename": "编辑",
+          "delete": "删除",
+          "info": "INFO"
+        },
+        "hierarchyTypeLabel": "组织单位",
+        "defaultNodeName": "无标题"
+      },
+      "members": {
+        "headerText": "成员",
+        "headerTextAfter": "添加成员",
+        "searchPlaceHolder": "搜索成员",
+        "type": "用户",
+        "employeeButton": "员工",
+        "teamsButton": "团队",
+        "AddButton": "增加",
+        "RemoveButton": "删除",
+        "noMembersSearchTxt": "团队中没有用户",
+        "noResultSearchTxt": "未找到结果",
+        "noMembersTxt": {
+          "heading": "尚未添加成员",
+          "subHeading": "点击",
+          "subHeading1": " 以添加成员。",
+          "subHeading2": "添加成员后，他们将显示在此处"
+        }
+      },
+      "containers": {
+        "headerText": "容器",
+        "searchPlaceHolder": "搜索容器",
+        "type": "团队"
+      }
+    },
+    "messages": {
+      "error": {
+        "failedToLoadHierarchies": "加载层次结构失败。请稍后再试。"
+      }
+    }
+  },
+  "hierarchiesPageV2": {
+    "pageTitle": "层次结构",
+    "itemsCount": "{{count}}个层次结构",
+    "searchPlaceholder": "开始输入以查找层次结构",
+    "noItemsOverlay": "尚未定义层次结构",
+    "saveAndActivate": "保存和激活",
+    "createSuccessMessage": "层次结构已成功创建。",
+    "updateSuccessMessage": "层次结构已成功更新。",
+    "updateNameMessage": "层次结构名称已成功更新。",
+    "updateAppMessage": "应用程序映射已成功更新。",
+    "createErrorMessage": "创建层次结构时出现了一些问题。请稍后再试。",
+    "updateErrorMessage": "更新层次结构时出现了一些问题。请稍后再试。",
+    "openHierarchyErrorMessage": "查看此层次结构时出现了一些问题。请稍后再试。",
+    "openHierarchyTemplateErrorMessage": "加载层次结构模板时出现了一些问题。请稍后再试。",
+    "openHierarchyApplicationErrorMessage": "加载层次结构应用程序时出现了一些问题。请稍后再试。",
+    "subtreeDepthViolationErrorMessage": "此操作无法执行，因为它超出了允许的 10 级层次结构深度",
+    "subtreeNodeLimitViolationErrorMessage": "此操作超出了允许的层次结构节点限制，因此无法执行。",
+    "modalMessages": {
+      "transition": {
+        "title": "未保存的数据",
+        "unsavedChanges": "如果您离开该页面，您的更改将会丢失。",
+        "warningMessage": "是否确定要继续？"
+      }
+    },
+    "hierarchyManager": {
+      "pageTitle": "层次结构",
+      "close": "关闭",
+      "save": "保存",
+      "create": "创建",
+      "cancel": "取消",
+      "update": "更新",
+      "hierarchyName": "名称",
+      "hierarchyType": "类型",
+      "application": "应用",
+      "hierarchyNamePlaceholder": "添加层次结构名称",
+      "hierarchyTypePlaceholder": "选择类型",
+      "applicationPlaceholder": "选择应用程序",
+      "newHierarchy": "创建新层次结构",
+      "formLabels": {
+        "teamPlaceholder": "选择团队",
+        "suPlaceholder": "选择排程单元"
+      },
+      "team": {
+        "warningMsg": "团队作为 '{{existingParent}}' OU 的子节点存在。使用“Add”操作，团队节点将被移动到 '{{newParent}}' OU 之下"
+      },
+      "components": {
+        "members": {
+          "headerText": "成员",
+          "addButton": "增加",
+          "headerTextAfter": "添加成员",
+          "cancelButton": "取消",
+          "saveButton": "保存",
+          "removeButton": "删除",
+          "viewDetailsButton": "查看团队详细信息",
+          "viewSUDetailsButton": "查看详细信息",
+          "searchPlaceHolder": "搜索成员",
+          "type": "用户",
+          "noResultSearchTxt": "未找到结果",
+          "associationMsg": "用户已经是 '{{ouname}}' 的成员",
+          "noMembersTxt": {
+            "heading": "尚未添加成员",
+            "subHeading": "点击“ADD”（添加）以添加成员。",
+            "subHeading1": "添加成员后，他们将显示在此处。"
+          }
+        },
+        "nodeComponent": {
+          "hierarchyTypeLabel": {
+            "OU": "组织单元",
+            "TEAM": "团队",
+            "SU": "调度单元"
+          }
+        }
+      },
+      "popovers": {
+        "confirmMsg": "请选择其中任何一项以继续",
+        "deleteNodeWarning": "您将要从层次结构中删除此 OU。该操作将删除此 OU 下的网络，包括所有子节点（如有）。",
+        "deleteSUNodeWarning": "您将要从层次结构中删除此 SU。该操作将删除此 SU 下的网络，包括所有子节点（如有）。",
+        "deleteTeamNodeWarning": "您将要从层次结构中删除此团队。",
+        "deleteWarning3": "您要继续吗？",
+        "deleteSUWarning4": " SU 具有此层次结构？",
+        "replaceTeamNodeWarning1": "团队目前存在于",
+        "replaceSUNodeWarning1": "SU 目前存在于",
+        "replaceNodeWarning1": " 并将被移动至",
+        "replaceNodeWarning2": ".您要继续吗？",
+        "OUDescription": "此操作将创建组织单元 (OU) 类型的子节点。创建 OU 后，您将能够添加成员",
+        "TeamDescription": "此操作将通过选择一个现有的团队来创建团队类型的一个子节点。 创建团队节点后，您将可以查看团队信息和成员",
+        "SUDescription": "此操作将通过选择一个现有的 SU 来创建排程单元 (SU) 类型的一个子节点。创建 SU 节点后，您将能够添加子节点并查看 SU 信息和成员。",
+        "editNodePopover": {
+          "popoverTitle": "编辑详细信息",
+          "nameLabel": "名称"
+        },
+        "addNodePopover": {
+          "popoverTitle": {
+            "ou": "添加组织单元",
+            "team": "添加团队",
+            "su": "添加排程单元"
+          },
+          "nameLabel": {
+            "ou": "名称",
+            "team": "添加现有团队",
+            "su": "添加现有排程单元"
+          },
+          "validation": {
+            "teamValidation": "此团队已添加至",
+            "suValidation": "此 SU 已添加至",
+            "nonLeafSUMoveValidation": "此排程单元已作为层次结构中的父节点存在"
+          }
+        },
+        "infoNodePopover": {
+          "popoverTitle": "团队信息",
+          "nameLabel": "名称",
+          "TeamLeadLabel": "团队主管"
+        },
+        "suInfoNodePopover": {
+          "popoverTitle": "排程单元信息",
+          "nameLabel": "名称",
+          "TimeZoneLabel": "时区"
+        }
+      },
+      "saved": "已保存",
+      "saving": "正在保存...",
+      "minuteAgo": "分钟前",
+      "minutesAgo": "几分钟前"
+    },
+    "template": {
+      "templateType": {
+        "ou": "添加组织单元",
+        "team": "添加团队",
+        "su": "添加排程单元"
+      }
+    }
+  },
+  "employeeGroupsPage": {
+    "pageTitle": "调度单元",
+    "items": "单元",
+    "item": "调度单元",
+    "errorDelete": "没有选择要删除的行",
+    "errorDeleteNoId": "此排程单元已被删除，请刷新页面。",
+    "bulkOperationsBtns": {
+      "deleteBtn": "删除"
+    },
+    "gridColumnsHeaders": {
+      "id": "ID",
+      "name": "名称",
+      "employees": "员工",
+      "timeZone": "时区",
+      "unit": "单元"
+    },
+    "deleteSelectedGroupMsg": "这些单元将从所有员工中删除。您确定吗？",
+    "popover": {
+      "message": "警告！删除这个项目将把所有被分配的员工移到默认的调度单元，并可能影响他们的计划表。"
+    },
+    "tooltip": {
+      "message": "此 SU 是层次结构的一部分。必须先将其从层次结构中删除，然后才能将其删除。",
+      "deleteSUsInHeirarchyMessage": "所选单元是层次结构的一部分。必须先将其从层次结构中删除，然后才能将其删除。"
+    },
+    "errorMessages": {
+      "required": "您将该字段留空",
+      "minLength": "您的条目太短",
+      "maxLength": "您的条目太长",
+      "uniqueGroupName": "此名称已存在。尝试一个新的。",
+      "defaultGroupName": "不能编辑默认组的名称",
+      "defaultGroupAddEmployees": "要移动员工，请编辑目标调度单元，并将员工加入其中。",
+      "cannotDeleteDefaultGroup": "不能删除默认组"
+    },
+    "formLabels": {
+      "groupName": "调度单元名称",
+      "users": "员工",
+      "timeZone": "时区"
+    },
+    "addNewGroup": "新单元",
+    "totalItems": "{{count}}个排程单元",
+    "createNewGroupModal": {
+      "addHeader": "新建调度单元",
+      "editHeader": "编辑调度单元",
+      "groupNamePlaceholder": "无标题单元",
+      "generalInfoTab": {
+        "header": "操作时间",
+        "firstDayOfWeekInstruction": "本周第一天",
+        "timeZoneInstruction": "时区",
+        "operationWorkingHoursHeader": "操作工作时间",
+        "day": "天",
+        "workHours": "工作时间",
+        "from": "开始于",
+        "to": "到",
+        "hour": "小时",
+        "hours": "小时",
+        "allDayWorkingHours": "全天",
+        "amountOfHours": {
+          "numOfHours": "（{{hours}}小时）",
+          "closed": "（关闭）"
+        },
+        "daysOfWeek": {
+          "monday": "周一",
+          "tuesday": "周二",
+          "wednesday": "周三",
+          "thursday": "周四",
+          "friday": "周五",
+          "saturday": "周六",
+          "sunday": "周日"
+        }
+      },
+      "employeesTab": {
+        "header": "员工",
+        "assignedEmployeesTxt": "已分配员工",
+        "addEmployeesBtn": "增加员工",
+        "selectEmployeesTxt": "选择员工",
+        "selectedTxt": "选择："
+      },
+      "successAdd": "新的调度单元已成功添加",
+      "successEdit": "调度单元已成功编辑"
+    },
+    "suDeleteWarningModal": {
+      "header": "删除排程单元时出错"
+    }
+  }
+}

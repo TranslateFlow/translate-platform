@@ -1,0 +1,222 @@
+{
+  "changeHistory": {
+    "depth": "깊이",
+    "name": "이름",
+    "parentId": "상위 ID",
+    "parentName": "상위 이름",
+    "type": "유형",
+    "templateId": "TemplateId",
+    "nodeId": "NodeId"
+  },
+  "colors": {
+    "textColorDefault": "#000"
+  },
+  "generalErrorMessages": {
+    "SUAlreadyAdded": "이 SU가 추가된 위치: ",
+    "TeamAlreadyAdded": "이 팀이 추가된 위치: ",
+    "maxLength": "입력한 값이 너무 깁니다.",
+    "minLength": "입력한 값이 너무 짧습니다.",
+    "required": "이 필드는 필수입니다.",
+    "specialCharacters": "! \\ < > ? % \" 기호 또는 이모지는 지원되지 않습니다"
+  },
+  "hierarchiesPage": {
+    "back": "뒤로",
+    "changeHistory": "변경 내력",
+    "changeHistoryForNode": "노드의 변경 내역",
+    "changeHistoryOf": "변경 내역: ",
+    "grid": {
+      "actions": "작업",
+      "activate": "활성화",
+      "active": "활성",
+      "deactivate": "비활성화",
+      "hierarchyCount": " 계층",
+      "hierarchyName": "계층 이름",
+      "inactive": "비활성",
+      "lastModified": "마지막 수정",
+      "lastModifiedBy": "마지막 수정자",
+      "noHierarchiesDefined": "아직 정의된 계층 없음",
+      "primaryHierarchy": "기본 계층",
+      "showingAll": "모두 표시 중 ",
+      "showingFirst": "표시 중인 처음 항목 ",
+      "status": "상태",
+      "type": "유형"
+    },
+    "newHierarchy": "신규 계층",
+    "node": "노드",
+    "searchHierarchiesPlaceholder": "계층을 찾으려면 입력을 시작하십시오.",
+    "title": "계층"
+  },
+  "hierarchyManagerPage": {
+    "add": "추가",
+    "cancel": "취소",
+    "close": "닫기",
+    "create": "생성",
+    "hierarchyLegend": {
+      "OU": "조직 단위",
+      "SU": "일정 단위",
+      "Team": "팀",
+      "Division": "부서"
+    },
+    "mandatorySymbol": "*",
+    "name": "이름 ",
+    "namePlaceholder": "계층 이름 추가",
+    "no": "아니요",
+    "primaryHierarchy": "기본 계층",
+    "remove": "제거",
+    "save": "저장",
+    "search": {
+      "found": "발견됨 ",
+      "info": "이름으로 신규 검색을 시작하려면 검색 버튼을 클릭하십시오. 검색은 대소문자를 구분합니다. 첫 번째 일치 결과는 그래프의 가장자리에서 허용되는 가장 중앙 위치로 자동 스크롤됩니다.",
+      "label": "검색",
+      "noValue": "검색을 시작하려면 검색 값을 입력하십시오.",
+      "notFound": "발견되지 않음 ",
+      "placeholder": "계층 노드 검색"
+    },
+    "searchInfo": "이름으로 신규 검색을 시작하려면 검색 버튼을 클릭하십시오. 검색은 대소문자를 구분합니다. 첫 번째 일치 결과는 그래프의 가장자리에서 허용되는 가장 중앙 위치로 자동 스크롤됩니다.",
+    "searchLabel": "검색",
+    "searchPlaceholder": "계층 노드 검색",
+    "setAsPrimaryHierarchy": "기본 계층으로 설정",
+    "setAsPrimaryHierarchyTooltip": "이 작업은 계층 구조를 기본으로 설정합니다. 일단 설정되면 기본이 아닌 계층으로 다시 변경할 수 없습니다. 애플리케이션에서 사용되는 모든 계층 데이터는 기본 계층에서 가져옵니다.",
+    "title": "신규 계층 생성",
+    "toolbar": {
+      "add-child": {
+        "addExistingSchedulingUnit": "기존 일정 단위 추가",
+        "addExistingTeam": "기존 팀 추가",
+        "addOUInformation": "이 작업은 OU(조직 단위) 유형의 하위 노드를 생성합니다. OU가 생성된 후 구성원을 추가할 수 있습니다.",
+        "addOrganizationUnit": "조직 단위 추가",
+        "addSUInformation": "이 작업은 기존 일정 단위(SU) 중 하나를 선택하여 SU 유형의 하위 노드를 생성합니다. SU 노드가 생성된 후 하위 노드를 추가하고 SU 정보 및 멤버십을 볼 수 있습니다.",
+        "addSchedulingUnit": "일정 단위 추가",
+        "addTeam": "팀 추가",
+        "addTeamInformation": "이 작업은 기존 팀 중 하나를 선택하여 팀 유형의 하위 노드를 생성합니다. 팀 노드가 생성된 후 팀 정보 및 멤버십을 볼 수 있습니다.",
+        "andMovedUnder": "이동할 위치:",
+        "continue": ". 계속하시겠습니까?",
+        "name": "이름",
+        "selectTeam": "팀 선택",
+        "teamExistsUnder": "팀의 현재 위치:",
+        "untitled": "제목 없음"
+      },
+      "delete": {
+        "deletePermissionQue": "계속하시겠습니까?",
+        "noBtn": "아니요",
+        "ouDeleteMsg": "계층 구조에서 이 OU를 삭제하려고 합니다. 이 작업으로 모든 하위 노드(있는 경우)를 포함하여 이 OU 아래에 있는 네트워크가 삭제됩니다.",
+        "suDeleteMsg": "계층 구조에서 이 SU를 삭제하려고 합니다. 이 작업으로 모든 하위 노드(있는 경우)를 포함하여 이 SU 아래에 있는 네트워크가 삭제됩니다.",
+        "teamDeleteMsg": "계층 구조에서 이 팀을 제거하려고 합니다.",
+        "yesBtn": "예"
+      },
+      "edit": {
+        "editDetails": "세부 정보 편집"
+      },
+      "info": {
+        "nameLabel": "이름",
+        "suInformation": "일정 단위 정보",
+        "teamInformation": "팀 정보",
+        "teamLead": "팀 리드",
+        "timeZoneLabel": "시간대"
+      },
+      "members": {
+        "SUToAddMembers": "관리자를 통해 일정 단위로 이동하여 구성원을 추가합니다.",
+        "addExistingMembers": "기존 구성원 추가",
+        "addMembers": "구성원 추가",
+        "allUsersSelectedAlreadyAdded": "선택한 모든 사용자가 현재 OU에 있습니다.",
+        "clickOnAddMembers": "구성원을 추가하려면 '추가'를 클릭하십시오.",
+        "members": "구성원",
+        "membersUndercase": "구성원",
+        "noMembersAdded": "추가된 구성원 없음",
+        "noResultsFound": "이용가능한 모든 구성원이 선택되었습니다.",
+        "onceMembersAdded": "구성원이 추가되면 여기에 표시됩니다.",
+        "searchMembers": "구성원 검색",
+        "showingAll": "모두 표시 중",
+        "showingFirst": "표시 중인 처음 항목",
+        "teamToAddMembers": "관리자를 통해 팀으로 이동하여 구성원을 추가합니다.",
+        "userAlreadyMemberOf": "사용자가 이미 다음의 구성원입니다:"
+      }
+    },
+    "type": "유형",
+    "typePlaceholder": "유형 선택",
+    "viewDetails": "세부 정보 보기",
+    "yes": "예"
+  },
+  "hierarchyToasts": {
+    "cannotAddChildrenToTeamNode": "팀 노드는 하위 노드를 추가할 수 없습니다.",
+    "cannotPerformAction": "현재는 이 작업을 수행할 수 없습니다.",
+    "dragAndDrop": {
+      "AlreadyConnected": "노드가 이미 연결되어 있으므로 이 작업을 수행할 수 없습니다.",
+      "ExceedsLimit": "이 작업은 허용되는 계층 구조 수준인 레벨 12을 초과하므로 수행할 수 없습니다.",
+      "OUChildOfSU": "조직 단위는 일정 단위의 하위 노드가 될 수 없으므로 이 작업을 수행할 수 없습니다.",
+      "OUChildOfTeam": "조직 단위는 팀의 하위 노드가 될 수 없으므로 이 작업을 수행할 수 없습니다.",
+      "SUChildOfTeam": "일정 단위는 팀의 하위 노드가 될 수 없으므로 이 작업을 수행할 수 없습니다.",
+      "TeamChildOfTeam": "팀은 팀의 하위 노드가 될 수 없으므로 이 작업을 수행할 수 없습니다."
+    },
+    "generalError": "일반 오류",
+    "hierarchyActivateFailMsg": "계층을 활성화하지 못했습니다.",
+    "hierarchyActivateSuccMsg": "계층이 활성화되었습니다.",
+    "hierarchyCreatedFailMsg": "계층을 생성하지 못했습니다.",
+    "hierarchyCreatedSuccMsg": "계층이 생성되었습니다.",
+    "hierarchyDeactivateSuccMsg": "계층이 비활성화되었습니다.",
+    "hierarchyDectivateFailMsg": "계층을 비활성화하지 못했습니다.",
+    "hierarchyInvalidInputMsg": "잘못된 입력",
+    "hierarchyNameExistsFailMsg": "계층 이름이 이미 있습니다.",
+    "hierarchySavedFailMsg": "계층 구조를 저장하지 못했습니다.",
+    "hierarchySavedSuccMsg": "계층 구조가 저장되었습니다.",
+    "noSUInformation": "SU 정보를 가져올 수 없습니다.",
+    "noTeamInformation": "팀 정보를 가져올 수 없습니다.",
+    "permissionErrors": {
+      "addChild": "하위 노드를 추가할 권한이 없습니다.",
+      "deleteNode": "노드를 삭제할 권한이 없습니다.",
+      "dragAndDrop": "계층 구조를 수정할 권한이 없습니다.",
+      "editNode": "노드를 편집할 권한이 없습니다.",
+      "userPermission": "OU의 사용자를 볼 수 있는 권한이 없습니다."
+    },
+    "setPrimaryHierarchySuccessMessage": "기본 계층이 설정되었습니다.",
+    "teamIsAlreadyChildOfParent": "추가하려는 팀이 이미 하위 노드입니다."
+  },
+  "metaInfo": {
+    "hierarchies": {
+      "title": "계층"
+    },
+    "hierarchy-manager": {
+      "title": "계층 매니저"
+    }
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "adminModuleLinks": {
+          "accountSettings": "계정 설정",
+          "advancedTtl": "수명 주기 관리",
+          "bulkUploadDownload": "대량 업로드 포털",
+          "businessDataConfiguration": "비즈니스 데이터",
+          "employeeGroups": "일정 단위",
+          "groups": "그룹",
+          "hierarchies": "계층",
+          "lifecycleManagement": "수명 주기 관리",
+          "loginAuthenticatorManagement": "로그인 인증기",
+          "longTermFileRetrieval": "장기 파일 검색",
+          "passwordPolicyManagement": "암호 정책",
+          "recording": "레코딩",
+          "recordingPolicies": "레코딩 정책",
+          "roleManagement": "역할 및 권한",
+          "secureExternalAccess": "보안 외부 액세스",
+          "security": "보안",
+          "skills": "WFO 스킬",
+          "storage": "Cloud Storage",
+          "storageSettings": "저장소 설정",
+          "teams": "팀",
+          "users": "직원",
+          "viewManagement": "뷰"
+        },
+        "adminModuleName": "관리자"
+      }
+    }
+  },
+  "primaryHierarchyModal": {
+    "closeButtonText": "취소",
+    "message": "이 작업으로 {{hierarchyName}}이(가) 조직의 기본 계층으로 설정됩니다.<br><br><br>이 작업은 영구적이며 취소할 수 없습니다.<br>정말로 계속하시겠습니까?",
+    "primaryButtonText": "기본 계층 설정",
+    "title": "기본 계층으로 설정"
+  },
+  "types": {
+    "organizational": "조직",
+    "division": "부서"
+  }
+}

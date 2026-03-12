@@ -1,0 +1,2485 @@
+{
+  "mySchedule": {
+    "enhancedTradeModal": {
+      "openTradeMessage": {
+        "requestorWaitForApproval": "Dienstruilverzoek verzonden naar {{totalRequests}} medewerkers in afwachting van acceptatie",
+        "requesteeInvitedForTrade": "{{requestorName}} nodigt u uit om diensten te ruilen",
+        "requesteeAcceptedTrade": "U hebt deze ruil geaccepteerd. Wacht op goedkeuring supervisor",
+        "viewRequest": "Verzoek bekijken",
+        "decline": "Afwijzen",
+        "cancel": "Annuleren"
+      },
+      "modalTitle": "Dienst ruilen",
+      "okLabel": "Ruilverzoek indienen",
+      "fromLabel": "VAN",
+      "toLabel": "TOT",
+      "preferredShiftLabel": "Gewenste dag en tijd van dienst",
+      "betweenLabel": "Tussen",
+      "grid": {
+        "shiftStart": "Dienstbegin",
+        "shiftEnd": "Diensteinde",
+        "agentName": "Agentnaam",
+        "gridNotSet": "Dienstvoorkeur nog niet ingesteld",
+        "gridNoRowsOverlay": "Geen passende diensten gevonden. Werk je ruilvoorkeuren bij",
+        "gridNoAgent": "Geen agents gevonden",
+        "gridError": "Kan gegevens niet laden. Probeer het opnieuw.",
+        "wfo_service_schedule_manager_79": "Ruilen van dienst is niet mogelijk. Handelsuren minder dan de minimaal vereiste waarde.",
+        "wfo_service_schedule_manager_88": "Kan activiteit niet splitsen. Selecteer verschillende aanvragertijden.",
+        "wfo_service_schedule_manager_90": "Dagdeelhandel niet toegestaan.",
+        "wfo_service_schedule_manager_78": "Kan dienst niet ruilen. Tijd van ruilen van dienst te dicht bij de gevraagde tijd.",
+        "wfo_service_schedule_manager_68": "Ruilen van dienst niet mogelijk. Schema is nog niet bekend gemaakt.",
+        "wfo_service_schedule_manager_77": "Ruilen van dienst niet mogelijk. Datum van dienstruil is na de toegestane periode van de gevraagde datum.",
+        "wfo_service_schedule_manager_65": "Ruilen van dienst niet mogelijk. Datum van dienstruil is niet mogelijk voor verlopen datum.",
+        "wfo_service_schedule_manager_62": "Ruilen van dienst niet mogelijk. Dienstruil is niet toegestaan voor lopende aanvragen voor schemawijzigingen.",
+        "wfo_service_schedule_manager_87": "Kan ploegendienst niet ruilen. Het aantal open handelsverzoeken voor de dag overschrijdt de geconfigureerde limiet.",
+        "wfo_service_schedule_manager_76": "Verwisselen niet toegestaan."
+      },
+      "header": {
+        "shift": "dienst",
+        "searchTitle": "Agent zoeken",
+        "selectedRow": "Alleen geselecteerde tonen",
+        "selected": "geselecteerd"
+      },
+      "tradeConfigMsg": "Op basis van systeeminstellingen voor dienstruil",
+      "weekdayDropdown": "Voorkeursdagen selecteren",
+      "findShiftBtnText": "Passende diensten zoeken",
+      "fullDayTradeOption": "Volledige dienst",
+      "partialDayTradeOption": "Gedeeltelijke dienst",
+      "nonTradeableActivityPresent": "Diensttijd bevat niet-verhandelbare activiteiten",
+      "startTimeLateThanEndTime": "Starttijd moet voor eindtijd zijn",
+      "minAdvanceNotice": "Ruilverzoek moet ten minste {{stringTime}} van tevoren worden ingediend",
+      "minPartialShiftDuration": "Selecteer minimaal {{minStringTime}}",
+      "fullDayShiftLabel": "Ploegtijden",
+      "partialShiftLabel": "Gedeeltelijke ploegtijden",
+      "popOverNonTradableActivity": "Diensttijd bevat niet-verhandelbare activiteiten",
+      "popOverMinAdvNotice": "Ruilverzoek moet ten minste {{stringTime}} van tevoren worden ingediend",
+      "popOverPartialTradeDisabled": "Op basis van de systeemhandelsconfiguratie is alleen handel op een hele dag toegestaan",
+      "daysNotSelectedtLabel": "Dit veld is verplicht",
+      "popOverPartialRequestPending": "Hele daghandel is niet toegestaan wanneer een verzoek om een gedeeltelijke daghandel in behandeling is",
+      "popOverFullDayRequestPending": "Handel dagdeel is niet toegestaan wanneer een ruilverzoek voor een volledige dag in behandeling is",
+      "maxSelectionMessage": "U kunt maximaal {{maxSelectionPossible}} diensten selecteren."
+    },
+    "tradeValidations": {
+      "wfo_service_schedule_manager_62": "Ruilen van dienst niet mogelijk. Dienst ruilen is niet toegestaan voor lopende aanvragen voor schemawijzigingen.",
+      "wfo_service_schedule_manager_88": "Kan ploegendienst niet ruilen. Het gepubliceerde schema is leeg.",
+      "non_tradable": "Dienstruil niet mogelijk. Een of meer activiteiten in de dienst kunnen niet worden geruild.",
+      "wfo_service_schedule_manager_68": "Ruilen van dienst niet mogelijk. Schema is nog niet bekend gemaakt.",
+      "wfo_service_schedule_manager_78": "Kan ploegendienst niet ruilen. Datum van ruilen ploegendienst te dicht bij de gevraagde datum",
+      "wfo_service_schedule_manager_77": "Ruilen van dienst niet mogelijk. Datum van dienstruil is na de toegestane periode van de gevraagde datum.",
+      "wfo_service_schedule_manager_65": "Ruilen van dienst niet mogelijk. Datum van dienstruil is niet mogelijk voor verlopen datum.",
+      "tradeFailure": "Kan ploegendienst niet ruilen. Onbekende fout.",
+      "generalError": "Ruilen is mislukt. Probeer het later opnieuw.",
+      "wfo_service_schedule_manager_87": "Kan ploegendienst niet ruilen. Het aantal open handelsverzoeken voor de dag overschrijdt de geconfigureerde limiet.",
+      "wfo_service_schedule_manager_76": "Verwisselen niet toegestaan.",
+      "tradeSuccess": "Ruilverzoek verzonden naar alle geselecteerde agenten.",
+      "tradeSuccessPartial": "Ruilverzoek verzonden naar {{successCount}} agenten.",
+      "tradeSubmissionFailure": "Ruilverzoek is mislukt.",
+      "tradeAccpeted": "Ruilverzoek geaccepteerd.",
+      "trdaeDecline": "Ruilverzoek afgewezen."
+    },
+    "errorRead": "Er is een fout opgetreden bij het laden van de planning.",
+    "pageTitle": "Mijn planning",
+    "userName": "{{userName}}",
+    "actionButton": "Acties",
+    "actionLinks": {
+      "tradeShift": "Dienst ruilen",
+      "userPreferences": "Dienstvoorkeuren",
+      "userTORBalance": "Verloftegoed"
+    },
+    "showSummary": {
+      "onCall": "AANWEZIG",
+      "outOfOfficeAgent": "AFWEZIG",
+      "noData": "Geen gegevens"
+    },
+    "tradeModal": {
+      "agentLabel": "Ruilen met:",
+      "agentPlaceHolder": "Agent selecteren",
+      "okLabel": "Verzenden",
+      "modalTitle": "{{date}} | {{time}} ruilen"
+    },
+    "userPreferencesModal": {
+      "okLabel": "Opslaan",
+      "modalTitle": "Dienstvoorkeuren",
+      "updateSuccessMsg": "Medewerkersinformatie is bijgewerkt!"
+    },
+    "openTradeMessage": {
+      "requestorWaitForApproval": "Ruilverzoek is ingediend en wacht op goedkeuring",
+      "requesteeInvitedForTrade": "{{requestorName}} nodigt u uit om diensten te ruilen",
+      "requesteeAcceptedTrade": "U hebt deze ruil geaccepteerd. Wacht op goedkeuring supervisor",
+      "viewRequest": "Verzoek bekijken",
+      "decline": "Afwijzen",
+      "cancel": "Annuleren"
+    },
+    "toasts": {
+      "updateFailed": "Er was een probleem bij het bijwerken van de status van het dienstruilverzoek",
+      "canceledFailed": "Er was een probleem bij het annuleren van het dienstruilverzoek",
+      "declinedFailed": "Er was een probleem bij het afwijzen van het dienstruilverzoek",
+      "acceptedFailed": "Er was een probleem bij het accepteren van het dienstruilverzoek",
+      "retrieveFailed": "Er was een probleem bij het ophalen van dienstruilverzoeken",
+      "canceledSuccess": "Ruilverzoek geannuleerd.",
+      "noTradeAvaliable": "Het ruilverzoek is niet meer beschikbaar."
+    },
+    "sideBySideModal": {
+      "modalTitle": "Dienstruil",
+      "declineBtnLabel": "Afwijzen",
+      "acceptBtnLabel": "Accepteren",
+      "requesteeHeaderLabel": "U geeft",
+      "requestorHeaderLabel": "U krijgt",
+      "headerLabelFormat": "{{date}} | {{time}}",
+      "error": {
+        "tradeDateHasPassed": "Deze dienstruil is niet meer actief",
+        "scheduleRequestExists": "U kunt geen diensten ruilen omdat u voor deze dag al een openstaand planningsverzoek hebt.",
+        "nonTradableError": "De ruil is geweigerd. De dienst van uzelf of van de geselecteerde agent omvat een activiteit die niet kan worden geruild.",
+        "generalError": "Dienstruil is mislukt."
+      }
+    },
+    "agentInitiatedSchedule": {
+      "dirtyMode": {
+        "cancel": "Annuleren",
+        "submitRequest": "Verzoek indienen"
+      },
+      "menuOptions": {
+        "requestTimeoff": "Verlof aanvragen",
+        "addActivity": "Activiteit toevoegen",
+        "deleteActivity": "Activiteit verwijderen",
+        "cancelActivity": "Verzoek annuleren",
+        "editRequest": "Verzoek bewerken",
+        "editActivityTime": "Activiteitstijd bewerken",
+        "cancelRequest": "Verzoek annuleren"
+      },
+      "timeGroupLabel": "Selectie van start- en einddatum en -tijd",
+      "requestExistLabel": "U hebt openstaande verzoeken voor deze dag.",
+      "singleFullDayRequestExistLabel": "Er is een openstaand verzoek voor een hele dag ({{activityCode}}) op deze dag.",
+      "multipleFullDayRequestExistLabel": "Er is een openstaand verzoek voor een hele dag ({{activityCode}}) voor {{requestStartDate}} - {{requestEndDate}}.",
+      "dirtyModeSingleFullDayRequestLabel": "Er is een verzoek voor een hele dag - {{activityCode}}",
+      "dirtyModeMultipleFullDayRequestLabel": "{{requestStartDate}} - {{requestEndDate}} - {{activityCode}}",
+      "invalidRequestLabel": "Sommige activiteiten zijn verwijderd of hun instellingen zijn gewijzigd. Annuleer alle verzoeken.",
+      "fullDayInvalidRequestLabel": "De activiteit {{activityCode}} is verwijderd of gewijzigd. Openstaand verzoek voor een hele dag is niet meer geldig.",
+      "viewRequests": "Verzoeken bekijken",
+      "cancelRequests": "Alle annuleren",
+      "deletedActivityName": "Verwijderde activiteit",
+      "messages": {
+        "requestSubmitted": "Verzoek is ingediend.",
+        "submitRequestFailure": "Kan het verzoek niet indienen. Probeer het later opnieuw.",
+        "submitRequestFailureWithRefresh": "Kan het verzoek niet indienen. Vernieuw de pagina en probeer het opnieuw.",
+        "submitRequestFailureScheduleChanged": "Kan het verzoek niet indienen. Uw planning is bijgewerkt. Vernieuw de pagina en probeer het opnieuw.",
+        "submitRequestFailureDiscarded": "Kan het verzoek niet indienen. Uw planning is bijgewerkt en uw eerdere verzoeken zijn geannuleerd. Vernieuw de pagina.",
+        "requestCanceled": "Verzoek is geannuleerd.",
+        "allRequestsCanceled": "Verzoeken zijn geannuleerd.",
+        "cancelRequestFailureAlreadyApprovedDeclined": "Kan het verzoek niet annuleren. Uw planning is bijgewerkt. Vernieuw de pagina en probeer het opnieuw.",
+        "cancelAllRequestsFailureAlreadyApprovedDeclined": "Kan verzoeken niet annuleren. Uw planning is bijgewerkt. Vernieuw de pagina en probeer het opnieuw.",
+        "cancelRequestFailureDiscarded": "Kan het verzoek niet annuleren. Uw planning is bijgewerkt en uw eerdere verzoeken zijn geannuleerd. Vernieuw de pagina.",
+        "cancelAllRequestsFailureDiscarded": "Kan verzoeken niet annuleren. Uw planning is bijgewerkt en uw eerdere verzoeken zijn geannuleerd. Vernieuw de pagina.",
+        "cancelRequestFailureWithRefresh": "Kan het verzoek niet annuleren. Vernieuw de pagina en probeer het opnieuw.",
+        "cancelAllRequestsFailureWithRefresh": "Kan verzoeken niet annuleren. Vernieuw de pagina en probeer het opnieuw.",
+        "cancelRequestFailure": "Kan het verzoek niet annuleren. Probeer het later opnieuw.",
+        "cancelAllRequestsFailure": "Kan verzoeken niet annuleren. Probeer het later opnieuw.",
+        "modalInitFailure": "Kan activiteitsvenster niet openen. Vernieuw de pagina.",
+        "failedToLoadRequests": "Kan openstaande verzoeken niet laden. Vernieuw de pagina.",
+        "requestTimezoneDiff": "Kan openstaande verzoeken uit verschillende tijdzones niet laden.",
+        "submitRequestConfirmation": "Uw verzoeken overlappen met geplande activiteiten. Na goedkeuring zullen de nieuwe activiteiten de bestaande planning voor de aangevraagde tijdvakken overschrijven.",
+        "cancelRequestConfirmation": " Alle wijzigingen gaan verloren. Doorgaan?",
+        "cancelAllRequestsConfirmation": "Wilt u alle openstaande verzoeken voor deze dag verwijderen?",
+        "confirmationContinue": "Doorgaan?",
+        "confirmationYes": "Ja",
+        "confirmationNo": "Nee",
+        "cannotEditOvernightActivity": "U kunt deze activiteit alleen bewerken vanaf de startdatum.",
+        "cannotDeleteOvernightActivity": "U kunt deze activiteit alleen verwijderen vanaf de startdatum.",
+        "cannotCreateShiftTradeRequest": "U kunt geen diensten ruilen omdat u voor deze dag al een openstaand planningsverzoek hebt.",
+        "cannotCreateScheduleRequest": "U kunt uw planning niet wijzigen omdat u een openstaand dienstruilverzoek hebt voor deze dag.",
+        "cannotLoadPendingTradeRequests": "Kan openstaande ruilverzoeken niet laden. Vernieuw de pagina.",
+        "generalConflictErr": "U hebt tegenstrijdige verzoeken.",
+        "cannotCancelOvernightActivity": "Je kunt deze activiteit alleen annuleren vanaf de startdatum.",
+        "pastDateCancelationNotAllowed": "Annuleringen moeten vooraf worden gedaan. Neem contact op met je manager om te annuleren.",
+        "scheduleChangedPostApproval": "De planning is gewijzigd nadat je verlofaanvraag is goedgekeurd. Neem contact op met je manager om te annuleren.",
+        "moreThan1DayCancelationNotAllowed": "Annuleren voor meerdere dagen is niet mogelijk. Neem contact op met je manager om te annuleren.",
+        "cannotLoadWeeklyScheduleData": "Kan wekelijkse planningsgegevens niet laden."
+      },
+      "activityModal": {
+        "title": "Nieuwe verlofaanvraag",
+        "addActivityTitle": "Activiteit toevoegen",
+        "editActivityTitle": "Activiteit bewerken",
+        "removeActivityTitle": "Activiteit verwijderen",
+        "submitButton": "Verzenden",
+        "saveButton": "Opslaan",
+        "addActivitySaveButton": "Toevoegen",
+        "removeActivitySaveButton": "Verwijderen",
+        "cancelButton": "Annuleren",
+        "unpublishedDayMessage": "U hebt geen gepubliceerde planning voor deze dag, daarom kunt u alleen verlof aanvragen voor hele dagen.",
+        "restrictFullDaysMessage": "U kunt alleen volledige dagen aanvragen voor deze activiteit.",
+        "overnightMessage": "Dit is een nachtelijke activiteit. U kunt alleen de uren van de startdatum bewerken.",
+        "activityCodePlaceholder": "Selecteer een activiteitscode",
+        "fullDay": "Hele dag",
+        "activityLabel": "ACTIVITEITSTYPE",
+        "balanceLabel": "MIJN VERLOFTEGOED",
+        "startLabel": "START",
+        "endLabel": "EINDE",
+        "commentLabel": "OPMERKINGEN",
+        "commentPlaceHolder": "Opmerkingen toevoegen...",
+        "remaining": " tekens resterend",
+        "remainingBalance": "U hebt nog {{remainingDays}}/{{totalDays}} dagen",
+        "noBalance": "U hebt alle {{totalDays}} dagen van uw tegoed gebruikt",
+        "validations": {
+          "invalidPartialActivityCodeNumHours": "Deze activiteit moet tussen {{partialDayRequestMinHours}}-{{partialDayRequestMaxHours}} uur zijn",
+          "invalidPartialActivityHours": "Moet later zijn dan de starttijd",
+          "invalidDaysBalance": "U hebt nog maar {{remaining}} dagen in uw tegoed",
+          "invalidHoursBalance": "U hebt nog maar {{remainingBalanceHoursString}} uur in uw tegoed",
+          "noRemainingDaysBalance": "U hebt geen dagen over voor deze activiteit",
+          "overlappingRequests": "U hebt op dit moment al een openstaand verzoek",
+          "overlappingShiftTradeRequests": "U hebt een openstaand ruilverzoek in dit tijdvak",
+          "REQUEST_CREATION_TIME_DAYS_IN_ADVANCE": "U kunt alleen verzoeken indienen voor minimaal {{DAYS_IN_ADVANCE}} dagen vanaf nu",
+          "REQUEST_CREATION_TIME_SAME_DAY": "U kunt voor deze activiteit alleen verzoeken op dezelfde dag indienen.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_FUTURE": "U kunt alleen verzoeken indienen voor maximaal {{MAX_DAYS_IN_FUTURE}} dagen vanaf nu.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_PAST": "U kunt alleen verzoeken indienen voor maximaal {{MAX_DAYS_IN_PAST}} dagen vóór vandaag.",
+          "AGENT_SENIORITY": "U moet minimaal {{AGENT_MINIMUM_SENIORITY_DAYS}} dagen werken om dit verzoek in te kunnen dienen.",
+          "AGENT_BALANCE": "U hebt niet genoeg verloftegoed.",
+          "SCHEDULING_UNIT_BALANCE": "U kunt geen verlof aanvragen voor dit tijdvak.",
+          "SCHEDULING_UNIT_STAFFING": "De bezetting is te laag voor de geselecteerde activiteit/dagen",
+          "SCHEDULING_UNIT_NO_PUBLISHED_SCHEDULE": "Er is geen prognose of gepubliceerde planning voor de geselecteerde activiteit/dagen",
+          "selfIntervalAutoTime": "Er zijn geen vakken beschikbaar in de geselecteerde periode waarvoor verlof automatisch wordt goedgekeurd",
+          "selfIntervalManagerTime": "Er zijn geen vakken beschikbaar in de geselecteerde periode waarvoor verlof moet worden goedgekeurd",
+          "invalidPartialFulldayTO": "Gedeeltelijke vrije tijd moet minder zijn dan de totale duur van de shift",
+          "extraHoursIntervalConsumingShift": "Extra uren moeten buiten de dienst vallen",
+          "selfExtraHoursAutoTime": "Er zijn geen vakken beschikbaar in de geselecteerde periode waarvoor extra uren automatisch worden goedgekeurd",
+          "selfExtraHoursTime": "Er zijn geen vakken beschikbaar in de geselecteerde periode waarvoor de goedkeuring van vereiste extra uren moet worden goedgekeurd",
+          "AGENT_BALANCE_FOR_EH": "U hebt niet genoeg tegoeden van extra uren.",
+          "AGENT_MAX_HOURS_A_DAY": "Uren overschrijden de maximale limiet per dag",
+          "AGENT_MAX_HOURS_A_WEEK": "Uren overschrijden de maximale limiet per week"
+        },
+        "selfIntervalTitle": "Verlof selecteren",
+        "startDate": "STARTDATUM",
+        "startTime": "STARTTIJD",
+        "endDate": "EINDDATUM",
+        "endTime": "EINDTIJD",
+        "selfIntervalExtraHoursTitle": "Selecteer extra uren"
+      },
+      "comparisonModal": {
+        "viewFromScheduleManager": "Planningbeheer",
+        "requestExceedingRange": "Dit verzoek geldt voor {{totalDays}} dagen, van {{fromDate}} tot {{toDate}}. Om de volledige planning van de agent te zien, klikt u op ",
+        "agentTitle": "Mijn planningsverzoeken",
+        "managerTitle": "Planningsverzoeken",
+        "currentSchedule": "Huidige planning",
+        "revisedSchedule": "Aangepaste planning",
+        "requestUpdatedWarning": "Dit verzoek is onlangs bijgewerkt."
+      },
+      "self_Interval": "Selfservice",
+      "select_self_service": "Selecteer..."
+    },
+    "agentScheduleCancellation": {
+      "messages": {
+        "confirmationNo": "Blijven",
+        "confirmationYes": "Verzoek annuleren",
+        "confirmationMessage1": "Verzoek annuleren?",
+        "confirmationMessage2": "Je planning krijgt weer de vorige status.",
+        "canNotCancelTimeOff": "Kan verlof niet annuleren",
+        "internalError": "Er is een interne serverfout opgetreden. Probeer het opnieuw."
+      }
+    },
+    "today": "Vandaag",
+    "selfServiceTO": {
+      "autoTOPopover": "Automatisch verlof",
+      "managerTOPopover": "Verlof met vereiste goedkeuring",
+      "noSelfIntervalActivityPresentForDay": "Er is geen selfservice-activiteit voor de dag.",
+      "generalError": "Kan selfservicegegevens niet laden."
+    },
+    "weeklyViewTradeSideBySideModal": {
+      "viewTradeRequest": "Ontvangen verzoek weergeven",
+      "declineTradeRequest": "Alle ontvangen verzoeken afwijzen",
+      "cancelTradeRequest": "Alle verzonden verzoeken annuleren",
+      "viewPendingRequest": "Verzoeken bekijken",
+      "deletePendingRequest": "Alle annuleren",
+      "pendingRequestsText": "Verzoeken in behandeling",
+      "cancelPendingRequestTitle": "Verzoeken in behandeling annuleren",
+      "deleteAllPendingActivityRequestsConfirmation": "Wilt u alle openstaande verzoeken annuleren voor ",
+      "dontCancelButtonText": "Niet annuleren",
+      "noRequestsForThisDay": "Geen verzoeken voor deze dag.",
+      "tradeHeading": "Ruilverzoek",
+      "pendingActivityRequestHeader": "Activiteitverzoeken",
+      "pendingTradeRequestHeader": "Ruilverzoeken",
+      "close": "Sluiten",
+      "fullDayTimeoffMsg": "Er is een hele dag verlof voor deze dag.."
+    },
+    "selfServiceEH": {
+      "autoEHPopover": "Automatisch extra uren",
+      "managerEHPopover": "Goedkeuring extra uren vereist",
+      "noSelfIntervalActivityPresentForDay": "Er is geen selfservice-activiteit voor de dag.",
+      "generalError": "Kan selfservicegegevens niet laden.",
+      "noPermissionToAddOpenActivity": "Kan de activiteit niet toevoegen. Toestemming vereist."
+    },
+    "day": "Dag",
+    "week": "Week"
+  },
+  "common": {
+    "more": "meer..."
+  },
+  "niceNavigationUi": {
+    "global": {
+      "warningIcon": "Waarschuwing"
+    },
+    "globalNavigation": {
+      "sideBar": {
+        "wfmModuleLinks": {
+          "scheduler": "Planningbeheer",
+          "realTimeAdherence": "Realtime Adherence",
+          "intradayDashboard": "Intraday",
+          "forecasting": "Prognose",
+          "generateForecast": "Prognose genereren",
+          "forecastingProfiles": "Prognoseprofielen",
+          "specialDays": "Speciale dagen",
+          "acdImportHistorical": "Historische ACD-gegevens",
+          "scheduling": "Planning",
+          "generateSchedule": "Planning genereren",
+          "biddingManager": "Inschrijvingsbeheer",
+          "importStaffingPlan": "Bezettingsplan importeren",
+          "timeOffRequests": "Verzoeken",
+          "requests": "Verzoeken",
+          "setup": "Configuratie",
+          "activityCodes": "Activiteitscodes",
+          "acdActivitiesMapping": " ACD-toewijzing",
+          "dailyRule": "Dagregels",
+          "weeklyRules": "Weekregels",
+          "rotationRules": "Rotatieregels",
+          "shiftBiddingTemplates": "Inschrijfsjablonen",
+          "seatLimits": "Seat-limieten",
+          "shiftTrading": "Dienstruil",
+          "intradayManager": "Intraday Manager",
+          "timeOffPlanning": "Verlofplanning",
+          "summary": "Overzicht",
+          "rules": "Regels",
+          "requestHandling": "Aanvragen beheren",
+          "approvalRules": "Goedkeuringsregels"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "Mijn planning",
+          "tasks": "Taken",
+          "evaluations": "Evaluaties",
+          "plansMonitoring": "Planbewaking",
+          "performanceMonitoring": "Performance Monitoring",
+          "myTimeOffRequests": "Verlofaanvragen",
+          "scheduleRequests": "Planningsverzoeken",
+          "shiftBidding": "Inschrijven op diensten",
+          "calibrations": "Kalibraties",
+          "coaching": "Coaching",
+          "groupCoaching": "Groepscoaching",
+          "selfAssessments": "Zelfbeoordelingen",
+          "marketplace": "Marktplaats",
+          "myPersona": "Mijn persona",
+          "pursuits": "Mijn opvolgingen",
+          "1on1coaching": "1-op-1 coaching",
+          "recentInteractions": "Recente interacties"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "Mijn planning",
+          "myTimeOffRequests": "Verlofaanvragen",
+          "scheduleRequests": "Planningsverzoeken",
+          "evaluations": "Evaluaties",
+          "shiftBidding": "Inschrijven op diensten",
+          "coaching": "Coaching",
+          "groupCoaching": "Groepscoaching",
+          "marketplace": "Marktplaats",
+          "myDashboards": "Mijn dashboard",
+          "pursuits": "Mijn opvolgingen",
+          "1on1coaching": "1-op-1 coaching",
+          "recentInteractions": "Recente interacties"
+        }
+      }
+    }
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "Planning gewijzigd",
+      "content": "Planning op %%DATE%% is gewijzigd.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "Planning gewijzigd",
+      "content": "Planning tussen %%FROM_DATE%% en %%TO_DATE%% is gewijzigd.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "Nieuwe verlofaanvraag",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "Verlofaanvraag is geweigerd",
+      "content": "Aanvraag voor %%FROM_DATE%% tot %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "Verlofaanvraag is goedgekeurd",
+      "content": "Aanvraag voor %%FROM_DATE%% tot %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "Verlofaanvraag is geannuleerd",
+      "content": "Aanvraag voor %%FROM_DATE%% tot %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_DISPUTE": {
+      "title": "Evaluatie terug van beoordeling",
+      "content": "Geen actie vereist.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_ACKNOWLEDGE": {
+      "title": "Nieuwe evaluatie ontvangen",
+      "content": "Uw beoordeling is gewenst.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_COMPLETED": {
+      "title": "Nieuwe evaluatie ontvangen",
+      "content": "Geen actie vereist",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_COACHING_STARTED": {
+      "title": "Nieuw coachingpakket beschikbaar",
+      "content": "Actie is vereist",
+      "link": {
+        "name": "Beoordelen",
+        "url": "/qm/#/myCoachings"
+      }
+    },
+    "SHIFT_BID_STATUS_UPDATED_TO_ACTIVE": {
+      "title": "Nieuwe inschrijving nu geopend",
+      "content": "Plaats uw biedingen voor %%FROM_DATE%% - %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "U hebt {{Count}} ongelezen melding"
+  },
+  "filter": {
+    "clearall": "Alles wissen",
+    "close": "Sluiten"
+  },
+  "generateSchedulesPage": {
+    "labels": {
+      "newRequestOff": "Verlof aanvragen",
+      "pageTitle": "Automatische planningsgenerator",
+      "newJobButtonText": "Nieuwe planningen genereren",
+      "items": "taken voor planningsgenerator",
+      "selectedItems": "{{selectedCount}} geselecteerd",
+      "gridColumnsHeaders": {
+        "schedulingUnit": "Planningseenheid",
+        "schedulingDate": "Planningsdatum",
+        "initiatedBy": "Geïnitieerd door",
+        "jobDate": "Taakdatum",
+        "status": "Status"
+      },
+      "gridNoRowsOverlay": "Er is nog geen planningstaak gegenereerd",
+      "viewErrors": "Fouten weergeven"
+    },
+    "statuses": {
+      "GENERATION_STARTING": "Genereren wordt gestart...",
+      "GENERATION_STARTED": "Genereren is gestart.",
+      "GENERATION_SCHEDULING": "Planningen maken...",
+      "GENERATION_SCHEDULING_COMPLETE": "Planning voltooid.",
+      "GENERATION_STORING_SCHEDULES": "Planningen opslaan...",
+      "GENERATION_STORING_SCHEDULES_COMPLETE": "Planningen zijn opgeslagen.",
+      "GENERATION_CANCELLING": "Genereren wordt geannuleerd...",
+      "GENERATION_CANCELLED": "Genereren is geannuleerd.",
+      "GENERATION_COMPLETED": "Geslaagd. {{message}}",
+      "GENERATION_COMPLETED_WITH_WARNINGS": "Geslaagd. {{message}}",
+      "GENERATION_VALIDATION_FAILED": "Validatie is mislukt.",
+      "GENERATION_ERRORED": "Mislukt. {{message}}"
+    },
+    "statusDetailTitles": {
+      "internalError": "Interne fout",
+      "suNotFound": "Planningseenheid: {{suName}}",
+      "noUsersHaveSkills": "Planningseenheid: {{suName}}",
+      "someUsersHaveNoSkills": "Planningseenheid: {{suName}}",
+      "noUsersAssignedToSu": "Planningseenheid: {{suName}}",
+      "noUsersInSuAssignedWeeklyRules": "Planningseenheid: {{suName}}",
+      "someUsersInSuNotAssignedWeeklyRules": "Planningseenheid: {{suName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "Dagregel: {{dailyRuleName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "Dagregel: {{dailyRuleName}}",
+      "employeeUnavailiabilityViolatesMinUsage": "Weekregel: {{weeklyRuleName}}",
+      "employeeUnavailiabilityViolatesMinDays": "Weekregel: {{weeklyRuleName}}"
+    },
+    "statusDetails": {
+      "internalError": "Interne fout",
+      "suNotFound": "Planningseenheid niet gevonden",
+      "noUsersHaveSkills": "Geen van de medewerkers in de planningseenheid \"{{suName}}\" heeft skills",
+      "someUsersHaveNoSkills": "Sommige medewerkers in de planningseenheid \"{{suName}}\" hebben geen skills",
+      "noUsersAssignedToSu": "Er zijn geen medewerkers toegewezen aan de planningseenheid",
+      "noUsersInSuAssignedWeeklyRules": "Geen enkele medewerker in de planningseenheid \"{{suName}}\" heeft weekregels",
+      "someUsersInSuNotAssignedWeeklyRules": "Geen planningen voor medewerkers in de planningseenheid \"{{suName}}\" zonder weekregels",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "De weekregel \"{{weeklyRuleName}}\" wordt gebruikt door agents in de planningseenheid \"{{suName}}\" en de dagregel \"{{dailyRuleName}}\" houdt zich niet aan de werktijden. U moet de starttijd van de dagregel bijwerken.",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "De weekregel \"{{weeklyRuleName}}\" wordt gebruikt door agents in de planningseenheid \"{{suName}}\" en een of meer dagregels houden zich niet aan de werktijden. U moet het minimum van de weekregel verkleinen.",
+      "employeeUnavailiabilityViolatesMinUsage": "De medewerker \"{{employeeName}}\" is in Admin ingesteld als Niet-beschikbaar op de geplande werktijden voor de dagregel \"{{dailyRuleName}}\". U moet de weekregel “{{weeklyRuleName}}” of de beschikbaarheid van de medewerker bijwerken.",
+      "employeeUnavailiabilityViolatesMinDays": "De medewerker \"{{employeeName}}\" is in Admin ingesteld als Niet-beschikbaar op de geplande werktijden voor de dagregel \"{{dailyRuleName}}\". U moet de weekregel “{{weeklyRuleName}}” of de beschikbaarheid van de medewerker bijwerken."
+    },
+    "modal": {
+      "header": "Nieuwe planningen genereren",
+      "schedulingUnits": "Planningseenheden",
+      "scheduleUnit": "Planningseenheid",
+      "schedulingUnitsDropDown": "{{selectedCount}} planningseenheden",
+      "noMoreThanLimitSchedulingUnitsCouldBeScheduled": "Er kunnen niet meer dan {{items}} planningseenheden worden gepland",
+      "from": "Start",
+      "to": "Einde",
+      "selectDatePlaceholder": "Datum selecteren",
+      "oneWeek": "1W",
+      "twoWeeks": "2W",
+      "threeWeeks": "3W",
+      "fourWeeks": "4W",
+      "oneMonth": "1M",
+      "advanceRotation": "Rotatie vervroegen",
+      "useMultiSkill": "Multi-skill planning gebruiken",
+      "loadForecastDataBtn": "Prognosegegevens laden",
+      "forecastDataTabHeader": "Prognosegegevens",
+      "attention": "Let op!",
+      "schedulesExistPopoverTxt": "Sommige van de geselecteerde datums hebben al planningen. Deze taak overschrijft die planningen en publiceert automatisch de bijgewerkte planningen naar de medewerkers indien hun planningen al waren gepubliceerd.",
+      "doNotAdvanceRotationPopoverTxt": "U staat op het punt om een planning met rotatieregels te genereren, en u bent niet doorgegaan naar de volgende rotatie.",
+      "missingForecastDataPopoverTxt": "Sommige datums bevatten geen prognosegegevens. Planningen voor deze datums zullen niet voldoen aan de vraagvereisten.",
+      "lessThanMinimumSchedulingUnitsSelectedTxt": "U moet minimaal 1 planningseenheid selecteren",
+      "weeklyRulesMismatchWithSchedulerType": "Sommige weekregels zijn niet compatibel met dit type planning. {{mismatchedEmployeeCount}}/{{totalWeeklyRuleEmployeeCount}} medewerkers ontvangen geen planningen.",
+      "staffingPlanSUMismatch": "Het geselecteerde bezettingsplan is niet geldig voor een of meer geselecteerde planningseenheden. Wilt u doorgaan?",
+      "generateAnywayBtn": "Toch genereren",
+      "noForecastDataTxt": "Er zijn geen prognosegegevens voor dit datumbereik.",
+      "forecastDataLoads": "Prognosegegevens gevonden.",
+      "importForecastData": "Importeer het prognosebestand en probeer het opnieuw...",
+      "goToImportForecastPageBtn": "Ga naar de pagina Prognose importeren",
+      "ManualPlanning": "Handmatige planning (CSV)",
+      "AutomaticPlanning": "Automatische planning (gegenereerde prognose)",
+      "CSVFile": "CSV-bestand",
+      "GeneratedForecast": "Gegenereerde prognose",
+      "missingStaffingPlan": "U moet een bezettingsplan selecteren",
+      "staffingPlan": "Bezettingsplan",
+      "endDateInPast": "Einddatum moet in de toekomst zijn",
+      "startDateInPast": "Startdatum kan niet in het verleden zijn"
+    },
+    "serviceStatusMessages": {
+      "noUsersInSuAssignedWeeklyRules": "Planning kan niet worden gegenereerd. Geen weekregels gedefinieerd",
+      "noUsersAssignedToSu": "Planning kan niet worden gegenereerd. Geen medewerkers toegewezen aan de planningseenheid",
+      "jobAddSucceeded": "Er is één nieuwe taak toegevoegd",
+      "jobAddSucceededPlural": "Er zijn {{jobCount}} nieuwe taken toegevoegd",
+      "jobAddFailed": "Toevoegen van een nieuwe taak is mislukt",
+      "jobAddFailedPlural": "Toevoegen van {{jobCount}} nieuwe taken is mislukt"
+    },
+    "detailsListModal": {
+      "header": "Overzicht van fouten"
+    },
+    "deleteMessage": "U staat op het punt om deze planningstaak te verwijderen.  Doorgaan?",
+    "deleteSucess": "De planningstaak is verwijderd."
+  },
+  "generalErrorMessages": {
+    "required": "Dit veld is vereist",
+    "minLength": "De invoer is te kort",
+    "nameFieldValidation": "De volgende tekens zijn niet toegestaan: \\ / ! + < > ? # & , % \" ",
+    "maxLength": "De invoer is te lang",
+    "email": "Het e-mailadres dat u hebt ingevoerd is niet geldig",
+    "emailExists": "Het e-mailadres bestaat al. Probeer een andere waarde",
+    "number": "Alleen cijfers!",
+    "pattern": "Onjuiste notatie voor dit veld",
+    "password": "Het wachtwoord moet minimaal 8 tekens lang zijn, met minimaal 1 cijfer en 1 hoofdletter",
+    "match": "Dit wachtwoord komt niet overeen met het vorige wachtwoord",
+    "minLengthPassword": "Het wachtwoord moet minimaal 8 tekens lang zijn",
+    "maxLengthPassword": "Uw wachtwoord is te lang",
+    "min": "Waarde is te klein",
+    "max": "Waarde is te groot",
+    "uniqueString": "Deze naam bestaat al. Probeer een nieuwe.",
+    "lowerThen": "De minimumwaarde mag niet groter zijn dan de maximumwaarde",
+    "weeklyMaxLowerThanSumDailyMin": "Het minimum aantal dagen volgens de dagregels is groter dan het maximum aantal dagen in de weekregel.",
+    "weeklyMinGreaterThanSumDailyMax": "Het minimum aantal dagen in de weekregel is groter dan het maximum aantal dagen volgens de dagregels.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "Totaal aantal uren van de minimale dagelijkse combinaties mag niet groter zijn dan het maximum aantal uren per week",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "Totaal aantal uren van de maximale dagelijkse combinaties mag niet kleiner zijn dan het minimum aantal uren per week",
+    "uniqueDaysCounterLowerThanSumDailyMin": "Het minimum aantal dagen is groter dan het totaal aantal unieke dagen.",
+    "possibleDaysLowerThanMinDays": "Het aantal mogelijke dagen voldoet niet aan het minimum aantal dagen dat wordt vereist door de weekregel.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "Het minimum aantal dagen in de weekregel is groter dan het aantal unieke dagen.",
+    "noAddedShiftPatters": "U moet minimaal één dagregel selecteren",
+    "shiftLengthLowerThanActivityLength": "Som van activiteitsduur, relatieve starttijd en slack mag niet groter zijn dan dienstduur",
+    "shiftLengthLowerThanTotalActivityLength": "De totale lengte van de activiteiten mag niet langer zijn dan de lengte van de dienst",
+    "relativeStartLowerThanSlack": "Slack mag niet meer zijn dan relatieve starttijd",
+    "activitiesOverlap": "Activiteiten mogen elkaar niet overlappen",
+    "activityCountsOverLimit": "Er kunnen maximaal 10 vooraf geplande activiteiten zijn",
+    "serverError": "Interne serverfout. Probeer het opnieuw.",
+    "invalidFileFormat": "Ongeldige bestandsindeling",
+    "someRequiredFieldsAreIncomplete": "Sommige verplichte velden zijn niet volledig."
+  },
+  "metaInfo": {
+    "selfService": {
+      "title": "Support - Downloads"
+    },
+    "title": "NICE SaaS WFM ",
+    "description": "NICE SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "Inloggen",
+      "description": "NICE SaaS WFM"
+    },
+    "success": {
+      "title": "Geslaagd",
+      "description": "NICE SaaS WFM"
+    },
+    "examples": {
+      "title": "Voorbeelden",
+      "description": "NICE SaaS WFM"
+    },
+    "form_example": {
+      "title": "Formuliervoorbeelden",
+      "description": "NICE SaaS WFM"
+    },
+    "userManagement": {
+      "title": "Medewerkers",
+      "description": "NICE SaaS WFM"
+    },
+    "createAccount": {
+      "title": "Account maken",
+      "description": "NICE SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "Activiteitscodes",
+      "description": "NICE SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " ACD-toewijzing",
+      "description": "NICE SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "Dagregels",
+      "description": "NICE SaaS WFM"
+    },
+    "shiftBiddingTemplates": {
+      "title": "Dienstsjablonen",
+      "description": "NICE SaaS WFM"
+    },
+    "shiftTrading": {
+      "title": "Dienstruil",
+      "description": "NICE SaaS WFM"
+    },
+    "timeOffPlanning": {
+      "rules": {
+        "title": "Regels",
+        "description": "NICE SaaS WFM"
+      },
+      "summary": {
+        "title": "Overzicht",
+        "description": "NICE SaaS WFM"
+      }
+    },
+    "timeOffRules": {
+      "title": "Verlofregels",
+      "description": "NICE SaaS WFM"
+    },
+    "timeOffSummary": {
+      "title": "Verlofoverzicht",
+      "description": "NICE SaaS WFM"
+    },
+    "createNewRule": {
+      "title": "Nieuwe regel",
+      "description": "NICE SaaS WFM"
+    },
+    "biddingManager": {
+      "title": "Inschrijvingsbeheer",
+      "description": "NICE SaaS WFM"
+    },
+    "bidsView": {
+      "title": "Inschrijvingsbeheer",
+      "description": "NICE SaaS WFM"
+    },
+    "shiftBidding": {
+      "title": "Inschrijven op diensten",
+      "description": "NICE SaaS WFM"
+    },
+    "bidPatterns": {
+      "title": "Inschrijven op diensten",
+      "description": "NICE SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "Planningseenheid",
+      "description": "NICE SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "Verlopen uitnodiging",
+      "description": "NICE SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "Planning genereren",
+      "description": "NICE SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "Mijn planning",
+      "description": "NICE SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "Mijn dashboard",
+      "description": "NICE SaaS WFM"
+    },
+    "myTimeOffRequests": {
+      "title": "Planningsverzoeken",
+      "description": "NICE SaaS WFM"
+    },
+    "intradayManager": {
+      "title": "Intraday Manager",
+      "description": "NICE SaaS WFM"
+    },
+    "qpManager": {
+      "title": "Quality Planner",
+      "description": "NICE SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "Form Executor",
+      "description": "NICE SaaS WFM"
+    },
+    "recoverPassword": {
+      "title": "Wachtwoord herstellen",
+      "description": "NICE SaaS WFM"
+    },
+    "resetPassword": {
+      "title": "Wachtwoord resetten",
+      "description": "NICE SaaS WFM"
+    },
+    "scheduler": {
+      "title": "Planningbeheer",
+      "description": "NICE SaaS WFM"
+    },
+    "setPassword": {
+      "title": "Wachtwoord instellen",
+      "description": "NICE SaaS WFM"
+    },
+    "skills": {
+      "title": "Skills",
+      "description": "NICE SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "UI Kit Gallery",
+      "description": "NICE SaaS WFM",
+      "userRoles": "{{selectedCount}} medewerkersrollen"
+    },
+    "weeklyRules": {
+      "title": "Weekregels",
+      "description": "NICE SaaS WFM"
+    },
+    "manageForms": {
+      "title": "Formulieren beheren",
+      "description": "NICE SaaS WFM"
+    },
+    "templateManager": {
+      "title": "Sjabloonbeheer",
+      "description": "NICE SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "Form Designer",
+      "description": "NICE SaaS WFM"
+    },
+    "forecastData": {
+      "title": "Prognosegegevens importeren",
+      "description": "NICE SaaS WFM"
+    },
+    "historicalData": {
+      "title": "Historische gegevens",
+      "description": "NICE SaaS WFM"
+    },
+    "groups": {
+      "title": "Groepen",
+      "description": "NICE SaaS WFM"
+    },
+    "realTimeAdherence": {
+      "title": "Realtime Adherence",
+      "description": "Realtime Adherence"
+    },
+    "timeOffRequests": {
+      "title": "Verzoeken",
+      "description": "NICE SaaS WFM"
+    },
+    "requests": {
+      "title": "Aanvragen beheren",
+      "description": "Agentaanvragen beheren"
+    },
+    "automaticApprovalRules": {
+      "title": "Goedkeuringsregels",
+      "description": "Goedkeuringsregels beheren"
+    },
+    "automaticApprovalRuleSettings": {
+      "title": "Instellingen voor goedkeuringsregels",
+      "description": "Instellingen voor goedkeuringsregels beheren"
+    },
+    "generatedForecasts": {
+      "title": "Prognose genereren",
+      "description": "Prognose genereren"
+    },
+    "generateForecast": {
+      "title": "Prognose genereren",
+      "description": "Prognose genereren"
+    },
+    "forecastingProfiles": {
+      "title": "Prognoseprofielen",
+      "description": "Prognoseprofielen"
+    },
+    "forecastingProfileView": {
+      "title": "Prognoseprofiel",
+      "description": "Prognoseprofiel"
+    },
+    "importStaffingJob": {
+      "title": "Bezettingsplannen",
+      "description": "Bezettingsplannen"
+    },
+    "specialDays": {
+      "title": "Speciale dagen",
+      "description": "Speciale dagen"
+    },
+    "specialDayView": {
+      "title": "Speciale dag",
+      "description": "Speciale dag"
+    }
+  },
+  "commonButtons": {
+    "ok": "OK",
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "done": "Gereed",
+    "no": "Nee",
+    "yes": "Ja",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "continue": "Doorgaan",
+    "invite": "Uitnodigen",
+    "edit": "Bewerken",
+    "update": "Bijwerken",
+    "upload": "Uploaden",
+    "today": "Vandaag",
+    "showAll": "Alles weergeven",
+    "clearAll": "Alles wissen",
+    "clearData": "Gegevens wissen",
+    "close": "Sluiten",
+    "create": "Maken",
+    "selectAll": "Alles selecteren",
+    "generate": "Genereren",
+    "selectFile": "Bestand selecteren",
+    "chooseFile": "Bestand kiezen...",
+    "add": "Toevoegen",
+    "publish": "Publiceren",
+    "set": "Instellen",
+    "day": "Dag",
+    "week": "Week",
+    "copy": "Kopiëren",
+    "from": "Van",
+    "to": "Tot",
+    "duplicate": "Dupliceren"
+  },
+  "languages": {
+    "english": "Engels",
+    "russian": "Russisch",
+    "spanish": "Spaans",
+    "chinese": "Chinees"
+  },
+  "weekDays": {
+    "sunday": "Zondag",
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "saturday": "Zaterdag"
+  },
+  "weekShortDays": {
+    "SUN": "ZO",
+    "MON": "MA",
+    "TUE": "DI",
+    "WED": "WO",
+    "THU": "DO",
+    "FRI": "VR",
+    "SAT": "ZA"
+  },
+  "scheduler": {
+    "noeditsAllowed": "Gedeeltelijk weergegeven diensten kunnen niet worden bewerkt. Wijzig de datums om de dienst te bewerken.",
+    "netstaffing": {
+      "diff": "Verschil",
+      "req": "Gevraagd",
+      "staff": "Bezetting"
+    },
+    "publishModal": {
+      "header": "Nieuwe planningen publiceren",
+      "publishConformation": "Sommige van de geselecteerde datums zijn al gepubliceerd. In geval van een planningswijziging worden de medewerkers geïnformeerd over de nieuwe planning.",
+      "noSchedulesToPublish": "Er zijn geen planningen in het geselecteerde datumbereik.",
+      "attention": "Let op!",
+      "publishAnywayBtn": "Toch publiceren",
+      "schedulingUnits": "Planningseenheid",
+      "schedulingUnitsDropDown": "{{selectedCount}} planningseenheden",
+      "publishPopoverHeader": "Gepubliceerd naar",
+      "publishSummaryHeader": "Gepubliceerd",
+      "from": "Start:",
+      "to": "Einde:",
+      "selectDatePlaceholder": "Datum selecteren",
+      "oneWeek": "1W",
+      "twoWeeks": "2W",
+      "threeWeeks": "3W",
+      "oneMonth": "1M",
+      "successMessage": "Datums zijn gepubliceerd"
+    },
+    "employeeCount": "{{count}} gebruikers",
+    "filters": {
+      "schedulingUnits": "{{count}} planningseenheden",
+      "skills": "{{count}} skills",
+      "groups": "{{count}} groepen",
+      "activityCodes": "{{count}} activiteitscodes",
+      "searchPlaceholder": "Begin met typen om een medewerker te vinden"
+    },
+    "activityModal": {
+      "activityCodePlaceholder": "Selecteer een activiteitscode",
+      "addTitle": "Activiteit toevoegen - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Opmerkingen toevoegen...",
+      "editTitle": "Activiteit bewerken - {{userName}}",
+      "error": {
+        "conflict": "Conflict gevonden. Deze activiteit komt in de plaats van overlappende activiteiten.",
+        "invaliddatetime": "De opgegeven datum en/of tijd is ongeldig.",
+        "daterange": "Selecteer een datum: vandaag, gisteren of morgen.",
+        "openhours": "U kunt niet inplannen buiten werktijd",
+        "endBeforeStart": "De einddatum mag niet eerder zijn dan de startdatum.",
+        "timeRangeOutsideOfRange": "De activiteit moet beginnen of eindigen binnen het tijdlijnbereik ({{start}} - {{end}}).",
+        "activityOverlappingTimeRange": "Deze activiteit valt buiten de opgehaalde planning en vervangt mogelijk bestaande activiteiten.",
+        "xssInvalidCharacter": "Deze tekens zijn ongeldig < >"
+      },
+      "selectingOOOActivityWithoutDaysOff": "Het toevoegen van deze activiteit kan leiden tot een tekort in het verloftegoed van de medewerker",
+      "end": "Einde",
+      "remaining": "{{currentLength}} tekens resterend",
+      "remove": "Verwijderen",
+      "start": "Start"
+    },
+    "allDay": "Hele dag",
+    "cancel": "Annuleren",
+    "closed": "U kunt geen diensten en activiteiten toevoegen wanneer de organisatie gesloten is.",
+    "employeeName": "Naam",
+    "hotkeys": {
+      "nextHotKey": "Volgende dag",
+      "previousHotKey": "Vorige dag",
+      "refreshHotKey": "Planningen opnieuw laden uit de database",
+      "saveHotKey": "Planningswijzigingen opslaan",
+      "todayHotKey": "Ga naar vandaag"
+    },
+    "hours": "Uur",
+    "menuItems": {
+      "addActivity": "Activiteit toevoegen",
+      "addShift": "Dienst toevoegen",
+      "copyActivity": "Activiteit kopiëren",
+      "copyShift": "Dienst kopiëren",
+      "editActivity": "Activiteit bewerken",
+      "editShift": "Dienst bewerken",
+      "pasteActivity": "Activiteit plakken",
+      "pasteShift": "Dienst plakken",
+      "removeActivity": "Activiteit verwijderen",
+      "removeShift": "Dienst verwijderen",
+      "cancel": "Sluiten"
+    },
+    "name": "Naam",
+    "viewScheduleChangeMenu": "Planningswijzigingen weergeven",
+    "organizationClosed": "Organisatie gesloten",
+    "publish": "Publiceren",
+    "save": "Opslaan",
+    "saveAndPublish": "Opslaan en publiceren",
+    "scheduler": "Planningbeheer",
+    "settingsDropDown": {
+      "title": "Instellingen",
+      "setup": {
+        "title": "Nettobezettingsdrempel"
+      },
+      "manualSchedule": {
+        "title": "Planning kopiëren/dupliceren",
+        "duplicateTitle": "Medewerkersplanning dupliceren"
+      },
+      "broadcast": {
+        "title": "Uitzendbericht",
+        "messageText": "Bericht",
+        "schedulingUnits": "Planningseenheid",
+        "broadcastNow": "Nu uitzenden",
+        "remaining": "{{currentLength}} tekens resterend",
+        "schedulingUnitsDropDown": "{{selectedCount}} planningseenheden",
+        "durationsDropDown": "Duur",
+        "commentPlaceholder": "Typ uw bericht...",
+        "durationsDropDownLabel": "Duur van bericht",
+        "durations": {
+          "30": "30 seconden",
+          "60": "1 minuut",
+          "300": "5 minuten"
+        }
+      },
+      "timeOff": {
+        "title": "Verlofbeheer",
+        "formLabels": {
+          "saveLabel": "Gereed",
+          "timeOffTo": "VERLOF INSTELLEN VOOR",
+          "timeOffToPlaceholder": "Agent selecteren...",
+          "timeOffType": "VERLOFACTIVITEIT",
+          "timeOffTypePlaceholder": "Activiteit selecteren",
+          "from": "VAN",
+          "to": "TOT",
+          "showOnAgentSched": "Weergeven in agentplanning",
+          "disableOverride": "Kan niet worden overschreven door automatische Scheduler",
+          "allAgents": "Alle agents"
+        },
+        "errors": {
+          "getEmployees": "Fout bij ontvangen van medewerkerslijst",
+          "getActivities": "Fout bij ontvangen van lijst met activiteitscodes voor verlof",
+          "endBeforeStart": "De einddatum mag niet eerder zijn dan de startdatum.",
+          "invalidDate": "De opgegeven datum is ongeldig."
+        }
+      },
+      "scheduleExport": {
+        "title": "Planning exporteren",
+        "generating": "Bezig met het genereren van exportbestand, even geduld...",
+        "schedulingUnits": "Planningseenheden",
+        "agentPlaceHolder": "Agentnaam",
+        "agent": "Agent",
+        "start": "Start",
+        "end": "Einde",
+        "download": "Downloaden",
+        "1w": "1W",
+        "2w": "2W",
+        "3w": "3W",
+        "1m": "1M"
+      },
+      "copyEmployeeSchedule": {
+        "title": "Medewerkersplanning kopiëren",
+        "formLabels": {
+          "saveLabel": "Kopiëren",
+          "scheduleOf": "Kopieer de planning van:",
+          "copyEmployeeFromPlaceholder": "Medewerker selecteren...",
+          "timeOffType": "VERLOFACTIVITEIT",
+          "timeOffTypePlaceholder": "Activiteit selecteren",
+          "from": "VANAF datum:",
+          "to": "TOT",
+          "showOnAgentSched": "Weergeven in agentplanning",
+          "disableOverride": "Kan niet worden overschreven door automatische Scheduler",
+          "addEmployeeTitle": "Planning plakken naar de onderstaande medewerkers",
+          "allAgents": "Alle agents",
+          "employeesCount": "Medewerkers",
+          "addEmployeesButton": "Medewerkers toevoegen",
+          "selectEmployee": "Medewerker selecteren",
+          "employeesFilter": "Begin met typen om een medewerker te vinden",
+          "Employee": "Medewerker",
+          "Evaluator": "Beoordelaar",
+          "Manager": "Manager",
+          "Administrator": "Beheerder"
+        },
+        "errors": {
+          "getEmployees": "Fout bij ontvangen van medewerkerslijst",
+          "getActivities": "Fout bij ontvangen van lijst met activiteitscodes voor verlof",
+          "invalidDate": "De opgegeven datum is ongeldig.",
+          "endBeforeStart": "De einddatum mag niet eerder zijn dan de startdatum.",
+          "noEmployeeSelected": "U moet een medewerker selecteren.",
+          "noEmployeesSelected": "U moet minimaal 1 medewerker selecteren."
+        }
+      },
+      "meetingScheduler": {
+        "title": "Vergaderingplanner",
+        "formLabels": {
+          "scheduleLabel": "Planning",
+          "activity": "Activiteit",
+          "scheduleType": "Planningtype",
+          "fixTime": "Vaste tijd",
+          "flexibleTime": "Flexibele tijd",
+          "duration": "Duur",
+          "min": "min.",
+          "date": "Datum",
+          "time": "Tijd",
+          "timezone": "Tijdzone",
+          "comment": "Comment",
+          "activityCodePlaceholder": "Selecteer een activiteit",
+          "scheduleUpTo": "Planning tot",
+          "employees": "Medewerkers",
+          "numberSimultaneous": "gelijktijdig",
+          "fromDate": "Van",
+          "toDate": "Tot",
+          "commentPlaceholder": "Deze opmerking wordt weergegeven in de planning van de agent",
+          "remaining": "{{currentLength}} tekens resterend",
+          "addEmployeeTitle": "Vergadering maken voor deze medewerkers",
+          "employeesFilter": "Begin met typen om een medewerker te vinden",
+          "Employee": "Medewerker"
+        },
+        "errors": {
+          "getEmployees": "Fout bij ontvangen van medewerkerslijst",
+          "getActivities": "Fout bij ontvangen van lijst met activiteitscodes",
+          "getTimezone": "Fout bij ontvangen van tijdzonelijst",
+          "invalidDate": "De opgegeven datum is ongeldig",
+          "startDateInPast": "U kunt geen datum in het verleden selecteren",
+          "startTimeInPast": "U kunt geen tijd in het verleden selecteren",
+          "noEmployeesSelected": "U moet minimaal 1 medewerker selecteren",
+          "minutes": "Voer een getal in tussen {{min}} en {{max}}",
+          "numberSimultaneous": "Voer een getal in tussen {{min}} en {{max}}",
+          "violateMaxUpTo": "Datumbereik voldoet niet aan maximum",
+          "fromDateInPast": "U kunt geen datum in het verleden selecteren",
+          "toDateBeforeFromDate": "'Datum van' moet eerder zijn dan 'Datum tot'",
+          "overThreeMonth": "Het bereik mag niet langer zijn dan 3 maanden",
+          "timeOffMessage": "hebben vrij en worden van deze vergadering uitgesloten.",
+          "employeesCount": "{{count}} medewerkers ",
+          "noShiftMessage": "hebben geen geplande dienst binnen het geselecteerde tijdvak en worden uitgesloten.",
+          "conflictActivitiesMessage": "hebben al activiteiten; die worden overschreven.",
+          "conflictActivitiesPopover": "Deze vergadering kan andere, al bestaande activiteiten overschrijven. Doorgaan?",
+          "noShiftPopover": "Agents zonder diensten binnen het geselecteerde tijdvak worden niet voor deze vergadering ingepland. Doorgaan?",
+          "errorRead": "Er is een fout opgetreden bij het laden van het venster Vergaderingplanner.",
+          "errorValidate": "Er is een fout opgetreden bij het valideren van de vergaderingsaanvraag.",
+          "errorSchedule": "Er is een fout opgetreden bij het plannen van de vergadering."
+        }
+      }
+    },
+    "changeHistoryComponent": {
+      "revertBtn": "Terugdraaien",
+      "revertMessage": "Hierdoor wordt de huidige planning overschreven. Doorgaan?",
+      "revertSuccess": "Planning is teruggedraaid."
+    },
+    "changeHistoryModal": {
+      "actionHeading": "Actie",
+      "agent": "Agent",
+      "agentPlaceholder": "Selecteer een agent",
+      "applyButton": "Toepassen",
+      "changedByHeading": "Gewijzigd door",
+      "date": "Datum",
+      "dateAndTimeHeading": "Datum en tijd van wijziging",
+      "modalTitle": "Wijzigingsgeschiedenis van planning",
+      "noHistoryData": "Geen planningsgeschiedenis beschikbaar",
+      "revertButton": "Terugdraaien",
+      "timezone": "Tijdzone",
+      "timezonePlaceholder": "Selecteer een tijdzone",
+      "categoryChanges": {
+        "MANUAL": "Handmatige wijzigingen",
+        "AUTO": "Planning genereren",
+        "TIMEOFF": "Verlofaanvraag",
+        "TIMEOFF_REQUEST": "Verlofaanvraag",
+        "TIMEOFF_MANAGEMENT": "Verlofbeheer",
+        "COPY": "Planning kopiëren",
+        "DUPLICATE": "Planning dupliceren",
+        "TRADE": "Dienstruil",
+        "PUBLISH": "Gepubliceerd door gebruiker",
+        "REVERT": "Teruggedraaid door gebruiker",
+        "EXTERNAL_MEETING": "Aanvraag voor externe vergadering",
+        "AGENT_CHANGE": "Aanvraag door agent",
+        "FIXED_MEETING": "Vaste vergaderingsaanvraag",
+        "FLEXIBLE_MEETING": "Flexibele vergaderingsaanvraag"
+      }
+    },
+    "setupModal": {
+      "tabs": {
+        "netStaffing": {
+          "title": "Nettobezetting",
+          "range": {
+            "min": "Onderbezetting",
+            "mid": "Gebalanceerd",
+            "max": "Overbezetting"
+          }
+        }
+      },
+      "saveSuccess": "Instellingen voor Planningbeheer zijn opgeslagen.",
+      "saveFailure": "Er is een fout opgetreden bij het opslaan van instellingen voor Planningbeheer."
+    },
+    "shiftModal": {
+      "addTitle": "Dienst toevoegen - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Uw opmerkingen...",
+      "editTitle": "Dienst bewerken - {{userName}}",
+      "shiftType": "Diensttype",
+      "error": {
+        "conflict": "Conflict gevonden. Deze activiteit komt in de plaats van overlappende activiteiten.",
+        "invalidtime": "De opgegeven tijd is ongeldig.",
+        "endBeforeStart": "De einddatum mag niet eerder zijn dan de startdatum.",
+        "timeRangeOutsideOfRange": "De dienst moet beginnen of eindigen binnen het tijdlijnbereik ({{start}} - {{end}}).",
+        "shiftOverlappingTimeRange": "Deze dienst valt buiten de opgehaalde planning en vervangt mogelijk bestaande diensten.",
+        "xssInvalidCharacter": "Deze tekens zijn ongeldig < >"
+      },
+      "end": "Einde",
+      "remaining": "{{currentLength}} tekens resterend",
+      "remove": "Verwijderen",
+      "start": "Start"
+    },
+    "toasts": {
+      "saveSuccessMessage": "Planningswijzigingen zijn opgeslagen.",
+      "broadcastSuccessMessage": "Bericht is verzonden.",
+      "meetingSuccessMessage": "Vergadering is aangemaakt.",
+      "noShiftPaste": "Kan geen dienst plakken die buiten het zichtbare bereik valt.",
+      "noShiftCopy": "Kan geen dienst kopiëren die buiten het zichtbare bereik valt.",
+      "noActivityPaste": "Kan geen activiteit plakken die buiten het zichtbare bereik valt.",
+      "multipleShifts": "Let op!  Er zijn meerdere diensten voor dezelfde dag.",
+      "overlappingShiftsActivities": "Let op!  Er zijn overlappende diensten en/of activiteiten",
+      "noEdit": "Kan geen dienst of activiteit bewerken die buiten het zichtbare bereik valt.",
+      "noRemove": "Kan geen dienst of activiteit verwijderen die buiten het zichtbare bereik valt.",
+      "noAddActivity": "Kan geen activiteit toevoegen aan een dienst die buiten het zichtbare bereik valt.",
+      "remainingTORExceededAllotedTimeOff": "Sommige medewerkers hebben een tekort op hun verloftegoed."
+    },
+    "manualScheduleAssistant": {
+      "summary": "Overzicht",
+      "source": "dupliceren van",
+      "destination": "tot",
+      "forEmployees": "Voor medewerkers ",
+      "chooseType": "Planningtype kopiëren",
+      "destinationEmptyErrorMsg": "U moet minimaal één datum selecteren",
+      "employeeEmptyErrorMsg": "U moet minimaal één medewerker selecteren",
+      "timeFrame": "Tijdvak",
+      "showLess": "Minder tonen...",
+      "showMore": "Meer weergeven...",
+      "day": "Dag",
+      "week": "Week",
+      "duplicateScheduleFor": "Planning dupliceren voor",
+      "allEmployees": "Alle medewerkers",
+      "selectedEmployeesPrefix": "(",
+      "selectedEmployeesSuffix": " geselecteerd)",
+      "addEmployees": "Medewerkers toevoegen",
+      "selectEmployees": "Medewerkers selecteren",
+      "specificEmployees": "Specifieke medewerkers",
+      "sourceDay": "Brondag",
+      "sourceWeek": "Bronweek",
+      "destinationDay": "Bestemmingsdagen",
+      "destinationWeek": "Bestemmingsweken",
+      "resetAll": "Alle resetten",
+      "copySchedule": "Planningen kopiëren",
+      "copyScheduleJobStarted": {
+        "code": "Copy Schedule Started",
+        "message": "Kopiëren van planning is gestart."
+      },
+      "copyScheduleJobFinishedSuccess": {
+        "code": "Copy Schedule Finished",
+        "message": "Planning is gekopieerd."
+      },
+      "duplicateScheduleJobStarted": {
+        "code": "Duplicate Schedule Started",
+        "message": "Dupliceren van planning is gestart."
+      },
+      "duplicateScheduleJobFinishedSuccess": {
+        "code": "Duplicate Schedule Finished",
+        "message": "Planning is gedupliceerd."
+      },
+      "iWantTo": "Ik wil",
+      "copyTitle": "Een planning kopiëren naar andere",
+      "copyDescription": "Een planning kopiëren van de ene medewerker naar andere medewerkers, binnen hetzelfde tijdvak",
+      "duplicateTitle": "Persoonlijke planningen dupliceren",
+      "duplicateDescription": "Medewerkersplanningen van een bepaalde dag of week selecteren en ze kopiëren voor later gebruik voor dezelfde medewerkers"
+    },
+    "today": "Vandaag",
+    "unavailable": "Niet beschikbaar",
+    "unsaved": "Afsluiten zonder wijzigingen op te slaan?",
+    "dailyView": "Dagweergave",
+    "weeklyView": "Weekweergave",
+    "firstDayOfWeek": "Eerste dag van de week:"
+  },
+  "scheduleEventTooltip": {
+    "shiftTitle": "Dienst"
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Inloggen is mislukt"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Algemene fout"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "Deze pagina is niet beschikbaar. Controleer uw verbinding en probeer het opnieuw."
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Algemene fout {{ details }}"
+    },
+    "CopyScheduleJobRunningError": {
+      "code": "Copy Schedule Run Job Error",
+      "message": "Er wordt een andere kopieertaak uitgevoerd. Probeer het later opnieuw."
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Ongeldige parameters"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Niet-geautoriseerde medewerker"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "Er is geen reactie van de server. Probeer het later opnieuw."
+    },
+    "wrongCredentials": "U hebt een verkeerd e-mailadres of wachtwoord ingevoerd",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interne fout."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "Planningseenheid bestaat niet."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "Deze naam bestaat al. Probeer een nieuwe."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "Deze tenant of medewerker bestaat al. Probeer een andere."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "Het e-mailadres bestaat al. Probeer een andere waarde"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "Bestand bestaat niet."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "Medewerker bestaat niet"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "Er zijn geen medewerkers om uit te nodigen."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "Aanmaken van medewerker mislukt."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "Ongeldige medewerkersstatus"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "Ongeldige organisatienaam."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Ongeldig e-mailadres."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "Ongeldige voornaam van medewerker."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "Ongeldige achternaam van medewerker."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "Kan standaard planningseenheid niet verwijderen."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "Planningseenheid-ID ontbreekt."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "Maximum aantal uren van medewerker is buiten het bereik."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "Wachtwoord van medewerker is ongeldig."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "Kan standaardgroep niet aanpassen."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "Kan medewerkers niet verwijderen uit standaardgroep."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "Onjuist medewerkerswachtwoord."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "Medewerker bestaat niet."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "U kunt uw eigen medewerker niet verwijderen"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "U kunt niet de enige beheerder verwijderen"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "U kunt geen medewerker verwijderen die al verwijderd is"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "Ongeldig wachtwoordtoken"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "Aanmaken van account mislukt"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "Organisatienaam is ongeldig"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "U hebt geen machtiging om de rol te wijzigen"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "U kunt uw eigen rol niet wijzigen"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "Kan laatste beheerder niet verwijderen."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "Deze naam bestaat al. Probeer een nieuwe."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "Kan wachtwoorden niet wijzigen omdat vorige wachtwoorden en nieuwe wachtwoorden hetzelfde zijn."
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "U hebt een verkeerd e-mailadres of wachtwoord ingevoerd"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD Login-ID bestaat al"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "Met deze nieuwe medewerker wordt de gebruikerslimiet overschreden. Neem contact op met de Sales-afdeling via CXoneSalesTeam@niceincontact.com"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interne fout."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "Deze naam bestaat al. Probeer een nieuwe."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "Skill bestaat niet."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "Een medewerker kan niet meer dan 50 skills hebben."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "De skillnaam is ongeldig"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "Weekregel is leeg"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "incorrecte weekregel"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "incorrect dagenbereik in weekregel"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "incorrect urenbereik in weekregel"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "Waarde van maximum aantal diensten in weekregel is lager dan totaal minimum aantal dagen in dagregel"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "Waarde van minimum aantal diensten in weekregel is hoger dan totaal maximum aantal dagen in dagregel"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "Totale som van dagelijks minimum aantal uren is hoger dan wekelijks maximum aantal uren"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "Totale som van dagelijks maximum aantal uren is lager dan wekelijks minimum aantal uren"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "Totale som van mogelijke dagen is lager dan bijbehorend minimum aantal dagen in dagregel"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "Totale som van alle unieke mogelijke dagen is lager dan totale som van minimum aantal diensten volgens dagregel"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "Geen naam opgegeven voor weekregel"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "Dagregels zijn leeg"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "Totale som van alle unieke mogelijke dagen is lager dan minimum aantal diensten per week"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "De datumnotatie is ongeldig"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "De periode tussen twee datums is ongeldig"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Er is een interne serverfout opgetreden"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "Er is een interne fout opgetreden"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "Kan records in het bestand niet lezen"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Kan verwachte kolomkoppen niet vinden. Bekijk het voorbeeldbestand."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Er ontbreken skills in het systeem"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "Er ontbreken planningseenheden in het bestand"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "De vroegste dagelijkse start is na de laatste start"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "Notatie van stapgrootte is ongeldig"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "De starttijden van de dagregels vallen buiten binnen het juiste bereik"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "Dagelijkse activiteitsduur is groter dan lengte van dagregel"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack-indeling is incorrect"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "Relatieve starttijd is minder dan slack"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "Som van lengtes van activiteiten is groter dan dagelijkse lengte"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "Er zijn geen geldige activiteitencombinaties"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "Activiteitscode klopt niet met dagregeldienst"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "De naam van de activiteitscode is ongeldig"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "Tijdzone in planningseenheid is incorrect"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "Kan de standaard activiteitscode niet verwijderen"
+    },
+    "wfo_service_schedule_manager_45": {
+      "code": "TIMEOFF_REQUEST_PARAMS_ARE_INVALID",
+      "message": "Fout bij opslaan van verlofaanvraag"
+    },
+    "wfo_service_schedule_manager_46": {
+      "code": "TIMEOFF_REQUEST_DATES_ARE_INVALID",
+      "message": "Fout bij opslaan van verlofaanvraag"
+    },
+    "wfo_service_schedule_manager_47": {
+      "code": "TIMEOFF_REQUEST_ERROR_WHILE_TIMEOFF_CREATION",
+      "message": "Fout bij het maken van een verlofactiviteit voor een agent nadat de aanvraag was goedgekeurd"
+    },
+    "wfo_service_schedule_manager_48": {
+      "code": "TIMEOFF_REQUEST_STATUS_CANCELED",
+      "message": "Verlofaanvraag is al geannuleerd"
+    },
+    "wfo_service_schedule_manager_50": {
+      "code": "SUM_OF_DAILY_RULE_MAX_DAYS_LESS_THAN_WEEKLY_RULE_MIN_DAYS",
+      "message": "De som van het maximum aantal dagen volgens de dagregels mag niet kleiner zijn dan het minimum aantal dagen per week"
+    },
+    "wfo_service_schedule_manager_51": {
+      "code": "SUM_OF_DAILY_RULE_MIN_DAYS_GREATER_THAN_WEEKLY_RULE_MAX_DAYS",
+      "message": "De som van het minimum aantal dagen volgens de dagregels mag het maximum totaal per week niet overschrijden"
+    },
+    "wfo_service_schedule_manager_52": {
+      "code": "NO_VALID_DAILY_RULE_COMBINATIONS_EXIST_GIVEN_CONSTRAINTS",
+      "message": "Deze combinatie van regels levert mogelijk geen geldige resultaten op vanwege de regelbeperkingen. Probeer een andere combinatie"
+    },
+    "wfo_service_schedule_manager_53": {
+      "code": "SINGLE_DAILY_RULE_DAYS_NOT_EQUAL_TO_WEEKLY_RULE_DAYS",
+      "message": "Minimale en maximale waarden voor een enkele dagregel moeten overeenkomen met de weekwaarden"
+    },
+    "wfo_service_schedule_manager_54": {
+      "code": "LESS_THAN_TEN_HOURS_BETWEEN_SHIFTS",
+      "message": "Er moet minimaal 10 uur tussen de diensten zitten"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "Selecteer een sjabloon"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "Sjabloon-ID is ongeldig"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "Formuliernaam bestaat al"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_forecaster_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "wfo_forecaster_service_2": {
+      "code": "NO_SOURCE_AND_FILE_PATH_FOUND",
+      "message": "NO_SOURCE_AND_FILE_PATH_FOUND."
+    },
+    "wfo_forecaster_service_6": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Kan verwachte kolomkoppen niet vinden. Bekijk het voorbeeldbestand."
+    },
+    "wfo_forecaster_service_7": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Er ontbreken skills in het systeem."
+    },
+    "wfo_forecaster_service_8": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "wfm_service_shift_bid92": {
+      "code": "NO_USERS_IN_SHIFT_BIDDING",
+      "message": "Inschrijven op diensten heeft geen toegewezen gebruikers"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interne fout."
+    }
+  },
+  "biddingManagerPage": {
+    "responseRate": "Responspercentage",
+    "pageTitle": "Inschrijvingsbeheer",
+    "newButton": "Nieuwe inschrijving genereren",
+    "items": "inschrijvingen",
+    "item": "inschrijving",
+    "selectedItems": "{{selectedCount}} geselecteerd",
+    "gridNoRowsOverlay": "Er zijn nog geen inschrijvingen gegenereerd",
+    "unknownSU": "Onbekend",
+    "gridColumns": {
+      "schedulingUnit": "Planningseenheid",
+      "biddingDataRange": "Inschrijvingsdatumbereik",
+      "createdAt": "Taakdatum",
+      "responseRate": "Responspercentage",
+      "status": "Status",
+      "action": "Actie"
+    },
+    "statuses": {
+      "generate": "Nieuwe inschrijving genereren",
+      "draft": "Concept",
+      "active": "Inschrijving geopend",
+      "closed": "Inschrijving gesloten",
+      "cancelled": "Geannuleerd",
+      "award": "Diensten toewijzen",
+      "awarded": "Toegewezen diensten",
+      "error": "Fout: ",
+      "delete": "Verwijderen"
+    },
+    "errorDetails": {
+      "noUsersAssignedToSu": "Geen gebruikers in geselecteerde planningseenheid",
+      "noUsersInSuAssignedWeeklyRules": "Geen gebruikers in geselecteerde planningseenheid",
+      "NO_USERS_IN_SHIFT_BIDDING": "Lege planning. Gebruikers- en planningsbeperkingen",
+      "NO_ACTIVE_USERS_IN_SHIFT_BIDDING": "Geen actieve gebruikers in geselecteerde planningseenheid",
+      "INTERNAL_ERROR": "Algemene fout"
+    },
+    "actions": {
+      "cancel": "Inschrijving annuleren",
+      "open": "Inschrijving openen",
+      "close": "Inschrijving sluiten",
+      "assign": "Diensten toewijzen",
+      "delete": "Verwijderen"
+    },
+    "messages": {
+      "createSuccess": "Nieuwe inschrijvingen genereren...",
+      "updateSuccess": "Inschrijving is bijgewerkt",
+      "createFailed": "Het genereren van een nieuwe inschrijving is mislukt",
+      "createFailedSinceSUEmpty": "Geen gebruikers toegewezen aan planningseenheid",
+      "createFailedSinceTemplateMissing": "Geen gebruikers in planningseenheid toegewezen aan sjablonen voor dienstinschrijving",
+      "updateFailed": "Bijwerken van inschrijving is mislukt",
+      "deleteWarning": "U staat op het punt om deze inschrijving te verwijderen. Doorgaan?",
+      "deleteSuccess": "Dienstinschrijving is verwijderd"
+    },
+    "modal": {
+      "title": "Nieuwe inschrijving genereren",
+      "moreThanMaximumSchedulingUnitsSelectedTxt": "Er kan maximaal 1 planningseenheid worden geselecteerd om te genereren."
+    }
+  },
+  "bidWeeklyShiftPatterns": {
+    "topHeader": "Wekelijkse dienstpatronen voor {{weekDates}}",
+    "headers": {
+      "totalHours": "Totaal aantal uren",
+      "patternsAvailable": "Beschikbare patronen"
+    },
+    "placeHolderText": "Patronen van boven naar beneden schikken op basis van uw prioriteit"
+  },
+  "staffingPlansPage": {
+    "pageTitle": "Bezettingsplannen",
+    "importBtn": "Bezettingsplan importeren",
+    "items": "bezettingsplannen",
+    "selectedItems": "{{selectedCount}} geselecteerd",
+    "gridColumnsHeaders": {
+      "dateRange": "Datumbereik van bezettingsplan",
+      "fileName": "Bestandsnaam van bezettingsplan",
+      "importDate": "Importdatum",
+      "importedBy": "Geïmporteerd door",
+      "status": "Status"
+    },
+    "errorDelete": "Er is een fout opgetreden bij het verwijderen van het bezettingsplan.",
+    "successDelete": "Bezettingsplan is verwijderd",
+    "deleteSelectedStaffingPlansMsg": "U staat op het punt om de geselecteerde bezettingsplannen te verwijderen. Doorgaan?",
+    "deleteSingledStaffingPlanMsg": "U staat op het punt om dit bezettingsplan te verwijderen. Doorgaan?",
+    "gridNoRowsOverlay": "Er is nog geen bezettingsplan geïmporteerd",
+    "bulkOperationsBtns": {
+      "deleteBtn": "Verwijderen"
+    },
+    "statuses": {
+      "succeeded": "Geslaagd",
+      "failed": "Mislukt",
+      "partial": "Gedeeltelijk geslaagd. {{successRowsCount}} van {{totalRowsCount}} records geïmporteerd.",
+      "na": "N.v.t.",
+      "emptyFile": "Leeg bestand"
+    },
+    "importModal": {
+      "header": "Bezettingsplan importeren",
+      "firstParagraph": "Bezettingsplan importeren door een CSV-bestand te uploaden",
+      "downloadMessage1": "U kunt een sjabloon van een CSV-bestand downloaden:",
+      "downloadMessage2": "",
+      "downloadLink": "hier.",
+      "selectFileMessage": "",
+      "secondParagraph": "Zorg dat er voor het hele datumbereik bezettingsplangegevens zijn",
+      "successMsg": "Gegevens van bezettingsplan zijn geïmporteerd",
+      "warnMsg": "Het importeren van het bezettingsplan is voltooid met fouten",
+      "errorMsg": "Importeren van bezettingsplan is mislukt",
+      "EmptyFile": "Bezettingsbestand is leeg",
+      "sizeLimitationErrorMsg": "Importeren van bezettingsplan is mislukt. De bestandsgrootte is groter dan het maximum van 10 MB"
+    },
+    "importErrorsListModal": {
+      "header": "Importfouten",
+      "rowsWereImportedSuccessfully": "{{succeededRowsCount}} van {{totalRowsCount}} zijn geïmporteerd",
+      "tooMuchErrors": "Importeren is gestopt. Groot aantal fouten gevonden. Eerste {{amountOfRows}} weergegeven"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "Er is nog geen {{itemLabel}} gedefinieerd",
+    "modal": {
+      "employeeTab": "Nog geen medewerkers toegewezen"
+    }
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "Planningseenheden"
+  },
+  "shiftBiddingPage": {
+    "pageTitle": "Inschrijven op diensten",
+    "items": "Inschrijvingen op diensten",
+    "item": "Inschrijven op diensten",
+    "emptyMessage": "Er is nog geen inschrijving aangemaakt",
+    "gridColumnsHeaders": {
+      "datesRange": "Inschrijvingsdatumbereik",
+      "jobDate": "Taakdatum",
+      "by": "Geïnitieerd door",
+      "status": "Status",
+      "isSubmitted": "Inschrijving ingediend"
+    }
+  },
+  "shiftBiddingPatternsPage": {
+    "errorGettingBid": "",
+    "submitButton": "Inschrijving indienen",
+    "submitSuccess": "Inschrijving is ingediend",
+    "helpMessage": "Patronen van boven naar beneden schikken op basis van uw prioriteit",
+    "smallScreenWarning": "Vergroot het scherm om beschikbare dienstpatronen te bekijken en een inschrijving te doen."
+  },
+  "requestsPage": {
+    "pageTitle": "Verzoeken",
+    "tabs": {
+      "timeOff": "Activiteitverzoeken",
+      "trades": "Dienstruilverzoeken"
+    }
+  },
+  "timeOffRequestsPage": {
+    "pageTitle": "Verzoeken",
+    "filters": {
+      "noAvailableSchedulingUnits": "Kan filter voor planningseenheid niet laden. Alle verzoeken voor planningseenheid worden weergegeven.",
+      "multiSelectSchedulingUnitsPlaceholder": "{{count}} planningseenheden",
+      "disabledMultiSelectSchedulingUnitsPlaceholder": "Alle",
+      "showOnlyPendingRequests": "Alleen openstaande tonen",
+      "NoPendingRequests": "Geen openstaande verzoeken",
+      "gridLabel": "{{pendingRequests}} van {{totalRequests}} verzoeken in behandeling",
+      "pendingOnlyGridLabel": "{{pendingRequests}} verzoeken in behandeling",
+      "loadTimeZonesFailure": "Kan tijdzones niet laden. Vernieuw de pagina."
+    },
+    "item": "Verzoek",
+    "items": "Verzoeken",
+    "newItems": "In behandeling",
+    "selectedItems": "{{selectedCount}} geselecteerd",
+    "managerComment": {
+      "remaining": "{{currentLength}} tekens resterend"
+    },
+    "gridColumnsHeaders": {
+      "requestOn": "Aangevraagd op",
+      "requestBy": "Aangevraagd door",
+      "activityType": "Activiteitstype",
+      "status": "Status",
+      "reviewedBy": "Beoordeeld door",
+      "empty": "",
+      "actions": "Acties",
+      "dates": "Gevraagde datums"
+    },
+    "manageRequestModal": {
+      "approveRequest": "Verzoek goedkeuren",
+      "DeclineRequest": "Verzoek weigeren",
+      "textarePlaceHolder": "Opmerking...",
+      "approveBtn": "Goedkeuren",
+      "declineBtn": "Afwijzen",
+      "cancelBtn": "Annuleren",
+      "singleDayRequestMsg": "Verzoek zal {{requestType}} zijn voor:",
+      "bulkRequestContent": "Selecteer de gewenste datums voor {{requestType}}.",
+      "bulkRequestContentv2": "Niet-geselecteerde datums zullen in behandeling blijven.",
+      "netstaffingMsg": "Zorg dat u de bezettingsvereisten hebt beoordeeld voor deze datums.",
+      "netstaffingMsgClose": "Verwijderen",
+      "textCount": "255"
+    },
+    "reviewedBy": "Beoordeeld door",
+    "requestOn": "Aangevraagd op",
+    "fullDay": "Hele dag",
+    "days": "dagen",
+    "day": "dag",
+    "system": "Systeem",
+    "decline": "Afwijzen",
+    "accept": "Accepteren",
+    "gridNoRowsOverlay": "Nog geen verzoeken gemaakt",
+    "viewInScheduler": "Weergeven in Scheduler",
+    "by": "Door",
+    "deletedActivityTitle": "Verwijderde activiteit",
+    "statuses": {
+      "button_approved": "Goedkeuren",
+      "approved": "Goedgekeurd",
+      "button_declined": "Afwijzen",
+      "declined": "Afgewezen",
+      "pending": "In behandeling",
+      "new": "Nieuw",
+      "discarded": "Genegeerd",
+      "auto_approved": "Automatisch goedgekeurd",
+      "auto_declined": "Automatisch afgewezen",
+      "cancelled_approved_request": "Geannuleerd - Goedgekeurd verzoek"
+    },
+    "messages": {
+      "updateSuccess": "Verzoek is bijgewerkt.",
+      "updateFailed": "Bijwerken van verlofaanvraag is mislukt.",
+      "updateApprovedError": "Kan dit verzoek niet goedkeuren. Probeer het later opnieuw.",
+      "updateDeclinedError": "Afwijzen van dit verzoek is mislukt. Probeer het later opnieuw.",
+      "managerApproveRequestWhichAlreadyApproved": "Kan dit verzoek niet goedkeuren. Een andere manager heeft dit al goedgekeurd.",
+      "managerApproveRequestWhichAlreadyDeclined": "Kan dit verzoek niet goedkeuren. Een andere manager heeft dit al afgewezen.",
+      "managerDeclinedRequestWhichAlreadyDeclined": "Afwijzen van dit verzoek is mislukt. Een andere manager heeft dit al afgewezen.",
+      "managerDeclinedRequestWhichAlreadyApproved": "Afwijzen van dit verzoek is mislukt. Een andere manager heeft dit al goedgekeurd.",
+      "managerApproveDiscardedRequest": "Kan het verzoek niet goedkeuren. De planning is gewijzigd en het verzoek is geannuleerd.",
+      "managerDeclinedDiscardedRequest": "Kan het verzoek niet afwijzen. De planning is gewijzigd en het verzoek is geannuleerd.",
+      "updateApprovedAgentError": "Kan dit verzoek niet goedkeuren. De medewerker heeft dit geannuleerd of bijgewerkt.",
+      "updateDeclinedAgentError": "Afwijzen van dit verzoek is mislukt. De medewerker heeft dit geannuleerd of bijgewerkt.",
+      "netStaffingError": "Kan geen nettobezettingsgegevens ophalen. Probeer het later opnieuw.",
+      "loadAllRequestsFailure": "Kan niet alle verzoeken weergeven. Probeer het opnieuw.",
+      "requestStatusUpdatedWarning": "Dit verzoek is afgehandeld of verwijderd."
+    },
+    "typeComment": "Typ opmerking..."
+  },
+  "myTimeOffRequests": {
+    "pageTitle": "Planningsverzoeken",
+    "gridHeaderPlaceholder": "Begin met typen om een aanvraag te vinden",
+    "scheduleRequestsTitle": "Planningsverzoeken",
+    "newButton": "Nieuwe aanvraag",
+    "timeOffStatusButton": "Verloftegoed",
+    "items": "Verzoeken",
+    "item": "Verzoek",
+    "gridNoRowsOverlay": "Er is nog geen aanvraag gemaakt",
+    "gridColumns": {
+      "dates": "GEVRAAGDE DATUMS",
+      "time": "GEVRAAGDE TIJD",
+      "requestOn": "AANGEVRAAGD OP",
+      "activityType": "ACTIVITEITSTYPE",
+      "comments": "AGENTOPMERKINGEN",
+      "status": "STATUS",
+      "statusUpdateComment": "BEOORDEELD DOOR"
+    },
+    "by": "Door",
+    "system": "Systeem",
+    "fullDay": "Hele dag",
+    "days": "dagen",
+    "noComments": "Geen opmerkingen",
+    "cancelRequest": "Annuleren",
+    "deletedActivity": "Verwijderde activiteit",
+    "requestStatusType": {
+      "approved": "goedgekeurd",
+      "declined": "afgewezen",
+      "pending": "in behandeling",
+      "canceled": "geannuleerd",
+      "discarded": "genegeerd",
+      "auto_approved": "goedgekeurd",
+      "auto_declined": "afgewezen",
+      "canceled_approved_request": "Geannuleerd - Goedgekeurd verzoek"
+    },
+    "modal": {
+      "title": "Nieuwe verlofaanvraag"
+    },
+    "myTimeOffbalanceModal": {
+      "title": "Mijn verloftegoed",
+      "activity": "Activiteit",
+      "total": "totaal",
+      "taken": "opgenomen",
+      "earned": "verdiend",
+      "scheduled": "gepland",
+      "remaining": "Resterend",
+      "usage": "Gebruik",
+      "invalidRemainingDays": "U hebt geen dagen over voor deze activiteit"
+    },
+    "messages": {
+      "createSuccess": "Nieuwe verlofaanvraag is gemaakt",
+      "createFailed": "Kan verlofaanvraag niet maken",
+      "cancelSuccess": "Verlofaanvraag is geannuleerd",
+      "cancelFailed": "Kan verlofaanvraag niet annuleren"
+    }
+  },
+  "shiftTradeRequestsPage": {
+    "pageTitle": "Dienstruil",
+    "item": "Verzoek",
+    "items": "Verzoeken",
+    "selectedItems": "{{selectedCount}} geselecteerd",
+    "gridColumnsHeaders": {
+      "requestOn": "Aangevraagd op",
+      "requestBy": "Aangevraagd door",
+      "tradeWith": "Ruilen met",
+      "activityType": "Activiteitstype",
+      "status": "Status",
+      "reviewedBy": "Beoordeeld door",
+      "empty": " ",
+      "actions": "Acties",
+      "dates": "Gevraagde datums",
+      "requestedDate": "Gevraagde datum",
+      "viewTrade": " Ruil weergeven",
+      "requestedTime": "Gevraagde tijd",
+      "tradeType": "Verzoektype",
+      "userComment": "Gebruikersopmerking"
+    },
+    "decline": "Afwijzen",
+    "accept": "Accepteren",
+    "gridNoRowsOverlay": "Er is nog geen aanvraag gemaakt",
+    "viewTrade": "Ruil weergeven",
+    "by": "Door",
+    "statuses": {
+      "button_approved": "Goedkeuren",
+      "approved": "Goedgekeurd",
+      "button_declined": "Afwijzen",
+      "declined": "Afgewezen",
+      "pending": "In behandeling",
+      "new": "Nieuw"
+    },
+    "messages": {
+      "updateSuccess": "Verzoek voor dienstruil is bijgewerkt.",
+      "updateFailed": "Bijwerken van dienstruilverzoek is mislukt"
+    },
+    "system": "Systeem",
+    "tradeRequestStatus": {
+      "ACCEPTED_BY_REQUESTEE": "Geaccepteerd",
+      "CREATED": "In behandeling",
+      "CANCELED_BY_REQUESTOR": "Geannuleerd",
+      "REJECTED_BY_REQUESTEE": "Geweigerd",
+      "WITHDRAW_BY_REQUESTEE": "Intrekken",
+      "APPROVED_BY_MANAGER": "Goedgekeurd",
+      "DECLINED_BY_MANAGER": "Afgewezen",
+      "APPROVED_BY_SYSTEM": "Goedgekeurd",
+      "DECLINED_BY_SYSTEM": "Afgewezen",
+      "CANCELED_BY_SYSTEM": "Geannuleerd",
+      "EXPIRED": "Vervallen",
+      "Errored": "Met fout"
+    }
+  },
+  "timeOffPlanning": {
+    "rules": {
+      "pageTitle": "Regels",
+      "newButton": "Nieuwe regel",
+      "item": "Regel",
+      "items": "Regels",
+      "upTo": "Tot en met",
+      "errorRead": "Er is een fout opgetreden bij het laden van verlofregels.",
+      "deleteSelectedRulesMsg": "Weet u zeker dat u de geselecteerde regels wilt verwijderen?",
+      "deleteSingleRuleMsg": "Weet u zeker dat u deze regel wilt verwijderen?",
+      "errorDelete": "Er is een fout opgetreden bij het verwijderen van de verlofregel.",
+      "successDelete": "Verlofregel is verwijderd",
+      "gridNoRowsOverlay": "Nog geen regels aangemaakt",
+      "gridColumns": {
+        "name": "Naam",
+        "allotmentType": "Toekenningstype",
+        "allottedDays": "Toegekende dagen",
+        "schedulingUnit": "Planningseenheid",
+        "activityCodes": "Activiteitscodes"
+      },
+      "createNewRule": {
+        "pageTitle": "Nieuwe regel maken",
+        "namePlaceholder": "Naam",
+        "schedulingUnit": "Planningseenheid",
+        "schedulingUnitPlaceholder": "Planningseenheid selecteren",
+        "activityCodes": "Activiteitscodes",
+        "activityCodesPlaceholder": "Activiteitscodes selecteren",
+        "allotment": "Toekenning",
+        "years": "Jaar",
+        "daysPerYears": "Dagen/jaar",
+        "fixedAmount": "Vast aantal",
+        "seniorityBased": "Op basis van anciënniteit",
+        "seniority": "Anciënniteit",
+        "errorAdd": "Er is een fout opgetreden bij het maken van de verlofregel.",
+        "successAdd": "Nieuwe regel is aangemaakt.",
+        "timeOffAccrual": "Verlofopbouw:",
+        "percentPerMonth": "% per maand",
+        "confirmations": {
+          "warningMessage": " Alle wijzigingen gaan verloren.",
+          "confirmMessage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+        }
+      },
+      "editRule": {
+        "pageTitle": "Regel bewerken",
+        "successUpdate": "Verlofregel is bewerkt",
+        "errorUpdate": "Er is een fout opgetreden bij het bijwerken van de verlofregel."
+      },
+      "alertModal": {
+        "modalTitle": "Regel bestaat al",
+        "modalContent": "Er is al een regel voor deze activiteit/planningseenheid. Overschrijven?"
+      }
+    },
+    "summary": {
+      "pageTitle": "Overzicht",
+      "editAllocation": "Bij handmatige toekenning wordt de agent tot volgend jaar losgekoppeld van de regel. Doorgaan?",
+      "activityType": "activiteitstype",
+      "gridColumns": {
+        "employee": "medewerker",
+        "daysPerYear": "dagen per jaar",
+        "daysYear": "dagen / jaar",
+        "daysTaken": "dagen opgenomen",
+        "used": "gebruikt",
+        "earned": "verdiend",
+        "accruals": "opgebouwd",
+        "scheduled": "gepland",
+        "remaining": "resterend"
+      },
+      "gridAlert": {
+        "thisValueCannot": "Deze waarde kan niet",
+        "exceedYearDays": "langer zijn dan 365 dagen"
+      },
+      "warningMessageModal": {
+        "title": "Pagina verlaten?",
+        "unsavedChanges": "Er zijn niet-opgeslagen gegevens.",
+        "areYouSureLeavePage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+      },
+      "edited": "Bewerkt",
+      "NA": "N.v.t.",
+      "userIsNotAssignedToWeeklyRule": "Kan het tegoed niet berekenen. Deze gebruiker is aan geen enkele regel toegewezen."
+    }
+  },
+  "userManagementPage": {
+    "pageTitle": "Medewerkers",
+    "newUserBtn": "Nieuwe medewerker",
+    "importUsersBtn": "Medewerkers importeren",
+    "userListHeader": "Medewerkers in {{orgName}}:",
+    "items": "medewerkers",
+    "item": "medewerker",
+    "selectedItems": "{{selectedCount}} geselecteerd",
+    "gridColumnsHeaders": {
+      "name": "Naam",
+      "email": "E-mail",
+      "acdLogin": "ACD-login",
+      "role": "Rol",
+      "state": "Status",
+      "group": "Planningseenheid"
+    },
+    "filters": {
+      "schedulingUnits": "{{count}} planningseenheden",
+      "skills": "{{count}} skills",
+      "groups": "{{count}} groepen",
+      "searchPlaceholder": "Begin met typen om een medewerker te vinden"
+    },
+    "popover": {
+      "acdLoginLbl": "ACD-login",
+      "hireDateLbl": "Datum indiensttreding: {{value}}",
+      "rankLbl": "Rang: {{value}}",
+      "skillsLbl": "Skills: {{value}}"
+    },
+    "preferencesTab": {
+      "shiftPreferencesTitle": "Dienstvoorkeuren",
+      "TimePreferencesTitle": "Verlofvoorkeuren",
+      "TimePreferencesSubTitle": "Geen verlofdagen beschikbaar",
+      "PossibleDaysOff": "Mogelijke verlofdagen",
+      "day": "dag",
+      "shiftTime": "diensttijd",
+      "noOptionsAvailable": "Omdat deze medewerker is toegewezen aan regels zonder flexibiliteit, liggen de diensten vast en zijn voorkeuren niet beschikbaar",
+      "noOptionsAvailableForShift": "Geen dienst toegewezen.",
+      "noPreference": "Geen voorkeur"
+    },
+    "userStates": {
+      "active": "Actief",
+      "pending": "In behandeling",
+      "unregistered": "Uitnodigen",
+      "inviting": "Bezig met verzenden"
+    },
+    "balkOperationsBtns": {
+      "inviteBtn": "Uitnodigen",
+      "deleteBtn": "Verwijderen",
+      "tooltips": {
+        "invite": "Medewerker uitnodigen",
+        "delete": "Medewerker verwijderen"
+      }
+    },
+    "status": {
+      "invite": "Uitnodigen"
+    },
+    "tabLabels": {
+      "general": "Algemeen",
+      "skills": "Skills",
+      "availability": "Beschikbaarheid",
+      "preferences": "Voorkeuren"
+    },
+    "deleteSelectedUsersMsg": "U staat op het punt om de geselecteerde medewerkers te verwijderen. Deze actie kan niet ongedaan worden gemaakt. Doorgaan?",
+    "deleteSingleUsersMsg": "U staat op het punt om deze medewerker te verwijderen. Deze actie kan niet ongedaan worden gemaakt. Doorgaan?",
+    "inviteSelectedUsersMsg": "De geselecteerde medewerkers worden uitgenodigd om deel te nemen aan deze applicatie. Doorgaan?",
+    "reinviteUsersMsg": "Uitnodiging verlopen. Controleer het e-mailadres en probeer het opnieuw.",
+    "reinviteBtnText": "Opnieuw sturen",
+    "inviteUsersSuccessMsg": "Medewerkers zijn uitgenodigd",
+    "inviteUsersWarnMsg": "Medewerkers waren al actief",
+    "inviteUsersFailureMsg": "Uitnodigen van medewerkers is mislukt",
+    "deleteSingleUserSuccessMsg": "Medewerker is verwijderd. Toekomstige planningen van deze medewerker zijn verwijderd.",
+    "deleteSingleUserFailureMsg": "Medewerker kan niet worden verwijderd",
+    "deleteUsersSuccessMsg": "{{numOfUsers}} medewerkers zijn verwijderd. Toekomstige planningen van deze medewerkers zijn verwijderd.",
+    "deleteUsersFailureMsg": "{{numOfFailedToDeleteUsers}} van {{totalExpected}} medewerkers kunnen niet worden verwijderd",
+    "deleteLoggedInUser": "U kunt uw eigen medewerker niet verwijderen",
+    "dragText": "Sleep hierheen om prioriteit in te stellen",
+    "noPreference": "Geen voorkeur"
+  },
+  "automaticApprovalRulesPage": {
+    "pageTitle": "Goedkeuringsregels",
+    "searchPlaceholderText": "Begin met typen om een regel te vinden",
+    "newRule": "Nieuwe regel",
+    "rule": "regel",
+    "rules": "regels",
+    "CreateNewRulePageTitle": "Nieuwe regel maken",
+    "deleteSingleRuleMsg": "Weet u zeker dat u deze regel wilt verwijderen?",
+    "gridNoRowsOverlay": {
+      "none": "Geen resultaten gevonden",
+      "empty": "Geen regels gevonden",
+      "error": "Fout bij laden van gegevens"
+    },
+    "showActiveOnly": "Alleen actieve",
+    "gridColumnsHeaders": {
+      "name": "Naam",
+      "schedulingUnits": "Planningseenheden",
+      "activityCodes": "Activiteitscodes",
+      "occurrence": "instantie",
+      "Status": "Status"
+    },
+    "statuses": {
+      "active": "Actief",
+      "inactive": "Inactief",
+      "broken": "Gebroken",
+      "expired": "Vervallen",
+      "pending": "In behandeling"
+    },
+    "brokenStatusTooltips": {
+      "noSu": "Gerelateerde planningseenheden zijn verwijderd. Nieuwe planningseenheden toevoegen aan regel.",
+      "noAc": "Gerelateerde activiteitscodes zijn verwijderd. Nieuwe activiteitscodes toevoegen aan regel.",
+      "noSuAndAc": "Gerelateerde activiteitscodes en planningseenheden zijn verwijderd. Nieuwe activiteitscodes en planningseenheden toevoegen aan regel."
+    },
+    "statusesSuccessActions": {
+      "active": "Regel is geactiveerd",
+      "inactive": "Regel is gedeactiveerd",
+      "delete": "Regel is verwijderd"
+    },
+    "ruleActions": {
+      "duplicate": "Dupliceren",
+      "edit": "Bewerken",
+      "delete": "Verwijderen",
+      "activate": "Activeren",
+      "deactivate": "Deactiveren"
+    }
+  },
+  "cxone-components": {
+    "dropdowns": {
+      "showing": "Weergave",
+      "outof": "van",
+      "selectall": "Alles selecteren",
+      "clearall": "Alles wissen",
+      "searchingFor": "Zoeken naar",
+      "noresults": "Geen resultaten gevonden",
+      "footerText": " ",
+      "defaultPlaceholder": {
+        "single": "Item selecteren",
+        "multiple": "Items selecteren"
+      }
+    }
+  },
+  "automaticApprovalNewRulePage": {
+    "newTitle": "Nieuwe goedkeuringsregel",
+    "editTitle": "Goedkeuringsregel bewerken",
+    "scheduling_unit": "Planningseenheden",
+    "activity_codes": "Activiteiten",
+    "name": "Naam",
+    "conditionsTitle": "Voorwaarden",
+    "agent": "Agent",
+    "agentFirstOption": "Afhankelijk van verloftegoed",
+    "agentSecondOption": "Anciënniteit van agent",
+    "daysSinceHireDate": "dagen sinds indiensttreding",
+    "groupTimeOffBalance": "Verloftegoed groep",
+    "forAllDays": "Voor alle dagen",
+    "hours": "uur",
+    "forSpecificDays": "Voor specifieke dagen",
+    "forSpecificDaysDescription": "Selecteer minimaal één dag",
+    "daysList": {
+      "Monday": "Maandag",
+      "Tuesday": "Dinsdag",
+      "Wednesday": "Woensdag",
+      "Thursday": "Donderdag",
+      "Friday": "Vrijdag",
+      "Saturday": "Zaterdag",
+      "Sunday": "Zondag"
+    },
+    "requestCreationTime": "Aanmaaktijd van verzoek",
+    "inAdvance": "Van tevoren",
+    "sameDay": "Zelfde dag",
+    "timeFrame": "Tijdvak",
+    "days": "dagen",
+    "from": "van",
+    "daysInThePastTo": "dagen in het verleden tot",
+    "daysInTheFuture": "dagen in de toekomst",
+    "conditionsNotMet": "Als niet aan de voorwaarden wordt voldaan",
+    "declineAutomatically": "Automatisch afwijzen",
+    "sendForManagerApproval": "Voor goedkeuring naar manager sturen",
+    "cancelWarningMsg1": " Alle wijzigingen gaan verloren. ",
+    "cancelWarningMsg2": "Afsluiten zonder opslaan?",
+    "successUpdateMsg": "Regel is bijgewerkt.",
+    "successCreateMsg": "Regel is gemaakt.",
+    "uniqueNameErrorMsg": "Er bestaat al een regel met deze naam"
+  },
+  "automaticApprovalRuleConfig": {
+    "newModeTitle": "Nieuwe goedkeuringsregel",
+    "editModeTitle": "Goedkeuringsregel bewerken",
+    "tabs": {
+      "conditions": {
+        "tabTitle": "voorwaarden",
+        "agentTimeOffBalance": "Verloftegoed agent",
+        "schedulingUnitTimeOffBalance": "Verloftegoed planningseenheid",
+        "dailyBalance": "Dagtegoed",
+        "hours": "uur",
+        "balanceForCustomDays": "Tegoed voor aangepaste dagen",
+        "forSpecificDaysDescription": "Selecteer minimaal 1 dag",
+        "daysList": {
+          "Monday": "Maandag",
+          "Tuesday": "Dinsdag",
+          "Wednesday": "Woensdag",
+          "Thursday": "Donderdag",
+          "Friday": "Vrijdag",
+          "Saturday": "Zaterdag",
+          "Sunday": "Zondag"
+        },
+        "minimumDaysSinceHire": "Minimum aantal dagen dienstverband",
+        "submissionTime": "Tijd van verzending",
+        "timeRestrictionTypes": {
+          "inAdvance": "Van tevoren",
+          "sameDay": "Zelfde dag",
+          "timeFrame": "Binnen tijdvak"
+        },
+        "minimumDaysInAdvance": "Minimum aantal dagen van tevoren",
+        "maximumDaysBeforeTimeOffDate": "Maximum aantal dagen vóór verlofdatum",
+        "maximumDaysAfterTimeOffDate": "Maximum aantal dagen na verlofdatum",
+        "conditionsNotMet": "Als aan een of meer geselecteerde voorwaarden niet is voldaan",
+        "declineAutomatically": "Afwijzen",
+        "sendForManagerApproval": "Verzenden naar manager"
+      },
+      "general": {
+        "tabTitle": "algemeen",
+        "name": "Naam",
+        "uniqueNameErrorMsg": "Er bestaat al een regel met deze naam",
+        "schedulingUnit": "Planningseenheden",
+        "activityCodes": "Activiteiten"
+      },
+      "netStaffing": {
+        "tabTitle": "nettobezetting",
+        "defineNetStaffing": "Nettobezetting definiëren",
+        "noSettingsLabel": "Nettobezetting is nog niet gedefinieerd",
+        "header": {
+          "undoAll": "Alles ongedaan maken",
+          "confirmUndoAll": "Weet u zeker dat u alle wijzigingen ongedaan wilt maken?",
+          "confirmUndoAllYes": "Alles ongedaan maken",
+          "confirmUndoAllNo": "Annuleren",
+          "deleteAll": "Alle verwijderen",
+          "confirmDeleteAll": "Weet u zeker dat u alle diagrammen van de netto bezetting wilt verwijderen?",
+          "confirmDeleteAllYes": "Alle verwijderen",
+          "confirmDeleteAllNo": "Annuleren",
+          "legend": {
+            "notDefined": "Niet gedefinieerd",
+            "approve": "Goedkeuren",
+            "sendToManager": "Verzenden naar manager",
+            "decline": "Afwijzen"
+          }
+        },
+        "conditions": {
+          "daysLabel": "Dagen:",
+          "addNetStaffingButton": "Nettobezetting toevoegen",
+          "autoApproveStepperLabel": "Goedkeuren",
+          "autoApproveStepperPercentageLabel": "% en hoger",
+          "autoDeclineStepperLabel": "Afwijzen",
+          "autoDeclineStepperPercentageLabel": "% en lager",
+          "undefinedColumnTooltipLabel": "Niet gedefinieerd",
+          "approveTooltipLabel": "Goedkeuren:",
+          "approveTooltipPercentageLabel": "meer dan",
+          "declineTooltipLabel": "Afwijzen:",
+          "declineTooltipPercentageLabel": "kleiner dan",
+          "clearSelectedButtonLabel": "Geselecteerde wissen",
+          "menuItems": {
+            "delete": "Verwijderen",
+            "clear": "Wissen",
+            "copySettings": "Instellingen kopiëren",
+            "pasteSettings": "Instellingen plakken"
+          }
+        },
+        "footer": {
+          "noScheduleNoForecastLabel": "Als er geen prognose of gepubliceerde planning is:"
+        }
+      }
+    }
+  },
+  "userAgenda": {
+    "header": "Agenda",
+    "noEvents": "Geen planningen",
+    "shiftStart": "Dienstbegin",
+    "shiftEnd": "Diensteinde"
+  }
+}

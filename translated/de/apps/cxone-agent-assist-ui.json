@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "overallSentimentScore": "Gesamtbewertung der Stimmung",
+    "suggestionSummary": "Zusammenfassung der Vorschläge",
+    "noSuggestionYet": "Es gibt noch keine Vorschläge",
+    "guidanceScores": "Anleitungsbewertungen",
+    "landingMessage": "Warten auf Authentifizierung...",
+    "permissionRequired": "Berechtigungen erforderlich",
+    "permissionHelpPhrase": "Sie benötigen Berechtigungen für das Anzeigen dieser Seite. Kontaktieren Sie Ihren Administrator.",
+    "speechVelocity": "Sprachgeschwin-digkeit",
+    "activeListening": "Aktives Zuhören",
+    "beEmpathetic": "Seien Sie empathisch",
+    "interruption": "Unterbrechung",
+    "demonstrateOwnership": "Besitz demonstrieren",
+    "buildRapport": "Verhältnis aufbauen",
+    "setExpectations": "Erwartungen festlegen",
+    "effectiveQuestioning": "Effektive Befragung",
+    "promoteSelfService": "Selfservice fördern",
+    "acknowledgeLoyalty": "Treue anerkennen",
+    "inappropriateAction": "Unangemessene Aktion",
+    "sentiment": "Gesamtstimmung",
+    "noScore": "Kein ERGEBNIS",
+    "acknowledgeRequest": "Anfrage bestätigen",
+    "askForTheSale": "Nach Verkauf fragen",
+    "demonstrateEmpathy": "Empathie zeigen",
+    "likelihoodToBuy": "Kaufwahrscheinlichkeit",
+    "makeAConnection": "Beziehung aufbauen",
+    "orderConfirmation": "Bestätigte Bestellung",
+    "overcomeObjections": "Einwände entkräften",
+    "presumptiveSelling": "Aggressiver Verkaufsansatz",
+    "uncoverNeeds": "Bedarf analysieren"
+  }
+}

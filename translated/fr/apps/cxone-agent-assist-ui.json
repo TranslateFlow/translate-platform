@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "overallSentimentScore": "Score global de sentiment",
+    "suggestionSummary": "Résumé des suggestions",
+    "noSuggestionYet": "Il n'y a pas encore de suggestions",
+    "guidanceScores": "Scores d'orientation",
+    "landingMessage": "En attente d'authentification...",
+    "permissionRequired": "Autorisations requises",
+    "permissionHelpPhrase": "Vous devez disposer de privilèges pour voir cette page. Contactez votre administrateur.",
+    "speechVelocity": "Vitesse de la parole",
+    "activeListening": "Écoute active",
+    "beEmpathetic": "Soyez empathique",
+    "interruption": "Interruption",
+    "demonstrateOwnership": "Faire preuve de responsabilité",
+    "buildRapport": "Établir un rapport",
+    "setExpectations": "Définir les attentes",
+    "effectiveQuestioning": "Questionnement efficace",
+    "promoteSelfService": "Promouvoir le libre-service",
+    "acknowledgeLoyalty": "Reconnaître la fidélité",
+    "inappropriateAction": "Action inappropriée",
+    "sentiment": "Sentiment général",
+    "noScore": "Pas de SCORE",
+    "acknowledgeRequest": "Valider la demande",
+    "askForTheSale": "Pose des questions sur la vente",
+    "demonstrateEmpathy": "Faire preuve d’empathie",
+    "likelihoodToBuy": "Probabilité d'achat",
+    "makeAConnection": "Créer une relation",
+    "orderConfirmation": "Commande confirmée",
+    "overcomeObjections": "Contrer les objections",
+    "presumptiveSelling": "Vente présomptive",
+    "uncoverNeeds": "Découvrir les besoins"
+  }
+}

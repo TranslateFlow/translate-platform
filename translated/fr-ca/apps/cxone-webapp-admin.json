@@ -1,0 +1,3598 @@
+{
+  "recordingAccounts": {
+    "buttonText": "Nouveau compte",
+    "retryBtn": "Actualiser",
+    "labelText": {
+      "column1": "Système téléphonique",
+      "column2": "Type de compte",
+      "column3": "Valeur"
+    },
+    "inputFieldText": {
+      "extensionID": "Saisir une valeur unique",
+      "telephonySystem": "Sélectionner..."
+    },
+    "noSystemBtn": "Configurer un système téléphonique",
+    "noAccountMessage": "Aucun compte d’enregistrement n’a encore été créé",
+    "noTelephonyMessage1": "Aucun système téléphonique n’est configuré.",
+    "noTelephonyMessage2": "Configurez un système téléphonique,",
+    "noTelephonyMessage3": "puis cliquez sur Actualiser pour créer des comptes d’enregistrement.",
+    "infoMessage": "Vous pouvez créer jusqu’à 10 comptes d’enregistrement.",
+    "uivalidation": {
+      "required": "Ceci est obligatoire",
+      "duplicateExtension": "La valeur existe déjà pour le type de compte et le système sélectionnés",
+      "characterLimitAgentID": "Saisissez entre 2 et 64 caractères",
+      "alphanumericAgentID": "Utilisez des lettres, des chiffres et @",
+      "characterLimitExtension": "Saisissez entre 3 et 64 caractères",
+      "alphanumericExtension": "Utilisez des lettres, des chiffres et @ # *",
+      "unmonitoredExtension": "Ce poste n’est pas contrôlé par l’interface TSAPI. Les appels provenant de ce poste ne seront pas enregistrés."
+    },
+    "error": {
+      "telephonySystem": "Impossible de charger le système téléphonique.",
+      "createUpdateAccount": "Impossible d’ajouter ou de mettre à jour les comptes d’enregistrement."
+    }
+  },
+  "bulkUploadDownloadManagementPage": {
+    "title": "Portail de téléversement groupé",
+    "leftDashboardHeader": "Téléversements groupés",
+    "leftDashboardText": "Enregistrements multiples des téléversements groupés pour tous les éléments de la liste, au même endroit. Peut être utilisé pour ajouter de nouveaux enregistrements ou mettre à jour des enregistrements existants déjà créés sur la plateforme",
+    "templateDownloadHeading": "Ce progiciel contient tous les modèles utilisés sur la page.",
+    "entityDownloadHeading": "Télécharge tous les éléments existants de cette liste (utilisateurs, équipes, rôles, etc.)",
+    "rightDashboardHeader": "Vous devez ajouter au moins un fichier pour commencer le processus de téléchargement",
+    "uploadSuccessMsg": "Téléversement de (count) fichiers. Ce processus peut prendre plusieurs minutes",
+    "downloadSuccessMsg": "Téléchargement du fichier en cours. Veuillez éviter toute autre mise à jour pendant le téléchargement du fichier afin d’éviter les divergences de données",
+    "uploadEmptyFileSuccessMsg": "Aucun enregistrement trouvé dans le fichier téléversé",
+    "uploadfailureMsg": "Le téléversement d’un fichier ou plus a échoué",
+    "uploadInvalidFileType": "Format de fichier non valide. Veuillez sélectionner un fichier CSV à télécharger.",
+    "uploadRecordLimitBreached": "Le fichier de téléchargement doit contenir au maximum 1 000 enregistrements.",
+    "wrong_file_type": "platform_upload_download_manager_service_3",
+    "upload_record_limit_error": "platform_upload_download_manager_service_8",
+    "fileUploadfailureMsg": "échec du téléversement",
+    "dragAndFropText": "Glisser-déposer pour téléverser ou",
+    "fileTypeInfoTxt": "Type de fichier pris en charge : csv",
+    "browsFileText": "parcourir les fichiers",
+    "fileProcessingMsg": "traitement de fichiers",
+    "inProcessFileTxt": "En cours",
+    "bulkImportSuccessMsg": "téléversé avec succès",
+    "bulkImportWarningMsg": "téléversé avec succès mais avec des erreurs",
+    "bulkImportTimeoutMsg": "Le téléversement de fichiers prend plus de temps que d’habitude. Vous recevrez une notification une fois le téléversement terminé. Vous pouvez consulter l’état d’avancement du téléversement des fichiers dans l’onglet Activité.",
+    "invalidFileFormat": "Échec de téléversement du fichier en raison d’un type de fichier non pris en charge. Type de fichier pris en charge : csv",
+    "tabLabels": {
+      "upload": "Téléverser",
+      "activity": "Activité"
+    },
+    "uploadStatus": {
+      "clearAllBtnTxt": "Tout effacer"
+    },
+    "btn": {
+      "templateDownloadBtn": "Télécharger tous les modèles",
+      "entityDownloadBtn": "Télécharger tous ceux existants",
+      "singleTemplateDownloadBtn": "Télécharger le modèle",
+      "singleEntityDownloadBtn": "Télécharger les enregistrements existants",
+      "activeUsersDownloadBtn": "Télécharger les utilisateurs actifs",
+      "allUsersDownloadBtn": "Télécharger tous les utilisateurs",
+      "uploadImmediately": "Téléverser des fichiers",
+      "uploadAfterReview": "Vérifier les fichiers avant de les téléverser"
+    },
+    "admin": {
+      "name": "admin",
+      "employees": {
+        "name": "employés"
+      },
+      "teams": {
+        "name": "équipes"
+      },
+      "teamsUsersMapping": {
+        "name": "attribution équipe"
+      },
+      "skillsUsersMapping": {
+        "name": "attribution compétence"
+      }
+    },
+    "acd": {
+      "name": "acd"
+    },
+    "thirdPartyAcd": {
+      "name": "téléphonie pour les tiers",
+      "recordingAccount": {
+        "name": "comptes d’enregistrement"
+      },
+      "devices": {
+        "name": "appareils"
+      },
+      "remoteDevices": {
+        "name": "Appareils distants"
+      }
+    },
+    "activity": {
+      "item": "activité",
+      "headers": {
+        "uploadDate": "Date de téléversement",
+        "activityDate": "Date d’activité",
+        "area": "Zone téléversée",
+        "entity": "Entité",
+        "triggeredBy": "Déclenché par",
+        "user": "Utilisateur",
+        "status": "État"
+      },
+      "successStatus": "téléversé avec succès",
+      "downloadSuccessStatus": "Téléchargement réussi",
+      "uploadFailed": "échec du téléversement",
+      "downloadFailed": "Échec du téléchargement",
+      "errorStatusSingle": "Erreur trouvée",
+      "errorStatusMultiple": "Erreurs trouvées",
+      "inProgressStatus": "Téléversement en cours",
+      "downloadInProgressStatus": "Téléchargement en cours",
+      "reviewBtn": "Examiner les erreurs",
+      "downloadBtn": "Télécharger",
+      "noItemsOverlay": "Aucune activité n’est encore définie"
+    },
+    "uploadSuccessMessage": "Le téléversement a été lancé",
+    "uploadFailureMessage": "Échec du lancement du téléversement",
+    "downloadFailureMessage": "Échec du lancement du téléchargement!",
+    "downloadRecordsSuccessMsg": "Enregistrements existants téléchargés avec succès",
+    "downloadRecordsFailureMsg": "Échec du téléchargement des enregistrements existants",
+    "downloadRecordsNoDataExistsMsg": "Aucun enregistrement à télécharger",
+    "downloadRecordsProgressMsg": "Un téléchargement est en cours",
+    "reviewErrorsPage": {
+      "pageTitle": "Erreurs de téléversement des employés",
+      "pageTrailer": "Erreurs de téléversement",
+      "trailer": "Téléverser",
+      "downloadErrors": "Erreurs de téléchargement",
+      "cancel": "Annuler",
+      "submit": "Envoyer",
+      "totalErrors": "TOTAL ERREURS : ",
+      "totalErrorsLeft": "TOTAL DES ERREURS RESTANTES : ",
+      "processingError": "Erreurs de traitement",
+      "fieldErrors": "Erreurs de champ",
+      "none": "Aucun",
+      "entities": {
+        "user": {
+          "entityName": "Employés"
+        },
+        "team": {
+          "entityName": "Équipes"
+        },
+        "user-team": {
+          "entityName": "Attribution équipe"
+        },
+        "user-skills": {
+          "entityName": "Attribution compétence"
+        },
+        "recording-account": {
+          "entityName": "Compte d’enregistrement"
+        },
+        "device": {
+          "entityName": "Appareil"
+        },
+        "sab": {
+          "entityName": "Carnet d’adresses standard"
+        },
+        "remote-device": {
+          "entityName": "Appareil distant"
+        }
+      },
+      "errorReport": "error-report",
+      "rowHeader": "Rangée",
+      "errorHeader": "Erreur",
+      "commonErrorMessage": "Erreur de traitement",
+      "errorFieldStartLineSingle": "Erreur dans le champ",
+      "errorFieldStartLineMultiple": "Erreur dans les champs",
+      "validationErrors": {
+        "mandatoryFieldError": "Le champ ne peut pas être vide",
+        "emailFieldError": "L’adresse courriel n’est pas valide",
+        "usernameFieldError": "Le nom d’utilisateur doit être dans le format d’une adresse courriel",
+        "booleanFieldError": "Le champ n’autorise que vrai ou faux",
+        "numberFieldError": "Le champ n’autorise que des chiffres",
+        "nameFieldError": "Oups, vous ne pouvez pas utiliser \\ ! < > ? % \" ",
+        "phoneFieldError": "La valeur du téléphone n’est pas valide",
+        "virtualAgentTypeFieldError": "Le champ permet seulement OFF, Digital Bot ou Digital Survey"
+      },
+      "downloadErrorsSuccessMsg": "Erreurs téléchargées avec succès",
+      "downloadErrorsFailureMsg": "Échec du téléchargement des erreurs",
+      "invalidTemplateMessage": "Modèle téléversé non valide"
+    }
+  },
+  "createDailyRuleModal": {
+    "shiftLength": "Durée du quart :",
+    "shiftType": "Type de quart :",
+    "hours": "heures",
+    "shiftStartBetween": "Le quart démarre entre",
+    "startTimeIncrement": "Incrément de l’heure de début :",
+    "createDailyRuleHeader": "Créer une nouvelle règle journalière",
+    "editDailyRuleHeader": "Modifier la règle journalière",
+    "addActivities": "AJOUTER DES ACTIVITÉS",
+    "activitiesCodes": "Codes d’activité",
+    "relativeStart": "Début relatif",
+    "slack": "Slack",
+    "updateDailyRuleHeader": "#fffff",
+    "length": "Durée",
+    "earliestStart": "PREMIER DÉBUT",
+    "latestStart": "DERNIER DÉBUT",
+    "startIncrement": "DÉBUTER L’INCRÉMENT",
+    "ruleDescription": "DESCRIPTION DE LA RÈGLE",
+    "successMsg": "L’employé a été créé avec succès!",
+    "updateErrorMsg": "Échec de la création du nouvel employé.",
+    "updateSuccessMsg": "L’employé a été mis à jour avec succès!",
+    "namePlaceholder": "Règle journalière sans titre"
+  },
+  "userPage": {
+    "pageTitle": "Employés",
+    "newUserBtn": "Créer un employé",
+    "importUsersBtn": "Importer des employés",
+    "itemsCountAngular": "employés",
+    "selectedItems": "Sélectionné",
+    "searchPlaceholder": "Commencez à taper pour trouver des utilisateurs",
+    "noItemsOverlay": "Aucun utilisateur n’a encore été ajouté",
+    "noItemsOverlayGrid": "Aucun utilisateur trouvé au moyen de ce filtre",
+    "noUsersSubText": "Sélectionnez \"Ajouter des utilisateurs\" ci-dessus pour en ajouter",
+    "createUserPage": {
+      "breadcrumb": "Employés",
+      "createUserPageTitle": "Créer un nouvel employé",
+      "cancel": "Annuler",
+      "create": "Créer",
+      "createAndInvite": "Créer et inviter",
+      "createAndActivate": "Créer et activer",
+      "save": "Enregistrer",
+      "teamErrorMsg": "L’équipe est requise.",
+      "getAllTeamsError": "Une erreur s’est produite lors de la récupération des équipes. Réessayez après un certain temps.",
+      "getGroupsError": "Une erreur s’est produite lors de la récupération des groupes. Réessayez après un certain temps.",
+      "getEmployeeGroupsError": "Une erreur s’est produite lors de la récupération des groupes d’employés. Réessayez après un certain temps.",
+      "formLabels": {
+        "mandatorySymbol": "*",
+        "firstName": "Prénom",
+        "middleName": "Deuxième prénom",
+        "lastName": "Nom",
+        "emailAddress": "Adresse courriel",
+        "displayName": "Afficher le nom",
+        "primaryRole": "Rôle principal",
+        "username": "Nom d’utilisateur",
+        "mobileNumber": "Numéro de portable",
+        "telephone1": "Téléphone 1",
+        "telephone2": "Téléphone 2",
+        "timeZone": "Fuseau horaire",
+        "osLogin": "Connexion au SE",
+        "assignToGroup": "Assigné à l’unité de planification",
+        "assignToGroups": "Assigné aux groupes",
+        "assignToSkills": "Assigné aux compétences",
+        "assignToTeams": "Assigné à l’équipe",
+        "assignToGroupPlaceHolder": "Aucune unité de planification assignée",
+        "rank": "Rang",
+        "rankInterval": "1-999",
+        "country": "Pays",
+        "countryPlaceholder": "Sélectionnez le pays",
+        "hireDate": "Date d’embauche",
+        "timeZonePlaceholder": "Sélectionner le fuseau horaire",
+        "typePlaceholder": "Sélectionner ou créer un type",
+        "type": "Type",
+        "teamPlaceholder": "Sélectionner l’équipe",
+        "defaultTag": "(Par défaut)",
+        "groupsDropDown": " Groupes",
+        "acdLoginId": "ID de connexion ACD",
+        "acdLoginIdInUse": "L’ID de connexion ACD {{value}} est déjà utilisé par cette page.",
+        "maxLimitOfACD": "Vous ne pouvez pas saisir plus de {{items}} éléments",
+        "acdLoginIdValidationError": "L’élément « {{value}} » n’est pas une entrée valide.",
+        "customAttributes": {
+          "heading": "Attributs",
+          "canBeEvaluatedLabel": "Peut être évalué/accompagné",
+          "canBeScheduled": "Peut être programmé",
+          "canBeRecorded": "Peut être enregistré (Voix)",
+          "canBeRecordedScreen": "Peut être enregistré (Écran)",
+          "canBeRecordedDefault": "Peut être enregistré",
+          "canBeAnalyzed": "Peut être analysé",
+          "canBeMeasured": "Peut être mesuré",
+          "nonBillableUser": "Utilisateur non facturable ",
+          "digitalEngagement": "Digital Engagement",
+          "customerCard": "Customer Card",
+          "agentIntegrations": "Intégrations d’agents",
+          "canViewBIReports": "Peut afficher les rapports BI",
+          "canEditBIReports": "Peut modifier les rapports BI",
+          "virtualAgentEnabled": "Agent virtuel activé",
+          "smartreachheading": "ATTRIBUTS DE SMARTREACH",
+          "smartreach": "SmartReach",
+          "smartreachuser": "Utilisateur SmartReach",
+          "smartreachagent": "Agent SmartReach",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartreachdesk": "Bureau",
+          "smartreachecc": "Enhanced Customer Card",
+          "dataCollectionEnabled": "Collecte de données activée"
+        },
+        "location": {
+          "locationsDropdown": "Emplacements",
+          "placeholder": "Sélectionner les emplacements",
+          "errorMessages": {
+            "failedLoadLocations": "Échec de chargement des définitions d’emplacements. Réessayez."
+          }
+        },
+        "userSourceDropdownLabel": "Source",
+        "division": {
+          "division": "Division",
+          "placeholder": "Sélectionner la division",
+          "errorMessages": {
+            "failedLoadDivisions": "Échec du chargement des divisions. Réessayez."
+          },
+          "warningModal": {
+            "warningHeader": "Avertissement",
+            "modalBody": "Cette opération peut modifier la division de l’utilisateur et affecter sa visibilité.",
+            "modalBodySub": "Voulez-vous vraiment continuer?"
+          }
+        }
+      },
+      "popover": {
+        "warningMessage": "Toutes les modifications seront perdues",
+        "confirmMessage": "Voulez-vous vraiment quitter sans enregistrer?",
+        "saveWarningMessage": "Aucun authentificateur de connexion n’est attribué à l’utilisateur ou l’authentificateur de connexion est inactif et l’utilisateur ne pourra pas se connecter.",
+        "saveConfirmMessage": "Continuer?",
+        "createInviteWarningMessage": "Aucun authentificateur de connexion n’est attribué à l’utilisateur ou l’authentificateur de connexion est inactif et l’utilisateur ne pourra pas se connecter.",
+        "createConfirmMessage": "Continuer?"
+      },
+      "populateFromTemplateModal": {
+        "title": "Remplir à partir du modèle",
+        "description": "Modèle d’employé",
+        "cancel": "Annuler",
+        "header": "Remplir l’enregistrement d’employé à partir du modèle",
+        "populate": "Remplir",
+        "populateTemplate": "Remplir le modèle",
+        "message": "Sélectionnez un modèle dans la liste pour remplacer l’enregistrement d’employé actuel. Les modifications apportées par cette action doivent être enregistrées pour prendre effet.",
+        "placeholder": "Sélectionner un modèle",
+        "createNewTemplate": "Créer nouveau Modèle",
+        "error": "Impossible de remplir le modèle.",
+        "success": "L’enregistrement d’employé a été correctement rempli.",
+        "errorSecondaryRole": "Le rôle secondaire est introuvable dans les options disponibles. Cela peut se produire si un rôle secondaire du modèle est actuellement sélectionné comme rôle principal.",
+        "errorWemSkill": "Compétences introuvables ou autorisations manquantes.",
+        "errorOmnichannelSkill": "Certaines compétences omnicanales du modèle sont inactives ou indisponibles."
+      },
+      "createTypeModal": {
+        "header": "Créer un type",
+        "nameLabel": "Nom",
+        "placeholder": "Saisir le nouveau type",
+        "confirm": "Confirmer",
+        "cancel": "Annuler"
+      },
+      "bcpLoadError": "Une erreur s’est produite lors de la récupération des données BCP. Réessayez après un certain temps."
+    },
+    "importUsersModal": {
+      "header": "Importer des employés",
+      "weSupportMessage": "Importer des employés en téléversant un fichier CSV.",
+      "downloadMessage1": "Vous pouvez télécharger un modèle de fichier CSV",
+      "downloadMessage2": "",
+      "downloadLink": "ici.",
+      "selectFileMessage": "",
+      "successMsg": "Employés importés avec succès.",
+      "errorMsg": "Impossible d’importer les employés.",
+      "downloadTemplates": "Télécharger le modèle",
+      "dragAndFropText": "Glisser-déposer pour téléverser ou",
+      "browsFileText": "parcourir les fichiers",
+      "importErrorsList": {
+        "header": "Erreurs d’importation",
+        "invalidUser": "Le rôle n’existe pas dans le système",
+        "invalidUserRole": "Incohérence entre le rôle et l’état de l’utilisateur",
+        "userAlreadyExists": "Échec de la création de l’utilisateur. Un utilisateur avec le même nom d’utilisateur existe déjà.",
+        "userCreateFailed": "Échec de la création de l’utilisateur. Veuillez vérifier la saisie",
+        "invalidUserStatus": "L’adresse courriel d’un utilisateur actif ne peut pas être modifiée.",
+        "cannotChangeOwnRole": "Vous ne pouvez pas changer votre propre rôle."
+      }
+    }
+  },
+  "createUserModal": {
+    "updateUserHeader": "Modifier l’employé",
+    "createUserHeader": "Créer un nouvel employé",
+    "createAndInvite": "Créer et inviter",
+    "createAndActivate": "Créer et activer",
+    "popoverMessage1": "Toutes les modifications seront perdues.",
+    "popoverMessage2": "Voulez-vous vraiment quitter sans enregistrer?",
+    "errorMsg": "Échec de la création du nouvel employé.",
+    "successMsg": "L’employé a été créé avec succès!",
+    "updateErrorMsg": "Échec de la création du nouvel employé.",
+    "updateMfaErrorMsg": "Échec de la mise à jour des détails AMF.",
+    "updateSuccessMsg": "L’employé a été mis à jour avec succès!",
+    "getUserByIdError": "Une erreur s’est produite lors de la recherche des coordonnées de l’employé. Essayez de nouveau après un certain temps.",
+    "getGroupsError": "Une erreur s’est produite lors de la récupération des groupes. Réessayez après un certain temps.",
+    "getSkillsError": "Une erreur s’est produite lors de la récupération des compétences. Réessayez après un certain temps.",
+    "getEmployeeGroupsError": "Une erreur s’est produite lors de la récupération des groupes d’employés. Réessayez après un certain temps.",
+    "getAllTeamsError": "Une erreur s’est produite lors de la récupération des équipes. Réessayez après un certain temps.",
+    "getRolesError": "Une erreur s’est produite lors de la récupération des rôles. Réessayez après un certain temps.",
+    "getAvailabilityError": "Une erreur s’est produite lors de la recherche de la disponibilité des employés. Réessayez après un certain temps.",
+    "getShiftPreferencesError": "Une erreur s’est produite lors de la récupération des préférences de quart de travail. Réessayez après un certain temps.",
+    "getVisibilityError": "Une erreur s’est produite lors de la récupération des données de visibilité. Réessayez après un certain temps.",
+    "getSelectedViewsError": "Une erreur s’est produite lors de la récupération des données des vues sélectionnées. Réessayez après un certain temps.",
+    "teamErrorMsg": "L’Équipe est requise.",
+    "acdLoginId": "ID de connexion ACD",
+    "acdLoginIdInUse": "L’ID de connexion ACD {{value}} est déjà utilisé par cette page.",
+    "maxLimitOfACD": "Vous ne pouvez pas saisir plus de {{items}} éléments",
+    "reviveUserAlert": "Un compte avec cette adresse courriel existe déjà. Voulez-vous réactiver ce compte?",
+    "reviveUserAlertWithUserName": "Un compte avec ce nom d’utilisateur existe déjà et a été supprimé. Voulez-vous le réactiver?",
+    "verificationEmailWillBeSent": "Un courriel de vérification sera envoyé à cette adresse lors de l’enregistrement.",
+    "resendVerificationEmail": "Renvoyer le courriel de vérification",
+    "resendVerificationEmailFailureMsg": "Échec de renvoyer le courriel de vérification",
+    "verificationEmailSent": "Courriel envoyé avec succès!",
+    "descriptionLengthExceededError": "La longueur de la description a dépassé la limite maximale de 255 caractères",
+    "formLabels": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse courriel",
+      "username": "Nom d’utilisateur",
+      "mobileNumber": "Numéro de portable",
+      "telephone1": "Téléphone 1",
+      "telephone2": "Téléphone 2",
+      "timeZone": "Fuseau horaire",
+      "osLogin": "Connexion au SE",
+      "assignToGroup": "Assigné à l’unité de planification",
+      "assignToGroups": "Assigné aux groupes",
+      "assignToSkills": "Assigné aux compétences",
+      "assignToTeams": "Assigné à l’équipe",
+      "assignToGroupPlaceHolder": "Aucune unité de planification assignée",
+      "maxHoursPerWeek": "Max. heures/semaine",
+      "rank": "Rang",
+      "rankInterval": "1-999",
+      "timeZonePlaceHolder": "Fuseau horaire",
+      "country": "Pays",
+      "countryPlaceholder": "Sélectionnez le pays",
+      "hireDate": "Date d’embauche",
+      "role": "Rôle principal",
+      "rolePlaceholder": "Sélectionnez le rôle",
+      "typePlaceholder": "Sélectionner ou créer un type",
+      "teamPlaceholder": "Sélectionner l’équipe",
+      "timeZonePlaceholder": "Sélectionner le fuseau horaire",
+      "userPicture": "Image de profil",
+      "upload": "Téléverser",
+      "create": "Créer un employé",
+      "day": "Jour",
+      "month": "Mois",
+      "year": "Année",
+      "middleName": "Deuxième prénom",
+      "displayName": "Afficher le nom",
+      "type": "Type",
+      "statusIconHoverTip": {
+        "pending": "Le courriel est en attente de vérification.",
+        "complete": "Le courriel a été vérifié.",
+        "warning": "Domaine de messagerie non autorisé"
+      },
+      "roles": {
+        "agent": "Agent",
+        "manager": "Gestionnaire",
+        "admin": "Administrateur"
+      },
+      "groupsDropDown": "{{selectedCount}} groupes",
+      "skillsDropDown": "{{selectedCount}} compétences",
+      "wfoSkillsDropDown": "Affichage de {{totalCount}} compétences",
+      "wfoSkillsDropDownLimitTo": "Affichage de {{limitCount}}/{{totalCount}} compétences Tapez pour rechercher",
+      "customAttributes": {
+        "heading": "Attributs",
+        "canBeEvaluatedLabel": "Peut être évalué/accompagné",
+        "canBeScheduled": "Peut être programmé",
+        "canBeRecorded": "Peut être enregistré (Voix)",
+        "canBeRecordedScreen": "Peut être enregistré (Écran)",
+        "canBeRecordedDefault": "Peut être enregistré",
+        "canBeAnalyzed": "Peut être analysé",
+        "canBeMeasured": "Peut être mesuré",
+        "nonBillableUser": "Utilisateur non facturable ",
+        "digitalEngagement": "Digital Engagement",
+        "customerCard": "Customer Card",
+        "agentIntegrations": "Intégrations d’agents",
+        "canViewBIReports": "Peut afficher les rapports BI",
+        "canEditBIReports": "Peut modifier les rapports BI",
+        "virtualAgentEnabled": "Agent virtuel activé",
+        "smartreachuser": "Utilisateur SmartReach",
+        "smartreachagent": "Agent SmartReach",
+        "performanceManagementInsights": "Performance Management Insights",
+        "performanceManagementAct": "Performance Management Act",
+        "smartreachdesk": "Bureau",
+        "smartreachecc": "Enhanced Customer Card",
+        "dataCollectionEnabled": "Collecte de données activée"
+      },
+      "MFALabel": "AMF",
+      "mfaSecret": "Secret AMF",
+      "mfaTimeStep": "Période de jeton AMF",
+      "mfaTimeStepUnit": "Secondes",
+      "mfaTimeStepInterval": "15-300",
+      "clearButton": "Effacer",
+      "generateButton": "Générer",
+      "externalIdentity": "Identité externe",
+      "defaultTag": "(Par défaut)"
+    },
+    "skillsTab": {
+      "header": "Sélectionnez les compétences",
+      "assignedTxt": "Compétences assignées",
+      "addBtn": "Ajouter",
+      "selectTxt": "Sélectionner des employés",
+      "selectedTxt": "Sélectionné :"
+    },
+    "secondaryRolesTab": {
+      "secondaryRoles": "Rôles secondaires",
+      "secondaryRolesDropdown": "Sélectionner les rôles",
+      "addRoles": "Ajouter un rôle",
+      "addRolesFTOn": "Appliquer",
+      "itemscount": "{{count}} rôles assignés",
+      "roleName": "Nom du Rôle",
+      "rolesList": "Liste des rôles",
+      "assignedRoles": "Rôles assignés | {{count}} au total",
+      "errorMsg": "Nombre minimum de rôles secondaires (10) sélectionné",
+      "noItemsOverlay": "Aucun rôle affecté pour le moment"
+    },
+    "securityTab": {
+      "loginAuthenticator": "Authentificateur de connexion",
+      "loginAuthenticatorPlaceholder": "Sélectionnez un authentificateur",
+      "noneSelected": "Aucun sélectionné",
+      "getAllAuthenticatorsError": "Une erreur s’est produite lors de la récupération des authentificateurs de connexion. Réessayez après un certain temps.",
+      "loginAuthenticatorInfo": "Authentificateur de connexion manquant ou inactif."
+    },
+    "visibilityTab": {
+      "visibility": "Visibilité",
+      "views": "Vues",
+      "viewsDropdown": "Sélectionner les vues",
+      "addViews": "Ajouter une vue",
+      "addViewsFTOn": "Appliquer",
+      "itemscount": "{{count}} vues assignées",
+      "viewName": "Nom de la vue",
+      "viewDesc": "Voir la description",
+      "viewType": "Type de vue",
+      "assignedViews": "Vues assignées | {{count}} au total",
+      "errorMsg": "Nombre maximum de vues (3) sélectionné",
+      "maxSelectionErrorMsg": "Max 3 vues peuvent être sélectionnées",
+      "maxSelectionErrorMsgViews": "Max 10 vues peuvent être sélectionnées",
+      "noItemsOverlay": "Aucune vue n’a encore été attribuée",
+      "viewTypes": {
+        "transaction": "Interaction-Segment"
+      }
+    },
+    "lockUserTab": {
+      "lockUser": "Verrouiller l’utilisateur",
+      "views": "Vues",
+      "daysSelectorLable": "Nombre de jours d’inactivité avant qu’un utilisateur puisse être verrouillé",
+      "neverLockUser": "Ne jamais verrouiller l’utilisateur",
+      "on": "Activé",
+      "off": "Désactivé",
+      "inactivityDaysMessage": "Le nombre de jours d’inactivité doit être compris entre 7 et 90"
+    },
+    "ssoStateTab": {
+      "SSOState": "Personnaliser l’état SSO",
+      "daysSelectorLabel": "Définir les heures pour l’état d’utilisateur",
+      "on": "Activé",
+      "off": "Désactivé",
+      "SSOStateValueMessage": "La valeur État de l’utilisateur doit être comprise entre 1 et 168"
+    },
+    "tabs": {
+      "bcpType": "TYPE BCP",
+      "bcpNoAccess": "Pas d’accès au locataire BCP",
+      "primaryTenant": "LOCATAIRE PRINCIPAL",
+      "secondaryTenant": "LOCATAIRE SECONDAIRE"
+    }
+  },
+  "filter": {
+    "clearall": "Tout effacer",
+    "close": "Fermer"
+  },
+  "formExample": {
+    "enterYourName": "Saisissez votre nom :",
+    "enterYourEmail": "Saisissez votre adresse courriel :",
+    "enterYourAge": "Entrez votre âge :",
+    "createPassword": "Créez un mot de passe :",
+    "confirmPassword": "Confirmez votre mot de passe :",
+    "errorMessages": {
+      "required": "Vous avez laissé le champ vide...",
+      "minLength": "Votre champ est trop court",
+      "maxLength": "Votre champ est trop long",
+      "email": "Votre adresse courriel n’est pas valide",
+      "password": " Votre mot de passe doit être composé de caractères alphabétiques ou numériques. Il doit également contenir au moins un caractère spécial, un chiffre et une lettre majuscule.",
+      "match": "Ce mot de passe ne correspond pas au mot de passe entré auparavant",
+      "minLengthPassword": "Votre mot de passe doit comporter au moins 8 caractères",
+      "maxLengthPassword": "Ce mot de passe est trop long...",
+      "minAge": "Vous devez avoir au moins 10 ans!",
+      "maxAge": "Vous devez avoir moins de 80 ans!",
+      "number": "Chiffres uniquement!"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "Ce champ est obligatoire.",
+    "minLength": "Le texte saisi est trop court",
+    "nameFieldValidation": "! \\ < > ? Le caractère % ou les émojis ne sont pas pris en charge",
+    "nameFieldValidation2": "Oups, vous ne pouvez pas utiliser \\ / ! + < > ? # & , % \" ",
+    "maxLength": "Le texte saisi est trop long",
+    "email": "L’adresse courriel que vous avez saisie n’est pas valide",
+    "userName": "Le nom d’utilisateur doit être dans le format d’une adresse courriel",
+    "emailExists": "L’adresse courriel existe déjà. Essayez-en une autre",
+    "userNameExists": "Cet identifiant existe déjà. Essayez un nouveau",
+    "number": "Chiffres uniquement!",
+    "pattern": "Format incorrect pour ce champ",
+    "password": "Votre mot de passe doit comporter au moins 8 caractères, dont au moins 1 chiffre et 1 lettre majuscule.",
+    "match": "Ce mot de passe ne correspond pas au mot de passe précédent",
+    "compareTo": "Ce mot de passe ne correspond pas au mot de passe précédent",
+    "minLengthPassword": "Votre mot de passe doit comporter au moins 8 caractères",
+    "maxLengthPassword": "Votre mot de passe est trop long",
+    "min": "Le nombre est trop petit",
+    "max": "Le nombre est trop grand",
+    "uniqueString": "Ce nom existe déjà. Essayez un autre.",
+    "lowerThen": "La valeur minimale ne peut pas dépasser la valeur maximale",
+    "weeklyMaxLowerThanSumDailyMin": "Le nombre minimal de jours requis dans les règles journalières dépasse le nombre maximal de jours défini dans la règle hebdomadaire.",
+    "weeklyMinGreaterThanSumDailyMax": "Le nombre minimal de jours dans la règle hebdomadaire dépasse le nombre maximal de jours requis dans les règles journalières.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "Le nombre total d’heures des combinaisons journalières minimales ne peut pas dépasser le nombre total maximal d’heures par semaine.",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "Le nombre total d’heures de combinaisons journalières maximales ne peut pas être inférieur au nombre total minimal d’heures par semaine",
+    "uniqueDaysCounterLowerThanSumDailyMin": "Le nombre minimum de jours dépasse le nombre total de jours uniques.",
+    "possibleDaysLowerThanMinDays": "Le nombre de jours possibles ne correspond pas au nombre minimum de jours requis dans la règle hebdomadaire.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "Le nombre minimum de jours dans la règle hebdomadaire dépasse le nombre de jours uniques.",
+    "noAddedShiftPatters": "Vous devez sélectionner au moins une règle journalière",
+    "shiftLengthLowerThanActivityLength": "La somme de la durée de l’activité et du début relatif ne peut être supérieure à la longueur du quart",
+    "shiftLengthLowerThanTotalActivityLength": "La durée totale des activités ne peut excéder la durée du quart",
+    "relativeStartLowerThanSlack": "La relève ne peut pas être supérieure à la valeur de départ relative",
+    "activitiesOverlap": "Les activités ne peuvent pas se chevaucher",
+    "serverError": "Erreur de serveur inconnue",
+    "notValidRegex": "Ces caractères ne peuvent pas être utilisés : ^/!\\+<>?#&,%.",
+    "uniqueTitle": "Ce nom existe déjà. Essayez un autre.",
+    "timeRangeOutsideOfRange": "Date d’embauche non valide",
+    "invalidFileFormat": "Format de fichier non valide",
+    "integerInvalid": "Doit être un entier.",
+    "refusalTimeRange": "La valeur doit être comprise entre 15 et 300",
+    "invalidMobileNumber": "Le numéro de téléphone que vous avez entré n’est pas valide",
+    "invalidTelephone": "Le numéro de téléphone que vous avez saisi n’est pas valide",
+    "userActivityBlocked": "La création et la modification des employés sont temporairement indisponibles pendant cette maintenance planifiée. Le service normal sera rétabli sous peu.",
+    "invalidMfaSecret": "Secret AMF non valide",
+    "invalidTotalContactCount": "La valeur du nombre total de contacts doit être inférieure ou égale à la somme de tous les nombres de contacts.",
+    "nonBillableMaxCountReached": "Vous pouvez avoir un maximum de 5 utilisateurs non facturables.",
+    "nonBillableIncreasedLimitReached": "Vous pouvez avoir un maximum de 25 utilisateurs non facturables.",
+    "invalidMediaSum": "Il n’est pas possible de désactiver l’ensemble des canaux. La somme de tous les contacts doit être supérieure à 0.",
+    "incorrectMediaValue": "La valeur {{incorrectValue}} de {{mediaType}} pour {{who}} n’est pas valide.",
+    "digitalEngagmentUserLimitReached": "Le nombre d’utilisateurs autorisés pour Digital Engagement a été dépassé",
+    "hierarchiesFailure": "Échec de la récupération des hiérarchies",
+    "descriptionLengthExceededError": "La longueur de la description a dépassé la limite maximale de 255 caractères",
+    "cannotDropTeamsOnTeams": "Cette action ne peut pas être effectuée car l’équipe ne peut pas être le nœud enfant de l’équipe",
+    "cannotDropOUOnTeams": "Cette action ne peut pas être effectuée car l’unité d’organisation ne peut pas être l’enfant de l’équipe",
+    "cannotDropSUOnTeams": "Cette action ne peut pas être effectuée car l’unité de planification ne peut pas être le nœud enfant de l’équipe",
+    "cannotDropOUOnSU": "Cette action ne peut pas être effectuée car l’unité d’organisation ne peut pas être l’enfant de l’unité de planification",
+    "failedToCreateUser": "Échec de la création de l’utilisateur",
+    "failedToUpdateUser": "Impossible de mettre à jour l’utilisateur",
+    "maxAllowedLimitExceeded": "Dépassement de la limite maximale de vues autorisée",
+    "notAllowedToChangeOwnUserView": "L’utilisateur n’est pas autorisé à modifier ses propres vues",
+    "typeAlreadyExists": "Le type existe déjà."
+  },
+  "groupsListPage": {
+    "pageTitle": "Groupes",
+    "groups": "Groupes",
+    "itemsCount": "Affichage de {{count}}",
+    "totalItemsCount": "{{count}} au total",
+    "userCount": "",
+    "selectedItems": "{{selectedCount}} sélectionné(s)",
+    "untitledTeam": "Groupe sans titre",
+    "createGroup": "Nouveau Groupe",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "confirm": "Confirmer",
+    "newGroupPageTitle": "Créer un nouveau groupe",
+    "create": "Créer",
+    "filters": {
+      "status": "{{count}} état(s)",
+      "group": "{{count}} groupes"
+    },
+    "changeAuditHistoryTab": {
+      "GroupAuditable": {
+        "id": "Id",
+        "name": "Nom",
+        "usersIds": "ID des utilisateurs"
+      },
+      "noRowsOverlayText": "Données de l’historique des modifications non trouvées",
+      "itemsCountLabel": "Modifications"
+    },
+    "tabLabels": {
+      "changeHistory": " Historique des modifications",
+      "general": "Général",
+      "assignedUsers": "Utilisateurs assignés",
+      "zeroRow": "0 Total"
+    },
+    "generalInfo": {
+      "groupName": "Nom du Groupe",
+      "title": "Informations sur le groupe",
+      "mandatorySymbol": "*"
+    },
+    "users": {
+      "searchPlaceholder": "Commencez à taper pour trouver des utilisateurs",
+      "noItemsOverlay": "Aucun utilisateur n’a encore été ajouté",
+      "noItemsOverlayGrid": "Aucun utilisateur trouvé au moyen de ce filtre",
+      "noUsersSubText": "Sélectionnez \"Ajouter des utilisateurs\" ci-dessus pour en ajouter",
+      "columns": {
+        "name": "Nom",
+        "username": "Nom d’utilisateur",
+        "email": "Courriel",
+        "group": "Groupe",
+        "status": "État"
+      },
+      "popovers": {
+        "messageAddedUser": "Vous devez réassigner cet utilisateur à un autre groupe pour le supprimer.",
+        "messageNewUser": "Supprimer l’utilisateur de ce groupe?",
+        "bulkMessageAddedUser": "Vous devez réassigner le ou les utilisateurs à un autre groupe pour le supprimer.",
+        "bulkMessageNewUser": "Supprimer des utilisateurs de ce groupe?"
+      },
+      "userSelectionModal": {
+        "noUserAddedText": "Aucun utilisateur n’a encore été ajouté",
+        "noUserSelectedText": "Aucun utilisateur n’a encore été sélectionné"
+      },
+      "modal": {
+        "noItemsOverlay": "Aucun utilisateur à assigner disponible",
+        "title": "Ajouter des utilisateurs",
+        "saveLabel": "Confirmer",
+        "cancelLabel": "Annuler"
+      },
+      "buttons": {
+        "addUsers": "Ajouter des utilisateurs",
+        "removeUsers": "Supprimer les utilisateurs"
+      }
+    },
+    "createSuccessMessage": "Le groupe a été créé avec succès.",
+    "updateFailureMsg": "Le groupe n’a pas été enregistré",
+    "popover": {
+      "warningMessage": "Toutes les modifications seront perdues.",
+      "confirmMessage": "Voulez-vous vraiment quitter sans enregistrer?"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "Données non enregistrées",
+        "unsavedChanges": "Si vous quittez la page, vos modifications seront perdues.",
+        "areYouSureLeavePage": "Voulez-vous vraiment continuer?"
+      }
+    },
+    "userAssignmentFailureMsg": "L’assignation de l’utilisateur a échoué",
+    "userLabels": {
+      "unassignedUsersLabel": "Tous les utilisateurs non assignés",
+      "assignedUsersLabel": "Utilisateurs assignés",
+      "userSearchPlaceholder": "Commencez à taper pour trouver des utilisateurs"
+    },
+    "removeSelectedUsersMsg": "Vous êtes sur le point de supprimer les utilisateurs sélectionnés. Continuer?",
+    "removeSelectedUnavailableCodeMsg": "Vous êtes sur le point de supprimer les codes d’indisponibilité sélectionnés. Continuer?",
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "all": "Tout",
+      "pending": "En attente",
+      "unregistered": "Non Enregistré"
+    }
+  },
+  "importUsersModal": {
+    "header": "Importer des employés",
+    "weSupportMessage": "Importer des employés en téléversant un fichier CSV.",
+    "downloadMessage1": "Vous pouvez télécharger un modèle de fichier CSV",
+    "downloadMessage2": "",
+    "downloadLink": "ici.",
+    "selectFileMessage": "",
+    "successMsg": "Employés importés avec succès.",
+    "errorMsg": "Impossible d’importer les employés.",
+    "downloadTemplates": "Télécharger le modèle",
+    "dragAndFropText": "Glisser-déposer pour téléverser ou",
+    "browsFileText": "parcourir les fichiers",
+    "importErrorsList": {
+      "header": "Erreurs d’importation",
+      "invalidUser": "Le rôle n’existe pas dans le système",
+      "invalidUserRole": "Incohérence entre le rôle et l’état de l’utilisateur",
+      "userAlreadyExists": "Échec de la création de l’utilisateur. Un utilisateur avec le même nom d’utilisateur existe déjà.",
+      "userCreateFailed": "Échec de la création de l’utilisateur. Veuillez vérifier la saisie",
+      "invalidUserStatus": "L’adresse courriel d’un utilisateur actif ne peut pas être modifiée.",
+      "cannotChangeOwnRole": "Vous ne pouvez pas changer votre propre rôle."
+    }
+  },
+  "metaInfo": {
+    "title": "Nice SaaS WFM ",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "success": {
+      "title": "Réussite",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "Exemples",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "Exemples de formulaires",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "Employés",
+      "description": "Nice SaaS WFM"
+    },
+    "groups": {
+      "title": "Groupes",
+      "description": "Nice SaaS WFM"
+    },
+    "groups/create": {
+      "title": "Créer un Groupe",
+      "description": "Nice SaaS WFM"
+    },
+    "groups/update": {
+      "title": "Mettre à jour le groupe",
+      "description": "Nice SaaS WFM"
+    },
+    "accountSettings": {
+      "title": "Configuration du compte",
+      "description": "Nice SaaS WFM"
+    },
+    "teams": {
+      "title": "Équipes",
+      "description": "Équipes"
+    },
+    "teams/create": {
+      "title": "Créer une équipe",
+      "description": "Équipes"
+    },
+    "teams/update": {
+      "title": "Mettre à jour l’équipe",
+      "description": "Équipes"
+    },
+    "viewTeam": {
+      "title": "Voir Équipe",
+      "description": "Équipes"
+    },
+    "bulkUploadDownload": {
+      "title": "Téléchargement des téléversements groupés",
+      "description": "Téléchargement des téléversements groupés"
+    },
+    "bulkUploadDownload/reviewErrors": {
+      "title": "Téléchargement des téléversements groupés - Examiner les erreurs",
+      "description": "Téléchargement des téléversements groupés - Examiner les erreurs"
+    },
+    "hierarchies": {
+      "title": "Hiérarchies",
+      "description": "Hiérarchies"
+    },
+    "hierarchyManager": {
+      "title": "Gestionnaire de hiérarchie",
+      "description": "Gestionnaire de hiérarchie"
+    },
+    "hierarchyManagerV2": {
+      "title": "Gestionnaire de hiérarchie",
+      "description": "Gestionnaire de hiérarchie"
+    },
+    "security": {
+      "title": "Sécurité",
+      "description": "Sécurité"
+    },
+    "createGroup": {
+      "title": "Créer un Groupe"
+    },
+    "userManagement/create": {
+      "title": "Créer des utilisateurs",
+      "description": "Créer des utilisateurs"
+    },
+    "userManagement/update": {
+      "title": "Mettre à jour les utilisateurs",
+      "description": "Mettre à jour les utilisateurs"
+    },
+    "employeeGroups": {
+      "title": "Unité de planification",
+      "description": "Nice SaaS WFM"
+    }
+  },
+  "successPage": {
+    "welcomeMsg": "Bonjour {{username}} "
+  },
+  "teamsListPage": {
+    "pageTitle": "Équipes",
+    "goBackToHierarchy": "Revenir à la hiérarchie",
+    "teams": "Équipes",
+    "teamCount": "{{count}} équipes",
+    "itemsCount": "Affichage de {{count}}",
+    "totalItemsCount": "{{count}} au total",
+    "userCount": "",
+    "selectedItems": "{{selectedCount}} sélectionné(s)",
+    "untitledTeam": "Équipe sans titre",
+    "createTeam": "Nouvelle équipe",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "saveAndActivate": "Sauvegarder et Activer",
+    "newTeamPageTitle": "Créer une nouvelle équipe",
+    "bulkOperationBtn": {
+      "activate": "Activer",
+      "deactivate": "Désactiver"
+    },
+    "filters": {
+      "statusLabel": "État",
+      "status": "{{count}} état(s)",
+      "team": "{{count}} équipes",
+      "selectStatus": "Sélectionner l’état",
+      "userStatus": {
+        "active": "Actif",
+        "unregistered": "Non Enregistré",
+        "pending": "En attente",
+        "deleted": "Supprimé"
+      }
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "all": "Tout"
+    },
+    "tabLabels": {
+      "general": "Général",
+      "assignedUsers": "Utilisateurs assignés",
+      "unavailableCodes": "Codes d’indisponibilité",
+      "teamProperties": "Propriétés de l’équipe",
+      "contactSettings": "Paramètres du contact",
+      "features": "Caractéristiques",
+      "changeAuditHistory": "Historique des modifications",
+      "zeroRow": "0 Total"
+    },
+    "changeAuditHistoryTab": {
+      "Team": {
+        "id": "Id",
+        "name": "Nom",
+        "description": "Description",
+        "status": "État",
+        "leadUserId": "Numéro d’identification de l’utilisateur principal",
+        "isDefault": "Est par défaut",
+        "createdBy": "Créé par",
+        "lastModified": "Dernière modification",
+        "acdInfos": "Infos ACD",
+        "customAttributes": {
+          "inViewChatMessaging": "Messagerie par clavardage Performance Management",
+          "niceScreenRecording": "Vidéocapture d’écran",
+          "inViewCoaching": "Performance Management Coaching",
+          "niceAudioRecording": "Enregistrement audio",
+          "niceWfmWorloadManager": "Gestionnaire de charge de travail WFM",
+          "niceQuaityManagement": "Gestion de la qualité",
+          "inViewPerformanceMangement": "Gestion de la performance",
+          "niceQualityOptimization": "Optimisation de la qualité",
+          "maxReleasePreview": "Utiliser la version MAX précédente",
+          "inViewGamification": "Ludification Performance Management",
+          "inViewWallboard": "Panneau mural Performance Management",
+          "niceWfmEssentials": "WFM Essentials",
+          "niceWfmAdvanced": "WFM Advanced",
+          "niceWfoAdvanced": "WFO Advanced"
+        },
+        "divisionId": "ID de division"
+      },
+      "noRowsOverlayText": "Données de l’historique des modifications non trouvées",
+      "itemsCountLabel": "Modifications"
+    },
+    "generalInfo": {
+      "teamName": "Nom de l’équipe",
+      "heading": "Informations de l’Équipe",
+      "teamDescription": "Description",
+      "teamLead": "Chef d’équipe",
+      "teamId": "ID de l’équipe",
+      "noneSelected": "Aucun sélectionné",
+      "mandatorySymbol": "*",
+      "hierarchyName": "Nom",
+      "hierarchyType": "Type",
+      "hierarchyParent": "Parent",
+      "hierarchyAssociationHeading": "Hierarchy Association",
+      "emptyHierarchiesMessage": "Cette équipe n’est liée à aucune hiérarchie organisationnelle. Ajoutez-la en tant que nœud dans une hiérarchie organisationnelle existante ou créez-en une nouvelle.",
+      "hierarchyPermission": "Vous ne disposez pas des autorisations nécessaires pour visualiser les détails de la hiérarchie",
+      "primaryHierarchy": "Hiérarchie principale",
+      "warningModal": {
+        "warningHeader": "Avertissement",
+        "modalBody": "Une fois qu’une équipe est assignée à une division, elle ne peut plus être modifiée.",
+        "modalBodySub": "Voulez-vous vraiment continuer?",
+        "divisionLink": "Page Gestion de la division",
+        "cancel": "Annuler",
+        "continue": "Continuer"
+      },
+      "teamDivision": "Division",
+      "teamDivisionPlaceholder": "Sélectionner la division"
+    },
+    "users": {
+      "searchPlaceholder": "Commencez à taper pour trouver des utilisateurs",
+      "noItemsOverlay": "Aucun utilisateur n’a encore été ajouté",
+      "noItemsOverlayGrid": "Aucun utilisateur trouvé au moyen de ce filtre",
+      "noUsersSubText": "Sélectionnez \"Ajouter des utilisateurs\" ci-dessus pour en ajouter",
+      "columns": {
+        "name": "Nom",
+        "username": "Nom d’utilisateur",
+        "email": "Courriel",
+        "team": "Équipe",
+        "status": "État"
+      },
+      "popovers": {
+        "messageAddedUser": "Vous devez réassigner cet utilisateur à une autre équipe pour le supprimer.",
+        "messageNewUser": "Supprimer l’utilisateur de cette équipe?",
+        "bulkMessageAddedUser": "Vous devez réassigner le ou les utilisateurs à une autre équipe pour les supprimer.",
+        "bulkMessageNewUser": "Supprimer des utilisateurs de cette équipe?"
+      },
+      "userSelectionModal": {
+        "noUserAddedText": "Aucun utilisateur n’a encore été ajouté",
+        "noUserSelectedText": "Aucun utilisateur n’a encore été sélectionné"
+      },
+      "modal": {
+        "noItemsOverlay": "Aucun utilisateur à assigner disponible",
+        "title": "Ajouter des utilisateurs"
+      },
+      "buttons": {
+        "addUsers": "Ajouter des utilisateurs",
+        "removeUsers": "Supprimer les utilisateurs"
+      }
+    },
+    "unavailableCodes": {
+      "searchPlaceholder": "Commencez à taper pour trouver le code d’indisponibilité",
+      "noItemsOverlay": "Aucun code d’indisponibilité n’a encore été ajouté",
+      "noItemsOverlayGrid": "Aucun code d’indisponibilité trouvé avec ce filtre",
+      "noUCSubText": "Sélectionnez « Ajouter un code d’indisponibilité » ci-dessus pour en ajouter.",
+      "columns": {
+        "name": "Nom",
+        "afterContactWork": "Traitement après contact",
+        "agentTimeout": "Inactivité agent (min)"
+      },
+      "popovers": {
+        "bulkRemoveConfirmation": "Supprimer les codes indisponibles sélectionnés de cette équipe?",
+        "removeConfirmation": "Supprimer le code indisponible de cette équipe?"
+      },
+      "modal": {
+        "noItemsOverlay": "Aucun code indisponible à assigner n’est disponible",
+        "title": "Ajouter code d’indisponibilité",
+        "noUnavailableCodesAddedText": "Aucun code d’indisponibilité n’a encore été ajouté",
+        "noUnavailableCodesSelectedText": "Aucun code d’indisponibilité n’a encore été sélectionné"
+      },
+      "buttons": {
+        "addUnavailableCode": "Ajouter code d’indisponibilité",
+        "removeUnavailableCode": "Supprimer le code d’indisponibilité"
+      }
+    },
+    "features": {
+      "enabledFeatures": "Fonctionnalités activées",
+      "performanceOptimization": "Optimisation des résultats",
+      "inViewPerfManagement": "Performance Management",
+      "gamification": "Ludification Performance Management",
+      "chatMessage": " Message de clavardage Performance Management",
+      "coaching": "Performance Management Coaching",
+      "inViewWallboard": "Panneau mural Performance Management",
+      "maxReleasePreview": "Utiliser la version MAX précédente",
+      "maxPreview": "Version MAX précédente",
+      "NICEWFO": "ENTERPRISE WFO",
+      "niceAudioRecording": "Enregistrement audio",
+      "niceScreenRecording": "Vidéocapture d’écran",
+      "niceQualityManagement": "Quality Management",
+      "niceQualityOptimization": "Optimisation de la qualité",
+      "niceWfmAdvanced": "WFM Advanced",
+      "niceWfmEssentials": "WFM Essentials",
+      "niceWfoEssentials": "WFO Essentials",
+      "niceWfoAdvanced": "WFO Advanced",
+      "cxoneCustomerAuthentication": "Authentification client CXone"
+    },
+    "createSuccessMessage": "L’équipe a été créée avec succès.",
+    "updateFailureMsg": "L’équipe n’a pas été enregistrée",
+    "popover": {
+      "warningMessage": "Toutes les modifications seront perdues",
+      "confirmMessage": "Voulez-vous vraiment quitter sans enregistrer?",
+      "hierarchyRedirectionConfirmationMessage": "Vous pouvez avoir des modifications non enregistrées sur cette page. Veuillez sélectionner l’une des options suivantes pour continuer à visualiser les détails de la hiérarchie."
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "Données non enregistrées",
+        "unsavedChanges": "Si vous quittez la page, vos modifications seront perdues.",
+        "areYouSureLeavePage": "Voulez-vous vraiment continuer?"
+      }
+    },
+    "saveDuplicateTeamModal": {
+      "addHeader": "Dupliquer l’équipe",
+      "subHeading": "NOM DE L’ÉQUIPE",
+      "saveLabel": "Reproduire",
+      "cancelLabel": "Annuler",
+      "successMsg": "Équipe dupliquée avec succès",
+      "failureMsg": "Erreur lors de la duplication de l’équipe",
+      "errors": {
+        "uniqueTitle": "Ce nom existe déjà. Essayez un autre."
+      }
+    },
+    "teamProperties": {
+      "contactHandlingTab": {
+        "contactHandling": "Gestion des contacts",
+        "contactHandlingSubTitle": "Valeurs par défaut équipe",
+        "teamDefaultsSingleChannel": "Valeurs par défaut de l’équipe (gestion d’un seul canal)",
+        "teamDefaults": "Valeurs par défaut équipe",
+        "teamDefault": "Équipe par défaut",
+        "teamDefaultOff": "Par défaut de l’équipe (Désactivé)",
+        "deliveryMode": "MODE DE LIVRAISON",
+        "voice": "VOIX",
+        "chats": "CLAVARDAGES",
+        "singleChannelChatLbl": "Clavardages simultanés",
+        "emails": "COURRIELS",
+        "singleChannelEmailLbl": "Courriels parqués automatiquement",
+        "workItems": "ÉLÉMENTS DE TRAVAIL",
+        "digital": "NUMÉRIQUE",
+        "requestContact": "CONTACT REQ",
+        "contactAutoFocus": "AUTO-FOCUS",
+        "totalContactCount": "NOMBRE TOTAL DE CONTACTS",
+        "contactHandlingSettings": "Paramètres de gestion des contacts",
+        "assignedUsers": "Utilisateurs assignés",
+        "noAssignedUsers": "Aucun utilisateur assigné pour l’instant.",
+        "first": "Premier",
+        "last": "Dernier",
+        "sms": "SMS"
+      }
+    },
+    "activateSuccessMsg": "Équipe activée avec succès",
+    "deactivateSuccessMsg": "Équipe désactivée avec succès",
+    "activateFailureMsg": "Impossible d’activer l’équipe",
+    "deactivateFailureMsg": "Impossible de désactiver l’équipe",
+    "hierarchyRemovalFailureMsg": "Impossible de supprimer l’association de hiérarchie d’équipe",
+    "bulkActivationSuccessMsg": "équipe(s) activée(s) avec succès",
+    "bulkDeactivationSuccessMsg": "équipe(s) désactivée(s) avec succès",
+    "bulkActivationByPassMsg": "équipe(s) déjà active(s)",
+    "bulkDeactivationByPassMsg": "équipe(s) déjà inactive(s)",
+    "bulkActivationFailureMsg": "Impossible d’activer {0} équipe(s) en raison d’une erreur interne",
+    "bulkDeactivationFailureMsg": "Impossible de désactiver {0} équipes",
+    "bulkHierarchyRemovalFailureMsg": "Impossible de supprimer l’association hiérarchique de {0} équipe(s) en raison d’une erreur interne",
+    "userAssignmentFailureMsg": "L’assignation de l’utilisateur a échoué",
+    "userSuccessCountMsg": " utilisateurs ajoutés avec succès",
+    "userFailureCountMsg": " les utilisateurs n’ont pas pu être ajoutés",
+    "userConfigurationFailureMsg": "Échec de la mise à jour de la configuration utilisateur des équipes",
+    "userLabels": {
+      "unassignedUsersLabel": "Tous les utilisateurs non assignés",
+      "assignedUsersLabel": "Utilisateurs assignés",
+      "userSearchPlaceholder": "Commencez à taper pour trouver des utilisateurs"
+    },
+    "removeSelectedUsersMsg": "Vous êtes sur le point de supprimer les utilisateurs sélectionnés. Continuer?",
+    "removeSelectedUnavailableCodeMsg": "Vous êtes sur le point de supprimer les codes indisponibles sélectionnés. Continuer?",
+    "divisions": {
+      "label": "Division",
+      "placeholder": "Sélectionner la division"
+    },
+    "userDivisionMismatchMsg": "L’utilisateur ne peut être déplacé en dehors de sa division."
+  },
+  "teamsPage": {
+    "pageTitle": "Équipes",
+    "itemsCount": "{{count}} équipes",
+    "itemsCountAngular": "Équipes",
+    "selectedItems": "Sélectionné",
+    "createTeam": "Nouvelle équipe",
+    "noItemsOverlay": "Aucune équipe assignée pour le moment.",
+    "cancel": "Annuler",
+    "create": "Créer",
+    "save": "Enregistrer",
+    "teamStrToReplace": "Équipe(s)",
+    "searchPlaceHolder": "Commencez à taper pour trouver une équipe",
+    "teamNamePlaceHolder": "Équipe sans titre",
+    "successMsg": "Équipe créée avec succès",
+    "failureMsg": "Échec de la création de l’équipe. Essayez à nouveau",
+    "defaultTooltip": "Équipe par défaut",
+    "gridColumnsHeaders": {
+      "teamName": "Nom",
+      "status": "État",
+      "actions": "Actions",
+      "employees": "Utilisateurs",
+      "assignedUsers": "Utilisateurs assignés",
+      "teamId": "ID de l’équipe"
+    },
+    "filters": {
+      "status": "{{count}} état(s)",
+      "searchPlaceholder": "Commencez à taper pour trouver une équipe"
+    },
+    "moreMenu": {
+      "activate": "Activer",
+      "deactivate": "Désactiver",
+      "clone": "Reproduire"
+    },
+    "teamStates": {
+      "all": "Tout",
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "modalMessages": {
+      "hierarchies": {
+        "message": "l’équipe fait partie d’une ou plusieurs hiérarchies. Lors de la désactivation, souhaitez-vous également supprimer l’association d’équipe des hiérarchies?",
+        "bulkMessage": "Lors de la désactivation des équipes sélectionnées, souhaitez-vous également supprimer l’association d’équipe des hiérarchies?"
+      }
+    },
+    "newTeamNamePlaceholder": "Équipe sans titre",
+    "teamLeadPlaceHolder": "Sélectionnez un chef d’équipe...",
+    "addHeader": "Créer une nouvelle équipe",
+    "editTeam": "Modifier l’équipe",
+    "employeesTab": {
+      "header": "Employés",
+      "assignedEmployeesTxt": "Employés assignés",
+      "addEmployeesBtn": "Ajouter des employés",
+      "selectEmployeesTxt": "Sélectionner des employés",
+      "selectedTxt": "Sélectionné :"
+    },
+    "contactHandlingInfoTab": {
+      "header": "Gestion des contacts"
+    },
+    "failedLoadTeams": "Échec de chargement de l’équipe. Réessayez.",
+    "messages": {
+      "updateSuccess": "Équipe mise à jour avec succès",
+      "updateFailure": "Impossible de mettre à jour les détails de l’équipe",
+      "updateSuccessStartedMsg": "La mise à jour a démarré avec succès, il faudra plusieurs minutes pour terminer le processus",
+      "failedToUpdateTeam": "L’ID de division d’équipe ne correspond pas à l’ID de division d’équipe existant"
+    },
+    "hierarchyType": {
+      "ORGANIZATIONAL": "Organisationnel"
+    }
+  },
+  "userManagementPage": {
+    "failedLoadUsers": "Échec de chargement des utilisateurs. Réessayez.",
+    "pageTitle": "Employés",
+    "newUserBtn": "Nouvel employé",
+    "importUsersBtn": "Importer des employés",
+    "userListHeader": "Employés dans {{orgName}} :",
+    "items": "employés",
+    "item": "employé",
+    "selectedItems": "{{selectedCount}} sélectionné(s)",
+    "billable": "Facturables",
+    "non-billable": "Non facturable",
+    "virtualAgentEnabled": "TRUE",
+    "virtualAgentDisabled": "FAUX",
+    "gridColumnsHeaders": {
+      "name": "Nom",
+      "email": "Courriel",
+      "acdLogin": "Connexion ACD",
+      "role": "Rôle",
+      "type": "Type",
+      "state": "État",
+      "group": "Unité de planification",
+      "userName": "Nom d’utilisateur",
+      "billable": "Facturable",
+      "virtualAgentEnabled": "Agent virtuel"
+    },
+    "filters": {
+      "schedulingUnits": " Unités de planification",
+      "skills": " Compétences",
+      "groups": " Groupes",
+      "searchPlaceholder": "Commencez à saisir du texte pour trouver un utilisateur",
+      "label": "Afficher",
+      "teams": " Équipes",
+      "billable": " Facturable",
+      "type": " Types",
+      "division": " Divisions"
+    },
+    "popover": {
+      "visibility": "Vous n’êtes pas autorisé à \n afficher ces informations",
+      "acdLoginLbl": "Connexion ACD",
+      "hireDateLbl": "Date d’embauche : {{value}}",
+      "rankLbl": "Rang : {{value}}",
+      "skillsLbl": "Compétences : {{value}}",
+      "visibilityInfo": "Vous ne pouvez pas modifier votre propre visibilité.",
+      "roleInfo": "Vous ne pouvez pas changer votre propre rôle.",
+      "visibilityRoleInfo": "Vous n’êtes pas autorisé à consulter ces informations. Vous ne pouvez pas modifier votre propre rôle."
+    },
+    "preferencesTab": {
+      "shiftPreferencesTitle": "Préférences de quart",
+      "TimePreferencesTitle": "Préférences de congés",
+      "TimePreferencesSubTitle": "Pas de jours de congés disponibles",
+      "PossibleDaysOff": "Jours de congés possibles",
+      "day": "jour",
+      "shiftTime": "heure du quart",
+      "noOptionsAvailable": "Cet employé est assigné à des règles sans aucune flexibilité, aux quarts fixes et sans préférences disponibles.",
+      "noOptionsAvailableForShift": "Aucun quart assigné."
+    },
+    "userStates": {
+      "active": "Actif",
+      "pending": "En attente",
+      "unregistered": "Invitation",
+      "inviting": "Envoi en cours",
+      "deleted": "Inactif",
+      "locked": "Déverrouillé",
+      "all": "Tout",
+      "samlUnregistered": "Activer",
+      "lockedUser": "Utilisateur verrouillé",
+      "passwordLocked": "Mot de passe verrouillé"
+    },
+    "userRoles": {
+      "agent": "Agent"
+    },
+    "bulkOperationsBtns": {
+      "inviteBtn": "Invitation",
+      "deleteBtn": "Supprimer",
+      "deactivateBtn": "Désactiver",
+      "activateBtn": "Activer",
+      "resetPasswordBtn": "Réinitialiser mdp",
+      "tooltips": {
+        "invite": "Inviter un employé",
+        "delete": "Supprimer un employé",
+        "resetPwd": "Réinitialiser le mot de passe"
+      }
+    },
+    "status": {
+      "invite": "Invitation"
+    },
+    "tabLabels": {
+      "general": "Général",
+      "skills": "Compétences WEM",
+      "availability": "Disponibilité",
+      "preferences": "Préférences",
+      "changeAuditHistory": "Historique des modifications",
+      "acd": "ACD",
+      "security": "Sécurité",
+      "contactHandling": "Paramètres du contact",
+      "secondaryRoles": "Rôles secondaires",
+      "accessKeys": "Clés d’accès",
+      "visibility": "Visibilité",
+      "recordingAccounts": "Comptes d’enregistrement",
+      "bcp": "BCP"
+    },
+    "changeAuditHistory": {
+      "noRowsOverlayText": "Données de l’historique des modifications non trouvées",
+      "itemsCountLabel": "modifications",
+      "User": {
+        "userName": "Nom de l’Utilisateur",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "emailAddress": "Adresse courriel",
+        "emailToBeVerified": "Courriel (vérification en attente)",
+        "role": "Rôle principal",
+        "roleUUID": "Rôle principal",
+        "secondaryRoleIds": "Rôles secondaires",
+        "mobileNumber": "Numéro de portable",
+        "telephone1": "Téléphone 1",
+        "telephone2": "Téléphone 2",
+        "hireDate": "Date d’embauche",
+        "rank": "Rang",
+        "views": "Vues",
+        "teamId": "Assigné à l’équipe",
+        "groupIds": "Affecté au groupe",
+        "externalIdentity": "Identificateur externe",
+        "status": "État",
+        "acdInfos": "Infos ACD",
+        "middleName": "Deuxième prénom",
+        "displayName": "Afficher le nom",
+        "timeZone": "Fuseau horaire",
+        "type": "Type",
+        "customAttributes": {
+          "canBeScheduled": "Peut être programmé",
+          "canBeCoachedOrEvaluated": "Peut être accompagné ou évalué",
+          "canBeRecorded": "Peut être enregistré (Voix)",
+          "canBeRecordedScreen": "Peut être enregistré (Écran)",
+          "canBeRecordedDefault": "Peut être enregistré",
+          "canBeAnalyzed": "Peut être analysé",
+          "osLogin": "Connexion au SE",
+          "digitalEngagement": "Digital Engagement",
+          "customerCard": "Customer Card",
+          "agentIntegrations": "Intégrations d’agents",
+          "canViewBIReports": "Peut afficher les rapports BI",
+          "canEditBIReports": "Peut modifier les rapports BI",
+          "virtualAgentEnabled": "Agent virtuel activé",
+          "hasSmartReachUserAccess": "Utilisateur SmartReach",
+          "hasSmartReachAgentAccess": "Agent SmartReach",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartReachDeskAccess": "Bureau",
+          "smartReachECCAccess": "Enhanced Customer Card",
+          "dataCollectionEnabled": "Collecte de données activée"
+        },
+        "loginAuthenticatorId": "ID d’authentificateur de connexion",
+        "source": "Source",
+        "elevatedDivisionId": "ID de division élevée"
+      }
+    },
+    "deleteSelectedUsersMsg": "Vous êtes sur le point de désactiver les employés sélectionnés. Cette action empêchera les employés de pouvoir se connecter et ils devront être réactivés pour activer la connexion. Continuer?",
+    "deleteSingleUsersMsg": "Vous êtes sur le point de désactiver cet employé. Cette action empêchera l’employé de pouvoir se connecter et l’employé devra être réactivé pour activer la connexion. Continuer?",
+    "inviteSelectedUsersMsg": "Les employés sélectionnés seront invités à rejoindre cette application. Continuer?",
+    "resetPasswordSelectedUsersMsg": "Cela obligera les utilisateurs sélectionnés à mettre à jour leur mot de passe lors de la connexion. Continuer?",
+    "activateSelectedUsersMsg": "Les employés sélectionnés seront activés. Continuer?",
+    "reinviteUsersMsg": "L’invitation a expiré. Vérifiez l’adresse courriel et réessayez.",
+    "reinviteBtnText": "Renvoyer",
+    "inviteUsersSuccessMsg": "Les employés ont été invités avec succès",
+    "inviteUsersWarnMsg": "Les employés étaient déjà actifs",
+    "inviteUsersFailureMsg": "L’invitation des employés a échoué",
+    "inviteSingleUserSuccessMsg": "L’employé a été invité avec succès",
+    "activateSingleSamlUserSuccessMsg": "L’employé a été activé avec succès",
+    "activateSingleUserSuccessMsg": "L’employé a été activé avec succès",
+    "activateSingleUserFailureMsg": "L’employé n’a pas pu être activé",
+    "createAndInviteSingleUserSuccessMsg": "Création et invitation de l’employé réussies",
+    "createAndActivateSingleSamlUserSuccessMsg": "Employé créé et activé avec succès",
+    "inviteSingleUserFailureMsg": "L’employé n’a pas pu être invité",
+    "deleteSingleUserSuccessMsg": "L’employé a été désactivé avec succès. Les futurs calendriers de cet employé ont été supprimés.",
+    "deleteSingleUserFailureMsg": "L’employé n’a pas pu être supprimé",
+    "deleteUsersSuccessMsg": "{{numOfUsers}} employés ont été désactivés avec succès. Les calendriers futurs de ces employés ont été supprimés.",
+    "deleteUsersFailureMsg": "{{numOfFailedToDeleteUsers}} employés sur {{totalExpected}} n’ont pas pu être supprimés",
+    "deleteLoggedInUser": "Vous ne pouvez pas supprimer votre propre employé",
+    "reactivateUser": "Utilisateur activé avec succès",
+    "activateUsersSuccessMsg": "Employés activés avec succès",
+    "activateUsersFailureMsg": "Les employés ne peuvent pas être activés en raison d’une erreur interne.",
+    "resetUsersPasswordSuccessMsg": "Réinitialisation du mot de passe réussie.",
+    "resetUsersPasswordFailureMsg": "Échec de la réinitialisation du mot de passe.",
+    "unlockUser": {
+      "popover": {
+        "warningMessage": "Ce compte est verrouillé en raison d’un trop grand nombre de tentatives de connexion infructueuses.",
+        "confirmMessage": "Voulez-vous déverrouiller cet utilisateur?"
+      },
+      "messages": {
+        "unlockSuccess": "Employé déverrouillé avec succès.",
+        "unlockFailure": "Impossible de déverrouiller l’employé."
+      },
+      "lockSubtitle": "(Compte bloqué)"
+    },
+    "actionPopover": {
+      "deactivateUser": "Désactiver",
+      "activateUser": "Activer",
+      "resendInvitation": "Renvoyer l’invitation",
+      "inviteUser": "Invitation",
+      "resetPassword": "Réinitialiser mdp",
+      "unlockUser": "Déverrouiller l’utilisateur",
+      "unlockPassword": "Déverrouiller le mot de passe"
+    },
+    "modalMessages": {
+      "resetPassword": {
+        "title": "Réinitialiser le mot de passe?",
+        "confirmButtonText": "Réinitialiser le mot de passe",
+        "message": "Cela obligera l’utilisateur à mettre à jour son mot de passe lors de la connexion. Voulez-vous vraiment réinitialiser le mot de passe de cet utilisateur?"
+      }
+    },
+    "unlockInactiveUser": {
+      "toasterMessages": {
+        "UnlockedSuccess": " a été déverrouillé",
+        "UnlockFailed": " le déverrouillage a échoué",
+        "PasswordUnlockFailed": "Le déverrouillage du mot de passe a échoué pour l’utilisateur ",
+        "PasswordForUser": "Mot de passe pour l’utilisateur ",
+        "failedLoadEmployee": "Échec du chargement des employés "
+      }
+    },
+    "userNotInSameDivisionMsg": {
+      "errorDescription": "L’utilisateur n’appartient pas à la même division que l’utilisateur connecté.",
+      "failureMsg": "Impossible de réinitialiser le mot de passe des utilisateurs d’une division parente."
+    }
+  },
+  "commonButtons": {
+    "SingleContactDefault": "Contact unique (par défaut)",
+    "Omnichannel": "Omnicanal",
+    "SingleContact": "Contact unique",
+    "ok": "OK",
+    "cancel": "Annuler",
+    "no": "Non",
+    "noDefault": "Non (par défaut)",
+    "yes": "Oui",
+    "yesDefault": "Oui (par défaut)",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "invite": "Invitation",
+    "edit": "Modifier",
+    "update": "Mettre à jour",
+    "upload": "Téléverser",
+    "today": "Aujourd’hui",
+    "showAll": "Afficher tout",
+    "clearAll": "Tout effacer",
+    "close": "Fermer",
+    "create": "Créer",
+    "selectAll": "Sélectionner tout",
+    "generate": "Générer",
+    "chooseFile": "Sélectionner un Fichier",
+    "add": "Ajouter",
+    "publish": "Publier",
+    "set": "Définir",
+    "day": "Jour",
+    "week": "Semaine",
+    "refresh": "Actualiser",
+    "off": "Désactivé",
+    "on": "Activé",
+    "discard": "Annuler les modifications",
+    "view": "Afficher les détails",
+    "remove": "Supprimer"
+  },
+  "defaultValues": {
+    "defaultNumeric": "{{numericValue}} (par défaut)"
+  },
+  "weekDays": {
+    "sunday": "Dimanche",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi"
+  },
+  "weekShortDays": {
+    "SUN": "DIM",
+    "MON": "LUN",
+    "TUE": "MAR",
+    "WED": "MER",
+    "THU": "JEU",
+    "FRI": "VEN",
+    "SAT": "SAM"
+  },
+  "scheduler": {
+    "noeditsAllowed": "Les quarts partiellement affichés ne sont pas modifiables. Veuillez changer les dates pour modifier le quart.",
+    "netstaffing": {
+      "diff": "Diff",
+      "req": "Req",
+      "staff": "Effectif"
+    },
+    "publishModal": {
+      "header": "Publier les nouveaux calendriers",
+      "publishConformation": "Certaines des dates que vous avez sélectionnées ont déjà été publiées. Les employés seront informés du nouvel agenda en cas de changement de calendrier.",
+      "noSchedulesToPublish": "Il n’y a pas de calendrier dans la période sélectionnée.",
+      "attention": "Attention!",
+      "publishAnywayBtn": "Publier quand même",
+      "schedulingUnit": "Unité de planification",
+      "from": "Début :",
+      "to": "Fin :",
+      "selectDatePlaceholder": "Sélectionner une date",
+      "oneWeek": "1S",
+      "twoWeeks": "2S",
+      "threeWeeks": "3S",
+      "oneMonth": "1M",
+      "successMessage": "Dates publiées avec succès"
+    },
+    "employeeCount": "{{count}} utilisateurs",
+    "filters": {
+      "schedulingUnits": "{{count}} unités de planification",
+      "skills": "{{count}} compétences",
+      "groups": "{{count}} groupes",
+      "searchPlaceholder": "Commencez à saisir du texte pour trouver un utilisateur"
+    },
+    "activityModal": {
+      "activityCodePlaceholder": "Sélectionner un code d’activité",
+      "addTitle": "Ajouter une activité - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Ajouter des commentaires...",
+      "editTitle": "Modifier l’activité - {{userName}}",
+      "error": {
+        "conflict": "Conflit détecté. Cette activité remplacera les activités qui se chevauchent.",
+        "invaliddatetime": "La date ou l’heure spécifiée n’est pas valide.",
+        "daterange": "Sélectionnez une date : aujourd’hui, hier ou demain.",
+        "openhours": "Vous ne pouvez pas planifier sans ouvrir",
+        "endBeforeStart": "La date de fin doit être identique ou postérieure à la date de début.",
+        "timeRangeOutsideOfRange": "L’activité doit commencer ou se terminer dans la plage de temps ({{start}} - {{end}}).",
+        "activityOverlappingTimeRange": "Cette activité est en dehors du calendrier récupéré et peut remplacer les activités existantes."
+      },
+      "end": "Fin",
+      "remaining": "{{currentLength}} caractères restants",
+      "remove": "Supprimer",
+      "start": "Démarrer"
+    },
+    "allDay": "Toute la journée",
+    "cancel": "Annuler",
+    "closed": "Vous ne pouvez pas ajouter de quarts et d’activités lorsque l’organisation est fermée.",
+    "employeeName": "Nom",
+    "hotkeys": {
+      "nextHotKey": "Jour suivant",
+      "previousHotKey": "Jour précédent",
+      "refreshHotKey": "Recharger les calendriers de la base de données",
+      "saveHotKey": "Enregistrer les changements de calendrier",
+      "todayHotKey": "Aller à aujourd’hui"
+    },
+    "hours": "Heures",
+    "menuItems": {
+      "addActivity": "Ajouter une activité",
+      "addShift": "Ajouter un quart",
+      "copyActivity": "Copier l’activité",
+      "copyShift": "Copier le quart",
+      "editActivity": "Modifier l’activité",
+      "editShift": "Modifier le quart",
+      "pasteActivity": "Coller l’activité",
+      "pasteShift": "Coller le quart",
+      "removeActivity": "Supprimer l’activité",
+      "removeShift": "Supprimer le quart",
+      "cancel": "Fermer"
+    },
+    "name": "Nom",
+    "organizationClosed": "Organisation fermée",
+    "publish": "Publier",
+    "save": "Enregistrer",
+    "saveAndPublish": "Enregistrer et publier",
+    "scheduler": "Gestionnaire de calendrier",
+    "settings": "Configuration du gestionnaire de calendrier",
+    "setupModal": {
+      "tabs": {
+        "netStaffing": {
+          "title": "Dotation en personnel nette",
+          "range": {
+            "min": "Sous-effectif",
+            "mid": "Équilibré",
+            "max": "Sureffectif"
+          }
+        }
+      },
+      "saveSuccess": "Les paramètres du gestionnaire de calendrier ont été enregistrés avec succès.",
+      "saveFailure": "Une erreur s’est produite lors de l’enregistrement des paramètres du gestionnaire de calendrier."
+    },
+    "shiftModal": {
+      "addTitle": "Ajouter un quart de travail - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Vos commentaires...",
+      "editTitle": "Modifier le quart de travail - {{userName}}",
+      "shiftType": "Type de quart",
+      "error": {
+        "conflict": "Conflit détecté. Cette activité remplacera les activités qui se chevauchent.",
+        "invalidtime": "L’heure spécifiée n’est pas valide.",
+        "endBeforeStart": "La date de fin doit être identique ou postérieure à la date de début.",
+        "timeRangeOutsideOfRange": "Le quart de travail doit commencer ou se terminer dans la plage de temps ({{start}} - {{end}}).",
+        "shiftOverlappingTimeRange": "Ce quart est en dehors du calendrier récupéré et peut remplacer les quarts existants."
+      },
+      "end": "Fin",
+      "remaining": "{{currentLength}} caractères restants",
+      "remove": "Supprimer",
+      "start": "Démarrer"
+    },
+    "toasts": {
+      "saveSuccessMessage": "Les modifications de calendrier ont été enregistrées avec succès.",
+      "noShiftPaste": "Impossible de coller un quart au-delà de la plage visible.",
+      "noShiftCopy": "Impossible de copier une équipe au-delà de la plage visible.",
+      "noActivityPaste": "Impossible de coller une activité au-delà de la plage visible.",
+      "multipleShifts": "Attention!  Il y a plusieurs quart pour une même journée.",
+      "overlappingShiftsActivities": "Attention!  Des chevauchements de quarts et/ou d’activités existent",
+      "noEdit": "Impossible de modifier un quart ou une activité au-delà de la plage visible.",
+      "noRemove": "Impossible de supprimer un quart ou une activité au-delà de la plage visible.",
+      "noAddActivity": "Impossible d’ajouter une activité à un quart au-delà de la plage visible."
+    },
+    "today": "Aujourd’hui",
+    "unavailable": "Non disponible",
+    "unsaved": "Quitter sans enregistrer les modifications?",
+    "dailyView": "Vue journalière",
+    "weeklyView": "Vue hebdomadaire"
+  },
+  "datePicker": {
+    "nextDay": "Jour suivant",
+    "openCalendar": "Ouvrir le calendrier",
+    "previousDay": "Jour précédent",
+    "today": "Aujourd’hui"
+  },
+  "timePicker": {
+    "openTimePicker": "Ouvrir le sélecteur d’heures"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "Jour suivant",
+    "openCalendar": "Ouvrir le calendrier",
+    "openTimeChooser": "Ouvrir le sélecteur d’heure",
+    "previousDay": "Jour précédent",
+    "today": "Aujourd’hui"
+  },
+  "recoverPassword": {
+    "recoverMessage": "Récupérez votre mot de passe en trois étapes simples :",
+    "step1": "Tapez ci-dessous l’adresse courriel que vous avez utilisée pour vous enregistrer",
+    "step2": "Nous vous enverrons un lien pour réinitialiser votre mot de passe",
+    "step3": "Utilisez ce lien pour réinitialiser votre mot de passe",
+    "successMessage": "Un message contenant le lien de réinitialisation du mot de passe a été envoyé à votre adresse courriel",
+    "forgetPassword": "Mot de passe oublié",
+    "forgetPasswordExplenation": "Envoyez votre adresse courriel et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+    "resetBtn": "Envoyer le lien de réinitialisation",
+    "back": "Retour à l’authentification",
+    "checkYourEmail": "Vérifiez votre courriel",
+    "mailSuccessSent": "Nous vous avons envoyé un courriel avec un lien pour réinitialiser votre mot de passe",
+    "successSend": "Demande de réinitialisation du mot de passe envoyée avec succès"
+  },
+  "errors": {
+    "throttlingError": {
+      "code": "retryLater",
+      "message": "Impossible de récupérer les informations sur Hierarchy Association. Veuillez réessayer dans quelques minutes."
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Échec de la connexion"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Erreur générale"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "Cette page n’est pas disponible. Veuillez vérifier votre connexion et réessayer."
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Erreur générale {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Paramètres non valides"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Employé non autorisé"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "Aucune réponse du serveur. Veuillez réessayer plus tard."
+    },
+    "wrongCredentials": "Vous avez saisi une adresse courriel ou un mot de passe incorrect(e)",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Erreur interne du serveur."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Erreur interne."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "L’unité de planification n’existe pas."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "Ce nom existe déjà. Essayez un autre."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "Ce locataire ou cet employé existe déjà. Essayez un autre."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "Cet identifiant existe déjà. Essayez un nouveau"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "Le fichier n’existe pas."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "L’employé n’existe pas"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "Aucun employé à inviter."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "Impossible de créer un employé."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "État d’employé non valide"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "Nom d’organisation non valide."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Courriel non valide."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "Prénom de l’employé non valide."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "Nom de l’employé non valide."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "Impossible de supprimer l’unité de planification par défaut."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "L’ID de l’unité de planification est manquant."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "Heures maximum de l’employé en dehors de la plage."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "Le mot de passe de l’employé n’est pas valide."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "Impossible de mettre à jour le groupe par défaut."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "Impossible de supprimer les employés du groupe par défaut."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "Mot de passe de l’employé incorrect."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "L’employé n’existe pas."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "Vous ne pouvez pas supprimer votre propre employé"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "Vous ne pouvez pas supprimer le seul administrateur"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "Vous ne pouvez pas supprimer un employé déjà supprimé"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "Jeton d’authentification non valide"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "Impossible de créer un compte"
+    },
+    "platform_user_manager_service_29": {
+      "code": "CUSTOM_ATTRIBUTE_TYPE_DOES_NOT_EXIST",
+      "message": "Ce type d’attribut personnalisé n’existe pas"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "Le nom de l’organisation n’est pas valide"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "Le format de fichier n’est pas pris en charge"
+    },
+    "platform_user_manager_service_32": {
+      "code": "USER_RANK_NOT_VALID",
+      "message": "Rang non valide pour l’employé"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "Vous n’avez pas l’autorisation de changer le rôle"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "Vous ne pouvez pas changer votre propre rôle"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "Impossible de supprimer le dernier administrateur."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "Ce nom existe déjà. Essayez un autre."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "Impossible de changer le mot de passe, car l’ancien mot de passe et le nouveau sont identiques."
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "Vous avez saisi une adresse courriel ou un mot de passe incorrect(e)"
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "Veuillez vérifier vos coordonnées et réessayer"
+    },
+    "platform_user_manager_service_40": {
+      "code": "EMPTY_EMAIL_LIST",
+      "message": "Liste de courriels vides"
+    },
+    "platform_user_manager_service_41": {
+      "code": "ROLE_DOES_NOT_EXIST",
+      "message": "Ce rôle n’existe pas"
+    },
+    "platform_user_manager_service_42": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "ID de connexion ACD non valide"
+    },
+    "platform_user_manager_service_43": {
+      "code": "ATTRIBUTE_VALUE_ALREADY_EXIST",
+      "message": "La valeur de l’attribut existe déjà"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "L’ID de connexion ACD existe déjà"
+    },
+    "platform_user_manager_service_45": {
+      "code": "FAILED_TO_CREATE_USER_MAX_USERS_IN_TENANT_REACHED",
+      "message": "Limite maximale d’utilisateurs dépassée"
+    },
+    "platform_user_manager_service_46": {
+      "code": "BAD_REQUEST",
+      "message": "Le nouvel employé dépassera la limite d’utilisateurs. Veuillez contacter le service des ventes à l’adresse CXoneSalesTeam@niceincontact.com"
+    },
+    "platform_user_manager_service_47": {
+      "code": "FAILED_TO_REVIVE_USER",
+      "message": "N’a pas réussi à rétablir l’employé"
+    },
+    "platform_user_manager_service_48": {
+      "code": "UNABLE_TO_PARSE_DATE_FORMAT_MISMATCH",
+      "message": "Impossible d’analyser le format de date"
+    },
+    "platform_user_manager_service_49": {
+      "code": "INVALID_FUTURE_DATED_LAST_ACCESS_TIME",
+      "message": "Dernière heure d’accès non valide"
+    },
+    "platform_user_manager_service_50": {
+      "code": "USER_NAME_NOT_VALID",
+      "message": "Nom d’employé non valide"
+    },
+    "platform_user_manager_service_51": {
+      "code": "USER_EMAIL_ALREADY_EXISTS",
+      "message": "Ce courriel existe déjà"
+    },
+    "platform_user_manager_service_52": {
+      "code": "USERNAME_ALREADY_EXISTS",
+      "message": "Le nom de l’employé existe déjà"
+    },
+    "platform_user_manager_service_57": {
+      "code": "INVALID_USER_ROLE",
+      "message": "Rôle non valable pour l’employé"
+    },
+    "platform_user_manager_service_59": {
+      "code": "USERNAME_NOT_IN_VALID_EMAIL_FORMAT",
+      "message": "Le nom d’utilisateur doit être dans le format d’une adresse courriel"
+    },
+    "platform_user_manager_service_60": {
+      "code": "DISPLAY_NAME_ALREADY_EXISTS",
+      "message": "Le nom d’affichage de l’employé existe déjà."
+    },
+    "platform_user_manager_service_61": {
+      "code": "DISPLAY_NAME_CANNOT_BE_NULL",
+      "message": "Un nom d’affichage est requis pour l’employé."
+    },
+    "platform_user_manager_service_62": {
+      "code": "DISPLAY_NAME_CANNOT_BE_EMPTY",
+      "message": "Un nom d’affichage est requis pour l’employé."
+    },
+    "platform_user_manager_service_64": {
+      "code": "MULTIPLE_USER_WITH_SAME_USERNAME_FOUND",
+      "message": "Plusieurs employés avec le même nom d’utilisateur ont été trouvés"
+    },
+    "platform_user_manager_service_65": {
+      "code": "TEAM_NOT_FOUND_FOR_ID",
+      "message": "L’équipe n’a pas été trouvée pour une ID donnée"
+    },
+    "platform_user_manager_service_66": {
+      "code": "INVALID_SEARCH_CRITERIA",
+      "message": "Critères de recherche non valides"
+    },
+    "platform_user_manager_service_67": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "Nom d’équipe non valide"
+    },
+    "platform_user_manager_service_68": {
+      "code": "TEAM_ALREADY_EXISTS",
+      "message": "L’équipe existe déjà"
+    },
+    "platform_user_manager_service_69": {
+      "code": "TEAM_LEAD_USER_DOES_NOT_EXIST",
+      "message": "Le chef d’équipe n’existe pas"
+    },
+    "platform_user_manager_service_70": {
+      "code": "TEAM_LEAD_USER_NOT_PROVIDED",
+      "message": "Équipe sans chef d’équipe"
+    },
+    "platform_user_manager_service_71": {
+      "code": "TENANT_SCHEMA_OR_USER_ID_DOES_NOT_EXIST",
+      "message": "Le schéma locataire ou l’ID du salarié n’existe pas."
+    },
+    "platform_user_manager_service_72": {
+      "code": "INVALID_INPUT_OR_DUPLICATE_CLAIM_DATA",
+      "message": "Données d’entrée non valides ou données de réclamation en double"
+    },
+    "platform_user_manager_service_73": {
+      "code": "REDIS_CACHING_ERROR",
+      "message": "Problème avec le cache redis"
+    },
+    "platform_user_manager_service_74": {
+      "code": "REDIS_RETRIVAL_ERROR",
+      "message": "Problème avec le cache redis"
+    },
+    "platform_user_manager_service_75": {
+      "code": "ROLE_MISSING",
+      "message": "Rôle manquant"
+    },
+    "platform_user_manager_service_76": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "Problème avec l’obtention des détails sur les rôles"
+    },
+    "platform_user_manager_service_77": {
+      "code": "SERVICE_USER_AUTHENTICATION_FAILED",
+      "message": "Erreur lors de l’authentification de l’employé"
+    },
+    "platform_user_manager_service_78": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "Problème avec l’obtention des détails sur les rôles"
+    },
+    "platform_user_manager_service_81": {
+      "code": "IMPERSONATE_USER_UPDATE_NOT_ALLOWED",
+      "message": "La mise à jour d’un utilisateur d’emprunt n’est pas autorisée"
+    },
+    "platform_user_manager_service_83": {
+      "code": "REDIS_TEMPLATE_CREATION_ERROR",
+      "message": "Problème avec le cache redis"
+    },
+    "platform_user_manager_service_84": {
+      "code": "INVALID_JOINT_USER_ATTRIBUTES",
+      "message": "Attribut utilisateur commun non valide"
+    },
+    "platform_user_manager_service_85": {
+      "code": "INVALID_IMPORT_RUN_ID",
+      "message": "ID de cycle d’importation non valide"
+    },
+    "platform_user_manager_service_86": {
+      "code": "NO_REPORTS_FOUND_FOR_GIVEN_IMPORT_RUN",
+      "message": "Aucun état n’a été trouvé pour un cycle d’importation donné."
+    },
+    "platform_user_manager_service_88": {
+      "code": " PERMISSION_DENIED",
+      "message": "permission refusée"
+    },
+    "platform_user_manager_service_94": {
+      "code": "INVALID_INPUT",
+      "message": "Entrée non valide"
+    },
+    "platform_user_manager_service_95": {
+      "code": "RECORD_NOT_FOUND",
+      "message": "Enregistrement non trouvé"
+    },
+    "platform_user_manager_service_96": {
+      "code": "RECORD_ALREADY_EXISTS",
+      "message": "L’enregistrement existe déjà"
+    },
+    "platform_user_manager_service_99": {
+      "code": "AWS_USERPOOL_DELETION_FAILED",
+      "message": "Échec de la suppression du pool d’utilisateurs"
+    },
+    "platform_user_manager_service_100": {
+      "code": "EMPTY_APPLICATION_lIST",
+      "message": "La liste des applications est vide"
+    },
+    "platform_user_manager_service_101": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "Statut non valable pour le rôle"
+    },
+    "INVALID_ROLE_STATUS": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "État non valable pour le rôle"
+    },
+    "user_upload_131": {
+      "code": "INVALID_VIEW_COUNT",
+      "message": "Vous pouvez attribuer jusqu’à 3 vues à l’utilisateur"
+    },
+    "user_upload_132": {
+      "code": "INVALID_VIEW_NAME",
+      "message": "Nom de vue non valide"
+    },
+    "user_upload_133": {
+      "code": "INVALID_INPUT",
+      "message": "Entrée non valide"
+    },
+    "user_upload_134": {
+      "code": "INVALID_AGENT_INTEGRATIONS",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "platform_user_manager_service_102": {
+      "code": "INVALID_ROLE_MODIFIABLE_FLAG",
+      "message": "Indicateur modifiable non valide pour le rôle"
+    },
+    "platform_user_manager_service_111": {
+      "code": "INVALID_ROLENAME",
+      "message": "Le nom du rôle n’est pas valide"
+    },
+    "platform_user_manager_service_112": {
+      "code": "INVALID_USERNAME_ROLENAME",
+      "message": "Nom d’employé et nom de rôle non valides"
+    },
+    "platform_user_manager_service_114": {
+      "code": "INVALID_ROLE_PERMISSION",
+      "message": "Autorisation non valide pour le rôle"
+    },
+    "platform_user_manager_service_115": {
+      "code": "INVALID_ROLE_ID",
+      "message": "ID de rôle non valide"
+    },
+    "platform_user_manager_service_116": {
+      "code": "INVALID_LICENSE",
+      "message": "Licence non valide"
+    },
+    "platform_user_manager_service_117": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_NAME",
+      "message": "Nom d’attribut personnalisé non valide"
+    },
+    "platform_user_manager_service_118": {
+      "code": "ATTRIBUTE_NAME_WITH_SPACE",
+      "message": "L’espace n’est pas autorisé dans le nom de l’attribut"
+    },
+    "platform_user_manager_service_125": {
+      "code": "INVALID_USER_ROLE_STATUS",
+      "message": "Veuillez affecter l’employé à un rôle actif avant de le réactiver."
+    },
+    "platform_user_manager_service_127": {
+      "code": "FAILED_TO_CREATE_ROLE",
+      "message": "Échec de la création d’un rôle"
+    },
+    "platform_user_manager_service_128": {
+      "code": "FAILED_TO_EDIT_ROLE",
+      "message": "Échec de la modification du rôle"
+    },
+    "platform_user_manager_service_132": {
+      "code": "INVALID_TEAM_STATUS",
+      "message": "Statut non valide pour l’équipe"
+    },
+    "platform_user_manager_service_133": {
+      "code": "TEAM_LEAD_USER_NOT_ACTIVE",
+      "message": "L’employé chef d’équipe n’est pas actif"
+    },
+    "platform_user_manager_service_134": {
+      "code": "INVALID_REQUEST",
+      "message": "Demande non valide"
+    },
+    "platform_user_manager_service_135": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR",
+      "message": "Authentificateur de connexion non valide"
+    },
+    "platform_user_manager_service_137": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR_ATTRIBUTE",
+      "message": "Attribut d’authentificateur de connexion non valide"
+    },
+    "platform_user_manager_service_138": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_ENTITY_NAME",
+      "message": "Nom d’entité d’attribut personnalisé non valide"
+    },
+    "platform_user_manager_service_140": {
+      "code": "INVALID_MFA_DETAILS",
+      "message": "Détails AMF non valides"
+    },
+    "platform_user_manager_service_143": {
+      "code": "NOT_ALLOWED_TO_CHANGE_TEAM_STATUS",
+      "message": "Impossible de changer l’état de l’équipe"
+    },
+    "platform_user_manager_service_152": {
+      "code": " USER_IS_TEAM_LEAD",
+      "message": "Impossible de supprimer un employé qui est chef d’équipe"
+    },
+    "platform_user_manager_service_155": {
+      "code": "NO_USER_TO_UPDATE_EMAIL",
+      "message": "l’employé n’existe pas pour la mise à jour son courriel"
+    },
+    "platform_user_manager_service_156": {
+      "code": "NO_EMAIL_TO_UPDATE",
+      "message": "Le courriel doit être mis à jour"
+    },
+    "platform_user_manager_service_160": {
+      "code": "USER_EMAIL_UPDATE_FAILED",
+      "message": "Échec de la mise à jour du courriel"
+    },
+    "platform_user_manager_service_164": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "Valeur de fuseau horaire non valide"
+    },
+    "platform_user_manager_service_198": {
+      "code": "NOT_ALLOWED_TO_CHANGE_SCIM_PROVISIONED_FIELDS",
+      "message": "Impossible de mettre à jour les champs provisionnés SCIM"
+    },
+    "platform_user_manager_service_200": {
+      "code": "EMAIL_DOMAIN_NOT_ALLOWED",
+      "message": "Domaine de messagerie non autorisé"
+    },
+    "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE",
+      "message": "Valeur d’attribut personnalisée non valide"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Erreur interne du serveur."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Erreur interne."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "Ce nom existe déjà. Essayez un autre."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "La compétence n’existe pas."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "Un employé ne peut pas avoir plus de 50 compétences."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "Le nom de la compétence n’est pas valide"
+    },
+    "wfo_user_manager_service_8": {
+      "code": "INVALID_INPUT",
+      "message": "Entrée non valide"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "La règle hebdomadaire est vide"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "règle hebdomadaire erronée"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "plage de jours de règle hebdomadaire erronée"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "plage horaire de règle hebdomadaire erronée"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "LA VALEUR DES QUARTS MAXIMUMS DE LA RÈGLE HEBDOMADAIRE EST INFÉRIEURE AU TOTAL DE JOURS MINIMUM DE LA RÈGLE JOURNALIÈRE"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "LA VALEUR DES QUARTS MINIMUMS DE LA RÈGLE HEBDOMADAIRE EST SUPÉRIEURE AU TOTAL DES JOURS MAXIMAUX DE LA RÈGLE JOURNALIÈRE"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "LA SOMME TOTALE DES HEURES JOURNALIÈRES MINIMUM EST PLUS GRANDE QUE LES HEURES MAXIMALES HEBDOMADAIRES"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "LA SOMME TOTALE DES HEURES JOURNALIÈRES MAXIMUM EST INFÉRIEURE AUX HEURES HEBDOMADAIRES MINIMUM"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "LA SOMME TOTALE DES JOURS POSSIBLES EST INFÉRIEURE AU JOUR MINIMUM CORRESPONDANT DE LA RÈGLE JOURNALIÈRE"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "LA SOMME TOTALE DE TOUS LES JOURS POSSIBLES UNIQUES EST INFÉRIEURE À LA SOMME TOTALE DES CHANGEMENTS MINIMUM PAR RÈGLE JOURNALIÈRE"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "AUCUN NOM POUR LA RÈGLE HEBDOMADAIRE N’A ÉTÉ DONNÉ"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "LES RÈGLES JOURNALIÈRES SONT VIDES"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "LA SOMME TOTALE DE TOUS LES JOURS POSSIBLES UNIQUES EST INFÉRIEURE AUX QUARTS MINIMUMS PAR SEMAINE"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "Le format de date n’est pas valide"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "La période entre deux dates n’est pas valide"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Une erreur de serveur interne s’est produite"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "Une erreur interne s’est produite"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "Le format de fichier n’est pas pris en charge"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "Les enregistrements du fichier n’ont pas pu être lus"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Impossible de trouver les titres de colonnes attendus. Regardez le fichier d’exemple."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Les compétences sont absentes du système"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "Les unités de planification sont absentes du fichier"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "Le premier début quotidien est après le dernier début"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "Le format d’incrément est erroné"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "Les heures de début de la règle journalière ne sont pas dans la plage correcte"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "La durée d’activité journalière est supérieure à la durée de règle journalière"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Le format Slack est erroné"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "L’heure de début relative est inférieure à l’heure de relève"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "La somme des durées d’activités est supérieure à la durée journalière"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "Aucune combinaison d’activités valide n’existe"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "Le code d’activité est supérieur au quart de la règle journalière"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "Le format de fichier n’est pas pris en charge"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "Le nom du code d’activité n’est pas valide"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "Le fuseau horaire dans l’unité de planification est incorrect"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "Impossible de supprimer le code d’activité par défaut"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "Veuillez sélectionner un modèle"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "L’identifiant du modèle n’est pas valide"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "Le nom du formulaire existe déjà"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Erreur interne du serveur."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Erreur interne."
+    },
+    "hierarchy_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Erreur interne du serveur."
+    },
+    "hierarchy_manager_service_2": {
+      "code": "INVALID_INPUT",
+      "message": "Entrée non valide"
+    },
+    "hierarchy_manager_service_3": {
+      "code": "INVALID_REQUEST",
+      "message": "Demande non valide"
+    },
+    "hierarchy_manager_service_12": {
+      "code": "INVALID_SEARCH_REQUEST_KEY",
+      "message": "Clé de recherche non valide"
+    },
+    "hierarchy_manager_service_23": {
+      "code": "INVALID_SEARCH_DIRECTION",
+      "message": "Sens de recherche non valide"
+    },
+    "hierarchy_manager_service_31": {
+      "code": "HIERARCHY_NAME_EXISTS",
+      "message": "Le nom de hiérarchie existe déjà"
+    },
+    "user_upload_100": {
+      "code": "INVALID_FIRST_NAME",
+      "message": "Le prénom est soit vide, soit non valide."
+    },
+    "user_upload_101": {
+      "code": "INVALID_LAST_NAME",
+      "message": "Le nom de famille est soit vide, soit non valide."
+    },
+    "user_upload_102": {
+      "code": "INVALID_USERNAME",
+      "message": "Le nom d’utilisateur doit être dans le format d’une adresse courriel"
+    },
+    "user_upload_103": {
+      "code": "INVALID_ROLE_NAME",
+      "message": "Le nom du rôle est soit vide, soit non valide."
+    },
+    "user_upload_104": {
+      "code": "INVALID_EMAIL_ADDRESS",
+      "message": "L’adresse courriel n’est pas valide"
+    },
+    "user_upload_105": {
+      "code": "INVALID_MOBILE_NUMBER",
+      "message": "Numéro de téléphone mobile non valide; le numéro ne peut contenir que des chiffres et les signes - et +."
+    },
+    "user_upload_106": {
+      "code": "INVALID_RANK",
+      "message": "Valeur de rang non valide, doit être comprise entre 1 et 999"
+    },
+    "user_upload_107": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "Nom de l’équipe non valide ou son état actuel est inactif"
+    },
+    "user_upload_108": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "L’utilisateur existe déjà"
+    },
+    "user_upload_109": {
+      "code": "INVALID_EXTERNAL_IDENTITY",
+      "message": "Valeur d’identité externe non valide"
+    },
+    "user_upload_110": {
+      "code": "INVALID_CAN_BE_COACHED_OR_EVALUATED_VALUE",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_111": {
+      "code": "INVALID_CAN_BE_SCHEDULED_VALUE",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_112": {
+      "code": "INVALID_CAN_BE_RECORDED_VALUE",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_113": {
+      "code": "INVALID_CAN_BE_ANALYZED_VALUE",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_114": {
+      "code": "INVALID_CAN_BE_MEASURED_VALUE",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_115": {
+      "code": "INVALID_OS_LOGIN_VALUE",
+      "message": "Valeur de connexion au SE non valide"
+    },
+    "user_upload_119": {
+      "code": "INVALID_HIRE_DATE",
+      "message": "Date d’embauche non valide, le format requis est MMM-JJ-MM-AAAA (JUL-14-2015)"
+    },
+    "user_upload_120": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "Valeur de fuseau horaire non valide"
+    },
+    "user_upload_125": {
+      "code": "INVALID_MFA_SECRET",
+      "message": "Secret AMF non valide"
+    },
+    "user_upload_126": {
+      "code": "INVALID_ROLE_NAME_RBAC",
+      "message": "Le nom du rôle est vide, a une valeur non valide ou vous n’êtes pas autorisé à attribuer ce rôle"
+    },
+    "user_upload_121": {
+      "code": "INVALID_VIRTUAL_AGENT_ENABLED",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_122": {
+      "code": "INVALID_VIRTUAL_AGENT_TYPE",
+      "message": "Valeur non valide, devrait être Digital Bot ou Digital Survey ou OFF"
+    },
+    "user_upload_123": {
+      "code": "INVALID_CAN_VIEW_BI_REPORTS_VALUE",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_124": {
+      "code": "INVALID_CAN_BE_RECORDED_SCREEN_VALUE",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_127": {
+      "code": "INVALID_MIDDLE_NAME",
+      "message": "Le second prénom a une valeur non valide"
+    },
+    "user_upload_128": {
+      "code": "INVALID_DISPLAY_NAME",
+      "message": "Le nom d’affichage a une valeur non valide"
+    },
+    "user_upload_129": {
+      "code": "INVALID_TYPE",
+      "message": "Le type a une valeur non valide"
+    },
+    "user_upload_130": {
+      "code": "INVALID_ROLE",
+      "message": "Le nom du rôle n’est pas valide ou son état actuel est inactif"
+    },
+    "team_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "Échec de la validation de la demande"
+    },
+    "team_upload_101": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "Le nom de l’équipe est vide ou n’a pas de valeur valide"
+    },
+    "team_upload_102": {
+      "code": "INVALID_REQUEST_CONTACT",
+      "message": "Demande de contact doit être TRUE ou FALSE"
+    },
+    "team_upload_103": {
+      "code": "INVALID_WFO_ADVANCED",
+      "message": "WFO Advanced doit être TRUE ou FALSE"
+    },
+    "team_upload_104": {
+      "code": "INVALID_QUALITY_MANAGEMENT",
+      "message": "La gestion de la qualité doit être TRUE ou FALSE"
+    },
+    "team_upload_105": {
+      "code": "INVALID_INVIEW_PERFORMANCE_MGMT",
+      "message": "Performance Management doit être VRAI ou FAUX"
+    },
+    "team_upload_106": {
+      "code": "INVALID_INVIEW_GAMIFICATION",
+      "message": "Ludification Performance Management doit être VRAI ou FAUX"
+    },
+    "team_upload_107": {
+      "code": "INVALID_INVIEW_COACHING",
+      "message": "Performance Management Coaching doit être VRAI ou FAUX"
+    },
+    "team_upload_108": {
+      "code": "INVALID_INVIEW_CHAT",
+      "message": "Messagerie par clavardage Performance Management doit être VRAI ou FAUX"
+    },
+    "team_upload_109": {
+      "code": "INVALID_AUDIO_RECORDING",
+      "message": "L’enregistrement audio doit être TRUE ou FALSE"
+    },
+    "team_upload_110": {
+      "code": "INVALID_SCREN_RECORDING",
+      "message": "La vidéocapture d’écran doit être TRUE ou FALSE"
+    },
+    "team_upload_111": {
+      "code": "INVALID_QUALITY_OPTIMIZATION",
+      "message": "L’optimisation de la qualité doit être TRUE ou FALSE"
+    },
+    "team_upload_112": {
+      "code": "INVALID_WFM_ADVANCED",
+      "message": "WFM Advanced doit être TRUE ou FALSE"
+    },
+    "team_upload_113": {
+      "code": "INVALID_WFM_ESSENTIALS",
+      "message": "WFM Essentials doit être TRUE ou FALSE"
+    },
+    "team_upload_114": {
+      "code": "INVALID_WORKLOAD_MANAGER",
+      "message": "Le gestionnaire de la charge de travail doit être TRUE ou FALSE"
+    },
+    "team_upload_115": {
+      "code": "INVALID_WFO_ESSENTIALS",
+      "message": "WFO Essentials doit être TRUE ou FALSE"
+    },
+    "team_upload_116": {
+      "code": "INVALID_DELIVERY_MODE",
+      "message": "Valeur de mode de livraison non valide"
+    },
+    "team_upload_117": {
+      "code": "INVALID_AUTO_AUTO_FOCUS",
+      "message": "La mise au point automatique doit être TRUE ou FALSE"
+    },
+    "team_upload_118": {
+      "code": "INVALID_VOICE",
+      "message": "La voix doit être un nombre"
+    },
+    "team_upload_119": {
+      "code": "INVALID_CHAT",
+      "message": "le clavardage doit être un nombre"
+    },
+    "team_upload_120": {
+      "code": "INVALID_EMAILS",
+      "message": "Les courriels doivent être un nombre"
+    },
+    "team_upload_121": {
+      "code": "INVALID_WORK_ITEM",
+      "message": "L’élément de travail doit être un nombre"
+    },
+    "team_upload_122": {
+      "code": "INVALID_TOTAL_CONTACT_COUNT",
+      "message": "Le nombre total de contacts doit être un nombre"
+    },
+    "team_upload_123": {
+      "code": "INVALID_SINGLE_CHANNEL_CHAT",
+      "message": "Canal unique - Les clavardages simultanés doivent être un nombre."
+    },
+    "team_upload_124": {
+      "code": "INVALID_SINGLE_CHANNEL_EMAILS",
+      "message": "Canal unique - Les courriels parqués automatiquement doivent être un nombre"
+    },
+    "team_upload_125": {
+      "code": "INVALID_TEAM_LEAD",
+      "message": "Chef d’équipe absent"
+    },
+    "team_upload_126": {
+      "code": "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE",
+      "message": "Valeur de l’attribut parent ou enfant non valide"
+    },
+    "team_upload_128": {
+      "code": "INVALID_TEAM_DESCRIPTION",
+      "message": "Le texte saisi est trop long"
+    },
+    "team_upload_129": {
+      "code": "INVALID_TEMPLATE",
+      "message": "Modèle téléversé non valide"
+    },
+    "user_team_upload_003": {
+      "code": "MISSING_TEAM_NAME",
+      "message": "Le nom de l’équipe ne peut pas être vide"
+    },
+    "user_team_upload_004": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "Les utilisateurs assignés ne peuvent pas être vides"
+    },
+    "user_team_upload_005": {
+      "code": "TEAM_DOES_NOT_EXIST",
+      "message": "L’équipe n’existe pas"
+    },
+    "user_team_upload_006": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "Utilisateur(s) absent(s)"
+    },
+    "user_skills_upload_003": {
+      "code": "MISSING_SKILL_ID",
+      "message": "L’ID de compétence ne peut pas être vide"
+    },
+    "user_skills_upload_004": {
+      "code": "MISSING_SKILL_NAME",
+      "message": "Le nom de la compétence ne peut pas être vide."
+    },
+    "user_skills_upload_005": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "Les utilisateurs assignés ne peuvent pas être vides"
+    },
+    "user_skills_upload_007": {
+      "code": "INVALID_SKILL_NAME",
+      "message": "Nom de compétence non valide"
+    },
+    "user_skills_upload_008": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "Utilisateur(s) absent(s)"
+    },
+    "user_skills_upload_009": {
+      "code": "USER_SKILL_ALREADY_EXISTS",
+      "message": "Utilisateur(s) déjà affecté(s) à la compétence"
+    },
+    "user_skills_upload_010": {
+      "code": "SKILL_ID_NOT_FOUND",
+      "message": "ID de compétence introuvable"
+    },
+    "user_skills_upload_011": {
+      "code": "DIGITAL_SKILL_CANNOT_ASSIGNED",
+      "message": "Les attributions de compétences numériques ne peuvent pas être créées / modifiées."
+    },
+    "recording_account_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "Demande non valide"
+    },
+    "recording_account_upload_101": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "recording_account_upload_102": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "recording_account_upload_103": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "recording_account_upload_104": {
+      "code": "FIELD_NOT_EMPTY",
+      "message": "Ce champ n’est pas vide"
+    },
+    "recording_account_upload_105": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "recording_account_upload_106": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "recording_account_upload_107": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "recording_account_upload_108": {
+      "code": "EMPTY_FIELD_FOR_SELECTED",
+      "message": "Ce champ doit être vide pour l’action sélectionnée"
+    },
+    "recording_account_upload_109": {
+      "code": "UPDATED_VALUE_NOT_SAME",
+      "message": "La valeur mise à jour ne peut pas être la même que la valeur"
+    },
+    "recording_account_upload_110": {
+      "code": "FIELD_VALUE_LIMIT",
+      "message": "La valeur ne peut pas dépasser 64 caractères"
+    },
+    "recording_account_upload_111": {
+      "code": "FIELD_UPDATED_VALUE_LIMIT",
+      "message": "La valeur ne peut pas dépasser 64 caractères"
+    },
+    "recording_account_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "Le système de téléphonie n’existe pas"
+    },
+    "recording_account_upload_121": {
+      "code": "INVALID_USER",
+      "message": "Utilisateur non valide."
+    },
+    "recording_account_upload_122": {
+      "code": "AMBIGUOUS_USER_NAME",
+      "message": "Nom d’utilisateur ambigu"
+    },
+    "recording_account_upload_123": {
+      "code": "ID_ALREADY_EXIST_BUT_INACTIVE",
+      "message": "Le compte d’enregistrement existe déjà mais est inactif"
+    },
+    "recording_account_upload_124": {
+      "code": "ID_ALREADY_EXIST_BUT_DIFFERENT_USER_ID",
+      "message": "Ce compte d’enregistrement existe déjà mais a un ID utilisateur différent"
+    },
+    "recording_account_upload_125": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_ID",
+      "message": "Ce compte d’enregistrement existe déjà mais a un ID d’équipe utilisateur différent"
+    },
+    "recording_account_upload_126": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_NAME",
+      "message": "Ce compte d’enregistrement existe déjà mais a un nom d’utilisateur différent"
+    },
+    "recording_account_upload_127": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "Ce compte d’enregistrement n’existe pas"
+    },
+    "recording_account_upload_128": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "Ce compte d’enregistrement existe déjà"
+    },
+    "recording_account_upload_140": {
+      "code": "DB_ERROR",
+      "message": "Une erreur de base de données s’est produite"
+    },
+    "recording_account_upload_141": {
+      "code": "USER_HUB_COMMUNICATION_ERROR",
+      "message": "Une erreur s’est produite lors de la communication avec UserHub"
+    },
+    "recording_account_upload_142": {
+      "code": "NOT_AUTHORIZED",
+      "message": "Accès non autorisé à UserHub"
+    },
+    "recording_account_upload_143": {
+      "code": "FORBIDDEN_ACCESS",
+      "message": "Accès interdit à UserHub"
+    },
+    "recording_account_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "Événement d’entrée invalide"
+    },
+    "device_upload_100": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Demande non valide"
+    },
+    "device_upload_101": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "device_upload_102": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "device_upload_103": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "device_upload_104": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Ce champ est vide ou affiche une valeur invalide"
+    },
+    "device_upload_105": {
+      "code": "FIELD_NOT_VALID",
+      "message": "L’UDI ne peut pas dépasser 64 caractères"
+    },
+    "device_upload_106": {
+      "code": "DEVICE_NUMBER_FIELD_LIMIT",
+      "message": "Le numéro de périphérique ne peut pas dépasser 64 caractères"
+    },
+    "device_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "Le système de téléphonie n’existe pas"
+    },
+    "device_upload_121": {
+      "code": "MONITORED_GROUP_NOT_EXIST",
+      "message": "Le groupe surveillé n’existe pas"
+    },
+    "device_upload_122": {
+      "code": "FILTERED_GROUP_NOT_EXIST",
+      "message": "Le groupe filtré n’existe pas"
+    },
+    "device_upload_123": {
+      "code": "REJECTED_GROUP_NOT_EXIST",
+      "message": "Le groupe rejeté n’existe pas"
+    },
+    "device_upload_124": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "Type de groupe erroné"
+    },
+    "device_upload_125": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "Type de groupe erroné"
+    },
+    "device_upload_126": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "Type de groupe erroné"
+    },
+    "device_upload_127": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "Type de groupe erroné"
+    },
+    "device_upload_128": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "L’appareil n’existe pas"
+    },
+    "device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "Une erreur de base de données s’est produite"
+    },
+    "device_upload_invalid_input": {
+      "code": "INPUT_EVENT_INVALID",
+      "message": "Événement d’entrée invalide"
+    },
+    "recording_account_download_100": {
+      "code": "INVALID_ACTIVITY_REQUEST",
+      "message": "Activité non valide dans une demande"
+    },
+    "recording_account_download_101": {
+      "code": "INVALID_ENTITY_REQUEST",
+      "message": "Entité non valide dans une demande"
+    },
+    "recording_account_download_102": {
+      "code": "INVALID_TOKEN",
+      "message": "Le champ de jeton est manquant"
+    },
+    "recording_account_download_103": {
+      "code": "INVALID_REQUEST",
+      "message": "Champ manquant dans la demande"
+    },
+    "recording_account_download_140": {
+      "code": "DB_ERROR",
+      "message": "Une erreur de base de données s’est produite"
+    },
+    "user_upload_135": {
+      "code": "INVALID_AUTHENTICATOR_NAME",
+      "message": "Nom de l’authentificateur de connexion non valide"
+    },
+    "remote_device_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "Demande non valide"
+    },
+    "remote_device_upload_101": {
+      "code": "INVALID_ACTION",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "remote_device_upload_102": {
+      "code": "INVALID_TELEPHONY_SYSTEM",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "remote_device_upload_104": {
+      "code": "INVALID_SOURCE_DEVICE",
+      "message": "Ce champ est vide ou affiche une valeur non valide"
+    },
+    "remote_device_upload_106": {
+      "code": "SOURCE_DEVICE_FIELD_LIMIT",
+      "message": "Ce champ ne peut pas dépasser 64 caractères"
+    },
+    "remote_device_upload_107": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Utilisez des lettres, des chiffres et @ # *"
+    },
+    "remote_device_upload_109": {
+      "code": "FIELD_LIMIT",
+      "message": "Saisir jusqu’à 64 caractères"
+    },
+    "remote_device_upload_110": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Ne peut être nul ou vide"
+    },
+    "remote_device_upload_111": {
+      "code": "FIELD_NOT_VALID",
+      "message": "La valeur existe déjà"
+    },
+    "remote_device_upload_108": {
+      "code": "INVALID_VENDOR",
+      "message": "Vendeur non valide."
+    },
+    "remote_device_upload_120": {
+      "code": "UNKNOWN_TELEPHONY_SYSTEM",
+      "message": "Le système de téléphonie n’existe pas"
+    },
+    "remote_device_upload_128": {
+      "code": "NONEXISTENT_SOURCE_DEVICE",
+      "message": "L’appareil n’existe pas"
+    },
+    "remote_device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "Une erreur de base de données s’est produite"
+    },
+    "remote_device_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "Événement d’entrée non valide"
+    },
+    "recording_account_upload_112": {
+      "code": "INVALID_VALUE_PATTERN_AGENTID",
+      "message": "Utilisez des lettres, des chiffres et @"
+    },
+    "recording_account_upload_113": {
+      "code": "INVALID_VALUE_PATTERN_EXTENSION",
+      "message": "Utilisez des lettres, des chiffres et @ # *"
+    },
+    "recording_account_upload_114": {
+      "code": "VALUE_TOO_LONG_AGENTID",
+      "message": "Saisissez entre 2 et 64 caractères"
+    },
+    "recording_account_upload_115": {
+      "code": "VALUE_TOO_LONG_EXTENSION",
+      "message": "Saisissez entre 3 et 64 caractères"
+    },
+    "recording_account_upload_116": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_AGENTID",
+      "message": "Utilisez des lettres, des chiffres et @"
+    },
+    "recording_account_upload_117": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_EXTENSION",
+      "message": "Utilisez des lettres, des chiffres et @ # *"
+    },
+    "recording_account_upload_118": {
+      "code": "UPDATED_VALUE_TOO_LONG_AGENTID",
+      "message": "Saisissez entre 2 et 64 caractères"
+    },
+    "recording_account_upload_119": {
+      "code": "UPDATED_VALUE_TOO_LONG_EXTENSION",
+      "message": "Saisissez entre 3 et 64 caractères"
+    },
+    "user_upload_136": {
+      "code": "INVALID_DIGITAL_ENGAGEMENT",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_137": {
+      "code": "INVALID_CUSTOMER_CARD",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_138": {
+      "code": "INVALID_CAN_EDIT_BI_REPORTS",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_139": {
+      "code": "INVALID_HAS_SMART_REACH_USER_ACCESS",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_140": {
+      "code": "INVALID_HAS_SMART_REACH_AGENT_ACCESS",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_141": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_INSIGHTS",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "user_upload_142": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_ACT",
+      "message": "Valeur non valide, doit être TRUE OU FALSE"
+    },
+    "platform_user_manager_service_181": {
+      "code": "VIEW_LIMIT_EXCEEDED",
+      "message": "Dépassement de la limite maximale de vues autorisée"
+    },
+    "user_upload_143": {
+      "code": "INVALID_TEMPLATE_NAME",
+      "message": "Aucun modèle portant ce nom n’a été trouvé. Veuillez vérifier l’orthographe et réessayer."
+    },
+    "platform_user_manager_service_194": {
+      "code": "platform_user_manager_service_194",
+      "message": "L’équipe ne peut pas être déplacée en dehors de sa division."
+    },
+    "platform_user_manager_service_217": {
+      "code": "platform_user_manager_service_217",
+      "message": "L’ID de division de l’équipe ne correspond pas à l’ID de division des utilisateurs filtrés."
+    },
+    "user_upload_145": {
+      "code": "INVALID_MFA_TIME_PERIOD",
+      "message": "Valeur non valide; doit être comprise entre 15 et 300"
+    },
+    "user_upload_146": {
+      "code": "INVALID_TEMPLATE",
+      "message": "Modèle téléversé non valide"
+    },
+    "user_team_upload_007": {
+      "code": "INVALID_TEMPLATE",
+      "message": "Modèle téléversé non valide"
+    }
+  },
+  "weekdayTimeBlocksDirective": {
+    "allDay": "Toute la journée",
+    "closed": "Fermé",
+    "removeAllTimeBlocksTooltip": "Supprimer tout"
+  },
+  "noItemsOverlay": {
+    "grid": "Aucune {{itemLabel}} n’est encore définie",
+    "modal": {
+      "employeeTab": "Pas encore d’employé assigné"
+    }
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "Unités de planification"
+  },
+  "groupsPage": {
+    "pageTitle": "Groupes",
+    "newGroupBtn": "Nouveau Groupe",
+    "searchGroup": "Commencez à taper pour trouver un groupe",
+    "gridNoRowsOverlay": "Aucun groupe n’a encore été créé",
+    "items": "groupes",
+    "item": "groupe",
+    "selected": "sélectionné",
+    "errorDelete": "Aucune ligne sélectionnée pour la suppression",
+    "gridColumnsHeaders": {
+      "name": "Nom",
+      "employees": "Employés",
+      "action": "Action"
+    },
+    "deleteSelectedGroupsMsg": "Vous êtes sur le point de supprimer les groupes sélectionnés. Continuer?",
+    "filters": {
+      "statusLabel": "État",
+      "status": "{{count}} état(s)",
+      "group": "{{count}} groupes",
+      "clearAll": "Tout effacer",
+      "close": "Fermer"
+    },
+    "popover": {
+      "message": "Ce groupe sera supprimé de tous les employés. Êtes-vous sûr?"
+    },
+    "toastMessage": {
+      "deleteSuccess": "Le(s) groupe(s) a/ont été supprimé(s) avec succès.",
+      "deleteFailure": "Échec de la suppression du groupe.",
+      "groupsResponseError": "Une erreur s’est produite lors de la récupération des groupes"
+    },
+    "createNewGroupModal": {
+      "addHeader": "Créer un nouveau groupe",
+      "editHeader": "Modifier le groupe",
+      "groupNamePlaceholder": "Groupe sans titre",
+      "popover": {
+        "message1": "Toutes les modifications seront perdues",
+        "message2": "Voulez-vous vraiment quitter sans enregistrer?"
+      },
+      "employeesTab": {
+        "header": "Employés",
+        "assignedEmployeesTxt": "Employés assignés",
+        "addEmployeesBtn": "Ajouter des employés",
+        "selectEmployeesTxt": "Sélectionner des employés",
+        "selectedTxt": "Sélectionné :",
+        "AlreadyAssignedUsers": "Employés déjà assignés"
+      }
+    },
+    "successAdd": "Le nouveau groupe a été ajouté avec succès",
+    "successEdit": "Le groupe a été modifié avec succès",
+    "assignedUsers": {
+      "addUsersModal": {
+        "title": "Ajouter des utilisateurs",
+        "omnibar": {
+          "searchPlaceholderText": "Commencez à saisir du texte pour trouver un utilisateur"
+        }
+      }
+    },
+    "warningModal": {
+      "title": "Êtes-vous sûr?",
+      "message": "Si vous renommez un groupe, les segments d’interaction terminés portant l’ancien nom ne seront pas mis à jour.",
+      "cancelBtn": "Annuler",
+      "confirmBtn": "Confirmer"
+    }
+  },
+  "accountSettingsPage": {
+    "pageTitle": "Paramètres du compte administrateur",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "userSessionTimeout": {
+      "header": "Déconnexion pour inactivité",
+      "disabledWarning": "Attention : les utilisateurs inactifs ne seront PAS automatiquement déconnectés",
+      "tooLowWarning": "La durée d’inactivité autorisée doit être d’au moins 5 minutes.",
+      "tooHighWarning": "La durée d’inactivité autorisée est au maximum de 8 heures, y compris lorsque l’option Déconnexion pour inactivité est désactivée.",
+      "hours": "Heures",
+      "minutes": "Minutes",
+      "description": "Durée d’inactivité d’un utilisateur avant déconnexion."
+    },
+    "hostConfigurationSectionHeader": "Hébergement",
+    "stylingSectionHeader": "Style",
+    "bannerSectionHeader": "Bannière de connexion",
+    "allowedEmailDomainsSectionHeader": "Domaines de messagerie autorisés",
+    "bannerWillClear": "La désactivation de la bannière effacera tous les paramètres de bannière enregistrés.",
+    "customHostnameEntryFieldLabel": "Nom d’hôte personnalisé",
+    "domainEntryFieldLabel": "Domaine",
+    "domainGridHeader": "Domaine",
+    "overlayNoRowsMsg": "Aucun domaine de messagerie à afficher",
+    "addDomainBtn": "Ajouter",
+    "fontColorFieldLabel": "Texte de la bannière",
+    "backgroundColorFieldLabel": "Arrière-plan de la bannière",
+    "hostnameLengthValidationError": "Le nom d’hôte ne peut pas dépasser 63 caractères.",
+    "hostnameCharValidationError": "Le nom d’hôte ne peut contenir aucun caractère spécial (#?!@%^\").",
+    "emailDomainLengthValidationError": "Le domaine ne peut pas dépasser 190 caractères.",
+    "emailDomainDuplicateError": "Le domaine est déjà dans la liste",
+    "emailDomainMaxLength": "Il ne peut pas y avoir plus de 300 domaines de messagerie autorisés.",
+    "emailDomainCharValidationError": "Le domaine n’est pas valide.",
+    "errorMsg": "Échec de l’enregistrement du nom d’hôte.",
+    "errorDuplicate": "Ce nom d’hôte existe déjà. Veuillez utiliser un nom différent.",
+    "errorDirty": "Le nom d’hôte ne peut contenir aucune injure. Veuillez utiliser un nom différent.",
+    "errorReserved": "Ce nom d’hôte contient du texte réservé par le système. Veuillez utiliser un nom différent.",
+    "saveSuccess": "Les paramètres du compte ont été configurés et enregistrés avec succès.",
+    "saveFailure": "Une erreur s’est produite lors de l’enregistrement de votre entrée.",
+    "successMsg": "Les informations du compte ont été mises à jour avec succès",
+    "failureMsg": "Une erreur s’est produite lors de la mise à jour des informations du Compte",
+    "popover": {
+      "warningMessage": "Toutes les modifications seront perdues",
+      "confirmMessage": "Voulez-vous vraiment quitter sans enregistrer?",
+      "domainMessage": "Ce domaine sera supprimé après l’enregistrement. Êtes-vous sûr?"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "Données non enregistrées",
+        "unsavedChanges": "Si vous quittez la page, vos modifications seront perdues.",
+        "areYouSureLeavePage": "Voulez-vous vraiment continuer?"
+      }
+    },
+    "timeZone": "Fuseau horaire du Locataire",
+    "bannerPlaceHolder": "Insérer texte ici ...",
+    "scim": {
+      "header": "SCIM",
+      "scimProvisionedFields": "Champs provisionnés SCIM",
+      "days": "jours",
+      "scimToken": "Jeton SCIM",
+      "showToken": "Afficher le jeton",
+      "generate": "Générer",
+      "expiringToken": "Le jeton expirera dans ",
+      "scimTokenGeneratedSuccess": "Jeton SCIM généré avec succès",
+      "scimTokenGeneratedFailure": "Une erreur s’est produite lors de la génération du jeton SCIM",
+      "scimTokenGenerationWarning": "Votre jeton a été généré. Vous ne pouvez pas récupérer ce jeton après avoir quitté cette page. Un nouveau jeton devra être créé en cas de perte de ce jeton.",
+      "scimTokenCopiedToClipboard": "Jeton SCIM copié dans le presse-papiers"
+    },
+    "lockInactiveUsers": {
+      "header": "Verrouiller les utilisateurs",
+      "description": "Nombre de jours d’inactivité avant qu’un utilisateur puisse être verrouillé",
+      "enablementWarning": "Attention : Cette opération définit des paramètres d’inactivité pour tous les utilisateurs de ce locataire."
+    },
+    "toggleOn": "Activé",
+    "toggleOff": "Désactivé",
+    "ssoStateDuration": {
+      "header": "Personnaliser l’état SSO",
+      "description": "Définir les heures pour l’état d’utilisateur",
+      "enablementWarning": "Attention : Cette opération définira l’état SSO pour tous les utilisateurs de ce locataire."
+    },
+    "scimTokenSectionHeader": "Jeton SCIM",
+    "scimUserProvisionedFields": "Sélection de l’utilisateur",
+    "daysToExpireOldTokens": "Nombre de jours avant l’expiration des anciens jetons",
+    "disableMarketingPanelLabel": "Désactiver le panneau marketing",
+    "overlayNoRowsAddAppMsg": "Aucune application supplémentaire à afficher",
+    "additionalApplications": {
+      "name": "Nom",
+      "link": "Lien",
+      "addButton": "Ajouter",
+      "linkLengthValidationError": "Le lien ne peut pas dépasser 2 048 caractères",
+      "linkValidationError": "Les liens doivent commencer par http:// ou https://",
+      "nameLengthValidationError": "Le nom ne peut pas dépasser 50 caractères",
+      "sectionHeader": "Applications supplémentaires",
+      "popoverMessage": "Cette application sera supprimée après l’enregistrement. Êtes-vous sûr?"
+    },
+    "tabs": {
+      "scimTabTitle": "SCIM",
+      "userSettingsTabTitle": "Réglages de l’Utilisateur",
+      "additionalAppsTabTitle": "Applications supplémentaires",
+      "hostTabTitle": "Hébergement"
+    }
+  },
+  "add-entity-ui": {
+    "entityCount": "",
+    "selectAllLabel": "Sélectionner tout"
+  },
+  "generic-users": {
+    "searchPlaceholder": "Commencez à taper pour trouver des utilisateurs",
+    "noItemsOverlay": "Aucun utilisateur n’a encore été ajouté",
+    "noItemsOverlayGrid": "Aucun utilisateur trouvé au moyen de ce filtre",
+    "noUsersSubText": "Sélectionnez \"Ajouter des utilisateurs\" ci-dessus pour en ajouter",
+    "itemsCount": "Affichage de {{count}}",
+    "totalItemsCount": " Total",
+    "totalItemsCountLabel": " Total",
+    "userCount": "",
+    "tabLabels": {
+      "general": "Général",
+      "assignedUsers": "Utilisateurs assignés",
+      "zeroRow": "0 Total"
+    },
+    "columns": {
+      "name": "Nom",
+      "username": "Nom d’utilisateur",
+      "email": "Courriel",
+      "status": "État",
+      "role": "Rôle",
+      "action": "Action"
+    },
+    "popovers": {
+      "messageAddedUser": "Vous devez réassigner cet utilisateur à un autre rôle pour le supprimer.",
+      "messageNewUser": "Supprimer l’utilisateur de ce rôle?",
+      "bulkMessageAddedUser": "Vous devez réassigner le ou les utilisateurs à un autre rôle pour les supprimer.",
+      "bulkMessageNewUser": "Supprimer les utilisateurs de ce rôle?"
+    },
+    "userSelectionModal": {
+      "noUserAddedText": "Aucun utilisateur n’a encore été ajouté",
+      "noUserSelectedText": "Aucun utilisateur n’a encore été sélectionné"
+    },
+    "modal": {
+      "noItemsOverlay": "Aucun utilisateur n’a encore été ajouté",
+      "title": "Ajouter des utilisateurs"
+    },
+    "buttons": {
+      "addUsers": "Ajouter des utilisateurs",
+      "removeUsers": "Supprimer les utilisateurs"
+    }
+  },
+  "hierarchiesPage": {
+    "pageTitle": "Hiérarchies",
+    "newHierarchy": "Nouvelle hiérarchie",
+    "itemsCount": "{{count}} hiérarchies",
+    "searchPlaceholder": "Commencez à taper pour trouver la hiérarchie",
+    "noItemsOverlay": "Aucune hiérarchie définie pour le moment",
+    "saveAndActivate": "Sauvegarder et Activer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "createSuccessMessage": "La hiérarchie a été créée avec succès.",
+    "updateSuccessMessage": "La hiérarchie a été mise à jour avec succès.",
+    "createErrorMessage": "Il y a eu un problème lors de la création de la hiérarchie. Merci d’essayer plus tard.",
+    "updateErrorMessage": "Il y a eu un problème lors de la mise à jour de la hiérarchie. Merci d’essayer plus tard.",
+    "openHierarchyErrorMessage": "Un problème est survenu lors de l’affichage de cette hiérarchie. Merci d’essayer plus tard.",
+    "nodeSuccessfullyDropped": "{{draggedEntityName}} {{draggedEntityType}} a été ajouté sous {{droppedEntityName}} {{droppedEntityType}}.",
+    "hierarchyManager": {
+      "pageTitle": "Hiérarchies",
+      "newHierarchy": "Créer nouvelle hiérarchie",
+      "cancel": "Annuler",
+      "hierarchyNamePlaceholder": "Nom de la hiérarchie",
+      "hierarchyType": "Sélectionner le type de hiérarchie",
+      "errorMessages": {
+        "typeRequired": "Ce champ est requis",
+        "nameRequired": "Ce champ est requis",
+        "duplicateName": "Ce nom existe déjà. Essayez un autre."
+      }
+    },
+    "gridColumnHeaders": {
+      "hierarchyName": "NOM DE LA HIÉRARCHIE",
+      "hierarchyType": "TYPE",
+      "lastModifiedBy": "DERNIÈRE MODIFICATION PAR",
+      "lastModifiedDate": "DERNIÈRE MODIFICATION",
+      "hierarchyStatus": "ÉTAT",
+      "hierarchyActions": "ACTIONS",
+      "applications": "APPLICATIONS"
+    },
+    "hierarchyStatus": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "hierarchyTypeCamelCase": {
+      "Organizational": "Organisationnel"
+    },
+    "hierarchyHamburgerMenu": {
+      "activate": "Activer",
+      "deactivate": "Désactiver"
+    },
+    "hierarchyManagerToastMessages": {
+      "failureTemplatesHierarchy": "Un problème est survenu lors de l’obtention des modèles de hiérarchie. Merci d’essayer plus tard.",
+      "successDeactivatingHierarchy": "La hiérarchie a été désactivée avec succès.",
+      "failureDeactivatingHierarchy": "Un problème est survenu lors de la désactivation de la hiérarchie. Veuillez réessayer plus tard.",
+      "successActivatingHierarchy": "La hiérarchie a été activée avec succès.",
+      "failureActivatingHierarchy": "Un problème est survenu lors de l’activation de la hiérarchie. Veuillez réessayer plus tard."
+    },
+    "popovers": {
+      "deactivateHierarchy": {
+        "msg": "Vous êtes sur le point de désactiver cette hiérarchie. Voulez-vous continuer?"
+      },
+      "activateHierarchy": {
+        "msg": "Êtes-vous sûr de vouloir activer cette hiérarchie?"
+      },
+      "mappingApplicationsHierarchyPopover": {
+        "msg": "Cette hiérarchie ne peut être désactivée dans la mesure où elle est schématisée dans une ou plusieurs applications"
+      },
+      "warningMessage": "Toutes les modifications seront perdues",
+      "confirmMessage": "Voulez-vous vraiment quitter sans enregistrer?",
+      "deleteNodeWarningChildren": "La suppression de ce nœud supprimera tous les enfants et les pairs sous ce nœud. Voulez-vous continuer?",
+      "deleteNodeWarning": "Vous êtes sur le point de supprimer ce nœud. Voulez-vous continuer?",
+      "visibility": "Vous n’êtes pas autorisé à \n afficher ces informations"
+    },
+    "modalMessages": {
+      "transition": {
+        "title": "Données non enregistrées",
+        "unsavedChanges": "Si vous quittez la page, vos modifications seront perdues.",
+        "warningMessage": "Voulez-vous vraiment continuer?"
+      }
+    },
+    "components": {
+      "nodeActionComponent": {
+        "title": {
+          "addChild": "Ajouter un enfant",
+          "addPeer": "Ajouter un pair",
+          "containers": "Conteneurs",
+          "members": "Membres",
+          "expandBranch": "Développer la section",
+          "collapseBranch": "Réduire la section",
+          "rename": "Modifier",
+          "delete": "Supprimer",
+          "info": "Info"
+        },
+        "hierarchyTypeLabel": "Unité d’organisation",
+        "defaultNodeName": "Sans titre"
+      },
+      "members": {
+        "headerText": "Membres",
+        "headerTextAfter": "Ajouter des membres",
+        "searchPlaceHolder": "Rechercher des membres",
+        "type": "Utilisateur",
+        "employeeButton": "Employé",
+        "teamsButton": "Équipes",
+        "AddButton": "Ajouter",
+        "RemoveButton": "Supprimer",
+        "noMembersSearchTxt": "Pas d’utilisateurs dans l’équipe",
+        "noResultSearchTxt": "Aucun résultat trouvé",
+        "noMembersTxt": {
+          "heading": "Aucun membre n’a été ajouté",
+          "subHeading": "Cliquez ",
+          "subHeading1": " pour ajouter des membres.",
+          "subHeading2": "Une fois que les membres sont ajoutés, ils apparaitront ici"
+        }
+      },
+      "containers": {
+        "headerText": "Conteneurs",
+        "searchPlaceHolder": "Rechercher des conteneurs",
+        "type": "Équipe"
+      }
+    },
+    "messages": {
+      "error": {
+        "failedToLoadHierarchies": "Échec du chargement des hiérarchies. Veuillez réessayer plus tard."
+      }
+    }
+  },
+  "hierarchiesPageV2": {
+    "pageTitle": "Hiérarchies",
+    "itemsCount": "{{count}} hiérarchies",
+    "searchPlaceholder": "Commencez à taper pour trouver la hiérarchie",
+    "noItemsOverlay": "Aucune hiérarchie définie pour le moment",
+    "saveAndActivate": "Sauvegarder et Activer",
+    "createSuccessMessage": "La hiérarchie a été créée avec succès.",
+    "updateSuccessMessage": "La hiérarchie a été mise à jour avec succès.",
+    "updateNameMessage": "Le nom de la hiérarchie a été mis à jour avec succès.",
+    "updateAppMessage": "Le mappage d’application a été mis à jour avec succès.",
+    "createErrorMessage": "Il y a eu un problème lors de la création de la hiérarchie. Merci d’essayer plus tard.",
+    "updateErrorMessage": "Il y a eu un problème lors de la mise à jour de la hiérarchie. Merci d’essayer plus tard.",
+    "openHierarchyErrorMessage": "Un problème est survenu lors de l’affichage de cette hiérarchie. Merci d’essayer plus tard.",
+    "openHierarchyTemplateErrorMessage": "Un problème est survenu lors du chargement des modèles de hiérarchie. Merci d’essayer plus tard.",
+    "openHierarchyApplicationErrorMessage": "Un problème est survenu lors du chargement des applications de hiérarchie. Merci d’essayer plus tard.",
+    "subtreeDepthViolationErrorMessage": "Cette opération ne peut pas être effectuée car elle est allée au-delà de la hiérarchie autorisée de 10 niveaux",
+    "subtreeNodeLimitViolationErrorMessage": "Cette opération ne peut pas être effectuée car elle dépasse la limite de nœud de hiérarchie autorisée.",
+    "modalMessages": {
+      "transition": {
+        "title": "Données non enregistrées",
+        "unsavedChanges": "Si vous quittez la page, vos modifications seront perdues.",
+        "warningMessage": "Voulez-vous vraiment continuer?"
+      }
+    },
+    "hierarchyManager": {
+      "pageTitle": "Hiérarchies",
+      "close": "Fermer",
+      "save": "Enregistrer",
+      "create": "Créer",
+      "cancel": "Annuler",
+      "update": "Mettre à jour",
+      "hierarchyName": "Nom",
+      "hierarchyType": "Type",
+      "application": "Application",
+      "hierarchyNamePlaceholder": "Ajouter nom de hiérarchie",
+      "hierarchyTypePlaceholder": "Sélectionner le type",
+      "applicationPlaceholder": "Sélectionner l’application",
+      "newHierarchy": "Créer nouvelle hiérarchie",
+      "formLabels": {
+        "teamPlaceholder": "Sélectionner une équipe",
+        "suPlaceholder": "Sélectionnez l’unité de planification"
+      },
+      "team": {
+        "warningMsg": "L’équipe existe en tant que nœud enfant de l’unité d’organisation « {{existingParent}} ». Avec l’action « Ajouter », le nœud d’équipe sera déplacé sous l’unité d’organisation « {{newParent}} »"
+      },
+      "components": {
+        "members": {
+          "headerText": "Membres",
+          "addButton": "Ajouter",
+          "headerTextAfter": "Ajouter des membres",
+          "cancelButton": "Annuler",
+          "saveButton": "Enregistrer",
+          "removeButton": "Supprimer",
+          "viewDetailsButton": "Visualiser les détails de l’équipe",
+          "viewSUDetailsButton": "Afficher les détails",
+          "searchPlaceHolder": "Rechercher des membres",
+          "type": "Utilisateur",
+          "noResultSearchTxt": "Aucun résultat trouvé",
+          "associationMsg": "L’utilisateur est déjà membre de « {{ouname}} »",
+          "noMembersTxt": {
+            "heading": "Aucun membre n’a été ajouté",
+            "subHeading": "Cliquez sur « AJOUTER » pour ajouter des membres.",
+            "subHeading1": "Une fois que les membres sont ajoutés, ils apparaîtront ici."
+          }
+        },
+        "nodeComponent": {
+          "hierarchyTypeLabel": {
+            "OU": "Unité d’organisation",
+            "TEAM": "Équipe",
+            "SU": "Unité de planification"
+          }
+        }
+      },
+      "popovers": {
+        "confirmMsg": "Veuillez sélectionner l’un de ces éléments pour continuer",
+        "deleteNodeWarning": "Vous êtes sur le point de supprimer cette UO de la hiérarchie. Par cette action, le réseau sous cette UO, y compris tous les nœuds enfants (le cas échéant) seront supprimés.",
+        "deleteSUNodeWarning": "Vous êtes sur le point de supprimer cette unité de service de la hiérarchie. Avec cette action, le réseau situé sous cette unité de service, y compris tous les nœuds enfants (le cas échéant), sera supprimé.",
+        "deleteTeamNodeWarning": "Vous êtes sur le point de supprimer cette équipe de la hiérarchie",
+        "deleteWarning3": "Voulez-vous continuer?",
+        "deleteSUWarning4": " UP avec cette hiérarchie? ",
+        "replaceTeamNodeWarning1": "L’équipe existe actuellement sous",
+        "replaceSUNodeWarning1": "UP existe déjà sous",
+        "replaceNodeWarning1": " et sera déplacée sous",
+        "replaceNodeWarning2": ". Voulez-vous continuer?",
+        "OUDescription": "Cette action créera un nœud enfant de type Unité d’organisation (OU). Une fois l’unité d’organisation créée, vous pourrez ajouter des membres",
+        "TeamDescription": "Cette action créera un nœud enfant du type Équipe en sélectionnant l’une des équipes existantes. Une fois le nœud d’équipe créé, vous pourrez afficher les informations sur l’équipe et l’appartenance",
+        "SUDescription": "Cette action créera un nœud enfant de type Unité de planification (UP) en sélectionnant l’une des UP existantes. Une fois le nœud UP créé, vous pourrez ajouter des nœuds enfants et afficher les informations et l’appartenance à l’UP.",
+        "editNodePopover": {
+          "popoverTitle": "Modifier détails",
+          "nameLabel": "Nom"
+        },
+        "addNodePopover": {
+          "popoverTitle": {
+            "ou": "Ajouter une unité d’organisation",
+            "team": "Ajouter Équipe",
+            "su": "Ajouter une unité de planification"
+          },
+          "nameLabel": {
+            "ou": "Nom",
+            "team": "Ajouter une équipe existante",
+            "su": "Ajouter une unité de planification existante"
+          },
+          "validation": {
+            "teamValidation": "Cette équipe est déjà ajoutée sous",
+            "suValidation": "Cette UP est déjà ajoutée sous",
+            "nonLeafSUMoveValidation": "Cette unité de planification existe déjà en tant que nœud parent dans la hiérarchie"
+          }
+        },
+        "infoNodePopover": {
+          "popoverTitle": "Informations de l’équipe",
+          "nameLabel": "Nom",
+          "TeamLeadLabel": "CHEF D’ÉQUIPE"
+        },
+        "suInfoNodePopover": {
+          "popoverTitle": "Informations sur l’unité de planification",
+          "nameLabel": "Nom",
+          "TimeZoneLabel": "Fuseau horaire"
+        }
+      },
+      "saved": "Sauvegardé",
+      "saving": "Enregistrement en cours...",
+      "minuteAgo": "il y a une minute",
+      "minutesAgo": "minutes"
+    },
+    "template": {
+      "templateType": {
+        "ou": "Ajouter une unité d’organisation",
+        "team": "Ajouter Équipe",
+        "su": "Ajouter une unité de planification"
+      }
+    }
+  },
+  "employeeGroupsPage": {
+    "pageTitle": "Unité de planification",
+    "items": "unités",
+    "item": "unité de planification",
+    "errorDelete": "Aucune ligne sélectionnée pour la suppression",
+    "errorDeleteNoId": "Cette unité de planification a déjà été supprimée. Veuillez actualiser la page.",
+    "bulkOperationsBtns": {
+      "deleteBtn": "Supprimer"
+    },
+    "gridColumnsHeaders": {
+      "id": "ID",
+      "name": "Nom",
+      "employees": "Employés",
+      "timeZone": "Fuseau horaire",
+      "unit": "Unité"
+    },
+    "deleteSelectedGroupMsg": "Ces unités seront supprimées pour tous les employés. Êtes-vous sûr?",
+    "popover": {
+      "message": "Avertissement! La suppression de cet élément déplacera tous les employés assignés vers l’unité de planification par défaut et peut avoir une incidence sur leur planification."
+    },
+    "tooltip": {
+      "message": "Cette UP fait partie d’une hiérarchie. Vous devez la supprimer de la hiérarchie avant de pouvoir la supprimer.",
+      "deleteSUsInHeirarchyMessage": "Les unités sélectionnées font partie d’une hiérarchie. Vous devez les supprimer de la hiérarchie avant de pouvoir les supprimer."
+    },
+    "errorMessages": {
+      "required": "Vous avez laissé le champ vide",
+      "minLength": "Le texte saisi est trop court",
+      "maxLength": "Le texte saisi est trop long",
+      "uniqueGroupName": "Ce nom existe déjà. Essayez un autre.",
+      "defaultGroupName": "Le nom du groupe par défaut ne peut pas être modifié",
+      "defaultGroupAddEmployees": "Pour déplacer des employés, modifiez l’unité de planification cible et ajoutez-y les employés.",
+      "cannotDeleteDefaultGroup": "Le groupe par défaut ne peut pas être supprimé"
+    },
+    "formLabels": {
+      "groupName": "Nom de l’unité de planification",
+      "users": "Employés",
+      "timeZone": "Fuseau horaire"
+    },
+    "addNewGroup": "Nouvelle unité",
+    "totalItems": "{{count}} unités de planification",
+    "createNewGroupModal": {
+      "addHeader": "Créer une nouvelle unité de planification",
+      "editHeader": "Modifier l’unité de planification",
+      "groupNamePlaceholder": "Unité sans titre",
+      "generalInfoTab": {
+        "header": "Heures d’ouverture",
+        "firstDayOfWeekInstruction": "PREMIER JOUR DE LA SEMAINE",
+        "timeZoneInstruction": "FUSEAU HORAIRE",
+        "operationWorkingHoursHeader": "Heures de travail",
+        "day": "JOUR",
+        "workHours": "HEURES DE TRAVAIL",
+        "from": "COMMENCER À PARTIR DE",
+        "to": "À",
+        "hour": "Heure",
+        "hours": "Heures",
+        "allDayWorkingHours": "Toute la journée",
+        "amountOfHours": {
+          "numOfHours": "({{hours}} heures)",
+          "closed": "(fermé)"
+        },
+        "daysOfWeek": {
+          "monday": "Lundi",
+          "tuesday": "Mardi",
+          "wednesday": "Mercredi",
+          "thursday": "Jeudi",
+          "friday": "Vendredi",
+          "saturday": "Samedi",
+          "sunday": "Dimanche"
+        }
+      },
+      "employeesTab": {
+        "header": "Employés",
+        "assignedEmployeesTxt": "Employés assignés",
+        "addEmployeesBtn": "Ajouter des employés",
+        "selectEmployeesTxt": "Sélectionner des employés",
+        "selectedTxt": "Sélectionné :"
+      },
+      "successAdd": "La nouvelle unité de planification a été ajoutée avec succès",
+      "successEdit": "L’unité de planification a été modifiée avec succès"
+    },
+    "suDeleteWarningModal": {
+      "header": "Erreur lors de la suppression des Unités de planification"
+    }
+  }
+}

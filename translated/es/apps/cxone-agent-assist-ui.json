@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "overallSentimentScore": "Puntuación de sentimiento total",
+    "suggestionSummary": "Resumen de sugerencia",
+    "noSuggestionYet": "Todavía no hay sugerencias",
+    "guidanceScores": "Puntuaciones de orientación",
+    "landingMessage": "Esperando autenticación...",
+    "permissionRequired": "Se requieren permisos",
+    "permissionHelpPhrase": "Necesita privilegios para visualizar esta página. Póngase en contacto con su administrador.",
+    "speechVelocity": "Velocidad del discurso",
+    "activeListening": "Escucha activa",
+    "beEmpathetic": "Ser empático",
+    "interruption": "Interrupción",
+    "demonstrateOwnership": "Demostrar interés",
+    "buildRapport": "Entablar una relación de comunicación",
+    "setExpectations": "Fijar expectativas",
+    "effectiveQuestioning": "Preguntas eficaces",
+    "promoteSelfService": "Fomentar las opciones de autoservicio",
+    "acknowledgeLoyalty": "Mostrar reconocimiento por la lealtad",
+    "inappropriateAction": "Acción inapropiada",
+    "sentiment": "Sentimiento general",
+    "noScore": "Sin PUNTUACIÓN",
+    "acknowledgeRequest": "Acusar recibo de solicitud",
+    "overcomeObjections": "Superar objeciones",
+    "presumptiveSelling": "Presunta venta",
+    "uncoverNeeds": "Descubrir necesidades",
+    "askForTheSale": "Preguntar por la venta",
+    "demonstrateEmpathy": "Demostrar empatía",
+    "likelihoodToBuy": "Probabilidad de comprar",
+    "makeAConnection": "Entablar una conexión",
+    "orderConfirmation": "Pedido confirmado"
+  }
+}

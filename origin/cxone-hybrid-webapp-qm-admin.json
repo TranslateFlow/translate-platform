@@ -1,0 +1,2345 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleNameFormatted": "QM Tools",
+        "formManagerModuleLinks": {
+          "manageForms": "Form Manager",
+          "categoryManager": "Category Manager",
+          "qpPlanManager": "Quality Planner"
+        }
+      }
+    }
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "Schedule changed",
+      "content": "Schedule on %%DATE%% has been changed.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "Schedule changed",
+      "content": "Schedule between %%FROM_DATE%% to %%TO_DATE%% has been changed.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "New time off request",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "Time off request was declined",
+      "content": "Request for %%FROM_DATE%% to %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "Time off request was approved",
+      "content": "Request for %%FROM_DATE%% to %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "Time off request was canceled",
+      "content": "Request for %%FROM_DATE%% to %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "You have {{Count}} unread notification"
+  },
+  "selfService": {
+    "installersList": {
+      "fileName": "File Name",
+      "vendor": "Vendor",
+      "version": "Version",
+      "title": "Download ACD Installer"
+    },
+    "acdInstallerTitle": "ACD Installer",
+    "firstParagraph": "The ACD Installer establishes a connection between the ACD (Automated Call Distribution) system and EvolveWFM. EvolveWFM can then receive ACD events and generate RTA (Real Time Adherence) information.",
+    "instructionsHeader": "Installation Instructions",
+    "instructions_1": "1. Download installer distribution from Self Service, On-Prem Integration Area",
+    "instructions_2": "2. UnZip downloaded installer distribution to a convenient location (e.g. C:/Temp/AvayaCMSInstaller)",
+    "instructions_3": "3. To start installation execute install.bat on Windows or install.sh on Linux",
+    "instructions_4": "4. Follow Installer Wizard to configure your Avaya CMS ASC",
+    "generateKeyButton": "Generate Key",
+    "generateKeyHeader": "Generate API Key",
+    "generateKeyExplanation": "You must be an Administrator to generate an API key",
+    "modal": {
+      "title": "Enter your EvolveWFM email address and password, then click Generate",
+      "result": "API Key has been generated successfully",
+      "generateBtnText": "Generate",
+      "email": "Email address",
+      "password": "Password",
+      "copyBtn": "Copy to Clipboard",
+      "generate": "Generate"
+    }
+  },
+  "activityCodes": {
+    "buttons": {
+      "addActivityCode": "New Activity Code",
+      "deleteActivityCode": "Delete"
+    },
+    "deleteMultipleConfirmation1": "The selected activity codes will be removed from this list.",
+    "deleteMultipleConfirmation2": "Instances of these activities may appear in the scheduler and should be removed separately.",
+    "deleteConfirmation1": "You are about to remove the activity code from the system.",
+    "deleteConfirmation2": "Historical instances will remain.",
+    "errorAdd": "An error occurred while creating the activity code.",
+    "errorDelete": "An error occurred while deleting the activity code",
+    "errorMultipleDelete": "An error occurred while deleting the activity codes.",
+    "errorUpdate": "An error occurred while updating the activity code.",
+    "errorRead": "An error occurred while loading activity codes.",
+    "pageTitle": "Activity Codes",
+    "items": "Activity Codes",
+    "item": "activity code",
+    "fieldLabels": {
+      "name": "Activity Code Name",
+      "category": "Display As",
+      "length": "Default Length",
+      "open": "Open",
+      "workHours": "Work Hours",
+      "overtime": "Overtime",
+      "priority": "Priority",
+      "acdEvents": "Acd Events",
+      "shiftType": "Shift Type"
+    },
+    "modal": {
+      "editTitle": "Edit Activity Code",
+      "addTitle": "Create New Activity Code",
+      "errors": {
+        "lengthRange": "Enter between 1 and 1,440 minutes.",
+        "priorityRange": "Priority must be between 1 and 100.",
+        "uniqueTitle": "This name already exists. Try a new one.",
+        "notValidRegex": "These characters cannot be used: ^/!\\+<>?#&,%."
+      },
+      "fieldLabels": {
+        "attributes": "Attributes",
+        "category": "Display as",
+        "length": "Default Length (min.)",
+        "open": "Open",
+        "overtime": "Overtime",
+        "priority": "Priority",
+        "title": "Name",
+        "workHours": "Work Hours",
+        "shiftType": "Can be set as a shift type"
+      },
+      "activate": {
+        "activityExistMsg": "The System has detected that an activity with the same name was created in the past. You can re-activate this activity or create a new one with a different name.",
+        "activateBtn": "Activate"
+      }
+    },
+    "serviceStatusMessages": {
+      "REUSED_EXISTING_ACTIVITY_CODE": "An activity code with the same name existed previously and is being reused.",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_TRUE": "The activity code name cannot be changed to '{{activityCode.title}}'. An activity code with the same name existed previously and has been deleted. You can create a new activity code with this name.",
+      "ACTIVITY_CODE_EXISTS_WITH_SOFT_DELETE": "The name cannot be changed. An activity with the same name existed previously and has been deleted. You can create a new activity with this name.",
+      "NO_ACTIVITY_CODE_EXISTS": "There is no Activity Code Exists with the specified Title.",
+      "ACTIVITY_WITH_TITLE_EXISTS": "Activity with this title already exists.",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_FALSE": "The name cannot be changed. An activity with the same name exists with soft delete false but unique ids doesn't match."
+    },
+    "successAdd": "New activity code has been added successfully",
+    "successDelete": "Activity code has been successfully removed",
+    "successDeleteMultiple": "Activity codes have been successfully removed",
+    "successEdit": "Activity code has been edited successfully"
+  },
+  "activityCodeDropdown": {
+    "placeholder": "Select an activity code..."
+  },
+  "expiredInvitationPage": {
+    "sorryHeader": "We're Sorry...",
+    "explanationText1": "Your invitation has expired.",
+    "explanationText2": "We have notified the sender, and you will probably get a new invitation soon."
+  },
+  "filter": {
+    "clearall": "Clear All",
+    "close": "Close",
+    "clear": "Clear"
+  },
+  "filterDropDown": {
+    "completed": "Completed",
+    "notCompleted": "Not Completed"
+  },
+  "successPage": {
+    "welcomeMsg": "Hello {{username}} "
+  },
+  "importUsersModal": {
+    "header": "Import Employees",
+    "weSupportMessage": "Import employees by uploading a CSV file.",
+    "downloadMessage1": "You can download a template of a CSV file",
+    "downloadMessage2": "",
+    "downloadLink": "here.",
+    "selectFileMessage": "",
+    "successMsg": "Employees imported successfuly.",
+    "errorMsg": "Failed to import employees.",
+    "importErrorsList": {
+      "header": "Import Errors"
+    }
+  },
+  "createUserModal": {
+    "updateUserHeader": "Edit Employee",
+    "createUserHeader": "Create New Employee",
+    "popoverMessage1": "All changes will be lost.",
+    "popoverMessage2": "Are you sure you want to exit without saving?",
+    "errorMsg": "Failed to create new employee.",
+    "successMsg": "Employee was created successfully!",
+    "updateErrorMsg": "Failed to create new employee.",
+    "updateSuccessMsg": "Employee was updated successfully!",
+    "acdLoginId": "ACD Login ID",
+    "maxLimitOfACD": "You cannot enter more than {{items}} items",
+    "reviveUserAlert": "An account with this email address already exists. You can re-activate this account or create a new one with a different email address",
+    "formLabels": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "mobileNumber": "Mobile Number",
+      "assignToGroup": "Assigned to scheduling unit",
+      "assignToGroups": "Assigned to groups",
+      "assignToSkills": "Assigned to skills",
+      "assignToGroupPlaceHolder": "No scheduling unit assigned",
+      "maxHoursPerWeek": "Max. Hours/Week",
+      "rank": "Rank",
+      "rankInterval": "1-999",
+      "timeZonePlaceHolder": "Time Zone",
+      "country": "Country",
+      "countryPlaceholder": "Select country",
+      "hireDate": "Hire Date",
+      "role": "Role",
+      "rolePlaceholder": "Select role",
+      "userPicture": "Profile Picture",
+      "upload": "Upload",
+      "create": "Create Employee",
+      "day": "Day",
+      "month": "Month",
+      "year": "Year",
+      "roles": {
+        "employee": "Employee",
+        "manager": "Manager",
+        "admin": "Administrator"
+      },
+      "groupsDropDown": "{{selectedCount}} Groups",
+      "skillsDropDown": "{{selectedCount}} Skills"
+    },
+    "skillsTab": {
+      "header": "Select Skills",
+      "assignedTxt": "Assigned Skills",
+      "addBtn": "Add",
+      "selectTxt": "Select employees",
+      "selectedTxt": "Selected:"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "This field is required.",
+    "minLength": "Your entry is too short",
+    "nameFieldValidation": "Oops, you can’t use \\ / ! + < > ? # & , % \" ",
+    "maxLength": "Your entry is too long",
+    "email": "The email address you entered is not valid",
+    "emailExists": "The email address already exists. Try a new one",
+    "number": "Numbers only!",
+    "pattern": "Incorrect format for this field",
+    "password": "Your password must be at least 8 characters, including at least 1 number and 1 capital letter",
+    "match": "This password does not match the previous password",
+    "minLengthPassword": "Your password must be at least 8 characters",
+    "maxLengthPassword": "Your password is too long",
+    "min": "Number is too small",
+    "max": "Number is too large",
+    "uniqueString": "This name already exists. Try a new one.",
+    "lowerThen": "The minimum value cannot exceed the maximum value",
+    "weeklyMaxLowerThanSumDailyMin": "The minimum number of days required by the daily rules exceeds the maximum number of days in the weekly rule.",
+    "weeklyMinGreaterThanSumDailyMax": "The minimum number of days in the weekly rule exceeds the maximum number of days required by the daily rules.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "Total hours of minimum daily combinations cannot be larger than the maximum total hours per week",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "Total hours of maximum daily combinations cannot be smaller than the minimum total hours per week",
+    "uniqueDaysCounterLowerThanSumDailyMin": "The minimum number of days exceeds the total number of unique days.",
+    "possibleDaysLowerThanMinDays": "The number of possible days does not meet the minimum number of days required by the weekly rule.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "The minimum number of days in the weekly rule exceeds the number of unique days.",
+    "noAddedShiftPatters": "You must select at least one daily rule",
+    "shiftLengthLowerThanActivityLength": "Sum of activity length and relative start cannot be larger than shift length",
+    "shiftLengthLowerThanTotalActivityLength": "The total length of the activities cannot exceed the length of the shift",
+    "relativeStartLowerThanSlack": "The slack cannot be greater than the relative start value",
+    "activitiesOverlap": "Activities cannot overlap",
+    "serverError": "Unknown server error",
+    "generalError": "General error",
+    "missingPermissionError": "You do not have the correct permissions to perform this action."
+  },
+  "metaInfo": {
+    "selfService": {
+      "title": "Support - Downloads"
+    },
+    "title": "Nice SaaS WFM ",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "Login",
+      "description": "Nice SaaS WFM"
+    },
+    "success": {
+      "title": "Success",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "Examples",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "Form Examples",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "Employees",
+      "description": "Nice SaaS WFM"
+    },
+    "createAccount": {
+      "title": "Create Account",
+      "description": "Nice SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "Activity Codes",
+      "description": "Nice SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " ACD Mapping",
+      "description": "Nice SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "Daily Rules",
+      "description": "Nice SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "Scheduling Unit",
+      "description": "Nice SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "Expired Invitation",
+      "description": "Nice SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "Generate Schedule",
+      "description": "Nice SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "My Schedule",
+      "description": "Nice SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "My Dashboard",
+      "description": "Nice SaaS WFM"
+    },
+    "categoryManager": {
+      "title": "Category Manager",
+      "description": "Nice SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "UI Kit Gallery",
+      "description": "Nice SaaS WFM",
+      "userRoles": "{{selectedCount}} Employee roles"
+    },
+    "manageForms": {
+      "title": "Form Manager",
+      "description": "Nice SaaS WFM"
+    },
+    "templateManager": {
+      "title": "Template Manager",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "Form Designer",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesignerOld": {
+      "title": "Form Designer",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesignerNew": {
+      "title": "Form Designer",
+      "description": "Nice SaaS WFM"
+    },
+    "qpPlanManager": {
+      "title": "Quality Planner",
+      "description": "Quality Planner"
+    },
+    "qpPlanDetails": {
+      "title": "Quality Planner",
+      "description": "Quality Planner"
+    },
+    "workflowFormSelector": {
+      "title": "Workflow Form Selector",
+      "description": "Workflow Form Selector"
+    },
+    "interactionPlayer": {
+      "title": "Interaction Player",
+      "description": "Interaction Player"
+    },
+    "planDetails": {
+      "title": "Plan Monitoring Details",
+      "description": "Plan Monitoring Details"
+    },
+    "ng1FormDesignerPage": {
+      "title": "Form Designer",
+      "description": "Nice SaaS WFM"
+    },
+    "ng2FormDesignerPage": {
+      "title": "Form Designer",
+      "description": "Nice SaaS WFM"
+    },
+    "qmScoreMetric": {
+      "title": "QM Score Metric",
+      "description": "QM Score Metric"
+    }
+  },
+  "commonButtons": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "no": "No",
+    "yes": "Yes",
+    "save": "Save",
+    "delete": "Delete",
+    "activate": "Activate",
+    "saveAndActivate": "Save & Activate",
+    "saveAsDraft": "Save as Draft",
+    "invite": "Invite",
+    "edit": "Edit",
+    "update": "Update",
+    "upload": "Upload",
+    "today": "Today",
+    "showAll": "Show All",
+    "clearAll": "Clear All",
+    "close": "Close",
+    "create": "Create",
+    "selectAll": "Select All",
+    "generate": "Generate",
+    "chooseFile": "Select File",
+    "add": "Add",
+    "publish": "Publish",
+    "set": "Set",
+    "reset": "Reset",
+    "day": "Day",
+    "week": "Week",
+    "done": "Done",
+    "download": "Download"
+  },
+  "languages": {
+    "english": "English",
+    "russian": "Russian",
+    "spanish": "Spanish",
+    "chinese": "Chinese"
+  },
+  "weekDays": {
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday"
+  },
+  "weekShortDays": {
+    "SUN": "SUN",
+    "MON": "MON",
+    "TUE": "TUE",
+    "WED": "WED",
+    "THU": "THU",
+    "FRI": "FRI",
+    "SAT": "SAT"
+  },
+  "globalNavigation": {
+    "wfmHeader": {
+      "contactUs": "Contact Us",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "Logout",
+      "changePasswordOption": "Change Password",
+      "accountSetupOption": "Account Setup",
+      "myProfileOption": "My Profile",
+      "help": "Help",
+      "selfService": "Support - Downloads"
+    },
+    "sideBar": {
+      "setupAppName": "ADMIN",
+      "setupAppLinks": {
+        "users": "Employees",
+        "skills": "Skills",
+        "groups": "Groups"
+      },
+      "schedulerAppName": "SCHEDULER",
+      "schedulerAppLinks": {
+        "activityCodes": "Activity Codes",
+        "realTimeAdherence": "Real Time Adherence",
+        "acdActivitiesMapping": "ACD Mapping",
+        "managementUnits": "Scheduling Unit",
+        "scheduler": "Schedule Manager",
+        "generateSchedule": "Generate Schedule",
+        "dailyRule": "Daily Rules",
+        "weeklyRules": "Weekly Rules",
+        "forecastData": "Import Forecast Data"
+      },
+      "mySpaceAppName": "MY SPACE",
+      "mySpaceAppLinks": {
+        "mySchedule": "My Schedule",
+        "myDashboard": "My Dashboard",
+        "myTasks": "My Tasks",
+        "myEvaluations": "My Evaluations",
+        "performanceMonitoring": "Performance Monitoring",
+        "plansMonitoring": "Plan Monitoring",
+        "calibration": "Calibration"
+      },
+      "formManagerAppName": "QM TOOLS",
+      "formManagerAppLinks": {
+        "manageForms": "Form Manager",
+        "formDesigner": "Form Designer",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "Template Manager"
+      }
+    }
+  },
+  "mySchedule": {
+    "errorRead": "An error occurred while loading the schedule.",
+    "pageTitle": "My Schedule",
+    "userName": "{{userName}}"
+  },
+  "datePicker": {
+    "nextDay": "Next day",
+    "openCalendar": "Open calendar",
+    "previousDay": "Previous day",
+    "today": "Today"
+  },
+  "timePicker": {
+    "openTimePicker": "Open time chooser"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "Next day",
+    "openCalendar": "Open calendar",
+    "openTimeChooser": "Open time picker",
+    "previousDay": "Previous day",
+    "today": "Today"
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Login failed"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "General error"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "This page is unavailable. Please check your connection and try again."
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "General error {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Invalid parameters"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Unauthorized employee"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "There is no response from the server. Please try again later."
+    },
+    "wrongCredentials": "You have entered a wrong email address or password",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Internal server error."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Internal error."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "Scheduling unit does not exist."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "This name already exists. Try a new one."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "This tenant or employee already exists. Try a new one."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "The email address already exists. Try a new one"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "File does not exist."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "Employee does not exists"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "There are no employees to invite."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "Failed to create employee."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "Invalid Employee Status"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "Invalid organization name."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Invalid email."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "Invalid employee first name."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "Invalid employee last name."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "Cannot delete the default scheduling unit."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "scheduling unit ID is missing."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "Employee maximum hours not in range."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "Employee password is invalid."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "Cannot update default group."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "Cannot remove employees from default group."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "Incorrect employee password."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "Employee does not exist."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "You cannot delete your own employee"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "You cannot delete the only administrator"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "You cannot delete a employee that was already deleted"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "Invalid password token"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "Failed to create account"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "Organization name is invalid"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "The file format is not supported"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "You do not have permission to change the role"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "You cannot change your own role"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "Cannot delete last admin."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "This name already exists. Try a new one."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "Cannot change passwords because previous and new ones are the same."
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "Please check your details and try again"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD login ID already exist"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "New Employee will exceed the limit of users, please contact sales at CXoneSalesTeam@niceincontact.com"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Internal server error."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Internal error."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "This name already exists. Try a new one."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "Skill does not exist."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "A employee cannot have more than 50 skills."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "The Skill name is not valid"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "Weekly rule is empty"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "wrong weekly rule"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "wrong weekly rule days range"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "wrong weekly rule hours range"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "VALUE OF MAX SHIFTS OF WEEKLY RULE IS LOWER THAN TOTAL OF MIN DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "VALUE OF MIN SHIFTS OF WEEKLY RULE IS GREATER THAN TOTAL OF MAX DAYS DAILY RULE"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "TOTAL SUM OF DAILY MIN HOURS IS BIGGER THAN WEEKLY MAX HOURS"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "TOTAL SUM OF DAILY MAX HOURS IS LOWER THAN WEEKLY MIN HOURS"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "TOTAL SUM OF POSSIBLE DAYS IS LOWER THAN THE CORRESPONDING MIN DAY OF THE DAILY RULE"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN THE TOTAL SUM OF MIN SHIFTS PER DAILY RULE"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "NO NAME FOR WEEKLY RULE WAS GIVEN"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "DAILY RULES ARE EMPTY"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "TOTAL SUM OF ALL UNIQUE POSSIBLE DAYS IS LOWER THAN MINIMUM SHIFTS PER WEEK"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "The date format is invalid"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "The time period between two dates is invalid"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "An internal server error has occurred"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "An internal error has occured"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "The file format is not supported"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "Records in the file could not be read"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Could not find expected column titles. Look at sample file."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Skills are missing from the system"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "Scheduling Units are missing from the file"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "Earliest daily start is after latest start"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "Increment format is wrong"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "Daily rule start times are not within the correct range"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "Daily activity length is bigger than daily rule length"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack format is wrong"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "Relative start time is lower slack time"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "Sum of lengths of activities is bigger than daily length"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "No valid activities combination exist"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "Activity code exceeded daily rule shift"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "The file format is not supported"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "The Activity Code name is not valid"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "Time zone in schedule unit is wrong"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "Cannot delete the default activity code"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "Please select a template"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "Template Id is invalid"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "Form Name already exist"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Internal server error."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Internal error."
+    },
+    "qp_data_service_1": {
+      "code": "DUPLICATE_PLAN_NAME_ERROR",
+      "message": "Plan name already exists"
+    },
+    "qp_data_service_12": {
+      "code": "FORM_NOT_ACTIVE",
+      "message": "Evaluation form is not active."
+    },
+    "qp_data_service_10": {
+      "code": "Invalid License",
+      "message": "Invalid License"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "No match found",
+    "modal": {
+      "employeeTab": "No employees assigned yet"
+    }
+  },
+  "uikitGallery": {
+    "userCount": "{{count}} Employees",
+    "selectedCount": "{{count}} Selected",
+    "searchPlaceholder": "Start typing to find employee"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "Scheduling Units"
+  },
+  "ng2ManageFormsPage": {
+    "pageTitle": "Form Manager",
+    "createForm": "New Form",
+    "omnibar": {
+      "itemCount": "{{ count }} forms",
+      "itemLabel": "form",
+      "itemsLabel": "forms",
+      "selectedItemCount": "{{ count }} selected",
+      "searchPlaceholder": "Start typing to find form",
+      "bulkOperations": {
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "delete": "Delete"
+      }
+    },
+    "columnHeaders": {
+      "title": "Form Name",
+      "version": "Version",
+      "lastModified": "Last Modified",
+      "createdBy": "Created By",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "noRowsText": "No match found",
+    "active": "Active",
+    "inactive": "Inactive",
+    "draft": "Draft",
+    "change": "Change",
+    "cancel": "Cancel",
+    "message": {
+      "successPublish": "Form(s) activated successfully.",
+      "successUnpublish": "Form(s) deactivated successfully.",
+      "successDelete": "Form(s) deleted successfully.",
+      "successRename": "Form renamed successfully.",
+      "alreadyPublished": "Form(s) already active.",
+      "alreadyUnpublished": "Some of the forms are draft or inactive and cannot be deactivated. Activate the form(s) and try again.",
+      "multiFormDelete": "Some of the forms are active and cannot be deleted. Deactivate the form(s) and try again.",
+      "noFormToDelete": "No form(s) to delete.",
+      "failAdd": "Failed to add new form. Try again.",
+      "failedRename": "Form name already exists.",
+      "failedUpdate": "Failed to update form(s).",
+      "successDuplicate": "Form duplicated successfully.",
+      "successMultiPublish": "Form(s) activated successfully.",
+      "singleFormDelete": "Active forms cannot be deleted. You need to deactivate the form first",
+      "publishErrorNoWorkflowSettings": "Activation failed. Workflow settings must be defined",
+      "publishErrorNoWorkflowSettingsMulti": "Activation of some of the forms failed. Workflow settings must be defined for these forms"
+    },
+    "popover": {
+      "messagePublish": "Activate the selected form(s)?",
+      "messageUnpublish": {
+        "line1": "Deactivate the form(s)?",
+        "line2": "This might impact existing workflows."
+      },
+      "deleteSelectedFormsMsg": {
+        "line1": "Delete the selected form(s)?",
+        "line2": "This action can’t be undone and might impact existing workflows."
+      },
+      "deleteSingleFormMsg": "Delete the selected form? This action can’t be undone and might impact existing workflows.",
+      "activeFormsCannotBeDeleted": "Active forms cannot be deleted. Deactivate the form(s) and try again.",
+      "deleteSingleDraftFormMsg": "Delete the selected form? This action can’t be undone.",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "duplicate": "Duplicate",
+      "rename": "Rename"
+    },
+    "saveDuplicateFormModal": {
+      "addHeader": "Duplicate Form",
+      "subHeading": "FORM NAME",
+      "errors": {
+        "uniqueTitle": "This name already exists. Try a new one."
+      }
+    },
+    "renameFormModal": {
+      "header": "Rename Form",
+      "subHeading": "FORM NAME"
+    }
+  },
+  "manageFormsPage": {
+    "pageTitle": "Form Manager",
+    "createForm": "New Form",
+    "items": "forms",
+    "item": "form",
+    "noItemsOverlay": "No match found",
+    "errorRead": "An error occurred while loading forms",
+    "modals": {
+      "cancel": "Cancel",
+      "change": "Change"
+    },
+    "EVALUATION": {
+      "saveDuplicateFormModal": {
+        "addHeader": "Duplicate Form",
+        "subHeading": "FORM NAME",
+        "errors": {
+          "uniqueTitle": "This name already exists. Try a new one."
+        }
+      },
+      "renameFormModal": {
+        "header": "Rename Form",
+        "subHeading": "FORM NAME"
+      },
+      "gridColumnsHeaders": {
+        "title": "Form Name"
+      },
+      "itemCount": "{{count}} forms",
+      "itemSearchPlaceholder": "Start typing to find form",
+      "successAdd": "Form added successfully.",
+      "successDuplicate": "Form duplicated successfully.",
+      "failAdd": "Failed to add new form. Try again.",
+      "successPublish": "Form(s) activated successfully.",
+      "successUnpublish": "Form(s) deactivated successfully.",
+      "successDelete": "Form(s) deleted successfully.",
+      "successMultiPublish": "Form(s) activated successfully.",
+      "successRename": "Form renamed successfully.",
+      "failedRename": "Form name already exists.",
+      "popover": {
+        "messagePublish": "Activate the selected form(s)?",
+        "messageUnpublish": "Deactivate the form(s)? This might impact existing workflows.",
+        "deleteSelectedFormsMsg": "Delete the selected form(s)? This action can’t be undone and might impact existing workflows.",
+        "deleteSingleFormMsg": "Delete the selected form? This action can’t be undone and might impact existing workflows.",
+        "activeFormsCannotBeDeleted": "Active forms cannot be deleted. Deactivate the form(s) and try again.",
+        "deleteSingleDraftFormMsg": "Delete the selected form? This action can’t be undone."
+      },
+      "errorMsg": {
+        "alreadyPublished": "Form(s) already active.",
+        "alreadyUnpublished": "Some of the forms are draft or inactive and cannot be deactivated. Activate the form(s) and try again.",
+        "multiFormDelete": "Some of the forms are active and cannot be deleted. Deactivate the form(s) and try again.",
+        "noFormToDelete": "No form(s) to delete."
+      }
+    },
+    "gridColumnsHeaders": {
+      "form": "Form Name",
+      "status": "Status",
+      "lastModified": "Last Modified",
+      "createdBy": "Created By",
+      "actions": "Actions",
+      "active": "Active",
+      "inactive": "Inactive",
+      "draft": "Draft",
+      "version": "Version",
+      "bulkOperationsBtns": {
+        "activate": "Activate",
+        "delete": "Delete",
+        "deactivate": "Deactivate"
+      }
+    },
+    "moreMenu": {
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "duplicate": "Duplicate",
+      "rename": "Rename"
+    },
+    "successRename": "Form has been renamed successfully",
+    "errorMsg": {
+      "singleFormDelete": "Active forms cannot be deleted. You need to deactivate the form first",
+      "publishErrorNoWorkflowSettings": "Activation failed. Workflow settings must be defined",
+      "publishErrorNoWorkflowSettingsMulti": "Activation of some of the forms failed. Workflow settings must be defined for these forms"
+    }
+  },
+  "formDesignerPage": {
+    "pageTitle": "Create New Form",
+    "manageFormsBreadcrumb": "Form Manager",
+    "saveAsDraft": "Save as Draft",
+    "save": "Save",
+    "score": "Score",
+    "sectionScore": "Section Score",
+    "activate": "Save & Activate",
+    "inActivate": "Inactivate",
+    "cancel": "Cancel",
+    "close": "Close",
+    "preview": "Preview",
+    "errorRead": "An error occurred while loading forms designer",
+    "errorInteraction": "No interaction available",
+    "errorLoadingLogo": "Couldn't load the form logo",
+    "errorLoadingHeader": "Couldn't load the header",
+    "criticalQuestionsValidationError": "{{ count }} Questions have error. Please validate and save again",
+    "criticalQuestionValidationError": "Please define at least one correct and one wrong answer",
+    "criticalQuestionEnableScoringHelpHeader": "Enable Scoring",
+    "criticalQuestionEnableScoringHelpText": "Enable scoring to mark this question as critical.",
+    "criticalQuestionHelpHeader": "Critical Question",
+    "criticalQuestionHelpText": "This question addresses critical elements of an interaction. Failing a critical question will result in a failed agent score.",
+    "criticalQuestionAnswersHelpText": "Flag which answer(s) will result in a failed score. You must define at least one incorrect answer and one correct answer.",
+    "criticalQuestionAnswersErrorMessage": "You must define at least one correct and one incorrect answer.",
+    "criticalQuestionToolTip": "This is a critical question. Failing will reset the score to 0.",
+    "formTitle": {
+      "title": "Enter title",
+      "subTitle": "Enter sub title"
+    },
+    "saveFormModal": {
+      "saveFormHeader": "Save Form",
+      "activeFormHeader": "Activate Form",
+      "formPlaceholder": "Enter Form Name",
+      "popover": {
+        "message1": "All changes will be lost",
+        "message2": "Are you sure you want to exit without saving?"
+      }
+    },
+    "scoreFormModal": {
+      "addHeader": "Scoring",
+      "enableScoring": "Enable scoring",
+      "calculatedScore": "Calculated weighted score",
+      "currentPoints": "Current points",
+      "maxPoints": "Max Points:",
+      "maxScoreZeroMessage": "The minimum score must be more than 0",
+      "scorable": "Scorable",
+      "outOf": "of",
+      "saveLabel": "Save",
+      "setScoring": "SET SCORING",
+      "setRanking": "SET RANKING",
+      "enableRanking": "Enable Ranking",
+      "rankingNoteMsg": "Note: Using ranking will replace the score display",
+      "setRangeFormScore": "Set ranges for the form scores",
+      "from": "FROM",
+      "to": "TO",
+      "display": "DISPLAY",
+      "drpDwnPlaceHolder": "%",
+      "add": "+ Add",
+      "ranking": {
+        "defaultFailedLabel": "Failed",
+        "defaultPassedLabel": "Passed",
+        "validationMsg": {
+          "emptyRange": "Empty range",
+          "completeRange": "Invalid range. Defined ranges must total to 100%",
+          "invalidRange": "Invalid range",
+          "requiredField": "Required field"
+        }
+      }
+    },
+    "selectTemplateModal": {
+      "selectThemeHeader": "Change template",
+      "selectThemeMsg": "Select a template for the form",
+      "customDisclaimer": "Note: Any customization you made will be reset"
+    },
+    "elementListComponent": {
+      "component": "ELEMENTS",
+      "selectOption": " {{selectedCount}} Options",
+      "errorMsg": "This field is required",
+      "invalidDate": "Invalid date",
+      "invalidTime": "Invalid time",
+      "characters": "Characters"
+    },
+    "elementAttributeComponent": {
+      "properties": "PROPERTIES",
+      "NA": "N/A",
+      "label": "TITLE",
+      "text": "TEXT",
+      "question": "QUESTION",
+      "subText": "INSTRUCTIONS",
+      "url": "URL",
+      "prePopulatedHintText": "HINT TEXT",
+      "limitCharacters": "Character Limit",
+      "mandatory": "Required",
+      "criticalQuestion": "Mark as Critical",
+      "visible": "Visible",
+      "layout": "LAYOUT",
+      "vertical": "Vertical",
+      "horizontal": "Horizontal",
+      "choices": "CHOICES",
+      "fontType": "Font",
+      "fontSize": "Size",
+      "fontIndent": "Align",
+      "fontColor": "Label Color",
+      "fontStyle": "Style",
+      "addMultiple": "Add Multiple",
+      "italics": "Italics",
+      "bold": "Bold",
+      "underline": "Underline",
+      "backgroundColor": "Background Color",
+      "useNA": "Use N/A",
+      "dateLabel": "Date",
+      "timeLabel": "Time",
+      "setCurrentDate": "Use current date",
+      "dateFormat": "Date Format",
+      "displayDate": "Display Date",
+      "setCurrentTime": "Use current time",
+      "startTime": "Start Time",
+      "single": "Single selection",
+      "multiple": "Multiple selection",
+      "addList": "List of Values",
+      "image": "IMAGE",
+      "fileUploadErrorExtensionMsg": "File type invalid. Supported formats: JPG, PNG, GIF, BMP, JPEG",
+      "fileUploadSizeErrorMsg": "File is too large. File must be less than 2 MB",
+      "logic": "LOGIC",
+      "addRule": "+ Add Rule",
+      "rule": "Rule",
+      "width": "Width",
+      "height": "Height",
+      "px": "(px)",
+      "aspectRatio": "Lock aspect ratio",
+      "header": "Header",
+      "subTitle": "SUB TITLE",
+      "browse": "Browse",
+      "headerFields": {
+        "headerFieldsLabel": "HEADER FIELDS",
+        "headerFieldSelectedOption": " {{selectedCount}} Selected",
+        "AgentName": "Agent Name",
+        "ReviewDate": "Review Date",
+        "StartDate": "Evaluation Start Date",
+        "Duration": "Interaction Duration",
+        "HireDate": "Hire Date",
+        "InteractionDate": "Interaction Date",
+        "failLoadHeaderFields": "Failed to load header fields. Try again",
+        "SegmentId": "Segment ID",
+        "SegmentContactId": "Contact ID"
+      }
+    },
+    "dateTimeComponent": {
+      "at": "at"
+    },
+    "workFlowSettingsModal": {
+      "header": "Settings",
+      "workflow": "WorkFlow",
+      "agentCanReview": "Agent Can Review",
+      "agentCanAcknowledge": "Agent Can Acknowledge",
+      "agentCanRequestReview": "Agent Can Request Review",
+      "assignedEvaluator": "The assigned evaluator",
+      "specificEvaluator": "A specific person:",
+      "agentCanViewScoring": "Display Scores To Agents",
+      "successSave": "Workflow Settings have been set successfully",
+      "successUpdate": "Workflow Settings have been updated successfully",
+      "workflowStartError": "Error starting workflow",
+      "qpInteractionsFetchError": "Failed to fetch assigned interactions",
+      "workflowInteractionsFetchError": "Failed to fetch evaluated interactions",
+      "noOptionSelectedErrorMessage": "This field is required",
+      "getUser": {
+        "error": "Failed to retrive users"
+      }
+    },
+    "warningMessageModal": {
+      "title": "Leave Page?",
+      "unsavedChanges": "You have unsaved data.",
+      "areYouSureLeavePage": "Are you sure you want to leave without saving?"
+    },
+    "criticalQuestionMessageModal": {
+      "title": "Rules Invalidated",
+      "message1": "Marking this question as critical will invalidate some rules and remove them.",
+      "message2": "Are you sure you want to continue?"
+    },
+    "criticalQuestionScoringMessageModal": {
+      "message1": "You disabled scoring. Saving now will delete all critical questions.",
+      "message2": "Are you sure you want to continue?"
+    },
+    "createEditRuleModal": {
+      "header": "Set Rule",
+      "ifSelection": "If selection",
+      "ifThe": "If the",
+      "addAnotherRule": "Add another Rule",
+      "hide": "Hide"
+    },
+    "deleteRuleWarningModal": {
+      "title": "Invalid Rules Removed",
+      "rulesRemoved": "Reordering form questions made some rules invalid and removed them.",
+      "wantsToRevert": "Do you want to undo these changes?"
+    },
+    "successAdd": "New Form has been added successfully",
+    "successPublish": "Form(s) activated successfully.",
+    "failAdd": "Failed to add new Form",
+    "failPublish": "Failed to activate new Form",
+    "failedRename": "Form name already exists.",
+    "failLoadElements": "Failed to load form elements. Try again.",
+    "EVALUATION": {
+      "successAdd": "Form added successfully.",
+      "successEdit": "Form edited successfully.",
+      "failAdd": "Failed to add new form. Try again.",
+      "saveFormModal": {
+        "saveFormHeader": "Save Form",
+        "activeFormHeader": "Activate Form",
+        "formPlaceholder": "Enter form name"
+      },
+      "testFormModal": {
+        "header": "Test Form",
+        "submit": "Validate"
+      },
+      "popover": {
+        "savePublishFormMsg": "Edit an active form? This action do not impact forms that are already in use."
+      }
+    },
+    "questionBank": {
+      "questionBank": "Question Bank",
+      "elements": "Elements",
+      "searchBank": "Search Bank",
+      "deleteQuestionPopoverMsg": "You are about to delete the selected question. This action can’t be undone. Continue?",
+      "failedLoadQuestionBank": "Failed to Load questions. Please try after some time",
+      "questionDeleteSuccess": "Question has been deleted successfully",
+      "questionDeleteFailed": "Question was not deleted. Please try after some time",
+      "questionSaveSuccess": "Question has been saved successfully",
+      "duplicateQuestion": "This question already exists in the question bank",
+      "saveQuestionFailed": "Question was not saved. Please try after some time"
+    },
+    "elementType": {
+      "section": "Section",
+      "yesno": "Yes/No",
+      "checkbox": "Checkbox",
+      "radio": "Radio",
+      "datetime": "Date/Time",
+      "dropdown": "Dropdown",
+      "hyperlink": "Hyperlink",
+      "label": "Label",
+      "text": "Short Text",
+      "textarea": "Long Text",
+      "header": "Header",
+      "attachment": "Attachment",
+      "interactions": "Interaction"
+    },
+    "toolTips": {
+      "saveToBank": "Save to bank",
+      "duplicate": "Duplicate",
+      "logic": "Define rules",
+      "scoring": "Define scoring",
+      "settings": "Settings",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "example": "Example:",
+    "objectiveExample": "1. The agent will learn escalation protocol",
+    "labels": "Labels",
+    "objectives": "Objectives",
+    "duration": "Duration",
+    "durationErrorMsg": "This field is required",
+    "hour": "h",
+    "minutes": "m",
+    "attachment": {
+      "insertFile": "Insert File",
+      "tooBigToUpload": "is too big to upload.",
+      "maxFileSize": "File must be less than {{maxSize}}.",
+      "fileUploadProgress": "{{loaded}} out of {{total}}",
+      "failedFileUpload": "Failed to upload file. Try again.",
+      "fileTypeMismatch": "Could not upload file. The file type and extension do not match. Try again.",
+      "fileTypeNotAllowed": "Could not upload file. The file type is not supported.",
+      "fileSizeExceeded": "Could not upload file. The file exceeds the 15 MB limit.",
+      "zeroFileSizeError": "Could not upload file. The file you selected is empty. Try again.",
+      "dragAndDropElement": "Drag and drop to upload or",
+      "browseForFile": "Browse for files",
+      "scanningFile": "Scanning file for viruses, please wait ....",
+      "fileCorrupted": "File is corrupted or infected with viruses.",
+      "linkTextLabel": "Link Text",
+      "uploadFile": "Upload File",
+      "progressBarText": "Progress",
+      "mandatoryFieldText": "This field is mandatory"
+    },
+    "interactions": {
+      "interactionsBtn": "Add Interactions",
+      "type": "Type",
+      "agentName": "Agent Name",
+      "startDateAndTime": "Start Date & Time",
+      "duration": "Duration"
+    },
+    "info": {
+      "required": "Required",
+      "critical": "Critical"
+    },
+    "compareMode": {
+      "questionNotApplicable": "This question is not applicable",
+      "sectionNotApplicable": "This section is not applicable"
+    }
+  },
+  "formManager": {
+    "formStatus": {
+      "draft": "Draft",
+      "published": "Published",
+      "deleted": "Deleted",
+      "disabled": "Disabled"
+    },
+    "elementType": {
+      "formArea": "formArea",
+      "section": "section",
+      "dateTime": "datetime",
+      "dropdown": "dropdown",
+      "hyperlink": "hyperlink",
+      "radio": "radio",
+      "yesno": "yesno",
+      "label": "label"
+    },
+    "dropdownType": {
+      "single": "single",
+      "multiple": "multiple"
+    },
+    "logicMode": {
+      "newRule": "newRule",
+      "singleEdit": "singleEdit",
+      "bulkEdit": "bulkEdit"
+    }
+  },
+  "templateManagerPage": {
+    "pageTitle": "Template Manager",
+    "createTemplate": "New Template",
+    "items": "forms",
+    "item": "form"
+  },
+  "qpWidget": {
+    "qpWidgetEvaluatorHeader": "My Tasks",
+    "noItemsOverlay": "No match found",
+    "gridColumnsHeaders": {
+      "interactionId": "INTERACTION ID",
+      "type": "TYPE",
+      "agentName": "AGENT NAME",
+      "startTime": "INTERACTION START",
+      "duration": "DURATION",
+      "status": "STATUS",
+      "evaluationStatus": "EVALUATION STATUS",
+      "evaluationDate": "EVALUATION DATE",
+      "score": "SCORE"
+    },
+    "qpInteractionEvalStatus": {
+      "pending": "Pending evaluation",
+      "inProgress": "In Progress",
+      "assigned": "Assigned"
+    }
+  },
+  "designerComponent": {
+    "templateOptions": "Template Option",
+    "createTemplate": "New Template",
+    "selectTemplate": "Select Template",
+    "EVALUATION": {
+      "testForm": "Test Form"
+    },
+    "COACHING": {
+      "testForm": "Test Package"
+    }
+  },
+  "manageTemplatePage": {
+    "pageTitle": "",
+    "createTemplateModal": {
+      "header": "New Template",
+      "successMsg": "Template created successfully",
+      "logoErrorMsg": "Failed to upload logo",
+      "logoFileMsg": "You must select correct file to upload",
+      "errorMsg": "Failed to create template",
+      "duplicateTemplate": "Template already exists",
+      "templatePlaceholder": "Enter Template Name",
+      "headerImage": "Header image",
+      "setDefaultTemplate": "Set this template as default",
+      "setBgColor": "Background color",
+      "popover": {
+        "message1": "All changes will be lost",
+        "message2": "Are you sure you want to exit without saving?"
+      },
+      "numbering": "Numbering",
+      "enableNumbering": "Enabled"
+    },
+    "tabs": {
+      "design": "Design",
+      "settings": "Settings"
+    }
+  },
+  "teamsAndGroups": {
+    "teams": "Teams",
+    "groups": "Groups",
+    "selectTeams": "Select Teams",
+    "selectGroups": "Select Groups",
+    "errorMessages": {
+      "required": "You must select at least one team"
+    }
+  },
+  "messages": {
+    "noResultsText": "We didn't find any results"
+  },
+  "ng2QMEditAccessibleTeams": {
+    "buttons": {
+      "cancel": "Cancel",
+      "apply": "Apply",
+      "ok": "OK",
+      "showSelected": "Show selected only"
+    },
+    "gridColumnsHeaders": {
+      "teamName": "TEAM NAME"
+    },
+    "noItemsOverlay": "No match found",
+    "customSelectTeams": "Custom Select Teams",
+    "removeEvaluator": "Remove Evaluator",
+    "omnibarMessage": "Search team",
+    "noTeamSelectedMessage": "No team selected",
+    "noTeamAddedMessage": "No team added",
+    "modalHeader": "Teams Selection",
+    "switchOnSelectTeamsToggleMessage": "Select On to allow custom team selection for an evaluator.",
+    "switchOffSelectTeamsToggleMessage": "Select Off to not allow custom team selection for an evaluator.",
+    "selectTeamsToggleONHeader": "Turning On Custom Team Selection",
+    "selectTeamsToggleOffHeader": "Turning Off Custom Team Selection",
+    "notAccessibleTeamError": "The evaluator no longer has access to the team/teams"
+  },
+  "ng2QualityPlannerPage": {
+    "planStatus": {
+      "draft": "Draft",
+      "active": "Active",
+      "inactive": "Inactive",
+      "running": "Running",
+      "expired": "Expired",
+      "pending": "Pending",
+      "deleted": "Deleted"
+    },
+    "planActions": {
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "extend": "Extend",
+      "duplicate": "Duplicate"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "Quality Plans",
+      "newPlanButton": "New Plan",
+      "noItemsOverlay": "No match found",
+      "plansCountLabel": "plans",
+      "planCountLabel": "plan",
+      "planCount": "{{count}} plans",
+      "planSearchPlaceholder": "Start typing to find plan",
+      "gridColumnsHeaders": {
+        "planName": "plan name",
+        "evaluationType": "evaluation type",
+        "planOccurrence": "plan occurrence",
+        "planLastModified": "last modified",
+        "planState": "Status",
+        "planAction": "Actions",
+        "planActivate": "Activate"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }} plans",
+        "searchPlaceholder": "Start typing to find plan"
+      },
+      "planOccurrence": {
+        "recurring": "Recurring",
+        "monthly": "Monthly Recurring Plan",
+        "weekly": "Weekly Recurring Plan",
+        "oneTime": "One Time"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "You are about to delete this plan. This action cannot be undone.",
+          "msg2": "Continue?"
+        },
+        "activatePlan": {
+          "msg1": "There are errors in the plan. You need to fix them before activating the plan.",
+          "msg2": "What would you like to do?"
+        },
+        "deactivatePlan": {
+          "msg1": "You are about to deactivate this plan. Evaluators will not get any more interactions.",
+          "msg2": "Continue?"
+        },
+        "closeModal": {
+          "message1": "All changes will be lost",
+          "message2": "Are you sure you want to exit without saving?"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "Plan Name",
+          "successMessage": "Plan has been duplicated successfully.",
+          "errorMessage": "Plan name already exists",
+          "header": "Duplicate Plan",
+          "duplicate": "Duplicate",
+          "errorDuplicatingPlanMissingPermissionError": "You do not have the correct permissions to perform this action."
+        }
+      },
+      "warningMessageModal": {
+        "title": "Leave Page?",
+        "unsavedChanges": "You have unsaved data.",
+        "areYouSureLeavePage": "Are you sure you want to leave without saving?"
+      }
+    },
+    "qpPlanDetails": {
+      "RBAC_cannot_delete_error" : "Cannot delete quality plan. Contact your administrator.",
+      "RBAC_cannot_activate_error" : "Cannot activate quality plan. Contact your administrator.",
+      "RBAC_cannot_duplicate_error" : "Cannot duplicate quality plan. Contact your administrator.",
+      "RBAC_cannot_deactivate_error" : "Cannot deactivate quality plan. Contact your administrator.",
+      "pageTitle": "Create New Quality Plan",
+      "qualityPlansPageBreadcrumb": "Quality Plans",
+      "name": "Name",
+      "description": "Description",
+      "errorSavingPlan": "Error saving Quality Plan",
+      "errorSavingPlanDueToFilters": "Can't save this plan. You edited fields that can't be changed.",
+      "successSavingPlan": "Quality Plan successfully saved ",
+      "successSavingActivePlan": "Quality plan saved successfully. The changes will be effective in the next distribution.",
+      "selectiveFieldsEditMsg": "Fields that can be edited: Plan name, Description, Assign evaluation form, Call filtering",
+      "editEvaluatorSelectiveFieldsEditMsg": "Fields that can be edited: Plan name, Description, Assign evaluation form, Call filtering, Evaluators",
+      "editEvaluatorsInfoIconMsg": "Changes to the evaluators affect the plan distribution",
+      "successActivatingPlan": "Quality Plan successfully activated.",
+      "successDeactivatingPlan": "Quality Plan successfully deactivated.",
+      "errorActivatingPlan": "Error activating Quality Plan.",
+      "errorActivatingPlanPermissionIssue": "Can not activate this plan. Some evaluators do not have permission to evaluate interactions.",
+      "errorActivatingPlanStatusIssue": "Can not activate this plan. It has no active evaluators.",
+      "errorDeactivatingPlan": "Error deactivating Quality Plan.",
+      "successdelete": "Plan deleted successfully.",
+      "deleteQualityPlanError": "Failed to delete Quality Plan. Please try again.",
+      "evaluationType": "Evaluation Type",
+      "standardEvaluation": "Standard Evaluation",
+      "standardEvaluationHelpText": "This evaluation will be performed only by the evaluator",
+      "collaborativeEvaluation": "Collaborative Evaluation",
+      "collaborativeEvaluationHelpText": "This evaluation will be performed by both the agent and the evaluator, and then compared",
+      "planDuration": {
+        "planDurationTitle": "Plan Definition",
+        "planDurationMessage": "Evaluate calls that occurred within the selected time period:",
+        "recurringLabel": "Recurring",
+        "oneTimeLabel": "One Time Plan - Start and end dates:",
+        "oneTimePlanNewLabel": "One Time",
+        "startDateLabel": "FROM",
+        "endDateLabel": "TO",
+        "emptyDatePickerLabel": "Select a Date",
+        "selectForm": "Select a form",
+        "errorMessage": "You must select an evaluation form",
+        "recurringOptions": {
+          "monthly": "Monthly",
+          "weekly": "Weekly"
+        }
+      },
+      "planFilters": {
+        "filteringHeader": "Filtering",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "You must select at least 1 filter",
+        "filterLicenseError": "Failed to get licenses for current tenant. Try again.",
+        "smsChannelStatusError": "Failed to get SMS channel status for current tenant. Try again.",
+        "callDirectionFilter": {
+          "callDirectionLabel": "Call Direction:",
+          "filterLabel": "DIRECTION",
+          "inboundLabel": "Inbound",
+          "incomingLabel": "Incoming",
+          "outboundLabel": "Outbound",
+          "outgoingLabel": "Outgoing",
+          "internalLabel": "Internal"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "Call Length:",
+          "Less": "Less than",
+          "Greater": "Greater than",
+          "Between": "Between",
+          "durationExceedMaxMessage": "Maximum call length must be greater than minimum call length",
+          "durationLessThenZeroMessage": "Call length must be greater than 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "RECORDED SEGMENT TYPE",
+          "voiceOnlyLabel": "Voice only",
+          "channelLabel": "CHANNELS",
+          "voiceLabel": "Voice",
+          "voiceAndScreenLabel": "Voice and screen",
+          "chatLabel": "Chat",
+          "emailLabel": "Email",
+          "smsLabel": "SMS"
+        },
+        "channelsFilter": {
+          "VOICE": "Voice",
+          "FB_PRIVATE": "Facebook Messenger",
+          "CHAT": "Chat",
+          "EMAIL": "Email",
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "LINE": "LINE Messaging",
+          "LINE_PRIVATE": "LINE Messaging",
+          "TW_PRIVATE": "Twitter Direct Messages",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "SMS": "SMS",
+          "CUSTOM_PRIVATE": "Custom",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "WORKITEM": "Work Item",
+          "GOOGLE_BUSINESS_MESSAGES_PRIVATE": "Google Business Messenger",
+          "MICROSOFT_TEAMS_PRIVATE": "Microsoft Teams",
+          "SLACK_PRIVATE": "Slack"
+        },
+        "categoriesFilter": {
+          "categories": "CATEGORIES",
+          "selectCategories": "Select Categories",
+          "selectedCategories": "Selected Categories ({{count}})",
+          "selectedIACategories": "Selected IA Categories ({{count}})",
+          "selectedQMACategories": "Selected QM Categories ({{count}})",
+          "noCategoriesSelected": "No categories selected yet",
+          "categoryConfidenceLabel": "High Confidence Only",
+          "qmaCategoryDeprecationText": "QMA categories will be deprecated after a couple of releases"
+        },
+        "sentimentFilter": {
+          "filterLabel": "SENTIMENT",
+          "sentimentFacet": {
+            "anySide": "Either side",
+            "agentSide": "Agent side",
+            "customerSide": "Customer side",
+            "bothSides": "Agent AND Customer"
+          },
+          "sentiment": {
+            "POSITIVE": "Positive",
+            "NEGATIVE": "Negative",
+            "NEUTRAL": "Neutral",
+            "MIXED": "Mixed"
+          }
+        },
+        "enlightenSentimentFilter": {
+          "sentimentFacet": {
+            "anySide": "Either side",
+            "agentSide": "Agent side",
+            "customerSide": "Customer side",
+            "bothSides": "Agent AND Customer"
+          },
+          "enlightenSentiment": {
+            "STRONGLYNEGATIVE":"Strongly Negative",
+            "MODERATELYNEGATIVE":"Moderately Negative",
+            "NEUTRAL":"Neutral",
+            "MODERATELYPOSITIVE":"Moderately Positive",
+            "STRONGELYPOSITIVE":"Strongly Positive"
+          }
+        },
+        "enhancedSentimentFilter": {
+          "title": "Select Sentiment",
+          "cancelButton": "Cancel",
+          "changeButton": "Change",
+          "sentimentPopoverText": "Changing the sentiment type will remove the earlier selections",
+          "sentiments": {
+            "label": "Sentiment",
+            "subLabel": "Overall mood detected from words or phrases"
+          },
+          "enlightenSentiments": {
+            "label": "Enlighten Sentiment",
+            "subLabel": "Predictive Net Promoter Score"
+          }
+        },
+        "recordingSourceFilter": {
+          "recordingSourceLabel": "RECORDING SOURCE",
+          "dropdownPlaceHolderText": "Select a source",
+          "reordingSouceFitlerTooltipText":"Select the recording source for the interactions to be evaluated"
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "filterLabel": "ACD",
+          "skillsLabel": "SKILLS",
+          "dispostionsLabel": "DISPOSITIONS",
+          "selectSkills": "Select skills",
+          "selectCallReasons": "Select call reasons",
+          "recordingSrcSkillCsatDisabledInfoIconMsg": "Recording source doesn't support ACD skills and CSAT score"
+        },
+        "businessDataFilter": {
+          "filterLabel": "BUSINESS DATA",
+          "operatorLabel": "is",
+          "errorMessage": "This field is required",
+          "errorInDropDownMessage": "Select a business data type",
+          "dropdownPlaceHolderText": "Select data type",
+          "inputPlaceHolderForNumber": "Enter number",
+          "inputPlaceHolderForText": "Enter text",
+          "inactiveBusinessDataMsg": "This business data is not active",
+          "true": "True",
+          "false": "False"
+        },
+        "agentBehaviourFilter": {
+          "filterLabel": "AGENT BEHAVIOR",
+          "operatorLabel": "is",
+          "errorMessage": "This field is required",
+          "errorInDropDownMessage": "Select agent behavior",
+          "dropdownPlaceHolderText": "Select behavior type",
+          "selectAgentBehaviorSentiment": "Select agent behavior and score",
+          "addAnotherAgentBehaviorSentiment": "Add another",
+          "sentiments": {
+            "strongly_negative":"Strongly negative",
+            "moderately_negative":"Moderately negative",
+            "neutral":"Neutral",
+            "moderately_positive":"Moderately positive",
+            "strongly_positive":"Strongly positive"
+          }
+        },
+        "interactionFilter": {
+          "filterLabel": "INTERACTIONS",
+          "withScreenLabel": "With Screen",
+          "withoutScreenLabel": "Without Screen",
+          "allInteractionLabel": "All"
+        },
+        "feedbackScoreFilter": {
+          "label" : "CSAT Score",
+          "to" : "to"
+        },
+        "clear": "Clear"
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "Evaluators",
+        "noEvaluatorsAssignedMessage": "No evaluators assigned yet",
+        "noEvaluatorsSelectedMessage": "No evaluators selected",
+        "noEvaluatorsAddedMessage": "No evaluators added",
+        "selectedEvaluatorsLabel": "Selected Evaluators",
+        "addEvaluatorsButton": "Add Evaluators",
+        "modalHeader": "Add Evaluators",
+        "selectEvaluatorsHeader": "Select Evaluators",
+        "cancelButton": "Cancel",
+        "errorMessage": "You must select atleast 1 evaluator",
+        "omnibarMessage": "Start typing to find evaluators",
+        "evaluatorsCount": "{{count}} Evaluators",
+        "evaluators": "Evaluators",
+        "Evaluator": "Evaluator",
+        "Manager": "Manager",
+        "Administrator": "Administrator",
+        "alreadyAssignedEvaluators": "Assigned Evaluators",
+        "customTeamSelection": "Custom Team Selection",
+        "gridColumnsHeaders": {
+          "fullName": "Name",
+          "role": "Role",
+          "accessibleTeams": "Accessible Teams",
+          "selectedTeams": "Selected Teams",
+          "dailyEvaluations": "Daily Evaluations"
+        },
+        "errorMessages": {
+          "required": "You must select atleast one evaluator",
+          "atleastSingleTeamRequired" : "You must select at least one team per evaluator"
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "Agents",
+        "noAgentGroupsAssignedMessage": "No agent groups assigned yet",
+        "selectedAgentGroupsLabel": "Selected Agent Groups",
+        "addAgentGroupsButton": "Add Agent Groups",
+        "selectAgentGroupsHeader": "Select Agent Groups",
+        "cancelButton": "Cancel",
+        "errorMessage": "You must select at least 1 agent group",
+        "omnibarMessage": "Start typing to find agent groups",
+        "agentGroupsCount": "{{count}} Agent Groups",
+        "selectedTxt": "Selected:",
+        "AlreadyAssignedGroups": "Assigned Agent Groups"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "Agents",
+        "teams": "Teams",
+        "groups": "Groups",
+        "noTeamsSelected": "No teams selected yet",
+        "selectTeams": "Select teams",
+        "selectGroups": "Select groups",
+        "selectedAgents": "Current total number of agents: ",
+        "errorMessages": {
+          "required": "You must select atleast one team"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "Sampling",
+        "numSegmentsPerAgentLabel": "Interactions per agent",
+        "numDaysBackLabel": "Include interactions from last",
+        "daysLabel": "days",
+        "daysBackExceedMaxMessage": "Plan duration is {{durationInDays}} days. Select from 1 to {{daysRange}} days.",
+        "excludeEvaluatedInteractionsText": "Exclude evaluated or tagged interactions for evaluation",
+        "include": "Include",
+        "exclude": "Exclude"
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "Time zone "
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "Assign evaluation form"
+      },
+      "planSummary": {
+        "planSummary": "Plan Summary",
+        "totalInteractions": "Total evaluations in plan",
+        "interactionsPerDayPerEvaluator": "Daily evaluations per evaluator",
+        "planDays": "Total days in plan",
+        "interactionsPerAgent": "Interactions per agent"
+      }
+    }
+  },
+  "qualityPlaner": {
+    "planStatus": {
+      "draft": "Draft",
+      "active": "Active",
+      "inactive": "Inactive",
+      "running": "Running",
+      "expired": "Expired",
+      "pending": "Pending",
+      "deleted": "Deleted"
+    },
+    "planActions": {
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "extend": "Extend",
+      "duplicate": "Duplicate"
+    },
+    "qualityPlanerPage": {
+      "pageTitle": "Quality Plans",
+      "newPlanButton": "New Plan",
+      "noItemsOverlay": "No match found",
+      "itemsCountLabel": "plans",
+      "planCount": "{{count}} plans",
+      "planSearchPlaceholder": "Start typing to find plan",
+      "collaborativeEvaluation": " Collaborative",
+      "standardEvaluation":"Standard",
+      "gridColumnsHeaders": {
+        "planName": "plan name",
+        "evaluationType": "evaluation type",
+        "planOccurrence": "plan occurrence",
+        "planLastModified": "last modified",
+        "planState": "Status",
+        "planAction": "Actions",
+        "planActivate": "Activate"
+      },
+      "planOccurrence": {
+        "recurring": "Recurring",
+        "monthly": "Monthly Recurring Plan",
+        "weekly": "Weekly Recurring Plan",
+        "oneTime": "One Time"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "You are about to delete this plan. This action cannot be undone.",
+          "msg2": "Continue?"
+        },
+        "activatePlan": {
+          "msg1": "There are errors in the plan. You need to fix them before activating the plan.",
+          "msg2": "What would you like to do?"
+        },
+        "deactivatePlan": {
+          "msg1": "You are about to deactivate this plan. Evaluators will not get any more interactions.",
+          "msg2": "Continue?"
+        },
+        "closeModal": {
+          "message1": "All changes will be lost",
+          "message2": "Are you sure you want to exit without saving?"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "Plan name",
+          "successMsg": "Plan has been duplicated successfully.",
+          "header": "Duplicate Plan",
+          "duplicate": "Duplicate"
+        }
+      },
+      "warningMessageModal": {
+        "title": "Leave Page?",
+        "unsavedChanges": "You have unsaved data.",
+        "areYouSureLeavePage": "Are you sure you want to leave without saving?"
+      }
+    },
+    "qualityPlannerNewPlanPage": {
+      "pageTitle": "Create New Quality Plan",
+      "qualityPlansPageBreadcrumb": "Quality Plans",
+      "name": "Name",
+      "description": "Description",
+      "errorSavingPlan": "Error saving Quality Plan",
+      "errorSavingPlanDueToFilters": "Can't save this plan. You edited fields that can't be changed.",
+      "successSavingPlan": "Quality Plan successfully saved ",
+      "successSavingActivePlan": "Quality plan saved successfully. The changes will be effective in the next distribution.",
+      "selectiveFieldsEditMsg": "Fields that can be edited: Plan name, Description, Assign evaluation form, Call filtering",
+      "successActivatingPlan": "Quality Plan successfully activated.",
+      "successDeactivatingPlan": "Quality Plan successfully deactivated.",
+      "errorActivatingPlan": "Error activating Quality Plan.",
+      "errorActivatingPlanPermissionIssue": "Can not activate this plan. Some evaluators do not have permission to evaluate interactions.",
+      "errorActivatingPlanStatusIssue": "Can not activate this plan. It has no active evaluators.",
+      "errorDeactivatingPlan": "Error deactivating Quality Plan.",
+      "successdelete": "Plan deleted successfully.",
+      "deleteQualityPlanError": "Failed to delete Quality Plan. Please try again.",
+      "evaluationType": "Evaluation Type",
+      "standardEvaluation": "Standard",
+      "standardEvaluationHelpText": "This evaluation will be performed only by the evaluator",
+      "collaborativeEvaluation": "Collaborative",
+      "collaborativeEvaluationHelpText": "This evaluation will be performed by both the agent and the evaluator, and then compared",
+      "planDuration": {
+        "planDurationTitle": "Plan Definition",
+        "planDurationMessage": "Evaluate calls that occurred within the selected time period:",
+        "recurringLabel": "Recurring",
+        "oneTimeLabel": "One Time Plan - Start and end dates:",
+        "startDateLabel": "START",
+        "endDateLabel": "TO",
+        "emptyDatePickerLabel": "Select a Date",
+        "selectForm": "Select a form",
+        "errorMessage": "You must select an evaluation form",
+        "recurringOptions": {
+          "monthly": "Monthly",
+          "weekly": "Weekly"
+        }
+      },
+      "planFilters": {
+        "filteringHeader": "Filtering",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "You must select at least 1 filter",
+        "filterLicenseError": "Failed to get licenses for current tenant. Try again.",
+        "smsChannelStatusError": "Failed to get SMS channel status for current tenant. Try again.",
+        "callDirectionFilter": {
+          "callDirectionLabel": "Call Direction:",
+          "filterLabel": "DIRECTION",
+          "inboundLabel": "Inbound",
+          "incomingLabel": "Incoming",
+          "outboundLabel": "Outbound",
+          "outgoingLabel": "Outgoing",
+          "internalLabel": "Internal"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "Call Length:",
+          "Less": "Less than",
+          "Greater": "Greater than",
+          "Between": "Between",
+          "durationExceedMaxMessage": "Maximum call length must be greater than minimum call length",
+          "durationLessThenZeroMessage": "Call length must be greater than 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "RECORDED SEGMENT TYPE",
+          "voiceOnlyLabel": "Voice only",
+          "channelLabel": "CHANNELS",
+          "voiceLabel": "Voice",
+          "voiceAndScreenLabel": "Voice and screen",
+          "chatLabel": "Chat",
+          "emailLabel": "Email",
+          "smsLabel": "SMS"
+        },
+        "channelFilters": {
+            "VOICE": "Voice",
+            "FB_PRIVATE": "Facebook Messenger",
+            "CHAT": "Chat",
+            "EMAIL": "Email",
+            "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+            "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+            "LINE_PRIVATE": "LINE Messaging",
+            "LINE": "LINE Messaging",
+            "TW_PRIVATE": "Twitter Direct Messages",
+            "WHATSAPP": "WhatsApp",
+            "WHATSAPP_PRIVATE": "WhatsApp",
+            "TELEGRAM": "Telegram Messenger",
+            "TELEGRAM_PRIVATE": "Telegram Messenger",
+            "SMS": "SMS",
+            "CUSTOM_PRIVATE": "Custom",
+            "WE_CHAT_PRIVATE": "WeChat",
+            "VIBER_PRIVATE": "Viber Messenger",
+            "WORKITEM": "Work Item"
+        },
+        "interactionFilter": {
+          "filterLabel": "INTERACTIONS",
+          "withScreenLabel": "With Screen",
+          "withoutScreenLabel": "Without Screen",
+          "allInteractionLabel": "All"
+        },
+        "categoriesFilter": {
+          "categories": "CATEGORIES",
+          "selectCategories": "Select Categories",
+          "selectedCategories": "Selected Categories ({{count}}) ",
+          "noCategoriesSelected": "No categories selected yet",
+          "categoryConfidenceLabel": "High Confidence Only"
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "filterLabel": "ACD",
+          "skillsLabel": "SKILLS",
+          "dispostionsLabel": "DISPOSITIONS",
+          "selectSkills": "Select skills",
+          "selectDispositions": "Select dispositions"
+        },
+        "businessDataFilter": {
+          "filterLabel": "BUSINESS DATA",
+          "operatorLabel": "is",
+          "errorMessage": "This field is required",
+          "errorInDropDownMessage": "Select a business data type",
+          "dropdownPlaceHolderText": "Select data type",
+          "inputPlaceHolderForNumber": "Enter number",
+          "inputPlceHolderForText": "Enter text",
+          "inactiveBusinessDataMsg": "This business data is not active"
+        },
+        "feedbackScoreFilter": {
+          "label": "CSAT score",
+          "to": "to"
+        }
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "Evaluators",
+        "noEvaluatorsAssignedMessage": "No evaluators assigned yet",
+        "selectedEvaluatorsLabel": "Selected Evaluators",
+        "addEvaluatorsButton": "Add Evaluators",
+        "selectEvaluatorsHeader": "Select Evaluators",
+        "cancelButton": "Cancel",
+        "errorMessage": "You must select at least 1 evaluator",
+        "omnibarMessage": "Start typing to find evaluators",
+        "evaluatorsCount": "{{count}} Evaluators",
+        "Evaluator": "Evaluator",
+        "Manager": "Manager",
+        "Administrator": "Administrator",
+        "alreadyAssignedEvaluators": "Assigned Evaluators"
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "Agents",
+        "noAgentGroupsAssignedMessage": "No agent groups assigned yet",
+        "selectedAgentGroupsLabel": "Selected Agent Groups",
+        "addAgentGroupsButton": "Add Agent Groups",
+        "selectAgentGroupsHeader": "Select Agent Groups",
+        "cancelButton": "Cancel",
+        "errorMessage": "You must select at least 1 agent group",
+        "omnibarMessage": "Start typing to find agent groups",
+        "agentGroupsCount": "{{count}} Agent Groups",
+        "selectedTxt": "Selected:",
+        "AlreadyAssignedGroups": "Assigned Agent Groups"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "Agents",
+        "selected": " selected",
+        "teams": "Teams",
+        "groups": "Groups",
+        "noTeamsSelected": "No teams selected yet",
+        "selectTeams": "Select teams",
+        "selectGroups": "Select groups",
+        "selectedAgents": "Current total number of agents: ",
+        "errorMessages": {
+          "required": "You must select atleast one team"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "Sampling",
+        "numSegmentsPerAgentLabel": "Number of interactions per agent:",
+        "numDaysBackLabel": "Include interactions from last",
+        "daysLabel": "days",
+        "daysBackExceedMaxMessage": "Plan duration is {{durationInDays}} days. Select from 1 to {{daysRange}} days."
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "Assign evaluation form:"
+      },
+      "planSummary": {
+        "planSummary": "Plan Summary",
+        "totalInteractions": "Total evaluations in plan",
+        "interactionsPerDayPerEvaluator": "Daily evaluations per evaluator",
+        "planDays": "Total days in plan",
+        "interactionsPerAgent": "Interactions per agent"
+      }
+    }
+  },
+  "categoryManagerPage": {
+    "pageTitle": "Category Manager"
+  },
+  "setupPage": {
+    "qmScoreMetricPage" : {
+      "pageTitle": "QM Score Metric",
+      "qmMetricFormula": "QM Metric Formula",
+      "averageOfValues": "Average of values",
+      "averageOfPercentages": "Average of percentages",
+      "averageOfValuesInfo": "Total of number of question points earned / total of question points possible * 100",
+      "averageOfPercentagesInfo": "Total number of question points earned / total number of question points possible * 100 = % score / number of evaluations conducted",
+      "qmScoreMetricSaveSuccessMessage": "QM Metric Formula successfully saved.",
+      "qmScoreMetricErrorMessage": "Couldn't save the selected QM Metric Formula, try again.",
+      "loadQMMetricFormulaErrorMessage": "Couldn't Load Page. No connection to the server. Try again. If this continues, contact your system administrator."
+    }
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "Please Select a form to start the Execution :",
+    "select": "Select",
+    "change": "Change",
+    "noFormsMsg": "No form available.",
+    "selectFormHeader": "Select Form",
+    "changeFormHeader": "Change Form",
+    "noFormInPlanMessage": "Select a form for the evaluation.",
+    "disabledFormInPlanMessage": "Select a form for the evaluation."
+  },
+  "workflowStatuses": {
+    "Claimed": "Claimed",
+    "InProgress": "In Progress",
+    "Dispute": "Dispute",
+    "InReview": "In Review",
+    "Request_Review": "Request Review",
+    "Pending_Acknowledgement": "Pending Acknowledgement",
+    "Completed": "Completed",
+    "Completed_Acknowledged": "Completed Acknowledged",
+    "Reviewed_and_Completed": "Reviewed and Completed"
+  },
+  "workflowStatusUI": {
+    "Assigned": "New",
+    "Claimed": "New",
+    "InProgress": "Draft",
+    "Dispute": "Challenged",
+    "InReview": "Challenged",
+    "Request_Review": "Challenged",
+    "Pending_Acknowledgement": "New",
+    "Completed": "Completed",
+    "Completed_Acknowledged": "Completed",
+    "Reviewed_and_Completed": "Review Completed",
+    "Completed_and_Not_Reviewed": "Completed No Review",
+    "Completed_and_Reviewed": "Completed Reviewed",
+    "selfAssessment": {
+      "new": "New",
+      "draft": "Draft",
+      "completed": "Completed",
+      "expired": "Expired"
+    },
+    "Expired": "Expired",
+    "Auto-acknowledged": "Auto-acknowledged",
+    "Sent_To_Agent": "Submitted",
+    "WaitingForEvaluator": "Waiting for evaluator",
+    "WaitingForAgent": "Waiting for agent",
+    "PartiallyCompleted": "Partially Completed"
+  },
+  "workflowType": {
+    "evaluations": "EVALUATIONS"
+  },
+  "formDesignerElements": {
+    "section": {
+      "title": "Section",
+      "tooltipContent": "Create a section within the form. You can organize questions in the sections.",
+      "questionTitle": "Set Title"
+    },
+    "yesno": {
+      "title": "Yes/No",
+      "tooltipContent": "Add a Yes/No question to the form. The evaluator can choose one response. This is a scorable item.",
+      "questionTitle": "Set question",
+      "choice": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "checkbox": {
+      "title": "Checkbox",
+      "tooltipContent": "Add a question with a toggle option. The evaluator can choose one or several options. This is a scorable item.",
+      "questionTitle": "Set question",
+      "choice": {
+        "choice1": "Choice 1",
+        "choice2": "Choice 2"
+      }
+    },
+    "radio": {
+      "title": "Radio",
+      "tooltipContent": "Add a question and several options. The evaluator can choose one option. This is a scorable item.",
+      "questionTitle": "Set question",
+      "choice": {
+        "choice1": "Choice 1",
+        "choice2": "Choice 2"
+      }
+    },
+    "datetime": {
+      "title": "Date/Time",
+      "tooltipContent": "Add a date/time picker.",
+      "questionTitle": "Set question",
+      "timeQuestionTitle": "Set Question"
+    },
+    "dropdown": {
+      "title": "Dropdown",
+      "tooltipContent": "Add a question with a list of possible answers. The evaluator can choose one or more responses.",
+      "questionTitle": "Set Question",
+      "choice": {
+        "choice1": "Choice 1",
+        "choice2": "Choice 2"
+      }
+    },
+    "hyperlink": {
+      "title": "Hyperlink",
+      "tooltipContent": "Create a Hyperlink in the form.",
+      "questionTitle": "Enter Text"
+    },
+    "label": {
+      "title": "Label",
+      "tooltipContent": "Add a text element to the form.",
+      "questionTitle": "Set Title"
+    },
+    "text": {
+      "title": "Short Text",
+      "tooltipContent": "Add a single-line free text field to the form.",
+      "questionTitle": "Set question"
+    },
+    "textarea": {
+      "title": "Long Text",
+      "tooltipContent": "Add a multi-line free text area to the form.",
+      "questionTitle": "Set question"
+    },
+    "interactions": {
+      "title": "Interactions",
+      "tooltipContent": "Add Interactions to the form",
+      "questionTitle": "Set Title"
+    },
+    "attachment": {
+      "title": "Attachment",
+      "tooltipContent": "Attach file to form",
+      "questionTitle": "Set Title"
+    }
+  },
+  "ng2FormDesignerPage": {
+    "manageFormsBreadcrumb": "Form Manager",
+    "warningMessageModal": {
+      "title": "Leave Page?",
+      "unsavedChanges": "You have unsaved data.",
+      "areYouSureLeavePage": "Are you sure you want to leave without saving?"
+    }
+  }
+}

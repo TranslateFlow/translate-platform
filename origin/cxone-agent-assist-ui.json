@@ -1,0 +1,33 @@
+{
+  "agentAssistUiApp": {
+    "overallSentimentScore": "Overall Sentiment Score",
+    "suggestionSummary": "Suggestion Summary",
+    "noSuggestionYet": "There are no Suggestions yet",
+    "guidanceScores": "Guidance Scores",
+    "landingMessage": "Waiting for authentication...",
+    "permissionRequired": "Permissions Required",
+    "permissionHelpPhrase": "You need privileges to view this page. Contact your administrator.",
+    "speechVelocity": "Speech Velocity",
+    "activeListening": "Active Listening",
+    "beEmpathetic": "Be Empathetic",
+    "interruption": "Interruption",
+    "demonstrateOwnership": "Demonstrate Ownership",
+    "buildRapport": "Build Rapport",
+    "setExpectations": "Set Expectations",
+    "effectiveQuestioning": "Effective Questioning",
+    "promoteSelfService": "Promote Self-Service",
+    "acknowledgeLoyalty": "Acknowledge Loyalty",
+    "inappropriateAction": "Inappropriate Action",
+    "sentiment": "OverallSentiment",
+    "noScore": "No SCORE",
+    "acknowledgeRequest": "Acknowledge Request",
+    "askForTheSale": "Ask for the Sale",
+    "demonstrateEmpathy": "Demonstrate Empathy",
+    "likelihoodToBuy": "Likelihood to Buy",
+    "makeAConnection": "Make a Connection",
+    "orderConfirmation": "Confirmed Order",
+    "overcomeObjections": "Overcome Objections",
+    "presumptiveSelling": "Presumptive Selling",
+    "uncoverNeeds": "Uncover Needs"
+  }
+}

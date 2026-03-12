@@ -1,0 +1,2651 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleNameFormatted": "QM-tools",
+        "formManagerModuleLinks": {
+          "manageForms": "Formulierbeheer",
+          "categoryManager": "Categoriebeheer",
+          "qpPlanManager": "Quality Planner"
+        }
+      }
+    }
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "Planning gewijzigd",
+      "content": "Planning op %%DATE%% is gewijzigd.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "Planning gewijzigd",
+      "content": "Planning tussen %%FROM_DATE%% en %%TO_DATE%% is gewijzigd.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "Nieuwe verlofaanvraag",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "Verlofaanvraag is geweigerd",
+      "content": "Aanvraag voor %%FROM_DATE%% tot %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "Verlofaanvraag is goedgekeurd",
+      "content": "Aanvraag voor %%FROM_DATE%% tot %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "Verlofaanvraag is geannuleerd",
+      "content": "Aanvraag voor %%FROM_DATE%% tot %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "U hebt {{Count}} ongelezen melding"
+  },
+  "selfService": {
+    "installersList": {
+      "fileName": "Bestandsnaam",
+      "vendor": "Leverancier",
+      "version": "Versie",
+      "title": "Installatieprogramma voor ACD downloaden"
+    },
+    "acdInstallerTitle": "ACD-installatieprogramma",
+    "firstParagraph": "Het ACD-installatieprogramma maakt een koppeling tussen het ACD-systeem (Automated Call Distribution) en EvolveWFM. EvolveWFM kan dan ACD-gebeurtenissen ontvangen en gegevens over de Realtime Adherence (RTA) genereren.",
+    "instructionsHeader": "Installatie-instructies",
+    "instructions_1": "1. Download de installatiedistributie vanaf Selfservice – On-Prem Integration",
+    "instructions_2": "2. Pak het gedownloade installatiebestand uit op een geschikte locatie (bijvoorbeeld: C:/Temp/AvayaCMSInstaller)",
+    "instructions_3": "3. Om de installatie te starten, voert u install.bat uit in Windows of install.sh in Linux",
+    "instructions_4": "4. Volg de installatiewizard om Avaya CMS ASC te configureren",
+    "generateKeyButton": "Sleutel genereren",
+    "generateKeyHeader": "API-sleutel genereren",
+    "generateKeyExplanation": "U moet een beheerder zijn om een API-sleutel te kunnen genereren",
+    "modal": {
+      "title": "Voer uw e-mailadres en wachtwoord voor EvolveWFM in en klik op Genereren",
+      "result": "API-sleutel is gegenereerd",
+      "generateBtnText": "Genereren",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "copyBtn": "Kopiëren naar klembord",
+      "generate": "Genereren"
+    }
+  },
+  "activityCodes": {
+    "buttons": {
+      "addActivityCode": "Nieuwe activiteitscode",
+      "deleteActivityCode": "Verwijderen"
+    },
+    "deleteMultipleConfirmation1": "De geselecteerde activiteitscodes worden uit deze lijst verwijderd.",
+    "deleteMultipleConfirmation2": "Instanties van deze activiteiten kunnen in de Scheduler aanwezig zijn en moeten afzonderlijk worden verwijderd.",
+    "deleteConfirmation1": "U staat op het punt om de activiteitscode uit het systeem te verwijderen.",
+    "deleteConfirmation2": "Historische instanties blijven bestaan.",
+    "errorAdd": "Er is een fout opgetreden bij het maken van de activiteitscode.",
+    "errorDelete": "Er is een fout opgetreden bij het verwijderen van de activiteitscode",
+    "errorMultipleDelete": "Er is een fout opgetreden bij het verwijderen van de activiteitscodes.",
+    "errorUpdate": "Er is een fout opgetreden bij het bijwerken van de activiteitscode.",
+    "errorRead": "Er is een fout opgetreden bij het laden van activiteitscodes.",
+    "pageTitle": "Activiteitscodes",
+    "items": "Activiteitscodes",
+    "item": "activiteitscode",
+    "fieldLabels": {
+      "name": "Naam van activiteitscode",
+      "category": "Weergeven als",
+      "length": "Standaard duur",
+      "open": "Openen",
+      "workHours": "Werktijden",
+      "overtime": "Overwerk",
+      "priority": "Prioriteit",
+      "acdEvents": "ACD-gebeurtenissen",
+      "shiftType": "Diensttype"
+    },
+    "modal": {
+      "editTitle": "Activiteitscode bewerken",
+      "addTitle": "Nieuwe activiteitscode maken",
+      "errors": {
+        "lengthRange": "Voer tussen 1 en 1440 minuten in.",
+        "priorityRange": "Prioriteit moet tussen 1 en 100 liggen.",
+        "uniqueTitle": "Deze naam bestaat al. Probeer een nieuwe.",
+        "notValidRegex": "Deze tekens kunnen niet worden gebruikt: ^/!\\+<>?#&,%."
+      },
+      "fieldLabels": {
+        "attributes": "Attributen",
+        "category": "Weergeven als",
+        "length": "Standaard duur (min.)",
+        "open": "Openen",
+        "overtime": "Overwerk",
+        "priority": "Prioriteit",
+        "title": "Naam",
+        "workHours": "Werktijden",
+        "shiftType": "Kan worden ingesteld als diensttype"
+      },
+      "activate": {
+        "activityExistMsg": "Het systeem heeft gedetecteerd dat er al eerder een activiteit met dezelfde naam is gemaakt. U kunt deze activiteit opnieuw activeren of een nieuwe activiteit met een andere naam maken.",
+        "activateBtn": "Activeren"
+      }
+    },
+    "serviceStatusMessages": {
+      "REUSED_EXISTING_ACTIVITY_CODE": "Er bestond al een activiteitscode met dezelfde naam. Deze wordt opnieuw gebruikt.",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_TRUE": "De naam van de activiteitscode kan niet worden gewijzigd in {{activityCode.title}}. Er bestond al een activiteitscode met dezelfde naam. Deze is verwijderd. U kunt een nieuwe activiteitscode maken met deze naam.",
+      "ACTIVITY_CODE_EXISTS_WITH_SOFT_DELETE": "De naam kan niet worden gewijzigd. Er bestond al een activiteit met dezelfde naam. Deze is verwijderd. U kunt een nieuwe activiteit maken met deze naam.",
+      "NO_ACTIVITY_CODE_EXISTS": "Er bestaat geen activiteitscode met de opgegeven naam.",
+      "ACTIVITY_WITH_TITLE_EXISTS": "Er bestaat al een activiteit met deze naam.",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_FALSE": "De naam kan niet worden gewijzigd. Er bestaat een activiteit met dezelfde naam waarvoor Voorlopig verwijderen is ingesteld op Onwaar, maar de unieke ID's komen niet overeen."
+    },
+    "successAdd": "Nieuwe activiteitscode is toegevoegd",
+    "successDelete": "Activiteitscode is verwijderd",
+    "successDeleteMultiple": "Activiteitscodes zijn verwijderd",
+    "successEdit": "Activiteitscode is bewerkt"
+  },
+  "activityCodeDropdown": {
+    "placeholder": "Selecteer een activiteitscode..."
+  },
+  "expiredInvitationPage": {
+    "sorryHeader": "Helaas...",
+    "explanationText1": "Uw uitnodiging is verlopen.",
+    "explanationText2": "We hebben de afzender op de hoogte gesteld. U ontvangt waarschijnlijk binnenkort een nieuwe uitnodiging."
+  },
+  "filter": {
+    "clearall": "Alles wissen",
+    "close": "Sluiten",
+    "clear": "Wissen"
+  },
+  "filterDropDown": {
+    "completed": "Voltooid",
+    "notCompleted": "Niet voltooid"
+  },
+  "successPage": {
+    "welcomeMsg": "Hallo {{username}} "
+  },
+  "importUsersModal": {
+    "header": "Medewerkers importeren",
+    "weSupportMessage": "Medewerkers importeren door een CSV-bestand te uploaden",
+    "downloadMessage1": "U kunt een sjabloon van een CSV-bestand downloaden:",
+    "downloadMessage2": "",
+    "downloadLink": "hier.",
+    "selectFileMessage": "",
+    "successMsg": "Medewerkers zijn geïmporteerd.",
+    "errorMsg": "Importeren van medewerkers is mislukt.",
+    "importErrorsList": {
+      "header": "Importfouten"
+    }
+  },
+  "createUserModal": {
+    "updateUserHeader": "Medewerker bewerken",
+    "createUserHeader": "Nieuwe medewerker maken",
+    "popoverMessage1": " Alle wijzigingen gaan verloren. ",
+    "popoverMessage2": "Weet u zeker dat u wilt afsluiten zonder op te slaan?",
+    "errorMsg": "Kan geen nieuwe medewerker maken.",
+    "successMsg": "Medewerker is aangemaakt!",
+    "updateErrorMsg": "Kan geen nieuwe medewerker maken.",
+    "updateSuccessMsg": "Medewerkersinformatie is bijgewerkt!",
+    "acdLoginId": "ACD Login-ID",
+    "maxLimitOfACD": "U kunt niet meer dan {{items}} items invoeren",
+    "reviveUserAlert": "Er bestaat al een account met dit e-mailadres. U kunt dit account opnieuw activeren of een nieuw account maken met een ander e-mailadres",
+    "formLabels": {
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mailadres",
+      "mobileNumber": "Mobiel nummer",
+      "assignToGroup": "Toegewezen aan planningseenheid",
+      "assignToGroups": "Toegewezen aan groepen",
+      "assignToSkills": "Toegewezen aan skills",
+      "assignToGroupPlaceHolder": "Geen planningseenheid toegewezen",
+      "maxHoursPerWeek": "Max. aantal uren/week",
+      "rank": "Rang",
+      "rankInterval": "1-999",
+      "timeZonePlaceHolder": "Tijdzone",
+      "country": "Land",
+      "countryPlaceholder": "Land selecteren",
+      "hireDate": "Datum indiensttreding",
+      "role": "Rol",
+      "rolePlaceholder": "Rol selecteren",
+      "userPicture": "Profielafbeelding",
+      "upload": "Uploaden",
+      "create": "Medewerker maken",
+      "day": "Dag",
+      "month": "Maand",
+      "year": "Jaar",
+      "roles": {
+        "employee": "Medewerker",
+        "manager": "Manager",
+        "admin": "Beheerder"
+      },
+      "groupsDropDown": "{{selectedCount}} groepen",
+      "skillsDropDown": "{{selectedCount}} skills"
+    },
+    "skillsTab": {
+      "header": "Skills selecteren",
+      "assignedTxt": "Toegewezen skills",
+      "addBtn": "Toevoegen",
+      "selectTxt": "Medewerkers selecteren",
+      "selectedTxt": "Geselecteerd:"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "Dit veld is vereist.",
+    "minLength": "De invoer is te kort",
+    "nameFieldValidation": "De volgende tekens zijn niet toegestaan: \\ / ! + < > ? # & , % \" ",
+    "maxLength": "De invoer is te lang",
+    "email": "Het e-mailadres dat u hebt ingevoerd is niet geldig",
+    "emailExists": "Het e-mailadres bestaat al. Probeer een andere waarde",
+    "number": "Alleen cijfers!",
+    "pattern": "Onjuiste notatie voor dit veld",
+    "password": "Het wachtwoord moet minimaal 8 tekens lang zijn, met minimaal 1 cijfer en 1 hoofdletter",
+    "match": "Dit wachtwoord komt niet overeen met het vorige wachtwoord",
+    "minLengthPassword": "Het wachtwoord moet minimaal 8 tekens lang zijn",
+    "maxLengthPassword": "Uw wachtwoord is te lang",
+    "min": "Waarde is te klein",
+    "max": "Waarde is te groot",
+    "uniqueString": "Deze naam bestaat al. Probeer een nieuwe.",
+    "lowerThen": "De minimumwaarde mag niet groter zijn dan de maximumwaarde",
+    "weeklyMaxLowerThanSumDailyMin": "Het minimum aantal dagen volgens de dagregels is groter dan het maximum aantal dagen in de weekregel.",
+    "weeklyMinGreaterThanSumDailyMax": "Het minimum aantal dagen in de weekregel is groter dan het maximum aantal dagen volgens de dagregels.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "Totaal aantal uren van de minimale dagelijkse combinaties mag niet groter zijn dan het maximum aantal uren per week",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "Totaal aantal uren van de maximale dagelijkse combinaties mag niet kleiner zijn dan het minimum aantal uren per week",
+    "uniqueDaysCounterLowerThanSumDailyMin": "Het minimum aantal dagen is groter dan het totaal aantal unieke dagen.",
+    "possibleDaysLowerThanMinDays": "Het aantal mogelijke dagen voldoet niet aan het minimum aantal dagen dat wordt vereist door de weekregel.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "Het minimum aantal dagen in de weekregel is groter dan het aantal unieke dagen.",
+    "noAddedShiftPatters": "U moet minimaal één dagregel selecteren",
+    "shiftLengthLowerThanActivityLength": "Som van activiteitslengte en relatieve start mag niet groter zijn dan dienstduur",
+    "shiftLengthLowerThanTotalActivityLength": "De totale lengte van de activiteiten mag niet langer zijn dan de lengte van de dienst",
+    "relativeStartLowerThanSlack": "Slack mag niet meer zijn dan relatieve starttijd",
+    "activitiesOverlap": "Activiteiten mogen niet overlappen",
+    "serverError": "Onbekende serverfout",
+    "generalError": "Algemene fout",
+    "missingPermissionError": "U hebt niet de juiste machtigingen om deze actie uit te voeren."
+  },
+  "metaInfo": {
+    "selfService": {
+      "title": "Support - Downloads"
+    },
+    "title": "NICE SaaS WFM ",
+    "description": "NICE SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "Inloggen",
+      "description": "NICE SaaS WFM"
+    },
+    "success": {
+      "title": "Geslaagd",
+      "description": "NICE SaaS WFM"
+    },
+    "examples": {
+      "title": "Voorbeelden",
+      "description": "NICE SaaS WFM"
+    },
+    "form_example": {
+      "title": "Formuliervoorbeelden",
+      "description": "NICE SaaS WFM"
+    },
+    "userManagement": {
+      "title": "Medewerkers",
+      "description": "NICE SaaS WFM"
+    },
+    "createAccount": {
+      "title": "Account maken",
+      "description": "NICE SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "Activiteitscodes",
+      "description": "NICE SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " ACD-toewijzing",
+      "description": "NICE SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "Dagregels",
+      "description": "NICE SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "Planningseenheid",
+      "description": "NICE SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "Verlopen uitnodiging",
+      "description": "NICE SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "Planning genereren",
+      "description": "NICE SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "Mijn planning",
+      "description": "NICE SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "Mijn dashboard",
+      "description": "NICE SaaS WFM"
+    },
+    "categoryManager": {
+      "title": "Categoriebeheer",
+      "description": "NICE SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "UI Kit Gallery",
+      "description": "NICE SaaS WFM",
+      "userRoles": "{{selectedCount}} medewerkersrollen"
+    },
+    "manageForms": {
+      "title": "Formulierbeheer",
+      "description": "NICE SaaS WFM"
+    },
+    "templateManager": {
+      "title": "Sjabloonbeheer",
+      "description": "NICE SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "Form Designer",
+      "description": "NICE SaaS WFM"
+    },
+    "formDesignerOld": {
+      "title": "Form Designer",
+      "description": "NICE SaaS WFM"
+    },
+    "formDesignerNew": {
+      "title": "Form Designer",
+      "description": "NICE SaaS WFM"
+    },
+    "qpPlanManager": {
+      "title": "Quality Planner",
+      "description": "Quality Planner"
+    },
+    "qpPlanDetails": {
+      "title": "Quality Planner",
+      "description": "Quality Planner"
+    },
+    "workflowFormSelector": {
+      "title": "Workflowformulier selecteren",
+      "description": "Workflowformulier selecteren"
+    },
+    "interactionPlayer": {
+      "title": "Interaction Player",
+      "description": "Interaction Player"
+    },
+    "planDetails": {
+      "title": "Details planbewaking",
+      "description": "Details planbewaking"
+    },
+    "ng1FormDesignerPage": {
+      "title": "Form Designer",
+      "description": "NICE SaaS WFM"
+    },
+    "ng2FormDesignerPage": {
+      "title": "Form Designer",
+      "description": "NICE SaaS WFM"
+    },
+    "qmScoreMetric": {
+      "title": "QM-score-metric",
+      "description": "QM-score-metric"
+    },
+    "qpPlanDetailsTicket": {
+      "title": "Kwaliteitsplannerticket",
+      "description": "Kwaliteitsplannerticket"
+    }
+  },
+  "commonButtons": {
+    "ok": "OK",
+    "cancel": "Annuleren",
+    "no": "Nee",
+    "yes": "Ja",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "activate": "Activeren",
+    "saveAndActivate": "Opslaan en activeren",
+    "saveAsDraft": "Opslaan als concept",
+    "invite": "Uitnodigen",
+    "edit": "Bewerken",
+    "update": "Bijwerken",
+    "upload": "Uploaden",
+    "today": "Vandaag",
+    "showAll": "Alles weergeven",
+    "clearAll": "Alles wissen",
+    "close": "Sluiten",
+    "create": "Maken",
+    "selectAll": "Alles selecteren",
+    "generate": "Genereren",
+    "chooseFile": "Bestand selecteren",
+    "add": "Toevoegen",
+    "publish": "Publiceren",
+    "set": "Instellen",
+    "reset": "Resetten",
+    "day": "Dag",
+    "week": "Week",
+    "done": "Gereed",
+    "download": "Downloaden"
+  },
+  "languages": {
+    "english": "Engels",
+    "russian": "Russisch",
+    "spanish": "Spaans",
+    "chinese": "Chinees"
+  },
+  "weekDays": {
+    "sunday": "Zondag",
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "saturday": "Zaterdag"
+  },
+  "weekShortDays": {
+    "SUN": "ZO",
+    "MON": "MA",
+    "TUE": "DI",
+    "WED": "WO",
+    "THU": "DO",
+    "FRI": "VR",
+    "SAT": "ZA"
+  },
+  "globalNavigation": {
+    "wfmHeader": {
+      "contactUs": "Contactgegevens",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "Uitloggen",
+      "changePasswordOption": "Wachtwoord wijzigen",
+      "accountSetupOption": "Account configureren",
+      "myProfileOption": "Mijn profiel",
+      "help": "Help",
+      "selfService": "Support - Downloads"
+    },
+    "sideBar": {
+      "setupAppName": "ADMIN",
+      "setupAppLinks": {
+        "users": "Medewerkers",
+        "skills": "Skills",
+        "groups": "Groepen"
+      },
+      "schedulerAppName": "SCHEDULER",
+      "schedulerAppLinks": {
+        "activityCodes": "Activiteitscodes",
+        "realTimeAdherence": "Realtime Adherence",
+        "acdActivitiesMapping": " ACD-toewijzing",
+        "managementUnits": "Planningseenheid",
+        "scheduler": "Planningbeheer",
+        "generateSchedule": "Planning genereren",
+        "dailyRule": "Dagregels",
+        "weeklyRules": "Weekregels",
+        "forecastData": "Prognosegegevens importeren"
+      },
+      "mySpaceAppName": "MIJN RUIMTE",
+      "mySpaceAppLinks": {
+        "mySchedule": "Mijn planning",
+        "myDashboard": "Mijn dashboard",
+        "myTasks": "Mijn taken",
+        "myEvaluations": "Mijn evaluaties",
+        "performanceMonitoring": "Performance Monitoring",
+        "plansMonitoring": "Planbewaking",
+        "calibration": "Kalibratie"
+      },
+      "formManagerAppName": "QM-TOOLS",
+      "formManagerAppLinks": {
+        "manageForms": "Formulierbeheer",
+        "formDesigner": "Form Designer",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "Sjabloonbeheer"
+      }
+    }
+  },
+  "mySchedule": {
+    "errorRead": "Er is een fout opgetreden bij het laden van de planning.",
+    "pageTitle": "Mijn planning",
+    "userName": "{{userName}}"
+  },
+  "datePicker": {
+    "nextDay": "Volgende dag",
+    "openCalendar": "Kalender openen",
+    "previousDay": "Vorige dag",
+    "today": "Vandaag"
+  },
+  "timePicker": {
+    "openTimePicker": "Tijdkiezer openen"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "Volgende dag",
+    "openCalendar": "Kalender openen",
+    "openTimeChooser": "Tijdkiezer openen",
+    "previousDay": "Vorige dag",
+    "today": "Vandaag"
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Inloggen is mislukt"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Algemene fout"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "Deze pagina is niet beschikbaar. Controleer uw verbinding en probeer het opnieuw."
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Algemene fout {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Ongeldige parameters"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Niet-geautoriseerde medewerker"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "Er is geen reactie van de server. Probeer het later opnieuw."
+    },
+    "wrongCredentials": "U hebt een verkeerd e-mailadres of wachtwoord ingevoerd",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interne fout."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "Planningseenheid bestaat niet."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "Deze naam bestaat al. Probeer een nieuwe."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "Deze tenant of medewerker bestaat al. Probeer een andere."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "Het e-mailadres bestaat al. Probeer een andere waarde"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "Bestand bestaat niet."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "Medewerker bestaat niet"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "Er zijn geen medewerkers om uit te nodigen."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "Aanmaken van medewerker mislukt."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "Ongeldige medewerkersstatus"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "Ongeldige organisatienaam."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Ongeldig e-mailadres."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "Ongeldige voornaam van medewerker."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "Ongeldige achternaam van medewerker."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "Kan standaard planningseenheid niet verwijderen."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "Planningseenheid-ID ontbreekt."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "Maximum aantal uren van medewerker is buiten het bereik."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "Wachtwoord van medewerker is ongeldig."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "Kan standaardgroep niet aanpassen."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "Kan medewerkers niet verwijderen uit standaardgroep."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "Onjuist medewerkerswachtwoord."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "Medewerker bestaat niet."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "U kunt uw eigen medewerker niet verwijderen"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "U kunt niet de enige beheerder verwijderen"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "U kunt geen medewerker verwijderen die al verwijderd is"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "Ongeldig wachtwoordtoken"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "Aanmaken van account mislukt"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "Organisatienaam is ongeldig"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "U hebt geen machtiging om de rol te wijzigen"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "U kunt uw eigen rol niet wijzigen"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "Kan laatste beheerder niet verwijderen."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "Deze naam bestaat al. Probeer een nieuwe."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "Kan wachtwoorden niet wijzigen omdat vorige wachtwoorden en nieuwe wachtwoorden hetzelfde zijn."
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "Controleer de gegevens en probeer het opnieuw"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD Login-ID bestaat al"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "Met deze nieuwe medewerker wordt de gebruikerslimiet overschreden. Neem contact op met de Sales-afdeling via CXoneSalesTeam@niceincontact.com"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interne fout."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "Deze naam bestaat al. Probeer een nieuwe."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "Skill bestaat niet."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "Een medewerker kan niet meer dan 50 skills hebben."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "De skillnaam is ongeldig"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "Weekregel is leeg"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "incorrecte weekregel"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "incorrect dagenbereik in weekregel"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "incorrect urenbereik in weekregel"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "Waarde van maximum aantal diensten in weekregel is lager dan totaal minimum aantal dagen in dagregel"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "Waarde van minimum aantal diensten in weekregel is hoger dan totaal maximum aantal dagen in dagregel"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "Totale som van dagelijks minimum aantal uren is hoger dan wekelijks maximum aantal uren"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "Totale som van dagelijks maximum aantal uren is lager dan wekelijks minimum aantal uren"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "Totale som van mogelijke dagen is lager dan bijbehorend minimum aantal dagen in dagregel"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "Totale som van alle unieke mogelijke dagen is lager dan totale som van minimum aantal diensten volgens dagregel"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "Geen naam opgegeven voor weekregel"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "Dagregels zijn leeg"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "Totale som van alle unieke mogelijke dagen is lager dan minimum aantal diensten per week"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "De datumnotatie is ongeldig"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "De periode tussen twee datums is ongeldig"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Er is een interne serverfout opgetreden"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "Er is een interne fout opgetreden"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "Kan records in het bestand niet lezen"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Kan verwachte kolomkoppen niet vinden. Bekijk het voorbeeldbestand."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Er ontbreken skills in het systeem"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "Er ontbreken planningseenheden in het bestand"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "De vroegste dagelijkse start is na de laatste start"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "Notatie van stapgrootte is ongeldig"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "De starttijden van de dagregels vallen buiten binnen het juiste bereik"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "Dagelijkse activiteitsduur is groter dan lengte van dagregel"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack-indeling is incorrect"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "Relatieve starttijd is minder dan slack"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "Som van lengtes van activiteiten is groter dan dagelijkse lengte"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "Er zijn geen geldige activiteitencombinaties"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "Activiteitscode klopt niet met dagregeldienst"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "De naam van de activiteitscode is ongeldig"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "Tijdzone in planningseenheid is incorrect"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "Kan de standaard activiteitscode niet verwijderen"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "Selecteer een sjabloon"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "Sjabloon-ID is ongeldig"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "Formuliernaam bestaat al"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interne fout."
+    },
+    "qp_data_service_1": {
+      "code": "DUPLICATE_PLAN_NAME_ERROR",
+      "message": "Plannaam bestaat al"
+    },
+    "qp_data_service_12": {
+      "code": "FORM_NOT_ACTIVE",
+      "message": "Evaluatieformulier is niet actief."
+    },
+    "qp_data_service_10": {
+      "code": "Invalid License",
+      "message": "Invalid License"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "Geen overeenkomst gevonden",
+    "modal": {
+      "employeeTab": "Nog geen medewerkers toegewezen"
+    }
+  },
+  "uikitGallery": {
+    "userCount": "{{count}} medewerkers",
+    "selectedCount": "{{count}} geselecteerd",
+    "searchPlaceholder": "Begin met typen om een medewerker te vinden"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "Planningseenheden"
+  },
+  "ng2ManageFormsPage": {
+    "pageTitle": "Formulierbeheer",
+    "createForm": "Nieuw formulier",
+    "omnibar": {
+      "itemCount": "{{ count }} formulieren",
+      "itemLabel": "formulier",
+      "itemsLabel": "formulieren",
+      "selectedItemCount": "{{ count }} geselecteerd",
+      "searchPlaceholder": "Begin met typen om een formulier te vinden",
+      "bulkOperations": {
+        "activate": "Activeren",
+        "deactivate": "Deactiveren",
+        "delete": "Verwijderen"
+      }
+    },
+    "columnHeaders": {
+      "title": "Formuliernaam",
+      "version": "Versie",
+      "lastModified": "Laatst gewijzigd",
+      "createdBy": "Gemaakt door",
+      "status": "Status",
+      "actions": "Acties"
+    },
+    "noRowsText": "Geen overeenkomst gevonden",
+    "active": "Actief",
+    "inactive": "Inactief",
+    "draft": "Concept",
+    "change": "Wijzigen",
+    "cancel": "Annuleren",
+    "message": {
+      "successPublish": "Formulier(en) geactiveerd.",
+      "successUnpublish": "Formulier(en) gedeactiveerd.",
+      "successDelete": "Formulier(en) verwijderd.",
+      "successRename": "Formuliernaam is gewijzigd.",
+      "alreadyPublished": "Formulier(en) al actief.",
+      "alreadyUnpublished": "Sommige formulieren zijn een concept of inactief en kunnen niet worden gedeactiveerd. Activeer de formulieren en probeer het opnieuw.",
+      "multiFormDelete": "Sommige formulieren zijn actief en kunnen niet worden verwijderd. Deactiveer de formulieren en probeer het opnieuw.",
+      "noFormToDelete": "Er zijn geen formulieren om te verwijderen.",
+      "failAdd": "Kan nieuw formulier niet toevoegen. Probeer het opnieuw.",
+      "failedRename": "Formuliernaam bestaat al.",
+      "failedUpdate": "Bijwerken van formulier(en) is mislukt.",
+      "successDuplicate": "Formulier is gedupliceerd.",
+      "successMultiPublish": "Formulier(en) geactiveerd.",
+      "singleFormDelete": "Actieve formulieren kunnen niet worden verwijderd. U moet het formulier eerst deactiveren",
+      "publishErrorNoWorkflowSettings": "Activering is mislukt. Workflowinstellingen moeten worden gedefinieerd",
+      "publishErrorNoWorkflowSettingsMulti": "Het activeren van sommige formulieren is mislukt. Workflowinstellingen moeten worden gedefinieerd voor deze formulieren"
+    },
+    "popover": {
+      "messagePublish": "Geselecteerde formulieren activeren?",
+      "messageUnpublish": {
+        "line1": "Formulier(en) deactiveren?",
+        "line2": "Dit kan gevolgen hebben voor bestaande workflows."
+      },
+      "deleteSelectedFormsMsg": {
+        "line1": "Geselecteerde formulieren verwijderen?",
+        "line2": "Deze actie kan niet ongedaan worden gemaakt en kan gevolgen hebben voor bestaande workflows."
+      },
+      "deleteSingleFormMsg": "Het geselecteerde formulier verwijderen? Deze actie kan niet ongedaan worden gemaakt en kan gevolgen hebben voor bestaande workflows.",
+      "activeFormsCannotBeDeleted": "Actieve formulieren kunnen niet worden verwijderd. Deactiveer de formulieren en probeer het opnieuw.",
+      "deleteSingleDraftFormMsg": "Het geselecteerde formulier verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "activate": "Activeren",
+      "deactivate": "Deactiveren",
+      "duplicate": "Dupliceren",
+      "rename": "Naam wijzigen"
+    },
+    "saveDuplicateFormModal": {
+      "addHeader": "Formulier dupliceren",
+      "subHeading": "FORMULIERNAAM",
+      "errors": {
+        "uniqueTitle": "Deze naam bestaat al. Probeer een nieuwe."
+      }
+    },
+    "renameFormModal": {
+      "header": "Formuliernaam wijzigen",
+      "subHeading": "FORMULIERNAAM"
+    }
+  },
+  "manageFormsPage": {
+    "pageTitle": "Formulierbeheer",
+    "createForm": "Nieuw formulier",
+    "items": "formulieren",
+    "item": "formulier",
+    "noItemsOverlay": "Geen overeenkomst gevonden",
+    "errorRead": "Er is een fout opgetreden bij het laden van formulieren",
+    "modals": {
+      "cancel": "Annuleren",
+      "change": "Wijzigen"
+    },
+    "EVALUATION": {
+      "saveDuplicateFormModal": {
+        "addHeader": "Formulier dupliceren",
+        "subHeading": "FORMULIERNAAM",
+        "errors": {
+          "uniqueTitle": "Deze naam bestaat al. Probeer een nieuwe."
+        }
+      },
+      "renameFormModal": {
+        "header": "Formuliernaam wijzigen",
+        "subHeading": "FORMULIERNAAM"
+      },
+      "gridColumnsHeaders": {
+        "title": "Formuliernaam"
+      },
+      "itemCount": "{{count}} formulieren",
+      "itemSearchPlaceholder": "Begin met typen om een formulier te vinden",
+      "successAdd": "Formulier is toegevoegd.",
+      "successDuplicate": "Formulier is gedupliceerd.",
+      "failAdd": "Kan nieuw formulier niet toevoegen. Probeer het opnieuw.",
+      "successPublish": "Formulier(en) geactiveerd.",
+      "successUnpublish": "Formulier(en) gedeactiveerd.",
+      "successDelete": "Formulier(en) verwijderd.",
+      "successMultiPublish": "Formulier(en) geactiveerd.",
+      "successRename": "Formuliernaam is gewijzigd.",
+      "failedRename": "Formuliernaam bestaat al.",
+      "popover": {
+        "messagePublish": "Geselecteerde formulieren activeren?",
+        "messageUnpublish": "Formulier(en) deactiveren? Dit kan gevolgen hebben voor bestaande workflows.",
+        "deleteSelectedFormsMsg": "Geselecteerde formulieren verwijderen? Deze actie kan niet ongedaan worden gemaakt en kan gevolgen hebben voor bestaande workflows.",
+        "deleteSingleFormMsg": "Het geselecteerde formulier verwijderen? Deze actie kan niet ongedaan worden gemaakt en kan gevolgen hebben voor bestaande workflows.",
+        "activeFormsCannotBeDeleted": "Actieve formulieren kunnen niet worden verwijderd. Deactiveer de formulieren en probeer het opnieuw.",
+        "deleteSingleDraftFormMsg": "Het geselecteerde formulier verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+      },
+      "errorMsg": {
+        "alreadyPublished": "Formulier(en) al actief.",
+        "alreadyUnpublished": "Sommige formulieren zijn een concept of inactief en kunnen niet worden gedeactiveerd. Activeer de formulieren en probeer het opnieuw.",
+        "multiFormDelete": "Sommige formulieren zijn actief en kunnen niet worden verwijderd. Deactiveer de formulieren en probeer het opnieuw.",
+        "noFormToDelete": "Er zijn geen formulieren om te verwijderen."
+      }
+    },
+    "gridColumnsHeaders": {
+      "form": "Formuliernaam",
+      "status": "Status",
+      "lastModified": "Laatst gewijzigd",
+      "createdBy": "Gemaakt door",
+      "actions": "Acties",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "draft": "Concept",
+      "version": "Versie",
+      "bulkOperationsBtns": {
+        "activate": "Activeren",
+        "delete": "Verwijderen",
+        "deactivate": "Deactiveren"
+      }
+    },
+    "moreMenu": {
+      "activate": "Activeren",
+      "deactivate": "Deactiveren",
+      "duplicate": "Dupliceren",
+      "rename": "Naam wijzigen"
+    },
+    "successRename": "Formuliernaam is gewijzigd",
+    "errorMsg": {
+      "singleFormDelete": "Actieve formulieren kunnen niet worden verwijderd. U moet het formulier eerst deactiveren",
+      "publishErrorNoWorkflowSettings": "Activering is mislukt. Workflowinstellingen moeten worden gedefinieerd",
+      "publishErrorNoWorkflowSettingsMulti": "Het activeren van sommige formulieren is mislukt. Workflowinstellingen moeten worden gedefinieerd voor deze formulieren"
+    }
+  },
+  "formDesignerPage": {
+    "pageTitle": "Nieuw formulier maken",
+    "manageFormsBreadcrumb": "Formulierbeheer",
+    "saveAsDraft": "Opslaan als concept",
+    "save": "Opslaan",
+    "score": "Score",
+    "sectionScore": "Sectiescore",
+    "activate": "Opslaan en activeren",
+    "inActivate": "Deactiveren",
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "preview": "Preview",
+    "errorRead": "Er is een fout opgetreden bij het laden van de formulierontwerper",
+    "errorInteraction": "Geen interactie beschikbaar",
+    "errorLoadingLogo": "Kan formulierlogo niet laden",
+    "errorLoadingHeader": "Kan koptekst niet laden",
+    "criticalQuestionsValidationError": "{{ count }} vragen hebben fout. Valideer en sla opnieuw op",
+    "criticalQuestionValidationError": "Voer minimaal één juist en één onjuist antwoord in",
+    "criticalQuestionEnableScoringHelpHeader": "Scoring inschakelen",
+    "criticalQuestionEnableScoringHelpText": "Schakel scoring in als u deze vraag als kritiek wilt markeren.",
+    "criticalQuestionHelpHeader": "Kritieke vraag",
+    "criticalQuestionHelpText": "Deze vraag gaat over kritieke elementen van een interactie. Een agent die een kritieke vraag niet goed beantwoordt, scoort een onvoldoende.",
+    "criticalQuestionAnswersHelpText": "Geef aan welke antwoorden kunnen resulteren in een onvoldoende. U moet minimaal één onjuist antwoord en één correct antwoord instellen.",
+    "criticalQuestionAnswersErrorMessage": "U moet minimaal één correct en één onjuist antwoord instellen.",
+    "criticalQuestionToolTip": "Dit is een kritieke vraag. Bij een fout antwoord wordt de score ingesteld op 0.",
+    "formTitle": {
+      "title": "Voer titel in",
+      "subTitle": "Voer ondertitel in"
+    },
+    "saveFormModal": {
+      "saveFormHeader": "Formulier opslaan",
+      "activeFormHeader": "Formulier activeren",
+      "formPlaceholder": "Voer formuliernaam in",
+      "popover": {
+        "message1": "Alle wijzigingen gaan verloren",
+        "message2": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+      }
+    },
+    "scoreFormModal": {
+      "addHeader": "Scoring",
+      "enableScoring": "Scoring inschakelen",
+      "calculatedScore": "Berekende gewogen score",
+      "currentPoints": "Huidige punten",
+      "maxPoints": "Maximum aantal punten:",
+      "maxScoreZeroMessage": "De minimale score moet meer dan 0 zijn",
+      "scorable": "Scoorbaar",
+      "outOf": "van",
+      "saveLabel": "Opslaan",
+      "setScoring": "SCORING INSTELLEN",
+      "setRanking": "RANKING INSTELLEN",
+      "enableRanking": "Ranking inschakelen",
+      "rankingNoteMsg": "Opmerking: Als u Ranking inschakelt, komt dit in de plaats van de scoreweergave",
+      "setRangeFormScore": "Stel bereiken in voor de formulierscores",
+      "from": "VAN",
+      "to": "TOT",
+      "display": "WEERGAVE",
+      "drpDwnPlaceHolder": "%",
+      "add": "Toevoegen",
+      "ranking": {
+        "defaultFailedLabel": "Mislukt",
+        "defaultPassedLabel": "Geslaagd",
+        "validationMsg": {
+          "emptyRange": "Leeg bereik",
+          "completeRange": "Ongeldig bereik. Ingestelde bereiken moeten in totaal 100% zijn",
+          "invalidRange": "Ongeldig bereik",
+          "requiredField": "Verplicht veld"
+        }
+      }
+    },
+    "selectTemplateModal": {
+      "selectThemeHeader": "Sjabloon wijzigen",
+      "selectThemeMsg": "Selecteer een sjabloon voor het formulier",
+      "customDisclaimer": "Opmerking: Alle aanpassingen die u hebt gemaakt, worden geannuleerd"
+    },
+    "elementListComponent": {
+      "component": "ELEMENTEN",
+      "selectOption": " {{selectedCount}} opties",
+      "errorMsg": "Dit veld is vereist",
+      "invalidDate": "Ongeldige datum",
+      "invalidTime": "Ongeldige tijd",
+      "characters": "Tekens"
+    },
+    "elementAttributeComponent": {
+      "properties": "EIGENSCHAPPEN",
+      "NA": "N.v.t.",
+      "label": "TITEL",
+      "text": "TEKST",
+      "question": "VRAAG",
+      "subText": "INSTRUCTIES",
+      "url": "URL",
+      "prePopulatedHintText": "HINTTEKST",
+      "limitCharacters": "Aantal tekens",
+      "mandatory": "Vereist",
+      "criticalQuestion": "Markeren als Kritiek",
+      "visible": "Zichtbaar",
+      "layout": "INDELING",
+      "vertical": "Verticaal",
+      "horizontal": "Horizontaal",
+      "choices": "KEUZES",
+      "fontType": "Lettertype",
+      "fontSize": "Grootte",
+      "fontIndent": "Uitlijnen",
+      "fontColor": "Labelkleur",
+      "fontStyle": "Stijl",
+      "addMultiple": "Meerdere toevoegen",
+      "italics": "Cursief",
+      "bold": "Vet",
+      "underline": "Onderstreept",
+      "backgroundColor": "Achtergrondkleur",
+      "useNA": "\"N.v.t.\" gebruiken",
+      "dateLabel": "Datum",
+      "timeLabel": "Tijd",
+      "setCurrentDate": "Huidige datum gebruiken",
+      "dateFormat": "Datumnotatie",
+      "displayDate": "Datum weergeven",
+      "setCurrentTime": "Huidige tijd gebruiken",
+      "startTime": "Starttijd",
+      "single": "Eén selectie",
+      "multiple": "Meerdere selecties",
+      "addList": "Lijst met waarden",
+      "image": "AFBEELDING",
+      "fileUploadErrorExtensionMsg": "Bestandstype ongeldig. Ondersteunde bestandsindelingen: JPG, PNG, GIF, BMP, JPEG",
+      "fileUploadSizeErrorMsg": "Bestand is te groot. Bestand moet kleiner dan 2 MB zijn",
+      "logic": "LOGICA",
+      "addRule": "/+ Regel toevoegen",
+      "rule": "Regel",
+      "width": "Breedte",
+      "height": "Hoogte",
+      "px": "(pixels)",
+      "aspectRatio": "Beeldverhouding vergrendelen",
+      "header": "Koptekst",
+      "subTitle": "ONDERTITEL",
+      "browse": "Bladeren",
+      "headerFields": {
+        "headerFieldsLabel": "KOPTEKSTVELDEN",
+        "headerFieldSelectedOption": " {{selectedCount}} geselecteerd",
+        "AgentName": "Agentnaam",
+        "ReviewDate": "Datum beoordeling",
+        "StartDate": "Startdatum evaluatie",
+        "Duration": "Interactieduur",
+        "HireDate": "Datum indiensttreding",
+        "InteractionDate": "Interactiedatum",
+        "failLoadHeaderFields": "Kan koptekstvelden niet laden. Opnieuw proberen",
+        "SegmentId": "Segment-ID",
+        "SegmentContactId": "Contact-ID"
+      }
+    },
+    "dateTimeComponent": {
+      "at": "bij"
+    },
+    "workFlowSettingsModal": {
+      "header": "Instellingen",
+      "workflow": "WorkFlow",
+      "agentCanReview": "Agent kan beoordelen",
+      "agentCanAcknowledge": "Agent kan bevestigen",
+      "agentCanRequestReview": "Agent kan om beoordeling vragen",
+      "assignedEvaluator": "De aangewezen beoordelaar",
+      "specificEvaluator": "Een bepaalde persoon:",
+      "agentCanViewScoring": "Scores tonen aan agents",
+      "successSave": "Workflowinstellingen zijn geconfigureerd",
+      "successUpdate": "Workflowinstellingen zijn bijgewerkt",
+      "workflowStartError": "Fout bij starten van workflow",
+      "qpInteractionsFetchError": "Kan toegewezen interacties niet ophalen",
+      "workflowInteractionsFetchError": "Kan geëvalueerde interacties niet ophalen",
+      "noOptionSelectedErrorMessage": "Dit veld is vereist",
+      "getUser": {
+        "error": "Ophalen van gebruikers is mislukt"
+      }
+    },
+    "warningMessageModal": {
+      "title": "Pagina verlaten?",
+      "unsavedChanges": "Er zijn niet-opgeslagen gegevens.",
+      "areYouSureLeavePage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+    },
+    "criticalQuestionMessageModal": {
+      "title": "Regels zijn ongeldig geworden",
+      "message1": "Als u deze vraag als kritiek markeert, worden sommige regels ongeldig gemaakt en verwijderd.",
+      "message2": "Weet u zeker dat u wilt doorgaan?"
+    },
+    "criticalQuestionScoringMessageModal": {
+      "message1": "U hebt scoring uitgeschakeld. Als u nu opslaat, worden alle kritieke vragen verwijderd.",
+      "message2": "Weet u zeker dat u wilt doorgaan?"
+    },
+    "createEditRuleModal": {
+      "header": "Regel instellen",
+      "ifSelection": "Indien de selectie",
+      "ifThe": "Indien de",
+      "addAnotherRule": "Nog een regel toevoegen",
+      "hide": "Verbergen"
+    },
+    "deleteRuleWarningModal": {
+      "title": "Ongeldige regels verwijderd",
+      "rulesRemoved": "Door het herschikken van de formuliervragen zijn sommige regels ongeldig geworden en verwijderd.",
+      "wantsToRevert": "Wilt u deze wijzigingen ongedaan maken?"
+    },
+    "successAdd": "Nieuw formulier is toegevoegd",
+    "successPublish": "Formulier(en) geactiveerd.",
+    "failAdd": "Kan nieuw formulier niet toevoegen",
+    "failPublish": "Activeren van nieuw formulier is mislukt",
+    "failedRename": "Formuliernaam bestaat al.",
+    "failLoadElements": "Kan formulierelementen niet laden. Probeer het opnieuw.",
+    "EVALUATION": {
+      "successAdd": "Formulier is toegevoegd.",
+      "successEdit": "Formulier is aangepast.",
+      "failAdd": "Kan nieuw formulier niet toevoegen. Probeer het opnieuw.",
+      "saveFormModal": {
+        "saveFormHeader": "Formulier opslaan",
+        "activeFormHeader": "Formulier activeren",
+        "formPlaceholder": "Formuliernaam invoeren"
+      },
+      "testFormModal": {
+        "header": "Testformulier",
+        "submit": "Valideren"
+      },
+      "popover": {
+        "savePublishFormMsg": "Een actief formulier bewerken? Deze actie heeft geen invloed op formulieren die al in gebruik zijn."
+      }
+    },
+    "questionBank": {
+      "questionBank": "Vragenbank",
+      "elements": "Elementen",
+      "searchBank": "Zoeken in bank",
+      "deleteQuestionPopoverMsg": "U staat op het punt om de geselecteerde vraag te verwijderen. Deze actie kan niet ongedaan worden gemaakt. Doorgaan?",
+      "failedLoadQuestionBank": "Kan vragen niet laden. Probeer het na enige tijd opnieuw",
+      "questionDeleteSuccess": "Vraag is verwijderd",
+      "questionDeleteFailed": "Vraag is niet verwijderd. Probeer het na enige tijd opnieuw",
+      "questionSaveSuccess": "Vraag is opgeslagen",
+      "duplicateQuestion": "Deze vraag bestaat al in de vragenbank",
+      "saveQuestionFailed": "Vraag is niet opgeslagen. Probeer het na enige tijd opnieuw"
+    },
+    "elementType": {
+      "section": "Sectie",
+      "yesno": "Ja/nee",
+      "checkbox": "Selectievakje",
+      "radio": "Keuzerondje",
+      "datetime": "Datum/tijd",
+      "dropdown": "Vervolgkeuzelijst",
+      "hyperlink": "Hyperlink",
+      "label": "Label",
+      "text": "Korte tekst",
+      "textarea": "Lange tekst",
+      "header": "Koptekst",
+      "attachment": "Bijlage",
+      "interactions": "Interactie"
+    },
+    "toolTips": {
+      "saveToBank": "Opslaan in bank",
+      "duplicate": "Dupliceren",
+      "logic": "Regels definiëren",
+      "scoring": "Scoring instellen",
+      "settings": "Instellingen",
+      "expand": "Uitvouwen",
+      "collapse": "Samenvouwen"
+    },
+    "example": "Voorbeeld:",
+    "objectiveExample": "1. De agent leert het escalatieprotocol",
+    "labels": "Labels",
+    "objectives": "Doelstellingen",
+    "duration": "Duur",
+    "durationErrorMsg": "Dit veld is vereist",
+    "hour": "u",
+    "minutes": "m",
+    "attachment": {
+      "insertFile": "Bestand invoegen",
+      "tooBigToUpload": "is te groot om te uploaden.",
+      "maxFileSize": "Bestand moet kleiner zijn dan {{maxSize}}.",
+      "fileUploadProgress": "{{loaded}} van {{total}}",
+      "failedFileUpload": "Uploaden van bestand is mislukt. Probeer het opnieuw.",
+      "fileTypeMismatch": "Kan bestand niet uploaden. Het bestandstype en de extensie komen niet overeen. Probeer het opnieuw.",
+      "fileTypeNotAllowed": "Kan bestand niet uploaden. Het bestandstype wordt niet ondersteund.",
+      "fileSizeExceeded": "Kan bestand niet uploaden. Het bestand is groter dan 15 MB.",
+      "zeroFileSizeError": "Kan bestand niet uploaden. Het geselecteerde bestand is leeg. Probeer het opnieuw.",
+      "dragAndDropElement": "Slepen om te uploaden of",
+      "browseForFile": "Naar bestanden bladeren",
+      "scanningFile": "Bestand worden gescand op virussen. Even geduld ...",
+      "fileCorrupted": "Bestand is beschadigd of geïnfecteerd met virussen.",
+      "linkTextLabel": "Linktekst",
+      "uploadFile": "Bestand uploaden",
+      "progressBarText": "Voortgang",
+      "mandatoryFieldText": "Dit veld is verplicht"
+    },
+    "interactions": {
+      "interactionsBtn": "Interacties toevoegen",
+      "type": "Type",
+      "agentName": "Agentnaam",
+      "startDateAndTime": "Startdatum en -tijd",
+      "duration": "Duur"
+    },
+    "info": {
+      "required": "Vereist",
+      "critical": "Kritiek"
+    },
+    "compareMode": {
+      "questionNotApplicable": "Deze vraag is niet van toepassing",
+      "sectionNotApplicable": "Deze sectie is niet van toepassing"
+    }
+  },
+  "formManager": {
+    "formStatus": {
+      "draft": "Concept",
+      "published": "Gepubliceerd",
+      "deleted": "Verwijderd",
+      "disabled": "Uitgeschakeld"
+    },
+    "elementType": {
+      "formArea": "formArea",
+      "section": "sectie",
+      "dateTime": "datum/tijd",
+      "dropdown": "vervolgkeuzelijst",
+      "hyperlink": "hyperlink",
+      "radio": "keuzerondje",
+      "yesno": "janee",
+      "label": "label"
+    },
+    "dropdownType": {
+      "single": "enkelvoudig",
+      "multiple": "meervoudig"
+    },
+    "logicMode": {
+      "newRule": "newRule",
+      "singleEdit": "singleEdit",
+      "bulkEdit": "bulkEdit"
+    }
+  },
+  "templateManagerPage": {
+    "pageTitle": "Sjabloonbeheer",
+    "createTemplate": "Nieuwe sjabloon",
+    "items": "formulieren",
+    "item": "formulier"
+  },
+  "qpWidget": {
+    "qpWidgetEvaluatorHeader": "Mijn taken",
+    "noItemsOverlay": "Geen overeenkomst gevonden",
+    "gridColumnsHeaders": {
+      "interactionId": "INTERACTIE-ID",
+      "type": " TYPE",
+      "agentName": "AGENTNAAM",
+      "startTime": "INTERACTIEBEGIN",
+      "duration": "DUUR",
+      "status": "STATUS",
+      "evaluationStatus": "EVALUATIESTATUS",
+      "evaluationDate": "EVALUATIEDATUM",
+      "score": "SCORE"
+    },
+    "qpInteractionEvalStatus": {
+      "pending": "In afwachting van evaluatie",
+      "inProgress": "In uitvoering",
+      "assigned": "Toegewezen"
+    }
+  },
+  "designerComponent": {
+    "templateOptions": "Sjabloonoptie",
+    "createTemplate": "Nieuwe sjabloon",
+    "selectTemplate": "Sjabloon selecteren",
+    "EVALUATION": {
+      "testForm": "Testformulier"
+    },
+    "COACHING": {
+      "testForm": "Testpakket"
+    }
+  },
+  "manageTemplatePage": {
+    "pageTitle": "",
+    "createTemplateModal": {
+      "header": "Nieuwe sjabloon",
+      "successMsg": "Sjabloon is aangemaakt",
+      "logoErrorMsg": "Uploaden van logo is mislukt",
+      "logoFileMsg": "Selecteer het juiste bestand om te uploaden",
+      "errorMsg": "Aanmaken van sjabloon is mislukt",
+      "duplicateTemplate": "Sjabloon bestaat al",
+      "templatePlaceholder": "Sjabloonnaam invoeren",
+      "headerImage": "Koptekstafbeelding",
+      "setDefaultTemplate": "Deze sjabloon als standaard instellen",
+      "setBgColor": "Achtergrondkleur",
+      "popover": {
+        "message1": "Alle wijzigingen gaan verloren",
+        "message2": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+      },
+      "numbering": "Nummering",
+      "enableNumbering": "Ingeschakeld"
+    },
+    "tabs": {
+      "design": "Ontwerp",
+      "settings": "Instellingen"
+    }
+  },
+  "teamsAndGroups": {
+    "teams": "Teams",
+    "groups": "Groepen",
+    "selectTeams": "Teams selecteren",
+    "selectGroups": "Groepen selecteren",
+    "errorMessages": {
+      "required": "U moet minimaal één team selecteren"
+    }
+  },
+  "messages": {
+    "noResultsText": "Er zijn geen resultaten gevonden"
+  },
+  "ng2QualityPlannerPage": {
+    "planStatus": {
+      "draft": "Concept",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "running": "Wordt uitgevoerd",
+      "expired": "Vervallen",
+      "pending": "In behandeling",
+      "deleted": "Verwijderd"
+    },
+    "planActions": {
+      "activate": "Activeren",
+      "deactivate": "Deactiveren",
+      "extend": "Uitbreiden",
+      "duplicate": "Dupliceren"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "Kwaliteitsplannen",
+      "newPlanButton": "Nieuw plan",
+      "noItemsOverlay": "Geen overeenkomst gevonden",
+      "plansCountLabel": "plannen",
+      "planCountLabel": "plan",
+      "planCount": "{{count}} plannen",
+      "planSearchPlaceholder": "Begin met typen om een plan te vinden",
+      "gridColumnsHeaders": {
+        "planName": "plannaam",
+        "evaluationType": "evaluatietype",
+        "planOccurrence": "planuitvoering",
+        "planLastModified": "laatst gewijzigd",
+        "planState": "Status",
+        "planAction": "Acties",
+        "planActivate": "Activeren"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }} plannen",
+        "searchPlaceholder": "Begin met typen om een plan te vinden"
+      },
+      "planOccurrence": {
+        "recurring": "Terugkerend",
+        "monthly": "Maandelijks terugkerend plan",
+        "weekly": "Wekelijks terugkerend plan",
+        "oneTime": "Eenmalig"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "U staat op het punt om dit plan te verwijderen. Deze actie kan niet ongedaan worden gemaakt.",
+          "msg2": "Doorgaan?"
+        },
+        "activatePlan": {
+          "msg1": "Er zijn fouten in het plan. U moet dit corrigeren voordat u het plan activeert.",
+          "msg2": "Wat wilt u doen?"
+        },
+        "deactivatePlan": {
+          "msg1": "U staat op het punt om dit plan te deactiveren. Beoordelaars krijgen geen interacties meer.",
+          "msg2": "Doorgaan?"
+        },
+        "closeModal": {
+          "message1": "Alle wijzigingen gaan verloren",
+          "message2": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "Plannaam",
+          "successMessage": "Plan is gedupliceerd.",
+          "errorMessage": "Plannaam bestaat al",
+          "header": "Plan dupliceren",
+          "duplicate": "Dupliceren",
+          "errorDuplicatingPlanMissingPermissionError": "U hebt niet de juiste machtigingen om deze actie uit te voeren."
+        }
+      },
+      "warningMessageModal": {
+        "title": "Pagina verlaten?",
+        "unsavedChanges": "Er zijn niet-opgeslagen gegevens.",
+        "areYouSureLeavePage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+      },
+      "planTabForSegments": "Kwaliteitsplanner voor segmenten",
+      "planTabForTickets": "Kwaliteitsplanner voor tickets",
+      "SearchByPlanStatusPlaceholder": "Zoeken op planstatus"
+    },
+    "qpPlanDetails": {
+      "pageTitle": "Nieuw kwaliteitsplan maken",
+      "qualityPlansPageBreadcrumb": "Kwaliteitsplannen",
+      "name": "Naam",
+      "description": "Beschrijving",
+      "errorSavingPlan": "Fout bij opslaan van kwaliteitsplan",
+      "errorSavingPlanDueToFilters": "Kan dit plan niet opslaan. U hebt velden bewerkt die niet kunnen worden gewijzigd.",
+      "successSavingPlan": "Kwaliteitsplan is opgeslagen ",
+      "successSavingActivePlan": "Kwaliteitsplan is opgeslagen. De wijzigingen worden van kracht in de volgende distributie.",
+      "selectiveFieldsEditMsg": "Velden die kunnen worden bewerkt: Plannaam, Beschrijving, Evaluatieformulier toewijzen, Oproepfiltering",
+      "editEvaluatorSelectiveFieldsEditMsg": "Velden die kunnen worden bewerkt: Plannaam, Beschrijving, Evaluatieformulier toewijzen, Oproepfiltering, Beoordelaars.",
+      "editEvaluatorsInfoIconMsg": "Wijzigingen in de beoordelaars hebben invloed op de plandistributie",
+      "successActivatingPlan": "Kwaliteitsplan is geactiveerd.",
+      "successDeactivatingPlan": "Kwaliteitsplan is gedeactiveerd.",
+      "errorActivatingPlan": "Fout bij activeren van kwaliteitsplan.",
+      "errorActivatingPlanPermissionIssue": "Kan dit plan niet activeren. Sommige beoordelaars hebben geen machtiging om interacties te evalueren.",
+      "errorActivatingPlanStatusIssue": "Kan dit plan niet activeren. Er zijn geen actieve beoordelaars.",
+      "errorDeactivatingPlan": "Fout bij deactiveren van kwaliteitsplan.",
+      "successdelete": "Plan is verwijderd.",
+      "deleteQualityPlanError": "Kan kwaliteitsplan niet verwijderen. Probeer het opnieuw.",
+      "evaluationType": "Evaluatietype",
+      "standardEvaluation": "Standaard evaluatie",
+      "standardEvaluationHelpText": "De evaluatie wordt alleen door de beoordelaar uitgevoerd",
+      "collaborativeEvaluation": "Gezamenlijke evaluatie",
+      "collaborativeEvaluationHelpText": "De evaluatie wordt zowel door de agent als door de beoordelaar uitgevoerd en vervolgens vergeleken",
+      "planDuration": {
+        "planDurationTitle": "Plandefinitie",
+        "planDurationMessage": "Oproepen evalueren die plaatsvonden binnen het geselecteerde tijdvak:",
+        "recurringLabel": "Terugkerend",
+        "oneTimeLabel": "Eenmalig plan - Start- en einddatum:",
+        "startDateLabel": "VAN",
+        "endDateLabel": "TOT",
+        "emptyDatePickerLabel": "Selecteer een datum",
+        "selectForm": "Selecteer een formulier",
+        "errorMessage": "U moet een evaluatieformulier selecteren",
+        "recurringOptions": {
+          "monthly": "Maandelijks",
+          "weekly": "Wekelijks"
+        },
+        "oneTimePlanNewLabel": "Eenmalig"
+      },
+      "planFilters": {
+        "filteringHeader": "Filteren",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "U moet minimaal 1 filter selecteren",
+        "filterLicenseError": "Het verkrijgen van licenties voor de huidige tenant is mislukt. Probeer het opnieuw.",
+        "smsChannelStatusError": "Kan status van SMS-kanaal voor huidige tenant niet ophalen. Probeer het opnieuw.",
+        "callDirectionFilter": {
+          "callDirectionLabel": "Oproeprichting:",
+          "filterLabel": "RICHTING",
+          "inboundLabel": "Inbound",
+          "incomingLabel": "Inkomend",
+          "outboundLabel": "Outbound",
+          "outgoingLabel": "Uitgaand",
+          "internalLabel": "Intern"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "Gespreksduur:",
+          "Less": "Kleiner dan",
+          "Greater": "Groter dan",
+          "Between": "Tussen",
+          "durationExceedMaxMessage": "De maximale gespreksduur moet groter zijn dan de minimale gespreksduur",
+          "durationLessThenZeroMessage": "Gespreksduur moet groter zijn dan 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "OPGENOMEN SEGMENTTYPE",
+          "voiceOnlyLabel": "Alleen spraak",
+          "channelLabel": "KANALEN",
+          "voiceLabel": "Spraak",
+          "voiceAndScreenLabel": "Spraak en scherm",
+          "chatLabel": "Chat",
+          "emailLabel": "E-mail",
+          "smsLabel": "SMS"
+        },
+        "channelsFilter": {
+          "VOICE": "Spraak",
+          "FB_PRIVATE": "Facebook Messenger",
+          "CHAT": "Chat",
+          "EMAIL": "E-mail",
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "LINE": "LINE Messaging",
+          "LINE_PRIVATE": "LINE Messaging",
+          "TW_PRIVATE": "Twitter Direct Messages",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "SMS": "SMS",
+          "CUSTOM_PRIVATE": "Aangepast",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "WORKITEM": "Werkitem",
+          "GOOGLE_BUSINESS_MESSAGES_PRIVATE": "Google Business Messenger",
+          "MICROSOFT_TEAMS_PRIVATE": "Microsoft Teams",
+          "SLACK_PRIVATE": "Slack"
+        },
+        "categoriesFilter": {
+          "categories": "CATEGORIEËN",
+          "selectCategories": "Categorieën selecteren",
+          "selectedCategories": "Geselecteerde categorieën ({{count}})",
+          "noCategoriesSelected": "Nog geen categorieën geselecteerd",
+          "categoryConfidenceLabel": "Alleen hoog vertrouwen",
+          "selectedIACategories": "Geselecteerde IA-categorieën ({{count}})",
+          "selectedQMACategories": "Geselecteerde QM-categorieën ({{count}})",
+          "qmaCategoryDeprecationText": "QMA-categorieën zullen worden afgeschaft na enkele releases"
+        },
+        "sentimentFilter": {
+          "filterLabel": "SENTIMENT",
+          "sentimentFacet": {
+            "anySide": "Een van de zijden",
+            "agentSide": "Agentzijde",
+            "customerSide": "Klantzijde",
+            "bothSides": "Agent EN klant"
+          },
+          "sentiment": {
+            "POSITIVE": "Positief",
+            "NEGATIVE": "Negatief",
+            "NEUTRAL": "Neutraal",
+            "MIXED": "Gemengd"
+          }
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "filterLabel": "ACD",
+          "skillsLabel": "SKILLS",
+          "dispostionsLabel": "DISPOSITIES",
+          "selectSkills": "Skills selecteren",
+          "selectCallReasons": "Oproepredenen selecteren",
+          "multipathDropdownDisabledInfoIconMsg": "NICE Engage ondersteunt geen ACD-vaardigheden en CSAT-score",
+          "recordingSrcSkillCsatDisabledInfoIconMsg": "Opnamebron ondersteunt geen ACD-skills en CSAT-score"
+        },
+        "businessDataFilter": {
+          "filterLabel": "BEDRIJFSGEGEVENS",
+          "operatorLabel": "is",
+          "errorMessage": "Dit veld is vereist",
+          "errorInDropDownMessage": "Selecteer een type bedrijfsgegevens",
+          "dropdownPlaceHolderText": "Selecteer een gegevenstype",
+          "inputPlaceHolderForNumber": "Voer nummer in",
+          "inputPlaceHolderForText": "Voer tekst in",
+          "inactiveBusinessDataMsg": "Deze bedrijfsgegevens zijn niet actief",
+          "true": "True",
+          "false": "FALSE"
+        },
+        "agentBehaviourFilter": {
+          "filterLabel": "AGENTGEDRAG",
+          "operatorLabel": "is",
+          "errorMessage": "Dit veld is vereist",
+          "errorInDropDownMessage": "Selecteer het gedrag van de agent",
+          "dropdownPlaceHolderText": "Gedragstype selecteren",
+          "sentiments": {
+            "strongly_negative": "Sterk negatief",
+            "moderately_negative": "Gematigd negatief",
+            "neutral": "Neutraal",
+            "moderately_positive": "Gematigd positief",
+            "strongly_positive": "Sterk positief"
+          },
+          "selectAgentBehaviorSentiment": "Selecteer het gedrag van de agent en score",
+          "addAnotherAgentBehaviorSentiment": "Nog één toevoegen"
+        },
+        "interactionFilter": {
+          "filterLabel": "INTERACTIES",
+          "withScreenLabel": "Met scherm",
+          "withoutScreenLabel": "Zonder scherm",
+          "allInteractionLabel": "Alle"
+        },
+        "feedbackScoreFilter": {
+          "label": "CSAT-score",
+          "to": "tot"
+        },
+        "clear": "Wissen",
+        "recordingSourceFilter": {
+          "recordingSourceLabel": "OPNAMEBRON",
+          "dropdownPlaceHolderText": "Selecteer een bron",
+          "reordingSouceFitlerTooltipText": "Selecteer de opnamebron voor de interacties die moeten worden geëvalueerd"
+        },
+        "enlightenSentimentFilter": {
+          "sentimentFacet": {
+            "anySide": "Een van de zijden",
+            "agentSide": "Agentzijde",
+            "customerSide": "Klantzijde",
+            "bothSides": "Agent EN klant"
+          },
+          "enlightenSentiment": {
+            "POSITIVE": "Positief",
+            "NEGATIVE": "Negatief",
+            "VERYPOSITIVE": "Zeer positief",
+            "VERYNEGATIVE": "Zeer negatief",
+            "NEUTRAL": "Neutraal",
+            "STRONGLYNEGATIVE": "Sterk negatief",
+            "MODERATELYNEGATIVE": "Gematigd negatief",
+            "MODERATELYPOSITIVE": "Gematigd positief",
+            "STRONGELYPOSITIVE": "Sterk positief"
+          }
+        },
+        "enhancedSentimentFilter": {
+          "title": "Sentiment selecteren",
+          "cancelButton": "Annuleren",
+          "changeButton": "Wijzigen",
+          "sentimentPopoverText": "Het wijzigen van het sentimenttype zal de eerdere selecties verwijderen.",
+          "sentiments": {
+            "label": "Sentiment",
+            "subLabel": "Algemene stemming gedetecteerd uit woorden of woordgroepen gebruikt in conversatie"
+          },
+          "enlightenSentiments": {
+            "label": "Enlighten-sentiment",
+            "subLabel": "Voorspellende Net Promoter Score"
+          }
+        },
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "De maximale ticketduur moet groter zijn dan de minimale ticketduur",
+          "durationExceedMinMessage": "De minimale ticketduur moet groter zijn dan de maximale ticketduur",
+          "durationLessThenZeroMessage": "Gespreksduur moet groter zijn dan 0"
+        },
+        "customAttributesAPIErrorMessage": "Kan aangepaste attributen niet ophalen: "
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "Beoordelaars",
+        "noEvaluatorsAssignedMessage": "Nog geen beoordelaars toegewezen",
+        "noEvaluatorsSelectedMessage": "Geen beoordelaars geselecteerd",
+        "noEvaluatorsAddedMessage": "Geen beoordelaars toegevoegd",
+        "selectedEvaluatorsLabel": "Geselecteerde beoordelaars",
+        "addEvaluatorsButton": "Beoordelaars toevoegen",
+        "modalHeader": "Beoordelaars toevoegen",
+        "selectEvaluatorsHeader": "Beoordelaars selecteren",
+        "cancelButton": "Annuleren",
+        "errorMessage": "U moet minimaal 1 beoordelaar selecteren",
+        "omnibarMessage": "Begin met typen om beoordelaars te vinden",
+        "evaluatorsCount": "{{count}} beoordelaars",
+        "evaluators": "Beoordelaars",
+        "Evaluator": "Beoordelaar",
+        "Manager": "Manager",
+        "Administrator": "Beheerder",
+        "alreadyAssignedEvaluators": "Toegewezen beoordelaars",
+        "gridColumnsHeaders": {
+          "fullName": "Naam",
+          "role": "Rol",
+          "accessibleTeams": "Toegankelijke teams",
+          "dailyEvaluations": "Dagelijkse evaluaties",
+          "selectedTeams": "Geselecteerde teams"
+        },
+        "errorMessages": {
+          "required": "U moet minimaal één beoordelaar selecteren",
+          "atleastSingleTeamRequired": "U moet minstens één team per beoordelaar selecteren"
+        },
+        "customTeamSelection": "Aangepaste teamselectie"
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "Agents",
+        "noAgentGroupsAssignedMessage": "Nog geen agentgroepen toegewezen",
+        "selectedAgentGroupsLabel": "Geselecteerde agentgroepen",
+        "addAgentGroupsButton": "Agentgroepen toevoegen",
+        "selectAgentGroupsHeader": "Agentgroepen selecteren",
+        "cancelButton": "Annuleren",
+        "errorMessage": "U moet minimaal 1 agentgroep selecteren",
+        "omnibarMessage": "Begin met typen om agentgroepen te vinden",
+        "agentGroupsCount": "{{count}} agentgroepen",
+        "selectedTxt": "Geselecteerd:",
+        "AlreadyAssignedGroups": "Toegewezen agentgroepen"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "Agents",
+        "teams": "Teams",
+        "groups": "Groepen",
+        "noTeamsSelected": "Nog geen teams geselecteerd",
+        "selectTeams": "Teams selecteren",
+        "selectGroups": "Groepen selecteren",
+        "selectedAgents": "Huidig totaal aantal agents: ",
+        "errorMessages": {
+          "required": "U moet minimaal één team selecteren"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "Steekproef",
+        "numSegmentsPerAgentLabel": "Interacties per agent",
+        "numDaysBackLabel": "Inclusief interacties van laatste",
+        "daysLabel": "dagen",
+        "daysBackExceedMaxMessage": "Planduur is {{durationInDays}} dagen Selecteer van 1 tot {{daysRange}} dagen.",
+        "includeOrExcludeInteractionsEvaluatedOrTaggedForEvaluation": "Interacties die zijn geëvalueerd of getagd zijn voor evaluatie, opnemen of uitsluiten",
+        "include": "Opnemen",
+        "exclude": "Uitsluiten",
+        "excludeEvaluatedInteractionsText": "Interacties die zijn geëvalueerd of getagd voor evaluatie, uitsluiten",
+        "newSamplingHeader": "Voorbeelden selectie voor distributie",
+        "includeInteractionsLabel": "Interacties opnemen",
+        "excludeInteractionsLabel": "Interacties uitsluiten",
+        "fromLastDaysLabel": "Vanaf laatste",
+        "excludeInteractionsText": "Geëvalueerd / getagd voor evaluaties",
+        "timeBasedSelectionLabel": "Op tijd gebaseerde selectie",
+        "startTimeLabel": "Starttijd",
+        "endTimeLabel": "Eindtijd",
+        "startTimeSubtext": "Trek de interactie gebaseerd op wanneer de interactie is gestart",
+        "endTimeSubtext": "Trek de interactie gebaseerd op wanneer de interactie is geëindigd"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "Beoordelingsformulier toewijzen"
+      },
+      "planSummary": {
+        "planSummary": "Planoverzicht",
+        "totalInteractions": "Totaal aantal evaluaties in plan",
+        "interactionsPerDayPerEvaluator": "Dagelijkse evaluaties per beoordelaar",
+        "planDays": "Totaal aantal dagen in plan",
+        "interactionsPerAgent": "Interacties per agent"
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "Tijdzone "
+      },
+      "RBAC_cannot_delete_error": "Kan kwaliteitsplan niet verwijderen. Neem contact op met uw beheerder.",
+      "RBAC_cannot_activate_error": "Kan kwaliteitsplan niet activeren. Neem contact op met uw beheerder.",
+      "RBAC_cannot_duplicate_error": "Kan kwaliteitsplan niet dupliceren. Neem contact op met uw beheerder.",
+      "RBAC_cannot_deactivate_error": "Kan het kwaliteitsplan niet deactiveren. Neem contact op met uw beheerder.",
+      "errorActivatingTeamAndGroupIssue": "Kan dit plan niet activeren. Dit heeft enkele ongeldige teams of groepen",
+      "selectDivision": "Divisie",
+      "selectItems": "Items selecteren",
+      "defaultDivisionMsg": "U hebt een standaard divisie",
+      "selectDivisionMsg": "Selecteer een divisie om door te gaan met het kwaliteitsplan",
+      "divisionLoadingErrorMsg": "Interne serverfout. Probeer het opnieuw"
+    }
+  },
+  "qualityPlaner": {
+    "planStatus": {
+      "draft": "Concept",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "running": "Wordt uitgevoerd",
+      "expired": "Vervallen",
+      "pending": "In behandeling",
+      "deleted": "Verwijderd"
+    },
+    "planActions": {
+      "activate": "Activeren",
+      "deactivate": "Deactiveren",
+      "extend": "Uitbreiden",
+      "duplicate": "Dupliceren"
+    },
+    "qualityPlanerPage": {
+      "pageTitle": "Kwaliteitsplannen",
+      "newPlanButton": "Nieuw plan",
+      "noItemsOverlay": "Geen overeenkomst gevonden",
+      "itemsCountLabel": "plannen",
+      "planCount": "{{count}} plannen",
+      "planSearchPlaceholder": "Begin met typen om een plan te vinden",
+      "collaborativeEvaluation": " Gezamenlijk",
+      "standardEvaluation": "Standaard",
+      "gridColumnsHeaders": {
+        "planName": "plannaam",
+        "evaluationType": "evaluatietype",
+        "planOccurrence": "planuitvoering",
+        "planLastModified": "laatst gewijzigd",
+        "planState": "Status",
+        "planAction": "Acties",
+        "planActivate": "Activeren"
+      },
+      "planOccurrence": {
+        "recurring": "Terugkerend",
+        "monthly": "Maandelijks terugkerend plan",
+        "weekly": "Wekelijks terugkerend plan",
+        "oneTime": "Eenmalig"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "U staat op het punt om dit plan te verwijderen. Deze actie kan niet ongedaan worden gemaakt.",
+          "msg2": "Doorgaan?"
+        },
+        "activatePlan": {
+          "msg1": "Er zijn fouten in het plan. U moet dit corrigeren voordat u het plan activeert.",
+          "msg2": "Wat wilt u doen?"
+        },
+        "deactivatePlan": {
+          "msg1": "U staat op het punt om dit plan te deactiveren. Beoordelaars krijgen geen interacties meer.",
+          "msg2": "Doorgaan?"
+        },
+        "closeModal": {
+          "message1": "Alle wijzigingen gaan verloren",
+          "message2": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "Plannaam",
+          "successMsg": "Plan is gedupliceerd.",
+          "header": "Plan dupliceren",
+          "duplicate": "Dupliceren",
+          "placeholder": "Voer de plannaam in"
+        }
+      },
+      "warningMessageModal": {
+        "title": "Pagina verlaten?",
+        "unsavedChanges": "Er zijn niet-opgeslagen gegevens.",
+        "areYouSureLeavePage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+      },
+      "newTicketPlanButton": "Nieuw plan voor tickets",
+      "newSegmentPlanButton": "Nieuw plan voor segmenten",
+      "SearchByPlanStatusPlaceholder": "Zoeken op planstatus"
+    },
+    "qualityPlannerNewPlanPage": {
+      "pageTitle": "Nieuw kwaliteitsplan maken",
+      "qualityPlansPageBreadcrumb": "Kwaliteitsplannen",
+      "name": "Naam",
+      "description": "Beschrijving",
+      "errorSavingPlan": "Fout bij opslaan van kwaliteitsplan",
+      "errorSavingPlanDueToFilters": "Kan dit plan niet opslaan. U hebt velden bewerkt die niet kunnen worden gewijzigd.",
+      "successSavingPlan": "Kwaliteitsplan is opgeslagen ",
+      "successSavingActivePlan": "Kwaliteitsplan is opgeslagen. De wijzigingen worden van kracht in de volgende distributie.",
+      "selectiveFieldsEditMsg": "Velden die kunnen worden bewerkt: Plannaam, Beschrijving, Evaluatieformulier toewijzen, Oproepfiltering",
+      "successActivatingPlan": "Kwaliteitsplan is geactiveerd.",
+      "successDeactivatingPlan": "Kwaliteitsplan is gedeactiveerd.",
+      "errorActivatingPlan": "Fout bij activeren van kwaliteitsplan.",
+      "errorActivatingPlanPermissionIssue": "Kan dit plan niet activeren. Sommige beoordelaars hebben geen machtiging om interacties te evalueren.",
+      "errorActivatingPlanStatusIssue": "Kan dit plan niet activeren. Er zijn geen actieve beoordelaars.",
+      "errorDeactivatingPlan": "Fout bij deactiveren van kwaliteitsplan.",
+      "successdelete": "Plan is verwijderd.",
+      "deleteQualityPlanError": "Kan kwaliteitsplan niet verwijderen. Probeer het opnieuw.",
+      "evaluationType": "Evaluatietype",
+      "standardEvaluation": "Standaard",
+      "standardEvaluationHelpText": "De evaluatie wordt alleen door de beoordelaar uitgevoerd",
+      "collaborativeEvaluation": "Gezamenlijk",
+      "collaborativeEvaluationHelpText": "De evaluatie wordt zowel door de agent als door de beoordelaar uitgevoerd en vervolgens vergeleken",
+      "planDuration": {
+        "planDurationTitle": "Plandefinitie",
+        "planDurationMessage": "Oproepen evalueren die plaatsvonden binnen het geselecteerde tijdvak:",
+        "recurringLabel": "Terugkerend",
+        "oneTimeLabel": "Eenmalig plan - Start- en einddatum:",
+        "startDateLabel": "START",
+        "endDateLabel": "TOT",
+        "emptyDatePickerLabel": "Selecteer een datum",
+        "selectForm": "Selecteer een formulier",
+        "errorMessage": "U moet een evaluatieformulier selecteren",
+        "recurringOptions": {
+          "monthly": "Maandelijks",
+          "weekly": "Wekelijks"
+        }
+      },
+      "planFilters": {
+        "filteringHeader": "Filteren",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "U moet minimaal 1 filter selecteren",
+        "filterLicenseError": "Het verkrijgen van licenties voor de huidige tenant is mislukt. Probeer het opnieuw.",
+        "smsChannelStatusError": "Kan status van SMS-kanaal voor huidige tenant niet ophalen. Probeer het opnieuw.",
+        "callDirectionFilter": {
+          "callDirectionLabel": "Oproeprichting:",
+          "filterLabel": "RICHTING",
+          "inboundLabel": "Inbound",
+          "incomingLabel": "Inkomend",
+          "outboundLabel": "Outbound",
+          "outgoingLabel": "Uitgaand",
+          "internalLabel": "Intern"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "Gespreksduur:",
+          "Less": "Kleiner dan",
+          "Greater": "Groter dan",
+          "Between": "Tussen",
+          "durationExceedMaxMessage": "De maximale gespreksduur moet groter zijn dan de minimale gespreksduur",
+          "durationLessThenZeroMessage": "Gespreksduur moet groter zijn dan 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "OPGENOMEN SEGMENTTYPE",
+          "voiceOnlyLabel": "Alleen spraak",
+          "channelLabel": "KANALEN",
+          "voiceLabel": "Spraak",
+          "voiceAndScreenLabel": "Spraak en scherm",
+          "chatLabel": "Chat",
+          "emailLabel": "E-mail",
+          "smsLabel": "SMS"
+        },
+        "channelFilters": {
+          "VOICE": "Spraak",
+          "FB_PRIVATE": "Facebook Messenger",
+          "CHAT": "Chat",
+          "EMAIL": "E-mail",
+          "APPLE_BUSINESS_CHAT": "Apple Business Chat",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple Business Chat",
+          "LINE_PRIVATE": "LINE Messaging",
+          "LINE": "LINE Messaging",
+          "TW_PRIVATE": "Twitter Direct Messages",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "SMS": "SMS",
+          "CUSTOM_PRIVATE": "Aangepast",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "WORKITEM": "Werkitem"
+        },
+        "interactionFilter": {
+          "filterLabel": "INTERACTIES",
+          "withScreenLabel": "Met scherm",
+          "withoutScreenLabel": "Zonder scherm",
+          "allInteractionLabel": "Alle"
+        },
+        "categoriesFilter": {
+          "categories": "CATEGORIEËN",
+          "selectCategories": "Categorieën selecteren",
+          "selectedCategories": "Geselecteerde categorieën ({{count}}) ",
+          "noCategoriesSelected": "Nog geen categorieën geselecteerd",
+          "categoryConfidenceLabel": "Alleen hoog vertrouwen"
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "filterLabel": "ACD",
+          "skillsLabel": "SKILLS",
+          "dispostionsLabel": "DISPOSITIES",
+          "selectSkills": "Skills selecteren",
+          "selectDispositions": "Disposities selecteren"
+        },
+        "businessDataFilter": {
+          "filterLabel": "BEDRIJFSGEGEVENS",
+          "operatorLabel": "is",
+          "errorMessage": "Dit veld is vereist",
+          "errorInDropDownMessage": "Selecteer een type bedrijfsgegevens",
+          "dropdownPlaceHolderText": "Selecteer een gegevenstype",
+          "inputPlaceHolderForNumber": "Voer nummer in",
+          "inputPlceHolderForText": "Voer tekst in",
+          "inactiveBusinessDataMsg": "Deze bedrijfsgegevens zijn niet actief"
+        },
+        "feedbackScoreFilter": {
+          "label": "CSAT-score",
+          "to": "tot"
+        },
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "De maximale ticketduur moet groter zijn dan de minimale ticketduur",
+          "durationExceedMinMessage": "De minimale ticketduur moet groter zijn dan de maximale ticketduur",
+          "durationLessThenZeroMessage": "Gespreksduur moet groter zijn dan 0"
+        }
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "Beoordelaars",
+        "noEvaluatorsAssignedMessage": "Nog geen beoordelaars toegewezen",
+        "selectedEvaluatorsLabel": "Geselecteerde beoordelaars",
+        "addEvaluatorsButton": "Beoordelaars toevoegen",
+        "selectEvaluatorsHeader": "Beoordelaars selecteren",
+        "cancelButton": "Annuleren",
+        "errorMessage": "U moet minimaal 1 beoordelaar selecteren",
+        "omnibarMessage": "Begin met typen om beoordelaars te vinden",
+        "evaluatorsCount": "{{count}} beoordelaars",
+        "Evaluator": "Beoordelaar",
+        "Manager": "Manager",
+        "Administrator": "Beheerder",
+        "alreadyAssignedEvaluators": "Toegewezen beoordelaars"
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "Agents",
+        "noAgentGroupsAssignedMessage": "Nog geen agentgroepen toegewezen",
+        "selectedAgentGroupsLabel": "Geselecteerde agentgroepen",
+        "addAgentGroupsButton": "Agentgroepen toevoegen",
+        "selectAgentGroupsHeader": "Agentgroepen selecteren",
+        "cancelButton": "Annuleren",
+        "errorMessage": "U moet minimaal 1 agentgroep selecteren",
+        "omnibarMessage": "Begin met typen om agentgroepen te vinden",
+        "agentGroupsCount": "{{count}} agentgroepen",
+        "selectedTxt": "Geselecteerd:",
+        "AlreadyAssignedGroups": "Toegewezen agentgroepen"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "Agents",
+        "selected": " geselecteerd",
+        "teams": "Teams",
+        "groups": "Groepen",
+        "noTeamsSelected": "Nog geen teams geselecteerd",
+        "selectTeams": "Teams selecteren",
+        "selectGroups": "Groepen selecteren",
+        "selectedAgents": "Huidig totaal aantal agents: ",
+        "errorMessages": {
+          "required": "U moet minimaal één team selecteren"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "Steekproef",
+        "numSegmentsPerAgentLabel": "Aantal interacties per agent:",
+        "numDaysBackLabel": "Inclusief interacties van laatste",
+        "daysLabel": "dagen",
+        "daysBackExceedMaxMessage": "Planduur is {{durationInDays}} dagen Selecteer van 1 tot {{daysRange}} dagen."
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "Evaluatieformulier toewijzen:"
+      },
+      "planSummary": {
+        "planSummary": "Planoverzicht",
+        "totalInteractions": "Totaal aantal evaluaties in plan",
+        "interactionsPerDayPerEvaluator": "Dagelijkse evaluaties per beoordelaar",
+        "planDays": "Totaal aantal dagen in plan",
+        "interactionsPerAgent": "Interacties per agent"
+      },
+      "ticketFilters": {
+        "DirectionType": {
+          "Incoming": "Inkomend",
+          "Outgoing": "Uitgaand"
+        },
+        "Messages": {
+          "DirectionTypeRequired": "Er moet minimaal één richtingstype worden geselecteerd.",
+          "MaxDurationValidation": "Maximale duur moet langer zijn dan minimale duur",
+          "MaxCountValidation": "Maximum aantal moet groter zijn dan minimum aantal.",
+          "FieldRequired": "Dit veld is vereist"
+        },
+        "TicketFilter": {
+          "TicketType": "Tickettype",
+          "Priority": "Prioriteit",
+          "Status": "Status",
+          "Direction": "Richting",
+          "Score": "Score",
+          "CSATScore": "CSAT-score",
+          "HoldTimeDuration": "Tijd in wachtstand",
+          "TalkTimeDuration": "Gesprekstijd",
+          "TotalHandleTimeDuration": "Totale afhandeltijd",
+          "WaitTimeDuration": "Wachttijd",
+          "WrapTimeDuration": "Afwikkeltijd",
+          "TotalReplies": "Totaal aantal antwoorden",
+          "TotalReopens": "Totaal opnieuw geopend",
+          "excludeEvaluatedOrTaggedInteractionsText": "Geëvalueerd / getagd voor evaluaties interacties uitsluiten",
+          "sentiment": "Sentiment",
+          "agentBehavior": "Agentgedrag"
+        }
+      }
+    }
+  },
+  "categoryManagerPage": {
+    "pageTitle": "Categoriebeheer"
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "Selecteer een formulier om de uitvoering te starten:",
+    "select": "Selecteren",
+    "change": "Wijzigen",
+    "noFormsMsg": "Geen formulier beschikbaar.",
+    "selectFormHeader": "Formulier selecteren",
+    "changeFormHeader": "Formulier wijzigen",
+    "noFormInPlanMessage": "Selecteer een formulier voor de evaluatie.",
+    "disabledFormInPlanMessage": "Selecteer een formulier voor de evaluatie."
+  },
+  "workflowStatuses": {
+    "Claimed": "Geclaimd",
+    "InProgress": "In uitvoering",
+    "Dispute": "Betwisten",
+    "InReview": "Wordt beoordeeld",
+    "Request_Review": "Aanvraagbeoordeling",
+    "Pending_Acknowledgement": "In afwachting van bevestiging",
+    "Completed": "Voltooid",
+    "Completed_Acknowledged": "Voltooid bevestigd",
+    "Reviewed_and_Completed": "Beoordeeld en voltooid"
+  },
+  "workflowStatusUI": {
+    "Assigned": "Nieuw",
+    "Claimed": "Nieuw",
+    "InProgress": "Concept",
+    "Dispute": "Betwist",
+    "InReview": "Betwist",
+    "Request_Review": "Betwist",
+    "Pending_Acknowledgement": "Nieuw",
+    "Completed": "Voltooid",
+    "Completed_Acknowledged": "Voltooid",
+    "Reviewed_and_Completed": "Beoordeling voltooid",
+    "Completed_and_Not_Reviewed": "Geen beoordeling voltooid",
+    "Completed_and_Reviewed": "Voltooid en beoordeeld",
+    "selfAssessment": {
+      "new": "Nieuw",
+      "draft": "Concept",
+      "completed": "Voltooid",
+      "expired": "Vervallen"
+    },
+    "Expired": "Vervallen",
+    "Auto-acknowledged": "Automatisch bevestigd",
+    "Sent_To_Agent": "Verzonden",
+    "WaitingForEvaluator": "Wachten op beoordelaar",
+    "WaitingForAgent": "Wachten op agent",
+    "PartiallyCompleted": "Gedeeltelijk voltooid"
+  },
+  "workflowType": {
+    "evaluations": "EVALUATIES"
+  },
+  "formDesignerElements": {
+    "section": {
+      "title": "Sectie",
+      "tooltipContent": "Maak een sectie in het formulier. U kunt de vragen organiseren in secties.",
+      "questionTitle": "Naam instellen"
+    },
+    "yesno": {
+      "title": "Ja/nee",
+      "tooltipContent": "Voeg een Ja/Nee-vraag toe aan het formulier. De beoordelaar kan één antwoord selecteren. Aan dit item kan een score worden toegekend.",
+      "questionTitle": "Vraag instellen",
+      "choice": {
+        "yes": "Ja",
+        "no": "Nee"
+      }
+    },
+    "checkbox": {
+      "title": "Selectievakje",
+      "tooltipContent": "Voeg een vraag toe met een selectievakje. De beoordelaar kan een of meer opties selecteren. Aan dit item kan een score worden toegekend.",
+      "questionTitle": "Vraag instellen",
+      "choice": {
+        "choice1": "Keuze 1",
+        "choice2": "Keuze 2"
+      }
+    },
+    "radio": {
+      "title": "Keuzerondje",
+      "tooltipContent": "Voeg een vraag met verschillende opties toe. De beoordelaar kan één van de opties selecteren. Aan dit item kan een score worden toegekend.",
+      "questionTitle": "Vraag instellen",
+      "choice": {
+        "choice1": "Keuze 1",
+        "choice2": "Keuze 2"
+      }
+    },
+    "datetime": {
+      "title": "Datum/tijd",
+      "tooltipContent": "Voeg een datum- en tijdkiezer toe.",
+      "questionTitle": "Vraag instellen",
+      "timeQuestionTitle": "Vraag instellen"
+    },
+    "dropdown": {
+      "title": "Vervolgkeuzelijst",
+      "tooltipContent": "Voeg een vraag toe met een lijst met mogelijke antwoorden. De beoordelaar kan een of meer antwoorden selecteren.",
+      "questionTitle": "Vraag instellen",
+      "choice": {
+        "choice1": "Keuze 1",
+        "choice2": "Keuze 2"
+      }
+    },
+    "hyperlink": {
+      "title": "Hyperlink",
+      "tooltipContent": "Maak een hyperlink in het formulier.",
+      "questionTitle": "Tekst invoeren"
+    },
+    "label": {
+      "title": "Label",
+      "tooltipContent": "Voeg een tekstelement toe aan het formulier.",
+      "questionTitle": "Naam instellen"
+    },
+    "text": {
+      "title": "Korte tekst",
+      "tooltipContent": "Voeg een tekstveld van één regel toe aan het formulier.",
+      "questionTitle": "Vraag instellen"
+    },
+    "textarea": {
+      "title": "Lange tekst",
+      "tooltipContent": "Voeg een tekstvak van meerdere regels toe aan het formulier.",
+      "questionTitle": "Vraag instellen"
+    },
+    "interactions": {
+      "title": "Interacties",
+      "tooltipContent": "Voeg interacties toe aan het formulier",
+      "questionTitle": "Naam instellen"
+    },
+    "attachment": {
+      "title": "Bijlage",
+      "tooltipContent": "Voeg een bestandsbijlage toe aan het formulier",
+      "questionTitle": "Naam instellen"
+    }
+  },
+  "ng2FormDesignerPage": {
+    "manageFormsBreadcrumb": "Formulierbeheer",
+    "warningMessageModal": {
+      "title": "Pagina verlaten?",
+      "unsavedChanges": "Er zijn niet-opgeslagen gegevens.",
+      "areYouSureLeavePage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+    }
+  },
+  "setupPage": {
+    "qmScoreMetricPage": {
+      "pageTitle": "QM-score-metric",
+      "qmMetricFormula": "Formule voor QM-metric",
+      "averageOfValues": "Gemiddelde van waarden",
+      "averageOfPercentages": "Gemiddelde van percentages",
+      "averageOfValuesInfo": "Totaal aantal behaalde vraagpunten / totaal aantal mogelijke vraagpunten * 100",
+      "averageOfPercentagesInfo": "Totaal aantal behaalde vraagpunten / totaal aantal mogelijke vraagpunten * 100 = % score / aantal uitgevoerde beoordelingen",
+      "qmScoreMetricSaveSuccessMessage": "QM-metric-formule is opgeslagen.",
+      "qmScoreMetricErrorMessage": "Kan de geselecteerde QM-metric-formule niet laden.",
+      "loadQMMetricFormulaErrorMessage": "Kan pagina niet laden. Geen verbinding met de server. Probeer het opnieuw. Neem contact op met de systeembeheerder als het probleem aanhoudt."
+    }
+  },
+  "ng2QMEditAccessibleTeams": {
+    "buttons": {
+      "cancel": "Annuleren",
+      "apply": "Toepassen",
+      "showSelected": "Alleen geselecteerde tonen",
+      "ok": "OK"
+    },
+    "gridColumnsHeaders": {
+      "teamName": "TEAMNAAM"
+    },
+    "noItemsOverlay": "Geen overeenkomst gevonden",
+    "customSelectTeams": "Aangepaste selectie teams",
+    "removeEvaluator": "Beoordelaar verwijderen",
+    "omnibarMessage": "Team zoeken",
+    "noTeamSelectedMessage": "Geen team geselecteerd",
+    "noTeamAddedMessage": "Geen team toegevoegd",
+    "modalHeader": "Selectie teams",
+    "switchOnSelectTeamsToggleMessage": "Selecteer Aan om een aangepaste teamselectie voor een beoordelaar toe te staan.",
+    "switchOffSelectTeamsToggleMessage": "Selecteer Uit om geen aangepaste teamselectie voor een beoordelaar toe te staan.",
+    "selectTeamsToggleONHeader": "Aangepaste teamselectie inschakelen",
+    "selectTeamsToggleOffHeader": "Aangepaste teamselectie uitschakelen",
+    "notAccessibleTeamError": "De beoordelaar heeft niet langer toegang tot team(s)"
+  },
+  "ticketQualityPlannerPage": {
+    "planStatus": {
+      "draft": "Concept",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "running": "Wordt uitgevoerd",
+      "expired": "Vervallen",
+      "pending": "In behandeling",
+      "deleted": "Verwijderd"
+    },
+    "planActions": {
+      "activate": "Activeren",
+      "deactivate": "Deactiveren",
+      "extend": "Uitbreiden",
+      "duplicate": "Dupliceren"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "Kwaliteitsplannen",
+      "newTicketPlanButton": "Nieuw plan voor tickets",
+      "newSegmentPlanButton": "Nieuw plan voor segmenten",
+      "noItemsOverlay": "Geen overeenkomst gevonden",
+      "plansCountLabel": "plannen",
+      "planCountLabel": "plan",
+      "planCount": "{{count}} plannen",
+      "planSearchPlaceholder": "Begin met typen om een plan te vinden",
+      "planTabForSegments": "Kwaliteitsplanner voor segmenten",
+      "planTabForTickets": "Kwaliteitsplanner voor tickets",
+      "gridColumnsHeaders": {
+        "planName": "plannaam",
+        "evaluationType": "evaluatietype",
+        "planOccurrence": "planuitvoering",
+        "planLastModified": "laatst gewijzigd",
+        "planState": "Status",
+        "planAction": "Acties",
+        "planActivate": "Activeren"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }} plannen",
+        "searchPlaceholder": "Begin met typen om een plan te vinden"
+      },
+      "planOccurrence": {
+        "recurring": "Terugkerend",
+        "monthly": "Maandelijks terugkerend plan",
+        "weekly": "Wekelijks terugkerend plan",
+        "oneTime": "Eenmalig"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "U staat op het punt om dit plan te verwijderen. Deze actie kan niet ongedaan worden gemaakt.",
+          "msg2": "Doorgaan?"
+        },
+        "activatePlan": {
+          "msg1": "Er zijn fouten in het plan. U moet dit corrigeren voordat u het plan activeert.",
+          "msg2": "Wat wilt u doen?"
+        },
+        "deactivatePlan": {
+          "msg1": "U staat op het punt om dit plan te deactiveren. Beoordelaars krijgen geen interacties meer.",
+          "msg2": "Doorgaan?"
+        },
+        "closeModal": {
+          "message1": "Alle wijzigingen gaan verloren",
+          "message2": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "Plannaam",
+          "successMessage": "Plan is gedupliceerd.",
+          "errorMessage": "Plannaam bestaat al",
+          "header": "Plan dupliceren",
+          "duplicate": "Dupliceren",
+          "errorDuplicatingPlanMissingPermissionError": "U hebt niet de juiste machtigingen om deze actie uit te voeren."
+        }
+      },
+      "warningMessageModal": {
+        "title": "Pagina verlaten?",
+        "unsavedChanges": "Er zijn niet-opgeslagen gegevens.",
+        "areYouSureLeavePage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+      }
+    },
+    "qpPlanDetails": {
+      "RBAC_cannot_delete_error": "Kan kwaliteitsplan niet verwijderen. Neem contact op met uw beheerder.",
+      "RBAC_cannot_activate_error": "Kan kwaliteitsplan niet activeren. Neem contact op met uw beheerder.",
+      "RBAC_cannot_duplicate_error": "Kan kwaliteitsplan niet dupliceren. Neem contact op met uw beheerder.",
+      "RBAC_cannot_deactivate_error": "Kan het kwaliteitsplan niet deactiveren. Neem contact op met uw beheerder.",
+      "pageTitle": "Nieuw kwaliteitsplan maken",
+      "qualityPlansPageBreadcrumb": "Kwaliteitsplannen",
+      "name": "Naam",
+      "description": "Beschrijving",
+      "errorSavingPlan": "Fout bij opslaan van kwaliteitsplan",
+      "errorSavingPlanDueToFilters": "Kan dit plan niet opslaan. U hebt velden bewerkt die niet kunnen worden gewijzigd.",
+      "successSavingPlan": "Kwaliteitsplan is opgeslagen ",
+      "successSavingActivePlan": "Kwaliteitsplan is opgeslagen. De wijzigingen worden van kracht in de volgende distributie.",
+      "selectiveFieldsEditMsg": "Velden die kunnen worden bewerkt: Plannaam, Beschrijving, Evaluatieformulier toewijzen, Oproepfiltering",
+      "editEvaluatorSelectiveFieldsEditMsg": "Velden die kunnen worden bewerkt: Plannaam, Beschrijving, Evaluatieformulier toewijzen, Oproepfiltering, Beoordelaars.",
+      "editEvaluatorsInfoIconMsg": "Wijzigingen in de beoordelaars hebben invloed op de plandistributie",
+      "successActivatingPlan": "Kwaliteitsplan is geactiveerd.",
+      "successDeactivatingPlan": "Kwaliteitsplan is gedeactiveerd.",
+      "errorActivatingPlan": "Fout bij activeren van kwaliteitsplan.",
+      "errorActivatingPlanPermissionIssue": "Kan dit plan niet activeren. Sommige beoordelaars hebben geen machtiging om interacties te evalueren.",
+      "errorActivatingPlanStatusIssue": "Kan dit plan niet activeren. Er zijn geen actieve beoordelaars.",
+      "errorDeactivatingPlan": "Fout bij deactiveren van kwaliteitsplan.",
+      "successdelete": "Plan is verwijderd.",
+      "deleteQualityPlanError": "Kan kwaliteitsplan niet verwijderen. Probeer het opnieuw.",
+      "evaluationType": "Evaluatietype",
+      "standardEvaluation": "Standaard evaluatie",
+      "standardEvaluationHelpText": "De evaluatie wordt alleen door de beoordelaar uitgevoerd",
+      "collaborativeEvaluation": "Gezamenlijke evaluatie",
+      "collaborativeEvaluationHelpText": "De evaluatie wordt zowel door de agent als door de beoordelaar uitgevoerd en vervolgens vergeleken",
+      "planDuration": {
+        "planDurationTitle": "Plandefinitie",
+        "planDurationMessage": "Oproepen evalueren die plaatsvonden binnen het geselecteerde tijdvak:",
+        "recurringLabel": "Terugkerend",
+        "oneTimeLabel": "Eenmalig plan - Start- en einddatum:",
+        "oneTimePlanNewLabel": "Eenmalig",
+        "startDateLabel": "VAN",
+        "endDateLabel": "TOT",
+        "emptyDatePickerLabel": "Selecteer een datum",
+        "selectForm": "Selecteer een formulier",
+        "errorMessage": "U moet een evaluatieformulier selecteren",
+        "recurringOptions": {
+          "monthly": "Maandelijks",
+          "weekly": "Wekelijks"
+        }
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "Beoordelaars",
+        "noEvaluatorsAssignedMessage": "Nog geen beoordelaars toegewezen",
+        "noEvaluatorsSelectedMessage": "Geen beoordelaars geselecteerd",
+        "noEvaluatorsAddedMessage": "Geen beoordelaars toegevoegd",
+        "selectedEvaluatorsLabel": "Geselecteerde beoordelaars",
+        "addEvaluatorsButton": "Beoordelaars toevoegen",
+        "modalHeader": "Beoordelaars toevoegen",
+        "selectEvaluatorsHeader": "Beoordelaars selecteren",
+        "cancelButton": "Annuleren",
+        "errorMessage": "U moet minimaal 1 beoordelaar selecteren",
+        "omnibarMessage": "Begin met typen om beoordelaars te vinden",
+        "evaluatorsCount": "{{count}} beoordelaars",
+        "evaluators": "Beoordelaars",
+        "Evaluator": "Beoordelaar",
+        "Manager": "Manager",
+        "Administrator": "Beheerder",
+        "alreadyAssignedEvaluators": "Toegewezen beoordelaars",
+        "customTeamSelection": "Aangepaste teamselectie",
+        "gridColumnsHeaders": {
+          "fullName": "Naam",
+          "role": "Rol",
+          "accessibleTeams": "Toegankelijke teams",
+          "selectedTeams": "Geselecteerde teams",
+          "dailyEvaluations": "Dagelijkse evaluaties"
+        },
+        "errorMessages": {
+          "required": "U moet minimaal één beoordelaar selecteren",
+          "atleastSingleTeamRequired": "U moet minstens één team per beoordelaar selecteren"
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "Agents",
+        "noAgentGroupsAssignedMessage": "Nog geen agentgroepen toegewezen",
+        "selectedAgentGroupsLabel": "Geselecteerde agentgroepen",
+        "addAgentGroupsButton": "Agentgroepen toevoegen",
+        "selectAgentGroupsHeader": "Agentgroepen selecteren",
+        "cancelButton": "Annuleren",
+        "errorMessage": "U moet minimaal 1 agentgroep selecteren",
+        "omnibarMessage": "Begin met typen om agentgroepen te vinden",
+        "agentGroupsCount": "{{count}} agentgroepen",
+        "selectedTxt": "Geselecteerd:",
+        "AlreadyAssignedGroups": "Toegewezen agentgroepen"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "Agents",
+        "teams": "Teams",
+        "groups": "Groepen",
+        "noTeamsSelected": "Nog geen teams geselecteerd",
+        "selectTeams": "Teams selecteren",
+        "selectGroups": "Groepen selecteren",
+        "selectedAgents": "Huidig totaal aantal agents: ",
+        "errorMessages": {
+          "required": "U moet minimaal één team selecteren"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "Steekproef",
+        "newSamplingHeader": "Voorbeelden selectie voor distributie",
+        "numSegmentsPerAgentLabel": "Interacties per agent",
+        "numDaysBackLabel": "Inclusief interacties van laatste",
+        "daysLabel": "dagen",
+        "daysBackExceedMaxMessage": "Planduur is {{durationInDays}} dagen Selecteer van 1 tot {{daysRange}} dagen.",
+        "excludeEvaluatedInteractionsText": "Interacties die zijn geëvalueerd of getagd voor evaluatie, uitsluiten",
+        "include": "Opnemen",
+        "exclude": "Uitsluiten",
+        "includeInteractionsLabel": "Interacties opnemen",
+        "excludeInteractionsLabel": "Interacties uitsluiten",
+        "fromLastDaysLabel": "Vanaf laatste",
+        "excludeInteractionsText": "Geëvalueerd / getagd voor evaluaties",
+        "timeBasedSelectionLabel": "Op tijd gebaseerde selectie",
+        "startTimeLabel": "Starttijd",
+        "endTimeLabel": "Eindtijd",
+        "startTimeSubtext": "Trek de interactie gebaseerd op wanneer de interactie is gestart",
+        "endTimeSubtext": "Trek de interactie gebaseerd op wanneer de interactie is geëindigd"
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "Tijdzone "
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "Beoordelingsformulier toewijzen",
+        "dropdownNewLabel": "Evaluatieformulieren"
+      },
+      "planSummary": {
+        "planSummary": "Planoverzicht",
+        "totalInteractions": "Totaal aantal evaluaties in plan",
+        "interactionsPerDayPerEvaluator": "Dagelijkse evaluaties per beoordelaar",
+        "planDays": "Totaal aantal dagen in plan",
+        "interactionsPerAgent": "Interacties per agent"
+      },
+      "ticketFiltersEnterInput": "Ga naar input",
+      "filters": {
+        "includeInteractionsFromLast": "Inclusief interacties van laatste",
+        "days": "dagen",
+        "filtersHeader": "Filters"
+      },
+      "ticketFiltersMultiSelect": "Waarden selecteren",
+      "planCategoriesTicket": {
+        "categoriesHeader": "Categorieën",
+        "qmaCategoriesLabel": "QMA-categorieën"
+      }
+    },
+    "planType": {
+      "ticket": "Voor ticket",
+      "segment": "Voor segment"
+    }
+  }
+}

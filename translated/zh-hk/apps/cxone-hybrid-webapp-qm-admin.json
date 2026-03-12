@@ -1,0 +1,2651 @@
+{
+  "ng2QualityPlannerPage": {
+    "qpPlanDetails": {
+      "planEvaluators": {
+        "evaluatorsHeader": "評估者",
+        "noEvaluatorsAssignedMessage": "尚無已獲委派評估者",
+        "noEvaluatorsSelectedMessage": "並無已選取的評估者",
+        "noEvaluatorsAddedMessage": "並無已新增的評估者",
+        "selectedEvaluatorsLabel": "已選取的評估者",
+        "addEvaluatorsButton": "新增評估者",
+        "modalHeader": "新增評估者",
+        "selectEvaluatorsHeader": "選取評估者",
+        "cancelButton": "取消",
+        "errorMessage": "您必須選取至少 1 個評估者",
+        "omnibarMessage": "開始輸入以尋找評估者",
+        "evaluatorsCount": "{{count}} 個評估者",
+        "evaluators": "評估者",
+        "Evaluator": "評估者",
+        "Manager": "經理",
+        "Administrator": "管理員",
+        "gridColumnsHeaders": {
+          "fullName": "名稱",
+          "role": "角色",
+          "accessibleTeams": "可存取團隊",
+          "dailyEvaluations": "每日評估",
+          "selectedTeams": "已選取團隊"
+        },
+        "errorMessages": {
+          "required": "您必須選取至少一位評估者",
+          "atleastSingleTeamRequired": "每個評估員必須至少選擇一個團隊"
+        },
+        "alreadyAssignedEvaluators": "已獲委派的評估者",
+        "customTeamSelection": "選擇自訂團隊"
+      },
+      "pageTitle": "建立新的品質計劃",
+      "qualityPlansPageBreadcrumb": "品質計劃",
+      "name": "名稱",
+      "description": "描述",
+      "errorSavingPlan": "錯誤儲存品質計劃",
+      "errorSavingPlanDueToFilters": "無法儲存計劃，您編輯的欄目無法更改。",
+      "successSavingPlan": "成功儲存品質計劃",
+      "successSavingActivePlan": "成功儲存品質計劃，更改將在下次分發時生效。",
+      "selectiveFieldsEditMsg": "可以編輯的欄位：計劃名稱、描述、指派評估表格、來電篩選",
+      "successActivatingPlan": "成功啟用品質計劃。",
+      "successDeactivatingPlan": "成功無效化品質計劃。",
+      "errorActivatingPlan": "錯誤啟用品質計劃。",
+      "errorActivatingPlanPermissionIssue": "無法啟用此計劃，部分評估者未有權限評估互動。",
+      "errorActivatingPlanStatusIssue": "無法啟用此計劃，沒有活躍評估者。",
+      "errorDeactivatingPlan": "錯誤無效化品質計劃。",
+      "successdelete": "成功刪除計劃。",
+      "deleteQualityPlanError": "無法刪除品計劃，請重試。",
+      "evaluationType": "評估類型",
+      "standardEvaluation": "標準評估",
+      "standardEvaluationHelpText": "僅評估者會進行評估",
+      "collaborativeEvaluation": "合作性評估",
+      "collaborativeEvaluationHelpText": "此評估將由客服專員與評估者共同進行，然後作出比較",
+      "planDuration": {
+        "planDurationTitle": "計劃定義",
+        "planDurationMessage": "評估在已選取時段內發生的通話：",
+        "recurringLabel": "重複",
+        "oneTimeLabel": "一次性計劃 - 開始及結束日期：",
+        "startDateLabel": "從",
+        "endDateLabel": "到",
+        "emptyDatePickerLabel": "選擇日期",
+        "selectForm": "選取一份表格",
+        "errorMessage": "您必須選取一份評估表格",
+        "recurringOptions": {
+          "monthly": "每月",
+          "weekly": "每週"
+        },
+        "oneTimePlanNewLabel": "一次"
+      },
+      "planFilters": {
+        "filteringHeader": "篩選",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "您必須選取至少一個篩選器",
+        "filterLicenseError": "無法取得現有租客的授權，請重試。",
+        "smsChannelStatusError": "無法取得現有租客的短訊管道狀況，請重試。",
+        "callDirectionFilter": {
+          "callDirectionLabel": "通話方向：",
+          "filterLabel": "方向",
+          "inboundLabel": "傳入",
+          "incomingLabel": "來電",
+          "outboundLabel": "撥出",
+          "outgoingLabel": "致電",
+          "internalLabel": "內部"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "通話長度：",
+          "Less": "小於",
+          "Greater": "大於",
+          "Between": "之間",
+          "durationExceedMaxMessage": "最長通話長度必須長於最短通話長度",
+          "durationLessThenZeroMessage": "通話長度必須大於 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "已記錄段類型",
+          "voiceOnlyLabel": "僅語音",
+          "channelLabel": "通道",
+          "voiceLabel": "語音",
+          "voiceAndScreenLabel": "語音及螢幕",
+          "chatLabel": "聊天",
+          "emailLabel": "電郵",
+          "smsLabel": "SMS"
+        },
+        "channelsFilter": {
+          "VOICE": "語音",
+          "FB_PRIVATE": "Facebook Messenger",
+          "CHAT": "聊天",
+          "EMAIL": "電郵",
+          "APPLE_BUSINESS_CHAT": "Apple 商務聊天",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple 商務聊天",
+          "LINE": "LINE Messaging",
+          "LINE_PRIVATE": "LINE Messaging",
+          "TW_PRIVATE": "Twitter 私人訊息",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "SMS": "SMS",
+          "CUSTOM_PRIVATE": "自訂",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "WORKITEM": "工作項目",
+          "GOOGLE_BUSINESS_MESSAGES_PRIVATE": "Google Business Messenger",
+          "MICROSOFT_TEAMS_PRIVATE": "Microsoft Teams",
+          "SLACK_PRIVATE": "Slack"
+        },
+        "categoriesFilter": {
+          "categories": "類別",
+          "selectCategories": "選擇類別",
+          "selectedCategories": "選擇類別 ({{count}})",
+          "noCategoriesSelected": "尚無已選取類別",
+          "categoryConfidenceLabel": "僅高度信任",
+          "selectedIACategories": "選擇 IA 類別 ({{count}})",
+          "selectedQMACategories": "選擇 QM 類別 ({{count}})",
+          "qmaCategoryDeprecationText": "QMA 類別將在幾個版本後被廢棄"
+        },
+        "sentimentFilter": {
+          "filterLabel": "情緒",
+          "sentimentFacet": {
+            "anySide": "任何一方",
+            "agentSide": "客服專員方",
+            "customerSide": "顧客方",
+            "bothSides": "客服專員及客戶"
+          },
+          "sentiment": {
+            "POSITIVE": "正面",
+            "NEGATIVE": "負面",
+            "NEUTRAL": "中性",
+            "MIXED": "混合"
+          }
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "filterLabel": "ACD",
+          "skillsLabel": "技能",
+          "dispostionsLabel": "傾向",
+          "selectSkills": "選擇技能",
+          "selectCallReasons": "選取通話原因",
+          "multipathDropdownDisabledInfoIconMsg": "NICE Engage 不支援 ACD 技能和 CSAT 分數",
+          "recordingSrcSkillCsatDisabledInfoIconMsg": "錄製來源不支援 ACD 技能和 CSAT 分數"
+        },
+        "businessDataFilter": {
+          "filterLabel": "業務資料",
+          "operatorLabel": "是",
+          "errorMessage": "此欄位為必填欄位",
+          "errorInDropDownMessage": "選取業務資料類型",
+          "dropdownPlaceHolderText": "選取資料類型",
+          "inputPlaceHolderForNumber": "輸入號碼",
+          "inputPlaceHolderForText": "輸入文字",
+          "inactiveBusinessDataMsg": "此業務資料無效",
+          "true": "真",
+          "false": "False"
+        },
+        "interactionFilter": {
+          "filterLabel": "互動",
+          "withScreenLabel": "附畫面",
+          "withoutScreenLabel": "不附畫面",
+          "allInteractionLabel": "全部"
+        },
+        "feedbackScoreFilter": {
+          "label": "CSAT 分數",
+          "to": "到"
+        },
+        "clear": "清除",
+        "agentBehaviourFilter": {
+          "filterLabel": "客服專員行為",
+          "operatorLabel": "是",
+          "errorMessage": "此欄位為必填欄位",
+          "errorInDropDownMessage": "選擇客服專員行為",
+          "dropdownPlaceHolderText": "選擇行為類型",
+          "sentiments": {
+            "strongly_negative": "非常負面",
+            "moderately_negative": "中度負面",
+            "neutral": "中性",
+            "moderately_positive": "中度正面",
+            "strongly_positive": "非常正面"
+          },
+          "selectAgentBehaviorSentiment": "選擇客服專員行為和分數",
+          "addAnotherAgentBehaviorSentiment": "新增另一個"
+        },
+        "recordingSourceFilter": {
+          "recordingSourceLabel": "錄製來源",
+          "dropdownPlaceHolderText": "選擇一項來源",
+          "reordingSouceFitlerTooltipText": "為要評估的互動選擇錄製來源"
+        },
+        "enlightenSentimentFilter": {
+          "sentimentFacet": {
+            "anySide": "任何一方",
+            "agentSide": "客服專員方",
+            "customerSide": "顧客方",
+            "bothSides": "客服專員及客戶"
+          },
+          "enlightenSentiment": {
+            "POSITIVE": "正面",
+            "NEGATIVE": "負面",
+            "VERYPOSITIVE": "非常正面",
+            "VERYNEGATIVE": "非常負面",
+            "NEUTRAL": "中性",
+            "STRONGLYNEGATIVE": "非常負面",
+            "MODERATELYNEGATIVE": "中度負面",
+            "MODERATELYPOSITIVE": "中度正面",
+            "STRONGELYPOSITIVE": "非常正面"
+          }
+        },
+        "enhancedSentimentFilter": {
+          "title": "選擇情緒",
+          "cancelButton": "取消",
+          "changeButton": "變更",
+          "sentimentPopoverText": "更改情緒類型將刪除先前的選擇",
+          "sentiments": {
+            "label": "情緒",
+            "subLabel": "從對話中使用的單字或詞組偵測整體情緒"
+          },
+          "enlightenSentiments": {
+            "label": "Enlighten 情緒",
+            "subLabel": "預測淨推薦值分數"
+          }
+        },
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "最長票證時間必須大於最短票證時間",
+          "durationExceedMinMessage": "最短票證時間必須小於最長票證時間",
+          "durationLessThenZeroMessage": "通話長度必須大於 0"
+        },
+        "customAttributesAPIErrorMessage": "無法獲取自訂屬性："
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "客服專員",
+        "noAgentGroupsAssignedMessage": "尚無已獲委派客服專員群組",
+        "selectedAgentGroupsLabel": "已選擇的客服專員群組",
+        "addAgentGroupsButton": "新增客服專員群組",
+        "selectAgentGroupsHeader": "選擇客服專員群組",
+        "cancelButton": "取消",
+        "errorMessage": "您必須選取至少 1 個客服專員群組",
+        "omnibarMessage": "開始輸入以尋找群組",
+        "agentGroupsCount": "{{count}} 個客服專員群組",
+        "selectedTxt": "已選取：",
+        "AlreadyAssignedGroups": "已指派客服專員群組"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "客服專員",
+        "teams": "團隊",
+        "groups": "群組",
+        "noTeamsSelected": "尚無已選取團隊",
+        "selectTeams": "選擇團隊",
+        "selectGroups": "選擇群組",
+        "selectedAgents": "現有客服專員總數：",
+        "errorMessages": {
+          "required": "您必須選取至少一個團隊"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "取樣",
+        "numSegmentsPerAgentLabel": "每位客服專員的互動",
+        "numDaysBackLabel": "包含的互動源自過去",
+        "daysLabel": "天",
+        "daysBackExceedMaxMessage": "計劃持續時間為 {{durationInDays}}天。選擇 1 到 {{daysRange}} 天。",
+        "includeOrExcludeInteractionsEvaluatedOrTaggedForEvaluation": "包含或排除已評估或標記以進行評估的互動",
+        "include": "包含",
+        "exclude": "排除",
+        "excludeEvaluatedInteractionsText": "排除已評估或標記以進行評估的互動",
+        "newSamplingHeader": "分配的範例選擇",
+        "includeInteractionsLabel": "包含互動",
+        "excludeInteractionsLabel": "排除互動",
+        "fromLastDaysLabel": "從最後一個",
+        "excludeInteractionsText": "評估/標記評估",
+        "timeBasedSelectionLabel": "基於時間的選擇",
+        "startTimeLabel": "開始時間",
+        "endTimeLabel": "結束時間",
+        "startTimeSubtext": "根據互動開始的時間提取互動",
+        "endTimeSubtext": "根據互動結束的時間提取互動"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "指派評估表格："
+      },
+      "planSummary": {
+        "planSummary": "計劃摘要",
+        "totalInteractions": "計劃內評估總數",
+        "interactionsPerDayPerEvaluator": "每位評估者的每日評估",
+        "planDays": "計劃內總日數",
+        "interactionsPerAgent": "每位客服專員的互動"
+      },
+      "editEvaluatorSelectiveFieldsEditMsg": "可以編輯的欄位：計劃名稱、描述、指派評估表格、來電篩選、評估者",
+      "editEvaluatorsInfoIconMsg": "評估者的變化影響計劃分佈",
+      "planTimeZoneSelection": {
+        "dropdownLabel": "時區"
+      },
+      "RBAC_cannot_delete_error": "無法刪除品質計劃。請聯絡您的管理人員。",
+      "RBAC_cannot_activate_error": "無法啟動品質計劃。請聯絡您的管理人員。",
+      "RBAC_cannot_duplicate_error": "無法複製品質計劃。請聯絡您的管理人員。",
+      "RBAC_cannot_deactivate_error": "無法取消品質計劃。請聯絡您的管理人員。",
+      "errorActivatingTeamAndGroupIssue": "無法啟動此計劃。它有一些無效的團隊或群組",
+      "selectDivision": "部門",
+      "selectItems": "選擇項目",
+      "defaultDivisionMsg": "您有預設的分區",
+      "selectDivisionMsg": "選擇一個部門以繼續執行品質計畫",
+      "divisionLoadingErrorMsg": "內部伺服器錯誤。再試一次"
+    },
+    "planStatus": {
+      "draft": "草稿",
+      "active": "活躍",
+      "inactive": "非活躍",
+      "running": "執行中",
+      "expired": "已過期",
+      "pending": "待處理",
+      "deleted": "已刪除"
+    },
+    "planActions": {
+      "activate": "啟用",
+      "deactivate": "停用",
+      "extend": "伸延",
+      "duplicate": "重複"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "品質計劃",
+      "newPlanButton": "新計劃",
+      "noItemsOverlay": "沒有相符項目",
+      "plansCountLabel": "計劃",
+      "planCountLabel": "計劃",
+      "planCount": "{{count}} 個計劃",
+      "planSearchPlaceholder": "開始輸入以尋找計劃",
+      "gridColumnsHeaders": {
+        "planName": "計劃名稱",
+        "evaluationType": "評估類型",
+        "planOccurrence": "計劃出現次數",
+        "planLastModified": "最後修改",
+        "planState": "狀態",
+        "planAction": "Actions",
+        "planActivate": "啟用"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }} 個計劃",
+        "searchPlaceholder": "開始輸入以尋找計劃"
+      },
+      "planOccurrence": {
+        "recurring": "重複",
+        "monthly": "每月重複計劃",
+        "weekly": "每週重複計劃",
+        "oneTime": "一次"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "您將刪除計劃，此操作不能復原。",
+          "msg2": "是否繼續？"
+        },
+        "activatePlan": {
+          "msg1": "計劃內有錯誤，您需要在啟用計劃前先修正它。",
+          "msg2": "您想做甚麼？"
+        },
+        "deactivatePlan": {
+          "msg1": "您將把此計劃無效化，而評估者將無法收到任何互動。",
+          "msg2": "是否繼續？"
+        },
+        "closeModal": {
+          "message1": "所有變更將會遺失",
+          "message2": "確定要在未儲存的情況下退出嗎？"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "計劃名稱",
+          "successMessage": "成功重複計劃。",
+          "errorMessage": "計劃名稱已存在",
+          "header": "重複計劃",
+          "duplicate": "重複",
+          "errorDuplicatingPlanMissingPermissionError": "您沒有正確權限以執行此操作。"
+        }
+      },
+      "warningMessageModal": {
+        "title": "離開頁面？",
+        "unsavedChanges": "你有未儲存資料。",
+        "areYouSureLeavePage": "確定要離開且不儲存？"
+      },
+      "planTabForSegments": "區段品質規劃工具",
+      "planTabForTickets": "票據品質規劃工具",
+      "SearchByPlanStatusPlaceholder": "依計劃狀態搜尋"
+    }
+  },
+  "qualityPlaner": {
+    "qualityPlannerNewPlanPage": {
+      "planEvaluators": {
+        "evaluatorsHeader": "評估者",
+        "noEvaluatorsAssignedMessage": "尚無已獲委派評估者",
+        "selectedEvaluatorsLabel": "已選取的評估者",
+        "addEvaluatorsButton": "新增評估者",
+        "selectEvaluatorsHeader": "選取評估者",
+        "cancelButton": "取消",
+        "errorMessage": "您必須至少選取一位評估者",
+        "omnibarMessage": "開始輸入以尋找評估者",
+        "evaluatorsCount": "{{count}} 個評估者",
+        "Evaluator": "評估者",
+        "Manager": "經理",
+        "Administrator": "管理員",
+        "alreadyAssignedEvaluators": "已獲委派的評估者"
+      },
+      "pageTitle": "建立新的品質計劃",
+      "qualityPlansPageBreadcrumb": "品質計劃",
+      "name": "名稱",
+      "description": "描述",
+      "errorSavingPlan": "錯誤儲存品質計劃",
+      "errorSavingPlanDueToFilters": "無法儲存計劃，您編輯的欄目無法更改。",
+      "successSavingPlan": "成功儲存品質計劃",
+      "successSavingActivePlan": "成功儲存品質計劃，更改將在下次分發時生效。",
+      "selectiveFieldsEditMsg": "可以編輯的欄位：計劃名稱、描述、指派評估表格、來電篩選",
+      "successActivatingPlan": "成功啟用品質計劃。",
+      "successDeactivatingPlan": "成功無效化品質計劃。",
+      "errorActivatingPlan": "錯誤啟用品質計劃。",
+      "errorActivatingPlanPermissionIssue": "無法啟用此計劃，部分評估者未有權限評估互動。",
+      "errorActivatingPlanStatusIssue": "無法啟用此計劃，沒有活躍評估者。",
+      "errorDeactivatingPlan": "錯誤無效化品質計劃。",
+      "successdelete": "成功刪除計劃。",
+      "deleteQualityPlanError": "無法刪除品計劃，請重試。",
+      "evaluationType": "評估類型",
+      "standardEvaluation": "標準",
+      "standardEvaluationHelpText": "僅評估者會進行評估",
+      "collaborativeEvaluation": "協作的",
+      "collaborativeEvaluationHelpText": "此評估將由客服專員與評估者共同進行，然後作出比較",
+      "planDuration": {
+        "planDurationTitle": "計劃定義",
+        "planDurationMessage": "評估在已選取時段內發生的通話：",
+        "recurringLabel": "重複",
+        "oneTimeLabel": "一次性計劃 - 開始及結束日期：",
+        "startDateLabel": "開始",
+        "endDateLabel": "到",
+        "emptyDatePickerLabel": "選擇日期",
+        "selectForm": "選取一份表格",
+        "errorMessage": "您必須選取一份評估表格",
+        "recurringOptions": {
+          "monthly": "每月",
+          "weekly": "每週"
+        }
+      },
+      "planFilters": {
+        "filteringHeader": "篩選",
+        "filteringMessage": "",
+        "atLeastOneFilterMandatoryMessage": "您必須選取至少一個篩選器",
+        "filterLicenseError": "無法取得現有租客的授權，請重試。",
+        "smsChannelStatusError": "無法取得現有租客的短訊管道狀況，請重試。",
+        "callDirectionFilter": {
+          "callDirectionLabel": "通話方向：",
+          "filterLabel": "方向",
+          "inboundLabel": "傳入",
+          "incomingLabel": "來電",
+          "outboundLabel": "撥出",
+          "outgoingLabel": "致電",
+          "internalLabel": "內部"
+        },
+        "callDurationFilter": {
+          "callDurationLabel": "通話長度：",
+          "Less": "小於",
+          "Greater": "大於",
+          "Between": "之間",
+          "durationExceedMaxMessage": "最長通話長度必須長於最短通話長度",
+          "durationLessThenZeroMessage": "通話長度必須大於 0"
+        },
+        "recordedSegmentFilter": {
+          "filterLabel": "已記錄段類型",
+          "voiceOnlyLabel": "僅語音",
+          "channelLabel": "通道",
+          "voiceLabel": "語音",
+          "voiceAndScreenLabel": "語音及螢幕",
+          "chatLabel": "聊天",
+          "emailLabel": "電郵",
+          "smsLabel": "SMS"
+        },
+        "channelFilters": {
+          "VOICE": "語音",
+          "FB_PRIVATE": "Facebook Messenger",
+          "CHAT": "聊天",
+          "EMAIL": "電郵",
+          "APPLE_BUSINESS_CHAT": "Apple 商務聊天",
+          "APPLE_BUSINESS_CHAT_PRIVATE": "Apple 商務聊天",
+          "LINE_PRIVATE": "LINE Messaging",
+          "LINE": "LINE Messaging",
+          "TW_PRIVATE": "Twitter 私人訊息",
+          "WHATSAPP": "WhatsApp",
+          "WHATSAPP_PRIVATE": "WhatsApp",
+          "TELEGRAM": "Telegram Messenger",
+          "TELEGRAM_PRIVATE": "Telegram Messenger",
+          "SMS": "SMS",
+          "CUSTOM_PRIVATE": "自訂",
+          "WE_CHAT_PRIVATE": "WeChat",
+          "VIBER_PRIVATE": "Viber Messenger",
+          "WORKITEM": "工作項目"
+        },
+        "interactionFilter": {
+          "filterLabel": "互動",
+          "withScreenLabel": "附畫面",
+          "withoutScreenLabel": "不附畫面",
+          "allInteractionLabel": "全部"
+        },
+        "categoriesFilter": {
+          "categories": "類別",
+          "selectCategories": "選擇類別",
+          "selectedCategories": "選擇類別 ({{count}})",
+          "noCategoriesSelected": "尚無已選取類別",
+          "categoryConfidenceLabel": "僅高度信任"
+        },
+        "acdSkillsAndCallReasonsFilter": {
+          "filterLabel": "ACD",
+          "skillsLabel": "技能",
+          "dispostionsLabel": "傾向",
+          "selectSkills": "選擇技能",
+          "selectDispositions": "選取傾向"
+        },
+        "businessDataFilter": {
+          "filterLabel": "業務資料",
+          "operatorLabel": "是",
+          "errorMessage": "此欄位為必填欄位",
+          "errorInDropDownMessage": "選取業務資料類型",
+          "dropdownPlaceHolderText": "選取資料類型",
+          "inputPlaceHolderForNumber": "輸入號碼",
+          "inputPlceHolderForText": "輸入文字",
+          "inactiveBusinessDataMsg": "此業務資料無效"
+        },
+        "feedbackScoreFilter": {
+          "label": "CSAT 分數",
+          "to": "到"
+        },
+        "ticketDurationFilter": {
+          "durationExceedMaxMessage": "最長票證時間必須大於最短票證時間",
+          "durationExceedMinMessage": "最短票證時間必須小於最長票證時間",
+          "durationLessThenZeroMessage": "通話長度必須大於 0"
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "客服專員",
+        "noAgentGroupsAssignedMessage": "尚無已獲委派客服專員群組",
+        "selectedAgentGroupsLabel": "已選擇的客服專員群組",
+        "addAgentGroupsButton": "新增客服專員群組",
+        "selectAgentGroupsHeader": "選擇客服專員群組",
+        "cancelButton": "取消",
+        "errorMessage": "您必須選取至少 1 個客服專員群組",
+        "omnibarMessage": "開始輸入以尋找群組",
+        "agentGroupsCount": "{{count}} 個客服專員群組",
+        "selectedTxt": "已選取：",
+        "AlreadyAssignedGroups": "已指派客服專員群組"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "客服專員",
+        "selected": " 已選取",
+        "teams": "團隊",
+        "groups": "群組",
+        "noTeamsSelected": "尚無已選取團隊",
+        "selectTeams": "選擇團隊",
+        "selectGroups": "選擇群組",
+        "selectedAgents": "現有客服專員總數：",
+        "errorMessages": {
+          "required": "您必須選取至少一個團隊"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "取樣",
+        "numSegmentsPerAgentLabel": "每位客服專員互動次數：",
+        "numDaysBackLabel": "包含的互動源自過去",
+        "daysLabel": "天",
+        "daysBackExceedMaxMessage": "計劃持續時間為 {{durationInDays}}天。選擇 1 到 {{daysRange}} 天。"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "指派評估表格："
+      },
+      "planSummary": {
+        "planSummary": "計劃摘要",
+        "totalInteractions": "計劃內評估總數",
+        "interactionsPerDayPerEvaluator": "每位評估者的每日評估",
+        "planDays": "計劃內總日數",
+        "interactionsPerAgent": "每位客服專員的互動"
+      },
+      "ticketFilters": {
+        "DirectionType": {
+          "Incoming": "來電",
+          "Outgoing": "致電"
+        },
+        "Messages": {
+          "DirectionTypeRequired": "至少應選擇一個方向類型。",
+          "MaxDurationValidation": "最大持續時間應大於最小持續時間",
+          "MaxCountValidation": "最大計數應大於最小計數。",
+          "FieldRequired": "此欄位為必填欄位"
+        },
+        "TicketFilter": {
+          "TicketType": "票證類型",
+          "Priority": "優先次序",
+          "Status": "狀態",
+          "Direction": "方向",
+          "Score": "分數",
+          "CSATScore": "CSAT 分數",
+          "HoldTimeDuration": "保留時間",
+          "TalkTimeDuration": "對話時間",
+          "TotalHandleTimeDuration": "總處理時間",
+          "WaitTimeDuration": "等待時間",
+          "WrapTimeDuration": "完成時間",
+          "TotalReplies": "總回覆",
+          "TotalReopens": "總重新開啟",
+          "excludeEvaluatedOrTaggedInteractionsText": "排除已評估 / 標記為評估的互動",
+          "sentiment": "情緒",
+          "agentBehavior": "客服專員行為"
+        }
+      }
+    },
+    "planStatus": {
+      "draft": "草稿",
+      "active": "活躍",
+      "inactive": "非活躍",
+      "running": "執行中",
+      "expired": "已過期",
+      "pending": "待處理",
+      "deleted": "已刪除"
+    },
+    "planActions": {
+      "activate": "啟用",
+      "deactivate": "停用",
+      "extend": "伸延",
+      "duplicate": "重複"
+    },
+    "qualityPlanerPage": {
+      "pageTitle": "品質計劃",
+      "newPlanButton": "新計劃",
+      "noItemsOverlay": "沒有相符項目",
+      "itemsCountLabel": "計劃",
+      "planCount": "{{count}} 個計劃",
+      "planSearchPlaceholder": "開始輸入以尋找計劃",
+      "collaborativeEvaluation": " 協作的",
+      "standardEvaluation": "標準",
+      "gridColumnsHeaders": {
+        "planName": "計劃名稱",
+        "evaluationType": "評估類型",
+        "planOccurrence": "計劃出現次數",
+        "planLastModified": "最後修改",
+        "planState": "狀態",
+        "planAction": "Actions",
+        "planActivate": "啟用"
+      },
+      "planOccurrence": {
+        "recurring": "重複",
+        "monthly": "每月重複計劃",
+        "weekly": "每週重複計劃",
+        "oneTime": "一次"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "您將刪除計劃，此操作不能復原。",
+          "msg2": "是否繼續？"
+        },
+        "activatePlan": {
+          "msg1": "計劃內有錯誤，您需要在啟用計劃前先修正它。",
+          "msg2": "您想做甚麼？"
+        },
+        "deactivatePlan": {
+          "msg1": "您將把此計劃無效化，而評估者將無法收到任何互動。",
+          "msg2": "是否繼續？"
+        },
+        "closeModal": {
+          "message1": "所有變更將會遺失",
+          "message2": "確定要在未儲存的情況下退出嗎？"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "計劃名稱",
+          "successMsg": "成功重複計劃。",
+          "header": "重複計劃",
+          "duplicate": "重複",
+          "placeholder": "輸入計劃名稱"
+        }
+      },
+      "warningMessageModal": {
+        "title": "離開頁面？",
+        "unsavedChanges": "你有未儲存資料。",
+        "areYouSureLeavePage": "確定要離開且不儲存？"
+      },
+      "newTicketPlanButton": "票證新計劃",
+      "newSegmentPlanButton": "分段的新計劃",
+      "SearchByPlanStatusPlaceholder": "依計劃狀態搜尋"
+    }
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleNameFormatted": "QM 工具",
+        "formManagerModuleLinks": {
+          "manageForms": "表單管理器",
+          "categoryManager": "類別管理器",
+          "qpPlanManager": "Quality Planner"
+        }
+      }
+    }
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "已變更排程",
+      "content": "%%DATE%% 的排程已變更。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "已變更排程",
+      "content": "%%FROM_DATE%% 至 %%TO_DATE%% 之間的排程已變更。",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "新的休假請求",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "休假請求遭拒",
+      "content": "請求 %%FROM_DATE%% 到 %%TO_DATE%%",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "已核准休假請求",
+      "content": "請求 %%FROM_DATE%% 到 %%TO_DATE%%",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "已取消休假請求",
+      "content": "請求 %%FROM_DATE%% 到 %%TO_DATE%%",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "您有 {{Count}} 個未讀通知"
+  },
+  "selfService": {
+    "installersList": {
+      "fileName": "檔案名稱",
+      "vendor": "供應商",
+      "version": "版本",
+      "title": "下載 ACD 安裝程式"
+    },
+    "acdInstallerTitle": "ACD 安裝程式",
+    "firstParagraph": "ACD 安裝程式在 ACD（自動化通話分配）系統和 EvolveWFM 之間建立連結。然後，EvolveWFM 便可以接收 ACD 事件並產生 RTA（實時依從性）資訊。",
+    "instructionsHeader": "安裝指引",
+    "instructions_1": "1. 下載由自助服務、本地整合區域分發的安裝程式",
+    "instructions_2": "2. 解壓縮分發至方便位置 (e.g. C:/Temp/AvayaCMSInstaller)的已下載安裝程式",
+    "instructions_3": "3. 在 Windows 上執行 install.bat 或在 Linux 上執行 install.sh 以開始安裝",
+    "instructions_4": "4. 跟從安裝精靈設定您的 Avaya CMS ASC",
+    "generateKeyButton": "產生金鑰",
+    "generateKeyHeader": "產生 API 金鑰",
+    "generateKeyExplanation": "您必須是管理員才能產生 API 金鑰",
+    "modal": {
+      "title": "輸入 EvolveWFM 電郵地址及密碼，然後按產生",
+      "result": "已成為產生 API 金鑰",
+      "generateBtnText": "產生",
+      "email": "電郵地址",
+      "password": "密碼",
+      "copyBtn": "複製至剪貼簿",
+      "generate": "產生"
+    }
+  },
+  "activityCodes": {
+    "buttons": {
+      "addActivityCode": "新的活動代碼",
+      "deleteActivityCode": "刪除"
+    },
+    "deleteMultipleConfirmation1": "所選活動代碼會從此清單移除。",
+    "deleteMultipleConfirmation2": "這些活動的實例或會在排程編排工具出現，並且需要個別地移除。",
+    "deleteConfirmation1": "您將從系統移除活動代碼。",
+    "deleteConfirmation2": "過往實例將會保留。",
+    "errorAdd": "在建立活動代碼時出錯。",
+    "errorDelete": "在刪除活動代碼時出錯",
+    "errorMultipleDelete": "在刪除活動代碼時出錯。",
+    "errorUpdate": "在更新活動代碼時出錯。",
+    "errorRead": "在載入活動代碼時出錯。",
+    "pageTitle": "活動代碼",
+    "items": "活動代碼",
+    "item": "活動代碼",
+    "fieldLabels": {
+      "name": "活動代碼名稱",
+      "category": "顯示為",
+      "length": "預設長度",
+      "open": "開啟",
+      "workHours": "工作時數",
+      "overtime": "加班",
+      "priority": "優先次序",
+      "acdEvents": "Acd 事件",
+      "shiftType": "班組類型"
+    },
+    "modal": {
+      "editTitle": "編輯活動代碼",
+      "addTitle": "建立新的活動代碼",
+      "errors": {
+        "lengthRange": "輸入 1 至 1,440 分鐘之間的數值。",
+        "priorityRange": "優先次序必須在 1 至 100 之間。",
+        "uniqueTitle": "此名稱已存在。請嘗試一個新地址。",
+        "notValidRegex": "不能使用以下字元：^/!\\+<>?#&,%."
+      },
+      "fieldLabels": {
+        "attributes": "屬性",
+        "category": "顯示為",
+        "length": "預設長度（分鐘）",
+        "open": "開啟",
+        "overtime": "加班",
+        "priority": "優先次序",
+        "title": "名稱",
+        "workHours": "工作時數",
+        "shiftType": "可以設定為值班類型"
+      },
+      "activate": {
+        "activityExistMsg": "系統偵測到過去曾建立同名活動。您可以重新啟用此活動，或建立一個名稱不同的新活動。",
+        "activateBtn": "啟用"
+      }
+    },
+    "serviceStatusMessages": {
+      "REUSED_EXISTING_ACTIVITY_CODE": "已存在名稱相同的活動代碼名稱，且它已被重用。",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_TRUE": "活動代碼名稱不能變更至「{{activityCode.title}}」，已存在名稱相同但已刪除的活動代碼。您可以利用此名稱建立新的活動代碼。",
+      "ACTIVITY_CODE_EXISTS_WITH_SOFT_DELETE": "不能變更該名稱，已存在名稱相同但已刪除的活動。您可以利用此名稱建立新的活動。",
+      "NO_ACTIVITY_CODE_EXISTS": "沒有採用該指定標題的活動代碼。",
+      "ACTIVITY_WITH_TITLE_EXISTS": "已存在採用此標題的活動。",
+      "ACTIVITY_CODE_EXISTS_WITH_DIFFERENT_ID_SOFT_DELETE_FALSE": "不能變更該名稱。已存在名稱相同的活動，而該活動有虛刪除錯誤但獨有 ID 不符。"
+    },
+    "successAdd": "已成功新增活動代碼",
+    "successDelete": "已成功移除活動代碼",
+    "successDeleteMultiple": "已成功移除活動代碼",
+    "successEdit": "已成功編輯活動代碼"
+  },
+  "activityCodeDropdown": {
+    "placeholder": "選取一個活動代碼……"
+  },
+  "expiredInvitationPage": {
+    "sorryHeader": "抱歉...",
+    "explanationText1": "您的邀請已逾時。",
+    "explanationText2": "我們已通知發送者，您將會很快收到新的邀請。"
+  },
+  "filter": {
+    "clearall": "清除全部",
+    "close": "關閉",
+    "clear": "清除"
+  },
+  "filterDropDown": {
+    "completed": "已完成",
+    "notCompleted": "未完成"
+  },
+  "successPage": {
+    "welcomeMsg": "您好{{username}}"
+  },
+  "importUsersModal": {
+    "header": "匯入員工",
+    "weSupportMessage": "透過上載 CSV 檔案匯入員工",
+    "downloadMessage1": "您可以下載 CSV 檔案範本",
+    "downloadMessage2": "",
+    "downloadLink": "在此。",
+    "selectFileMessage": "",
+    "successMsg": "已成功匯入員工。",
+    "errorMsg": "無法匯入員工。",
+    "importErrorsList": {
+      "header": "匯入錯誤"
+    }
+  },
+  "createUserModal": {
+    "updateUserHeader": "編輯員工",
+    "createUserHeader": "建立新員工",
+    "popoverMessage1": " 所有變更將會遺失。",
+    "popoverMessage2": "確定要在未儲存的情況下退出嗎？",
+    "errorMsg": "無法建立新員工。",
+    "successMsg": "已成功建立員工！",
+    "updateErrorMsg": "無法建立新員工。",
+    "updateSuccessMsg": "已成功更新員工！",
+    "acdLoginId": "ACD 登入 ID",
+    "maxLimitOfACD": "您不能輸入多於 {{items}} 個項目",
+    "reviveUserAlert": "已存在使用此電郵地址的帳戶。您可以重新啟用此帳戶，或更用另一電郵地址創立新帳戶。",
+    "formLabels": {
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "email": "電郵地址",
+      "mobileNumber": "手機號碼",
+      "assignToGroup": "獲委派至排程單元",
+      "assignToGroups": "獲委派至群組",
+      "assignToSkills": "獲委派至技能",
+      "assignToGroupPlaceHolder": "尚未有委派的排程單元",
+      "maxHoursPerWeek": "最大小時/週",
+      "rank": "排名",
+      "rankInterval": "1 至 999",
+      "timeZonePlaceHolder": "時區",
+      "country": "國家",
+      "countryPlaceholder": "選擇國家",
+      "hireDate": "聘用日期",
+      "role": "角色",
+      "rolePlaceholder": "選擇角色",
+      "userPicture": "頭像",
+      "upload": "上載",
+      "create": "建立員工",
+      "day": "天",
+      "month": "月",
+      "year": "年份",
+      "roles": {
+        "employee": "員工",
+        "manager": "經理",
+        "admin": "管理員"
+      },
+      "groupsDropDown": "{{selectedCount}} 個群組",
+      "skillsDropDown": "{{selectedCount}} 個技能"
+    },
+    "skillsTab": {
+      "header": "選擇技能",
+      "assignedTxt": "已指派技能",
+      "addBtn": "新增",
+      "selectTxt": "選取員工",
+      "selectedTxt": "已選取："
+    }
+  },
+  "generalErrorMessages": {
+    "required": "此乃必填欄位。",
+    "minLength": "您輸入的內容太短",
+    "nameFieldValidation": "糟了，您不能使用 \\ / ! + < > ? # & , % \" ",
+    "maxLength": "您輸入的內容太長",
+    "email": "您輸入的電郵地址無效",
+    "emailExists": "此電郵地址已存在，請嘗試另一電郵地址。",
+    "number": "僅限數字！",
+    "pattern": "此欄位的格式不正確",
+    "password": "您的密碼須為至少 8 個字元，當中包括 1 個數字及 1 個大楷字母",
+    "match": "此密碼與之前的密碼不符",
+    "minLengthPassword": "您的密碼須為至少 8 個字元",
+    "maxLengthPassword": "您的密碼太長",
+    "min": "數字太小",
+    "max": "數字太大",
+    "uniqueString": "此名稱已存在。請嘗試一個新地址。",
+    "lowerThen": "最小值不能高於最大值",
+    "weeklyMaxLowerThanSumDailyMin": "每日規則要求的最少日數超過每週規則的最大天數。",
+    "weeklyMinGreaterThanSumDailyMax": "每週規則的最少日數超過每日規則要求的最多天數",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "最少每日組合總時數不能多於每週最多總時數",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "最多每日組合總時數不能少於每調最少總時數",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最少天數超過獨有天總數。",
+    "possibleDaysLowerThanMinDays": "可能天數不符合每週規則要求的最少天數。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "每週規則的最少天數超過獨有天總數。",
+    "noAddedShiftPatters": "您必須選擇至少一個每日規則",
+    "shiftLengthLowerThanActivityLength": "活動長度總和和相應開始不能大於值班長度",
+    "shiftLengthLowerThanTotalActivityLength": "活動總長度不能超過值班長度",
+    "relativeStartLowerThanSlack": "Slack 值不能大於相應開始值",
+    "activitiesOverlap": "活動不能重疊",
+    "serverError": "未知伺服器錯誤",
+    "generalError": "一般錯誤",
+    "missingPermissionError": "您沒有正確權限以執行此操作。"
+  },
+  "metaInfo": {
+    "selfService": {
+      "title": "支援 - 下載"
+    },
+    "title": "Nice SaaS WFM",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "登入",
+      "description": "Nice SaaS WFM"
+    },
+    "success": {
+      "title": "成功",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "範例",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "表格範例",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "員工",
+      "description": "Nice SaaS WFM"
+    },
+    "createAccount": {
+      "title": "建立帳戶",
+      "description": "Nice SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "活動代碼",
+      "description": "Nice SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " ACD 配對",
+      "description": "Nice SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "每日規則",
+      "description": "Nice SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "排程單元",
+      "description": "Nice SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "已過期邀請",
+      "description": "Nice SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "產生排程",
+      "description": "Nice SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "我的排程",
+      "description": "Nice SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "我的控制面板",
+      "description": "Nice SaaS WFM"
+    },
+    "categoryManager": {
+      "title": "類別管理器",
+      "description": "Nice SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "UI 套裝圖庫",
+      "description": "Nice SaaS WFM",
+      "userRoles": "{{selectedCount}} 員工角色"
+    },
+    "manageForms": {
+      "title": "表單管理器",
+      "description": "Nice SaaS WFM"
+    },
+    "templateManager": {
+      "title": "範本管理器",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "表格設計者",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesignerOld": {
+      "title": "表格設計者",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesignerNew": {
+      "title": "表格設計者",
+      "description": "Nice SaaS WFM"
+    },
+    "qpPlanManager": {
+      "title": "Quality Planner",
+      "description": "Quality Planner"
+    },
+    "qpPlanDetails": {
+      "title": "Quality Planner",
+      "description": "Quality Planner"
+    },
+    "workflowFormSelector": {
+      "title": "工作流程表格選擇器",
+      "description": "工作流程表格選擇器"
+    },
+    "interactionPlayer": {
+      "title": "互動播放器",
+      "description": "互動播放器"
+    },
+    "planDetails": {
+      "title": "計劃監控細節",
+      "description": "計劃監控細節"
+    },
+    "ng1FormDesignerPage": {
+      "title": "表格設計者",
+      "description": "Nice SaaS WFM"
+    },
+    "ng2FormDesignerPage": {
+      "title": "表格設計者",
+      "description": "Nice SaaS WFM"
+    },
+    "qmScoreMetric": {
+      "title": "QM 得分指標",
+      "description": "QM 得分指標"
+    },
+    "qpPlanDetailsTicket": {
+      "title": "Quality Planner Ticket",
+      "description": "Quality Planner Ticket"
+    }
+  },
+  "commonButtons": {
+    "ok": "確定",
+    "cancel": "取消",
+    "no": "否",
+    "yes": "是",
+    "save": "儲存",
+    "delete": "刪除",
+    "activate": "啟用",
+    "saveAndActivate": "儲存及啟用",
+    "saveAsDraft": "儲存為草稿",
+    "invite": "邀請",
+    "edit": "編輯",
+    "update": "更新",
+    "upload": "上載",
+    "today": "今天",
+    "showAll": "全部顯示",
+    "clearAll": "清除全部",
+    "close": "關閉",
+    "create": "建立",
+    "selectAll": "全選",
+    "generate": "產生",
+    "chooseFile": "選擇檔案",
+    "add": "新增",
+    "publish": "發布",
+    "set": "設定",
+    "reset": "重設",
+    "day": "天",
+    "week": "週",
+    "done": "完成",
+    "download": "下載"
+  },
+  "languages": {
+    "english": "英文",
+    "russian": "俄文",
+    "spanish": "西班牙文",
+    "chinese": "中文"
+  },
+  "weekDays": {
+    "sunday": "星期日",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六"
+  },
+  "weekShortDays": {
+    "SUN": "星期日",
+    "MON": "星期一",
+    "TUE": "星期二",
+    "WED": "星期三",
+    "THU": "星期四",
+    "FRI": "星期五",
+    "SAT": "星期六"
+  },
+  "globalNavigation": {
+    "wfmHeader": {
+      "contactUs": "聯絡我們",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "登出",
+      "changePasswordOption": "變更密碼",
+      "accountSetupOption": "帳戶設立",
+      "myProfileOption": "My Profile",
+      "help": "幫助",
+      "selfService": "支援 - 下載"
+    },
+    "sideBar": {
+      "setupAppName": "管理員",
+      "setupAppLinks": {
+        "users": "員工",
+        "skills": "技能",
+        "groups": "群組"
+      },
+      "schedulerAppName": "排程器",
+      "schedulerAppLinks": {
+        "activityCodes": "活動代碼",
+        "realTimeAdherence": "實時依從性",
+        "acdActivitiesMapping": " ACD 配對",
+        "managementUnits": "排程單元",
+        "scheduler": "排程管理器",
+        "generateSchedule": "產生排程",
+        "dailyRule": "每日規則",
+        "weeklyRules": "每週規則",
+        "forecastData": "匯入預測資料"
+      },
+      "mySpaceAppName": "我的空間",
+      "mySpaceAppLinks": {
+        "mySchedule": "我的排程",
+        "myDashboard": "我的控制面板",
+        "myTasks": "我的任務",
+        "myEvaluations": "我的評估",
+        "performanceMonitoring": "績效監控",
+        "plansMonitoring": "計劃監控",
+        "calibration": "校準"
+      },
+      "formManagerAppName": "QM 工具",
+      "formManagerAppLinks": {
+        "manageForms": "表單管理器",
+        "formDesigner": "表格設計者",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "範本管理器"
+      }
+    }
+  },
+  "mySchedule": {
+    "errorRead": "載入排程時出錯。",
+    "pageTitle": "我的排程",
+    "userName": "{{userName}}"
+  },
+  "datePicker": {
+    "nextDay": "下一日",
+    "openCalendar": "開啟日曆",
+    "previousDay": "上一日",
+    "today": "今天"
+  },
+  "timePicker": {
+    "openTimePicker": "開啟時間選擇器"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "下一日",
+    "openCalendar": "開啟日曆",
+    "openTimeChooser": "開啟時間選擇器",
+    "previousDay": "上一日",
+    "today": "今天"
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "無法登入"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "一般錯誤"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "此頁面不可用，請檢查連線，然後再試一次。"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "一般錯誤 {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "不可用參數"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "未經授權員工"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "伺服器並無任何回應，請稍後再試一次。"
+    },
+    "wrongCredentials": "您輸入了錯誤電郵地址或密碼",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "內部伺服器錯誤。"
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "內部錯誤。"
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "排程單元不存在。"
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "此名稱已存在。請嘗試一個新地址。"
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "此租戶或員工已存在，請嘗試新一個。"
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "此電郵地址已存在，請嘗試另一電郵地址。"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "檔案並不存在。"
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "員工並不存在"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "並無要邀請的員工。"
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "無法建立員工。"
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "員工狀態無效。"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "機構名稱無效。"
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "電郵無效。"
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "員工名字無效。"
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "員工姓氏無效。"
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "無法刪除預設排程單元。"
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "缺少排程單元 ID。"
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "員工最大時數不在範圍內。"
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "員工密碼無效。"
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "無法更新預設群組。"
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "無法從預設群組移除員工。"
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "不正確員工密碼。"
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "員工不存在。"
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "您無法刪除你自己的員工"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "您無法刪除唯一管理員"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "您無法刪除已刪除的員工"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "無效密碼作業記號"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "無法建立帳戶"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "機構名稱無效"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "並不支援檔案格式"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "您沒有權限來變更角色"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "您無法變更自身角色"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "無法刪除上一名管理員。"
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "此名稱已存在。請嘗試一個新地址。"
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "因為新密碼與上一個密碼相同，無法變更密碼。"
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "請檢查細節，然後重新再試"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "已存在 ACD 登入 ID"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "新員工將超越使用者上限，請透過 CXoneSalesTeam@niceincontact.com 聯絡銷售人員"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "內部伺服器錯誤。"
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "內部錯誤。"
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "此名稱已存在。請嘗試一個新地址。"
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "技能並不存在。"
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "員工無法擁有多於 50 項技能。"
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "技能名稱無效。"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "每週規則留空"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "錯誤的每週規則"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "錯誤的每週規則日期範圍"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "錯誤的每週規則小時範圍"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "每週規則的班組上限值少於最少日數每日規則總數"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "每週規則的班組下限值多於最多日數每日規則總數"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "每日時數下限總和大於每週時數上限"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "每日時數上限總和少於每週時數下限"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "可能日數的總和低於每日規則的相應最少日數"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "所有獨有可能日數的總和低於班組下限每日規則的總和"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "並未提供每週規則名稱"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "每日規則為空"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "全部獨有可能日數的總和低於每週班組下限"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "該日期格式無效"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "兩日之間的時段無效"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "所有內部伺服器出錯"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "發生內部錯誤"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "並不支援檔案格式"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "無法閱讀此檔案中的記錄"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "無法找到期望的欄位題目。請看看範例檔案。"
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "系統缺少技能"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "檔案缺少排程單元"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "最早每日開始時間遲於最遲開始時間"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "增長格式錯誤"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "每日規則開始時間並不在正確範圍內"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "每日活動長度大於每日規則長度"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack 格式錯誤"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "相應開始時間為較低 Slack 時間"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "活動長度總和大於每日長度"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "並未存在適用的活動組合"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "活動代碼超過每日規則轉變"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "並不支援檔案格式"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "活動代碼名稱無效"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "排程單位的時區錯誤"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "無法刪除預設活動代碼"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "請選擇一個範本"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "範本 Id 無效"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "表格名稱已存在"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "內部伺服器錯誤。"
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "內部錯誤。"
+    },
+    "qp_data_service_1": {
+      "code": "DUPLICATE_PLAN_NAME_ERROR",
+      "message": "計劃名稱已存在"
+    },
+    "qp_data_service_12": {
+      "code": "FORM_NOT_ACTIVE",
+      "message": "評估表格不活躍。"
+    },
+    "qp_data_service_10": {
+      "code": "Invalid License",
+      "message": "無效授權"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "沒有相符項目",
+    "modal": {
+      "employeeTab": "尚無獲委派員工"
+    }
+  },
+  "uikitGallery": {
+    "userCount": "{{count}} 個員工",
+    "selectedCount": "已選取 {{count}}",
+    "searchPlaceholder": "開始輸入以尋找員工"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "排程單元"
+  },
+  "ng2ManageFormsPage": {
+    "pageTitle": "表單管理器",
+    "createForm": "新表格",
+    "omnibar": {
+      "itemCount": "{{ count }} 表格",
+      "itemLabel": "表格",
+      "itemsLabel": "表格",
+      "selectedItemCount": "已選取 {{ count }}",
+      "searchPlaceholder": "開始輸入以尋找表格",
+      "bulkOperations": {
+        "activate": "啟用",
+        "deactivate": "停用",
+        "delete": "刪除"
+      }
+    },
+    "columnHeaders": {
+      "title": "表格名稱",
+      "version": "版本",
+      "lastModified": "最後修改",
+      "createdBy": "建立者",
+      "status": "狀態",
+      "actions": "Actions"
+    },
+    "noRowsText": "沒有相符項目",
+    "active": "活躍",
+    "inactive": "非活躍",
+    "draft": "草稿",
+    "change": "變更",
+    "cancel": "取消",
+    "message": {
+      "successPublish": "成功啟用表格。",
+      "successUnpublish": "成功把表格無效化。",
+      "successDelete": "成功刪除表格。",
+      "successRename": "成功重新命名表格。",
+      "alreadyPublished": "表格已有效。",
+      "alreadyUnpublished": "部分表格為草稿或非有效項目，不能無效化處理。請啟用表格後重試。",
+      "multiFormDelete": "部分表格為有效項目，不能刪除。請把表格無效化後重試。",
+      "noFormToDelete": "沒有可刪除的表格。",
+      "failAdd": "無法新增表格，請重試。",
+      "failedRename": "表格名稱已存在。",
+      "failedUpdate": "無法更新表格。",
+      "successDuplicate": "成功重複表格。",
+      "successMultiPublish": "成功啟用表格。",
+      "singleFormDelete": "無法刪除活躍表格，您需要先把表格無效化。",
+      "publishErrorNoWorkflowSettings": "無法啟動，必須定義工作流程設定",
+      "publishErrorNoWorkflowSettingsMulti": "無法啟動部分表格，必須為這些表格定義工作流程設定"
+    },
+    "popover": {
+      "messagePublish": "啟用所選表格？",
+      "messageUnpublish": {
+        "line1": "把這些表格無效化？",
+        "line2": "這或會影響現存工作流程。"
+      },
+      "deleteSelectedFormsMsg": {
+        "line1": "刪除所選表格？",
+        "line2": "此操作不能消除，且或會影響現存工作流程。"
+      },
+      "deleteSingleFormMsg": "刪除所選表格？此操作不能消除，且或會影響現存工作流程。",
+      "activeFormsCannotBeDeleted": "無法刪除活躍項目。請把表格無效化後重試。",
+      "deleteSingleDraftFormMsg": "刪除所選表格？此操作不能消除。",
+      "activate": "啟用",
+      "deactivate": "停用",
+      "duplicate": "重複",
+      "rename": "重新命名"
+    },
+    "saveDuplicateFormModal": {
+      "addHeader": "重複表格",
+      "subHeading": "表格名稱",
+      "errors": {
+        "uniqueTitle": "此名稱已存在。請嘗試一個新地址。"
+      }
+    },
+    "renameFormModal": {
+      "header": "重新命名表格",
+      "subHeading": "表格名稱"
+    }
+  },
+  "manageFormsPage": {
+    "pageTitle": "表單管理器",
+    "createForm": "新表格",
+    "items": "表格",
+    "item": "表格",
+    "noItemsOverlay": "沒有相符項目",
+    "errorRead": "在載入表格時出錯",
+    "modals": {
+      "cancel": "取消",
+      "change": "變更"
+    },
+    "EVALUATION": {
+      "saveDuplicateFormModal": {
+        "addHeader": "重複表格",
+        "subHeading": "表格名稱",
+        "errors": {
+          "uniqueTitle": "此名稱已存在。請嘗試一個新地址。"
+        }
+      },
+      "renameFormModal": {
+        "header": "重新命名表格",
+        "subHeading": "表格名稱"
+      },
+      "gridColumnsHeaders": {
+        "title": "表格名稱"
+      },
+      "itemCount": "{{count}} 表格",
+      "itemSearchPlaceholder": "開始輸入以尋找表格",
+      "successAdd": "成功新增表格。",
+      "successDuplicate": "成功重複表格。",
+      "failAdd": "無法新增表格，請重試。",
+      "successPublish": "成功啟用表格。",
+      "successUnpublish": "成功把表格無效化。",
+      "successDelete": "成功刪除表格。",
+      "successMultiPublish": "成功啟用表格。",
+      "successRename": "成功重新命名表格。",
+      "failedRename": "表格名稱已存在。",
+      "popover": {
+        "messagePublish": "啟用所選表格？",
+        "messageUnpublish": "把這些表格無效化？這或會影響現存工作流程。",
+        "deleteSelectedFormsMsg": "刪除所選表格？此操作不能消除，且或會影響現存工作流程。",
+        "deleteSingleFormMsg": "刪除所選表格？此操作不能消除，且或會影響現存工作流程。",
+        "activeFormsCannotBeDeleted": "無法刪除活躍項目。請把表格無效化後重試。",
+        "deleteSingleDraftFormMsg": "刪除所選表格？此操作不能消除。"
+      },
+      "errorMsg": {
+        "alreadyPublished": "表格已有效。",
+        "alreadyUnpublished": "部分表格為草稿或非有效項目，不能無效化處理。請啟用表格後重試。",
+        "multiFormDelete": "部分表格為有效項目，不能刪除。請把表格無效化後重試。",
+        "noFormToDelete": "沒有可刪除的表格。"
+      }
+    },
+    "gridColumnsHeaders": {
+      "form": "表格名稱",
+      "status": "狀態",
+      "lastModified": "最後修改",
+      "createdBy": "建立者",
+      "actions": "Actions",
+      "active": "活躍",
+      "inactive": "非活躍",
+      "draft": "草稿",
+      "version": "版本",
+      "bulkOperationsBtns": {
+        "activate": "啟用",
+        "delete": "刪除",
+        "deactivate": "停用"
+      }
+    },
+    "moreMenu": {
+      "activate": "啟用",
+      "deactivate": "停用",
+      "duplicate": "重複",
+      "rename": "重新命名"
+    },
+    "successRename": "成功重新命名表格",
+    "errorMsg": {
+      "singleFormDelete": "無法刪除活躍表格，您需要先把表格無效化。",
+      "publishErrorNoWorkflowSettings": "無法啟動，必須定義工作流程設定",
+      "publishErrorNoWorkflowSettingsMulti": "無法啟動部分表格，必須為這些表格定義工作流程設定"
+    }
+  },
+  "formDesignerPage": {
+    "pageTitle": "建立新表格",
+    "manageFormsBreadcrumb": "表單管理器",
+    "saveAsDraft": "儲存為草稿",
+    "save": "儲存",
+    "score": "分數",
+    "sectionScore": "章節分數",
+    "activate": "儲存及啟用",
+    "inActivate": "非活躍",
+    "cancel": "取消",
+    "close": "關閉",
+    "preview": "預覽",
+    "errorRead": "在載入表格設計師時出錯",
+    "errorInteraction": "沒有可用互動",
+    "errorLoadingLogo": "無法載入表格標誌",
+    "errorLoadingHeader": "無法載入標頭",
+    "criticalQuestionsValidationError": "{{ count }} 個問題有錯誤。請再次驗證並儲存",
+    "criticalQuestionValidationError": "請定義至少一個正確及一個錯誤答案",
+    "criticalQuestionEnableScoringHelpHeader": "啟用評分",
+    "criticalQuestionEnableScoringHelpText": "啟用評分以將此問題標記為關鍵。",
+    "criticalQuestionHelpHeader": "關鍵問題",
+    "criticalQuestionHelpText": "此問題指出了互動的關鍵元素，無法回應關鍵問題將導致不合格的客服專員分數。",
+    "criticalQuestionAnswersHelpText": "標記哪條問題將導致不合格。您必須定義至少一項不正確答案及一項正確答案。",
+    "criticalQuestionAnswersErrorMessage": "您必須定義至少一項不正確答案及一項正確答案。",
+    "criticalQuestionToolTip": "此為關鍵問題，無法回答將把分數重設為 0。",
+    "formTitle": {
+      "title": "輸入標題",
+      "subTitle": "輸入子標題"
+    },
+    "saveFormModal": {
+      "saveFormHeader": "儲存表格",
+      "activeFormHeader": "啟用表格",
+      "formPlaceholder": "輸入表格名稱",
+      "popover": {
+        "message1": "所有變更將會遺失",
+        "message2": "確定要在未儲存的情況下退出嗎？"
+      }
+    },
+    "scoreFormModal": {
+      "addHeader": "評分",
+      "enableScoring": "啟用評分",
+      "calculatedScore": "計算得出的加權分數",
+      "currentPoints": "現行分數",
+      "maxPoints": "最高分數：",
+      "maxScoreZeroMessage": "最低分數必須高於 0",
+      "scorable": "可得分",
+      "outOf": "/",
+      "saveLabel": "儲存",
+      "setScoring": "設定評分",
+      "setRanking": "設定排名",
+      "enableRanking": "啟用排名",
+      "rankingNoteMsg": "註：使用排名將替代分數顯示",
+      "setRangeFormScore": "為表格分數設定範圍",
+      "from": "從",
+      "to": "到",
+      "display": "顯示",
+      "drpDwnPlaceHolder": "%",
+      "add": "+ 加",
+      "ranking": {
+        "defaultFailedLabel": "失敗",
+        "defaultPassedLabel": "合格",
+        "validationMsg": {
+          "emptyRange": "空間範圍",
+          "completeRange": "無效範圍。定義範圍總數必須等於 100%",
+          "invalidRange": "無效範圍",
+          "requiredField": "所需欄目"
+        }
+      }
+    },
+    "selectTemplateModal": {
+      "selectThemeHeader": "變更範本",
+      "selectThemeMsg": "為表格選取範本",
+      "customDisclaimer": "註：您所作的自訂項目將會重設"
+    },
+    "elementListComponent": {
+      "component": "元素",
+      "selectOption": " {{selectedCount}} 個選項",
+      "errorMsg": "此欄位為必填欄位",
+      "invalidDate": "無效日期",
+      "invalidTime": "無效時間",
+      "characters": "字元"
+    },
+    "elementAttributeComponent": {
+      "properties": "屬性",
+      "NA": "不適用",
+      "label": "標題",
+      "text": "文字",
+      "question": "問題",
+      "subText": "指引",
+      "url": "URL",
+      "prePopulatedHintText": "提示文字",
+      "limitCharacters": "字元限制",
+      "mandatory": "必填",
+      "criticalQuestion": "標記為關鍵",
+      "visible": "可見",
+      "layout": "佈局",
+      "vertical": "縱向",
+      "horizontal": "橫向",
+      "choices": "選擇",
+      "fontType": "字型",
+      "fontSize": "尺寸",
+      "fontIndent": "對齊",
+      "fontColor": "標籤顏色",
+      "fontStyle": "樣式",
+      "addMultiple": "新增倍數",
+      "italics": "斜體",
+      "bold": "粗體",
+      "underline": "底線",
+      "backgroundColor": "背景顏色",
+      "useNA": "使用 N/A",
+      "dateLabel": "日期",
+      "timeLabel": "時間",
+      "setCurrentDate": "使用現在日期",
+      "dateFormat": "日期格式",
+      "displayDate": "顯示日期",
+      "setCurrentTime": "使用現有時間",
+      "startTime": "開始時間",
+      "single": "單一選項",
+      "multiple": "多選項",
+      "addList": "數值清單",
+      "image": "影像",
+      "fileUploadErrorExtensionMsg": "檔案類型無效，支援的格式包括： JPG、PNG、GIF、BMP、JPEG",
+      "fileUploadSizeErrorMsg": "檔案太大，檔案必須低於 2MB",
+      "logic": "邏輯",
+      "addRule": "+ 新增規則",
+      "rule": "規則",
+      "width": "闊度",
+      "height": "高度",
+      "px": "(px)",
+      "aspectRatio": "鎖定影像比例",
+      "header": "標頭",
+      "subTitle": "子標題",
+      "browse": "瀏覽",
+      "headerFields": {
+        "headerFieldsLabel": "標頭欄目",
+        "headerFieldSelectedOption": " 已選取 {{selectedCount}}",
+        "AgentName": "客服專員名稱",
+        "ReviewDate": "審視日期",
+        "StartDate": "評估開始日期",
+        "Duration": "互動持續時間",
+        "HireDate": "聘用日期",
+        "InteractionDate": "互動日期",
+        "failLoadHeaderFields": "無法載入題目欄目，請重試",
+        "SegmentId": "分段 ID",
+        "SegmentContactId": "聯絡 ID"
+      }
+    },
+    "dateTimeComponent": {
+      "at": "在"
+    },
+    "workFlowSettingsModal": {
+      "header": "設定",
+      "workflow": "工作流程",
+      "agentCanReview": "客服專員可以審視",
+      "agentCanAcknowledge": "客服專員可以確認",
+      "agentCanRequestReview": "客服專員可以要求審視",
+      "assignedEvaluator": "獲指派評估員",
+      "specificEvaluator": "指定個人：",
+      "agentCanViewScoring": "向客服專員展示分數",
+      "successSave": "成功進行工作流程設定",
+      "successUpdate": "成功更新工作流程設定",
+      "workflowStartError": "錯誤開始工作流程",
+      "qpInteractionsFetchError": "無法取得獲分配互動",
+      "workflowInteractionsFetchError": "無法取得已評估互動",
+      "noOptionSelectedErrorMessage": "此欄位為必填欄位",
+      "getUser": {
+        "error": "無法找回使用者"
+      }
+    },
+    "warningMessageModal": {
+      "title": "離開頁面？",
+      "unsavedChanges": "你有未儲存資料。",
+      "areYouSureLeavePage": "確定要離開且不儲存？"
+    },
+    "criticalQuestionMessageModal": {
+      "title": "規則無效",
+      "message1": "將此問題標記為關鍵將令部分規則無效化，並會將其移除。",
+      "message2": "確定要繼續？"
+    },
+    "criticalQuestionScoringMessageModal": {
+      "message1": "您停用評分了。立即儲存將刪除所有關鍵問題。",
+      "message2": "確定要繼續？"
+    },
+    "createEditRuleModal": {
+      "header": "設定規則",
+      "ifSelection": "如果選項",
+      "ifThe": "如果該",
+      "addAnotherRule": "新增另一規則",
+      "hide": "隱藏"
+    },
+    "deleteRuleWarningModal": {
+      "title": "已移除無效規則",
+      "rulesRemoved": "重新編排表格問題令部分規則無效化，並且已移除它們。",
+      "wantsToRevert": "想取消這些變更嗎？"
+    },
+    "successAdd": "已成功新增新表格",
+    "successPublish": "成功啟用表格。",
+    "failAdd": "無法新增表格",
+    "failPublish": "無辦啟用新表格",
+    "failedRename": "表格名稱已存在。",
+    "failLoadElements": "無法載入表格元素，請重試。",
+    "EVALUATION": {
+      "successAdd": "成功新增表格。",
+      "successEdit": "已成功修改表格。",
+      "failAdd": "無法新增表格，請重試。",
+      "saveFormModal": {
+        "saveFormHeader": "儲存表格",
+        "activeFormHeader": "啟用表格",
+        "formPlaceholder": "輸入表格名稱"
+      },
+      "testFormModal": {
+        "header": "測試表格",
+        "submit": "驗證"
+      },
+      "popover": {
+        "savePublishFormMsg": "編輯活躍表單？此操作不會影響正在使用的表單。"
+      }
+    },
+    "questionBank": {
+      "questionBank": "問題庫",
+      "elements": "元素",
+      "searchBank": "搜尋問題庫",
+      "deleteQuestionPopoverMsg": "刪除所選表格？此操作不能消除。繼續？",
+      "failedLoadQuestionBank": "無法載入問題，請稍後重試",
+      "questionDeleteSuccess": "已成功刪除問題",
+      "questionDeleteFailed": "未有刪除問題，請稍後重試",
+      "questionSaveSuccess": "已成功儲存問題",
+      "duplicateQuestion": "問題庫內已有此問題",
+      "saveQuestionFailed": "未有儲存此問題，請稍後重試"
+    },
+    "elementType": {
+      "section": "部分",
+      "yesno": "是／否",
+      "checkbox": "核取方塊",
+      "radio": "收音機",
+      "datetime": "日期/時間",
+      "dropdown": "下拉式清單",
+      "hyperlink": "超連結",
+      "label": "標籤",
+      "text": "短文本",
+      "textarea": "長文本",
+      "header": "標頭",
+      "attachment": "附件",
+      "interactions": "互動"
+    },
+    "toolTips": {
+      "saveToBank": "儲存至問題庫",
+      "duplicate": "重複",
+      "logic": "定義規則",
+      "scoring": "定義評分",
+      "settings": "設定",
+      "expand": "展開",
+      "collapse": "崩潰"
+    },
+    "example": "範例：",
+    "objectiveExample": "1. 客服專員將學習上報規程",
+    "labels": "標籤",
+    "objectives": "Objectives",
+    "duration": "持續時間",
+    "durationErrorMsg": "此欄位為必填欄位",
+    "hour": "時",
+    "minutes": "分",
+    "attachment": {
+      "insertFile": "插入檔案",
+      "tooBigToUpload": "上載的檔案太大。",
+      "maxFileSize": "檔案必須小於 {{maxSize}}。",
+      "fileUploadProgress": "{{loaded}}/{{total}}",
+      "failedFileUpload": "無法上載檔案，請重試。",
+      "fileTypeMismatch": "無法上載檔案，檔案類型與副檔名不符，請重試。",
+      "fileTypeNotAllowed": "無法上載檔案，不支援此檔案類型。",
+      "fileSizeExceeded": "無法上載檔案，檔案超過 15 MB 限制。",
+      "zeroFileSizeError": "無法上載檔案，您所選檔案為空，請重試。",
+      "dragAndDropElement": "拖放以上載或",
+      "browseForFile": "瀏覽檔案",
+      "scanningFile": "正在進行檔案病毒掃描，請等待...",
+      "fileCorrupted": "檔案破損或受病毒感染。",
+      "linkTextLabel": "連結文字",
+      "uploadFile": "上載檔案",
+      "progressBarText": "進展",
+      "mandatoryFieldText": "此乃必填欄位"
+    },
+    "interactions": {
+      "interactionsBtn": "新增互動",
+      "type": "類型",
+      "agentName": "客服專員名稱",
+      "startDateAndTime": "開始日期及時間",
+      "duration": "持續時間"
+    },
+    "info": {
+      "required": "必填",
+      "critical": "關鍵"
+    },
+    "compareMode": {
+      "questionNotApplicable": "此問題並不適用",
+      "sectionNotApplicable": "此章節並不適用"
+    }
+  },
+  "formManager": {
+    "formStatus": {
+      "draft": "草稿",
+      "published": "已發布",
+      "deleted": "已刪除",
+      "disabled": "已停用"
+    },
+    "elementType": {
+      "formArea": "表格區域",
+      "section": "部分",
+      "dateTime": "日期時間",
+      "dropdown": "下拉式清單",
+      "hyperlink": "超連結",
+      "radio": "收音機",
+      "yesno": "是否",
+      "label": "標籤"
+    },
+    "dropdownType": {
+      "single": "單一",
+      "multiple": "多個"
+    },
+    "logicMode": {
+      "newRule": "新規則",
+      "singleEdit": "單一編輯",
+      "bulkEdit": "批量編輯"
+    }
+  },
+  "templateManagerPage": {
+    "pageTitle": "範本管理器",
+    "createTemplate": "新範本",
+    "items": "表格",
+    "item": "表格"
+  },
+  "qpWidget": {
+    "qpWidgetEvaluatorHeader": "我的任務",
+    "noItemsOverlay": "沒有相符項目",
+    "gridColumnsHeaders": {
+      "interactionId": "互動 ID",
+      "type": "類型",
+      "agentName": "客服專員名稱",
+      "startTime": "互動開始",
+      "duration": "持續時間",
+      "status": "狀態",
+      "evaluationStatus": "評估狀態",
+      "evaluationDate": "評估日期",
+      "score": "分數"
+    },
+    "qpInteractionEvalStatus": {
+      "pending": "待處理評估",
+      "inProgress": "進行中",
+      "assigned": "已指派"
+    }
+  },
+  "designerComponent": {
+    "templateOptions": "範本選項",
+    "createTemplate": "新範本",
+    "selectTemplate": "選擇範本",
+    "EVALUATION": {
+      "testForm": "測試表格"
+    },
+    "COACHING": {
+      "testForm": "測試套件"
+    }
+  },
+  "manageTemplatePage": {
+    "pageTitle": "",
+    "createTemplateModal": {
+      "header": "新範本",
+      "successMsg": "已成功建立範本",
+      "logoErrorMsg": "無法上載標誌",
+      "logoFileMsg": "您必須選取正確檔案來上載",
+      "errorMsg": "無法建立範本",
+      "duplicateTemplate": "範本已存在",
+      "templatePlaceholder": "輸入範本名稱",
+      "headerImage": "標頭圖像",
+      "setDefaultTemplate": "設定此為預設範本",
+      "setBgColor": "背景顏色",
+      "popover": {
+        "message1": "所有變更將會遺失",
+        "message2": "確定要在未儲存的情況下退出嗎？"
+      },
+      "numbering": "編排號碼",
+      "enableNumbering": "已啟用"
+    },
+    "tabs": {
+      "design": "設計",
+      "settings": "設定"
+    }
+  },
+  "teamsAndGroups": {
+    "teams": "團隊",
+    "groups": "群組",
+    "selectTeams": "選擇團隊",
+    "selectGroups": "選擇群組",
+    "errorMessages": {
+      "required": "您必須選取至少一個團隊"
+    }
+  },
+  "messages": {
+    "noResultsText": "我們未找到任何結果"
+  },
+  "categoryManagerPage": {
+    "pageTitle": "類別管理器"
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "請選取一份表格以開始執行：",
+    "select": "選擇",
+    "change": "變更",
+    "noFormsMsg": "沒有可用表格。",
+    "selectFormHeader": "選擇表格",
+    "changeFormHeader": "更改表格",
+    "noFormInPlanMessage": "為評估選取一份表格。",
+    "disabledFormInPlanMessage": "為評估選取一份表格。"
+  },
+  "workflowStatuses": {
+    "Claimed": "已申訴",
+    "InProgress": "進行中",
+    "Dispute": "糾紛",
+    "InReview": "審視中",
+    "Request_Review": "要求審視",
+    "Pending_Acknowledgement": "待處理確認",
+    "Completed": "已完成",
+    "Completed_Acknowledged": "已完成確認",
+    "Reviewed_and_Completed": "已審視並完成"
+  },
+  "workflowStatusUI": {
+    "Assigned": "新",
+    "Claimed": "新",
+    "InProgress": "草稿",
+    "Dispute": "已挑戰",
+    "InReview": "已挑戰",
+    "Request_Review": "已挑戰",
+    "Pending_Acknowledgement": "新",
+    "Completed": "已完成",
+    "Completed_Acknowledged": "已完成",
+    "Reviewed_and_Completed": "已完成審視",
+    "Completed_and_Not_Reviewed": "沒有完成任何審視",
+    "Completed_and_Reviewed": "已完成已審視",
+    "selfAssessment": {
+      "new": "新",
+      "draft": "草稿",
+      "completed": "已完成",
+      "expired": "已過期"
+    },
+    "Expired": "已過期",
+    "Auto-acknowledged": "自動確認",
+    "Sent_To_Agent": "已提交",
+    "WaitingForEvaluator": "等待評估者",
+    "WaitingForAgent": "等待客服專員",
+    "PartiallyCompleted": "部分完成"
+  },
+  "workflowType": {
+    "evaluations": "評估"
+  },
+  "formDesignerElements": {
+    "section": {
+      "title": "部分",
+      "tooltipContent": "已在表格內建立了一個章節，您可以在此章節編排問題。",
+      "questionTitle": "設定標題"
+    },
+    "yesno": {
+      "title": "是／否",
+      "tooltipContent": "為表格新增是非題，評估者可以選取一種回應，此為可評分項目。",
+      "questionTitle": "設定問題。",
+      "choice": {
+        "yes": "是",
+        "no": "否"
+      }
+    },
+    "checkbox": {
+      "title": "核取方塊",
+      "tooltipContent": "新增有切換選項的問題，評估者可選取單一或多個選項，此為可評分項目。",
+      "questionTitle": "設定問題。",
+      "choice": {
+        "choice1": "選擇 1",
+        "choice2": "選擇 2"
+      }
+    },
+    "radio": {
+      "title": "收音機",
+      "tooltipContent": "新增多項題，評估者能選取一個選項，此為可評分項目。",
+      "questionTitle": "設定問題。",
+      "choice": {
+        "choice1": "選擇 1",
+        "choice2": "選擇 2"
+      }
+    },
+    "datetime": {
+      "title": "日期/時間",
+      "tooltipContent": "新增一個日期/時間選擇器。",
+      "questionTitle": "設定問題。",
+      "timeQuestionTitle": "設定問題。"
+    },
+    "dropdown": {
+      "title": "下拉式清單",
+      "tooltipContent": "新增一條擁有一系列潛在答案的問題，評估者可選取單一或多回應。",
+      "questionTitle": "設定問題。",
+      "choice": {
+        "choice1": "選擇 1",
+        "choice2": "選擇 2"
+      }
+    },
+    "hyperlink": {
+      "title": "超連結",
+      "tooltipContent": "在挳格內建立超連結。",
+      "questionTitle": "輸入文字"
+    },
+    "label": {
+      "title": "標籤",
+      "tooltipContent": "在表格內新增文字元素。",
+      "questionTitle": "設定標題"
+    },
+    "text": {
+      "title": "短文本",
+      "tooltipContent": "在表格新增單行自由文字欄位。",
+      "questionTitle": "設定問題。"
+    },
+    "textarea": {
+      "title": "長文本",
+      "tooltipContent": "在表格內新增多行自由文字區域。",
+      "questionTitle": "設定問題。"
+    },
+    "interactions": {
+      "title": "互動",
+      "tooltipContent": "在表格內新增互動",
+      "questionTitle": "設定標題"
+    },
+    "attachment": {
+      "title": "附件",
+      "tooltipContent": "在表格內新增檔案",
+      "questionTitle": "設定標題"
+    }
+  },
+  "ng2FormDesignerPage": {
+    "manageFormsBreadcrumb": "表單管理器",
+    "warningMessageModal": {
+      "title": "離開頁面？",
+      "unsavedChanges": "你有未儲存資料。",
+      "areYouSureLeavePage": "確定要離開且不儲存？"
+    }
+  },
+  "setupPage": {
+    "qmScoreMetricPage": {
+      "pageTitle": "QM 得分指標",
+      "qmMetricFormula": "QM 指標公式",
+      "averageOfValues": "數值平均數",
+      "averageOfPercentages": "百分比平均數",
+      "averageOfValuesInfo": "獲得的問題點總數/可能的問題點總數*100",
+      "averageOfPercentagesInfo": "獲得的問題點總數/可能的問題點總數*100 = 百分比得分/進行評估的數量",
+      "qmScoreMetricSaveSuccessMessage": "QM 指標公式成功儲存。",
+      "qmScoreMetricErrorMessage": "無法儲存所選 QM 指標公式，請重試。",
+      "loadQMMetricFormulaErrorMessage": "無法載入頁面。沒有連接到伺服器。重試。如果這種情況繼續，請聯絡您的系統管理員。"
+    }
+  },
+  "ng2QMEditAccessibleTeams": {
+    "buttons": {
+      "cancel": "取消",
+      "apply": "套用",
+      "showSelected": "僅顯示已選取的",
+      "ok": "確定"
+    },
+    "gridColumnsHeaders": {
+      "teamName": "團隊名稱"
+    },
+    "noItemsOverlay": "沒有相符項目",
+    "customSelectTeams": "自訂選擇團隊",
+    "removeEvaluator": "刪除評估者",
+    "omnibarMessage": "搜尋團隊",
+    "noTeamSelectedMessage": "沒有選取團隊",
+    "noTeamAddedMessage": "沒有新增團隊",
+    "modalHeader": "選擇團隊",
+    "switchOnSelectTeamsToggleMessage": "選擇「開」，允許評估員選擇自訂團隊。",
+    "switchOffSelectTeamsToggleMessage": "選擇「關」，允許評估員選擇自訂團隊。",
+    "selectTeamsToggleONHeader": "打開自訂團隊選擇",
+    "selectTeamsToggleOffHeader": "關閉自訂團隊選擇",
+    "notAccessibleTeamError": "評估員不再有權存取團隊"
+  },
+  "ticketQualityPlannerPage": {
+    "planStatus": {
+      "draft": "草稿",
+      "active": "活躍",
+      "inactive": "非活躍",
+      "running": "執行中",
+      "expired": "已過期",
+      "pending": "待處理",
+      "deleted": "已刪除"
+    },
+    "planActions": {
+      "activate": "啟用",
+      "deactivate": "停用",
+      "extend": "伸延",
+      "duplicate": "重複"
+    },
+    "qualityPlannerPage": {
+      "pageTitle": "品質計劃",
+      "newTicketPlanButton": "票證新計劃",
+      "newSegmentPlanButton": "分段的新計劃",
+      "noItemsOverlay": "沒有相符項目",
+      "plansCountLabel": "計劃",
+      "planCountLabel": "計劃",
+      "planCount": "{{count}} 個計劃",
+      "planSearchPlaceholder": "開始輸入以尋找計劃",
+      "planTabForSegments": "區段品質規劃工具",
+      "planTabForTickets": "票據品質規劃工具",
+      "gridColumnsHeaders": {
+        "planName": "計劃名稱",
+        "evaluationType": "評估類型",
+        "planOccurrence": "計劃出現次數",
+        "planLastModified": "最後修改",
+        "planState": "狀態",
+        "planAction": "Actions",
+        "planActivate": "啟用"
+      },
+      "omnibar": {
+        "itemCount": "{{ count }} 個計劃",
+        "searchPlaceholder": "開始輸入以尋找計劃"
+      },
+      "planOccurrence": {
+        "recurring": "重複",
+        "monthly": "每月重複計劃",
+        "weekly": "每週重複計劃",
+        "oneTime": "一次"
+      },
+      "popovers": {
+        "deletePlan": {
+          "msg1": "您將刪除計劃，此操作不能復原。",
+          "msg2": "是否繼續？"
+        },
+        "activatePlan": {
+          "msg1": "計劃內有錯誤，您需要在啟用計劃前先修正它。",
+          "msg2": "您想做甚麼？"
+        },
+        "deactivatePlan": {
+          "msg1": "您將把此計劃無效化，而評估者將無法收到任何互動。",
+          "msg2": "是否繼續？"
+        },
+        "closeModal": {
+          "message1": "所有變更將會遺失",
+          "message2": "確定要在未儲存的情況下退出嗎？"
+        }
+      },
+      "modals": {
+        "duplicatePlan": {
+          "inputText": "計劃名稱",
+          "successMessage": "成功重複計劃。",
+          "errorMessage": "計劃名稱已存在",
+          "header": "重複計劃",
+          "duplicate": "重複",
+          "errorDuplicatingPlanMissingPermissionError": "您沒有正確權限以執行此操作。"
+        }
+      },
+      "warningMessageModal": {
+        "title": "離開頁面？",
+        "unsavedChanges": "你有未儲存資料。",
+        "areYouSureLeavePage": "確定要離開且不儲存？"
+      }
+    },
+    "qpPlanDetails": {
+      "RBAC_cannot_delete_error": "無法刪除品質計劃。請聯絡您的管理人員。",
+      "RBAC_cannot_activate_error": "無法啟動品質計劃。請聯絡您的管理人員。",
+      "RBAC_cannot_duplicate_error": "無法複製品質計劃。請聯絡您的管理人員。",
+      "RBAC_cannot_deactivate_error": "無法取消品質計劃。請聯絡您的管理人員。",
+      "pageTitle": "建立新的品質計劃",
+      "qualityPlansPageBreadcrumb": "品質計劃",
+      "name": "名稱",
+      "description": "描述",
+      "errorSavingPlan": "錯誤儲存品質計劃",
+      "errorSavingPlanDueToFilters": "無法儲存計劃，您編輯的欄目無法更改。",
+      "successSavingPlan": "成功儲存品質計劃",
+      "successSavingActivePlan": "成功儲存品質計劃，更改將在下次分發時生效。",
+      "selectiveFieldsEditMsg": "可以編輯的欄位：計劃名稱、描述、指派評估表格、來電篩選",
+      "editEvaluatorSelectiveFieldsEditMsg": "可以編輯的欄位：計劃名稱、描述、指派評估表格、來電篩選、評估者",
+      "editEvaluatorsInfoIconMsg": "評估者的變化影響計劃分佈",
+      "successActivatingPlan": "成功啟用品質計劃。",
+      "successDeactivatingPlan": "成功無效化品質計劃。",
+      "errorActivatingPlan": "錯誤啟用品質計劃。",
+      "errorActivatingPlanPermissionIssue": "無法啟用此計劃，部分評估者未有權限評估互動。",
+      "errorActivatingPlanStatusIssue": "無法啟用此計劃，沒有活躍評估者。",
+      "errorDeactivatingPlan": "錯誤無效化品質計劃。",
+      "successdelete": "成功刪除計劃。",
+      "deleteQualityPlanError": "無法刪除品計劃，請重試。",
+      "evaluationType": "評估類型",
+      "standardEvaluation": "標準評估",
+      "standardEvaluationHelpText": "僅評估者會進行評估",
+      "collaborativeEvaluation": "合作性評估",
+      "collaborativeEvaluationHelpText": "此評估將由客服專員與評估者共同進行，然後作出比較",
+      "planDuration": {
+        "planDurationTitle": "計劃定義",
+        "planDurationMessage": "評估在已選取時段內發生的通話：",
+        "recurringLabel": "重複",
+        "oneTimeLabel": "一次性計劃 - 開始及結束日期：",
+        "oneTimePlanNewLabel": "一次",
+        "startDateLabel": "從",
+        "endDateLabel": "到",
+        "emptyDatePickerLabel": "選擇日期",
+        "selectForm": "選取一份表格",
+        "errorMessage": "您必須選取一份評估表格",
+        "recurringOptions": {
+          "monthly": "每月",
+          "weekly": "每週"
+        }
+      },
+      "planEvaluators": {
+        "evaluatorsHeader": "評估者",
+        "noEvaluatorsAssignedMessage": "尚無已獲委派評估者",
+        "noEvaluatorsSelectedMessage": "並無已選取的評估者",
+        "noEvaluatorsAddedMessage": "並無已新增的評估者",
+        "selectedEvaluatorsLabel": "已選取的評估者",
+        "addEvaluatorsButton": "新增評估者",
+        "modalHeader": "新增評估者",
+        "selectEvaluatorsHeader": "選取評估者",
+        "cancelButton": "取消",
+        "errorMessage": "您必須選取至少 1 個評估者",
+        "omnibarMessage": "開始輸入以尋找評估者",
+        "evaluatorsCount": "{{count}} 個評估者",
+        "evaluators": "評估者",
+        "Evaluator": "評估者",
+        "Manager": "經理",
+        "Administrator": "管理員",
+        "alreadyAssignedEvaluators": "已獲委派的評估者",
+        "customTeamSelection": "選擇自訂團隊",
+        "gridColumnsHeaders": {
+          "fullName": "名稱",
+          "role": "角色",
+          "accessibleTeams": "可存取團隊",
+          "selectedTeams": "已選取團隊",
+          "dailyEvaluations": "每日評估"
+        },
+        "errorMessages": {
+          "required": "您必須選取至少一位評估者",
+          "atleastSingleTeamRequired": "每個評估員必須至少選擇一個團隊"
+        }
+      },
+      "planAgentGroups": {
+        "agentGroupsHeader": "客服專員",
+        "noAgentGroupsAssignedMessage": "尚無已獲委派客服專員群組",
+        "selectedAgentGroupsLabel": "已選擇的客服專員群組",
+        "addAgentGroupsButton": "新增客服專員群組",
+        "selectAgentGroupsHeader": "選擇客服專員群組",
+        "cancelButton": "取消",
+        "errorMessage": "您必須選取至少 1 個客服專員群組",
+        "omnibarMessage": "開始輸入以尋找群組",
+        "agentGroupsCount": "{{count}} 個客服專員群組",
+        "selectedTxt": "已選取：",
+        "AlreadyAssignedGroups": "已指派客服專員群組"
+      },
+      "planTeamsAndGroups": {
+        "agentGroupsHeader": "客服專員",
+        "teams": "團隊",
+        "groups": "群組",
+        "noTeamsSelected": "尚無已選取團隊",
+        "selectTeams": "選擇團隊",
+        "selectGroups": "選擇群組",
+        "selectedAgents": "現有客服專員總數：",
+        "errorMessages": {
+          "required": "您必須選取至少一個團隊"
+        }
+      },
+      "planSampling": {
+        "samplingHeader": "取樣",
+        "newSamplingHeader": "分配的範例選擇",
+        "numSegmentsPerAgentLabel": "每位客服專員的互動",
+        "numDaysBackLabel": "包含的互動源自過去",
+        "daysLabel": "天",
+        "daysBackExceedMaxMessage": "計劃持續時間為 {{durationInDays}}天。選擇 1 到 {{daysRange}} 天。",
+        "excludeEvaluatedInteractionsText": "排除已評估或標記以進行評估的互動",
+        "include": "包含",
+        "exclude": "排除",
+        "includeInteractionsLabel": "包含互動",
+        "excludeInteractionsLabel": "排除互動",
+        "fromLastDaysLabel": "從最後一個",
+        "excludeInteractionsText": "評估/標記評估",
+        "timeBasedSelectionLabel": "基於時間的選擇",
+        "startTimeLabel": "開始時間",
+        "endTimeLabel": "結束時間",
+        "startTimeSubtext": "根據互動開始的時間提取互動",
+        "endTimeSubtext": "根據互動結束的時間提取互動"
+      },
+      "planTimeZoneSelection": {
+        "dropdownLabel": "時區"
+      },
+      "planEvaluationForm": {
+        "dropdownLabel": "指派評估表格：",
+        "dropdownNewLabel": "評估表格"
+      },
+      "planSummary": {
+        "planSummary": "計劃摘要",
+        "totalInteractions": "計劃內評估總數",
+        "interactionsPerDayPerEvaluator": "每位評估者的每日評估",
+        "planDays": "計劃內總日數",
+        "interactionsPerAgent": "每位客服專員的互動"
+      },
+      "ticketFiltersEnterInput": "輸入內容",
+      "filters": {
+        "includeInteractionsFromLast": "包含的互動源自過去",
+        "days": "天",
+        "filtersHeader": "篩選器"
+      },
+      "ticketFiltersMultiSelect": "選擇值",
+      "planCategoriesTicket": {
+        "categoriesHeader": "類別",
+        "qmaCategoriesLabel": "QMA 類別"
+      }
+    },
+    "planType": {
+      "ticket": "對於票證",
+      "segment": "對於分段"
+    }
+  }
+}

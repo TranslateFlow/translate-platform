@@ -1,0 +1,213 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "adminModuleName": "admin",
+        "adminModuleLinks": {
+          "users": "Employees",
+          "skills": "WFO Skills",
+          "groups": "Groups",
+          "teams": "Teams",
+          "employeeGroups": "Scheduling Unit",
+          "roleManagement": "Roles and Permissions",
+          "recordingPolicies": "Recording Policies",
+          "passwordPolicyManagement": "Password Policy",
+          "loginAuthenticatorManagement": "Login Authenticator",
+          "bulkUploadDownload": "Bulk Upload Portal",
+          "accountSettings": "Account Settings",
+          "hierarchies": "Hierarchies",
+          "storage": "Cloud Storage",
+          "lifecycleManagement": "Life Cycle Management",
+          "longTermFileRetrieval": "Long-term File Retrieval",
+          "secureExternalAccess": "Secure External Access",
+          "businessDataConfiguration": "Business Data",
+          "recording": "Recording",
+          "security": "Security",
+          "viewManagement": "Views",
+          "advancedTtl": "Life Cycle Management",
+          "storageSettings": "Storage Settings"
+        }
+      }
+    }
+  },
+  "hierarchiesPage": {
+    "title": "Hierarchies",
+    "newHierarchy": "New Hierarchy",
+    "changeHistoryOf": "Change History Of ",
+    "node": "Node",
+    "changeHistoryForNode": "Change History For Node",
+    "back": "Back",
+    "searchHierarchiesPlaceholder": "Start typing to find hierarchy",
+    "grid": {
+      "showingFirst": "Showing First ",
+      "showingAll": "Showing All ",
+      "hierarchyCount": " Hierarchies",
+      "hierarchyName": "HIERARCHY NAME",
+      "type": "TYPE",
+      "lastModifiedBy": "LAST MODIFIED BY",
+      "lastModified": "LAST MODIFIED",
+      "status": "STATUS",
+      "primaryHierarchy": "Primary Hierarchy",
+      "actions": "ACTIONS",
+      "active": "Active",
+      "inactive": "Inactive",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "noHierarchiesDefined": "No hierarchies defined yet"
+    }
+  },
+  "types": {
+    "organizational": "ORGANIZATIONAL"
+  },
+  "colors": {
+    "textColorDefault": "#000"
+  },
+  "hierarchyManagerPage": {
+    "name": "Name ",
+    "namePlaceholder": "Add Hierarchy Name",
+    "searchPlaceholder": "Search hierarchy nodes",
+    "searchLabel": "Search",
+    "searchInfo": "Click the search button to start a new search by name. Search is case sensitive. First matching result will be auto-scrolled to center-most position, edges of the graph allowing.",
+    "type": "Type",
+    "typePlaceholder": "Select Type",
+    "mandatorySymbol": "*",
+    "primaryHierarchy": "Primary Hierarchy",
+    "setAsPrimaryHierarchy": "Set as Primary Hierarchy",
+    "setAsPrimaryHierarchyTooltip": "This action will set the hierarchy as primary. Once set, it cannot be changed back to a non-primary hierarchy. All hierarchy data used in applications is pulled from the primary hierarchy.",
+    "title": "Create New Hierarchy",
+    "close": "Close",
+    "cancel": "Cancel",
+    "add": "Add",
+    "remove": "Remove",
+    "create": "Create",
+    "save": "Save",
+    "no": "No",
+    "yes": "Yes",
+    "viewDetails": "View Details",
+    "search": {
+      "placeholder": "Search hierarchy nodes",
+      "label": "Search",
+      "info": "Click the search button to start a new search by name. Search is case sensitive. First matching result will be auto-scrolled to center-most position, edges of the graph allowing.",
+      "noValue": "Please enter a search value to begin searching.",
+      "found": "Found ",
+      "notFound": "Did not find "
+    },
+    "toolbar": {
+      "add-child": {
+        "addOrganizationUnit": "Add Organization Unit",
+        "addTeam": "Add Team",
+        "addExistingTeam": "Add Existing Team",
+        "addOUInformation": "This action will create a child node of the Organization Unit (OU) type. After OU is created, you will be able to add members.",
+        "addTeamInformation": "This action will create a child node of the Team type by selecting one of the existing Teams. After Team node is created, you will be able to view Team information and membership.",
+        "teamExistsUnder": "Team currently exists under",
+        "andMovedUnder": "and will be moved under",
+        "continue": ". Do you want to continue?",
+        "selectTeam": "Select Team",
+        "untitled": "Untitled",
+        "name": "Name"
+      },
+      "members": {
+        "members": "Members",
+        "membersUndercase": "members",
+        "addMembers": "Add Members",
+        "addExistingMembers": "Add Existing Members",
+        "noMembersAdded": "No members have been added yet",
+        "clickOnAddMembers": "Click on 'ADD' to add members.",
+        "SUToAddMembers": "Navigate to the Scheduling Unit via Admin to add members.",
+        "teamToAddMembers": "Navigate to the Team via Admin to add members.",
+        "onceMembersAdded": "Once members are added they will show up here",
+        "noResultsFound": "All available members have been selected",
+        "allUsersSelectedAlreadyAdded": "All users selected currently exist in OU",
+        "noMembersAdded": "No members added",
+        "showingFirst": "Showing first",
+        "showingAll": "Showing all",
+        "searchMembers": "Search Members",
+        "userAlreadyMemberOf": "User is already a member of"
+      },
+      "info": {
+        "suInformation": "Scheduling Unit Information",
+        "teamInformation": "Team Information",
+        "nameLabel": "Name",
+        "timeZoneLabel": "Time Zone",
+        "teamLead": "Team Lead"
+      },
+      "edit": {
+        "editDetails": "Edit Details"
+      },
+      "delete": {
+        "ouDeleteMsg": "You are about to delete this OU from the hierarchy. With this action the network beneath this OU including all child nodes (if any) will be deleted.",
+        "suDeleteMsg": "You are about to delete this SU from the hierarchy. With this action the network beneath this SU including all child nodes (if any) will be deleted.",
+        "teamDeleteMsg": "You are about to remove this team from the hierarchy.",
+        "deletePermissionQue": "Do you want to continue?",
+        "yesBtn": "Yes",
+        "noBtn": "No"
+      }
+    },
+    "hierarchyLegend": {
+      "OU": "Organization Unit",
+      "SU": "Scheduling Unit",
+      "Team": "Team"
+    }
+  },
+  "metaInfo": {
+    "hierarchies": {
+      "title": "Hierarchies"
+    },
+    "hierarchy-manager": {
+      "title": "Hierarchy Manager"
+    }
+  },
+  "changeHistory": {
+    "name": "Name",
+    "depth": "Depth",
+    "parentName": "Parent Name"
+  },
+  "generalErrorMessages": {
+    "required": "This field is required.",
+    "minLength": "Your entry is too short",
+    "maxLength": "Your entry is too long",
+    "specialCharacters": "! \\ < > ? % \" or Emojis are not supported",
+    "SUAlreadyAdded": "This SU is already added under ",
+    "TeamAlreadyAdded": "This team is already added under "
+  },
+  "hierarchyToasts": {
+    "hierarchyActivateSuccMsg": "Hierarchy activated successfully",
+    "setPrimaryHierarchySuccessMessage": "Primary Hierarchy set successfully.",
+    "hierarchyDeactivateSuccMsg": "Hierarchy deactivated successfully",
+    "hierarchyActivateFailMsg": "Failed to activate hierarchy",
+    "hierarchyDectivateFailMsg": "Failed to deactivate hierarchy",
+    "hierarchySavedSuccMsg": "Hierarchy saved successfully",
+    "hierarchySavedFailMsg": "Failed to save hierarchy",
+    "hierarchyCreatedSuccMsg": "Hierarchy created successfully",
+    "hierarchyCreatedFailMsg": "Failed to create hierarchy",
+    "hierarchyInvalidInputMsg": "Invalid Input",
+    "hierarchyNameExistsFailMsg": "Hierarchy name already exists",
+    "cannotAddChildrenToTeamNode": "Team nodes cannot add children",
+    "generalError": "General Error",
+    "cannotPerformAction": "This action cannot be performed at this time",
+    "noSUInformation": "Unable to get SU information",
+    "noTeamInformation": "Unable to get Team information",
+    "teamIsAlreadyChildOfParent": "The team you want to add is already a child node",
+    "dragAndDrop": {
+      "OUChildOfSU": "This action cannot be performed as Organization Unit cannot be child of Scheduling Unit",
+      "OUChildOfTeam": "This action cannot be performed as Organization Unit cannot be child of Team",
+      "SUChildOfTeam": "This action cannot be performed as Scheduling Unit cannot be child node of Team",
+      "TeamChildOfTeam": "This action cannot be performed as Team cannot be child node of Team",
+      "ExceedsLimit": "This action cannot be performed since it goes beyond allowable hierarchy depth of 12 levels",
+      "AlreadyConnected": "This action cannot be performed since the nodes are already connected"
+    },
+    "permissionErrors": {
+      "addChild": "You do not have permissions to add children",
+      "editNode": "You do not have permissions to edit a node",
+      "deleteNode": "You do not have permissions to delete a node",
+      "dragAndDrop": "You do not have permissions to modify the hierarchy structure",
+      "userPermission": "You do not have permissions to view users of an OU"
+    }
+  },
+  "primaryHierarchyModal": {
+    "title": "Set as a Primary Hierarchy",
+    "message": "This action will set {{hierarchyName}} as the Primary Hierarchy of your organization.<br><br><br>This action is permanent and can't be undone.<br>Are you sure you want to continue?",
+    "primaryButtonText": "Set Primary Hierarchy",
+    "closeButtonText": "Cancel"
+  }
+}

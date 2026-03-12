@@ -1,0 +1,222 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "adminModuleName": "admin",
+        "adminModuleLinks": {
+          "users": "Employés",
+          "skills": "Compétences WFO",
+          "groups": "Groupes",
+          "teams": "Équipes",
+          "employeeGroups": "Unité de planification",
+          "roleManagement": "Rôles et autorisations",
+          "recordingPolicies": "Politiques d’enregistrement",
+          "passwordPolicyManagement": "Politique de mot de passe",
+          "loginAuthenticatorManagement": "Authentificateur de connexion",
+          "bulkUploadDownload": "Portail de téléversement groupé",
+          "accountSettings": "Configuration du compte",
+          "hierarchies": "Hiérarchies",
+          "storage": "Cloud Storage",
+          "lifecycleManagement": "Life Cycle Management",
+          "longTermFileRetrieval": "Récupération de fichier à long-terme",
+          "secureExternalAccess": "Accès externe sécurisé",
+          "businessDataConfiguration": "Données commerciales",
+          "recording": "Enregistrement",
+          "security": "Sécurité",
+          "viewManagement": "Vues",
+          "advancedTtl": "Life Cycle Management",
+          "storageSettings": "Paramètres de stockage"
+        }
+      }
+    }
+  },
+  "hierarchiesPage": {
+    "title": "Hiérarchies",
+    "newHierarchy": "Nouvelle hiérarchie",
+    "changeHistory": "Historique des modifications",
+    "back": "Retour",
+    "searchHierarchiesPlaceholder": "Commencez à taper pour trouver la hiérarchie",
+    "grid": {
+      "showingFirst": "Affichage des premiers ",
+      "showingAll": "Affichage de tout ",
+      "hierarchyCount": " Hiérarchies",
+      "hierarchyName": "NOM DE LA HIÉRARCHIE",
+      "type": "TYPE",
+      "lastModified": "DERNIÈRE MODIFICATION",
+      "status": "ÉTAT",
+      "primaryHierarchy": "Hiérarchie principale",
+      "lastModifiedBy": "DERNIÈRE MODIFICATION PAR",
+      "actions": "ACTIONS",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "activate": "Activer",
+      "deactivate": "Désactiver",
+      "noHierarchiesDefined": "Aucune hiérarchie définie pour le moment"
+    },
+    "changeHistoryOf": "Historique des modifications de ",
+    "node": "Nœud",
+    "changeHistoryForNode": "Historique des modifications du nœud"
+  },
+  "types": {
+    "organizational": "ORGANISATIONNEL",
+    "division": "DIVISION"
+  },
+  "colors": {
+    "textColorDefault": "#000"
+  },
+  "hierarchyManagerPage": {
+    "name": "Nom ",
+    "namePlaceholder": "Ajouter nom de hiérarchie",
+    "searchPlaceholder": "Rechercher des nœuds de hiérarchie",
+    "searchLabel": "Rechercher",
+    "searchInfo": "Cliquez sur le bouton Rechercher pour lancer une nouvelle recherche par nom. La recherche est sensible à la casse. Le premier résultat correspondant sera automatiquement déplacé vers la position la plus centrale, si les bords du graphique le permettent.",
+    "type": "Type",
+    "typePlaceholder": "Sélectionner le type",
+    "mandatorySymbol": "*",
+    "primaryHierarchy": "Hiérarchie principale",
+    "setAsPrimaryHierarchy": "Définir comme hiérarchie principale",
+    "setAsPrimaryHierarchyTooltip": "Cette action définit la hiérarchie comme principale. Une fois définie sur principale, elle ne peut pas être ramenée à une hiérarchie non principale. Toutes les données de hiérarchie utilisées dans les applications proviennent de la hiérarchie principale.",
+    "title": "Créer nouvelle hiérarchie",
+    "close": "Fermer",
+    "cancel": "Annuler",
+    "add": "Ajouter",
+    "remove": "Supprimer",
+    "create": "Créer",
+    "save": "Enregistrer",
+    "no": "Non",
+    "yes": "Oui",
+    "viewDetails": "Afficher les détails",
+    "search": {
+      "placeholder": "Rechercher des nœuds de hiérarchie",
+      "label": "Rechercher",
+      "info": "Cliquez sur le bouton Rechercher pour lancer une nouvelle recherche par nom. La recherche est sensible à la casse. Le premier résultat correspondant sera automatiquement déplacé vers la position la plus centrale, si les bords du graphique le permettent.",
+      "noValue": "Veuillez saisir une valeur de recherche pour commencer la recherche.",
+      "found": "Trouvé(e) ",
+      "notFound": "N’a pas trouvé "
+    },
+    "toolbar": {
+      "add-child": {
+        "addOrganizationUnit": "Ajouter une unité d’organisation",
+        "addSchedulingUnit": "Ajouter une unité de planification",
+        "addExistingSchedulingUnit": "AJOUTER UNE UNITÉ DE PLANIFICATION EXISTANTE",
+        "addTeam": "Ajouter Équipe",
+        "addExistingTeam": "Ajouter une équipe existante",
+        "addOUInformation": "Cette action crée un nœud enfant de type Unité d’organisation (UO). Une fois l’UO créée, vous pourrez ajouter des membres.",
+        "addSUInformation": "Cette action créera un nœud enfant de type Unité de planification (UP) en sélectionnant l’une des UP existantes. Une fois le nœud UP créé, vous pourrez ajouter des nœuds enfants et afficher les informations et l’appartenance à l’UP.",
+        "addTeamInformation": "Cette action crée un nœud enfant de type Équipe en sélectionnant l’une des équipes existantes. Une fois le nœud d’équipe créé, vous pourrez consulter les informations relatives à l’équipe et à ses membres.",
+        "teamExistsUnder": "L’équipe existe actuellement sous",
+        "andMovedUnder": " et sera déplacée sous",
+        "continue": ". Voulez-vous continuer?",
+        "selectTeam": "Sélectionner une équipe",
+        "untitled": "Sans titre",
+        "name": "Nom"
+      },
+      "members": {
+        "members": "Membres",
+        "addMembers": "Ajouter des membres",
+        "addExistingMembers": "Ajouter des membres existants",
+        "noMembersAdded": "Aucun membre n’a été ajouté",
+        "clickOnAddMembers": "Cliquez sur « AJOUTER » pour ajouter des membres.",
+        "SUToAddMembers": "Accédez à l’unité de planification via Admin pour ajouter des membres.",
+        "teamToAddMembers": "Accédez à l’équipe via Admin pour ajouter des membres.",
+        "onceMembersAdded": "Une fois que les membres sont ajoutés, ils apparaitront ici",
+        "noResultsFound": "Tous les membres disponibles ont été sélectionnés",
+        "allUsersSelectedAlreadyAdded": "Tous les utilisateurs sélectionnés existent actuellement dans l’UO",
+        "showingFirst": "Affichage des premiers",
+        "showingAll": "Affichage de tout",
+        "membersUndercase": "membres",
+        "searchMembers": "Rechercher des membres",
+        "userAlreadyMemberOf": "L’utilisateur est déjà membre de"
+      },
+      "info": {
+        "suInformation": "Informations sur l’unité de planification",
+        "teamInformation": "Informations de l’Équipe",
+        "nameLabel": "Nom",
+        "timeZoneLabel": "Fuseau horaire",
+        "teamLead": "Chef d’équipe"
+      },
+      "edit": {
+        "editDetails": "Modifier détails"
+      },
+      "delete": {
+        "ouDeleteMsg": "Vous êtes sur le point de supprimer cette UO de la hiérarchie. Par cette action, le réseau sous cette UO, y compris tous les nœuds enfants (le cas échéant) seront supprimés.",
+        "suDeleteMsg": "Vous êtes sur le point de supprimer cette UP de la hiérarchie. Cette action permet de supprimer le réseau situé sous l’UP, y compris tous les nœuds enfants (le cas échéant).",
+        "teamDeleteMsg": "Vous êtes sur le point de supprimer cette équipe de la hiérarchie",
+        "deletePermissionQue": "Voulez-vous continuer?",
+        "yesBtn": "Oui",
+        "noBtn": "Non"
+      }
+    },
+    "hierarchyLegend": {
+      "OU": "Unité d’organisation",
+      "SU": "Unité de planification",
+      "Team": "Équipe",
+      "Division": "Division"
+    }
+  },
+  "metaInfo": {
+    "hierarchies": {
+      "title": "Hiérarchies"
+    },
+    "hierarchy-manager": {
+      "title": "Gestionnaire de hiérarchie"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "Ce champ est obligatoire.",
+    "minLength": "Le texte saisi est trop court",
+    "maxLength": "Le texte saisi est trop long",
+    "specialCharacters": "! \\ < > ? Le caractère % ou les émojis ne sont pas pris en charge",
+    "SUAlreadyAdded": "Cette UP est déjà ajoutée sous ",
+    "TeamAlreadyAdded": "Cette équipe est déjà ajoutée sous "
+  },
+  "hierarchyToasts": {
+    "hierarchyActivateSuccMsg": "Hiérarchie activée avec succès",
+    "setPrimaryHierarchySuccessMessage": "Hiérarchie principale définie avec succès.",
+    "hierarchyDeactivateSuccMsg": "Hiérarchie désactivée avec succès",
+    "hierarchyActivateFailMsg": "Échec de l’activation de la hiérarchie",
+    "hierarchyDectivateFailMsg": "Échec de la désactivation de la hiérarchie",
+    "hierarchySavedSuccMsg": "Hiérarchie enregistrée avec succès",
+    "hierarchySavedFailMsg": "Échec de l’enregistrement de la hiérarchie",
+    "hierarchyCreatedSuccMsg": "Hiérarchie créée avec succès",
+    "hierarchyCreatedFailMsg": "Échec de création de la hiérarchie",
+    "hierarchyInvalidInputMsg": "Entrée non valide",
+    "hierarchyNameExistsFailMsg": "Le nom de hiérarchie existe déjà",
+    "cannotAddChildrenToTeamNode": "Les nœuds d’équipe ne peuvent pas ajouter d’enfants",
+    "generalError": "\nErreur générale",
+    "cannotPerformAction": "Cette action ne peut pas être effectuée pour l’instant",
+    "noSUInformation": "Impossible d’obtenir des informations sur l’UP",
+    "noTeamInformation": "Impossible d’obtenir des informations sur l’équipe",
+    "teamIsAlreadyChildOfParent": "L’équipe que vous souhaitez ajouter est déjà un nœud enfant",
+    "dragAndDrop": {
+      "OUChildOfSU": "Cette action ne peut pas être effectuée car l’unité d’organisation ne peut pas être l’enfant de l’unité de planification",
+      "OUChildOfTeam": "Cette action ne peut pas être effectuée car l’unité d’organisation ne peut pas être l’enfant de l’équipe",
+      "SUChildOfTeam": "Cette action ne peut pas être effectuée car l’unité de planification ne peut pas être le nœud enfant de l’équipe",
+      "TeamChildOfTeam": "Cette action ne peut pas être effectuée car l’équipe ne peut pas être le nœud enfant de l’équipe",
+      "ExceedsLimit": "Cette action ne peut pas être effectuée, car elle dépasse la profondeur de hiérarchie autorisée de 12 niveaux",
+      "AlreadyConnected": "Cette action ne peut pas être effectuée, car les nœuds sont déjà connectés"
+    },
+    "permissionErrors": {
+      "addChild": "Vous n’avez pas l’autorisation d’ajouter des enfants",
+      "editNode": "Vous n’avez pas l’autorisation de modifier un nœud",
+      "deleteNode": "Vous n’avez pas l’autorisation de supprimer un nœud",
+      "dragAndDrop": "Vous n’avez pas l’autorisation de modifier la structure de la hiérarchie",
+      "userPermission": "Vous n’avez pas l’autorisation d’afficher les utilisateurs d’une UO"
+    }
+  },
+  "primaryHierarchyModal": {
+    "title": "Définir une hiérarchie principale",
+    "message": "Cette action définit {{hierarchyName}} comme la hiérarchie principale de votre organisation.<br><br><br>Cette action est permanente et ne peut pas être annulée.<br>Voulez-vous vraiment continuer?",
+    "primaryButtonText": "Définir comme hiérarchie principale",
+    "closeButtonText": "Annuler"
+  },
+  "changeHistory": {
+    "name": "Nom",
+    "depth": "Profondeur",
+    "parentId": "ID parent",
+    "parentName": "Nom du parent",
+    "type": "Type",
+    "templateId": "TemplateId",
+    "nodeId": "NodeId"
+  }
+}

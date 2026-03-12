@@ -1,0 +1,15 @@
+{
+  "cxoneMfeAppContainer": {
+    "unsavedChangesDialogConfigDefault": {
+      "titleMessage": "未儲存資料",
+      "detailMessage": "如果您離開此頁面，所有變更將會遺失。確定要繼續？",
+      "leaveButtonText": "是",
+      "stayButtonText": "否"
+    }
+  },
+  "metaInfo": {
+    "cxoneTroubleshootingScreen": {
+      "title": "疑難排解"
+    }
+  }
+}

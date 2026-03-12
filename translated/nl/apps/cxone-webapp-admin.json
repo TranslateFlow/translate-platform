@@ -1,0 +1,3598 @@
+{
+  "recordingAccounts": {
+    "buttonText": "Nieuwe account",
+    "retryBtn": "Vernieuwen",
+    "labelText": {
+      "column1": "Telefoniesysteem",
+      "column2": "Accounttype",
+      "column3": "Waarde"
+    },
+    "inputFieldText": {
+      "extensionID": "Voer een unieke waarde in",
+      "telephonySystem": "Selecteer..."
+    },
+    "noSystemBtn": "Stel een telefoniesysteem in",
+    "noAccountMessage": "Er zijn nog geen opnameaccounts gemaakt.",
+    "noTelephonyMessage1": "Geen telefoniesysteem geconfigureerd.",
+    "noTelephonyMessage2": "Stel een telefoniesysteem in,",
+    "noTelephonyMessage3": "Klik dan op Vernieuwen om opnameaccounts te maken.",
+    "infoMessage": "U kunt maximum 10 opnameaccounts te maken.",
+    "uivalidation": {
+      "required": "Dit is vereist",
+      "duplicateExtension": "De waarde bestaat al voor het geselecteerde accounttype en -systeem",
+      "characterLimitAgentID": "Voer 2-64 tekens in",
+      "alphanumericAgentID": "Gebruik letters, cijfers en @",
+      "characterLimitExtension": "Voer 3-64 tekens in",
+      "alphanumericExtension": "Gebruik letters, cijfers en @#*",
+      "unmonitoredExtension": "Deze extensie wordt niet bewaakt door de TSAPI-interface. Oproepen vanaf dit toestel wordt niet opgenomen."
+    },
+    "error": {
+      "telephonySystem": "Kan telefoniesysteem niet laden.",
+      "createUpdateAccount": "Kan opnameaccounts niet toevoegen of bijwerken."
+    }
+  },
+  "bulkUploadDownloadManagementPage": {
+    "title": "Portaal voor massale upload",
+    "leftDashboardHeader": "Massale uploads",
+    "leftDashboardText": "Massale upload van een groot aantal records voor alle items in de lijst, allemaal vanaf één plek. Dit kan worden gebruikt om nieuwe records toe te voegen of om bestaande records bij te werken die al op het platform zijn gemaakt",
+    "templateDownloadHeading": "Dit pakket bevat alle sjablonen die op de pagina worden gebruikt.",
+    "entityDownloadHeading": "Downloadt alle bestaande items in deze lijst (bijvoorbeeld: gebruikers, teams, rollen)",
+    "rightDashboardHeader": "U moet minimaal één bestand toevoegen om het uploadproces te starten",
+    "uploadSuccessMsg": "Het uploaden van dit aantal bestanden kan enkele minuten duren",
+    "downloadSuccessMsg": "Bestand wordt gedownload. Pas geen gegevens aan terwijl het bestand wordt gedownload, om afwijkingen in de geselecteerd te voorkomen",
+    "uploadEmptyFileSuccessMsg": "Geen records gevonden in geüpload bestand",
+    "uploadfailureMsg": "Een of meer bestandsuploads zijn mislukt",
+    "uploadInvalidFileType": "Ongeldige bestandsindeling. Selecteer een CSV-bestand om te uploaden.",
+    "uploadRecordLimitBreached": "Uploadbestand mag maximaal 1000 records bevatten.",
+    "wrong_file_type": "platform_upload_download_manager_service_3",
+    "upload_record_limit_error": "platform_upload_download_manager_service_8",
+    "fileUploadfailureMsg": "uploaden is mislukt",
+    "dragAndFropText": "Slepen om te uploaden of",
+    "fileTypeInfoTxt": "Ondersteund bestandstype: CSV",
+    "browsFileText": "bladeren naar bestanden",
+    "fileProcessingMsg": "bestanden worden verwerkt",
+    "inProcessFileTxt": "In uitvoering",
+    "bulkImportSuccessMsg": "geüpload",
+    "bulkImportWarningMsg": "geüpload, maar met fouten",
+    "bulkImportTimeoutMsg": "Het uploaden van bestanden duurt langer dan normaal. Uw ontvangt een melding zodra het uploaden is voltooid. U kunt de status van de upload volgen op het tabblad Activiteit.",
+    "invalidFileFormat": "Uploaden van bestand is mislukt vanwege niet-ondersteund bestandstype. Ondersteund bestandstype: CSV.",
+    "tabLabels": {
+      "upload": "Uploaden",
+      "activity": "Activiteit"
+    },
+    "uploadStatus": {
+      "clearAllBtnTxt": "Alles wissen"
+    },
+    "btn": {
+      "templateDownloadBtn": "Alle sjablonen downloaden",
+      "entityDownloadBtn": "Alle bestaande downloaden",
+      "singleTemplateDownloadBtn": "Sjabloon downloaden",
+      "singleEntityDownloadBtn": "Bestaande records downloaden",
+      "activeUsersDownloadBtn": "Actieve gebruikers downloaden",
+      "allUsersDownloadBtn": "Alle gebruikers downloaden",
+      "uploadImmediately": "Bestanden uploaden",
+      "uploadAfterReview": "Bestanden bekijken vóór upload"
+    },
+    "admin": {
+      "name": "admin",
+      "employees": {
+        "name": "medewerkers"
+      },
+      "teams": {
+        "name": "teams"
+      },
+      "teamsUsersMapping": {
+        "name": "teamtoewijzing"
+      },
+      "skillsUsersMapping": {
+        "name": "skilltoewijzing"
+      }
+    },
+    "acd": {
+      "name": "acd"
+    },
+    "thirdPartyAcd": {
+      "name": "telefonie van externe partij",
+      "recordingAccount": {
+        "name": "opnameaccounts"
+      },
+      "devices": {
+        "name": "apparaten"
+      },
+      "remoteDevices": {
+        "name": "Apparaten op afstand"
+      }
+    },
+    "activity": {
+      "item": "activiteit",
+      "headers": {
+        "uploadDate": "Uploaddatum",
+        "activityDate": "Activiteitsdatum",
+        "area": "Gebied geüpload",
+        "entity": "Entiteit",
+        "triggeredBy": "Getriggerd door",
+        "user": "Gebruiker",
+        "status": "Status"
+      },
+      "successStatus": "Uploaden geslaagd",
+      "downloadSuccessStatus": "Downloaden is geslaagd",
+      "uploadFailed": "Uploaden is mislukt",
+      "downloadFailed": "Downloaden is mislukt",
+      "errorStatusSingle": "Fout gevonden",
+      "errorStatusMultiple": "Fouten gevonden",
+      "inProgressStatus": "Bezig met uploaden",
+      "downloadInProgressStatus": "Bezig met downloaden",
+      "reviewBtn": "Fouten beoordelen",
+      "downloadBtn": "Downloaden",
+      "noItemsOverlay": "Er is nog geen activiteit gedefinieerd"
+    },
+    "uploadSuccessMessage": "Uploaden is gestart",
+    "uploadFailureMessage": "Kan upload niet starten",
+    "downloadFailureMessage": "Kan download niet starten!",
+    "downloadRecordsSuccessMsg": "Bestaande records zijn gedownload",
+    "downloadRecordsFailureMsg": "Kan bestaande records niet downloaden",
+    "downloadRecordsNoDataExistsMsg": "Geen records om te downloaden",
+    "downloadRecordsProgressMsg": "Er wordt een bestaande download uitgevoerd",
+    "reviewErrorsPage": {
+      "pageTitle": "Uploadfouten medewerkers",
+      "pageTrailer": "Uploadfouten",
+      "trailer": "Uploaden",
+      "downloadErrors": "Fouten downloaden",
+      "cancel": "Annuleren",
+      "submit": "Verzenden",
+      "totalErrors": "TOTAAL AANTAL FOUTEN: ",
+      "totalErrorsLeft": "TOTAAL AANTAL RESTERENDE FOUTEN: ",
+      "processingError": "Verwerkingsfouten",
+      "fieldErrors": "Veldfouten",
+      "none": "Geen",
+      "entities": {
+        "user": {
+          "entityName": "Medewerkers"
+        },
+        "team": {
+          "entityName": "Teams"
+        },
+        "user-team": {
+          "entityName": "Teamtoewijzing"
+        },
+        "user-skills": {
+          "entityName": "Skilltoewijzing"
+        },
+        "recording-account": {
+          "entityName": "Opnameaccount"
+        },
+        "device": {
+          "entityName": "Apparaat"
+        },
+        "sab": {
+          "entityName": "Standaard adresboek"
+        },
+        "remote-device": {
+          "entityName": "Apparaat op afstand"
+        }
+      },
+      "errorReport": "foutrapport",
+      "rowHeader": "Rij",
+      "errorHeader": "Fout",
+      "commonErrorMessage": "Verwerkingsfout",
+      "errorFieldStartLineSingle": "Fout in veld",
+      "errorFieldStartLineMultiple": "Fout in velden",
+      "validationErrors": {
+        "mandatoryFieldError": "Het veld mag niet leeg zijn",
+        "emailFieldError": "Het e-mailadres is ongeldig",
+        "usernameFieldError": "Gebruikersnaam moet een e-mailadres zijn",
+        "booleanFieldError": "Veldwaarde mag alleen Waar of Onwaar zijn",
+        "numberFieldError": "Veldwaarde mag alleen cijfers bevatten",
+        "nameFieldError": "De volgende tekens zijn niet toegestaan: \\ ! < > ? % \" ",
+        "phoneFieldError": "Telefoonwaarde is ongeldig",
+        "virtualAgentTypeFieldError": "Ongeldige waarde: moet Digitale bot, Digitale enquête of Uit zijn"
+      },
+      "downloadErrorsSuccessMsg": "Fouten zijn gedownload",
+      "downloadErrorsFailureMsg": "Fouten downloaden is mislukt",
+      "invalidTemplateMessage": "Ongeldige sjabloon geüpload"
+    }
+  },
+  "createDailyRuleModal": {
+    "shiftLength": "Dienstduur:",
+    "shiftType": "Diensttype:",
+    "hours": "uur",
+    "shiftStartBetween": "Dienst begint tussen",
+    "startTimeIncrement": "Stapgrootte voor starttijd:",
+    "createDailyRuleHeader": "Nieuwe dagregel maken",
+    "editDailyRuleHeader": "Dagregel bewerken",
+    "addActivities": "ACTIVITEITEN TOEVOEGEN",
+    "activitiesCodes": "Activiteitscodes",
+    "relativeStart": "Relatieve starttijd",
+    "slack": "Slack",
+    "updateDailyRuleHeader": "#fffff",
+    "length": "Lengte",
+    "earliestStart": "VROEGSTE START",
+    "latestStart": "LAATSTE START",
+    "startIncrement": "STAPGROOTTE START",
+    "ruleDescription": "BESCHRIJVING VAN REGEL",
+    "successMsg": "Medewerker is aangemaakt!",
+    "updateErrorMsg": "Kan geen nieuwe medewerker maken.",
+    "updateSuccessMsg": "Medewerkersinformatie is bijgewerkt!",
+    "namePlaceholder": "Naamloze dagregel"
+  },
+  "userPage": {
+    "pageTitle": "Medewerkers",
+    "newUserBtn": "Medewerker maken",
+    "importUsersBtn": "Medewerkers importeren",
+    "itemsCountAngular": "medewerkers",
+    "selectedItems": "Geselecteerd",
+    "searchPlaceholder": "Begin met typen om gebruikers te vinden",
+    "noItemsOverlay": "Er zijn nog geen gebruikers toegevoegd",
+    "noItemsOverlayGrid": "Geen gebruikers gevonden met dit filter",
+    "noUsersSubText": "Selecteer hierboven \"Gebruikers toevoegen\" om gebruikers toe te voegen",
+    "createUserPage": {
+      "breadcrumb": "Medewerkers",
+      "createUserPageTitle": "Nieuwe medewerker maken",
+      "cancel": "Annuleren",
+      "create": "Maken",
+      "createAndInvite": "Maken en uitnodigen",
+      "createAndActivate": "Maken en activeren",
+      "save": "Opslaan",
+      "teamErrorMsg": "Team is vereist.",
+      "getAllTeamsError": "Er is een fout opgetreden bij het ophalen van teams. Probeer het later opnieuw.",
+      "getGroupsError": "Er is een fout opgetreden bij het ophalen van groepen. Probeer het na enige tijd opnieuw.",
+      "getEmployeeGroupsError": "Er is een fout opgetreden bij het ophalen van medewerkersgroepen. Probeer het na enige tijd opnieuw.",
+      "formLabels": {
+        "mandatorySymbol": "*",
+        "firstName": "Voornaam",
+        "middleName": "Tweede voornaam",
+        "lastName": "Achternaam",
+        "emailAddress": "E-mailadres",
+        "displayName": "Weergavenaam",
+        "primaryRole": "Primaire rol",
+        "username": "Gebruikersnaam",
+        "mobileNumber": "Mobiel nummer",
+        "telephone1": "Telefoon 1",
+        "telephone2": "Telefoon 2",
+        "timeZone": "Tijdzone",
+        "osLogin": "Inloggen bij besturingssysteem",
+        "assignToGroup": "Toegewezen aan planningseenheid",
+        "assignToGroups": "Toegewezen aan groepen",
+        "assignToSkills": "Toegewezen aan skills",
+        "assignToTeams": "Toegewezen aan team",
+        "assignToGroupPlaceHolder": "Geen planningseenheid toegewezen",
+        "rank": "Rang",
+        "rankInterval": "1-999",
+        "country": "Land",
+        "countryPlaceholder": "Land selecteren",
+        "hireDate": "Datum indiensttreding",
+        "timeZonePlaceholder": "Tijdzone selecteren",
+        "typePlaceholder": "Type selecteren of maken",
+        "type": "Type",
+        "teamPlaceholder": "Team selecteren",
+        "defaultTag": "(Standaard)",
+        "groupsDropDown": " Groepen",
+        "acdLoginId": "ACD Login-ID",
+        "acdLoginIdInUse": "ACD Login-ID {{value}} wordt al gebruikt door deze pagina.",
+        "maxLimitOfACD": "U kunt niet meer dan {{items}} items invoeren",
+        "acdLoginIdValidationError": "Het item \"{{value}}\" is ongeldig.",
+        "customAttributes": {
+          "heading": "Attributen",
+          "canBeEvaluatedLabel": "Kan worden geëvalueerd/gecoacht",
+          "canBeScheduled": "Kan worden ingepland",
+          "canBeRecorded": "Kan worden opgenomen (spraak)",
+          "canBeRecordedScreen": "Kan worden opgenomen (scherm)",
+          "canBeRecordedDefault": "Kan worden opgenomen",
+          "canBeAnalyzed": "Kan worden geanalyseerd",
+          "canBeMeasured": "Kan worden gemeten",
+          "nonBillableUser": "Niet-factureerbare gebruiker ",
+          "digitalEngagement": "Digital Engagement",
+          "customerCard": "Klantenkaart",
+          "agentIntegrations": "Agentintegraties",
+          "canViewBIReports": "Kan BI-rapporten weergeven",
+          "canEditBIReports": "Kan BI-rapporten bewerken",
+          "virtualAgentEnabled": "Virtuele agent ingeschakeld",
+          "smartreachheading": "SMART REACH-ATTRIBUTEN",
+          "smartreach": "SmartReach",
+          "smartreachuser": "SmartReach-gebruiker",
+          "smartreachagent": "SmartReach-agent",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartreachdesk": "Bureau",
+          "smartreachecc": "Enhanced Customer Card",
+          "dataCollectionEnabled": "Gegevensverzameling ingeschakeld"
+        },
+        "location": {
+          "locationsDropdown": "Locaties",
+          "placeholder": "Locaties selecteren",
+          "errorMessages": {
+            "failedLoadLocations": "Laden van locatiedefinities is mislukt. Probeer het opnieuw."
+          }
+        },
+        "userSourceDropdownLabel": "Bron",
+        "division": {
+          "division": "Divisie",
+          "placeholder": "Divisie selecteren",
+          "errorMessages": {
+            "failedLoadDivisions": "Kan divisies niet laden. Probeer het opnieuw."
+          },
+          "warningModal": {
+            "warningHeader": "Waarschuwing",
+            "modalBody": "Deze bewerking kan de divisie van de gebruiker wijzigen waardoor de zichtbaarheid ervan kan worden beïnvloed.",
+            "modalBodySub": "Weet u zeker dat u wilt doorgaan?"
+          }
+        }
+      },
+      "popover": {
+        "warningMessage": "Alle wijzigingen gaan verloren",
+        "confirmMessage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?",
+        "saveWarningMessage": "Er is geen inlogauthenticator toegewezen aan de gebruiker of de inlogauthenticator is inactief en de gebruiker zal niet kunnen inloggen.",
+        "saveConfirmMessage": "Doorgaan?",
+        "createInviteWarningMessage": "Er is geen inlogauthenticator toegewezen aan de gebruiker of de inlogauthenticator is inactief en de gebruiker zal niet kunnen inloggen.",
+        "createConfirmMessage": "Doorgaan?"
+      },
+      "populateFromTemplateModal": {
+        "title": "Invullen vanaf sjabloon",
+        "description": "Medewerkerssjabloon",
+        "cancel": "Annuleren",
+        "header": "Medewerkersrecord Invullen vanaf sjabloon",
+        "populate": "Invullen",
+        "populateTemplate": "Sjabloon invullen",
+        "message": "Selecteer een sjabloon in de lijst om de huidige medewerkersrecord te overschrijven. Wijzigingen die zijn aangebracht aan deze actie moeten worden opgeslagen om te worden toegepast.",
+        "placeholder": "Sjabloon selecteren",
+        "createNewTemplate": "Nieuwe sjabloon maken",
+        "error": "Kan sjabloon niet invullen.",
+        "success": "Medewerkersrecord is ingevuld.",
+        "errorSecondaryRole": "Secundaire rol is niet gevonden in de beschikbare opties. Dit kan zich voordoen als een secundaire rol in de sjabloon momenteel is geselecteerd als de primaire rol.",
+        "errorWemSkill": "Skills niet gevonden of ontbrekende machtigingen.",
+        "errorOmnichannelSkill": "Sommige Omnichannel-skills van de sjabloon zijn inactief of onbeschikbaar."
+      },
+      "createTypeModal": {
+        "header": "Maak type",
+        "nameLabel": "Naam",
+        "placeholder": "Voer nieuw type in",
+        "confirm": "Bevestigen",
+        "cancel": "Annuleren"
+      },
+      "bcpLoadError": "Er is een fout opgetreden bij het ophalen van BCP-gegevens. Probeer het later opnieuw."
+    },
+    "importUsersModal": {
+      "header": "Medewerkers importeren",
+      "weSupportMessage": "Medewerkers importeren door een CSV-bestand te uploaden",
+      "downloadMessage1": "U kunt een sjabloon van een CSV-bestand downloaden:",
+      "downloadMessage2": "",
+      "downloadLink": "hier.",
+      "selectFileMessage": "",
+      "successMsg": "Medewerkers zijn geïmporteerd.",
+      "errorMsg": "Importeren van medewerkers is mislukt.",
+      "downloadTemplates": "Sjabloon downloaden",
+      "dragAndFropText": "Slepen om te uploaden of",
+      "browsFileText": "bladeren naar bestanden",
+      "importErrorsList": {
+        "header": "Importfouten",
+        "invalidUser": "Rol bestaat niet in systeem",
+        "invalidUserRole": "Rol- en gebruikersstatus komen niet overeen",
+        "userAlreadyExists": "Kan gebruiker niet maken: er bestaat al een gebruiker met dezelfde gebruikersnaam.",
+        "userCreateFailed": "Kan gebruiker niet maken; controleer de ingevoerde gegevens",
+        "invalidUserStatus": "Het e-mailadres van een actieve gebruiker kan niet worden gewijzigd.",
+        "cannotChangeOwnRole": "U kunt uw eigen rol niet wijzigen."
+      }
+    }
+  },
+  "createUserModal": {
+    "updateUserHeader": "Medewerker bewerken",
+    "createUserHeader": "Nieuwe medewerker maken",
+    "createAndInvite": "Maken en uitnodigen",
+    "createAndActivate": "Maken en activeren",
+    "popoverMessage1": " Alle wijzigingen gaan verloren. ",
+    "popoverMessage2": "Weet u zeker dat u wilt afsluiten zonder op te slaan?",
+    "errorMsg": "Kan geen nieuwe medewerker maken.",
+    "successMsg": "Medewerker is aangemaakt!",
+    "updateErrorMsg": "Kan geen nieuwe medewerker maken.",
+    "updateMfaErrorMsg": "MFA-gegevens zijn niet bijgewerkt.",
+    "updateSuccessMsg": "Medewerkersinformatie is bijgewerkt!",
+    "getUserByIdError": "Er is een fout opgetreden bij het ophalen van de medewerkersgegevens. Probeer het na enige tijd opnieuw.",
+    "getGroupsError": "Er is een fout opgetreden bij het ophalen van groepen. Probeer het na enige tijd opnieuw.",
+    "getSkillsError": "Er is een fout opgetreden bij het ophalen van skills. Probeer het na enige tijd opnieuw.",
+    "getEmployeeGroupsError": "Er is een fout opgetreden bij het ophalen van medewerkersgroepen. Probeer het na enige tijd opnieuw.",
+    "getAllTeamsError": "Er is een fout opgetreden bij het ophalen van teams. Probeer het later opnieuw.",
+    "getRolesError": "Er is een fout opgetreden bij het ophalen van rollen. Probeer het later opnieuw.",
+    "getAvailabilityError": "Er is een fout opgetreden bij het ophalen van de medewerkersbeschikbaarheid. Probeer het na enige tijd opnieuw.",
+    "getShiftPreferencesError": "Er is een fout opgetreden bij het ophalen van dienstvoorkeuren. Probeer het na enige tijd opnieuw.",
+    "getVisibilityError": "Er is een fout opgetreden bij het ophalen van zichtbaarheidsgegevens. Probeer het na enige tijd opnieuw.",
+    "getSelectedViewsError": "Fout bij het ophalen van geselecteerde weergavegegevens. Probeer het later opnieuw.",
+    "teamErrorMsg": "Team is vereist.",
+    "acdLoginId": "ACD Login-ID",
+    "acdLoginIdInUse": "ACD Login-ID {{value}} wordt al gebruikt door deze pagina.",
+    "maxLimitOfACD": "U kunt niet meer dan {{items}} items invoeren",
+    "reviveUserAlert": "Er bestaat al een account met dit e-mailadres. Wilt u dit account opnieuw activeren?",
+    "reviveUserAlertWithUserName": "Een account met deze gebruikersnaam bestaat al en is verwijderd. Wilt u dit opnieuw activeren?",
+    "verificationEmailWillBeSent": "Verificatiemail wordt naar dit adres gestuurd als u dit opslaat.",
+    "resendVerificationEmail": "E-mailverificatie opnieuw sturen",
+    "resendVerificationEmailFailureMsg": "Kan verificatiemail niet opnieuw sturen",
+    "verificationEmailSent": "E-mail is verzonden!",
+    "descriptionLengthExceededError": "De beschrijving is langer dan de limiet van 255 tekens",
+    "formLabels": {
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mailadres",
+      "username": "Gebruikersnaam",
+      "mobileNumber": "Mobiel nummer",
+      "telephone1": "Telefoon 1",
+      "telephone2": "Telefoon 2",
+      "timeZone": "Tijdzone",
+      "osLogin": "Inloggen bij besturingssysteem",
+      "assignToGroup": "Toegewezen aan planningseenheid",
+      "assignToGroups": "Toegewezen aan groepen",
+      "assignToSkills": "Toegewezen aan skills",
+      "assignToTeams": "Toegewezen aan team",
+      "assignToGroupPlaceHolder": "Geen planningseenheid toegewezen",
+      "maxHoursPerWeek": "Max. aantal uren/week",
+      "rank": "Rang",
+      "rankInterval": "1-999",
+      "timeZonePlaceHolder": "Tijdzone",
+      "country": "Land",
+      "countryPlaceholder": "Land selecteren",
+      "hireDate": "Datum indiensttreding",
+      "role": "Primaire rol",
+      "rolePlaceholder": "Rol selecteren",
+      "typePlaceholder": "Type selecteren of maken",
+      "teamPlaceholder": "Team selecteren",
+      "timeZonePlaceholder": "Tijdzone selecteren",
+      "userPicture": "Profielafbeelding",
+      "upload": "Uploaden",
+      "create": "Medewerker maken",
+      "day": "Dag",
+      "month": "Maand",
+      "year": "Jaar",
+      "middleName": "Tweede voornaam",
+      "displayName": "Weergavenaam",
+      "type": "Type",
+      "statusIconHoverTip": {
+        "pending": "E-mail is in afwachting van verificatie.",
+        "complete": "E-mail is geverifieerd.",
+        "warning": "E-maildomein niet toegestaan"
+      },
+      "roles": {
+        "agent": "Agent",
+        "manager": "Manager",
+        "admin": "Beheerder"
+      },
+      "groupsDropDown": "{{selectedCount}} groepen",
+      "skillsDropDown": "{{selectedCount}} skills",
+      "wfoSkillsDropDown": "{{totalCount}} skills weergegeven",
+      "wfoSkillsDropDownLimitTo": "{{limitCount}}/{{totalCount}} skills weergegeven. Typ om te zoeken",
+      "customAttributes": {
+        "heading": "Attributen",
+        "canBeEvaluatedLabel": "Kan worden geëvalueerd/gecoacht",
+        "canBeScheduled": "Kan worden ingepland",
+        "canBeRecorded": "Kan worden opgenomen (spraak)",
+        "canBeRecordedScreen": "Kan worden opgenomen (scherm)",
+        "canBeRecordedDefault": "Kan worden opgenomen",
+        "canBeAnalyzed": "Kan worden geanalyseerd",
+        "canBeMeasured": "Kan worden gemeten",
+        "nonBillableUser": "Niet-factureerbare gebruiker ",
+        "digitalEngagement": "Digital Engagement",
+        "customerCard": "Klantenkaart",
+        "agentIntegrations": "Agentintegraties",
+        "canViewBIReports": "Kan BI-rapporten weergeven",
+        "canEditBIReports": "Kan BI-rapporten bewerken",
+        "virtualAgentEnabled": "Virtuele agent ingeschakeld",
+        "smartreachuser": "SmartReach-gebruiker",
+        "smartreachagent": "SmartReach-agent",
+        "performanceManagementInsights": "Performance Management Insights",
+        "performanceManagementAct": "Performance Management Act",
+        "smartreachdesk": "Bureau",
+        "smartreachecc": "Enhanced Customer Card",
+        "dataCollectionEnabled": "Gegevensverzameling ingeschakeld"
+      },
+      "MFALabel": "MFA",
+      "mfaSecret": "MFA-geheim",
+      "mfaTimeStep": "MFA-tokenperiode",
+      "mfaTimeStepUnit": "seconden",
+      "mfaTimeStepInterval": "15-300",
+      "clearButton": "Wissen",
+      "generateButton": "Genereren",
+      "externalIdentity": "Externe identiteit",
+      "defaultTag": "(Standaard)"
+    },
+    "skillsTab": {
+      "header": "Skills selecteren",
+      "assignedTxt": "Toegewezen skills",
+      "addBtn": "Toevoegen",
+      "selectTxt": "Medewerkers selecteren",
+      "selectedTxt": "Geselecteerd:"
+    },
+    "secondaryRolesTab": {
+      "secondaryRoles": "Secundaire rollen",
+      "secondaryRolesDropdown": "Rollen selecteren",
+      "addRoles": "Rol toevoegen",
+      "addRolesFTOn": "Toepassen",
+      "itemscount": "{{count}} toegewezen rollen",
+      "roleName": "Rolnaam",
+      "rolesList": "Rollenlijst",
+      "assignedRoles": "Toegewezen rollen | {{count}} in totaal",
+      "errorMsg": "Maximum aantal secundaire rollen (10) geselecteerd",
+      "noItemsOverlay": "Nog geen rollen toegewezen"
+    },
+    "securityTab": {
+      "loginAuthenticator": "Inlogauthenticator",
+      "loginAuthenticatorPlaceholder": "Authenticator selecteren",
+      "noneSelected": "Niets geselecteerd",
+      "getAllAuthenticatorsError": "Er is een fout opgetreden bij het ophalen van de inlogauthenticators. Probeer het later opnieuw.",
+      "loginAuthenticatorInfo": "Inlogauthenticator ontbreekt of is inactief."
+    },
+    "visibilityTab": {
+      "visibility": "Zichtbaarheid",
+      "views": "Weergaven",
+      "viewsDropdown": "Weergaven selecteren",
+      "addViews": "Weergave toevoegen",
+      "addViewsFTOn": "Toepassen",
+      "itemscount": "{{count}} toegewezen weergaven",
+      "viewName": "Weergavenaam",
+      "viewDesc": "Beschrijving bekijken",
+      "viewType": "Weergavetype",
+      "assignedViews": "Toegewezen weergaven | {{count}} in totaal",
+      "errorMsg": "Maximum aantal weergaven (3) geselecteerd",
+      "maxSelectionErrorMsg": "Er kunnen maximaal 3 weergaven worden geselecteerd",
+      "maxSelectionErrorMsgViews": "Er kunnen maximaal 10 weergaven worden geselecteerd",
+      "noItemsOverlay": "Nog geen weergaven toegewezen",
+      "viewTypes": {
+        "transaction": "Interactiesegment"
+      }
+    },
+    "lockUserTab": {
+      "lockUser": "Gebruiker vergrendelen",
+      "views": "Weergaven",
+      "daysSelectorLable": "Inactieve dagen voordat een gebruiker kan worden vergrendeld",
+      "neverLockUser": "Gebruiker nooit vergrendelen",
+      "on": "Aan",
+      "off": "Uit",
+      "inactivityDaysMessage": "Er moeten 7 tot 90 dagen inactiviteit zijn"
+    },
+    "ssoStateTab": {
+      "SSOState": "SSO-status aanpassen",
+      "daysSelectorLabel": "Uren instellen voor gebruikersstatus",
+      "on": "Aan",
+      "off": "Uit",
+      "SSOStateValueMessage": "De waarde Gebruikersstatus moet tussen 1 en 168 liggen"
+    },
+    "tabs": {
+      "bcpType": "BCP-TYPE",
+      "bcpNoAccess": "Geen toegang tot BCP-tenant",
+      "primaryTenant": "PRIMAIRE TENANT",
+      "secondaryTenant": "SECUNDAIRE TENANT"
+    }
+  },
+  "filter": {
+    "clearall": "Alles wissen",
+    "close": "Sluiten"
+  },
+  "formExample": {
+    "enterYourName": "Voer uw naam in:",
+    "enterYourEmail": "Voer uw e-mailadres in:",
+    "enterYourAge": "Voer uw leeftijd in:",
+    "createPassword": "Maak een wachtwoord:",
+    "confirmPassword": "Bevestig uw wachtwoord:",
+    "errorMessages": {
+      "required": "Het veld is leeg...",
+      "minLength": "Het veld is te kort",
+      "maxLength": "Het veld is te lang",
+      "email": "Uw e-mailadres is ongeldig",
+      "password": " Uw wachtwoord mag alleen letters en cijfers bevatten Er moet ook minimaal één speciaal teken, één cijfer en één hoofdletter in staan.",
+      "match": "Dit wachtwoord komt niet overeen met het eerder ingevoerde wachtwoord",
+      "minLengthPassword": "Het wachtwoord moet minimaal 8 tekens lang zijn",
+      "maxLengthPassword": "Dit wachtwoord is te lang...",
+      "minAge": "U moet minimaal 10 jaar oud zijn!",
+      "maxAge": "U moet jonger zijn dan 80 jaar!",
+      "number": "Alleen cijfers!"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "Dit veld is vereist.",
+    "minLength": "De invoer is te kort",
+    "nameFieldValidation": "! \\ < > ? % \" of emoji's worden niet ondersteund",
+    "nameFieldValidation2": "De volgende tekens zijn niet toegestaan: \\ / ! + < > ? # & , % \" ",
+    "maxLength": "De invoer is te lang",
+    "email": "Het e-mailadres dat u hebt ingevoerd is niet geldig",
+    "userName": "Gebruikersnaam moet een e-mailadres zijn",
+    "emailExists": "Het e-mailadres bestaat al. Probeer een andere waarde",
+    "userNameExists": "De gebruikersnaam bestaat al. Probeer een andere waarde",
+    "number": "Alleen cijfers!",
+    "pattern": "Onjuiste notatie voor dit veld",
+    "password": "Het wachtwoord moet minimaal 8 tekens lang zijn, met minimaal 1 cijfer en 1 hoofdletter",
+    "match": "Dit wachtwoord komt niet overeen met het vorige wachtwoord",
+    "compareTo": "Dit wachtwoord komt niet overeen met het vorige wachtwoord",
+    "minLengthPassword": "Het wachtwoord moet minimaal 8 tekens lang zijn",
+    "maxLengthPassword": "Uw wachtwoord is te lang",
+    "min": "Waarde is te klein",
+    "max": "Waarde is te groot",
+    "uniqueString": "Deze naam bestaat al. Probeer een nieuwe.",
+    "lowerThen": "De minimumwaarde mag niet groter zijn dan de maximumwaarde",
+    "weeklyMaxLowerThanSumDailyMin": "Het minimum aantal dagen volgens de dagregels is groter dan het maximum aantal dagen in de weekregel.",
+    "weeklyMinGreaterThanSumDailyMax": "Het minimum aantal dagen in de weekregel is groter dan het maximum aantal dagen volgens de dagregels.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "Totaal aantal uren van de minimale dagelijkse combinaties mag niet groter zijn dan het maximum aantal uren per week",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "Totaal aantal uren van de maximale dagelijkse combinaties mag niet kleiner zijn dan het minimum aantal uren per week",
+    "uniqueDaysCounterLowerThanSumDailyMin": "Het minimum aantal dagen is groter dan het totaal aantal unieke dagen.",
+    "possibleDaysLowerThanMinDays": "Het aantal mogelijke dagen voldoet niet aan het minimum aantal dagen dat wordt vereist door de weekregel.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "Het minimum aantal dagen in de weekregel is groter dan het aantal unieke dagen.",
+    "noAddedShiftPatters": "U moet minimaal één dagregel selecteren",
+    "shiftLengthLowerThanActivityLength": "Som van activiteitslengte en relatieve start mag niet groter zijn dan dienstduur",
+    "shiftLengthLowerThanTotalActivityLength": "De totale lengte van de activiteiten mag niet langer zijn dan de lengte van de dienst",
+    "relativeStartLowerThanSlack": "Slack mag niet meer zijn dan relatieve starttijd",
+    "activitiesOverlap": "Activiteiten mogen niet overlappen",
+    "serverError": "Onbekende serverfout",
+    "notValidRegex": "Deze tekens kunnen niet worden gebruikt: ^/!\\+<>?#&,%.",
+    "uniqueTitle": "Deze naam bestaat al. Probeer een nieuwe.",
+    "timeRangeOutsideOfRange": "Ongeldige datum indiensttreding",
+    "invalidFileFormat": "Ongeldige bestandsindeling",
+    "integerInvalid": "Moet een geheel getal zijn.",
+    "refusalTimeRange": "Waarde moet tussen 15 en 300 liggen",
+    "invalidMobileNumber": "Het ingevoerde mobiele nummer is ongeldig",
+    "invalidTelephone": "Het ingevoerde telefoonnummer is ongeldig",
+    "userActivityBlocked": "Het aanmaken en bewerken van medewerkers is tijdelijk niet mogelijk tijdens dit geplande onderhoud. De service is binnenkort weer beschikbaar.",
+    "invalidMfaSecret": "Ongeldig MFA-geheim",
+    "invalidTotalContactCount": "Totaal aantal contacten mag niet groter zijn dan de som van alle aantallen contacten.",
+    "nonBillableMaxCountReached": "Er kunnen maximaal 5 niet-factureerbare gebruikers zijn.",
+    "nonBillableIncreasedLimitReached": "Er kunnen maximaal 25 niet-factureerbare gebruikers zijn",
+    "invalidMediaSum": "Niet alle kanalen kunnen worden uitgeschakeld. De som van alle contacten moet groter zijn dan 0.",
+    "incorrectMediaValue": "De waarde {{incorrectValue}} van {{mediaType}} voor {{who}} is ongeldig.",
+    "digitalEngagmentUserLimitReached": "Het aantal gebruikers dat is ingeschakeld voor Digital Engagement is overschreden",
+    "hierarchiesFailure": "Kan hiërarchieën niet ophalen",
+    "descriptionLengthExceededError": "De lengte van de beschrijving heeft de maximale limiet van 255 tekens overschreden",
+    "cannotDropTeamsOnTeams": "Deze actie kan niet worden uitgevoerd omdat Team geen onderliggend knooppunt van Team kan zijn",
+    "cannotDropOUOnTeams": "Deze actie kan niet worden uitgevoerd omdat Organisatie-eenheid geen onderliggend knooppunt van Team kan zijn",
+    "cannotDropSUOnTeams": "Deze actie kan niet worden uitgevoerd omdat Planningseenheid geen onderliggend knooppunt van Team kan zijn",
+    "cannotDropOUOnSU": "Deze actie kan niet worden uitgevoerd omdat Organisatie-eenheid geen onderliggend knooppunt van Planningseenheid kan zijn",
+    "failedToCreateUser": "Kan gebruiker niet aanmaken",
+    "failedToUpdateUser": "Bijwerken van gebruiker is mislukt",
+    "maxAllowedLimitExceeded": "Maximale toegelaten weergavelimiet is overschreden",
+    "notAllowedToChangeOwnUserView": "Wijzigen van eigen gebruikersweergaven is niet toegestaan",
+    "typeAlreadyExists": "Type bestaat al."
+  },
+  "groupsListPage": {
+    "pageTitle": "Groepen",
+    "groups": "Groepen",
+    "itemsCount": "{{count}} weergegeven",
+    "totalItemsCount": "{{count}} totaal",
+    "userCount": "",
+    "selectedItems": "{{selectedCount}} geselecteerd",
+    "untitledTeam": "Naamloze groep",
+    "createGroup": "Nieuwe groep",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "confirm": "Bevestigen",
+    "newGroupPageTitle": "Nieuwe groep maken",
+    "create": "Maken",
+    "filters": {
+      "status": "{{count}} status",
+      "group": "{{count}} groepen"
+    },
+    "changeAuditHistoryTab": {
+      "GroupAuditable": {
+        "id": "ID",
+        "name": "Naam",
+        "usersIds": "Gebruikers-ID's"
+      },
+      "noRowsOverlayText": "Gegevens van wijzigingsgeschiedenis niet gevonden",
+      "itemsCountLabel": "Wijzigingen"
+    },
+    "tabLabels": {
+      "changeHistory": " Wijzigingsgeschiedenis",
+      "general": "Algemeen",
+      "assignedUsers": "Toegewezen gebruikers",
+      "zeroRow": "0 totaal"
+    },
+    "generalInfo": {
+      "groupName": "Groepsnaam",
+      "title": "Informatie over groep",
+      "mandatorySymbol": "*"
+    },
+    "users": {
+      "searchPlaceholder": "Begin met typen om gebruikers te vinden",
+      "noItemsOverlay": "Er zijn nog geen gebruikers toegevoegd",
+      "noItemsOverlayGrid": "Geen gebruikers gevonden met dit filter",
+      "noUsersSubText": "Selecteer hierboven \"Gebruikers toevoegen\" om gebruikers toe te voegen",
+      "columns": {
+        "name": "Naam",
+        "username": "Gebruikersnaam",
+        "email": "E-mail",
+        "group": "Groep",
+        "status": "Status"
+      },
+      "popovers": {
+        "messageAddedUser": "U moet deze gebruiker aan een andere groep toewijzen om de verwijdering mogelijk te maken.",
+        "messageNewUser": "Gebruiker uit deze groep verwijderen?",
+        "bulkMessageAddedUser": "U moet de gebruiker(s) aan een andere groep toewijzen om ze te kunnen verwijderen.",
+        "bulkMessageNewUser": "Gebruikers uit deze groep verwijderen?"
+      },
+      "userSelectionModal": {
+        "noUserAddedText": "Nog geen gebruikers toegevoegd",
+        "noUserSelectedText": "Nog geen gebruikers geselecteerd"
+      },
+      "modal": {
+        "noItemsOverlay": "Er zijn geen gebruikers beschikbaar om toe te wijzen",
+        "title": "Gebruikers toevoegen",
+        "saveLabel": "Bevestigen",
+        "cancelLabel": "Annuleren"
+      },
+      "buttons": {
+        "addUsers": "Gebruikers toevoegen",
+        "removeUsers": "Gebruikers verwijderen"
+      }
+    },
+    "createSuccessMessage": "Groep is aangemaakt.",
+    "updateFailureMsg": "Groep is niet opgeslagen",
+    "popover": {
+      "warningMessage": " Alle wijzigingen gaan verloren. ",
+      "confirmMessage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "Niet-opgeslagen gegevens",
+        "unsavedChanges": "Als u de pagina verlaat, gaan de wijzigingen verloren.",
+        "areYouSureLeavePage": "Weet u zeker dat u wilt doorgaan?"
+      }
+    },
+    "userAssignmentFailureMsg": "Gebruikerstoewijzing is mislukt",
+    "userLabels": {
+      "unassignedUsersLabel": "Alle niet-toegewezen gebruikers",
+      "assignedUsersLabel": "Toegewezen gebruikers",
+      "userSearchPlaceholder": "Begin met typen om gebruikers te vinden"
+    },
+    "removeSelectedUsersMsg": "U staat op het punt om de geselecteerde gebruikers te verwijderen. Doorgaan?",
+    "removeSelectedUnavailableCodeMsg": "U staat op het punt om de geselecteerde niet-beschikbaarheidscodes te verwijderen. Doorgaan?",
+    "status": {
+      "active": "Actief",
+      "inactive": "Inactief",
+      "all": "Alle",
+      "pending": "In behandeling",
+      "unregistered": "Niet-geregistreerd"
+    }
+  },
+  "importUsersModal": {
+    "header": "Medewerkers importeren",
+    "weSupportMessage": "Medewerkers importeren door een CSV-bestand te uploaden",
+    "downloadMessage1": "U kunt een sjabloon van een CSV-bestand downloaden:",
+    "downloadMessage2": "",
+    "downloadLink": "hier.",
+    "selectFileMessage": "",
+    "successMsg": "Medewerkers zijn geïmporteerd.",
+    "errorMsg": "Importeren van medewerkers is mislukt.",
+    "downloadTemplates": "Sjabloon downloaden",
+    "dragAndFropText": "Slepen om te uploaden of",
+    "browsFileText": "bladeren naar bestanden",
+    "importErrorsList": {
+      "header": "Importfouten",
+      "invalidUser": "Rol bestaat niet in systeem",
+      "invalidUserRole": "Rol en gebruikersstatus komen niet overeen",
+      "userAlreadyExists": "Kan gebruiker niet maken: er bestaat al een gebruiker met dezelfde gebruikersnaam.",
+      "userCreateFailed": "Kan gebruiker niet maken; controleer de ingevoerde gegevens",
+      "invalidUserStatus": "Het e-mailadres van een actieve gebruiker kan niet worden gewijzigd.",
+      "cannotChangeOwnRole": "U kunt uw eigen rol niet wijzigen."
+    }
+  },
+  "metaInfo": {
+    "title": "NICE SaaS WFM ",
+    "description": "NICE SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "success": {
+      "title": "Geslaagd",
+      "description": "NICE SaaS WFM"
+    },
+    "examples": {
+      "title": "Voorbeelden",
+      "description": "NICE SaaS WFM"
+    },
+    "form_example": {
+      "title": "Formuliervoorbeelden",
+      "description": "NICE SaaS WFM"
+    },
+    "userManagement": {
+      "title": "Medewerkers",
+      "description": "NICE SaaS WFM"
+    },
+    "groups": {
+      "title": "Groepen",
+      "description": "NICE SaaS WFM"
+    },
+    "groups/create": {
+      "title": "Groep maken",
+      "description": "NICE SaaS WFM"
+    },
+    "groups/update": {
+      "title": "Groep bijwerken",
+      "description": "NICE SaaS WFM"
+    },
+    "accountSettings": {
+      "title": "Accountinstellingen",
+      "description": "NICE SaaS WFM"
+    },
+    "teams": {
+      "title": "Teams",
+      "description": "Teams"
+    },
+    "teams/create": {
+      "title": "Team maken",
+      "description": "Teams"
+    },
+    "teams/update": {
+      "title": "Team bijwerken",
+      "description": "Teams"
+    },
+    "viewTeam": {
+      "title": "Team weergeven",
+      "description": "Teams"
+    },
+    "bulkUploadDownload": {
+      "title": "Massale upload/download",
+      "description": "Massale upload/download"
+    },
+    "bulkUploadDownload/reviewErrors": {
+      "title": "Massale upload/download - fouten bekijken",
+      "description": "Massale upload/download - fouten bekijken"
+    },
+    "hierarchies": {
+      "title": "Hiërarchieën",
+      "description": "Hiërarchieën"
+    },
+    "hierarchyManager": {
+      "title": "Hiërarchiebeheer",
+      "description": "Hiërarchiebeheer"
+    },
+    "hierarchyManagerV2": {
+      "title": "Hiërarchiebeheer",
+      "description": "Hiërarchiebeheer"
+    },
+    "security": {
+      "title": "Beveiliging",
+      "description": "Beveiliging"
+    },
+    "createGroup": {
+      "title": "Groep maken"
+    },
+    "userManagement/create": {
+      "title": "Gebruikers maken",
+      "description": "Gebruikers maken"
+    },
+    "userManagement/update": {
+      "title": "Gebruikers bijwerken",
+      "description": "Gebruikers bijwerken"
+    },
+    "employeeGroups": {
+      "title": "Planningseenheid",
+      "description": "NICE SaaS WFM"
+    }
+  },
+  "successPage": {
+    "welcomeMsg": "Hallo {{username}} "
+  },
+  "teamsListPage": {
+    "pageTitle": "Teams",
+    "goBackToHierarchy": "Ga terug naar hiërarchie",
+    "teams": "Teams",
+    "teamCount": "{{count}} teams",
+    "itemsCount": "{{count}} weergegeven",
+    "totalItemsCount": "{{count}} totaal",
+    "userCount": "",
+    "selectedItems": "{{selectedCount}} geselecteerd",
+    "untitledTeam": "Naamloos team",
+    "createTeam": "Nieuw team",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "saveAndActivate": "Opslaan en activeren",
+    "newTeamPageTitle": "Nieuw team maken",
+    "bulkOperationBtn": {
+      "activate": "Activeren",
+      "deactivate": "Deactiveren"
+    },
+    "filters": {
+      "statusLabel": "Status",
+      "status": "{{count}} status",
+      "team": "{{count}} teams",
+      "selectStatus": "Status selecteren",
+      "userStatus": {
+        "active": "Actief",
+        "unregistered": "Niet-geregistreerd",
+        "pending": "In behandeling",
+        "deleted": "Verwijderd"
+      }
+    },
+    "status": {
+      "active": "Actief",
+      "inactive": "Inactief",
+      "all": "Alle"
+    },
+    "tabLabels": {
+      "general": "Algemeen",
+      "assignedUsers": "Toegewezen gebruikers",
+      "unavailableCodes": "Niet-beschikbaarheidscodes",
+      "teamProperties": "Teameigenschappen",
+      "contactSettings": "Contactinstellingen",
+      "features": "Functies",
+      "changeAuditHistory": " Wijzigingsgeschiedenis",
+      "zeroRow": "0 totaal"
+    },
+    "changeAuditHistoryTab": {
+      "Team": {
+        "id": "ID",
+        "name": "Naam",
+        "description": "Beschrijving",
+        "status": "Status",
+        "leadUserId": "Gebruikers-ID lead",
+        "isDefault": "Is standaard",
+        "createdBy": "Gemaakt door",
+        "lastModified": "Laatst gewijzigd",
+        "acdInfos": "ACD-info",
+        "customAttributes": {
+          "inViewChatMessaging": "Performance Management chatberichten",
+          "niceScreenRecording": "Schermopname",
+          "inViewCoaching": "Performance Management coaching",
+          "niceAudioRecording": "Geluidsopname",
+          "niceWfmWorloadManager": "WFM Workload Manager",
+          "niceQuaityManagement": "Kwaliteitsbeheer",
+          "inViewPerformanceMangement": "Performance Management",
+          "niceQualityOptimization": "Kwaliteitsoptimalisatie",
+          "maxReleasePreview": "Vorige MAX-versie gebruiken",
+          "inViewGamification": "Performance Management Gamification",
+          "inViewWallboard": "Performance Management Wallboard",
+          "niceWfmEssentials": "WFM Essentials",
+          "niceWfmAdvanced": "WFM Advanced",
+          "niceWfoAdvanced": "WFO Advanced"
+        },
+        "divisionId": "Divisie-id"
+      },
+      "noRowsOverlayText": "Gegevens van wijzigingsgeschiedenis niet gevonden",
+      "itemsCountLabel": "Wijzigingen"
+    },
+    "generalInfo": {
+      "teamName": "Teamnaam",
+      "heading": "Teamgegevens",
+      "teamDescription": "Beschrijving",
+      "teamLead": "Teamleider",
+      "teamId": "Team-ID",
+      "noneSelected": "Niets geselecteerd",
+      "mandatorySymbol": "*",
+      "hierarchyName": "Naam",
+      "hierarchyType": "Type",
+      "hierarchyParent": "Bovenliggend",
+      "hierarchyAssociationHeading": "Hiërarchiekoppeling",
+      "emptyHierarchiesMessage": "Dit team is niet gekoppeld met een organisatiehiërarchie. Voeg dit toe al een knooppunt in een bestaande organisatorische hiërarchie of maak een nieuwe.",
+      "hierarchyPermission": "U hebt geen machtiging om hiërarchiegegevens te bekijken",
+      "primaryHierarchy": "Primaire hiërarchie",
+      "warningModal": {
+        "warningHeader": "Waarschuwing",
+        "modalBody": "Zodra een team is toegewezen, kan er geen divisie worden gewijzigd.",
+        "modalBodySub": "Weet u zeker dat u wilt doorgaan?",
+        "divisionLink": "Pagina Divisiebeheer",
+        "cancel": "Annuleren",
+        "continue": "Doorgaan"
+      },
+      "teamDivision": "Divisie",
+      "teamDivisionPlaceholder": "Divisie selecteren"
+    },
+    "users": {
+      "searchPlaceholder": "Begin met typen om gebruikers te vinden",
+      "noItemsOverlay": "Er zijn nog geen gebruikers toegevoegd",
+      "noItemsOverlayGrid": "Geen gebruikers gevonden met dit filter",
+      "noUsersSubText": "Selecteer hierboven \"Gebruikers toevoegen\" om gebruikers toe te voegen",
+      "columns": {
+        "name": "Naam",
+        "username": "Gebruikersnaam",
+        "email": "E-mail",
+        "team": "Team",
+        "status": "Status"
+      },
+      "popovers": {
+        "messageAddedUser": "U moet deze gebruiker aan een ander team toewijzen om de verwijdering mogelijk te maken.",
+        "messageNewUser": "Gebruiker uit dit team verwijderen?",
+        "bulkMessageAddedUser": "U moet de gebruiker(s) aan een ander team toewijzen om ze te kunnen verwijderen.",
+        "bulkMessageNewUser": "Gebruikers uit dit team verwijderen?"
+      },
+      "userSelectionModal": {
+        "noUserAddedText": "Nog geen gebruikers toegevoegd",
+        "noUserSelectedText": "Nog geen gebruikers geselecteerd"
+      },
+      "modal": {
+        "noItemsOverlay": "Er zijn geen gebruikers beschikbaar om toe te wijzen",
+        "title": "Gebruikers toevoegen"
+      },
+      "buttons": {
+        "addUsers": "Gebruikers toevoegen",
+        "removeUsers": "Gebruikers verwijderen"
+      }
+    },
+    "unavailableCodes": {
+      "searchPlaceholder": "Begin met typen om een niet-beschikbaarheidscode te vinden",
+      "noItemsOverlay": "Er zijn nog geen niet-beschikbaarheidscodes toegevoegd",
+      "noItemsOverlayGrid": "Geen niet-beschikbaarheidscodes gevonden met dit filter",
+      "noUCSubText": "Selecteer hierboven \"Niet-beschikbaarheidscode toevoegen\" om toe te voegen",
+      "columns": {
+        "name": "Naam",
+        "afterContactWork": "Nawerk",
+        "agentTimeout": "Agent-timeout (min.)"
+      },
+      "popovers": {
+        "bulkRemoveConfirmation": "Geselecteerde niet-beschikbaarheidscodes uit dit team verwijderen?",
+        "removeConfirmation": "Niet-beschikbaarheidscode verwijderen uit dit team?"
+      },
+      "modal": {
+        "noItemsOverlay": "Er zijn geen niet-beschikbaarheidscodes beschikbaar om toe te wijzen",
+        "title": "Niet-beschikbaarheidscode toevoegen",
+        "noUnavailableCodesAddedText": "Nog geen niet-beschikbaarheidscodes toegevoegd",
+        "noUnavailableCodesSelectedText": "Nog geen niet-beschikbaarheidscodes geselecteerd"
+      },
+      "buttons": {
+        "addUnavailableCode": "Niet-beschikbaarheidscode toevoegen",
+        "removeUnavailableCode": "Niet-beschikbaarheidscode verwijderen"
+      }
+    },
+    "features": {
+      "enabledFeatures": "Ingeschakelde functies",
+      "performanceOptimization": "Prestatieoptimalisatie",
+      "inViewPerfManagement": "Performance Management",
+      "gamification": "Performance Management Gamification",
+      "chatMessage": " Performance Management chatberichten",
+      "coaching": "Performance Management coaching",
+      "inViewWallboard": "Performance Management Wallboard",
+      "maxReleasePreview": "Vorige MAX-versie gebruiken",
+      "maxPreview": "Vorige MAX-versie",
+      "NICEWFO": "WFO ENTERPRISE",
+      "niceAudioRecording": "Geluidsopname",
+      "niceScreenRecording": "Schermopname",
+      "niceQualityManagement": "Kwaliteitsbeheer",
+      "niceQualityOptimization": "Kwaliteitsoptimalisatie",
+      "niceWfmAdvanced": "WFM Advanced",
+      "niceWfmEssentials": "WFM Essentials",
+      "niceWfoEssentials": "WFO Essentials",
+      "niceWfoAdvanced": "WFO Advanced",
+      "cxoneCustomerAuthentication": "CXone klantauthenticatie"
+    },
+    "createSuccessMessage": "Team is aangemaakt.",
+    "updateFailureMsg": "Team is niet opgeslagen",
+    "popover": {
+      "warningMessage": "Alle wijzigingen gaan verloren",
+      "confirmMessage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?",
+      "hierarchyRedirectionConfirmationMessage": "Er zijn mogelijk enkele niet-opgeslagen wijzigingen op deze pagina. Kies een van de volgende opties om door te gaan met het bekijken van de hiërarchiegegevens."
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "Niet-opgeslagen gegevens",
+        "unsavedChanges": "Als u de pagina verlaat, gaan de wijzigingen verloren.",
+        "areYouSureLeavePage": "Weet u zeker dat u wilt doorgaan?"
+      }
+    },
+    "saveDuplicateTeamModal": {
+      "addHeader": "Team dupliceren",
+      "subHeading": "TEAMNAAM",
+      "saveLabel": "Dupliceren",
+      "cancelLabel": "Annuleren",
+      "successMsg": "Team is gedupliceerd",
+      "failureMsg": "Fout bij dupliceren van team",
+      "errors": {
+        "uniqueTitle": "Deze naam bestaat al. Probeer een nieuwe."
+      }
+    },
+    "teamProperties": {
+      "contactHandlingTab": {
+        "contactHandling": "Contactafhandeling",
+        "contactHandlingSubTitle": "Standaardinstellingen voor team",
+        "teamDefaultsSingleChannel": "Standaardinstellingen voor team (singlechannel afhandeling)",
+        "teamDefaults": "Standaardinstellingen voor team",
+        "teamDefault": "Teamstandaard",
+        "teamDefaultOff": "Teamstandaard (uit)",
+        "deliveryMode": "AANLEVERINGSWIJZE",
+        "voice": "SPRAAK",
+        "chats": "CHATS",
+        "singleChannelChatLbl": "Gelijktijdige chats",
+        "emails": "E-MAILS",
+        "singleChannelEmailLbl": "Automatisch geparkeerde e-mails",
+        "workItems": "WERKITEMS",
+        "digital": "DIGITAAL",
+        "requestContact": "CONTACT AANVRAGEN",
+        "contactAutoFocus": "AUTOFOCUS",
+        "totalContactCount": "TOTAAL AANTAL CONTACTEN",
+        "contactHandlingSettings": "Instellingen voor contactafhandeling",
+        "assignedUsers": "Toegewezen gebruikers",
+        "noAssignedUsers": "Nog geen gebruikers toegewezen.",
+        "first": "Eerste",
+        "last": "Laatste",
+        "sms": "SMS"
+      }
+    },
+    "activateSuccessMsg": "Team is geactiveerd",
+    "deactivateSuccessMsg": "Team is gedeactiveerd",
+    "activateFailureMsg": "Kan team niet activeren",
+    "deactivateFailureMsg": "Kan team niet deactiveren",
+    "hierarchyRemovalFailureMsg": "Kan hiërarchiekoppeling van team niet verwijderen",
+    "bulkActivationSuccessMsg": "team(s) geactiveerd",
+    "bulkDeactivationSuccessMsg": "team(s) gedeactiveerd",
+    "bulkActivationByPassMsg": "team(s) al actief",
+    "bulkDeactivationByPassMsg": "team(s) al inactief",
+    "bulkActivationFailureMsg": "Kan {0} team(s) niet activeren vanwege interne fout",
+    "bulkDeactivationFailureMsg": "Kan {0} team(s) niet deactiveren",
+    "bulkHierarchyRemovalFailureMsg": "Kan hiërarchiekoppeling van {0} team(s) niet verwijderen vanwege een interne fout",
+    "userAssignmentFailureMsg": "Gebruikerstoewijzing is mislukt",
+    "userSuccessCountMsg": " gebruikers zijn toegevoegd",
+    "userFailureCountMsg": " gebruikers konden niet worden toegevoegd",
+    "userConfigurationFailureMsg": "Bijwerken van gebruikersconfiguratie team mislukt",
+    "userLabels": {
+      "unassignedUsersLabel": "Alle niet-toegewezen gebruikers",
+      "assignedUsersLabel": "Toegewezen gebruikers",
+      "userSearchPlaceholder": "Begin met typen om gebruikers te vinden"
+    },
+    "removeSelectedUsersMsg": "U staat op het punt om de geselecteerde gebruikers te verwijderen. Doorgaan?",
+    "removeSelectedUnavailableCodeMsg": "U staat op het punt om de geselecteerde niet-beschikbaarheidscodes te verwijderen. Doorgaan?",
+    "divisions": {
+      "label": "Divisie",
+      "placeholder": "Divisie selecteren"
+    },
+    "userDivisionMismatchMsg": "Gebruiker kan niet worden verplaatst buiten deze afdeling."
+  },
+  "teamsPage": {
+    "pageTitle": "Teams",
+    "itemsCount": "{{count}} teams",
+    "itemsCountAngular": "Teams",
+    "selectedItems": "Geselecteerd",
+    "createTeam": "Nieuw team",
+    "noItemsOverlay": "Nog geen team toegewezen.",
+    "cancel": "Annuleren",
+    "create": "Maken",
+    "save": "Opslaan",
+    "teamStrToReplace": "team(s)",
+    "searchPlaceHolder": "Begin met typen om een team te vinden",
+    "teamNamePlaceHolder": "Naamloos team",
+    "successMsg": "Team is aangemaakt",
+    "failureMsg": "Kan team niet maken. Probeer het opnieuw",
+    "defaultTooltip": "Standaardteam",
+    "gridColumnsHeaders": {
+      "teamName": "Naam",
+      "status": "Status",
+      "actions": "Acties",
+      "employees": "Gebruikers",
+      "assignedUsers": "Toegewezen gebruikers",
+      "teamId": "Team-ID"
+    },
+    "filters": {
+      "status": "{{count}} status",
+      "searchPlaceholder": "Begin met typen om een team te vinden"
+    },
+    "moreMenu": {
+      "activate": "Activeren",
+      "deactivate": "Deactiveren",
+      "clone": "Dupliceren"
+    },
+    "teamStates": {
+      "all": "Alle",
+      "active": "Actief",
+      "inactive": "Inactief"
+    },
+    "modalMessages": {
+      "hierarchies": {
+        "message": "team maakt deel uit van een of meer hiërarchieën. Wilt u bij het deactiveren ook de teamkoppelingen uit de hiërarchieën verwijderen?",
+        "bulkMessage": "Wilt u bij het deactiveren van de geselecteerde teams ook de teamkoppelingen uit de hiërarchieën verwijderen?"
+      }
+    },
+    "newTeamNamePlaceholder": "Naamloos team",
+    "teamLeadPlaceHolder": "Selecteer een teamleider...",
+    "addHeader": "Nieuw team maken",
+    "editTeam": "Team bewerken",
+    "employeesTab": {
+      "header": "Medewerkers",
+      "assignedEmployeesTxt": "Toegewezen medewerkers",
+      "addEmployeesBtn": "Medewerkers toevoegen",
+      "selectEmployeesTxt": "Medewerkers selecteren",
+      "selectedTxt": "Geselecteerd:"
+    },
+    "contactHandlingInfoTab": {
+      "header": "Contactafhandeling"
+    },
+    "failedLoadTeams": "Team laden is mislukt. Probeer het opnieuw.",
+    "messages": {
+      "updateSuccess": "Team is bijgewerkt",
+      "updateFailure": "Kan teamgegevens niet bijwerken",
+      "updateSuccessStartedMsg": "Update is gestart, dit duurt enkele minuten",
+      "failedToUpdateTeam": "Afdelings-ID team komt niet overeen met de afdelings-ID van het bestaande team"
+    },
+    "hierarchyType": {
+      "ORGANIZATIONAL": "Organisatie"
+    }
+  },
+  "userManagementPage": {
+    "failedLoadUsers": "Kan gebruikers niet laden. Probeer het opnieuw.",
+    "pageTitle": "Medewerkers",
+    "newUserBtn": "Nieuwe medewerker",
+    "importUsersBtn": "Medewerkers importeren",
+    "userListHeader": "Medewerkers in {{orgName}}:",
+    "items": "medewerkers",
+    "item": "medewerker",
+    "selectedItems": "{{selectedCount}} geselecteerd",
+    "billable": "Factureerbaar",
+    "non-billable": "Niet-factureerbaar",
+    "virtualAgentEnabled": "True",
+    "virtualAgentDisabled": "FALSE",
+    "gridColumnsHeaders": {
+      "name": "Naam",
+      "email": "E-mail",
+      "acdLogin": "ACD-login",
+      "role": "Rol",
+      "type": "Type",
+      "state": "Status",
+      "group": "Planningseenheid",
+      "userName": "Gebruikersnaam",
+      "billable": "Factureerbaar",
+      "virtualAgentEnabled": "Virtuele agent"
+    },
+    "filters": {
+      "schedulingUnits": " Planningseenheden",
+      "skills": " Skills",
+      "groups": " Groepen",
+      "searchPlaceholder": "Begin met typen om een gebruiker te vinden",
+      "label": "Tonen",
+      "teams": " Teams",
+      "billable": " Factureerbaar",
+      "type": " Typen",
+      "division": " Afdelingen"
+    },
+    "popover": {
+      "visibility": "U hebt geen machtiging \n om deze informatie te bekijken",
+      "acdLoginLbl": "ACD-login",
+      "hireDateLbl": "Datum indiensttreding: {{value}}",
+      "rankLbl": "Rang: {{value}}",
+      "skillsLbl": "Skills: {{value}}",
+      "visibilityInfo": "U kunt uw eigen zichtbaarheid niet wijzigen.",
+      "roleInfo": "U kunt uw eigen rol niet wijzigen.",
+      "visibilityRoleInfo": "U hebt geen machtiging om deze informatie te bekijken. U kunt uw eigen rol niet wijzigen."
+    },
+    "preferencesTab": {
+      "shiftPreferencesTitle": "Dienstvoorkeuren",
+      "TimePreferencesTitle": "Verlofvoorkeuren",
+      "TimePreferencesSubTitle": "Geen verlofdagen beschikbaar",
+      "PossibleDaysOff": "Mogelijke verlofdagen",
+      "day": "dag",
+      "shiftTime": "diensttijd",
+      "noOptionsAvailable": "Omdat deze medewerker is toegewezen aan regels zonder flexibiliteit, liggen de diensten vast en zijn voorkeuren niet beschikbaar",
+      "noOptionsAvailableForShift": "Geen dienst toegewezen."
+    },
+    "userStates": {
+      "active": "Actief",
+      "pending": "In behandeling",
+      "unregistered": "Uitnodigen",
+      "inviting": "Bezig met verzenden",
+      "deleted": "Inactief",
+      "locked": "Ontgrendelen",
+      "all": "Alle",
+      "samlUnregistered": "Activeren",
+      "lockedUser": "Vergrendelde gebruiker",
+      "passwordLocked": "Vergrendeld wachtwoord"
+    },
+    "userRoles": {
+      "agent": "Agent"
+    },
+    "bulkOperationsBtns": {
+      "inviteBtn": "Uitnodigen",
+      "deleteBtn": "Verwijderen",
+      "deactivateBtn": "Deactiveren",
+      "activateBtn": "Activeren",
+      "resetPasswordBtn": "Resetten wachtwoord",
+      "tooltips": {
+        "invite": "Medewerker uitnodigen",
+        "delete": "Medewerker verwijderen",
+        "resetPwd": "Wachtwoord resetten"
+      }
+    },
+    "status": {
+      "invite": "Uitnodigen"
+    },
+    "tabLabels": {
+      "general": "Algemeen",
+      "skills": "WEM-skills",
+      "availability": "Beschikbaarheid",
+      "preferences": "Voorkeuren",
+      "changeAuditHistory": " Wijzigingsgeschiedenis",
+      "acd": "ACD",
+      "security": "Beveiliging",
+      "contactHandling": "Contactinstellingen",
+      "secondaryRoles": "Secundaire rollen",
+      "accessKeys": "Toegangssleutels",
+      "visibility": "Zichtbaarheid",
+      "recordingAccounts": "Opnameaccounts",
+      "bcp": "BCP"
+    },
+    "changeAuditHistory": {
+      "noRowsOverlayText": "Gegevens van wijzigingsgeschiedenis niet gevonden",
+      "itemsCountLabel": "Wijzigingen",
+      "User": {
+        "userName": "Gebruikersnaam",
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "emailAddress": "E-mailadres",
+        "emailToBeVerified": "E-mail (verificatie in behandeling)",
+        "role": "Primaire rol",
+        "roleUUID": "Primaire rol",
+        "secondaryRoleIds": "Secundaire rollen",
+        "mobileNumber": "Mobiel nummer",
+        "telephone1": "Telefoon 1",
+        "telephone2": "Telefoon 2",
+        "hireDate": "Datum indiensttreding",
+        "rank": "Rang",
+        "views": "Weergaven",
+        "teamId": "Toegewezen aan team",
+        "groupIds": "Toegewezen aan groep",
+        "externalIdentity": "Externe ID",
+        "status": "Status",
+        "acdInfos": "ACD-info",
+        "middleName": "Tweede voornaam",
+        "displayName": "Weergavenaam",
+        "timeZone": "Tijdzone",
+        "type": "Type",
+        "customAttributes": {
+          "canBeScheduled": "Kan worden ingepland",
+          "canBeCoachedOrEvaluated": "Kan worden gecoacht of beoordeeld",
+          "canBeRecorded": "Kan worden opgenomen (spraak)",
+          "canBeRecordedScreen": "Kan worden opgenomen (scherm)",
+          "canBeRecordedDefault": "Kan worden opgenomen",
+          "canBeAnalyzed": "Kan worden geanalyseerd",
+          "osLogin": "Inloggen bij besturingssysteem",
+          "digitalEngagement": "Digital Engagement",
+          "customerCard": "Klantenkaart",
+          "agentIntegrations": "Agentintegraties",
+          "canViewBIReports": "Kan BI-rapporten weergeven",
+          "canEditBIReports": "Kan BI-rapporten bewerken",
+          "virtualAgentEnabled": "Virtuele agent ingeschakeld",
+          "hasSmartReachUserAccess": "SmartReach-gebruiker",
+          "hasSmartReachAgentAccess": "SmartReach-agent",
+          "performanceManagementInsights": "Performance Management Insights",
+          "performanceManagementAct": "Performance Management Act",
+          "smartReachDeskAccess": "Bureau",
+          "smartReachECCAccess": "Enhanced Customer Card",
+          "dataCollectionEnabled": "Gegevensverzameling ingeschakeld"
+        },
+        "loginAuthenticatorId": "Inlogauthenticator-ID",
+        "source": "Bron",
+        "elevatedDivisionId": "Hogere divisie-id"
+      }
+    },
+    "deleteSelectedUsersMsg": "U staat op het punt om de geselecteerde medewerkers te deactiveren. Deze actie verhindert dat de medewerkers kunnen inloggen. Ze moeten opnieuw worden geactiveerd om weer te kunnen inloggen. Doorgaan?",
+    "deleteSingleUsersMsg": "U staat op het punt om deze medewerker te deactiveren. Deze actie verhindert dat de medewerker kan inloggen. De medewerker moet opnieuw worden geactiveerd om weer te kunnen inloggen. Doorgaan?",
+    "inviteSelectedUsersMsg": "De geselecteerde medewerkers worden uitgenodigd om deel te nemen aan deze applicatie. Doorgaan?",
+    "resetPasswordSelectedUsersMsg": "Hiermee worden de geselecteerde gebruikers geforceerd om hun wachtwoord bij te werken bij het aanmelden. Doorgaan?",
+    "activateSelectedUsersMsg": "De geselecteerde medewerkers worden geactiveerd. Doorgaan?",
+    "reinviteUsersMsg": "Uitnodiging verlopen. Controleer het e-mailadres en probeer het opnieuw.",
+    "reinviteBtnText": "Opnieuw sturen",
+    "inviteUsersSuccessMsg": "Medewerkers zijn uitgenodigd",
+    "inviteUsersWarnMsg": "Medewerkers waren al actief",
+    "inviteUsersFailureMsg": "Uitnodigen van medewerkers is mislukt",
+    "inviteSingleUserSuccessMsg": "Medewerker is uitgenodigd",
+    "activateSingleSamlUserSuccessMsg": "Medewerker is geactiveerd",
+    "activateSingleUserSuccessMsg": "Medewerker is geactiveerd",
+    "activateSingleUserFailureMsg": "Medewerker kan niet worden geactiveerd",
+    "createAndInviteSingleUserSuccessMsg": "Medewerker is aangemaakt en uitgenodigd",
+    "createAndActivateSingleSamlUserSuccessMsg": "Medewerker is aangemaakt en geactiveerd",
+    "inviteSingleUserFailureMsg": "Medewerker kan niet worden uitgenodigd",
+    "deleteSingleUserSuccessMsg": "Medewerker is gedeactiveerd. Toekomstige planningen van deze medewerker zijn verwijderd.",
+    "deleteSingleUserFailureMsg": "Medewerker kan niet worden verwijderd",
+    "deleteUsersSuccessMsg": "{{numOfUsers}} medewerkers zijn gedeactiveerd. Toekomstige planningen van deze medewerkers zijn verwijderd.",
+    "deleteUsersFailureMsg": "{{numOfFailedToDeleteUsers}} van {{totalExpected}} medewerkers kunnen niet worden verwijderd",
+    "deleteLoggedInUser": "U kunt uw eigen medewerker niet verwijderen",
+    "reactivateUser": "Gebruiker is geactiveerd",
+    "activateUsersSuccessMsg": "Medewerkers zijn geactiveerd",
+    "activateUsersFailureMsg": "Medewerkers kunnen niet worden geactiveerd door interne fout",
+    "resetUsersPasswordSuccessMsg": "Wachtwoord resetten is gelukt.",
+    "resetUsersPasswordFailureMsg": "Wachtwoord resetten is mislukt",
+    "unlockUser": {
+      "popover": {
+        "warningMessage": "Dit account is vergrendeld vanwege teveel mislukte inlogpogingen.",
+        "confirmMessage": "Wilt u deze gebruiker ontgrendelen?"
+      },
+      "messages": {
+        "unlockSuccess": "Medewerker is ontgrendeld.",
+        "unlockFailure": "Kan de medewerker niet ontgrendelen."
+      },
+      "lockSubtitle": "(Account vergrendeld)"
+    },
+    "actionPopover": {
+      "deactivateUser": "Deactiveren",
+      "activateUser": "Activeren",
+      "resendInvitation": "Uitnodiging opnieuw sturen",
+      "inviteUser": "Uitnodigen",
+      "resetPassword": "Resetten wachtwoord",
+      "unlockUser": "Gebruiker ontgrendelen",
+      "unlockPassword": "Wachtwoord ontgrendelen"
+    },
+    "modalMessages": {
+      "resetPassword": {
+        "title": "Wachtwoord resetten?",
+        "confirmButtonText": "Wachtwoord resetten",
+        "message": "Hiermee wordt de gebruiker geforceerd het wachtwoord bij te werken bij het aanmelden. Weet u zeker dat u het wachtwoord van deze gebruiker wilt resetten?"
+      }
+    },
+    "unlockInactiveUser": {
+      "toasterMessages": {
+        "UnlockedSuccess": " is vergrendeld",
+        "UnlockFailed": " ontgrendelen is mislukt",
+        "PasswordUnlockFailed": "Wachtwoord ontgrendelen is mislukt voor gebruiker ",
+        "PasswordForUser": "Wachtwoord voor gebruiker ",
+        "failedLoadEmployee": "Kan werknemers niet laden "
+      }
+    },
+    "userNotInSameDivisionMsg": {
+      "errorDescription": "Gebruiker hoort niet bij dezelfde afdeling als de inloggebruiker.",
+      "failureMsg": "Kan wachtwoord niet resetten voor gebruikers in een bovenliggende afdeling."
+    }
+  },
+  "commonButtons": {
+    "SingleContactDefault": "Single-contact (standaard)",
+    "Omnichannel": "Omnichannel",
+    "SingleContact": "Single-contact",
+    "ok": "OK",
+    "cancel": "Annuleren",
+    "no": "Nee",
+    "noDefault": "Nee (standaard)",
+    "yes": "Ja",
+    "yesDefault": "Ja (standaard)",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "invite": "Uitnodigen",
+    "edit": "Bewerken",
+    "update": "Bijwerken",
+    "upload": "Uploaden",
+    "today": "Vandaag",
+    "showAll": "Alles weergeven",
+    "clearAll": "Alles wissen",
+    "close": "Sluiten",
+    "create": "Maken",
+    "selectAll": "Alles selecteren",
+    "generate": "Genereren",
+    "chooseFile": "Bestand selecteren",
+    "add": "Toevoegen",
+    "publish": "Publiceren",
+    "set": "Instellen",
+    "day": "Dag",
+    "week": "Week",
+    "refresh": "Vernieuwen",
+    "off": "Uit",
+    "on": "Aan",
+    "discard": "Wijzigingen negeren",
+    "view": "Details weergeven",
+    "remove": "Verwijderen"
+  },
+  "defaultValues": {
+    "defaultNumeric": "{{numericValue}} (standaard)"
+  },
+  "weekDays": {
+    "sunday": "Zondag",
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "saturday": "Zaterdag"
+  },
+  "weekShortDays": {
+    "SUN": "ZO",
+    "MON": "MA",
+    "TUE": "DI",
+    "WED": "WO",
+    "THU": "DO",
+    "FRI": "VR",
+    "SAT": "ZA"
+  },
+  "scheduler": {
+    "noeditsAllowed": "Gedeeltelijk weergegeven diensten kunnen niet worden bewerkt. Wijzig de datums om de dienst te bewerken.",
+    "netstaffing": {
+      "diff": "Verschil",
+      "req": "Gevraagd",
+      "staff": "Bezetting"
+    },
+    "publishModal": {
+      "header": "Nieuwe planningen publiceren",
+      "publishConformation": "Sommige van de geselecteerde datums zijn al gepubliceerd. In geval van een planningswijziging worden de medewerkers geïnformeerd over de nieuwe planning.",
+      "noSchedulesToPublish": "Er zijn geen planningen in het geselecteerde datumbereik.",
+      "attention": "Let op!",
+      "publishAnywayBtn": "Toch publiceren",
+      "schedulingUnit": "Planningseenheid",
+      "from": "Start:",
+      "to": "Einde:",
+      "selectDatePlaceholder": "Datum selecteren",
+      "oneWeek": "1W",
+      "twoWeeks": "2W",
+      "threeWeeks": "3W",
+      "oneMonth": "1M",
+      "successMessage": "Datums zijn gepubliceerd"
+    },
+    "employeeCount": "{{count}} gebruikers",
+    "filters": {
+      "schedulingUnits": "{{count}} planningseenheden",
+      "skills": "{{count}} skills",
+      "groups": "{{count}} groepen",
+      "searchPlaceholder": "Begin met typen om een gebruiker te vinden"
+    },
+    "activityModal": {
+      "activityCodePlaceholder": "Selecteer een activiteitscode",
+      "addTitle": "Activiteit toevoegen - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Opmerkingen toevoegen...",
+      "editTitle": "Activiteit bewerken - {{userName}}",
+      "error": {
+        "conflict": "Conflict gevonden. Deze activiteit komt in de plaats van overlappende activiteiten.",
+        "invaliddatetime": "De opgegeven datum en/of tijd is ongeldig.",
+        "daterange": "Selecteer een datum: vandaag, gisteren of morgen.",
+        "openhours": "U kunt niet inplannen buiten werktijd",
+        "endBeforeStart": "De einddatum mag niet eerder zijn dan de startdatum.",
+        "timeRangeOutsideOfRange": "De activiteit moet beginnen of eindigen binnen het tijdlijnbereik ({{start}} - {{end}}).",
+        "activityOverlappingTimeRange": "Deze activiteit valt buiten de opgehaalde planning en vervangt mogelijk bestaande activiteiten."
+      },
+      "end": "Einde",
+      "remaining": "{{currentLength}} tekens resterend",
+      "remove": "Verwijderen",
+      "start": "Start"
+    },
+    "allDay": "Hele dag",
+    "cancel": "Annuleren",
+    "closed": "U kunt geen diensten en activiteiten toevoegen wanneer de organisatie gesloten is.",
+    "employeeName": "Naam",
+    "hotkeys": {
+      "nextHotKey": "Volgende dag",
+      "previousHotKey": "Vorige dag",
+      "refreshHotKey": "Planningen opnieuw laden uit de database",
+      "saveHotKey": "Planningswijzigingen opslaan",
+      "todayHotKey": "Ga naar vandaag"
+    },
+    "hours": "Uur",
+    "menuItems": {
+      "addActivity": "Activiteit toevoegen",
+      "addShift": "Dienst toevoegen",
+      "copyActivity": "Activiteit kopiëren",
+      "copyShift": "Dienst kopiëren",
+      "editActivity": "Activiteit bewerken",
+      "editShift": "Dienst bewerken",
+      "pasteActivity": "Activiteit plakken",
+      "pasteShift": "Dienst plakken",
+      "removeActivity": "Activiteit verwijderen",
+      "removeShift": "Dienst verwijderen",
+      "cancel": "Sluiten"
+    },
+    "name": "Naam",
+    "organizationClosed": "Organisatie gesloten",
+    "publish": "Publiceren",
+    "save": "Opslaan",
+    "saveAndPublish": "Opslaan en publiceren",
+    "scheduler": "Planningbeheer",
+    "settings": "Planningbeheer configureren",
+    "setupModal": {
+      "tabs": {
+        "netStaffing": {
+          "title": "Nettobezetting",
+          "range": {
+            "min": "Onderbezetting",
+            "mid": "Gebalanceerd",
+            "max": "Overbezetting"
+          }
+        }
+      },
+      "saveSuccess": "Instellingen voor Planningbeheer zijn opgeslagen.",
+      "saveFailure": "Er is een fout opgetreden bij het opslaan van instellingen voor Planningbeheer."
+    },
+    "shiftModal": {
+      "addTitle": "Dienst toevoegen - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Uw opmerkingen...",
+      "editTitle": "Dienst bewerken - {{userName}}",
+      "shiftType": "Diensttype",
+      "error": {
+        "conflict": "Conflict gevonden. Deze activiteit komt in de plaats van overlappende activiteiten.",
+        "invalidtime": "De opgegeven tijd is ongeldig.",
+        "endBeforeStart": "De einddatum mag niet eerder zijn dan de startdatum.",
+        "timeRangeOutsideOfRange": "De dienst moet beginnen of eindigen binnen het tijdlijnbereik ({{start}} - {{end}}).",
+        "shiftOverlappingTimeRange": "Deze dienst valt buiten de opgehaalde planning en vervangt mogelijk bestaande diensten."
+      },
+      "end": "Einde",
+      "remaining": "{{currentLength}} tekens resterend",
+      "remove": "Verwijderen",
+      "start": "Start"
+    },
+    "toasts": {
+      "saveSuccessMessage": "Planningswijzigingen zijn opgeslagen.",
+      "noShiftPaste": "Kan geen dienst plakken die buiten het zichtbare bereik valt.",
+      "noShiftCopy": "Kan geen dienst kopiëren die buiten het zichtbare bereik valt.",
+      "noActivityPaste": "Kan geen activiteit plakken die buiten het zichtbare bereik valt.",
+      "multipleShifts": "Let op!  Er zijn meerdere diensten voor dezelfde dag.",
+      "overlappingShiftsActivities": "Let op!  Er zijn overlappende diensten en/of activiteiten",
+      "noEdit": "Kan geen dienst of activiteit bewerken die buiten het zichtbare bereik valt.",
+      "noRemove": "Kan geen dienst of activiteit verwijderen die buiten het zichtbare bereik valt.",
+      "noAddActivity": "Kan geen activiteit toevoegen aan een dienst die buiten het zichtbare bereik valt."
+    },
+    "today": "Vandaag",
+    "unavailable": "Niet beschikbaar",
+    "unsaved": "Afsluiten zonder wijzigingen op te slaan?",
+    "dailyView": "Dagweergave",
+    "weeklyView": "Weekweergave"
+  },
+  "datePicker": {
+    "nextDay": "Volgende dag",
+    "openCalendar": "Kalender openen",
+    "previousDay": "Vorige dag",
+    "today": "Vandaag"
+  },
+  "timePicker": {
+    "openTimePicker": "Tijdkiezer openen"
+  },
+  "wfmDatetimePicker": {
+    "nextDay": "Volgende dag",
+    "openCalendar": "Kalender openen",
+    "openTimeChooser": "Tijdkiezer openen",
+    "previousDay": "Vorige dag",
+    "today": "Vandaag"
+  },
+  "recoverPassword": {
+    "recoverMessage": "Herstel uw wachtwoord in drie eenvoudige stappen:",
+    "step1": "Typ hieronder het e-mailadres waarmee u zich hebt geregistreerd",
+    "step2": "We sturen u een e-mail met een link om uw wachtwoord te resetten",
+    "step3": "Gebruik deze link om uw wachtwoord te resetten",
+    "successMessage": "Er is een bericht met een link voor het resetten van het wachtwoord verstuurd naar uw e-mail",
+    "forgetPassword": "Wachtwoord vergeten",
+    "forgetPasswordExplenation": "Geef ons uw e-mailadres, dan ontvangt u een link om uw wachtwoord te resetten.",
+    "resetBtn": "Stuur reset link",
+    "back": "Terug naar inloggen",
+    "checkYourEmail": "Controleer uw e-mail",
+    "mailSuccessSent": "We hebben u een e-mail gestuurd met een link om uw wachtwoord te resetten",
+    "successSend": "Verzoek om wachtwoord te resetten is verzonden"
+  },
+  "errors": {
+    "throttlingError": {
+      "code": "retryLater",
+      "message": "Kan gegevens van hiërarchiekoppelingen niet ophalen. Probeer het over een paar minuten opnieuw."
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Inloggen is mislukt"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Algemene fout"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "Deze pagina is niet beschikbaar. Controleer uw verbinding en probeer het opnieuw."
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Algemene fout {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Ongeldige parameters"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Niet-geautoriseerde medewerker"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "Er is geen reactie van de server. Probeer het later opnieuw."
+    },
+    "wrongCredentials": "U hebt een verkeerd e-mailadres of wachtwoord ingevoerd",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interne fout."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "Planningseenheid bestaat niet."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "Deze naam bestaat al. Probeer een nieuwe."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "Deze tenant of medewerker bestaat al. Probeer een andere."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "De gebruikersnaam bestaat al. Probeer een andere waarde"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "Bestand bestaat niet."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "Medewerker bestaat niet"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "Er zijn geen medewerkers om uit te nodigen."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "Aanmaken van medewerker mislukt."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "Ongeldige medewerkersstatus"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "Ongeldige organisatienaam."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Ongeldig e-mailadres."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "Ongeldige voornaam van medewerker."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "Ongeldige achternaam van medewerker."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "Kan standaard planningseenheid niet verwijderen."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "Planningseenheid-ID ontbreekt."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "Maximum aantal uren van medewerker is buiten het bereik."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "Wachtwoord van medewerker is ongeldig."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "Kan standaardgroep niet aanpassen."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "Kan medewerkers niet verwijderen uit standaardgroep."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "Onjuist medewerkerswachtwoord."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "Medewerker bestaat niet."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "U kunt uw eigen medewerker niet verwijderen"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "U kunt niet de enige beheerder verwijderen"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "U kunt geen medewerker verwijderen die al verwijderd is"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "Ongeldig wachtwoordtoken"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "Aanmaken van account mislukt"
+    },
+    "platform_user_manager_service_29": {
+      "code": "CUSTOM_ATTRIBUTE_TYPE_DOES_NOT_EXIST",
+      "message": "Aangepast attribuuttype bestaat niet"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "Organisatienaam is ongeldig"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "platform_user_manager_service_32": {
+      "code": "USER_RANK_NOT_VALID",
+      "message": "Ongeldige rang voor medewerker"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "U hebt geen machtiging om de rol te wijzigen"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "U kunt uw eigen rol niet wijzigen"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "Kan laatste beheerder niet verwijderen."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "Deze naam bestaat al. Probeer een nieuwe."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "Kan wachtwoorden niet wijzigen omdat vorige wachtwoorden en nieuwe wachtwoorden hetzelfde zijn."
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "U hebt een verkeerd e-mailadres of wachtwoord ingevoerd"
+    },
+    "platform_user_manager_service_168": {
+      "code": "CHECK_DETAILS_TRY_AGAIN",
+      "message": "Controleer de gegevens en probeer het opnieuw"
+    },
+    "platform_user_manager_service_40": {
+      "code": "EMPTY_EMAIL_LIST",
+      "message": "Lege e-maillijst"
+    },
+    "platform_user_manager_service_41": {
+      "code": "ROLE_DOES_NOT_EXIST",
+      "message": "Rol bestaat niet"
+    },
+    "platform_user_manager_service_42": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "Ongeldige ACD Login-ID"
+    },
+    "platform_user_manager_service_43": {
+      "code": "ATTRIBUTE_VALUE_ALREADY_EXIST",
+      "message": "Attribuutwaarde bestaat al"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD Login-ID bestaat al"
+    },
+    "platform_user_manager_service_45": {
+      "code": "FAILED_TO_CREATE_USER_MAX_USERS_IN_TENANT_REACHED",
+      "message": "Max. limiet van gebruikers is overschreden"
+    },
+    "platform_user_manager_service_46": {
+      "code": "BAD_REQUEST",
+      "message": "Met deze nieuwe medewerker wordt de gebruikerslimiet overschreden. Neem contact op met de Sales-afdeling via CXoneSalesTeam@niceincontact.com"
+    },
+    "platform_user_manager_service_47": {
+      "code": "FAILED_TO_REVIVE_USER",
+      "message": "Terughalen van medewerker is mislukt"
+    },
+    "platform_user_manager_service_48": {
+      "code": "UNABLE_TO_PARSE_DATE_FORMAT_MISMATCH",
+      "message": "Kan datumnotatie niet herkennen"
+    },
+    "platform_user_manager_service_49": {
+      "code": "INVALID_FUTURE_DATED_LAST_ACCESS_TIME",
+      "message": "Ongeldige laatste toegangstijd"
+    },
+    "platform_user_manager_service_50": {
+      "code": "USER_NAME_NOT_VALID",
+      "message": "Ongeldige medewerkersnaam"
+    },
+    "platform_user_manager_service_51": {
+      "code": "USER_EMAIL_ALREADY_EXISTS",
+      "message": "E-mail bestaat al"
+    },
+    "platform_user_manager_service_52": {
+      "code": "USERNAME_ALREADY_EXISTS",
+      "message": "Medewerkersnaam bestaat al"
+    },
+    "platform_user_manager_service_57": {
+      "code": "INVALID_USER_ROLE",
+      "message": "Ongeldige rol voor medewerker"
+    },
+    "platform_user_manager_service_59": {
+      "code": "USERNAME_NOT_IN_VALID_EMAIL_FORMAT",
+      "message": "Gebruikersnaam moet een e-mailadres zijn"
+    },
+    "platform_user_manager_service_60": {
+      "code": "DISPLAY_NAME_ALREADY_EXISTS",
+      "message": "Weergavenaam voor medewerker bestaat al"
+    },
+    "platform_user_manager_service_61": {
+      "code": "DISPLAY_NAME_CANNOT_BE_NULL",
+      "message": "Weergavenaam is vereist voor medewerker"
+    },
+    "platform_user_manager_service_62": {
+      "code": "DISPLAY_NAME_CANNOT_BE_EMPTY",
+      "message": "Weergavenaam is vereist voor medewerker"
+    },
+    "platform_user_manager_service_64": {
+      "code": "MULTIPLE_USER_WITH_SAME_USERNAME_FOUND",
+      "message": "Meerdere medewerkers gevonden met dezelfde gebruikersnaam"
+    },
+    "platform_user_manager_service_65": {
+      "code": "TEAM_NOT_FOUND_FOR_ID",
+      "message": "Team niet gevonden met deze ID"
+    },
+    "platform_user_manager_service_66": {
+      "code": "INVALID_SEARCH_CRITERIA",
+      "message": "Ongeldige zoekcriteria"
+    },
+    "platform_user_manager_service_67": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "Ongeldige teamnaam"
+    },
+    "platform_user_manager_service_68": {
+      "code": "TEAM_ALREADY_EXISTS",
+      "message": "Team bestaat al"
+    },
+    "platform_user_manager_service_69": {
+      "code": "TEAM_LEAD_USER_DOES_NOT_EXIST",
+      "message": "Teamleider bestaat niet"
+    },
+    "platform_user_manager_service_70": {
+      "code": "TEAM_LEAD_USER_NOT_PROVIDED",
+      "message": "Team zonder teamleider"
+    },
+    "platform_user_manager_service_71": {
+      "code": "TENANT_SCHEMA_OR_USER_ID_DOES_NOT_EXIST",
+      "message": "Tenantschema of medewerker-ID bestaat niet"
+    },
+    "platform_user_manager_service_72": {
+      "code": "INVALID_INPUT_OR_DUPLICATE_CLAIM_DATA",
+      "message": "Ongeldige invoer of dubbele claimgegevens"
+    },
+    "platform_user_manager_service_73": {
+      "code": "REDIS_CACHING_ERROR",
+      "message": "Probleem met Redis-cache"
+    },
+    "platform_user_manager_service_74": {
+      "code": "REDIS_RETRIVAL_ERROR",
+      "message": "Probleem met Redis-cache"
+    },
+    "platform_user_manager_service_75": {
+      "code": "ROLE_MISSING",
+      "message": "Rol ontbreekt"
+    },
+    "platform_user_manager_service_76": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "Probleem met ophalen van rolgegevens"
+    },
+    "platform_user_manager_service_77": {
+      "code": "SERVICE_USER_AUTHENTICATION_FAILED",
+      "message": "Fout bij authenticeren van medewerker"
+    },
+    "platform_user_manager_service_78": {
+      "code": "ROLE_RESPONSE_OBJECT_NOT_FOUND",
+      "message": "Probleem met ophalen van rolgegevens"
+    },
+    "platform_user_manager_service_81": {
+      "code": "IMPERSONATE_USER_UPDATE_NOT_ALLOWED",
+      "message": "Bijwerken van gebruikersimitatie is niet toegestaan"
+    },
+    "platform_user_manager_service_83": {
+      "code": "REDIS_TEMPLATE_CREATION_ERROR",
+      "message": "Probleem met Redis-cache"
+    },
+    "platform_user_manager_service_84": {
+      "code": "INVALID_JOINT_USER_ATTRIBUTES",
+      "message": "Ongeldig gezamenlijk gebruikersattribuut"
+    },
+    "platform_user_manager_service_85": {
+      "code": "INVALID_IMPORT_RUN_ID",
+      "message": "Ongeldige importuitvoering-ID"
+    },
+    "platform_user_manager_service_86": {
+      "code": "NO_REPORTS_FOUND_FOR_GIVEN_IMPORT_RUN",
+      "message": "Geen rapport gevonden voor gegeven importrun"
+    },
+    "platform_user_manager_service_88": {
+      "code": " PERMISSION_DENIED",
+      "message": "machtiging geweigerd"
+    },
+    "platform_user_manager_service_94": {
+      "code": "INVALID_INPUT",
+      "message": "Ongeldige invoer"
+    },
+    "platform_user_manager_service_95": {
+      "code": "RECORD_NOT_FOUND",
+      "message": "Record niet gevonden"
+    },
+    "platform_user_manager_service_96": {
+      "code": "RECORD_ALREADY_EXISTS",
+      "message": "Record bestaat al"
+    },
+    "platform_user_manager_service_99": {
+      "code": "AWS_USERPOOL_DELETION_FAILED",
+      "message": "Verwijderen van gebruikerspool is mislukt"
+    },
+    "platform_user_manager_service_100": {
+      "code": "EMPTY_APPLICATION_lIST",
+      "message": "Applicatielijst is leeg"
+    },
+    "platform_user_manager_service_101": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "Ongeldige status voor rol"
+    },
+    "INVALID_ROLE_STATUS": {
+      "code": "INVALID_ROLE_STATUS",
+      "message": "Ongeldige status voor rol"
+    },
+    "user_upload_131": {
+      "code": "INVALID_VIEW_COUNT",
+      "message": "U kunt maximaal 3 weergaven toewijzen aan een gebruiker"
+    },
+    "user_upload_132": {
+      "code": "INVALID_VIEW_NAME",
+      "message": "Ongeldige weergavenaam"
+    },
+    "user_upload_133": {
+      "code": "INVALID_INPUT",
+      "message": "Ongeldige invoer"
+    },
+    "user_upload_134": {
+      "code": "INVALID_AGENT_INTEGRATIONS",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "platform_user_manager_service_102": {
+      "code": "INVALID_ROLE_MODIFIABLE_FLAG",
+      "message": "Ongeldige aanpasbare vlag voor rol"
+    },
+    "platform_user_manager_service_111": {
+      "code": "INVALID_ROLENAME",
+      "message": "Rolnaam is ongeldig"
+    },
+    "platform_user_manager_service_112": {
+      "code": "INVALID_USERNAME_ROLENAME",
+      "message": "Ongeldige medewerkers- en rolnaam"
+    },
+    "platform_user_manager_service_114": {
+      "code": "INVALID_ROLE_PERMISSION",
+      "message": "Ongeldige machtiging voor rol"
+    },
+    "platform_user_manager_service_115": {
+      "code": "INVALID_ROLE_ID",
+      "message": "Ongeldige rol-ID"
+    },
+    "platform_user_manager_service_116": {
+      "code": "INVALID_LICENSE",
+      "message": "Ongeldige licentie"
+    },
+    "platform_user_manager_service_117": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_NAME",
+      "message": "Ongeldige aangepaste attribuutnaam"
+    },
+    "platform_user_manager_service_118": {
+      "code": "ATTRIBUTE_NAME_WITH_SPACE",
+      "message": "Spatie is niet toegestaan in attribuutnaam"
+    },
+    "platform_user_manager_service_125": {
+      "code": "INVALID_USER_ROLE_STATUS",
+      "message": "Wijs de medewerker toe aan een actieve rol voordat u deze opnieuw activeert"
+    },
+    "platform_user_manager_service_127": {
+      "code": "FAILED_TO_CREATE_ROLE",
+      "message": "Kan rol niet maken"
+    },
+    "platform_user_manager_service_128": {
+      "code": "FAILED_TO_EDIT_ROLE",
+      "message": "Kan rol niet bewerken"
+    },
+    "platform_user_manager_service_132": {
+      "code": "INVALID_TEAM_STATUS",
+      "message": "Ongeldige status voor team"
+    },
+    "platform_user_manager_service_133": {
+      "code": "TEAM_LEAD_USER_NOT_ACTIVE",
+      "message": "Teamleider is niet actief"
+    },
+    "platform_user_manager_service_134": {
+      "code": "INVALID_REQUEST",
+      "message": "Ongeldige aanvraag"
+    },
+    "platform_user_manager_service_135": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR",
+      "message": "Ongeldige inlogauthenticator"
+    },
+    "platform_user_manager_service_137": {
+      "code": "INVALID_LOGIN_AUTHENTICATOR_ATTRIBUTE",
+      "message": "Ongeldig inlogauthenticator-attribuut"
+    },
+    "platform_user_manager_service_138": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE_ENTITY_NAME",
+      "message": "Ongeldige entiteitsnaam aangepast attribuut"
+    },
+    "platform_user_manager_service_140": {
+      "code": "INVALID_MFA_DETAILS",
+      "message": "Ongeldige MFA-details"
+    },
+    "platform_user_manager_service_143": {
+      "code": "NOT_ALLOWED_TO_CHANGE_TEAM_STATUS",
+      "message": "Het is niet toegestaan om de teamstatus te wijzigen"
+    },
+    "platform_user_manager_service_152": {
+      "code": " USER_IS_TEAM_LEAD",
+      "message": "Kan medewerker die teamleider is niet verwijderen"
+    },
+    "platform_user_manager_service_155": {
+      "code": "NO_USER_TO_UPDATE_EMAIL",
+      "message": "medewerker bestaat niet voor bijwerking van e-mail"
+    },
+    "platform_user_manager_service_156": {
+      "code": "NO_EMAIL_TO_UPDATE",
+      "message": "E-mail is vereist voor update"
+    },
+    "platform_user_manager_service_160": {
+      "code": "USER_EMAIL_UPDATE_FAILED",
+      "message": "E-mailupdate is mislukt"
+    },
+    "platform_user_manager_service_164": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "Ongeldige tijdzonewaarde"
+    },
+    "platform_user_manager_service_198": {
+      "code": "NOT_ALLOWED_TO_CHANGE_SCIM_PROVISIONED_FIELDS",
+      "message": "Kan SCIM-velden niet aanpassen"
+    },
+    "platform_user_manager_service_200": {
+      "code": "EMAIL_DOMAIN_NOT_ALLOWED",
+      "message": "E-maildomein niet toegestaan"
+    },
+    "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE": {
+      "code": "INVALID_CUSTOM_ATTRIBUTE",
+      "message": "Ongeldige waarde van Aangepast attribuut"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interne fout."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "Deze naam bestaat al. Probeer een nieuwe."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "Skill bestaat niet."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "Een medewerker kan niet meer dan 50 skills hebben."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "De skillnaam is ongeldig"
+    },
+    "wfo_user_manager_service_8": {
+      "code": "INVALID_INPUT",
+      "message": "Ongeldige invoer"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "Weekregel is leeg"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "incorrecte weekregel"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "incorrect dagenbereik in weekregel"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "incorrect urenbereik in weekregel"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "Waarde van maximum aantal diensten in weekregel is lager dan totaal minimum aantal dagen in dagregel"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "Waarde van minimum aantal diensten in weekregel is hoger dan totaal maximum aantal dagen in dagregel"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "Totale som van dagelijks minimum aantal uren is hoger dan wekelijks maximum aantal uren"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "Totale som van dagelijks maximum aantal uren is lager dan wekelijks minimum aantal uren"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "Totale som van mogelijke dagen is lager dan bijbehorend minimum aantal dagen in dagregel"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "Totale som van alle unieke mogelijke dagen is lager dan totale som van minimum aantal diensten volgens dagregel"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "Geen naam opgegeven voor weekregel"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "Dagregels zijn leeg"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "Totale som van alle unieke mogelijke dagen is lager dan minimum aantal diensten per week"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "De datumnotatie is ongeldig"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "De periode tussen twee datums is ongeldig"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Er is een interne serverfout opgetreden"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "Er is een interne fout opgetreden"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "Kan records in het bestand niet lezen"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Kan verwachte kolomkoppen niet vinden. Bekijk het voorbeeldbestand."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Er ontbreken skills in het systeem"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "Er ontbreken planningseenheden in het bestand"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "De vroegste dagelijkse start is na de laatste start"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "Notatie van stapgrootte is ongeldig"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "De starttijden van de dagregels vallen buiten binnen het juiste bereik"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "Dagelijkse activiteitsduur is groter dan lengte van dagregel"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "Slack-indeling is incorrect"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "Relatieve starttijd is minder dan slack"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "Som van lengtes van activiteiten is groter dan dagelijkse lengte"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "Er zijn geen geldige activiteitencombinaties"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "Activiteitscode klopt niet met dagregeldienst"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "De bestandsindeling wordt niet ondersteund"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "De naam van de activiteitscode is ongeldig"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "Tijdzone in planningseenheid is incorrect"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "Kan de standaard activiteitscode niet verwijderen"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "Selecteer een sjabloon"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "Sjabloon-ID is ongeldig"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "Formuliernaam bestaat al"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Interne fout."
+    },
+    "hierarchy_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Interne serverfout."
+    },
+    "hierarchy_manager_service_2": {
+      "code": "INVALID_INPUT",
+      "message": "Ongeldige invoer"
+    },
+    "hierarchy_manager_service_3": {
+      "code": "INVALID_REQUEST",
+      "message": "Ongeldige aanvraag"
+    },
+    "hierarchy_manager_service_12": {
+      "code": "INVALID_SEARCH_REQUEST_KEY",
+      "message": "Ongeldige zoeksleutel"
+    },
+    "hierarchy_manager_service_23": {
+      "code": "INVALID_SEARCH_DIRECTION",
+      "message": "Ongeldige zoekrichting"
+    },
+    "hierarchy_manager_service_31": {
+      "code": "HIERARCHY_NAME_EXISTS",
+      "message": "Hiërarchienaam bestaat al"
+    },
+    "user_upload_100": {
+      "code": "INVALID_FIRST_NAME",
+      "message": "Voornaam is leeg of ongeldig"
+    },
+    "user_upload_101": {
+      "code": "INVALID_LAST_NAME",
+      "message": "Achternaam is leeg of ongeldig"
+    },
+    "user_upload_102": {
+      "code": "INVALID_USERNAME",
+      "message": "Gebruikersnaam moet een e-mailadres zijn"
+    },
+    "user_upload_103": {
+      "code": "INVALID_ROLE_NAME",
+      "message": "Rolnaam is leeg of heeft een ongeldige waarde"
+    },
+    "user_upload_104": {
+      "code": "INVALID_EMAIL_ADDRESS",
+      "message": "Het e-mailadres is ongeldig"
+    },
+    "user_upload_105": {
+      "code": "INVALID_MOBILE_NUMBER",
+      "message": "Ongeldig mobiel nummer, mag alleen cijfers en de symbolen '–' en '+' bevatten"
+    },
+    "user_upload_106": {
+      "code": "INVALID_RANK",
+      "message": "Ongeldige rangwaarde, moet tussen 1 en 999 liggen"
+    },
+    "user_upload_107": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "Teamnaam is ongeldig of de huidige status is inactief"
+    },
+    "user_upload_108": {
+      "code": "INVALID_ACD_LOGIN_ID",
+      "message": "Gebruiker bestaat al"
+    },
+    "user_upload_109": {
+      "code": "INVALID_EXTERNAL_IDENTITY",
+      "message": "Ongeldige waarde van Externe identiteit"
+    },
+    "user_upload_110": {
+      "code": "INVALID_CAN_BE_COACHED_OR_EVALUATED_VALUE",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_111": {
+      "code": "INVALID_CAN_BE_SCHEDULED_VALUE",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_112": {
+      "code": "INVALID_CAN_BE_RECORDED_VALUE",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_113": {
+      "code": "INVALID_CAN_BE_ANALYZED_VALUE",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_114": {
+      "code": "INVALID_CAN_BE_MEASURED_VALUE",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_115": {
+      "code": "INVALID_OS_LOGIN_VALUE",
+      "message": "Ongeldige inlognaam voor besturingssysteem"
+    },
+    "user_upload_119": {
+      "code": "INVALID_HIRE_DATE",
+      "message": "Ongeldige indiensttredingsdatum. De juiste notatie is MMM-DD-JJJJ (JUL-14-2015)"
+    },
+    "user_upload_120": {
+      "code": "INVALID_TIME_ZONE",
+      "message": "Ongeldige tijdzonewaarde"
+    },
+    "user_upload_125": {
+      "code": "INVALID_MFA_SECRET",
+      "message": "Ongeldig MFA-geheim"
+    },
+    "user_upload_126": {
+      "code": "INVALID_ROLE_NAME_RBAC",
+      "message": "Rolnaam is leeg, heeft een ongeldige waarde of u hebt geen machtiging om deze rol toe te wijzen"
+    },
+    "user_upload_121": {
+      "code": "INVALID_VIRTUAL_AGENT_ENABLED",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_122": {
+      "code": "INVALID_VIRTUAL_AGENT_TYPE",
+      "message": "Ongeldige waarde: moet Digitale bot, Digitale enquête of Uit zijn"
+    },
+    "user_upload_123": {
+      "code": "INVALID_CAN_VIEW_BI_REPORTS_VALUE",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_124": {
+      "code": "INVALID_CAN_BE_RECORDED_SCREEN_VALUE",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_127": {
+      "code": "INVALID_MIDDLE_NAME",
+      "message": "Tweede voornaam heeft een ongeldige waarde"
+    },
+    "user_upload_128": {
+      "code": "INVALID_DISPLAY_NAME",
+      "message": "Weergavenaam heeft een ongeldige waarde"
+    },
+    "user_upload_129": {
+      "code": "INVALID_TYPE",
+      "message": "Type heeft een ongeldige waarde"
+    },
+    "user_upload_130": {
+      "code": "INVALID_ROLE",
+      "message": "Rolnaam is ongeldig of de huidige status is Inactief"
+    },
+    "team_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "Validatie van aanvraag is mislukt"
+    },
+    "team_upload_101": {
+      "code": "INVALID_TEAM_NAME",
+      "message": "Teamnaam is leeg of ongeldig"
+    },
+    "team_upload_102": {
+      "code": "INVALID_REQUEST_CONTACT",
+      "message": "Contact aanvragen moet Waar of Onwaar zijn"
+    },
+    "team_upload_103": {
+      "code": "INVALID_WFO_ADVANCED",
+      "message": "WFO Advanced moet Waar of Onwaar zijn"
+    },
+    "team_upload_104": {
+      "code": "INVALID_QUALITY_MANAGEMENT",
+      "message": "Kwaliteitsbeheer moet Waar of Onwaar zijn"
+    },
+    "team_upload_105": {
+      "code": "INVALID_INVIEW_PERFORMANCE_MGMT",
+      "message": "Performance Management moet Waar of Onwaar zijn"
+    },
+    "team_upload_106": {
+      "code": "INVALID_INVIEW_GAMIFICATION",
+      "message": "Performance Management gamificatie moet Waar of Onwaar zijn"
+    },
+    "team_upload_107": {
+      "code": "INVALID_INVIEW_COACHING",
+      "message": "Performance Management coaching moet Waar of Onwaar zijn"
+    },
+    "team_upload_108": {
+      "code": "INVALID_INVIEW_CHAT",
+      "message": "Performance Management chatberichten moet Waar of Onwaar zijn"
+    },
+    "team_upload_109": {
+      "code": "INVALID_AUDIO_RECORDING",
+      "message": "Geluidsopname moet Waar of Onwaar zijn"
+    },
+    "team_upload_110": {
+      "code": "INVALID_SCREN_RECORDING",
+      "message": "Schermopname moet Waar of Onwaar zijn"
+    },
+    "team_upload_111": {
+      "code": "INVALID_QUALITY_OPTIMIZATION",
+      "message": "Kwaliteitsoptimalisatie moet Waar of Onwaar zijn"
+    },
+    "team_upload_112": {
+      "code": "INVALID_WFM_ADVANCED",
+      "message": "WFM Advanced moet Waar of Onwaar zijn"
+    },
+    "team_upload_113": {
+      "code": "INVALID_WFM_ESSENTIALS",
+      "message": "WFM Essentials moet Waar of Onwaar zijn"
+    },
+    "team_upload_114": {
+      "code": "INVALID_WORKLOAD_MANAGER",
+      "message": "Werklastbeheer moet Waar of Onwaar zijn"
+    },
+    "team_upload_115": {
+      "code": "INVALID_WFO_ESSENTIALS",
+      "message": "WFO Essentials moet Waar of Onwaar zijn"
+    },
+    "team_upload_116": {
+      "code": "INVALID_DELIVERY_MODE",
+      "message": "Ongeldige waarde van Aanleveringswijze"
+    },
+    "team_upload_117": {
+      "code": "INVALID_AUTO_AUTO_FOCUS",
+      "message": "Autofocus moet Waar of Onwaar zijn"
+    },
+    "team_upload_118": {
+      "code": "INVALID_VOICE",
+      "message": "Spraak moet een getal zijn"
+    },
+    "team_upload_119": {
+      "code": "INVALID_CHAT",
+      "message": "Chat moet een getal zijn"
+    },
+    "team_upload_120": {
+      "code": "INVALID_EMAILS",
+      "message": "E-mails moet een getal zijn"
+    },
+    "team_upload_121": {
+      "code": "INVALID_WORK_ITEM",
+      "message": "Werkitem moet een getal zijn"
+    },
+    "team_upload_122": {
+      "code": "INVALID_TOTAL_CONTACT_COUNT",
+      "message": "Totaal aantal contacten moet een getal zijn"
+    },
+    "team_upload_123": {
+      "code": "INVALID_SINGLE_CHANNEL_CHAT",
+      "message": "Singlechannel - Gelijktijdige chats moet een getal zijn"
+    },
+    "team_upload_124": {
+      "code": "INVALID_SINGLE_CHANNEL_EMAILS",
+      "message": "Singlechannel - Automatisch geparkeerde e-mails moet een getal zijn"
+    },
+    "team_upload_125": {
+      "code": "INVALID_TEAM_LEAD",
+      "message": "Teamleider niet aanwezig"
+    },
+    "team_upload_126": {
+      "code": "PARENT_CUSTOM_ATTRIBUTE_WITH_INVALID_VALUE",
+      "message": "Ongeldige boven- of onderliggende attribuutwaarde"
+    },
+    "team_upload_128": {
+      "code": "INVALID_TEAM_DESCRIPTION",
+      "message": "De invoer is te lang"
+    },
+    "team_upload_129": {
+      "code": "INVALID_TEMPLATE",
+      "message": "Ongeldige sjabloon geüpload"
+    },
+    "user_team_upload_003": {
+      "code": "MISSING_TEAM_NAME",
+      "message": "Teamnaam mag niet leeg zijn"
+    },
+    "user_team_upload_004": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "Toegewezen gebruikers mogen niet leeg zijn"
+    },
+    "user_team_upload_005": {
+      "code": "TEAM_DOES_NOT_EXIST",
+      "message": "Team bestaat niet"
+    },
+    "user_team_upload_006": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "Gebruiker(s) niet aanwezig"
+    },
+    "user_skills_upload_003": {
+      "code": "MISSING_SKILL_ID",
+      "message": "Skill-ID mag niet leeg zijn"
+    },
+    "user_skills_upload_004": {
+      "code": "MISSING_SKILL_NAME",
+      "message": "Skillnaam mag niet leeg zijn."
+    },
+    "user_skills_upload_005": {
+      "code": "MISSING_ASSIGNED_USERS",
+      "message": "Toegewezen gebruikers mogen niet leeg zijn"
+    },
+    "user_skills_upload_007": {
+      "code": "INVALID_SKILL_NAME",
+      "message": "Ongeldige skillnaam"
+    },
+    "user_skills_upload_008": {
+      "code": "USER_DOES_NOT_EXIST",
+      "message": "Gebruiker(s) niet aanwezig"
+    },
+    "user_skills_upload_009": {
+      "code": "USER_SKILL_ALREADY_EXISTS",
+      "message": "Gebruiker(s) toegewezen aan skill"
+    },
+    "user_skills_upload_010": {
+      "code": "SKILL_ID_NOT_FOUND",
+      "message": "Skill-ID niet gevonden"
+    },
+    "user_skills_upload_011": {
+      "code": "DIGITAL_SKILL_CANNOT_ASSIGNED",
+      "message": "Digitale skilltoewijzing kan niet worden gemaakt/gewijzigd."
+    },
+    "recording_account_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "Ongeldige aanvraag"
+    },
+    "recording_account_upload_101": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "recording_account_upload_102": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "recording_account_upload_103": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "recording_account_upload_104": {
+      "code": "FIELD_NOT_EMPTY",
+      "message": "Dit veld is niet leeg"
+    },
+    "recording_account_upload_105": {
+      "code": "FIELD_EMPTY_OR_INVALID_VALUE",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "recording_account_upload_106": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "recording_account_upload_107": {
+      "code": "FIELD_EMPTY_OR_INVALID",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "recording_account_upload_108": {
+      "code": "EMPTY_FIELD_FOR_SELECTED",
+      "message": "Dit veld moet leeg zijn voor de geselecteerde actie"
+    },
+    "recording_account_upload_109": {
+      "code": "UPDATED_VALUE_NOT_SAME",
+      "message": "De bijgewerkte waarde kan niet hetzelfde zijn als de waarde"
+    },
+    "recording_account_upload_110": {
+      "code": "FIELD_VALUE_LIMIT",
+      "message": "De waarde mag niet meer dan 64 tekens lang zijn"
+    },
+    "recording_account_upload_111": {
+      "code": "FIELD_UPDATED_VALUE_LIMIT",
+      "message": "De waarde mag niet meer dan 64 tekens lang zijn"
+    },
+    "recording_account_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "Het telefoniesysteem bestaat niet"
+    },
+    "recording_account_upload_121": {
+      "code": "INVALID_USER",
+      "message": "Ongeldige gebruiker"
+    },
+    "recording_account_upload_122": {
+      "code": "AMBIGUOUS_USER_NAME",
+      "message": "Dubbelzinnige gebruikersnaam"
+    },
+    "recording_account_upload_123": {
+      "code": "ID_ALREADY_EXIST_BUT_INACTIVE",
+      "message": "Het opnameaccount bestaat al maar is inactief"
+    },
+    "recording_account_upload_124": {
+      "code": "ID_ALREADY_EXIST_BUT_DIFFERENT_USER_ID",
+      "message": "Dit opnameaccount bestaat al maar heeft een ander gebruikers-ID"
+    },
+    "recording_account_upload_125": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_ID",
+      "message": "Dit opnameaccount bestaat al, maar heeft een ander gebruikersteam-ID"
+    },
+    "recording_account_upload_126": {
+      "code": "ID_ALREADY_EXIST_DIFFERENT_USER_NAME",
+      "message": "Dit opnameaccount bestaat al maar heeft een andere gebruikersnaam"
+    },
+    "recording_account_upload_127": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "Dit opnameaccount bestaat niet"
+    },
+    "recording_account_upload_128": {
+      "code": "ID_ALREADY_EXIST",
+      "message": "Dit opnameaccount bestaat al"
+    },
+    "recording_account_upload_140": {
+      "code": "DB_ERROR",
+      "message": "Er is een DB-fout opgetreden"
+    },
+    "recording_account_upload_141": {
+      "code": "USER_HUB_COMMUNICATION_ERROR",
+      "message": "Er is een fout opgetreden tijdens de communicatie met UserHub"
+    },
+    "recording_account_upload_142": {
+      "code": "NOT_AUTHORIZED",
+      "message": "Ongeoorloofde toegang tot UserHub"
+    },
+    "recording_account_upload_143": {
+      "code": "FORBIDDEN_ACCESS",
+      "message": "Verboden toegang tot UserHub"
+    },
+    "recording_account_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "Ongeldige invoer event"
+    },
+    "device_upload_100": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Ongeldige aanvraag"
+    },
+    "device_upload_101": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "device_upload_102": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "device_upload_103": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "device_upload_104": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "device_upload_105": {
+      "code": "FIELD_NOT_VALID",
+      "message": "De UDI kan niet meer dan 64 tekens bevatten"
+    },
+    "device_upload_106": {
+      "code": "DEVICE_NUMBER_FIELD_LIMIT",
+      "message": "Het apparaatnummer mag niet meer dan 64 tekens lang zijn"
+    },
+    "device_upload_120": {
+      "code": "TELEPHONY_SYSTEM_NOT_EXIST",
+      "message": "Het telefoniesysteem bestaat niet"
+    },
+    "device_upload_121": {
+      "code": "MONITORED_GROUP_NOT_EXIST",
+      "message": "De gecontroleerde groep bestaat niet"
+    },
+    "device_upload_122": {
+      "code": "FILTERED_GROUP_NOT_EXIST",
+      "message": "De gefilterde groep bestaat niet"
+    },
+    "device_upload_123": {
+      "code": "REJECTED_GROUP_NOT_EXIST",
+      "message": "De afgewezen groep bestaat niet"
+    },
+    "device_upload_124": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "Verkeerd groepstype"
+    },
+    "device_upload_125": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "Verkeerd groepstype"
+    },
+    "device_upload_126": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "Verkeerd groepstype"
+    },
+    "device_upload_127": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "Verkeerd groepstype"
+    },
+    "device_upload_128": {
+      "code": "GROUP_TYPE_INCORRECT",
+      "message": "Dit apparaat bestaat niet"
+    },
+    "device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "Er is een DB-fout opgetreden"
+    },
+    "device_upload_invalid_input": {
+      "code": "INPUT_EVENT_INVALID",
+      "message": "Ongeldige invoer event"
+    },
+    "recording_account_download_100": {
+      "code": "INVALID_ACTIVITY_REQUEST",
+      "message": "Ongeldige activiteit in een verzoek"
+    },
+    "recording_account_download_101": {
+      "code": "INVALID_ENTITY_REQUEST",
+      "message": "Ongeldige entiteit in een verzoek"
+    },
+    "recording_account_download_102": {
+      "code": "INVALID_TOKEN",
+      "message": "Tokenveld ontbreekt"
+    },
+    "recording_account_download_103": {
+      "code": "INVALID_REQUEST",
+      "message": "Er ontbreekt een veld in het verzoek"
+    },
+    "recording_account_download_140": {
+      "code": "DB_ERROR",
+      "message": "Er is een databasefout opgetreden"
+    },
+    "user_upload_135": {
+      "code": "INVALID_AUTHENTICATOR_NAME",
+      "message": "Ongeldige naam inlogauthenticator"
+    },
+    "remote_device_upload_100": {
+      "code": "INVALID_REQUEST",
+      "message": "Ongeldige aanvraag"
+    },
+    "remote_device_upload_101": {
+      "code": "INVALID_ACTION",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "remote_device_upload_102": {
+      "code": "INVALID_TELEPHONY_SYSTEM",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "remote_device_upload_104": {
+      "code": "INVALID_SOURCE_DEVICE",
+      "message": "Dit veld is leeg of heeft een ongeldige waarde"
+    },
+    "remote_device_upload_106": {
+      "code": "SOURCE_DEVICE_FIELD_LIMIT",
+      "message": "Dit veld mag niet langer zijn dan 64 tekens"
+    },
+    "remote_device_upload_107": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Gebruik letters, cijfers en @#*"
+    },
+    "remote_device_upload_109": {
+      "code": "FIELD_LIMIT",
+      "message": "Voer maximaal 64 tekens in"
+    },
+    "remote_device_upload_110": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Kan niet nul of leeg zijn"
+    },
+    "remote_device_upload_111": {
+      "code": "FIELD_NOT_VALID",
+      "message": "Waarde bestaat al"
+    },
+    "remote_device_upload_108": {
+      "code": "INVALID_VENDOR",
+      "message": "Ongeldige leverancier."
+    },
+    "remote_device_upload_120": {
+      "code": "UNKNOWN_TELEPHONY_SYSTEM",
+      "message": "Het telefoniesysteem bestaat niet"
+    },
+    "remote_device_upload_128": {
+      "code": "NONEXISTENT_SOURCE_DEVICE",
+      "message": "Dit apparaat bestaat niet"
+    },
+    "remote_device_upload_140": {
+      "code": "DB_ERROR",
+      "message": "Er is een databasefout opgetreden"
+    },
+    "remote_device_upload_invalid_input": {
+      "code": "INVALID_INPUT_EVENT",
+      "message": "Ongeldige invoer event"
+    },
+    "recording_account_upload_112": {
+      "code": "INVALID_VALUE_PATTERN_AGENTID",
+      "message": "Gebruik letters, cijfers en @"
+    },
+    "recording_account_upload_113": {
+      "code": "INVALID_VALUE_PATTERN_EXTENSION",
+      "message": "Gebruik letters, cijfers en @#*"
+    },
+    "recording_account_upload_114": {
+      "code": "VALUE_TOO_LONG_AGENTID",
+      "message": "Voer 2-64 tekens in"
+    },
+    "recording_account_upload_115": {
+      "code": "VALUE_TOO_LONG_EXTENSION",
+      "message": "Voer 3-64 tekens in"
+    },
+    "recording_account_upload_116": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_AGENTID",
+      "message": "Gebruik letters, cijfers en @"
+    },
+    "recording_account_upload_117": {
+      "code": "INVALID_UPDATED_VALUE_PATTERN_EXTENSION",
+      "message": "Gebruik letters, cijfers en @#*"
+    },
+    "recording_account_upload_118": {
+      "code": "UPDATED_VALUE_TOO_LONG_AGENTID",
+      "message": "Voer 2-64 tekens in"
+    },
+    "recording_account_upload_119": {
+      "code": "UPDATED_VALUE_TOO_LONG_EXTENSION",
+      "message": "Voer 3-64 tekens in"
+    },
+    "user_upload_136": {
+      "code": "INVALID_DIGITAL_ENGAGEMENT",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_137": {
+      "code": "INVALID_CUSTOMER_CARD",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_138": {
+      "code": "INVALID_CAN_EDIT_BI_REPORTS",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_139": {
+      "code": "INVALID_HAS_SMART_REACH_USER_ACCESS",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_140": {
+      "code": "INVALID_HAS_SMART_REACH_AGENT_ACCESS",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_141": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_INSIGHTS",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "user_upload_142": {
+      "code": "INVALID_PERFORMANCE_MANAGEMENT_ACT",
+      "message": "Ongeldige waarde: moet Waar of Onwaar zijn"
+    },
+    "platform_user_manager_service_181": {
+      "code": "VIEW_LIMIT_EXCEEDED",
+      "message": "Maximale toegelaten weergavelimiet is overschreden"
+    },
+    "user_upload_143": {
+      "code": "INVALID_TEMPLATE_NAME",
+      "message": "Er kan geen sjabloon met die naam worden gevonden. Controleer de spelling en probeer het opnieuw"
+    },
+    "platform_user_manager_service_194": {
+      "code": "platform_user_manager_service_194",
+      "message": "Team kan niet worden verplaatst buiten zijn afdeling."
+    },
+    "platform_user_manager_service_217": {
+      "code": "platform_user_manager_service_217",
+      "message": "Afdelings-ID team komt niet overeen met de afdelings-ID van gefilterde gebruikers."
+    },
+    "user_upload_145": {
+      "code": "INVALID_MFA_TIME_PERIOD",
+      "message": "Ongeldige waarde, moet tussen 15 en 300 liggen"
+    },
+    "user_upload_146": {
+      "code": "INVALID_TEMPLATE",
+      "message": "Ongeldige sjabloon geüpload"
+    },
+    "user_team_upload_007": {
+      "code": "INVALID_TEMPLATE",
+      "message": "Ongeldige sjabloon geüpload"
+    }
+  },
+  "weekdayTimeBlocksDirective": {
+    "allDay": "Hele dag",
+    "closed": "Gesloten",
+    "removeAllTimeBlocksTooltip": "Alle verwijderen"
+  },
+  "noItemsOverlay": {
+    "grid": "Er is nog geen {{itemLabel}} gedefinieerd",
+    "modal": {
+      "employeeTab": "Nog geen medewerkers toegewezen"
+    }
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "Planningseenheden"
+  },
+  "groupsPage": {
+    "pageTitle": "Groepen",
+    "newGroupBtn": "Nieuwe groep",
+    "searchGroup": "Begin met typen om een groep te vinden",
+    "gridNoRowsOverlay": "Er is nog geen groep aangemaakt",
+    "items": "groepen",
+    "item": "groep",
+    "selected": "geselecteerd",
+    "errorDelete": "Er is geen rij geselecteerd om te verwijderen",
+    "gridColumnsHeaders": {
+      "name": "Naam",
+      "employees": "Medewerkers",
+      "action": "Actie"
+    },
+    "deleteSelectedGroupsMsg": "U staat op het punt om de geselecteerde groepen te verwijderen. Doorgaan?",
+    "filters": {
+      "statusLabel": "Status",
+      "status": "{{count}} status",
+      "group": "{{count}} groepen",
+      "clearAll": "Alles wissen",
+      "close": "Sluiten"
+    },
+    "popover": {
+      "message": "Deze groep wordt verwijderd van alle medewerkers. Weet u het zeker?"
+    },
+    "toastMessage": {
+      "deleteSuccess": "Groep(en) verwijderd.",
+      "deleteFailure": "Groep kan niet worden verwijderd.",
+      "groupsResponseError": "Er is een fout opgetreden bij het ophalen van groepen"
+    },
+    "createNewGroupModal": {
+      "addHeader": "Nieuwe groep maken",
+      "editHeader": "Groep bewerken",
+      "groupNamePlaceholder": "Naamloze groep",
+      "popover": {
+        "message1": "Alle wijzigingen gaan verloren",
+        "message2": "Weet u zeker dat u wilt afsluiten zonder op te slaan?"
+      },
+      "employeesTab": {
+        "header": "Medewerkers",
+        "assignedEmployeesTxt": "Toegewezen medewerkers",
+        "addEmployeesBtn": "Medewerkers toevoegen",
+        "selectEmployeesTxt": "Medewerkers selecteren",
+        "selectedTxt": "Geselecteerd:",
+        "AlreadyAssignedUsers": "Al toegewezen medewerkers"
+      }
+    },
+    "successAdd": "Nieuwe groep is toegevoegd",
+    "successEdit": "Groep is bewerkt",
+    "assignedUsers": {
+      "addUsersModal": {
+        "title": "Gebruikers toevoegen",
+        "omnibar": {
+          "searchPlaceholderText": "Begin met typen om een gebruiker te vinden"
+        }
+      }
+    },
+    "warningModal": {
+      "title": "Weet u het zeker?",
+      "message": "Als u de naam van een groep wijzigt, worden voltooide interactiesegmenten met de oude naam niet bijgewerkt.",
+      "cancelBtn": "Annuleren",
+      "confirmBtn": "Bevestigen"
+    }
+  },
+  "accountSettingsPage": {
+    "pageTitle": "Accountinstellingen beheren",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "userSessionTimeout": {
+      "header": "Timeout voor inactiviteit",
+      "disabledWarning": "Waarschuwing: Inactieve gebruikers worden NIET automatisch uitgelogd.",
+      "tooLowWarning": "Toegestane inactieve tijd moet minimaal 5 minuten zijn.",
+      "tooHighWarning": "Toegestane inactieve tijd is maximaal 8 uur (als Timeout voor inactiviteit is ingeschakeld).",
+      "hours": "Uur",
+      "minutes": "Minuten",
+      "description": "De tijd die gebruikers kunnen inactief zijn voordat ze worden uitgelogd."
+    },
+    "hostConfigurationSectionHeader": "Hosting",
+    "stylingSectionHeader": "Styling",
+    "bannerSectionHeader": "Inlogbanner",
+    "allowedEmailDomainsSectionHeader": "Toegestane e-maildomeinen",
+    "bannerWillClear": "Als u de banner uitschakelt, worden alle opgeslagen bannerinstellingen gewist.",
+    "customHostnameEntryFieldLabel": "Aangepaste hostnaam",
+    "domainEntryFieldLabel": "Domein",
+    "domainGridHeader": "Domein",
+    "overlayNoRowsMsg": "Geen e-maildomeinen om weer te geven",
+    "addDomainBtn": "Toevoegen",
+    "fontColorFieldLabel": "Bannertekst",
+    "backgroundColorFieldLabel": "Bannerachtergrond",
+    "hostnameLengthValidationError": "Hostnaam mag niet langer zijn dan 63 tekens.",
+    "hostnameCharValidationError": "Hostnaam mag geen speciale tekens bevatten (#?!@%^).",
+    "emailDomainLengthValidationError": "Domein mag niet langer zijn dan 190 tekens.",
+    "emailDomainDuplicateError": "Domein staat al in de lijst",
+    "emailDomainMaxLength": "Er mogen niet meer dan 300 toegestane e-maildomeinen zijn.",
+    "emailDomainCharValidationError": "Domein is niet geldig.",
+    "errorMsg": "Hostnaam kan niet worden opgeslagen.",
+    "errorDuplicate": "Deze hostnaam bestaat al. Gebruik een andere naam.",
+    "errorDirty": "Hostnaam mag geen obscene taal bevatten. Gebruik een andere naam.",
+    "errorReserved": "Deze hostnaam bevat tekst die door het systeem is gereserveerd. Gebruik een andere naam.",
+    "saveSuccess": "Accountinstellingen zijn geconfigureerd en opgeslagen.",
+    "saveFailure": "Er is een fout opgetreden bij het opslaan van de invoer.",
+    "successMsg": "Accountgegevens zijn bijgewerkt",
+    "failureMsg": "Er is een fout opgetreden bij het bijwerken van accountgegevens",
+    "popover": {
+      "warningMessage": "Alle wijzigingen gaan verloren",
+      "confirmMessage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?",
+      "domainMessage": "Dit domein wordt na het opslaan verwijderd. Weet u het zeker?"
+    },
+    "ModalMessages": {
+      "transition": {
+        "title": "Niet-opgeslagen gegevens",
+        "unsavedChanges": "Als u de pagina verlaat, gaan de wijzigingen verloren.",
+        "areYouSureLeavePage": "Weet u zeker dat u wilt doorgaan?"
+      }
+    },
+    "timeZone": "Tijdzone van tenant",
+    "bannerPlaceHolder": "Hier tekst invoegen...",
+    "scim": {
+      "header": "SCIM",
+      "scimProvisionedFields": "Door SCIM ingerichte velden",
+      "days": "dagen",
+      "scimToken": "SCIM-token",
+      "showToken": "Token weergeven",
+      "generate": "Genereren",
+      "expiringToken": "Token zal verlopen binnen ",
+      "scimTokenGeneratedSuccess": "SCIM-token is gegenereerd",
+      "scimTokenGeneratedFailure": "Er is een fout opgetreden bij het genereren van de SCIM-token",
+      "scimTokenGenerationWarning": "Uw token is gegenereerd. U kunt deze token niet ophalen nadat u deze pagina hebt verlaten. Er moet een nieuwe token worden gemaakt in het geval dat deze token verloren gaat.",
+      "scimTokenCopiedToClipboard": "SCIM-token is gekopieerd naar klembord"
+    },
+    "lockInactiveUsers": {
+      "header": "Gebruikers vergrendelen",
+      "description": "Inactieve dagen voordat een gebruiker kan worden vergrendeld",
+      "enablementWarning": "Waarschuwing: dit zal inactiviteitsinstellingen opgeven voor alle gebruikers van deze tenant."
+    },
+    "toggleOn": "Aan",
+    "toggleOff": "Uit",
+    "ssoStateDuration": {
+      "header": "SSO-status aanpassen",
+      "description": "Uren instellen voor gebruikersstatus",
+      "enablementWarning": "Waarschuwing: dit zal de SSO-status instellen voor alle gebruikers van deze tenant."
+    },
+    "scimTokenSectionHeader": "SCIM-token",
+    "scimUserProvisionedFields": "Gebruikersselectie",
+    "daysToExpireOldTokens": "Dagen tot het vervallen oude tokens",
+    "disableMarketingPanelLabel": "Marketingpaneel uitschakelen",
+    "overlayNoRowsAddAppMsg": "Geen extra toepassingen om weer te geven",
+    "additionalApplications": {
+      "name": "Naam",
+      "link": "Link",
+      "addButton": "Toevoegen",
+      "linkLengthValidationError": "Link mag niet langer zijn dan 2048 tekens",
+      "linkValidationError": "Links moeten starten met http:// of https://",
+      "nameLengthValidationError": "Naam mag niet langer zijn dan 50 tekens",
+      "sectionHeader": "Extra applicaties",
+      "popoverMessage": "Deze applicatie wordt na het opslaan verwijderd. Weet u het zeker?"
+    },
+    "tabs": {
+      "scimTabTitle": "SCIM",
+      "userSettingsTabTitle": "Gebruikersinstellingen",
+      "additionalAppsTabTitle": "Extra applicaties",
+      "hostTabTitle": "Hosting"
+    }
+  },
+  "add-entity-ui": {
+    "entityCount": "",
+    "selectAllLabel": "Alles selecteren"
+  },
+  "generic-users": {
+    "searchPlaceholder": "Begin met typen om gebruikers te vinden",
+    "noItemsOverlay": "Er zijn nog geen gebruikers toegevoegd",
+    "noItemsOverlayGrid": "Geen gebruikers gevonden met dit filter",
+    "noUsersSubText": "Selecteer hierboven \"Gebruikers toevoegen\" om gebruikers toe te voegen",
+    "itemsCount": "{{count}} weergegeven",
+    "totalItemsCount": " Totaal",
+    "totalItemsCountLabel": " Totaal",
+    "userCount": "",
+    "tabLabels": {
+      "general": "Algemeen",
+      "assignedUsers": "Toegewezen gebruikers",
+      "zeroRow": "0 totaal"
+    },
+    "columns": {
+      "name": "Naam",
+      "username": "Gebruikersnaam",
+      "email": "E-mail",
+      "status": "Status",
+      "role": "Rol",
+      "action": "Actie"
+    },
+    "popovers": {
+      "messageAddedUser": "U moet deze gebruiker aan een andere rol toewijzen om de gebruiker te kunnen verwijderen.",
+      "messageNewUser": "Gebruiker uit deze rol verwijderen?",
+      "bulkMessageAddedUser": "U moet de gebruiker(s) aan een andere rol toewijzen om ze te kunnen verwijderen.",
+      "bulkMessageNewUser": "Gebruikers uit deze rol verwijderen?"
+    },
+    "userSelectionModal": {
+      "noUserAddedText": "Nog geen gebruikers toegevoegd",
+      "noUserSelectedText": "Nog geen gebruikers geselecteerd"
+    },
+    "modal": {
+      "noItemsOverlay": "Er zijn nog geen gebruikers toegevoegd",
+      "title": "Gebruikers toevoegen"
+    },
+    "buttons": {
+      "addUsers": "Gebruikers toevoegen",
+      "removeUsers": "Gebruikers verwijderen"
+    }
+  },
+  "hierarchiesPage": {
+    "pageTitle": "Hiërarchieën",
+    "newHierarchy": "Nieuwe hiërarchie",
+    "itemsCount": "{{count}} hiërarchieën",
+    "searchPlaceholder": "Begin met typen om een hiërarchie te vinden",
+    "noItemsOverlay": "Nog geen hiërarchieën gedefinieerd",
+    "saveAndActivate": "Opslaan en activeren",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "createSuccessMessage": "Hiërarchie is aangemaakt.",
+    "updateSuccessMessage": "Hiërarchie is bijgewerkt.",
+    "createErrorMessage": "Er was een probleem bij het maken van de hiërarchie. Probeer het later opnieuw.",
+    "updateErrorMessage": "Er was een probleem bij het bijwerken van de hiërarchie. Probeer het later opnieuw.",
+    "openHierarchyErrorMessage": "Er was een probleem bij het weergeven van deze hiërarchie. Probeer het later opnieuw.",
+    "nodeSuccessfullyDropped": "{{draggedEntityName}} {{draggedEntityType}} is toegevoegd onder {{droppedEntityName}} {{droppedEntityType}}.",
+    "hierarchyManager": {
+      "pageTitle": "Hiërarchieën",
+      "newHierarchy": "Nieuwe hiërarchie maken",
+      "cancel": "Annuleren",
+      "hierarchyNamePlaceholder": "Hiërarchienaam",
+      "hierarchyType": "Hiërarchietype selecteren",
+      "errorMessages": {
+        "typeRequired": "Dit veld is vereist",
+        "nameRequired": "Dit veld is vereist",
+        "duplicateName": "Deze naam bestaat al. Probeer een nieuwe."
+      }
+    },
+    "gridColumnHeaders": {
+      "hierarchyName": "HIËRARCHIENAAM",
+      "hierarchyType": " TYPE",
+      "lastModifiedBy": "LAATST GEWIJZIGD DOOR",
+      "lastModifiedDate": "LAATST GEWIJZIGD",
+      "hierarchyStatus": "STATUS",
+      "hierarchyActions": "ACTIES",
+      "applications": "APPLICATIES"
+    },
+    "hierarchyStatus": {
+      "active": "Actief",
+      "inactive": "Inactief"
+    },
+    "hierarchyTypeCamelCase": {
+      "Organizational": "Organisatie"
+    },
+    "hierarchyHamburgerMenu": {
+      "activate": "Activeren",
+      "deactivate": "Deactiveren"
+    },
+    "hierarchyManagerToastMessages": {
+      "failureTemplatesHierarchy": "Er was een probleem bij het ophalen van sjablonen voor de hiërarchie. Probeer het later opnieuw.",
+      "successDeactivatingHierarchy": "Hiërarchie is gedeactiveerd.",
+      "failureDeactivatingHierarchy": "Er was een probleem bij het deactiveren van de hiërarchie. Probeer het later opnieuw.",
+      "successActivatingHierarchy": "Hiërarchie is geactiveerd.",
+      "failureActivatingHierarchy": "Er was een probleem bij het activeren van de hiërarchie. Probeer het later opnieuw."
+    },
+    "popovers": {
+      "deactivateHierarchy": {
+        "msg": "U staat op het punt om deze hiërarchie te deactiveren. Wilt u doorgaan?"
+      },
+      "activateHierarchy": {
+        "msg": "Weet u zeker dat u deze hiërarchie wilt activeren?"
+      },
+      "mappingApplicationsHierarchyPopover": {
+        "msg": "Deze hiërarchie kan niet worden gedeactiveerd omdat deze is toegewezen aan een of meer applicaties."
+      },
+      "warningMessage": "Alle wijzigingen gaan verloren",
+      "confirmMessage": "Weet u zeker dat u wilt afsluiten zonder op te slaan?",
+      "deleteNodeWarningChildren": "Als u dit knooppunt verwijdert, worden alle onderliggende en gelijkwaardige knooppunten onder dit knooppunt verwijderd. Wilt u doorgaan?",
+      "deleteNodeWarning": "U staat op het punt om dit knooppunt te verwijderen. Wilt u doorgaan?",
+      "visibility": "U hebt geen machtiging \n om deze informatie te bekijken"
+    },
+    "modalMessages": {
+      "transition": {
+        "title": "Niet-opgeslagen gegevens",
+        "unsavedChanges": "Als u de pagina verlaat, gaan de wijzigingen verloren.",
+        "warningMessage": "Weet u zeker dat u wilt doorgaan?"
+      }
+    },
+    "components": {
+      "nodeActionComponent": {
+        "title": {
+          "addChild": "Onderliggende toevoegen",
+          "addPeer": "Collega toevoegen",
+          "containers": "Containers",
+          "members": "Leden",
+          "expandBranch": "Vertakking uitvouwen",
+          "collapseBranch": "Vertakking samenvouwen",
+          "rename": "Bewerken",
+          "delete": "Verwijderen",
+          "info": "Info"
+        },
+        "hierarchyTypeLabel": "Organisatie-eenheid",
+        "defaultNodeName": "Naamloos"
+      },
+      "members": {
+        "headerText": "Leden",
+        "headerTextAfter": "Leden toevoegen",
+        "searchPlaceHolder": "Leden zoeken",
+        "type": "GEBRUIKER",
+        "employeeButton": "Medewerker",
+        "teamsButton": "Teams",
+        "AddButton": "Toevoegen",
+        "RemoveButton": "Verwijderen",
+        "noMembersSearchTxt": "Geen gebruikers in team",
+        "noResultSearchTxt": "Geen resultaten gevonden",
+        "noMembersTxt": {
+          "heading": "Er zijn nog geen leden toegevoegd",
+          "subHeading": "Klik op ",
+          "subHeading1": " om leden toe te voegen.",
+          "subHeading2": "Wanneer er leden zijn toegevoegd, worden ze hier weergegeven"
+        }
+      },
+      "containers": {
+        "headerText": "Containers",
+        "searchPlaceHolder": "Containers zoeken",
+        "type": "TEAM"
+      }
+    },
+    "messages": {
+      "error": {
+        "failedToLoadHierarchies": "Hiërarchieën laden is mislukt. Probeer het later opnieuw."
+      }
+    }
+  },
+  "hierarchiesPageV2": {
+    "pageTitle": "Hiërarchieën",
+    "itemsCount": "{{count}} hiërarchieën",
+    "searchPlaceholder": "Begin met typen om een hiërarchie te vinden",
+    "noItemsOverlay": "Nog geen hiërarchieën gedefinieerd",
+    "saveAndActivate": "Opslaan en activeren",
+    "createSuccessMessage": "Hiërarchie is aangemaakt.",
+    "updateSuccessMessage": "Hiërarchie is bijgewerkt.",
+    "updateNameMessage": "Hiërarchienaam is bijgewerkt.",
+    "updateAppMessage": "Applicatietoewijzing is bijgewerkt.",
+    "createErrorMessage": "Er was een probleem bij het maken van de hiërarchie. Probeer het later opnieuw.",
+    "updateErrorMessage": "Er was een probleem bij het bijwerken van de hiërarchie. Probeer het later opnieuw.",
+    "openHierarchyErrorMessage": "Er was een probleem bij het weergeven van deze hiërarchie. Probeer het later opnieuw.",
+    "openHierarchyTemplateErrorMessage": "Er was een probleem bij het laden van hiërarchiesjablonen. Probeer het later opnieuw.",
+    "openHierarchyApplicationErrorMessage": "Er was een probleem bij het laden van hiërarchie-applicaties. Probeer het later opnieuw.",
+    "subtreeDepthViolationErrorMessage": "Deze bewerking kan niet worden uitgevoerd omdat deze verder gaat dan de toegestane hiërarchiediepte van 10 niveaus",
+    "subtreeNodeLimitViolationErrorMessage": "Deze bewerking kan niet worden uitgevoerd omdat het maximum aantal knooppunten in de hiërarchie wordt overschreden.",
+    "modalMessages": {
+      "transition": {
+        "title": "Niet-opgeslagen gegevens",
+        "unsavedChanges": "Als u de pagina verlaat, gaan de wijzigingen verloren.",
+        "warningMessage": "Weet u zeker dat u wilt doorgaan?"
+      }
+    },
+    "hierarchyManager": {
+      "pageTitle": "Hiërarchieën",
+      "close": "Sluiten",
+      "save": "Opslaan",
+      "create": "Maken",
+      "cancel": "Annuleren",
+      "update": "Bijwerken",
+      "hierarchyName": "Naam",
+      "hierarchyType": "Type",
+      "application": "Applicatie",
+      "hierarchyNamePlaceholder": "Hiërarchienaam toevoegen",
+      "hierarchyTypePlaceholder": "Type selecteren",
+      "applicationPlaceholder": "Applicatie selecteren",
+      "newHierarchy": "Nieuwe hiërarchie maken",
+      "formLabels": {
+        "teamPlaceholder": "Team selecteren",
+        "suPlaceholder": "Planningseenheid selecteren"
+      },
+      "team": {
+        "warningMsg": "Team bestaat als een onderliggend knooppunt voor '{{existingParent}}' organisatie-eenheid. Met de actie Toevoegen wordt het teamknooppunt verplaatst onder '{{newParent}}' organisatie-eenheid"
+      },
+      "components": {
+        "members": {
+          "headerText": "Leden",
+          "addButton": "Toevoegen",
+          "headerTextAfter": "Leden toevoegen",
+          "cancelButton": "Annuleren",
+          "saveButton": "Opslaan",
+          "removeButton": "Verwijderen",
+          "viewDetailsButton": "Teamdetails weergeven",
+          "viewSUDetailsButton": "Details weergeven",
+          "searchPlaceHolder": "Leden zoeken",
+          "type": "GEBRUIKER",
+          "noResultSearchTxt": "Geen resultaten gevonden",
+          "associationMsg": "Gebruiker is al lid van '{{ouname}}'",
+          "noMembersTxt": {
+            "heading": "Er zijn nog geen leden toegevoegd",
+            "subHeading": "Klik op Toevoegen om leden toe te voegen.",
+            "subHeading1": "Wanneer er leden zijn toegevoegd, worden ze hier weergegeven."
+          }
+        },
+        "nodeComponent": {
+          "hierarchyTypeLabel": {
+            "OU": "Organisatie-eenheid",
+            "TEAM": "Team",
+            "SU": "Planningseenheid"
+          }
+        }
+      },
+      "popovers": {
+        "confirmMsg": "Selecteer een van deze opties om door te gaan",
+        "deleteNodeWarning": "U staat op het punt om deze organisatie-eenheid uit de hiërarchie te verwijderen. Met deze actie wordt het netwerk onder deze organisatie-eenheid verwijderd, inclusief alle eventuele onderliggende knooppunten.",
+        "deleteSUNodeWarning": "U staat op het punt om deze planningseenheid uit de hiërarchie te verwijderen. Met deze actie wordt het netwerk onder deze planningseenheid verwijderd, inclusief alle eventuele onderliggende knooppunten.",
+        "deleteTeamNodeWarning": "U staat op het punt om dit team uit de hiërarchie te verwijderen.",
+        "deleteWarning3": "Wilt u doorgaan?",
+        "deleteSUWarning4": " Planningseenheid met deze hiërarchie? ",
+        "replaceTeamNodeWarning1": "Team bevindt zich momenteel onder",
+        "replaceSUNodeWarning1": "Planningseenheid bevindt zich momenteel onder",
+        "replaceNodeWarning1": " en komt onder",
+        "replaceNodeWarning2": ". Wilt u doorgaan?",
+        "OUDescription": "Met deze actie maakt u een onderliggend knooppunt van het type Organisatie-eenheid. Nadat de organisatie-eenheid is aangemaakt, kunt u leden toevoegen",
+        "TeamDescription": "Met deze actie maakt u een onderliggend knooppunt van het type Team door een van de bestaande teams te selecteren. Nadat het teamknooppunt is gemaakt, kunt u informatie over het team en de leden bekijken",
+        "SUDescription": "Met deze actie maakt u een onderliggend knooppunt van het type Planningseenheid door een van de bestaande planningseenheden te selecteren. Nadat het knooppunt is gemaakt, kunt u onderliggende knooppunten toevoegen en informatie over de planningseenheid en de leden bekijken.",
+        "editNodePopover": {
+          "popoverTitle": "Details bewerken",
+          "nameLabel": "Naam"
+        },
+        "addNodePopover": {
+          "popoverTitle": {
+            "ou": "Organisatie-eenheid toevoegen",
+            "team": "Team toevoegen",
+            "su": "Planningseenheid toevoegen"
+          },
+          "nameLabel": {
+            "ou": "Naam",
+            "team": "Bestaand team toevoegen",
+            "su": "Bestaande planningseenheid toevoegen"
+          },
+          "validation": {
+            "teamValidation": "Dit team is al toegevoegd onder",
+            "suValidation": "Deze planningseenheid is al toegevoegd onder",
+            "nonLeafSUMoveValidation": "Deze planningseenheid bestaat al als bovenliggend knooppunt in de hiërarchie"
+          }
+        },
+        "infoNodePopover": {
+          "popoverTitle": "Teamgegevens",
+          "nameLabel": "Naam",
+          "TeamLeadLabel": "TEAMLEIDER"
+        },
+        "suInfoNodePopover": {
+          "popoverTitle": "Informatie over planningseenheid",
+          "nameLabel": "Naam",
+          "TimeZoneLabel": "Tijdzone"
+        }
+      },
+      "saved": "Opgeslagen",
+      "saving": "Bezig met opslaan...",
+      "minuteAgo": "minuut geleden",
+      "minutesAgo": "minuten geleden"
+    },
+    "template": {
+      "templateType": {
+        "ou": "Organisatie-eenheid toevoegen",
+        "team": "Team toevoegen",
+        "su": "Planningseenheid toevoegen"
+      }
+    }
+  },
+  "employeeGroupsPage": {
+    "pageTitle": "Planningseenheid",
+    "items": "eenheden",
+    "item": "planningseenheid",
+    "errorDelete": "Er is geen rij geselecteerd om te verwijderen",
+    "errorDeleteNoId": "Deze planningseenheid is al verwijderd. Vernieuw de pagina.",
+    "bulkOperationsBtns": {
+      "deleteBtn": "Verwijderen"
+    },
+    "gridColumnsHeaders": {
+      "id": "ID",
+      "name": "Naam",
+      "employees": "Medewerkers",
+      "timeZone": "Tijdzone",
+      "unit": "Eenheid"
+    },
+    "deleteSelectedGroupMsg": "Deze eenheden worden verwijderd van alle medewerkers. Weet u het zeker?",
+    "popover": {
+      "message": "Waarschuwing! Als u dit item verwijdert, worden alle toegewezen medewerkers naar de standaard planningseenheid overgebracht. Dit kan gevolgen hebben voor hun planning."
+    },
+    "tooltip": {
+      "message": "Deze bedrijfseenheid is onderdeel van een hiërarchie. U moet de bedrijfseenheid uit de hiërarchie verwijderen voordat u deze kunt verwijderen.",
+      "deleteSUsInHeirarchyMessage": "De geselecteerde bedrijfseenheden maken deel uit van een hiërarchie. U moet ze uit de hiërarchie verwijderen voordat u ze kunt verwijderen."
+    },
+    "errorMessages": {
+      "required": "Het veld is leeg",
+      "minLength": "De invoer is te kort",
+      "maxLength": "De invoer is te lang",
+      "uniqueGroupName": "Deze naam bestaat al. Probeer een nieuwe.",
+      "defaultGroupName": "De naam van de standaardgroep kan niet worden gewijzigd",
+      "defaultGroupAddEmployees": "Als u medewerkers wilt verplaatsen, bewerkt u de doel-planningseenheid en voegt u de medewerkers daar aan toe.",
+      "cannotDeleteDefaultGroup": "De standaardgroep kan niet worden verwijderd"
+    },
+    "formLabels": {
+      "groupName": "Naam planningseenheid",
+      "users": "Medewerkers",
+      "timeZone": "Tijdzone"
+    },
+    "addNewGroup": "Nieuwe eenheid",
+    "totalItems": "{{count}} planningseenheden",
+    "createNewGroupModal": {
+      "addHeader": "Nieuwe planningseenheid maken",
+      "editHeader": "Planningseenheid bewerken",
+      "groupNamePlaceholder": "Naamloze eenheid",
+      "generalInfoTab": {
+        "header": "Werktijden",
+        "firstDayOfWeekInstruction": "EERSTE DAG VAN DE WEEK",
+        "timeZoneInstruction": "TIJDZONE",
+        "operationWorkingHoursHeader": "Werktijden",
+        "day": "DAG",
+        "workHours": "WERKTIJDEN",
+        "from": "START VANAF",
+        "to": "TOT",
+        "hour": "Uur",
+        "hours": "Uur",
+        "allDayWorkingHours": "Hele dag",
+        "amountOfHours": {
+          "numOfHours": "({{hours}} uur)",
+          "closed": "(gesloten)"
+        },
+        "daysOfWeek": {
+          "monday": "Maandag",
+          "tuesday": "Dinsdag",
+          "wednesday": "Woensdag",
+          "thursday": "Donderdag",
+          "friday": "Vrijdag",
+          "saturday": "Zaterdag",
+          "sunday": "Zondag"
+        }
+      },
+      "employeesTab": {
+        "header": "Medewerkers",
+        "assignedEmployeesTxt": "Toegewezen medewerkers",
+        "addEmployeesBtn": "Medewerkers toevoegen",
+        "selectEmployeesTxt": "Medewerkers selecteren",
+        "selectedTxt": "Geselecteerd:"
+      },
+      "successAdd": "Nieuwe planningseenheid is toegevoegd",
+      "successEdit": "Planningseenheid is aangepast"
+    },
+    "suDeleteWarningModal": {
+      "header": "Fout bij verwijderen van planningseenheden"
+    }
+  }
+}

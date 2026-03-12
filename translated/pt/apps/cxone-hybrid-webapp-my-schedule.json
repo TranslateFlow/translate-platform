@@ -1,0 +1,2485 @@
+{
+  "mySchedule": {
+    "enhancedTradeModal": {
+      "modalTitle": "Trocar Turno",
+      "okLabel": "Enviar Solicitação de Troca",
+      "fromLabel": "DE",
+      "toLabel": "PARA",
+      "preferredShiftLabel": "Dia e horário do turno de preferência",
+      "betweenLabel": "Entre",
+      "grid": {
+        "shiftStart": "Início do Turno",
+        "shiftEnd": "Término do Turno",
+        "agentName": "Nome do Agente",
+        "gridNotSet": "Preferência de turno ainda não definida",
+        "gridNoRowsOverlay": "Nenhum turno correspondente encontrado. Atualize suas preferências comerciais",
+        "gridNoAgent": "Nenhum agente encontrado",
+        "gridError": "Não foi possível carregar os dados. Tente novamente.",
+        "wfo_service_schedule_manager_79": "Não é possível trocar turno. Horas de negociação inferiores ao valor mínimo exigido.",
+        "wfo_service_schedule_manager_88": "Não é possível dividir a atividade. Selecione diferentes horários do solicitante.",
+        "wfo_service_schedule_manager_90": "Negociação de dia parcial não permitido.",
+        "wfo_service_schedule_manager_78": "Não é possível trocar de turno. Deslocamento do horário de negociação muito próximo do horário solicitado.",
+        "wfo_service_schedule_manager_68": "Não é Possível Trocar de Turno. A agenda ainda não foi publicada.",
+        "wfo_service_schedule_manager_77": "Não é Possível Trocar de Turno. Data de negociação do turno além do período permitido a partir da data solicitada.",
+        "wfo_service_schedule_manager_65": "Não é Possível Trocar de Turno. Negociação do turno não permitido para as datas anteriores.",
+        "wfo_service_schedule_manager_62": "Não é Possível Trocar de Turno. Troca de turno não permitida para solicitações de alteração de agendamento pendentes.",
+        "wfo_service_schedule_manager_87": "Não é possível negociar turno. O número de solicitações de negociação abertas para o dia excede o limite configurado.",
+        "wfo_service_schedule_manager_76": "Negociação não permitida."
+      },
+      "header": {
+        "shift": "turno",
+        "searchTitle": "Buscar Agente",
+        "selectedRow": "Mostrar apenas os selecionados",
+        "selected": "selecionada(s)"
+      },
+      "tradeConfigMsg": "Baseado na configuração de negociação do sistema",
+      "weekdayDropdown": "Selecionar os dias preferidos",
+      "findShiftBtnText": "Encontrar Turnos Correspondentes",
+      "openTradeMessage": {
+        "requestorWaitForApproval": "Solicitação de troca de turno enviada para {{totalRequests}} funcionários e aguardando aceitação",
+        "requesteeInvitedForTrade": "{{requestorName}} está convidando você para trocar turnos",
+        "requesteeAcceptedTrade": "Você aceitou essa troca. Aguardando aprovação do supervisor",
+        "viewRequest": "Ver solicitação",
+        "decline": "Recusar",
+        "cancel": "Cancelar"
+      },
+      "fullDayTradeOption": "Turno Completo",
+      "partialDayTradeOption": "Turno Parcial",
+      "nonTradeableActivityPresent": "O turno de trabalho contém atividades não negociáveis",
+      "startTimeLateThanEndTime": "O horário de início deve ser anterior ao horário de término",
+      "minAdvanceNotice": "A solicitação de negociação deve ser enviada com pelo menos {{stringTime}} de antecedência",
+      "minPartialShiftDuration": "Selecione pelo menos {{minStringTime}}",
+      "fullDayShiftLabel": "Horários de Turno",
+      "partialShiftLabel": "Horários de Turnos Parciais",
+      "popOverNonTradableActivity": "O turno de trabalho contém atividades não negociáveis",
+      "popOverMinAdvNotice": "A solicitação de negociação deve ser enviada com pelo menos {{stringTime}} de antecedência",
+      "popOverPartialTradeDisabled": "Somente negociações de dia inteiro são permitidas com base na configuração de negociação do sistema",
+      "daysNotSelectedtLabel": "Este campo é obrigatório",
+      "popOverPartialRequestPending": "Negociação de dia inteiro não é permitida quando a solicitação de negociação de dia parcial estiver pendente",
+      "popOverFullDayRequestPending": "Negociação de dia parcial não é permitida quando a solicitação de negociação de dia inteiro estiver pendente",
+      "maxSelectionMessage": "Você pode selecionar até {{maxSelectionPossible}} turnos."
+    },
+    "tradeValidations": {
+      "wfo_service_schedule_manager_68": "Não é Possível Trocar de Turno. A agenda ainda não foi publicada.",
+      "tradeFailure": "Não é possível negociar turno. Erro desconhecido.",
+      "generalError": "Falha na negociação. Tente mais tarde.",
+      "wfo_service_schedule_manager_78": "Não é Possível Trocar de Turno. Data de negociação do turno muito próxima da data solicitada.",
+      "wfo_service_schedule_manager_77": "Não é Possível Trocar de Turno. Data de negociação do turno além do período permitido a partir da data solicitada.",
+      "wfo_service_schedule_manager_65": "Não é Possível Trocar de Turno. Negociação do turno não permitido para as datas anteriores.",
+      "wfo_service_schedule_manager_62": "Não é Possível Trocar de Turno. Troca de turno não permitida para solicitações de alteração de agendamento pendentes.",
+      "wfo_service_schedule_manager_88": "Não é Possível Trocar de Turno. A programação publicada está vazia.",
+      "non_tradable": "Não é Possível Trocar de Turno. Pelo menos uma atividade em seu turno não é negociável.",
+      "wfo_service_schedule_manager_87": "Não é possível negociar turno. O número de solicitações de negociação abertas para o dia excede o limite configurado.",
+      "wfo_service_schedule_manager_76": "Negociação não permitida.",
+      "tradeSuccess": "Solicitação de negociação enviada com sucesso para todos os agentes selecionados.",
+      "tradeSuccessPartial": "Solicitação de negociação enviada com sucesso para {{successCount}} agentes.",
+      "tradeSubmissionFailure": "Falha na solicitação de negociação.",
+      "tradeAccpeted": "Solicitação de negociação cancelada com sucesso.",
+      "trdaeDecline": "Solicitação de negociação recusada com sucesso."
+    },
+    "agentInitiatedSchedule": {
+      "activityModal": {
+        "activityLabel": "TIPO DE ATIVIDADE",
+        "balanceLabel": "MEU SALDO DE FOLGAS",
+        "startLabel": "INICIAR",
+        "endLabel": "TERMINAR",
+        "commentLabel": "COMENTAR",
+        "commentPlaceHolder": "Adicionar comentários...",
+        "title": "Nova Solicitação de Tempo Limite",
+        "addActivityTitle": "Adicionar atividade",
+        "editActivityTitle": "Editar atividade",
+        "removeActivityTitle": "Remover atividade",
+        "submitButton": "Enviar",
+        "saveButton": "Salvar",
+        "addActivitySaveButton": "Adicionar",
+        "removeActivitySaveButton": "Remover",
+        "cancelButton": "Cancelar",
+        "unpublishedDayMessage": "Você não possui uma programação publicada para este dia, portanto, você pode solicitar uma folga por dias inteiros.",
+        "restrictFullDaysMessage": "Você pode solicitar apenas dias completos para esta atividade.",
+        "overnightMessage": "Esta é uma atividade noturna. Você só pode editar as horas da data de início.",
+        "activityCodePlaceholder": "Selecione um código de atividade",
+        "fullDay": "Dia todo",
+        "remaining": " caracteres restantes",
+        "remainingBalance": "Você tem {{remainingDays}}/{{totalDays}} dias restantes",
+        "noBalance": "Você usou todos os {{totalDays}} dias do seu saldo",
+        "validations": {
+          "invalidPartialActivityCodeNumHours": "Esta atividade deve estar entre {{partialDayRequestMinHours}}-{{partialDayRequestMaxHours}} horas",
+          "invalidPartialActivityHours": "Deve ser após a hora de início",
+          "invalidDaysBalance": "Restam apenas {{remaining}} dias em seu saldo",
+          "invalidHoursBalance": "Restam apenas {{remainingBalanceHoursString}} horas em seu saldo",
+          "noRemainingDaysBalance": "Você não tem dias restantes para esta atividade",
+          "overlappingRequests": "Você já tem uma solicitação pendente no momento",
+          "overlappingShiftTradeRequests": "Você tem uma solicitação de troca pendente neste período",
+          "REQUEST_CREATION_TIME_DAYS_IN_ADVANCE": "A solicitação deve ser enviada com pelo menos {{DAYS_IN_ADVANCE}} dias de antecedência",
+          "REQUEST_CREATION_TIME_SAME_DAY": "Para esta atividade, você só pode fazer solicitações para o mesmo dia.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_FUTURE": "Você só pode fazer solicitações para até {{MAX_DAYS_IN_FUTURE}} dias a partir de agora.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_PAST": "Você só pode fazer solicitações para até {{MAX_DAYS_IN_PAST}} dias antes de hoje.",
+          "AGENT_SENIORITY": "Você tem que trabalhar pelo menos {{AGENT_MINIMUM_SENIORITY_DAYS}} dias para enviar esta solicitação.",
+          "AGENT_BALANCE": "Você não tem saldo suficiente de folgas.",
+          "SCHEDULING_UNIT_BALANCE": "Você não pode solicitar folgas para este intervalo de tempo.",
+          "SCHEDULING_UNIT_STAFFING": "O nível de pessoal é muito baixo para a atividade/dias selecionados",
+          "SCHEDULING_UNIT_NO_PUBLISHED_SCHEDULE": "Não há previsão ou programação publicada para a atividade/dias selecionados",
+          "selfIntervalAutoTime": "Todos os horários no intervalo selecionado não estão disponíveis para folga com autoaprovação",
+          "selfIntervalManagerTime": "Todos os horários no intervalo selecionado não estão disponíveis para folga com aprovação necessária",
+          "invalidPartialFulldayTO": "A folga parcial deve ser menor que a duração total do turno",
+          "extraHoursIntervalConsumingShift": "As horas extras devem ser fora do turno",
+          "selfExtraHoursAutoTime": "Todos os horários no intervalo selecionado não estão disponíveis para horas extras com autoaprovação",
+          "selfExtraHoursTime": "Todos os horários no intervalo selecionado não estão disponíveis para horas extras com aprovação necessária",
+          "AGENT_BALANCE_FOR_EH": "Você não tem saldo suficiente de horas extras.",
+          "AGENT_MAX_HOURS_A_DAY": "As horas excedem o limite máximo diário",
+          "AGENT_MAX_HOURS_A_WEEK": "As horas excedem o máximo semanal máximo"
+        },
+        "selfIntervalTitle": "Selecionar folga",
+        "startDate": "DATA DE INÍCIO",
+        "startTime": "HORA DE INÍCIO",
+        "endDate": "DATA DE TÉRMINO",
+        "endTime": "HORA DE TÉRMINO",
+        "selfIntervalExtraHoursTitle": "Selecionar horas extras"
+      },
+      "dirtyMode": {
+        "cancel": "Cancelar",
+        "submitRequest": "Enviar solicitação"
+      },
+      "menuOptions": {
+        "requestTimeoff": "Solicitar intervalo",
+        "addActivity": "Adicionar atividade",
+        "deleteActivity": "Remover atividade",
+        "editRequest": "Editar pedido",
+        "editActivityTime": "Editar tempo de atividade",
+        "cancelRequest": "Cancelar solicitação",
+        "cancelActivity": "Cancelar solicitação"
+      },
+      "requestExistLabel": "Você tem solicitações pendentes para este dia.",
+      "singleFullDayRequestExistLabel": "Solicitação de dia inteiro pendente ({{activityCode}}) para este dia.",
+      "multipleFullDayRequestExistLabel": "Solicitação de dia inteiro pendente ({{activityCode}}) para {{requestStartDate}} - {{requestEndDate}}.",
+      "dirtyModeSingleFullDayRequestLabel": "Solicitação de dia inteiro - {{activityCode}}",
+      "dirtyModeMultipleFullDayRequestLabel": "{{requestStartDate}} - {{requestEndDate}} - {{activityCode}}",
+      "invalidRequestLabel": "Algumas atividades foram excluídas ou suas configurações alteradas. Cancele todas as solicitações.",
+      "viewRequests": "Exibir solicitações",
+      "cancelRequests": "Cancelar tudo",
+      "deletedActivityName": "Atividade excluída",
+      "messages": {
+        "requestSubmitted": "Solicitação enviada com sucesso.",
+        "submitRequestFailure": "Não foi possível enviar a solicitação. Tente novamente mais tarde.",
+        "submitRequestFailureWithRefresh": "Não foi possível enviar a solicitação. Atualize a página e tente novamente.",
+        "submitRequestFailureScheduleChanged": "Não foi possível enviar a solicitação. Uma atualização foi feita na sua agenda. Atualize a página e tente novamente.",
+        "submitRequestFailureDiscarded": "Não foi possível enviar a solicitação. Uma atualização foi feita em sua programação e suas solicitações anteriores foram descartadas. Recarregue a página.",
+        "requestCanceled": "Solicitação cancelada com sucesso.",
+        "allRequestsCanceled": "Pedidos cancelados com sucesso.",
+        "cancelRequestFailureAlreadyApprovedDeclined": "Não foi possível cancelar a solicitação. Uma atualização foi feita na sua agenda. Atualize a página e tente novamente.",
+        "cancelAllRequestsFailureAlreadyApprovedDeclined": "Não foi possível cancelar os pedidos. Uma atualização foi feita em sua programação. Atualize a página e tente novamente.",
+        "cancelRequestFailureDiscarded": "Não foi possível cancelar a solicitação. Uma atualização foi feita em sua programação e suas solicitações anteriores foram descartadas. Recarregue a página.",
+        "cancelAllRequestsFailureDiscarded": "Não foi possível cancelar os pedidos. Uma atualização foi feita em sua programação e suas solicitações anteriores foram descartadas. Recarregue a página.",
+        "cancelRequestFailureWithRefresh": "Não foi possível cancelar a solicitação. Atualize a página e tente novamente.",
+        "cancelAllRequestsFailureWithRefresh": "Não foi possível cancelar os pedidos. Atualize a página e tente novamente.",
+        "cancelRequestFailure": "Não foi possível cancelar a solicitação. Tente novamente mais tarde.",
+        "cancelAllRequestsFailure": "Não foi possível cancelar os pedidos. Tente mais tarde.",
+        "modalInitFailure": "Não foi possível abrir a janela Atividade. Recarregue a página.",
+        "failedToLoadRequests": "Não foi possível carregar pedidos pendentes. Recarregue a página.",
+        "requestTimezoneDiff": "Não foi possível carregar solicitações pendentes de diferentes fusos horários.",
+        "submitRequestConfirmation": "Suas solicitações se sobrepõem às atividades agendadas. Uma vez aprovadas, as novas atividades substituirão a programação existente para os intervalos de tempo solicitados.",
+        "cancelRequestConfirmation": " Todas as alterações serão perdidas. Continuar?",
+        "cancelAllRequestsConfirmation": "Deseja apagar todos os pedidos pendentes para este dia?",
+        "confirmationContinue": "Continuar?",
+        "confirmationYes": "Sim",
+        "confirmationNo": "Não",
+        "cannotEditOvernightActivity": "Você só pode editar esta atividade a partir da data de início.",
+        "cannotDeleteOvernightActivity": "Você só pode remover esta atividade da data de início.",
+        "cannotCreateShiftTradeRequest": "Você não pode trocar turnos porque tem solicitações de agendamento pendentes para este dia.",
+        "cannotCreateScheduleRequest": "Você não pode alterar sua programação porque tem uma solicitação de troca de turno pendente para este dia.",
+        "cannotLoadPendingTradeRequests": "Não foi possível carregar solicitações de negociação pendentes. Recarregue a página.",
+        "generalConflictErr": "Você tem solicitações conflitantes.",
+        "cannotCancelOvernightActivity": "Você só pode cancelar esta atividade a partir da data de início.",
+        "pastDateCancelationNotAllowed": "Os cancelamentos devem ser feitos com antecedência. Entre em contato com seu gerente para cancelar.",
+        "scheduleChangedPostApproval": "A programação mudou depois que sua solicitação de folga foi aprovada. Entre em contato com seu gerente para cancelar.",
+        "moreThan1DayCancelationNotAllowed": "O cancelamento por mais de um dia não é suportado. Entre em contato com seu gerente para cancelar.",
+        "cannotLoadWeeklyScheduleData": "Não foi possível carregar os dados da agenda semanal."
+      },
+      "comparisonModal": {
+        "viewFromScheduleManager": "Gerenciador de agendas",
+        "requestExceedingRange": "Esta solicitação é para {{totalDays}} dias, de {{fromDate}} a {{toDate}}. Para ver a agenda completa do agente, clique em ",
+        "agentTitle": "Minhas solicitações de agendamento",
+        "managerTitle": "Solicitações de agendamento",
+        "currentSchedule": "agendamento atual",
+        "revisedSchedule": "Agendamento revisado",
+        "requestUpdatedWarning": "Esta solicitação foi atualizada recentemente."
+      },
+      "fullDayInvalidRequestLabel": "A atividade {{activityCode}} foi excluída ou modificada. A solicitação de dia inteiro pendente não é mais válida.",
+      "timeGroupLabel": "Seleção de Data/Hora de Início e Término",
+      "self_Interval": "Autoatendimento",
+      "select_self_service": "Selecionar..."
+    },
+    "errorRead": "Ocorreu um erro ao carregar o agendamento.",
+    "pageTitle": "Minha agenda",
+    "userName": "{{userName}}",
+    "actionButton": "Ações",
+    "actionLinks": {
+      "tradeShift": "Trocar Turno",
+      "userPreferences": "Preferências de turno",
+      "userTORBalance": "Balanço de Folga"
+    },
+    "showSummary": {
+      "onCall": "EM CHAMADA",
+      "outOfOfficeAgent": "FORA DO ESCRITÓRIO",
+      "noData": "Sem dados"
+    },
+    "tradeModal": {
+      "agentLabel": "Trocar com:",
+      "agentPlaceHolder": "Selecionar Agente",
+      "okLabel": "Enviar",
+      "modalTitle": "Trocar {{date}} | {{time}}"
+    },
+    "userPreferencesModal": {
+      "okLabel": "Salvar",
+      "modalTitle": "Preferências de turno",
+      "updateSuccessMsg": "O funcionário foi atualizado com sucesso!"
+    },
+    "openTradeMessage": {
+      "requestorWaitForApproval": "Solicitação de troca enviada e aguardando aprovação",
+      "requesteeInvitedForTrade": "{{requestorName}} está convidando você para trocar turnos",
+      "requesteeAcceptedTrade": "Você aceitou essa troca. Aguardando aprovação do supervisor",
+      "viewRequest": "Ver solicitação",
+      "decline": "Recusar",
+      "cancel": "Cancelar"
+    },
+    "toasts": {
+      "updateFailed": "Ocorreu um problema ao atualizar o status da solicitação de troca de turno",
+      "canceledFailed": "Ocorreu um problema ao cancelar a solicitação de troca de turno",
+      "declinedFailed": "Ocorreu um problema ao recusar a solicitação de troca de turno",
+      "acceptedFailed": "Ocorreu um problema ao aceitar a solicitação de troca de turno",
+      "retrieveFailed": "Ocorreu um problema ao recuperar solicitações de troca por turno",
+      "canceledSuccess": "Solicitação de negociação cancelada com sucesso.",
+      "noTradeAvaliable": "A solicitação de troca não está mais disponível."
+    },
+    "sideBySideModal": {
+      "modalTitle": "Troca de turno",
+      "declineBtnLabel": "Recusar",
+      "acceptBtnLabel": "Aceitar",
+      "requesteeHeaderLabel": "Você dá",
+      "requestorHeaderLabel": "Você obtém",
+      "headerLabelFormat": "{{date}} | {{time}}",
+      "error": {
+        "tradeDateHasPassed": "Esta negociação de turno não está mais ativa",
+        "scheduleRequestExists": "Você não pode trocar turnos porque tem solicitações de agendamento pendentes para este dia.",
+        "nonTradableError": "Negociação negada. O seu turno ou do agente selecionado tem uma atividade que não pode ser negociada.",
+        "generalError": "Negociação de turno falhou"
+      }
+    },
+    "agentScheduleCancellation": {
+      "messages": {
+        "confirmationNo": "Ficar",
+        "confirmationYes": "Cancelar solicitação",
+        "confirmationMessage1": "Cancelar solicitação?",
+        "confirmationMessage2": "Sua programação voltará ao estado anterior.",
+        "canNotCancelTimeOff": "Não é Possível Cancelar Folga",
+        "internalError": "Ocorreu um erro interno no servidor. Tente novamente."
+      }
+    },
+    "today": "Hoje",
+    "selfServiceTO": {
+      "autoTOPopover": "Folga automática",
+      "managerTOPopover": "Folga necessária para aprovação",
+      "noSelfIntervalActivityPresentForDay": "Não há atividade de autoatendimento para o dia.",
+      "generalError": "Não foi possível carregar os dados de autoatendimento."
+    },
+    "weeklyViewTradeSideBySideModal": {
+      "viewTradeRequest": "Ver solicitação recebida",
+      "declineTradeRequest": "Recusar todas as solicitações recebidas",
+      "cancelTradeRequest": "Cancelar todas as solicitações recebidas",
+      "viewPendingRequest": "Exibir solicitações",
+      "deletePendingRequest": "Cancelar tudo",
+      "pendingRequestsText": "Solicitações pendentes",
+      "cancelPendingRequestTitle": "Cancelar pedido pendente de solicitações",
+      "deleteAllPendingActivityRequestsConfirmation": "Deseja cancelar todas as solicitações pendentes para ",
+      "dontCancelButtonText": "Não cancelar",
+      "noRequestsForThisDay": "Nehuma solicitação para este dia.",
+      "tradeHeading": "Pedidos de negociação",
+      "pendingActivityRequestHeader": "Solicitações de atividade",
+      "pendingTradeRequestHeader": "Pedidos de negociação",
+      "close": "Fechar",
+      "fullDayTimeoffMsg": "Há uma folga de dia inteiro para esse dia."
+    },
+    "selfServiceEH": {
+      "autoEHPopover": "Horas extras automáticas",
+      "managerEHPopover": "Horas extras necessárias para aprovação",
+      "noSelfIntervalActivityPresentForDay": "Não há atividade de autoatendimento para o dia.",
+      "generalError": "Não foi possível carregar os dados de autoatendimento.",
+      "noPermissionToAddOpenActivity": "Não é possível adicionar a atividade. Permissão necessária."
+    },
+    "day": "Dia",
+    "week": "Semana"
+  },
+  "myTimeOffRequests": {
+    "myTimeOffbalanceModal": {
+      "usage": "Uso",
+      "title": "Meu saldo de folgas",
+      "total": "total",
+      "taken": "ocupado",
+      "earned": "ganho",
+      "scheduled": "agendado",
+      "remaining": "Remanescente",
+      "invalidRemainingDays": "Você não tem dias restantes para esta atividade",
+      "activity": "Atividade"
+    },
+    "gridColumns": {
+      "statusUpdateComment": "REVISADO POR",
+      "dates": "DATAS SOLICITADAS",
+      "requestOn": "SOLICITADO EM",
+      "activityType": "TIPO DE ATIVIDADE",
+      "comments": "COMENTÁRIO DO AGENTE",
+      "status": "STATUS",
+      "time": "TEMPO SOLICITADO"
+    },
+    "system": "Sistema",
+    "pageTitle": "Solicitações de agendamento",
+    "gridHeaderPlaceholder": "Comece a digitar para encontrar uma solicitação",
+    "scheduleRequestsTitle": "Solicitações de agendamento",
+    "newButton": "Nova solicitação",
+    "timeOffStatusButton": "Saldo de folgas",
+    "items": "Solicitações",
+    "item": "Solicitação",
+    "gridNoRowsOverlay": "Nenhuma solicitação foi criada ainda",
+    "by": "Por",
+    "fullDay": "Dia inteiro",
+    "days": "Dias",
+    "noComments": "Sem comentários",
+    "cancelRequest": "Cancelar",
+    "deletedActivity": "Atividade excluída",
+    "requestStatusType": {
+      "approved": "aprovado",
+      "declined": "recusado",
+      "pending": "pendente",
+      "canceled": "cancelado",
+      "discarded": "Descartado",
+      "auto_approved": "aprovado",
+      "auto_declined": "recusado",
+      "canceled_approved_request": "Solicitação de Cancelado - Aprovado"
+    },
+    "modal": {
+      "title": "Novo pedido de folga"
+    },
+    "messages": {
+      "createSuccess": "Foi criada uma nova solicitação de folga",
+      "createFailed": "Falha ao criar solicitação de folga",
+      "cancelSuccess": "A solicitação de folga foi cancelada",
+      "cancelFailed": "Falha ao cancelar a solicitação de folga"
+    }
+  },
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "wfmModuleLinks": {
+          "requestHandling": "Gerenciar Solicitações",
+          "scheduler": "Gerenciador de agendas",
+          "realTimeAdherence": "Adesão em Tempo Real",
+          "intradayDashboard": "Intradia",
+          "forecasting": "Previsão",
+          "generateForecast": "Gerar previsão",
+          "forecastingProfiles": "Perfis de previsão",
+          "specialDays": "Dias especiais",
+          "acdImportHistorical": "Dados históricos da ACD",
+          "scheduling": "Agendamento",
+          "generateSchedule": "Gerar agenda",
+          "biddingManager": "Gerente de lances",
+          "importStaffingPlan": "Importar plano de pessoal",
+          "timeOffRequests": "Solicitações",
+          "requests": "Solicitações",
+          "setup": "Configurar",
+          "activityCodes": "Códigos de atividade",
+          "acdActivitiesMapping": " Mapeamento de ACD",
+          "dailyRule": "Regras diárias",
+          "weeklyRules": "Regras semanais",
+          "rotationRules": "Regras de rotação",
+          "shiftBiddingTemplates": "Modelos de lances",
+          "seatLimits": "Limites de assento",
+          "shiftTrading": "Troca de turno",
+          "intradayManager": "Gerente Intradia",
+          "timeOffPlanning": "Planejamento de intervalo",
+          "summary": "Resumo",
+          "rules": "Regras",
+          "approvalRules": "Regras de aprovação"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "Minha agenda",
+          "tasks": "Tarefas",
+          "evaluations": "Avaliações",
+          "plansMonitoring": "Monitoramento de Plano",
+          "performanceMonitoring": "Monitoramento de desempenho",
+          "myTimeOffRequests": "Solicitações de folga",
+          "scheduleRequests": "Solicitações de agendamento",
+          "shiftBidding": "Lance por turno",
+          "calibrations": "Calibrações",
+          "coaching": "Coaching",
+          "groupCoaching": "Coaching em grupo",
+          "selfAssessments": "Autoavaliações",
+          "marketplace": "Marketplace",
+          "myPersona": "Minha Persona",
+          "pursuits": "Minhas Buscas",
+          "1on1coaching": "Coaching individual",
+          "recentInteractions": "Interações recentes"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "Minha agenda",
+          "myTimeOffRequests": "Solicitações de folga",
+          "scheduleRequests": "Solicitações de agendamento",
+          "evaluations": "Avaliações",
+          "shiftBidding": "Lance por turno",
+          "coaching": "Coaching",
+          "groupCoaching": "Coaching em grupo",
+          "marketplace": "Marketplace",
+          "myDashboards": "Meu Painel",
+          "pursuits": "Minhas Buscas",
+          "1on1coaching": "Coaching individual",
+          "recentInteractions": "Interações recentes"
+        }
+      }
+    },
+    "global": {
+      "warningIcon": "Aviso"
+    }
+  },
+  "metaInfo": {
+    "requests": {
+      "title": "Gerenciar Solicitações",
+      "description": "Gerenciar solicitações de agente"
+    },
+    "selfService": {
+      "title": "Suporte - Downloads"
+    },
+    "title": "Nice SaaS WFM ",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "login": {
+      "title": "Iniciar sessão",
+      "description": "Nice SaaS WFM"
+    },
+    "success": {
+      "title": "Sucesso",
+      "description": "Nice SaaS WFM"
+    },
+    "examples": {
+      "title": "Exemplos",
+      "description": "Nice SaaS WFM"
+    },
+    "form_example": {
+      "title": "Exemplos de formulário",
+      "description": "Nice SaaS WFM"
+    },
+    "userManagement": {
+      "title": "Funcionários",
+      "description": "Nice SaaS WFM"
+    },
+    "createAccount": {
+      "title": "Criar Conta",
+      "description": "Nice SaaS WFM"
+    },
+    "activityCodes": {
+      "title": "Códigos de atividade",
+      "description": "Nice SaaS WFM"
+    },
+    "acdActivitiesMapping": {
+      "title": " Mapeamento de ACD",
+      "description": "Nice SaaS WFM"
+    },
+    "dailyRule": {
+      "title": "Regras diárias",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftBiddingTemplates": {
+      "title": "Modelos de Turno",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftTrading": {
+      "title": "Troca de turno",
+      "description": "Nice SaaS WFM"
+    },
+    "timeOffPlanning": {
+      "rules": {
+        "title": "Regras",
+        "description": "Nice SaaS WFM"
+      },
+      "summary": {
+        "title": "Resumo",
+        "description": "Nice SaaS WFM"
+      }
+    },
+    "timeOffRules": {
+      "title": "Regras de folga",
+      "description": "Nice SaaS WFM"
+    },
+    "timeOffSummary": {
+      "title": "Resumo do tempo livre",
+      "description": "Nice SaaS WFM"
+    },
+    "createNewRule": {
+      "title": "Nova regra",
+      "description": "Nice SaaS WFM"
+    },
+    "biddingManager": {
+      "title": "Gerente de lances",
+      "description": "Nice SaaS WFM"
+    },
+    "bidsView": {
+      "title": "Gerente de lances",
+      "description": "Nice SaaS WFM"
+    },
+    "shiftBidding": {
+      "title": "Lance por turno",
+      "description": "Nice SaaS WFM"
+    },
+    "bidPatterns": {
+      "title": "Lance por turno",
+      "description": "Nice SaaS WFM"
+    },
+    "employeeGroups": {
+      "title": "Unidade de agendamento",
+      "description": "Nice SaaS WFM"
+    },
+    "expiredInvitation": {
+      "title": "Convite expirado",
+      "description": "Nice SaaS WFM"
+    },
+    "generateschedule": {
+      "title": "Gerar agenda",
+      "description": "Nice SaaS WFM"
+    },
+    "mySchedule": {
+      "title": "Minha agenda",
+      "description": "Nice SaaS WFM"
+    },
+    "myDashboard": {
+      "title": "Meu Painel",
+      "description": "Nice SaaS WFM"
+    },
+    "myTimeOffRequests": {
+      "title": "Solicitações de agendamento",
+      "description": "Nice SaaS WFM"
+    },
+    "intradayManager": {
+      "title": "Gerente Intradia",
+      "description": "Nice SaaS WFM"
+    },
+    "qpManager": {
+      "title": "Quality Planner",
+      "description": "Nice SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "Executor de Formulário",
+      "description": "Nice SaaS WFM"
+    },
+    "recoverPassword": {
+      "title": "Recuperar Senha",
+      "description": "Nice SaaS WFM"
+    },
+    "resetPassword": {
+      "title": "Redefinir senha",
+      "description": "Nice SaaS WFM"
+    },
+    "scheduler": {
+      "title": "Gerenciador de agendas",
+      "description": "Nice SaaS WFM"
+    },
+    "setPassword": {
+      "title": "Definir Senha",
+      "description": "Nice SaaS WFM"
+    },
+    "skills": {
+      "title": "Competências",
+      "description": "Nice SaaS WFM"
+    },
+    "UIKitGallery": {
+      "title": "Galeria do kit de UI",
+      "description": "Nice SaaS WFM",
+      "userRoles": "{{selectedCount}} Funções do funcionário"
+    },
+    "weeklyRules": {
+      "title": "Regras semanais",
+      "description": "Nice SaaS WFM"
+    },
+    "manageForms": {
+      "title": "Gerenciar Formulários",
+      "description": "Nice SaaS WFM"
+    },
+    "templateManager": {
+      "title": "Gerenciador de modelos",
+      "description": "Nice SaaS WFM"
+    },
+    "formDesigner": {
+      "title": "Designer de formulários",
+      "description": "Nice SaaS WFM"
+    },
+    "forecastData": {
+      "title": "Importar dados de previsão",
+      "description": "Nice SaaS WFM"
+    },
+    "historicalData": {
+      "title": "Dados históricos",
+      "description": "Nice SaaS WFM"
+    },
+    "groups": {
+      "title": "Grupos",
+      "description": "Nice SaaS WFM"
+    },
+    "realTimeAdherence": {
+      "title": "Adesão em Tempo Real",
+      "description": "Adesão em Tempo Real"
+    },
+    "timeOffRequests": {
+      "title": "Solicitações",
+      "description": "Nice SaaS WFM"
+    },
+    "automaticApprovalRules": {
+      "title": "Regras de aprovação",
+      "description": "Gerenciar regras de aprovação"
+    },
+    "automaticApprovalRuleSettings": {
+      "title": "Configurações de regra de aprovação",
+      "description": "Gerenciar configurações de regras de aprovação"
+    },
+    "generatedForecasts": {
+      "title": "Gerar previsão",
+      "description": "Gerar previsão"
+    },
+    "generateForecast": {
+      "title": "Gerar previsão",
+      "description": "Gerar previsão"
+    },
+    "forecastingProfiles": {
+      "title": "Perfis de previsão",
+      "description": "Perfis de previsão"
+    },
+    "forecastingProfileView": {
+      "title": "Perfil de previsão",
+      "description": "Perfil de previsão"
+    },
+    "importStaffingJob": {
+      "title": "Planos de Pessoal",
+      "description": "Planos de Pessoal"
+    },
+    "specialDays": {
+      "title": "Dias especiais",
+      "description": "Dias especiais"
+    },
+    "specialDayView": {
+      "title": "Dia especial",
+      "description": "Dia especial"
+    }
+  },
+  "automaticApprovalRulesPage": {
+    "statuses": {
+      "broken": "Quebrado",
+      "expired": "Expirado",
+      "pending": "Pendente",
+      "active": "Ativo",
+      "inactive": "Inativo"
+    },
+    "brokenStatusTooltips": {
+      "noSu": "As unidades de agendamento relacionadas foram excluídas. Adicionar novos SUs à regra.",
+      "noAc": "Os códigos de atividade relacionados foram excluídos. Adicionar novos códigos de atividade à regra.",
+      "noSuAndAc": "Códigos de atividades relacionados e unidades de agendamento foram excluídos. Adicionar novos códigos de atividade e SUs à regra."
+    },
+    "pageTitle": "Regras de aprovação",
+    "searchPlaceholderText": "Comece a digitar para encontrar uma regra",
+    "newRule": "Nova regra",
+    "rule": "regra",
+    "rules": "regras",
+    "CreateNewRulePageTitle": "Criar nova regra",
+    "deleteSingleRuleMsg": "Tem certeza de que deseja excluir esta regra?",
+    "gridNoRowsOverlay": {
+      "none": "Nenhum Resultado Encontrado",
+      "empty": "Nenhuma regra encontrada",
+      "error": "Erro ao carregar dados"
+    },
+    "showActiveOnly": "Somente Ativos",
+    "gridColumnsHeaders": {
+      "name": "Nome",
+      "schedulingUnits": "Unidades de agendamento",
+      "activityCodes": "Códigos de atividade",
+      "occurrence": "ocorrência",
+      "Status": "Status"
+    },
+    "statusesSuccessActions": {
+      "active": "Regra ativada com sucesso",
+      "inactive": "Regra desativada com sucesso",
+      "delete": "Regra excluída com sucesso"
+    },
+    "ruleActions": {
+      "duplicate": "Duplicar",
+      "edit": "Editar",
+      "delete": "Excluir",
+      "activate": "Ativar",
+      "deactivate": "Desativar"
+    }
+  },
+  "common": {
+    "more": "mais..."
+  },
+  "notificationTemplates": {
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "title": "Agenda alterada",
+      "content": "A agenda de %%DATE%% foi alterada.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "title": "Agenda alterada",
+      "content": "A agenda entre %%FROM_DATE%% e %%TO_DATE%% foi alterada.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "title": "Nova solicitação de folga",
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "title": "A solicitação de folga foi recusada",
+      "content": "Solicitação para %%FROM_DATE%% a %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "APPROVED_TIME_OFF_REQUEST": {
+      "title": "A solicitação de folga foi aprovada",
+      "content": "Solicitação para %%FROM_DATE%% a %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "title": "A solicitação de folga foi cancelada",
+      "content": "Solicitação para %%FROM_DATE%% a %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_DISPUTE": {
+      "title": "Avaliação de volta da revisão",
+      "content": "Nenhuma ação é requerida.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_ACKNOWLEDGE": {
+      "title": "Nova avaliação chegou",
+      "content": "Sua revisão é necessária.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_EVALUATION_COMPLETED": {
+      "title": "Nova avaliação chegou",
+      "content": "Nenhuma ação é requerida",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    },
+    "PUBLISH_COACHING_STARTED": {
+      "title": "Novo pacote de coaching disponível",
+      "content": "Sua ação é necessária",
+      "link": {
+        "name": "Revisar",
+        "url": "/qm/#/myCoachings"
+      }
+    },
+    "SHIFT_BID_STATUS_UPDATED_TO_ACTIVE": {
+      "title": "Novo lance aberto agora",
+      "content": "Faça suas propostas para %%FROM_DATE%% - %%TO_DATE%%.",
+      "link": {
+        "name": "",
+        "url": ""
+      }
+    }
+  },
+  "notification": {
+    "notificationTitle": "Você tem {{Count}} notificação não lida"
+  },
+  "filter": {
+    "clearall": "Limpar tudo",
+    "close": "Fechar"
+  },
+  "generateSchedulesPage": {
+    "labels": {
+      "newRequestOff": "Solicitar folga",
+      "pageTitle": "Gerador de agenda automático",
+      "newJobButtonText": "Gerar novas agendas",
+      "items": "agendar trabalhos de geração",
+      "selectedItems": "{{selectedCount}} selecionado(s)",
+      "gridColumnsHeaders": {
+        "schedulingUnit": "Unidade de agendamento",
+        "schedulingDate": "Data de agendamento",
+        "initiatedBy": "Iniciado por",
+        "jobDate": "Data do trabalho",
+        "status": "Status"
+      },
+      "gridNoRowsOverlay": "Nenhum trabalho de agendamento foi gerado ainda",
+      "viewErrors": "Ver erros"
+    },
+    "statuses": {
+      "GENERATION_STARTING": "Geração a partir de...",
+      "GENERATION_STARTED": "Geração iniciada.",
+      "GENERATION_SCHEDULING": "Criando agendas...",
+      "GENERATION_SCHEDULING_COMPLETE": "Programação concluída.",
+      "GENERATION_STORING_SCHEDULES": "Armazenando agendas...",
+      "GENERATION_STORING_SCHEDULES_COMPLETE": "Armazenamento de agendas concluído.",
+      "GENERATION_CANCELLING": "Cancelando geração...",
+      "GENERATION_CANCELLED": "Geração cancelada.",
+      "GENERATION_COMPLETED": "Concluído com sucesso. {{message}}",
+      "GENERATION_COMPLETED_WITH_WARNINGS": "Concluído com sucesso. {{message}}",
+      "GENERATION_VALIDATION_FAILED": "Falha na validação.",
+      "GENERATION_ERRORED": "Falhou. {{message}}"
+    },
+    "statusDetailTitles": {
+      "internalError": "Erro interno",
+      "suNotFound": "Unidade de agendamento: {{suName}}",
+      "noUsersHaveSkills": "Unidade de agendamento: {{suName}}",
+      "someUsersHaveNoSkills": "Unidade de agendamento: {{suName}}",
+      "noUsersAssignedToSu": "Unidade de agendamento: {{suName}}",
+      "noUsersInSuAssignedWeeklyRules": "Unidade de agendamento: {{suName}}",
+      "someUsersInSuNotAssignedWeeklyRules": "Unidade de agendamento: {{suName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "Regra diária: {{dailyRuleName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "Regra diária: {{dailyRuleName}}",
+      "employeeUnavailiabilityViolatesMinUsage": "Regra semanal: {{weeklyRuleName}}",
+      "employeeUnavailiabilityViolatesMinDays": "Regra semanal: {{weeklyRuleName}}"
+    },
+    "statusDetails": {
+      "internalError": "Erro interno",
+      "suNotFound": "Unidade de agendamento não encontrada",
+      "noUsersHaveSkills": "Nenhum dos funcionários da unidade de agendamento \"{{suName}}\" possui competências",
+      "someUsersHaveNoSkills": "Alguns funcionários da unidade de agendamento \"{{suName}}\" não possuem competências",
+      "noUsersAssignedToSu": "Nenhum funcionário está atribuído à unidade de agendamento",
+      "noUsersInSuAssignedWeeklyRules": "Nenhum funcionário na unidade de agendamento “{{suName}}” tem regras semanais",
+      "someUsersInSuNotAssignedWeeklyRules": "Sem horários para funcionários na unidade de agendamento “{{suName}}” sem regras semanais",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "A regra semanal \"{{weeklyRuleName}}\" é usada pelos agentes na unidade de agendamento \"{{suName}}\"; e a regra diária \"{{dailyRuleName}}\" não segue o horário de funcionamento. Você deve atualizar a hora de início da regra diária.",
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "A regra semanal \"{{weeklyRuleName}}\" é usada pelos agentes na unidade de agendamento \"{{suName}}\", e uma ou mais regras diárias não seguem horário de funcionamento. Você precisa diminuir o mínimo da regra semanal.",
+      "employeeUnavailiabilityViolatesMinUsage": "O funcionário “{{employeeName}}” é definido como indisponível no Admin nos horários de trabalho agendados para a regra diária “{{dailyRuleName}}”. Você deve atualizar a regra semanal “{{weeklyRuleName}}” ou a disponibilidade do funcionário.",
+      "employeeUnavailiabilityViolatesMinDays": "O funcionário “{{employeeName}}” é definido como indisponível no Admin nos horários de trabalho agendados para a regra diária “{{dailyRuleName}}”. Você deve atualizar a regra semanal “{{weeklyRuleName}}” ou a disponibilidade do funcionário."
+    },
+    "modal": {
+      "header": "Gerar novas agendas",
+      "schedulingUnits": "Unidades de agendamento",
+      "scheduleUnit": "Unidade de agendamento",
+      "schedulingUnitsDropDown": "{{selectedCount}} unidades de agendamento",
+      "noMoreThanLimitSchedulingUnitsCouldBeScheduled": "Não foi possível agendar mais de {{items}} unidades de agendamento",
+      "from": "Iniciar",
+      "to": "Encerrar",
+      "selectDatePlaceholder": "Selecione a data",
+      "oneWeek": "1S",
+      "twoWeeks": "2S",
+      "threeWeeks": "3S",
+      "fourWeeks": "4W",
+      "oneMonth": "1M",
+      "advanceRotation": "Rotação avançada",
+      "useMultiSkill": "Usar agendamento de várias competências",
+      "loadForecastDataBtn": "Carregar dados de previsão",
+      "forecastDataTabHeader": "Dados da previsão",
+      "attention": "Atenção!",
+      "schedulesExistPopoverTxt": "Algumas das datas que você selecionou já possuem agendas. Este trabalho substituirá esses agendamentos e publicará automaticamente os agendamentos atualizados para o funcionário se os agendamentos tiverem sido publicados anteriormente.",
+      "doNotAdvanceRotationPopoverTxt": "Você está prestes a gerar uma programação que inclui regras de rotação e não mudou para a próxima rotação.",
+      "missingForecastDataPopoverTxt": "Algumas das datas não contêm dados de previsão. as agendas para essas datas não refletirão os requisitos de demanda.",
+      "lessThanMinimumSchedulingUnitsSelectedTxt": "Você deve selecionar pelo menos 1 unidade de agendamento",
+      "weeklyRulesMismatchWithSchedulerType": "Algumas das regras semanais não são compatíveis com esse tipo de agendamento. {{mismatchedEmployeeCount}}/{{totalWeeklyRuleEmployeeCount}} funcionários não receberão agendas.",
+      "staffingPlanSUMismatch": "O plano de pessoal selecionado não é aplicável a uma ou mais unidades de programação selecionadas. Você deseja continuar?",
+      "generateAnywayBtn": "Gerar de qualquer maneira",
+      "noForecastDataTxt": "Não há dados de previsão para esse intervalo de datas.",
+      "forecastDataLoads": "Dados de previsão encontrados.",
+      "importForecastData": "Importe o arquivo de previsão e tente novamente...",
+      "goToImportForecastPageBtn": "Vá para a página Importar previsão",
+      "ManualPlanning": "Planejamento manual (CSV)",
+      "AutomaticPlanning": "Planejamento automático (previsão gerada)",
+      "CSVFile": "Arquivo CSV",
+      "GeneratedForecast": "Previsão gerada",
+      "missingStaffingPlan": "Você deve selecionar um plano de pessoal",
+      "staffingPlan": "Plano de Pessoal",
+      "endDateInPast": "A data de término deve ser uma data futura",
+      "startDateInPast": "A data de início não pode estar no passado"
+    },
+    "serviceStatusMessages": {
+      "noUsersInSuAssignedWeeklyRules": "Não foi possível gerar a agenda. Nenhuma regra semanal definida",
+      "noUsersAssignedToSu": "Não foi possível gerar a agenda. Nenhum funcionário atribuído à unidade de agendamento",
+      "jobAddSucceeded": "Adicionado com êxito um novo trabalho",
+      "jobAddSucceededPlural": "{{jobCount}} novos trabalhos adicionados com sucesso",
+      "jobAddFailed": "Falha ao adicionar um novo trabalho",
+      "jobAddFailedPlural": "Falha ao adicionar {{jobCount}} novos trabalhos"
+    },
+    "detailsListModal": {
+      "header": "Resumo do erro"
+    },
+    "deleteMessage": "Você está prestes a excluir este trabalho de agendamento. Continuar?",
+    "deleteSucess": "O trabalho de agendamento foi excluído com sucesso."
+  },
+  "generalErrorMessages": {
+    "required": "Este campo é obrigatório",
+    "minLength": "Sua entrada é muito curta",
+    "nameFieldValidation": "Ops, você não pode usar \\ / ! + < > ? # & , % \" ",
+    "maxLength": "Sua entrada é muito longa",
+    "email": "O endereço de e-mail digitado não é válido",
+    "emailExists": "O endereço de e-mail já existe. Experimente um novo",
+    "number": "Apenas números!",
+    "pattern": "Formato incorreto para este campo",
+    "password": "Sua senha deve ter pelo menos 8 caracteres, incluindo pelo menos 1 número e 1 letra maiúscula",
+    "match": "Esta senha não corresponde à senha anterior",
+    "minLengthPassword": "Sua senha deve ter pelo menos 8 caracteres",
+    "maxLengthPassword": "Sua senha é muito longa",
+    "min": "O número é muito pequeno",
+    "max": "O número é muito grande",
+    "uniqueString": "Este nome já existe. Tente um novo.",
+    "lowerThen": "O valor mínimo não pode exceder o valor máximo",
+    "weeklyMaxLowerThanSumDailyMin": "O número mínimo de dias exigido pelas regras diárias excede o número máximo de dias na regra semanal.",
+    "weeklyMinGreaterThanSumDailyMax": "O número mínimo de dias na regra semanal excede o número máximo de dias exigido pelas regras diárias.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "O total de horas de combinações diárias mínimas não pode ser maior que o total de horas totais por semana",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "O total de horas de combinações diárias máximas não pode ser menor que o total total de horas por semana",
+    "uniqueDaysCounterLowerThanSumDailyMin": "O número mínimo de dias excede o número total de dias únicos.",
+    "possibleDaysLowerThanMinDays": "O número de dias possíveis não atende ao número mínimo de dias exigido pela regra semanal.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "O número mínimo de dias na regra semanal excede o número de dias únicos.",
+    "noAddedShiftPatters": "Você deve selecionar pelo menos uma regra diária",
+    "shiftLengthLowerThanActivityLength": "A soma do comprimento da atividade, início relativo e folga não pode ser maior que o comprimento do turno",
+    "shiftLengthLowerThanTotalActivityLength": "A duração total das atividades não pode exceder a duração do turno",
+    "relativeStartLowerThanSlack": "A folga não pode ser maior que o valor inicial relativo",
+    "activitiesOverlap": "Atividades não são permitidas a possibilidade de sobreposição",
+    "activityCountsOverLimit": "As atividades pré-planejadas não podem exceder 10",
+    "serverError": "Erro do Servidor Interno. Tente novamente.",
+    "invalidFileFormat": "Formato de arquivo inválido",
+    "someRequiredFieldsAreIncomplete": "Alguns campos obrigatórios estão incompletos."
+  },
+  "commonButtons": {
+    "ok": "Ok",
+    "back": "Voltar",
+    "cancel": "Cancelar",
+    "done": "Pronto",
+    "no": "Não",
+    "yes": "Sim",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "continue": "Continuar",
+    "invite": "Convidar",
+    "edit": "Editar",
+    "update": "Atualizar",
+    "upload": "Carregar",
+    "today": "Hoje",
+    "showAll": "Mostrar Tudo",
+    "clearAll": "Limpar tudo",
+    "clearData": "Apagar os dados",
+    "close": "Fechar",
+    "create": "Criar",
+    "selectAll": "Selecionar Tudo",
+    "generate": "Gerar",
+    "selectFile": "Selecionar Arquivo",
+    "chooseFile": "Escolher arquivo...",
+    "add": "Adicionar",
+    "publish": "Publicar",
+    "set": "Definir",
+    "day": "Dia",
+    "week": "Semana",
+    "copy": "Copiar",
+    "from": "De",
+    "to": "Para",
+    "duplicate": "Duplicar"
+  },
+  "languages": {
+    "english": "Inglês",
+    "russian": "Rússia",
+    "spanish": "Espanhol",
+    "chinese": "Chinês"
+  },
+  "weekDays": {
+    "sunday": "Domingo",
+    "monday": "Segunda-feira",
+    "tuesday": "Terça-feira",
+    "wednesday": "Quarta-feira",
+    "thursday": "Quinta-feira",
+    "friday": "Sexta-feira",
+    "saturday": "Sábado"
+  },
+  "weekShortDays": {
+    "SUN": "DOM",
+    "MON": "SEG",
+    "TUE": "TER",
+    "WED": "QUA",
+    "THU": "QUI",
+    "FRI": "SEX",
+    "SAT": "SÁB"
+  },
+  "scheduler": {
+    "noeditsAllowed": "Os turnos parcialmente exibidos não são editáveis. Altere as datas para editar o turno.",
+    "netstaffing": {
+      "diff": "Dif",
+      "req": "Req",
+      "staff": "Funcionários"
+    },
+    "publishModal": {
+      "header": "Publicar novas agendas",
+      "publishConformation": "Algumas das datas que você selecionou já foram publicadas. Os funcionários serão atualizados com a nova agenda em caso de mudança de horário.",
+      "noSchedulesToPublish": "Não há programações no intervalo de datas selecionado.",
+      "attention": "Atenção!",
+      "publishAnywayBtn": "Publicar mesmo assim",
+      "schedulingUnits": "Unidade de agendamento",
+      "schedulingUnitsDropDown": "{{selectedCount}} unidades de agendamento",
+      "publishPopoverHeader": "Publicado em",
+      "publishSummaryHeader": "Publicados",
+      "from": "Começo:",
+      "to": "Fim:",
+      "selectDatePlaceholder": "Selecione a data",
+      "oneWeek": "1S",
+      "twoWeeks": "2S",
+      "threeWeeks": "3S",
+      "oneMonth": "1M",
+      "successMessage": "Datas publicadas com sucesso"
+    },
+    "employeeCount": "{{count}} usuários",
+    "filters": {
+      "schedulingUnits": "{{count}} unidades de agendamento",
+      "skills": "{{count}} competências",
+      "groups": "{{count}} grupos",
+      "activityCodes": "{{count}} códigos de atividade",
+      "searchPlaceholder": "Comece a digitar para encontrar funcionário"
+    },
+    "activityModal": {
+      "activityCodePlaceholder": "Selecione um código de atividade",
+      "addTitle": "Adicionar atividade - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Adicionar comentários...",
+      "editTitle": "Editar atividade - {{userName}}",
+      "error": {
+        "conflict": "Conflito detectado. Esta atividade substituirá as atividades sobrepostas.",
+        "invaliddatetime": "A data e/ou hora especificadas não são válidas.",
+        "daterange": "Selecione uma data: hoje, ontem ou amanhã.",
+        "openhours": "Você não pode agendar quando não estiver aberto",
+        "endBeforeStart": "A data final deve ser igual ou posterior à data de início.",
+        "timeRangeOutsideOfRange": "A atividade deve começar ou terminar dentro do intervalo da linha do tempo ({{start}} - {{end}}).",
+        "activityOverlappingTimeRange": "Esta atividade está fora do cronograma recuperado e pode substituir as atividades existentes.",
+        "xssInvalidCharacter": "Esses caracteres são inválidos < >"
+      },
+      "selectingOOOActivityWithoutDaysOff": "A adição desta atividade pode criar um déficit no saldo de folgas do funcionário",
+      "end": "Encerrar",
+      "remaining": "{{currentLength}} caracteres restantes",
+      "remove": "Remover",
+      "start": "Iniciar"
+    },
+    "allDay": "Dia todo",
+    "cancel": "Cancelar",
+    "closed": "Você não pode adicionar Turnos e Atividades quando a organização estiver fechada.",
+    "employeeName": "Nome",
+    "hotkeys": {
+      "nextHotKey": "Próximo dia",
+      "previousHotKey": "Dia anterior",
+      "refreshHotKey": "Recarregar os agendamentos do banco de dados",
+      "saveHotKey": "Salvar alterações de agendamento",
+      "todayHotKey": "Ir para hoje"
+    },
+    "hours": "Horas",
+    "menuItems": {
+      "addActivity": "Adicionar atividade",
+      "addShift": "Adicionar turno",
+      "copyActivity": "Copiar atividade",
+      "copyShift": "Copiar turno",
+      "editActivity": "Editar atividade",
+      "editShift": "Editar turno",
+      "pasteActivity": "Colar atividade",
+      "pasteShift": "Colar turno",
+      "removeActivity": "Remover atividade",
+      "removeShift": "Remover turno",
+      "cancel": "Fechar"
+    },
+    "name": "Nome",
+    "viewScheduleChangeMenu": "Exibir mudanças na agenda",
+    "organizationClosed": "Organização fechada",
+    "publish": "Publicar",
+    "save": "Salvar",
+    "saveAndPublish": "Salvar e Publicar",
+    "scheduler": "Gerenciador de agendas",
+    "settingsDropDown": {
+      "title": "Configurações",
+      "setup": {
+        "title": "Limite de efetivo líquido"
+      },
+      "manualSchedule": {
+        "title": "Copiar/duplicar agenda",
+        "duplicateTitle": "Agenda duplicada de funcionários"
+      },
+      "broadcast": {
+        "title": "Mensagem de transmissão",
+        "messageText": "Mensagem",
+        "schedulingUnits": "Unidade de agendamento",
+        "broadcastNow": "Transmitir agora",
+        "remaining": "{{currentLength}} caracteres restantes",
+        "schedulingUnitsDropDown": "{{selectedCount}} unidades de agendamento",
+        "durationsDropDown": "Duração",
+        "commentPlaceholder": "Digite sua mensagem...",
+        "durationsDropDownLabel": "Duração da mensagem",
+        "durations": {
+          "30": "30 Segundos",
+          "60": "1 minuto",
+          "300": "5 minutos"
+        }
+      },
+      "timeOff": {
+        "title": "Gerenciamento de folgas",
+        "formLabels": {
+          "saveLabel": "Pronto",
+          "timeOffTo": "DEFINIR FOLGA PARA",
+          "timeOffToPlaceholder": "Selecionar agente...",
+          "timeOffType": "ATIVIDADE DE FOLGA",
+          "timeOffTypePlaceholder": "Selecionar atividade",
+          "from": "DE",
+          "to": "PARA",
+          "showOnAgentSched": "Mostrar na programação do agente",
+          "disableOverride": "Não pode ser substituído pelo agendador automático",
+          "allAgents": "Todos Agentes"
+        },
+        "errors": {
+          "getEmployees": "Erro ao receber a lista de funcionários",
+          "getActivities": "Erro ao receber a lista de códigos de atividade de folga",
+          "endBeforeStart": "A data final deve ser igual ou posterior à data de início.",
+          "invalidDate": "A data especificada não é válida."
+        }
+      },
+      "scheduleExport": {
+        "title": "Agendar exportação",
+        "generating": "Gerando o arquivo de exportação. Aguarde…",
+        "schedulingUnits": "Unidades de agendamento",
+        "agentPlaceHolder": "Nome do Agente",
+        "agent": "Agente",
+        "start": "Iniciar",
+        "end": "Encerrar",
+        "download": "Baixar",
+        "1w": "1S",
+        "2w": "2S",
+        "3w": "3S",
+        "1m": "1M"
+      },
+      "copyEmployeeSchedule": {
+        "title": "Copiar agenda de funcionário",
+        "formLabels": {
+          "saveLabel": "Copiar",
+          "scheduleOf": "Copie a programação de:",
+          "copyEmployeeFromPlaceholder": "Selecione Funcionário...",
+          "timeOffType": "ATIVIDADE DE FOLGA",
+          "timeOffTypePlaceholder": "Selecionar atividade",
+          "from": "Entre as datas de:",
+          "to": "PARA",
+          "showOnAgentSched": "Mostrar na programação do agente",
+          "disableOverride": "Não pode ser substituído pelo agendador automático",
+          "addEmployeeTitle": "Cole a programação para os seguintes funcionários",
+          "allAgents": "Todos Agentes",
+          "employeesCount": "Funcionários",
+          "addEmployeesButton": "Adicionar funcionários",
+          "selectEmployee": "Selecionar Funcionário",
+          "employeesFilter": "Comece a digitar para encontrar funcionário",
+          "Employee": "Funcionário",
+          "Evaluator": "Avaliador",
+          "Manager": "Gerente",
+          "Administrator": "Administrador"
+        },
+        "errors": {
+          "getEmployees": "Erro ao receber a lista de funcionários",
+          "getActivities": "Erro ao receber a lista de códigos de atividade de folga",
+          "invalidDate": "A data especificada não é válida.",
+          "endBeforeStart": "A data final deve ser igual ou posterior à data de início.",
+          "noEmployeeSelected": "Você deve selecionar um funcionário.",
+          "noEmployeesSelected": "Você deve selecionar pelo menos 1 funcionário."
+        }
+      },
+      "meetingScheduler": {
+        "title": "Agendador de reuniões",
+        "formLabels": {
+          "scheduleLabel": "Agenda",
+          "activity": "Atividade",
+          "scheduleType": "Tipo de agenda",
+          "fixTime": "Hora marcada",
+          "flexibleTime": "Horário flexível",
+          "duration": "Duração",
+          "min": "min",
+          "date": "Data",
+          "time": "Tempo",
+          "timezone": "Fuso horário",
+          "comment": "Comment",
+          "activityCodePlaceholder": "Selecione uma atividade",
+          "scheduleUpTo": "Agendar até",
+          "employees": "Funcionários",
+          "numberSimultaneous": "simultâneo",
+          "fromDate": "De",
+          "toDate": "Para",
+          "commentPlaceholder": "Este comentário aparecerá na agenda do agente",
+          "remaining": "{{currentLength}} caracteres restantes",
+          "addEmployeeTitle": "Criar reunião para esses funcionários",
+          "employeesFilter": "Comece a digitar para encontrar funcionário",
+          "Employee": "Funcionário"
+        },
+        "errors": {
+          "getEmployees": "Erro ao receber a lista de funcionários",
+          "getActivities": "Erro ao receber a lista de códigos de atividade",
+          "getTimezone": "Erro ao receber a lista de fuso horário",
+          "invalidDate": "A data especificada não é válida",
+          "startDateInPast": "Você não pode selecionar uma data no passado",
+          "startTimeInPast": "Você não pode selecionar um horário no passado",
+          "noEmployeesSelected": "Você deve selecionar pelo menos 1 funcionário",
+          "minutes": "Digite um número entre {{min}}-{{max}}",
+          "numberSimultaneous": "Digite um número entre {{min}}-{{max}}",
+          "violateMaxUpTo": "O intervalo de datas não é compatível com o máximo",
+          "fromDateInPast": "Você não pode selecionar uma data no passado",
+          "toDateBeforeFromDate": "A data de início deve ser anterior à data de início",
+          "overThreeMonth": "O intervalo não pode exceder 3 meses",
+          "timeOffMessage": "terá uma folga e será excluído desta reunião.",
+          "employeesCount": "{{count}} funcionários ",
+          "noShiftMessage": "não possui um turno agendado durante o período definido e será excluído.",
+          "conflictActivitiesMessage": "ter atividades existentes que serão substituídas.",
+          "conflictActivitiesPopover": "Esta reunião pode substituir outras atividades existentes. Continuar?",
+          "noShiftPopover": "Agentes sem turnos durante o período definido não serão agendados para esta reunião. Continuar?",
+          "errorRead": "Ocorreu um erro ao carregar o modal do agendador de reuniões.",
+          "errorValidate": "Ocorreu um erro ao validar a solicitação de reunião.",
+          "errorSchedule": "Ocorreu um erro ao agendar a reunião."
+        }
+      }
+    },
+    "changeHistoryComponent": {
+      "revertBtn": "Reverter",
+      "revertMessage": "Isso substituirá a agenda atual. Continuar?",
+      "revertSuccess": "A agenda foi revertida com sucesso."
+    },
+    "changeHistoryModal": {
+      "actionHeading": "Ação",
+      "agent": "Agente",
+      "agentPlaceholder": "Selecione um Agente",
+      "applyButton": "Aplicar",
+      "changedByHeading": "Alterado por",
+      "date": "Data",
+      "dateAndTimeHeading": "Data e hora da alteração",
+      "modalTitle": "Histórico de alterações da agenda",
+      "noHistoryData": "Nenhum histórico de agenda disponível",
+      "revertButton": "Reverter",
+      "timezone": "Fuso horário",
+      "timezonePlaceholder": "Selecione um fuso horário",
+      "categoryChanges": {
+        "MANUAL": "Alterações manuais",
+        "AUTO": "Geração de agenda",
+        "TIMEOFF": "Pedido de folga",
+        "TIMEOFF_REQUEST": "Pedido de folga",
+        "TIMEOFF_MANAGEMENT": "Gerenciamento de folgas",
+        "COPY": "Copiar agenda",
+        "DUPLICATE": "Duplicar agenda",
+        "TRADE": "Troca de turno",
+        "PUBLISH": "Publicado pelo usuário",
+        "REVERT": "Revertido pelo usuário",
+        "EXTERNAL_MEETING": "Solicitação de reunião externa",
+        "AGENT_CHANGE": "Solicitação iniciada pelo agente",
+        "FIXED_MEETING": "Solicitação de reunião fixa",
+        "FLEXIBLE_MEETING": "Solicitação de reunião flexível"
+      }
+    },
+    "setupModal": {
+      "tabs": {
+        "netStaffing": {
+          "title": "Efetivo líquido",
+          "range": {
+            "min": "Falta de pessoal",
+            "mid": "Equilibrado",
+            "max": "Excesso de pessoal"
+          }
+        }
+      },
+      "saveSuccess": "As configurações do Gerenciador de agendas foram salvas com sucesso.",
+      "saveFailure": "Ocorreu um erro ao salvar as configurações do Gerenciador de agendas."
+    },
+    "shiftModal": {
+      "addTitle": "Adicionar turno - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "Seus comentários...",
+      "editTitle": "Editar turno - {{userName}}",
+      "shiftType": "Tipo de Turno",
+      "error": {
+        "conflict": "Conflito detectado. Esta atividade substituirá as atividades sobrepostas.",
+        "invalidtime": "A hora especificada não é válida.",
+        "endBeforeStart": "A data final deve ser igual ou posterior à data de início.",
+        "timeRangeOutsideOfRange": "O turno deve começar ou terminar dentro do intervalo da linha do tempo ({{start}} - {{end}}).",
+        "shiftOverlappingTimeRange": "Esse turno está fora do cronograma recuperado e pode substituir os turnos existentes.",
+        "xssInvalidCharacter": "Esses caracteres são inválidos < >"
+      },
+      "end": "Encerrar",
+      "remaining": "{{currentLength}} caracteres restantes",
+      "remove": "Remover",
+      "start": "Iniciar"
+    },
+    "toasts": {
+      "saveSuccessMessage": "As alterações de agenda foram salvas com sucesso.",
+      "broadcastSuccessMessage": "Mensagem transmitida com sucesso.",
+      "meetingSuccessMessage": "A reunião foi criada com sucesso.",
+      "noShiftPaste": "Não é possível colar um turno que ultrapassa o intervalo visível.",
+      "noShiftCopy": "Não é possível copiar um turno que excede o intervalo visível.",
+      "noActivityPaste": "Não é possível colar uma atividade que excede o intervalo visível.",
+      "multipleShifts": "Atenção! Existem vários turnos para o mesmo dia.",
+      "overlappingShiftsActivities": "Atenção! Há turnos e/ou atividades sobrepostas",
+      "noEdit": "Não é possível editar um turno ou atividade que ultrapasse o intervalo visível.",
+      "noRemove": "Não é possível remover um turno ou atividade que ultrapasse o intervalo visível.",
+      "noAddActivity": "Não é possível adicionar uma atividade a um turno que ultrapassa o intervalo visível.",
+      "remainingTORExceededAllotedTimeOff": "Agora, alguns funcionários têm déficits em seu saldo de folgas."
+    },
+    "manualScheduleAssistant": {
+      "summary": "Resumo",
+      "source": "duplicar de",
+      "destination": "Para",
+      "forEmployees": "Para funcionários ",
+      "chooseType": "Copiar tipo de agenda",
+      "destinationEmptyErrorMsg": "Você deve selecionar pelo menos uma data",
+      "employeeEmptyErrorMsg": "Você deve selecionar pelo menos um funcionário",
+      "timeFrame": "Prazo",
+      "showLess": "Mostrar menos...",
+      "showMore": "Mostrar\t mais...",
+      "day": "Dia",
+      "week": "Semana",
+      "duplicateScheduleFor": "Duplicar agenda para",
+      "allEmployees": "Todos os funcionários",
+      "selectedEmployeesPrefix": "(",
+      "selectedEmployeesSuffix": " selecionado)",
+      "addEmployees": "Adicionar funcionários",
+      "selectEmployees": "Selecionar funcionários",
+      "specificEmployees": "Funcionários Específicos",
+      "sourceDay": "Dia de origem",
+      "sourceWeek": "Semana de origem",
+      "destinationDay": "Dia(s) de destino",
+      "destinationWeek": "Semana(s) de destino",
+      "resetAll": "Redefinir tudo",
+      "copySchedule": "Copiar agendas",
+      "copyScheduleJobStarted": {
+        "code": "Copy Schedule Started",
+        "message": "Cópia de agenda iniciada."
+      },
+      "copyScheduleJobFinishedSuccess": {
+        "code": "Copy Schedule Finished",
+        "message": "Agenda copiada com sucesso."
+      },
+      "duplicateScheduleJobStarted": {
+        "code": "Duplicate Schedule Started",
+        "message": "Agenda duplicada iniciada."
+      },
+      "duplicateScheduleJobFinishedSuccess": {
+        "code": "Duplicate Schedule Finished",
+        "message": "Agenda duplicada com sucesso."
+      },
+      "iWantTo": "Eu quero",
+      "copyTitle": "Copiar agenda para outras pessoas",
+      "copyDescription": "Copie uma programação de um funcionário para outros, no mesmo período",
+      "duplicateTitle": "Duplicar agendas pessoais",
+      "duplicateDescription": "Selecione os horários dos funcionários a partir de um dia/semana e duplique-os para o uso futuro dos mesmos funcionários"
+    },
+    "today": "Hoje",
+    "unavailable": "Indisponível",
+    "unsaved": "Sair sem salvar as alterações?",
+    "dailyView": "Visualização diária",
+    "weeklyView": "Visualização semanal",
+    "firstDayOfWeek": "Primeiro dia da semana:"
+  },
+  "scheduleEventTooltip": {
+    "shiftTitle": "Turno"
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Falha no início de sessão"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Erro geral"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "Esta página está indisponível. Por favor verifique sua conexão e tente novamente."
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Erro geral {{ details }}"
+    },
+    "CopyScheduleJobRunningError": {
+      "code": "Copy Schedule Run Job Error",
+      "message": "Outro trabalho de cópia está em execução. Tente mais tarde."
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Parâmetros inválidos"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Funcionário não autorizado"
+    },
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "Não há resposta do servidor. Por favor, tente novamente mais tarde."
+    },
+    "wrongCredentials": "Você digitou um endereço de e-mail ou senha incorretos",
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Erro do Servidor Interno."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Erro interno."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "A unidade de agendamento não existe."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "Este nome já existe. Tente um novo."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "Esse locatário ou funcionário já existe. Tente um novo."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "O endereço de e-mail já existe. Experimente um novo"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "Arquivo não existe."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "O funcionário não existe"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "Não há funcionários para convidar."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "Falha ao criar funcionário."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "Status de funcionário inválido"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "Nome de organização inválido."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "E-mail inválido."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "Nome do funcionário inválido."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "Sobrenome do funcionário inválido."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "Não é possível excluir a unidade de agendamento padrão."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "falta o ID da unidade de agendamento."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "Número máximo de horas de funcionários fora do alcance."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "A senha do funcionário é inválida."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "Não é possível atualizar o grupo padrão."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "Não é possível remover funcionários do grupo padrão."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "Senha incorreta do funcionário."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "O funcionário não existe."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "Você não pode excluir seu próprio funcionário"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "Você não pode excluir o único administrador"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "Você não pode excluir um funcionário que já foi excluído"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "Token de senha inválido"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "Falha ao criar conta"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "O nome da organização é inválido"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "O formato do arquivo não é suportado"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "Você não tem permissão para alterar a função"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "Você não pode mudar seu próprio papel"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "Não é possível excluir o último administrador."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "Este nome já existe. Tente um novo."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "Não é possível alterar senhas porque as anteriores e as novas são iguais."
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "Você digitou um endereço de e-mail ou senha incorretos"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "O ID de login da ACD já existe"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "O novo funcionário excederá o limite de usuários, entre em contato com o setor de vendas em CXoneSalesTeam@niceincontact.com"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Erro do Servidor Interno."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Erro interno."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "Este nome já existe. Tente um novo."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "Competência não existe."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "Um funcionário não pode ter mais de 50 competências."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "O nome da Competência não é válido"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "A regra semanal está vazia"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "regra semanal errada"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "intervalo de dias de regra semanal errado"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "intervalo semanal incorreto de horas da regra"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "O VALOR DE TURNOS MAX. DA REGRA SEMANAL É INFERIOR AO TOTAL DE MIN DIAS DE REGRA DIÁRIA"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "O VALOR DE TURNOS MIN DE REGRA SEMANAL É MAIOR DO QUE O TOTAL DE MAX DIAS DE REGRA DIÁRIA"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "A soma total de horas diárias mínimas é maior que as horas máximas semanais"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "A soma total de horas diárias máximas é menor que as horas mínimas semanais"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "A SOMA TOTAL DE DIAS POSSÍVEIS É MENOR QUE O DIA MÍNIMO CORRESPONDENTE À REGRA DIÁRIA"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "A SOMA TOTAL DE TODOS OS DIAS POSSÍVEIS É MENOR QUE A SOMA TOTAL DE TURNOS MÍNIMOS POR REGRA DIÁRIA"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "NOME DA REGRA SEMANAL FORNECIDO"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "AS REGRAS DIÁRIAS ESTÃO VAZIAS"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "A SOMA TOTAL DE TODOS OS DIAS POSSÍVEIS É MENOR QUE OS TURNOS MÍNIMOS POR SEMANA"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "O formato da data é inválido"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "O período entre duas datas é inválido."
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Ocorreu um erro interno no servidor"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "Ocorreu um erro interno"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "O formato do arquivo não é suportado"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "Os registros no arquivo não puderam ser lidos"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Não foi possível encontrar os títulos esperados da coluna. Veja o arquivo de amostra."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Faltam competências no sistema"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "Faltam unidades de agendamento no arquivo"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "O início diário mais precoce ocorre após o início mais recente"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "Formato de incremento incorreto"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "Os horários diários de início da regra não estão dentro do intervalo correto"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "A duração diária da atividade é maior que a duração diária da regra"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "O formato do Slack está incorreto"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "Hora de início relativa é menor tempo de folga"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "A soma dos comprimentos das atividades é maior que a duração diária"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "Não existe combinação de atividades válida"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "O código de atividade excedeu a mudança de regra diária"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "O formato do arquivo não é suportado"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "O nome do código de atividade não é válido"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "O fuso horário na unidade de programação está incorreto"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "Não é possível excluir o código de atividade padrão"
+    },
+    "wfo_service_schedule_manager_45": {
+      "code": "TIMEOFF_REQUEST_PARAMS_ARE_INVALID",
+      "message": "Erro ao salvar solicitação de folga"
+    },
+    "wfo_service_schedule_manager_46": {
+      "code": "TIMEOFF_REQUEST_DATES_ARE_INVALID",
+      "message": "Erro ao salvar solicitação de folga"
+    },
+    "wfo_service_schedule_manager_47": {
+      "code": "TIMEOFF_REQUEST_ERROR_WHILE_TIMEOFF_CREATION",
+      "message": "Erro ao criar uma atividade de folga para o agente quando a solicitação foi aprovada"
+    },
+    "wfo_service_schedule_manager_48": {
+      "code": "TIMEOFF_REQUEST_STATUS_CANCELED",
+      "message": "A solicitação de folga já foi cancelada"
+    },
+    "wfo_service_schedule_manager_50": {
+      "code": "SUM_OF_DAILY_RULE_MAX_DAYS_LESS_THAN_WEEKLY_RULE_MIN_DAYS",
+      "message": "A soma do número máximo de dias definido nas regras diárias deve ser maior ou igual ao total mínimo por semana"
+    },
+    "wfo_service_schedule_manager_51": {
+      "code": "SUM_OF_DAILY_RULE_MIN_DAYS_GREATER_THAN_WEEKLY_RULE_MAX_DAYS",
+      "message": "A soma do número mínimo de dias definido nas regras diárias não deve exceder o total máximo por semana"
+    },
+    "wfo_service_schedule_manager_52": {
+      "code": "NO_VALID_DAILY_RULE_COMBINATIONS_EXIST_GIVEN_CONSTRAINTS",
+      "message": "Essa combinação de regras pode não gerar resultados válidos devido a restrições de regras. Tente uma combinação diferente"
+    },
+    "wfo_service_schedule_manager_53": {
+      "code": "SINGLE_DAILY_RULE_DAYS_NOT_EQUAL_TO_WEEKLY_RULE_DAYS",
+      "message": "Os valores mínimo e máximo de uma regra diária única devem corresponder aos valores semanais"
+    },
+    "wfo_service_schedule_manager_54": {
+      "code": "LESS_THAN_TEN_HOURS_BETWEEN_SHIFTS",
+      "message": "Deve haver pelo menos 10 horas entre turnos"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "Por favor, selecione um modelo"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "O ID do modelo é inválido"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "O nome do formulário já existe"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_forecaster_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Erro do Servidor Interno."
+    },
+    "wfo_forecaster_service_2": {
+      "code": "NO_SOURCE_AND_FILE_PATH_FOUND",
+      "message": "NO_SOURCE_AND_FILE_PATH_FOUND."
+    },
+    "wfo_forecaster_service_6": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "Não foi possível encontrar os títulos esperados da coluna. Veja o arquivo de amostra."
+    },
+    "wfo_forecaster_service_7": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "Faltam competências no sistema."
+    },
+    "wfo_forecaster_service_8": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "O formato do arquivo não é suportado"
+    },
+    "wfm_service_shift_bid92": {
+      "code": "NO_USERS_IN_SHIFT_BIDDING",
+      "message": "Lance de Turno não tem usuários atribuídos"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "Erro do Servidor Interno."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "Erro interno."
+    }
+  },
+  "biddingManagerPage": {
+    "responseRate": "Taxa de Resposta",
+    "pageTitle": "Gerente de lances",
+    "newButton": "Gerar novo lance",
+    "items": "lances",
+    "item": "lance",
+    "selectedItems": "{{selectedCount}} selecionado(s)",
+    "gridNoRowsOverlay": "Nenhum lance foi gerado ainda",
+    "unknownSU": "Desconhecido",
+    "gridColumns": {
+      "schedulingUnit": "Unidade de agendamento",
+      "biddingDataRange": "Intervalo de datas dos lances",
+      "createdAt": "Data do trabalho",
+      "responseRate": "Taxa de Resposta",
+      "status": "Status",
+      "action": "Ação"
+    },
+    "statuses": {
+      "generate": "Gerar novo lance",
+      "draft": "Rascunho",
+      "active": "Lance aberto",
+      "closed": "Lance Encerrado",
+      "cancelled": "Cancelado",
+      "award": "Atribuindo turnos",
+      "awarded": "Turnos atribuídos",
+      "error": "Erro: ",
+      "delete": "Excluir"
+    },
+    "errorDetails": {
+      "noUsersAssignedToSu": "Nenhum usuário na unidade de agendamento selecionada",
+      "noUsersInSuAssignedWeeklyRules": "Nenhum usuário na unidade de agendamento selecionada",
+      "NO_USERS_IN_SHIFT_BIDDING": "Agenda vazia. Restrições de usuário/agendamento",
+      "NO_ACTIVE_USERS_IN_SHIFT_BIDDING": "Nenhum usuário ativo na unidade de agendamento selecionada",
+      "INTERNAL_ERROR": "Erro geral"
+    },
+    "actions": {
+      "cancel": "Cancelar lance",
+      "open": "Lance aberto",
+      "close": "Fechar lance",
+      "assign": "Atribuir turnos",
+      "delete": "Excluir"
+    },
+    "messages": {
+      "createSuccess": "Gerando novo lance..",
+      "updateSuccess": "Lances atualizados com sucesso",
+      "createFailed": "Falha ao gerar novo lance",
+      "createFailedSinceSUEmpty": "Nenhum usuário atribuído à Unidade de agendamento",
+      "createFailedSinceTemplateMissing": "Nenhum usuário na Unidade de agendamento atribuído aos modelos de lance por turno",
+      "updateFailed": "Falha na atualização dos lances",
+      "deleteWarning": "Você está prestes a excluir este lance. Continuar?",
+      "deleteSuccess": "Lance de turno excluído com sucesso"
+    },
+    "modal": {
+      "title": "Gerar novo lance",
+      "moreThanMaximumSchedulingUnitsSelectedTxt": "No máximo 1 unidades de agendamento podem ser selecionadas para geração."
+    }
+  },
+  "bidWeeklyShiftPatterns": {
+    "topHeader": "Padrões de turnos semanais para {{weekDates}}",
+    "headers": {
+      "totalHours": "Total de horas",
+      "patternsAvailable": "Padrões disponíveis"
+    },
+    "placeHolderText": "Organize padrões de cima para baixo com base em sua prioridade"
+  },
+  "staffingPlansPage": {
+    "pageTitle": "Planos de Pessoal",
+    "importBtn": "Importar plano de pessoal",
+    "items": "planos de pessoal",
+    "selectedItems": "{{selectedCount}} selecionado(s)",
+    "gridColumnsHeaders": {
+      "dateRange": "Intervalo de datas do plano de pessoal",
+      "fileName": "Nome do arquivo do plano de pessoal",
+      "importDate": "Data de importação",
+      "importedBy": "Importado por",
+      "status": "Status"
+    },
+    "errorDelete": "Ocorreu um erro ao excluir o plano de pessoal.",
+    "successDelete": "O plano de pessoal foi removido com sucesso",
+    "deleteSelectedStaffingPlansMsg": "Você está prestes a excluir os planos de pessoal selecionados. Continuar?",
+    "deleteSingledStaffingPlanMsg": "Você está prestes a excluir este plano de pessoal. Continuar?",
+    "gridNoRowsOverlay": "Nenhum plano de pessoal foi importado ainda",
+    "bulkOperationsBtns": {
+      "deleteBtn": "Excluir"
+    },
+    "statuses": {
+      "succeeded": "Com sucesso",
+      "failed": "Falhou",
+      "partial": "Concluído parcialmente com sucesso. {{successRowsCount}} de {{totalRowsCount}} registros importados.",
+      "na": "N/A",
+      "emptyFile": "Arquivo vazio"
+    },
+    "importModal": {
+      "header": "Importar plano de pessoal",
+      "firstParagraph": "Importe o plano de equipe fazendo upload de um arquivo CSV",
+      "downloadMessage1": "Você pode baixar um modelo de um arquivo CSV",
+      "downloadMessage2": "",
+      "downloadLink": "aqui.",
+      "selectFileMessage": "",
+      "secondParagraph": "Verifique se há dados do plano de pessoal para todo o intervalo de datas",
+      "successMsg": "Dados do plano de pessoal importados com sucesso",
+      "warnMsg": "O processo do plano de pessoal de importação foi concluído com erros",
+      "errorMsg": "Falha ao importar o plano de pessoal",
+      "EmptyFile": "O arquivo de pessoal está vazio",
+      "sizeLimitationErrorMsg": "A importação do plano de pessoal não teve êxito. O tamanho do arquivo é maior que o máximo de 10 MB"
+    },
+    "importErrorsListModal": {
+      "header": "Erros de importação",
+      "rowsWereImportedSuccessfully": "{{succeededRowsCount}} de {{totalRowsCount}} foram importados com sucesso",
+      "tooMuchErrors": "A importação parou. Grande número de erros encontrados. Mostrando os primeiros {{amountOfRows}}"
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "Nenhum {{itemLabel}} ainda definido",
+    "modal": {
+      "employeeTab": "Nenhum funcionário atribuído ainda"
+    }
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "Unidades de agendamento"
+  },
+  "shiftBiddingPage": {
+    "pageTitle": "Lance por turno",
+    "items": "Licitações por turno",
+    "item": "Lance por turno",
+    "emptyMessage": "Nenhum lance foi criado ainda",
+    "gridColumnsHeaders": {
+      "datesRange": "Intervalo de datas dos lances",
+      "jobDate": "Data do trabalho",
+      "by": "Iniciado por",
+      "status": "Status",
+      "isSubmitted": "Lance enviado"
+    }
+  },
+  "shiftBiddingPatternsPage": {
+    "errorGettingBid": "",
+    "submitButton": "Enviar lance",
+    "submitSuccess": "O lance foi enviado com sucesso",
+    "helpMessage": "Organize padrões de cima para baixo de acordo com sua prioridade",
+    "smallScreenWarning": "Amplie a tela para visualizar os padrões de turno disponíveis e faça seu lance."
+  },
+  "requestsPage": {
+    "pageTitle": "Solicitações",
+    "tabs": {
+      "timeOff": "Solicitações de atividade",
+      "trades": "Solicitações de troca de turno"
+    }
+  },
+  "timeOffRequestsPage": {
+    "pageTitle": "Solicitações",
+    "filters": {
+      "noAvailableSchedulingUnits": "Não foi possível carregar o filtro da unidade de programação. Todas as solicitações de unidade de programação são exibidas.",
+      "multiSelectSchedulingUnitsPlaceholder": "{{count}} unidades de agendamento",
+      "disabledMultiSelectSchedulingUnitsPlaceholder": "Todos",
+      "showOnlyPendingRequests": "Mostrar apenas pendentes",
+      "NoPendingRequests": "Nenhum pedido pendente",
+      "gridLabel": "{{pendingRequests}} pendentes de {{totalRequests}} solicitações",
+      "pendingOnlyGridLabel": "{{pendingRequests}} solicitações pendentes",
+      "loadTimeZonesFailure": "Não foi possível carregar os fusos horários. Recarregue a página."
+    },
+    "item": "Solicitação",
+    "items": "Solicitações",
+    "newItems": "Pendente",
+    "selectedItems": "{{selectedCount}} selecionado(s)",
+    "managerComment": {
+      "remaining": "{{currentLength}} caracteres restantes"
+    },
+    "gridColumnsHeaders": {
+      "requestOn": "Solicitado em",
+      "requestBy": "Solicitado Por",
+      "activityType": "Tipo de atividade",
+      "status": "Status",
+      "reviewedBy": "Revisado Por",
+      "empty": "",
+      "actions": "Ações",
+      "dates": "Datas solicitadas"
+    },
+    "manageRequestModal": {
+      "approveRequest": "Aprovar solicitação",
+      "DeclineRequest": "Recusar solicitação",
+      "textarePlaceHolder": "Comentar...",
+      "approveBtn": "Aprovar",
+      "declineBtn": "Recusar",
+      "cancelBtn": "Cancelar",
+      "singleDayRequestMsg": "A solicitação será {{requestType}} para:",
+      "bulkRequestContent": "Selecione as datas que você quer para {{requestType}}.",
+      "bulkRequestContentv2": "As datas não selecionadas permanecerão pendentes.",
+      "netstaffingMsg": "Certifique-se de ter revisado os requisitos de pessoal para essas datas.",
+      "netstaffingMsgClose": "Dispensar",
+      "textCount": "255"
+    },
+    "reviewedBy": "Revisado Por",
+    "requestOn": "Solicitado em",
+    "fullDay": "Dia inteiro",
+    "days": "Dias",
+    "day": "dia",
+    "system": "Sistema",
+    "decline": "Recusar",
+    "accept": "Aceitar",
+    "gridNoRowsOverlay": "Nenhum pedido criado ainda",
+    "viewInScheduler": "Visualizar no agendador",
+    "by": "Por",
+    "deletedActivityTitle": "Atividade excluída",
+    "statuses": {
+      "button_approved": "Aprovar",
+      "approved": "Aprovado",
+      "button_declined": "Recusar",
+      "declined": "Recusado",
+      "pending": "Pendente",
+      "new": "Novo",
+      "discarded": "Descartado",
+      "auto_approved": "Aprovado automaticamente",
+      "auto_declined": "Recusado automaticamente",
+      "cancelled_approved_request": "Solicitação de Cancelado - Aprovado"
+    },
+    "messages": {
+      "updateSuccess": "Solicitação atualizada com sucesso.",
+      "updateFailed": "Falha ao atualizar a solicitação de folga.",
+      "updateApprovedError": "Não foi possível aprovar esta solicitação. Tente novamente mais tarde.",
+      "updateDeclinedError": "Não foi possível recusar esta solicitação. Tente novamente mais tarde.",
+      "managerApproveRequestWhichAlreadyApproved": "Não foi possível aprovar esta solicitação. Outro gerente já aprovou.",
+      "managerApproveRequestWhichAlreadyDeclined": "Não foi possível aprovar este pedido. Outro gerente já recusou.",
+      "managerDeclinedRequestWhichAlreadyDeclined": "Não foi possível recusar esta solicitação. Outro gerente já recusou.",
+      "managerDeclinedRequestWhichAlreadyApproved": "Não foi possível recusar este pedido. Outro gerente já aprovou.",
+      "managerApproveDiscardedRequest": "Não foi possível aprovar a solicitação. A programação foi alterada e a solicitação cancelada.",
+      "managerDeclinedDiscardedRequest": "Não foi possível recusar o pedido. A programação foi alterada e a solicitação cancelada.",
+      "updateApprovedAgentError": "Não foi possível aprovar este pedido. O funcionário cancelou ou atualizou.",
+      "updateDeclinedAgentError": "Não foi possível recusar este pedido. O funcionário cancelou ou atualizou.",
+      "netStaffingError": "Não foi possível obter dados do efetivo líquido. Tente mais tarde.",
+      "loadAllRequestsFailure": "Não foi possível exibir todos os pedidos. Tente novamente.",
+      "requestStatusUpdatedWarning": "Esta solicitação foi atendida ou excluída."
+    },
+    "typeComment": "Digite o comentário..."
+  },
+  "shiftTradeRequestsPage": {
+    "pageTitle": "Troca de Turno",
+    "item": "Solicitação",
+    "items": "Solicitações",
+    "selectedItems": "{{selectedCount}} selecionado(s)",
+    "gridColumnsHeaders": {
+      "requestOn": "Solicitado em",
+      "requestBy": "Solicitado Por",
+      "tradeWith": "Trocar com",
+      "activityType": "Tipo de atividade",
+      "status": "Status",
+      "reviewedBy": "Revisado Por",
+      "empty": " ",
+      "actions": "Ações",
+      "dates": "Datas solicitadas",
+      "requestedDate": "Data solicitada",
+      "viewTrade": " Ver Troca",
+      "requestedTime": "Tempo solicitado",
+      "tradeType": "Tipo de solicitação",
+      "userComment": "Comentário do usuário"
+    },
+    "decline": "Recusar",
+    "accept": "Aceitar",
+    "gridNoRowsOverlay": "Nenhuma solicitação foi criada ainda",
+    "viewTrade": "Ver troca",
+    "by": "Por",
+    "statuses": {
+      "button_approved": "Aprovar",
+      "approved": "Aprovado",
+      "button_declined": "Recusar",
+      "declined": "Recusado",
+      "pending": "Pendente",
+      "new": "Novo"
+    },
+    "messages": {
+      "updateSuccess": "Solicitação de troca de turno atualizada com sucesso.",
+      "updateFailed": "Falha ao atualizar a solicitação de troca de turno"
+    },
+    "system": "Sistema",
+    "tradeRequestStatus": {
+      "ACCEPTED_BY_REQUESTEE": "Aceito",
+      "CREATED": "Pendente",
+      "CANCELED_BY_REQUESTOR": "Cancelado",
+      "REJECTED_BY_REQUESTEE": "Rejeitado",
+      "WITHDRAW_BY_REQUESTEE": "Retirar",
+      "APPROVED_BY_MANAGER": "Aprovado",
+      "DECLINED_BY_MANAGER": "Recusado",
+      "APPROVED_BY_SYSTEM": "Aprovado",
+      "DECLINED_BY_SYSTEM": "Recusado",
+      "CANCELED_BY_SYSTEM": "Cancelado",
+      "EXPIRED": "Expirado",
+      "Errored": "Com erro"
+    }
+  },
+  "timeOffPlanning": {
+    "rules": {
+      "pageTitle": "Regras",
+      "newButton": "Nova regra",
+      "item": "Regra",
+      "items": "Regras",
+      "upTo": "Até",
+      "errorRead": "Ocorreu um erro ao carregar as regras de folga.",
+      "deleteSelectedRulesMsg": "Tem certeza de que deseja excluir as regras selecionadas?",
+      "deleteSingleRuleMsg": "Tem certeza de que deseja excluir esta regra?",
+      "errorDelete": "Ocorreu um erro ao excluir a regra de folga.",
+      "successDelete": "A regra de folga foi removida com sucesso",
+      "gridNoRowsOverlay": "Nenhuma regra criada ainda",
+      "gridColumns": {
+        "name": "Nome",
+        "allotmentType": "Tipo de atribuição",
+        "allottedDays": "Dias Atribuídos",
+        "schedulingUnit": "Unidade de agendamento",
+        "activityCodes": "Códigos de atividade"
+      },
+      "createNewRule": {
+        "pageTitle": "Criar nova regra",
+        "namePlaceholder": "Nome",
+        "schedulingUnit": "Unidade de agendamento",
+        "schedulingUnitPlaceholder": "Selecionar unidade de agendamento",
+        "activityCodes": "Códigos de atividade",
+        "activityCodesPlaceholder": "Selecionar códigos de atividade",
+        "allotment": "Atribuição",
+        "years": "Anos",
+        "daysPerYears": "Dias / Ano",
+        "fixedAmount": "Quantia fixa",
+        "seniorityBased": "Baseado na antiguidade",
+        "seniority": "Antiguidade",
+        "errorAdd": "Ocorreu um erro ao criar a regra de folga.",
+        "successAdd": "Nova regra criada com sucesso.",
+        "timeOffAccrual": "Acúmulo de folga:",
+        "percentPerMonth": "% por mês",
+        "confirmations": {
+          "warningMessage": " Todas as alterações serão perdidas.",
+          "confirmMessage": "Tem certeza de que deseja sair sem salvar?"
+        }
+      },
+      "editRule": {
+        "pageTitle": "Editar regra",
+        "successUpdate": "A regra de folga foi editada com sucesso",
+        "errorUpdate": "Ocorreu um erro ao atualizar a regra de folga."
+      },
+      "alertModal": {
+        "modalTitle": "A regra já existe",
+        "modalContent": "Já existe uma regra para esta atividade / unidade de agendamento. Deseja substituí-lo?"
+      }
+    },
+    "summary": {
+      "pageTitle": "Resumo",
+      "editAllocation": "A alocação manual desconectará o agente da regra até o próximo ano. Continuar?",
+      "activityType": "Tipo de atividade",
+      "gridColumns": {
+        "employee": "funcionário",
+        "daysPerYear": "dias por ano",
+        "daysYear": "dias / ano",
+        "daysTaken": "dias tirados",
+        "used": "usado",
+        "earned": "ganho",
+        "accruals": "acúmulos",
+        "scheduled": "agendado",
+        "remaining": "remanescente"
+      },
+      "gridAlert": {
+        "thisValueCannot": "Este valor não pode",
+        "exceedYearDays": "exceder 365 dias"
+      },
+      "warningMessageModal": {
+        "title": "Sair da página?",
+        "unsavedChanges": "Você tem dados não salvos.",
+        "areYouSureLeavePage": "Tem certeza de que deseja sair sem salvar?"
+      },
+      "edited": "Editado",
+      "NA": "N/A",
+      "userIsNotAssignedToWeeklyRule": "Não é possível calcular o saldo. Este usuário não está atribuído a nenhuma regra."
+    }
+  },
+  "userManagementPage": {
+    "pageTitle": "Funcionários",
+    "newUserBtn": "Novo funcionário",
+    "importUsersBtn": "Importar Funcionários",
+    "userListHeader": "Funcionários em {{orgName}}:",
+    "items": "funcionários",
+    "item": "funcionário",
+    "selectedItems": "{{selectedCount}} selecionado(s)",
+    "gridColumnsHeaders": {
+      "name": "Nome",
+      "email": "E-mail",
+      "acdLogin": "Login de ACD",
+      "role": "Função",
+      "state": "Estado",
+      "group": "Unidade de agendamento"
+    },
+    "filters": {
+      "schedulingUnits": "{{count}} unidades de agendamento",
+      "skills": "{{count}} competências",
+      "groups": "{{count}} grupos",
+      "searchPlaceholder": "Comece a digitar para encontrar funcionário"
+    },
+    "popover": {
+      "acdLoginLbl": "Login de ACD",
+      "hireDateLbl": "Data de contratação: {{value}}",
+      "rankLbl": "Classificação: {{value}}",
+      "skillsLbl": "Competências: {{value}}"
+    },
+    "preferencesTab": {
+      "shiftPreferencesTitle": "Preferências de turno",
+      "TimePreferencesTitle": "Preferências de folga",
+      "TimePreferencesSubTitle": "Nenhum dia de folga disponível",
+      "PossibleDaysOff": "Possíveis dias de folga",
+      "day": "dia",
+      "shiftTime": "tempo de turno",
+      "noOptionsAvailable": "Esse funcionário é atribuído a regras sem flexibilidade, portanto os turnos são fixos, sem preferência disponível",
+      "noOptionsAvailableForShift": "Nenhum turno atribuído.",
+      "noPreference": "Sem preferência"
+    },
+    "userStates": {
+      "active": "Ativo",
+      "pending": "Pendente",
+      "unregistered": "Convidar",
+      "inviting": "Enviando"
+    },
+    "balkOperationsBtns": {
+      "inviteBtn": "Convidar",
+      "deleteBtn": "Excluir",
+      "tooltips": {
+        "invite": "Convidar funcionário",
+        "delete": "Excluir funcionário"
+      }
+    },
+    "status": {
+      "invite": "Convidar"
+    },
+    "tabLabels": {
+      "general": "Geral",
+      "skills": "Competências",
+      "availability": "Disponibilidade",
+      "preferences": "Preferências"
+    },
+    "deleteSelectedUsersMsg": "Você está prestes a excluir os funcionários selecionados. Esta ação não pode ser desfeita. Continuar?",
+    "deleteSingleUsersMsg": "Você está prestes a excluir este funcionário. Essa ação não pode ser desfeita. Continuar?",
+    "inviteSelectedUsersMsg": "Os funcionários selecionados serão convidados a participar deste aplicativo. Continuar?",
+    "reinviteUsersMsg": "Convite expirado. Verifique o endereço de e-mail e tente novamente.",
+    "reinviteBtnText": "Reenviar",
+    "inviteUsersSuccessMsg": "Os funcionários foram convidados com sucesso",
+    "inviteUsersWarnMsg": "Os funcionários já estavam ativos",
+    "inviteUsersFailureMsg": "Falha ao convidar funcionários",
+    "deleteSingleUserSuccessMsg": "O funcionário foi excluído com sucesso. Os agendamentos futuros deste funcionário foram excluídos.",
+    "deleteSingleUserFailureMsg": "Não foi possível excluir o funcionário",
+    "deleteUsersSuccessMsg": "{{numOfUsers}} funcionários foram excluídos com sucesso. Os agendamentos futuros desses funcionários foram excluídos.",
+    "deleteUsersFailureMsg": "{{numOfFailedToDeleteUsers}} de {{totalExpected}} funcionários não puderam ser excluídos",
+    "deleteLoggedInUser": "Você não pode excluir seu próprio funcionário",
+    "dragText": "Arraste aqui para definir a prioridade",
+    "noPreference": "Sem preferência"
+  },
+  "cxone-components": {
+    "dropdowns": {
+      "showing": "Mostrando",
+      "outof": "de",
+      "selectall": "Selecionar Tudo",
+      "clearall": "Limpar tudo",
+      "searchingFor": "Procurando por",
+      "noresults": "Nenhum resultado encontrado",
+      "footerText": " ",
+      "defaultPlaceholder": {
+        "single": "Selecionar item",
+        "multiple": "Selecionar items"
+      }
+    }
+  },
+  "automaticApprovalNewRulePage": {
+    "newTitle": "Nova regra de aprovação",
+    "editTitle": "Editar regra de aprovação",
+    "scheduling_unit": "Unidades de agendamento",
+    "activity_codes": "Atividades",
+    "name": "Nome",
+    "conditionsTitle": "Condições",
+    "agent": "Agente",
+    "agentFirstOption": "Depende do saldo de folga",
+    "agentSecondOption": "Antiguidade do agente",
+    "daysSinceHireDate": "dias desde a data de contratação",
+    "groupTimeOffBalance": "Saldo de folgas do grupo",
+    "forAllDays": "Por todos os dias",
+    "hours": "horas",
+    "forSpecificDays": "Para dias específicos",
+    "daysList": {
+      "Monday": "Segunda-feira",
+      "Tuesday": "Terça-feira",
+      "Wednesday": "Quarta-feira",
+      "Thursday": "Quinta-feira",
+      "Friday": "Sexta-feira",
+      "Saturday": "Sábado",
+      "Sunday": "Domingo"
+    },
+    "requestCreationTime": "Solicitar hora de criação",
+    "inAdvance": "Antecipadamente",
+    "sameDay": "Mesmo dia",
+    "timeFrame": "Prazo",
+    "days": "Dias",
+    "from": "de",
+    "daysInThePastTo": "dias no passado até",
+    "daysInTheFuture": "dias no futuro",
+    "conditionsNotMet": "Quando as condições não são atendidas",
+    "declineAutomatically": "Recusar automaticamente",
+    "sendForManagerApproval": "Enviar para aprovação do gerente",
+    "cancelWarningMsg1": " Todas as alterações serão perdidas.",
+    "cancelWarningMsg2": "Sair sem salvar?",
+    "successUpdateMsg": "Regra atualizada com sucesso.",
+    "successCreateMsg": "Regra criada com sucesso.",
+    "uniqueNameErrorMsg": "Já existe uma regra com este nome",
+    "forSpecificDaysDescription": "Selecione pelo menos um dia"
+  },
+  "automaticApprovalRuleConfig": {
+    "newModeTitle": "Nova regra de aprovação",
+    "editModeTitle": "Editar regra de aprovação",
+    "tabs": {
+      "conditions": {
+        "tabTitle": "condições",
+        "agentTimeOffBalance": "Saldo de folga do Agente",
+        "schedulingUnitTimeOffBalance": "Saldo de folga da unidade de programação",
+        "dailyBalance": "Saldo diário",
+        "hours": "horas",
+        "balanceForCustomDays": "Saldo para dias personalizados",
+        "forSpecificDaysDescription": "Selecione pelo menos 1 dia",
+        "daysList": {
+          "Monday": "Segunda-feira",
+          "Tuesday": "Terça-feira",
+          "Wednesday": "Quarta-feira",
+          "Thursday": "Quinta-feira",
+          "Friday": "Sexta-feira",
+          "Saturday": "Sábado",
+          "Sunday": "Domingo"
+        },
+        "minimumDaysSinceHire": "Mínimo de dias desde a contratação",
+        "submissionTime": "Hora de envio",
+        "timeRestrictionTypes": {
+          "inAdvance": "Antecipadamente",
+          "sameDay": "Mesmo dia",
+          "timeFrame": "Dentro do prazo"
+        },
+        "minimumDaysInAdvance": "Mínimo de dias de antecedência",
+        "maximumDaysBeforeTimeOffDate": "Máximo de dias antes da data de folga",
+        "maximumDaysAfterTimeOffDate": "Máximo de dias após a data de folga",
+        "conditionsNotMet": "Quando pelo menos uma condição selecionada não for atendida",
+        "declineAutomatically": "Recusar",
+        "sendForManagerApproval": "Enviar para o gerente"
+      },
+      "general": {
+        "tabTitle": "geral",
+        "name": "Nome",
+        "uniqueNameErrorMsg": "Já existe uma regra com este nome",
+        "schedulingUnit": "Unidades de agendamento",
+        "activityCodes": "Atividades"
+      },
+      "netStaffing": {
+        "tabTitle": "efetivo líquido",
+        "defineNetStaffing": "Definir efetivo líquido",
+        "noSettingsLabel": "Efetivo líquido ainda não definido",
+        "header": {
+          "undoAll": "Desfazer Tudo",
+          "deleteAll": "Excluir tudo",
+          "legend": {
+            "notDefined": "Não definido",
+            "approve": "Aprovar",
+            "sendToManager": "Enviar para o gerente",
+            "decline": "Recusar"
+          },
+          "confirmUndoAll": "Tem certeza de que deseja desfazer todas as alterações feitas?",
+          "confirmUndoAllYes": "Desfazer Tudo",
+          "confirmUndoAllNo": "Cancelar",
+          "confirmDeleteAll": "Tem certeza de que deseja excluir todos os gráficos de pessoal líquido?",
+          "confirmDeleteAllYes": "Excluir tudo",
+          "confirmDeleteAllNo": "Cancelar"
+        },
+        "conditions": {
+          "daysLabel": "Dias:",
+          "addNetStaffingButton": "Adicionar efetivo líquido",
+          "autoApproveStepperLabel": "Aprovar",
+          "autoApproveStepperPercentageLabel": "% e acima",
+          "autoDeclineStepperLabel": "Recusar",
+          "autoDeclineStepperPercentageLabel": "% e abaixo",
+          "undefinedColumnTooltipLabel": "Não definido",
+          "approveTooltipLabel": "Aprovar:",
+          "approveTooltipPercentageLabel": "mais do que",
+          "declineTooltipLabel": "Declinar:",
+          "declineTooltipPercentageLabel": "Menor do que",
+          "clearSelectedButtonLabel": "Limpar selecionado",
+          "menuItems": {
+            "delete": "Excluir",
+            "clear": "Limpar",
+            "copySettings": "Copiar Configurações",
+            "pasteSettings": "Colar Configurações"
+          }
+        },
+        "footer": {
+          "noScheduleNoForecastLabel": "Se não houver previsão ou programação publicada:"
+        }
+      }
+    }
+  },
+  "userAgenda": {
+    "header": "Agenda",
+    "noEvents": "Sem horários",
+    "shiftStart": "Início do Turno",
+    "shiftEnd": "Término do Turno"
+  }
+}

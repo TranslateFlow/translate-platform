@@ -1,0 +1,222 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "adminModuleName": "admin",
+        "adminModuleLinks": {
+          "users": "员工",
+          "skills": "WFO 技能",
+          "groups": "组",
+          "teams": "团队",
+          "employeeGroups": "调度单元",
+          "roleManagement": "角色和权限",
+          "recordingPolicies": "录制政策",
+          "passwordPolicyManagement": "密码策略",
+          "loginAuthenticatorManagement": "登录身份验证程序",
+          "bulkUploadDownload": "批量上传门户",
+          "accountSettings": "账户设置",
+          "hierarchies": "层次结构",
+          "storage": "云储存",
+          "lifecycleManagement": "生命周期管理",
+          "longTermFileRetrieval": "长期文件检索",
+          "secureExternalAccess": "安全外部访问",
+          "businessDataConfiguration": "业务数据",
+          "recording": "正在记录",
+          "security": "安全",
+          "viewManagement": "浏览量",
+          "advancedTtl": "生命周期管理",
+          "storageSettings": "存储设置"
+        }
+      }
+    }
+  },
+  "hierarchiesPage": {
+    "title": "层次结构",
+    "newHierarchy": "新层次结构",
+    "changeHistory": "更改历史记录",
+    "back": "返回",
+    "searchHierarchiesPlaceholder": "开始输入以查找层次结构",
+    "grid": {
+      "showingFirst": "显示第一个 ",
+      "showingAll": "显示全部",
+      "hierarchyCount": " 层次结构",
+      "hierarchyName": "层次结构名称",
+      "type": "类型",
+      "lastModified": "最后修改",
+      "status": "状态",
+      "primaryHierarchy": "主要层次结构",
+      "lastModifiedBy": "上次修改者",
+      "actions": "操作",
+      "active": "活跃",
+      "inactive": "不活动",
+      "activate": "启动",
+      "deactivate": "停用",
+      "noHierarchiesDefined": "尚未定义层次结构"
+    },
+    "changeHistoryOf": "更改以下项目的历史记录",
+    "node": "节点",
+    "changeHistoryForNode": "更改节点的历史记录"
+  },
+  "types": {
+    "organizational": "组织",
+    "division": "部门"
+  },
+  "colors": {
+    "textColorDefault": "#000"
+  },
+  "hierarchyManagerPage": {
+    "name": "名称",
+    "namePlaceholder": "添加层次结构名称",
+    "searchPlaceholder": "搜索层次结构节点",
+    "searchLabel": "搜索",
+    "searchInfo": "点击搜索按钮，开始按名称进行新的搜索。搜索区分大小写。第一个匹配结果将被自动滚动到最中间的位置，图的边缘允许。",
+    "type": "类型",
+    "typePlaceholder": "选择类型",
+    "mandatorySymbol": "*",
+    "primaryHierarchy": "主要层次结构",
+    "setAsPrimaryHierarchy": "设为主要层次结构",
+    "setAsPrimaryHierarchyTooltip": "此操作将把层次结构设置为主要的。一旦设置，就不能再改回非主要层次结构。应用程序中使用的所有层次结构数据都是从主要层次结构中提取的。",
+    "title": "创建新层次结构",
+    "close": "关闭",
+    "cancel": "取消",
+    "add": "增加",
+    "remove": "删除",
+    "create": "创建",
+    "save": "保存",
+    "no": "否",
+    "yes": "是",
+    "viewDetails": "查看详细信息",
+    "search": {
+      "placeholder": "搜索层次结构节点",
+      "label": "搜索",
+      "info": "点击搜索按钮，开始按名称进行新的搜索。搜索区分大小写。第一个匹配结果将被自动滚动到最中间的位置，图的边缘允许。",
+      "noValue": "请输入一个搜索值，开始搜索。",
+      "found": "已找到",
+      "notFound": "未找到"
+    },
+    "toolbar": {
+      "add-child": {
+        "addOrganizationUnit": "添加组织单元",
+        "addSchedulingUnit": "添加排程单元",
+        "addExistingSchedulingUnit": "添加现有排程单元",
+        "addTeam": "添加团队",
+        "addExistingTeam": "添加现有团队",
+        "addOUInformation": "此操作将创建组织单元 (OU) 类型的子节点。创建 OU 后，您将能够添加成员。",
+        "addSUInformation": "此操作将通过选择一个现有的 SU 来创建排程单元 (SU) 类型的一个子节点。创建 SU 节点后，您将能够添加子节点并查看 SU 信息和成员。",
+        "addTeamInformation": "此操作将通过选择一个现有的团队来创建团队类型的一个子节点。 创建团队节点后，您将可以查看团队信息和成员。",
+        "teamExistsUnder": "团队目前存在于",
+        "andMovedUnder": " 并将被移动至",
+        "continue": ".您要继续吗？",
+        "selectTeam": "选择团队",
+        "untitled": "无标题",
+        "name": "名称"
+      },
+      "members": {
+        "members": "成员",
+        "addMembers": "添加成员",
+        "addExistingMembers": "添加现有成员",
+        "noMembersAdded": "未添加成员",
+        "clickOnAddMembers": "点击“ADD”（添加）以添加成员。",
+        "SUToAddMembers": "通过“管理员”导航到调度单元，添加成员。",
+        "teamToAddMembers": "通过“管理员”导航到团队，添加成员。",
+        "onceMembersAdded": "添加成员后，他们将显示在此处",
+        "noResultsFound": "所有可用的成员都已被选中",
+        "allUsersSelectedAlreadyAdded": "所有被选中的用户目前都存在于 OU 中",
+        "showingFirst": "显示第一个",
+        "showingAll": "显示全部",
+        "membersUndercase": "成员",
+        "searchMembers": "搜索成员",
+        "userAlreadyMemberOf": "用户已经是以下项目的成员"
+      },
+      "info": {
+        "suInformation": "排程单元信息",
+        "teamInformation": "团队信息",
+        "nameLabel": "名称",
+        "timeZoneLabel": "时区",
+        "teamLead": "团队主管"
+      },
+      "edit": {
+        "editDetails": "编辑详细信息"
+      },
+      "delete": {
+        "ouDeleteMsg": "您将要从层次结构中删除此 OU。该操作将删除此 OU 下的网络，包括所有子节点（如有）。",
+        "suDeleteMsg": "您将要从层次结构中删除此 SU。该操作将删除此 SU 下的网络，包括所有子节点（如有）。",
+        "teamDeleteMsg": "您将要从层次结构中删除此团队。",
+        "deletePermissionQue": "您要继续吗？",
+        "yesBtn": "是",
+        "noBtn": "否"
+      }
+    },
+    "hierarchyLegend": {
+      "OU": "组织单元",
+      "SU": "调度单元",
+      "Team": "团队",
+      "Division": "部门"
+    }
+  },
+  "metaInfo": {
+    "hierarchies": {
+      "title": "层次结构"
+    },
+    "hierarchy-manager": {
+      "title": "层次结构管理器"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "要求必须填写此字段。",
+    "minLength": "您的条目太短",
+    "maxLength": "您的条目太长",
+    "specialCharacters": "！\\ < >？% \" 或表情符号不受支持",
+    "SUAlreadyAdded": "此 SU 已添加至",
+    "TeamAlreadyAdded": "此团队已添加至"
+  },
+  "hierarchyToasts": {
+    "hierarchyActivateSuccMsg": "层次结构激活成功",
+    "setPrimaryHierarchySuccessMessage": "主要层次结构设置成功。",
+    "hierarchyDeactivateSuccMsg": "层次结构停用成功",
+    "hierarchyActivateFailMsg": "激活层次结构失败",
+    "hierarchyDectivateFailMsg": "停用层次结构失败",
+    "hierarchySavedSuccMsg": "层次结构保存成功",
+    "hierarchySavedFailMsg": "保存层次结构失败",
+    "hierarchyCreatedSuccMsg": "层次结构创建成功",
+    "hierarchyCreatedFailMsg": "创建层次结构失败",
+    "hierarchyInvalidInputMsg": "输入无效",
+    "hierarchyNameExistsFailMsg": "层次结构名称已存在",
+    "cannotAddChildrenToTeamNode": "团队节点无法添加子项",
+    "generalError": "一般错误",
+    "cannotPerformAction": "目前无法执行此操作",
+    "noSUInformation": "无法获取 SU 信息",
+    "noTeamInformation": "无法获取团队信息",
+    "teamIsAlreadyChildOfParent": "您要添加的团队已经是一个子节点",
+    "dragAndDrop": {
+      "OUChildOfSU": "无法执行此操作，因为组织单元不能是排程单元的子节点",
+      "OUChildOfTeam": "无法执行此操作，因为组织单元不能是团队的子节点",
+      "SUChildOfTeam": "此操作无法执行，因为排程单元不能是团队的子节点",
+      "TeamChildOfTeam": "无法执行此操作，因为团队不能是团队的子节点",
+      "ExceedsLimit": "此操作无法执行，因为它超出了允许的 12 级层次结构深度",
+      "AlreadyConnected": "此操作无法执行，因为节点已经连接"
+    },
+    "permissionErrors": {
+      "addChild": "您没有添加子女的权限",
+      "editNode": "您没有编辑节点的权限",
+      "deleteNode": "您没有删除节点的权限",
+      "dragAndDrop": "您没有修改层次结构的权限",
+      "userPermission": "您没有查看 OU 用户的权限"
+    }
+  },
+  "primaryHierarchyModal": {
+    "title": "设为主要层次结构",
+    "message": "此操作将把 {{hierarchyName}}设为您的组织的主要层次结构。<br><br><br>此操作为永久性操作，不可撤销。<br>是否确定要继续？",
+    "primaryButtonText": "设置主要层次结构",
+    "closeButtonText": "取消"
+  },
+  "changeHistory": {
+    "name": "名称",
+    "depth": "深度",
+    "parentId": "父级 ID",
+    "parentName": "父级名称",
+    "type": "类型",
+    "templateId": "模板 ID",
+    "nodeId": "节点 ID"
+  }
+}

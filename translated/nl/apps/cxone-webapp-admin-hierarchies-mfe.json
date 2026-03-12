@@ -1,0 +1,222 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "adminModuleName": "admin",
+        "adminModuleLinks": {
+          "users": "Medewerkers",
+          "skills": "WFO-skills",
+          "groups": "Groepen",
+          "teams": "Teams",
+          "employeeGroups": "Planningseenheid",
+          "roleManagement": "Rollen en machtigingen",
+          "recordingPolicies": "Opnamebeleidsregels",
+          "passwordPolicyManagement": "Wachtwoordbeleid",
+          "loginAuthenticatorManagement": "Inlogauthenticator",
+          "bulkUploadDownload": "Portaal voor massale upload",
+          "accountSettings": "Accountinstellingen",
+          "hierarchies": "Hiërarchieën",
+          "storage": "Cloudopslag",
+          "lifecycleManagement": "Levenscyclusbeheer",
+          "longTermFileRetrieval": "Langdurig opgeslagen bestanden ophalen",
+          "secureExternalAccess": "Secure External Access",
+          "businessDataConfiguration": "Bedrijfsgegevens",
+          "recording": "Opname",
+          "security": "Beveiliging",
+          "viewManagement": "Weergaven",
+          "advancedTtl": "Levenscyclusbeheer",
+          "storageSettings": "Opslaginstellingen"
+        }
+      }
+    }
+  },
+  "hierarchiesPage": {
+    "title": "Hiërarchieën",
+    "newHierarchy": "Nieuwe hiërarchie",
+    "changeHistory": "Wijzigingsgeschiedenis",
+    "back": "Terug",
+    "searchHierarchiesPlaceholder": "Begin met typen om een hiërarchie te vinden",
+    "grid": {
+      "showingFirst": "Eerst weergeven ",
+      "showingAll": "Alle weergeven ",
+      "hierarchyCount": " Hiërarchieën",
+      "hierarchyName": "HIËRARCHIENAAM",
+      "type": " TYPE",
+      "lastModified": "LAATST GEWIJZIGD",
+      "status": "STATUS",
+      "primaryHierarchy": "Primaire hiërarchie",
+      "lastModifiedBy": "LAATST GEWIJZIGD DOOR",
+      "actions": "ACTIES",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "activate": "Activeren",
+      "deactivate": "Deactiveren",
+      "noHierarchiesDefined": "Nog geen hiërarchieën gedefinieerd"
+    },
+    "changeHistoryOf": "Wijzigingsgeschiedenis van ",
+    "node": "Knooppunt",
+    "changeHistoryForNode": "Wijzigingsgeschiedenis voor knooppunt"
+  },
+  "types": {
+    "organizational": "ORGANISATORISCH",
+    "division": "DIVISIE"
+  },
+  "colors": {
+    "textColorDefault": "#000"
+  },
+  "hierarchyManagerPage": {
+    "name": "Naam ",
+    "namePlaceholder": "Hiërarchienaam toevoegen",
+    "searchPlaceholder": "Hiërarchieknooppunten zoeken",
+    "searchLabel": "Zoeken",
+    "searchInfo": "Klik op de zoekknop om een nieuwe zoekactie op naam te starten. Zoeken is hoofdlettergevoelig. Het eerste overeenkomende resultaat wordt automatisch gescrolld naar de meest centrale positie, met randen voor de grafiek.",
+    "type": "Type",
+    "typePlaceholder": "Type selecteren",
+    "mandatorySymbol": "*",
+    "primaryHierarchy": "Primaire hiërarchie",
+    "setAsPrimaryHierarchy": "Instellen als primaire hiërarchie",
+    "setAsPrimaryHierarchyTooltip": "Deze actie wordt in de hiërarchie ingesteld als primair. Zodra dit is ingesteld, kan het niet opnieuw worden gewijzigd naar een niet-primaire hiërarchie. Alle hiërarchiegegevens die worden gebruikt in de applicaties, wordt van de primaire hiërarchie getrokken.",
+    "title": "Nieuwe hiërarchie maken",
+    "close": "Sluiten",
+    "cancel": "Annuleren",
+    "add": "Toevoegen",
+    "remove": "Verwijderen",
+    "create": "Maken",
+    "save": "Opslaan",
+    "no": "Nee",
+    "yes": "Ja",
+    "viewDetails": "Details weergeven",
+    "search": {
+      "placeholder": "Hiërarchieknooppunten zoeken",
+      "label": "Zoeken",
+      "info": "Klik op de zoekknop om een nieuwe zoekactie op naam te starten. Zoeken is hoofdlettergevoelig. Het eerste overeenkomende resultaat wordt automatisch gescrolld naar de meest centrale positie, met randen voor de grafiek.",
+      "noValue": "Voer een zoekwaarde in om het zoeken te starten.",
+      "found": "Gevonden ",
+      "notFound": "Niet gevonden "
+    },
+    "toolbar": {
+      "add-child": {
+        "addOrganizationUnit": "Organisatie-eenheid toevoegen",
+        "addSchedulingUnit": "Planningseenheid toevoegen",
+        "addExistingSchedulingUnit": "BESTAANDE PLANNINGSEENHEID TOEVOEGEN",
+        "addTeam": "Team toevoegen",
+        "addExistingTeam": "Bestaand team toevoegen",
+        "addOUInformation": "Met deze actie maakt u een onderliggend knooppunt van het type Organisatie-eenheid (OE). Nadat de OE is aangemaakt, kunt u leden toevoegen.",
+        "addSUInformation": "Met deze actie maakt u een onderliggend knooppunt van het type Planningseenheid door een van de bestaande planningseenheden te selecteren. Nadat het knooppunt is gemaakt, kunt u onderliggende knooppunten toevoegen en informatie over de planningseenheid en de leden bekijken.",
+        "addTeamInformation": "Met deze actie maakt u een onderliggend knooppunt van het type Team door een van de bestaande teams te selecteren. Nadat het teamknooppunt is gemaakt, kunt u informatie over het team en de leden bekijken.",
+        "teamExistsUnder": "Team bevindt zich momenteel onder",
+        "andMovedUnder": " en komt onder",
+        "continue": ". Wilt u doorgaan?",
+        "selectTeam": "Team selecteren",
+        "untitled": "Naamloos",
+        "name": "Naam"
+      },
+      "members": {
+        "members": "Leden",
+        "addMembers": "Leden toevoegen",
+        "addExistingMembers": "Bestaande leden toevoegen",
+        "noMembersAdded": "Geen leden toegevoegd",
+        "clickOnAddMembers": "Klik op Toevoegen om leden toe te voegen.",
+        "SUToAddMembers": "Navigeer naar de planningseenheid via Admin om leden toe te voegen.",
+        "teamToAddMembers": "Navigeer naar het team via Admin om leden toe te voegen.",
+        "onceMembersAdded": "Wanneer er leden zijn toegevoegd, worden ze hier weergegeven",
+        "noResultsFound": "Alle beschikbare leden zijn geselecteerd",
+        "allUsersSelectedAlreadyAdded": "Alle geselecteerde gebruikers bestaan momenteel in OE",
+        "showingFirst": "Eerste weergeven ",
+        "showingAll": "Alle weergeven ",
+        "membersUndercase": "leden",
+        "searchMembers": "Leden zoeken",
+        "userAlreadyMemberOf": "Gebruiker is al lid van"
+      },
+      "info": {
+        "suInformation": "Informatie over planningseenheid",
+        "teamInformation": "Teamgegevens",
+        "nameLabel": "Naam",
+        "timeZoneLabel": "Tijdzone",
+        "teamLead": "Teamleider"
+      },
+      "edit": {
+        "editDetails": "Details bewerken"
+      },
+      "delete": {
+        "ouDeleteMsg": "U staat op het punt om deze organisatie-eenheid uit de hiërarchie te verwijderen. Met deze actie wordt het netwerk onder deze organisatie-eenheid verwijderd, inclusief alle eventuele onderliggende knooppunten.",
+        "suDeleteMsg": "U staat op het punt om deze planningseenheid uit de hiërarchie te verwijderen. Met deze actie wordt het netwerk onder deze planningseenheid verwijderd, inclusief alle eventuele onderliggende knooppunten.",
+        "teamDeleteMsg": "U staat op het punt om dit team uit de hiërarchie te verwijderen.",
+        "deletePermissionQue": "Wilt u doorgaan?",
+        "yesBtn": "Ja",
+        "noBtn": "Nee"
+      }
+    },
+    "hierarchyLegend": {
+      "OU": "Organisatie-eenheid",
+      "SU": "Planningseenheid",
+      "Team": "Team",
+      "Division": "Divisie"
+    }
+  },
+  "metaInfo": {
+    "hierarchies": {
+      "title": "Hiërarchieën"
+    },
+    "hierarchy-manager": {
+      "title": "Hiërarchiebeheer"
+    }
+  },
+  "generalErrorMessages": {
+    "required": "Dit veld is vereist.",
+    "minLength": "De invoer is te kort",
+    "maxLength": "De invoer is te lang",
+    "specialCharacters": "! \\ < > ? % \" of emoji's worden niet ondersteund",
+    "SUAlreadyAdded": "Deze planningseenheid is al toegevoegd onder ",
+    "TeamAlreadyAdded": "Dit team is al toegevoegd onder "
+  },
+  "hierarchyToasts": {
+    "hierarchyActivateSuccMsg": "Hiërarchie is geactiveerd",
+    "setPrimaryHierarchySuccessMessage": "Primaire hiërarchie is ingesteld.",
+    "hierarchyDeactivateSuccMsg": "Hiërarchie is gedeactiveerd",
+    "hierarchyActivateFailMsg": "Kan hiërarchie niet activeren",
+    "hierarchyDectivateFailMsg": "Kan hiërarchie niet deactiveren",
+    "hierarchySavedSuccMsg": "Hiërarchie is opgeslagen",
+    "hierarchySavedFailMsg": "Kan hiërarchie niet opslaan",
+    "hierarchyCreatedSuccMsg": "Hiërarchie is gemaakt",
+    "hierarchyCreatedFailMsg": "Kan hiërarchie niet maken",
+    "hierarchyInvalidInputMsg": "Ongeldige invoer",
+    "hierarchyNameExistsFailMsg": "Hiërarchienaam bestaat al",
+    "cannotAddChildrenToTeamNode": "Teamknooppunten kunnen niet geen onderliggende toevoegen",
+    "generalError": "Algemene fout",
+    "cannotPerformAction": "Deze actie kan momenteel niet worden uitgevoerd.",
+    "noSUInformation": "Kan geen gegevens planningseenheid ophalen",
+    "noTeamInformation": "Kan geen teamgegevens ophalen",
+    "teamIsAlreadyChildOfParent": "Het team dat u wilt toevoegen is al een onderliggend knooppunt",
+    "dragAndDrop": {
+      "OUChildOfSU": "Deze actie kan niet worden uitgevoerd omdat Organisatie-eenheid geen onderliggend knooppunt van Planningseenheid kan zijn",
+      "OUChildOfTeam": "Deze actie kan niet worden uitgevoerd omdat Organisatie-eenheid geen onderliggend knooppunt van Team kan zijn",
+      "SUChildOfTeam": "Deze actie kan niet worden uitgevoerd omdat Planningseenheid geen onderliggend knooppunt van Team kan zijn",
+      "TeamChildOfTeam": "Deze actie kan niet worden uitgevoerd omdat Team geen onderliggend knooppunt van Team kan zijn",
+      "ExceedsLimit": "Deze actie kan niet worden uitgevoerd omdat deze verder gaat dan de toegestane hiërarchiediepte van 12 niveaus",
+      "AlreadyConnected": "Deze actie kan niet worden uitgevoerd omdat de knooppunten al zijn verbonden."
+    },
+    "permissionErrors": {
+      "addChild": "U hebt geen machtigingen om onderliggende toe te voegen",
+      "editNode": "U hebt geen machtigingen om een knooppunt te bewerken",
+      "deleteNode": "U hebt geen machtigingen om een knooppunt te verwijderen",
+      "dragAndDrop": "U hebt geen machtigingen om de hiërarchiestructuur te wijzigen",
+      "userPermission": "U hebt geen machtigingen om gebruikers van een OE te bekijken"
+    }
+  },
+  "primaryHierarchyModal": {
+    "title": "Instellen als een primaire hiërarchie",
+    "message": "Deze actie zal {{hierarchyName}} instellen als de primaire hiërarchie van uw organisatie.<br><br><br>Deze actie is permanent en kan niet ongedaan worden gemaakt.<br>Weet u zeker dat u wilt doorgaan?",
+    "primaryButtonText": "Primaire hiërarchie instellen",
+    "closeButtonText": "Annuleren"
+  },
+  "changeHistory": {
+    "name": "Naam",
+    "depth": "Diepte",
+    "parentId": "Bovenliggende ID",
+    "parentName": "Bovenliggende naam",
+    "type": "Type",
+    "templateId": "TemplateId",
+    "nodeId": "NodeId"
+  }
+}

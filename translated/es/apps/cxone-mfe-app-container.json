@@ -1,0 +1,15 @@
+{
+  "cxoneMfeAppContainer": {
+    "unsavedChangesDialogConfigDefault": {
+      "titleMessage": "Datos no guardados",
+      "detailMessage": "Si abandona la página, sus cambios se perderán. ¿Está seguro de que desea continuar?",
+      "leaveButtonText": "Sí",
+      "stayButtonText": "No"
+    }
+  },
+  "metaInfo": {
+    "cxoneTroubleshootingScreen": {
+      "title": "Solución de problemas"
+    }
+  }
+}

@@ -1,0 +1,946 @@
+{
+  "niceNavigationUi": {
+    "globalNavigation": {
+      "sideBar": {
+        "formManagerModuleLinks": {
+          "manageForms": "Gestionnaire de formulaire",
+          "categoryManager": "Gestionnaire de catégorie",
+          "qpPlanManager": "Quality Planner"
+        },
+        "myZoneModuleLinks": {
+          "mySchedule": "Ma planification",
+          "tasks": "Tâches",
+          "evaluations": "Évaluations",
+          "plansMonitoring": "Suivi du plan",
+          "performanceMonitoring": "Suivi des performances",
+          "myTimeOffRequests": "Demandes de congé",
+          "shiftBidding": "Offre d’échange d’équipe",
+          "calibrations": "Étalonnages",
+          "selfAssessments": "Auto-évaluations",
+          "marketplace": "Marketplace",
+          "myPersona": "Ma Persona",
+          "pursuits": "Mes objectifs",
+          "1on1coaching": "Coaching individuel",
+          "groupCoaching": "Coaching de groupe",
+          "recentInteractions": "Interactions récentes",
+          "scheduleRequests": "Demandes de changement d’horaires",
+          "evaluatorAssignments": "Affectations de l’évaluateur",
+          "qualityPerformance": "Performance de qualité"
+        },
+        "formManagerModuleNameFormatted": "Outils QM",
+        "coachingModuleLinks": {
+          "coachingPackage": "Packages de coaching",
+          "coachingPlans": "Plans de coaching",
+          "coachingManager": "Gestionnaire de coaching",
+          "smartInsights": "SMART Insights"
+        },
+        "embeddedClientModuleLinks": {
+          "mySchedule": "Ma planification",
+          "myTimeOffRequests": "Demandes de congé",
+          "evaluations": "Évaluations",
+          "shiftBidding": "Offre d’échange d’équipe",
+          "coaching": "Coaching",
+          "selfAssessments": "Auto-évaluations",
+          "marketplace": "Marketplace",
+          "myDashboards": "Mon tableau de bord",
+          "pursuits": "Mes objectifs",
+          "1on1coaching": "Coaching individuel",
+          "groupCoaching": "Coaching de groupe",
+          "recentInteractions": "Interactions récentes",
+          "scheduleRequests": "Demandes de changement d’horaires"
+        }
+      }
+    }
+  },
+  "metaInfo": {
+    "title": "Nice SaaS WFM ",
+    "description": "Nice SaaS WFM",
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "success": {
+      "title": "Succès",
+      "description": "Nice SaaS WFM"
+    },
+    "performanceMonitoring": {
+      "title": "Suivi des performances",
+      "description": "Nice SaaS WFM"
+    },
+    "plansMonitoring": {
+      "title": "Suivi du plan",
+      "description": "Nice SaaS WFM"
+    },
+    "formExecutor": {
+      "title": "Exécuteur de formulaire",
+      "description": "Nice SaaS WFM"
+    },
+    "interactionPlayer": {
+      "title": "Lecteur d’interaction",
+      "description": "Lecteur d’interaction"
+    },
+    "planDetails": {
+      "title": "Détails du suivi du plan",
+      "description": "Détails du suivi du plan"
+    },
+    "calibrations": {
+      "title": "Étalonnages",
+      "description": "Étalonnages"
+    },
+    "performanceDetails": {
+      "title": "Détails du suivi des performances",
+      "description": "Détails du suivi des performances"
+    },
+    "selfAssessments": {
+      "title": "Auto-évaluations",
+      "description": "Auto-évaluations"
+    },
+    "supervisorPerformanceMonitoring": {
+      "title": "Suivi des performances",
+      "description": "Nice SaaS WFM"
+    },
+    "evaluatorAssignments": {
+      "title": "Affectations de l’évaluateur",
+      "description": "Nice SaaS WFM"
+    },
+    "supervisorPerformanceDetails": {
+      "title": "Détails du suivi des performances",
+      "description": "Détails du suivi des performances"
+    },
+    "qualityPerformance": {
+      "title": "Performance de qualité",
+      "description": "Nice SaaS WFM"
+    },
+    "supervisorQualityPerformance": {
+      "title": "Performance de qualité",
+      "description": "Nice SaaS WFM"
+    },
+    "calibrationDetails": {
+      "title": "Détails de l’étalonnage",
+      "description": "Détails de l’étalonnage"
+    }
+  },
+  "globalNavigation": {
+    "sideBar": {
+      "setupAppName": "ADMIN",
+      "setupAppLinks": {
+        "users": "Employés",
+        "skills": "Compétences",
+        "groups": "Groupes"
+      },
+      "schedulerAppName": "PLANIFICATEUR",
+      "schedulerAppLinks": {
+        "activityCodes": "Codes d’activité",
+        "realTimeAdherence": "Application conforme en temps réel",
+        "acdActivitiesMapping": " Mappage ACD",
+        "managementUnits": "Unité de planification",
+        "scheduler": "Gestionnaire de planification",
+        "generateSchedule": "Générer la planification",
+        "dailyRule": "Règles quotidiennes",
+        "weeklyRules": "Règles hebdomadaires",
+        "forecastData": "Importer les données prévisionnelles"
+      },
+      "mySpaceAppName": "MON ESPACE",
+      "mySpaceAppLinks": {
+        "mySchedule": "Ma planification",
+        "myDashboard": "Mon tableau de bord",
+        "myTasks": "Mes tâches",
+        "myEvaluations": "Mes évaluations",
+        "performanceMonitoring": "Suivi des performances",
+        "plansMonitoring": "Suivi du plan",
+        "calibration": "Étalonnage",
+        "qualityPerformance": "Performance de qualité"
+      },
+      "formManagerAppName": "OUTILS QM",
+      "formManagerAppLinks": {
+        "manageForms": "Gestionnaire de formulaire",
+        "formDesigner": "Concepteur de formulaires",
+        "qpPlanManager": "Quality Planner",
+        "templateManager": "Gestionnaire de modèle"
+      }
+    },
+    "wfmHeader": {
+      "contactUs": "Nous contacter",
+      "wfmText": "EVOLVE WFM",
+      "logoutOption": "Déconnexion",
+      "changePasswordOption": "Modifier le mot de passe",
+      "accountSetupOption": "Configuration du compte",
+      "myProfileOption": "My Profile",
+      "help": "Aide",
+      "selfService": "Support - Téléchargements"
+    }
+  },
+  "formExecutorPage": {
+    "pageTitle": "Données de formulaire",
+    "submitBtn": "Envoyer",
+    "sentToAgentMsg": "Envoyé à l’agent",
+    "acknowledgeMsg": "Acquittés",
+    "executionErrorMsg": "Échec de l’envoi",
+    "acknowledgeErrorMsg": "Impossible de reconnaître",
+    "executionRetrieveErrorMsg": "Échec de récupération des données avec l’ID d’exécution : {{executor}}.",
+    "roleNotSupportedMsg": "Rôle non pris en charge : {{role}}.",
+    "noWorkflowAssociatedMsg": "Aucun flux de travail associé. Veuillez associer un flux de travail.",
+    "changeForm": "Changer le formulaire",
+    "cancel": "Annuler",
+    "scoreLabel": "Résultat : ",
+    "Submit": "Évaluation envoyée à l’agent",
+    "CompleteNoReview": "Évaluation soumise",
+    "Acknowledge": "Évaluation reconnue",
+    "Dispute": "Envoyé à l’évaluateur pour examen de la demande",
+    "RequestReview": "Demande de révision terminée",
+    "SubmitNoAck": "Évaluation soumise",
+    "InProgress": "L’évaluation a été enregistrée comme brouillon avec succès.",
+    "InReview": "L’évaluation a été enregistrée comme brouillon avec succès.",
+    "Self-Assessment-Completed": "Auto-évaluation terminée avec succès.",
+    "Self-Assessment-InProgress": "Auto-évaluation enregistrée comme brouillon avec succès.",
+    "criticalQuestionIndicationMessage": "Vous avez échoué à la question n° {{criticalFailureQuestions}}. C’était une question clé qui a eu pour effet de remettre votre score à 0.",
+    "criticalQuestionsIndicationMessage": "Vous avez échoué à la question n° {{criticalFailureQuestions}}. Il s’agissait de questions clés et votre score a été remis à 0.",
+    "mismatchedAnswersMessage": "Réponses incompatibles",
+    "EVALUATION": {
+      "retrieveFormErrorMsg": "Impossible de récupérer le formulaire",
+      "close": "Fermer"
+    },
+    "evaluatorTitle": "Évaluateur",
+    "agentTitle": "Agent",
+    "formDataAttributeQuestion": {
+      "agentRequest": "Raison de la demande de l'agent :",
+      "evaluatorReview": "Résumé de l'examen par l'évaluateur :"
+    },
+    "footerButtons": {
+      "Dispute": "Demande de révision",
+      "Acknowledge": "Accuser réception",
+      "Self-Assessment-InProgress": "Enregistrer",
+      "Self-Assessment-Completed": "Envoyer",
+      "InProgress": "Enregistrer comme brouillon",
+      "CompleteNoReview": "Envoyer",
+      "InReview": "Enregistrer comme brouillon",
+      "RequestReview": "Envoyer à l'agent",
+      "Submit": "Envoyer à l'agent",
+      "SubmitNoAck": "Envoyer",
+      "Coaching-InProgress": "Enregistrer",
+      "Coaching-Completed": "Envoyer"
+    },
+    "RequestReviewModalHeader": "Demande de révision",
+    "errorLoadingAnswers": "Impossible de charger les réponses du formulaire. Essayez d'ouvrir à nouveau le formulaire",
+    "generalErrorMsg": "Impossible de terminer cette action. Une erreur est survenue."
+  },
+  "errors": {
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "Échec de la connexion"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "Erreur générale"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "Erreur générale {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "Paramètres invalides"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "Employé non autorisé"
+    },
+    "wrongCredentials": "Vous avez entré une adresse e-mail ou un mot de passe incorrect"
+  },
+  "notification": {
+    "notificationTitle": "Vous avez {{Count}} notification(s) non lue(s)"
+  },
+  "filter": {
+    "clearall": "Tout effacer",
+    "close": "Fermer",
+    "clear": "Effacer"
+  },
+  "filterDropDown": {
+    "completed": "Terminé",
+    "notCompleted": "Non terminé"
+  },
+  "successPage": {
+    "welcomeMsg": "Bonjour {{username}} "
+  },
+  "generalErrorMessages": {
+    "required": "Ce champ est obligatoire.",
+    "minLength": "Le texte saisi est trop court",
+    "nameFieldValidation": "Désolé, vous ne pouvez pas utiliser \\ / ! + < > ? # & , % \" ",
+    "maxLength": "Le texte saisi est trop long",
+    "email": "L’adresse e-mail que vous avez indiquée n’est pas valide",
+    "emailExists": "L’adresse e-mail existe déjà. Essayez une nouvelle",
+    "number": "Nombres uniquement !",
+    "pattern": "Format incorrect pour ce champ",
+    "password": "Votre mot de passe doit comporter au moins 8 caractères, dont au moins 1 chiffre et 1 lettre majuscule.",
+    "match": "Ce mot de passe ne correspond pas au mot de passe précédent",
+    "minLengthPassword": "Votre mot de passe doit comporter au moins 8 caractères",
+    "maxLengthPassword": "Votre mot de passe est trop long",
+    "min": "Le nombre est trop petit",
+    "max": "Le nombre est trop grand",
+    "uniqueString": "Ce nom existe déjà. Essayez-en une autre.",
+    "lowerThen": "La valeur minimale ne peut pas dépasser la valeur maximale",
+    "weeklyMaxLowerThanSumDailyMin": "Le nombre minimal de jours requis dans les règles journalières dépasse le nombre maximal de jours défini dans la règle hebdomadaire.",
+    "weeklyMinGreaterThanSumDailyMax": "Le nombre minimal de jours dans la règle hebdomadaire dépasse le nombre maximal de jours requis dans les règles journalières.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "Le nombre total d’heures des combinaisons journalières minimales ne peut pas dépasser le nombre total maximal d’heures par semaine.",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "Le nombre total d’heures de combinaisons journalières maximales ne peut pas être inférieur au nombre total minimal d’heures par semaine",
+    "uniqueDaysCounterLowerThanSumDailyMin": "Le nombre minimum de jours dépasse le nombre total de jours uniques.",
+    "possibleDaysLowerThanMinDays": "Le nombre de jours possibles ne correspond pas au nombre minimum de jours requis dans la règle hebdomadaire.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "Le nombre minimum de jours dans la règle hebdomadaire dépasse le nombre de jours uniques.",
+    "noAddedShiftPatters": "Vous devez sélectionner au moins une règle journalière",
+    "shiftLengthLowerThanActivityLength": "La somme de la durée de l’activité et du début relatif ne doit pas être supérieure à la durée de l’équipe",
+    "shiftLengthLowerThanTotalActivityLength": "La durée totale des activités ne doit pas excéder la durée de l’équipe",
+    "relativeStartLowerThanSlack": "La tolérance ne peut pas être supérieure à la valeur de départ relative",
+    "activitiesOverlap": "Les activités ne peuvent pas se chevaucher",
+    "serverError": "Erreur de serveur inconnue",
+    "missingPermissionError": "Vous ne disposez pas des autorisations appropriées pour effectuer cette action.",
+    "generalError": "Erreur générale",
+    "no-data": "Aucune donnée",
+    "loading": "Chargement en cours"
+  },
+  "commonButtons": {
+    "ok": "OK",
+    "cancel": "Annuler",
+    "no": "Non",
+    "yes": "Oui",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "activate": "Activer",
+    "saveAndActivate": "Enregistrer et activer",
+    "saveAsDraft": "Enregistrer comme brouillon",
+    "invite": "Invitation",
+    "edit": "Modifier",
+    "update": "Mise à Jour",
+    "upload": "Charger",
+    "today": "Aujourd’hui",
+    "showAll": "Afficher tout",
+    "clearAll": "Tout effacer",
+    "close": "Fermer",
+    "create": "Créer",
+    "selectAll": "Tout sélectionner",
+    "generate": "Générer",
+    "chooseFile": "Sélectionner un Fichier",
+    "add": "Ajouter",
+    "publish": "Publier",
+    "set": "Régler",
+    "reset": "Réinitialiser",
+    "day": "Jour",
+    "week": "Semaine",
+    "done": "Terminé",
+    "download": "Télécharger"
+  },
+  "languages": {
+    "english": "Anglais",
+    "russian": "Russe",
+    "spanish": "Espagnol",
+    "chinese": "Chinois"
+  },
+  "weekDays": {
+    "sunday": "Dimanche",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi"
+  },
+  "weekShortDays": {
+    "SUN": "DIM",
+    "MON": "LUN",
+    "TUE": "MAR",
+    "WED": "MER",
+    "THU": "JEU",
+    "FRI": "VEN",
+    "SAT": "SAM"
+  },
+  "teamsAndGroups": {
+    "teams": "Équipes",
+    "groups": "Groupes",
+    "selectTeams": "Sélectionnez les équipes",
+    "selectGroups": "Sélectionner des groupes",
+    "errorMessages": {
+      "required": "Vous devez sélectionner au moins une équipe"
+    },
+    "selected": " sélectionné"
+  },
+  "plansMonitoring": {
+    "plansMonitoring": "Suivi du plan",
+    "name": "Nom",
+    "distributionRate": "Distribution (%)",
+    "completionRate": "Achèvement (%)",
+    "avgEvalutionPerDay": "Moy. évaluations/jour",
+    "remainingDays": "Jours restants",
+    "status": "Statut",
+    "planCount": "Plans actifs",
+    "noPlansAvailable": "Aucun plan n’est actif",
+    "planSummary": "Résumé du plan",
+    "noOfEvaluators": "Nombre d’évaluateurs",
+    "noOfAgents": "Nombre d’agents",
+    "noOfInteractionsPerAgents": "Nombre d’interactions/agents",
+    "evaluatorsStatus": "Progression des évaluateurs",
+    "aboveDailyAvg": "Supérieur à la moyenne journalière",
+    "belowDailyAvg": "Inférieur à la moyenne journalière",
+    "none": "Aucun",
+    "team": "Équipe",
+    "evaluators": "{{count}} évaluateurs",
+    "actualAndExpected": "Terminé/attendu",
+    "consumptionTrend": "Tendance de consommation",
+    "planOccurrence": "Occurrence du plan",
+    "recurringMonthly": "Mensuel récurrent",
+    "recurringWeekly": "Hebdomadaire récurrent",
+    "errorFetchingPlanDetailsData": "Échec du chargement des données de suivi du plan",
+    "noDistributionDrilldown": "La distribution de ce plan n’a pas encore commencé.",
+    "drillDownTitle": "Détails non disponibles",
+    "timePeriod": "Période",
+    "current": "actuel",
+    "nextScheduledRun": "Prochaine exécution : ",
+    "ontrack": "Sur la bonne voie",
+    "offtrack": "Dévié",
+    "active": "Actif",
+    "date": "Date",
+    "noOfEvaluations": "Nombre d’évaluations",
+    "avgEvaluations": "Moyenne des évaluations",
+    "occurrence": {
+      "recurring": "Récurrent",
+      "monthly": "Plan récurrent mensuel",
+      "weekly": "Plan récurrent hebdomadaire",
+      "oneTime": "Une fois"
+    },
+    "textForEvals": " Evals)",
+    "gridColumnsHeaders": {
+      "evaluators": "ÉQUIPES (ÉVALUATEURS)",
+      "actualAndExpected": "TERMINÉ/ATTENDU",
+      "consumptionTrend": "TENDANCE DE CONSOMMATION"
+    },
+    "evaluator": "Evaluateurs",
+    "activeAgents": "Agents actifs",
+    "interactionsPerAgent": "Interactions par agent",
+    "evaluatorProgress": "Progrès de l'évaluateur",
+    "pm_warnUnexpectedDistributionMsg": "La valeur peut être plus élevée que prévu. Inclut les interactions des agents actifs et inactifs pendant qu'ils étaient actifs dans le cycle en cours.",
+    "pd_warnUnexpectedDistributionMsg": "La valeur est plus élevée que prévu. Inclut les interactions des agents actifs et inactifs pendant qu'ils étaient actifs dans le cycle en cours.",
+    "warnUnexpectedCompletionMsg": "La valeur peut être plus élevée que prévu. Inclut les évaluations des agents actifs et inactifs pendant qu'ils étaient actifs dans le cycle en cours.",
+    "pageTitle": "Affectations de l’évaluateur",
+    "tabs": {
+      "planMonitoring": "SUIVI DES PLANS",
+      "evaluatorQueue": "GÉRER LES ÉVALUATIONS"
+    },
+    "ng2evaluatorQueueTab": {
+      "omnibarSearchPlaceholder": "Rechercher un agent",
+      "omnibarItemCount": "{{ count }} articles",
+      "gridColumnsHeaders": {
+        "channeltype": "TYPE",
+        "agentName": "NOM DE L'AGENT",
+        "planName": "NOM DU PLAN",
+        "evaluationAssignee": "DESTINATAIRE DE L’ÉVALUATION",
+        "evaluationType": "TYPE D’ÉVALUATION",
+        "evaluationStartDate": "DATE DE DÉBUT DE L'ÉVALUATION",
+        "dueDate": "DATE D'ÉCHÉANCE",
+        "score": "NOTER",
+        "evaluationStatus": "STATUT D’ÉVALUATION",
+        "formName": "NOM DU FORMULAIRE",
+        "action": "ACTION",
+        "duration": "DURÉE",
+        "evaluationSubject": "SUJET D'ÉVALUATION"
+      },
+      "dateRange": "PLAGE DE DATES",
+      "changeAssignee": {
+        "modalHeader": "Destinataire du changement",
+        "changeAssigneeButton": "Destinataire du changement",
+        "searchPlaceholder": "SÉLECTIONNER LE NOM DE L'ÉVALUATEUR",
+        "noEvaluatorAvailable": "Aucun évaluateur disponible",
+        "reassignSuccessMessage": "Le destinataire a bien été modifié",
+        "reassignErrorMessage": "L'évaluation a été envoyée. Vous ne disposez pas d’un accès permettant de la réaffecter."
+      },
+      "dismiss": "Fermer",
+      "infoText": "Les données antérieures à la publication de la fonctionnalité « Affectations d’évaluation » ne sont pas disponibles."
+    }
+  },
+  "workflowFormSelector": {
+    "workflowFormSelectorText": "Veuillez sélectionner un formulaire pour lancer l’exécution :",
+    "select": "Sélectionner",
+    "change": "Modifier",
+    "noFormsMsg": "Aucun formulaire disponible.",
+    "selectFormHeader": "Sélectionner le formulaire",
+    "changeFormHeader": "Changer le formulaire",
+    "noFormInPlanMessage": "Sélectionnez un formulaire pour l’évaluation.",
+    "disabledFormInPlanMessage": "Sélectionnez un formulaire pour l’évaluation."
+  },
+  "workflowStatuses": {
+    "Claimed": "Réclamé",
+    "InProgress": "En cours",
+    "Dispute": "Contestation",
+    "InReview": "En révision",
+    "Request_Review": "Demande de révision",
+    "Pending_Acknowledgement": "En attente de confirmation",
+    "Completed": "Terminé",
+    "Completed_Acknowledged": "Terminé Confirmé",
+    "Reviewed_and_Completed": "Révisé et complété"
+  },
+  "workflowStatusUI": {
+    "Assigned": "Nouveau",
+    "Claimed": "Nouveau",
+    "InProgress": "Brouillon",
+    "Dispute": "Contesté",
+    "InReview": "Contesté",
+    "Request_Review": "Contesté",
+    "Pending_Acknowledgement": "Nouveau",
+    "Completed": "Terminé",
+    "Completed_Acknowledged": "Terminé",
+    "Reviewed_and_Completed": "Révision terminée",
+    "selfAssessment": {
+      "new": "Nouveau",
+      "draft": "Brouillon",
+      "completed": "Terminé",
+      "expired": "Expiré"
+    },
+    "Expired": "Expiré",
+    "Auto-acknowledged": "Auto-confirmé",
+    "Sent_To_Agent": "Envoyé à l’agent",
+    "WaitingForEvaluator": "En attente de l'évaluateur",
+    "WaitingForAgent": "En attente de l'agent",
+    "PartiallyCompleted": "Partiellement terminé",
+    "Completed_and_Not_Reviewed": "Complété sans revue",
+    "Completed_and_Reviewed": "Complété avec revue",
+    "Appealed": "Fait l’objet d’un recours",
+    "Sent_To_Supervisor": "Envoyé à Supervisor",
+    "In_Progress": "En cours"
+  },
+  "workflowType": {
+    "evaluations": "ÉVALUATIONS"
+  },
+  "performanceMonitoring": {
+    "performanceMonitoring": "Suivi des performances",
+    "selectGroup": "Sélectionner un groupe",
+    "teams": "Équipes",
+    "groups": "Groupes",
+    "averageScore": "Score moyen",
+    "changeInPoints": "Changement de points",
+    "noOfEvaluations": "Nombre d’évaluations",
+    "diffFromPreviousTime": "Diff. de la fois précédente",
+    "loadPerformanceData": "Charger les données de résultats",
+    "selectTimePeriod": "Sélectionnez la période",
+    "fromDate": "De",
+    "toDate": "À",
+    "NoGroupSelected": "Aucun groupe n’est encore sélectionné",
+    "NoTeamSelected": "Vous n’avez pas encore sélectionné de filtre",
+    "noAgents": "Aucune occurrence",
+    "noAgentsInGroup": "Il n’y a pas d’agent dans les groupes sélectionnés",
+    "noEvaluationsFound": "Il n’y a pas d’évaluation dans ces équipes/groupes",
+    "errorFetchingGroupData": "Échec du chargement des données",
+    "errorFetchingPerformanceDetailsData": "Échec du chargement des données",
+    "dateOfInteraction": "Date d’interaction",
+    "duration": "Durée",
+    "planName": "Nom du plan",
+    "findEmployeePlaceHolder": "Commencez à taper pour trouver un employé",
+    "teamName": "Équipe",
+    "evaluatedOn": "Évalué sur",
+    "evaluatedBy": "Évalué par",
+    "score": "Score",
+    "status": "Statut",
+    "groupName": "Nom du groupe",
+    "fromDateHeader": "Date de début",
+    "toDateHeader": "Date de fin",
+    "evaluations": "Évaluations",
+    "noItemsOverlay": "Aucune évaluation n’a encore été complétée",
+    "evaluationReport": {
+      "generateEvaluationReport": "Générer un rapport d’évaluation",
+      "generateReportFailed": "Échec de génération du rapport d’évaluation",
+      "generateReportSuccess": "Rapport d’évaluation généré avec succès",
+      "from": "De",
+      "to": "À",
+      "type": "Type",
+      "evaluation": "Évaluation",
+      "calibration": "Étalonnage",
+      "selfAssessment": "Auto-évaluation",
+      "generate": "Générer",
+      "create": "Générer un rapport",
+      "agent": "Agent",
+      "form": "Formulaire",
+      "formVersion": "Version du formulaire",
+      "downloadInProgress": "Votre rapport est en cours de téléchargement.",
+      "downloadSuccess": "Le rapport a été téléchargé avec succès.",
+      "downloadError": "Impossible de télécharger le rapport. Réessayez plus tard.",
+      "placeholder": {
+        "agent": "Sélectionner l'agent",
+        "form": "Sélectionner le formulaire",
+        "formVersion": "Sélectionner la version du formulaire"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "Formulaire d’évaluation indisponible",
+      "message": "Cette évaluation a été contestée et est en cours de réévaluation. Il sera disponible une fois terminé."
+    },
+    "evaluation_Type": "Type d’évaluation",
+    "collaborativeEvaluation": "Collaboratif",
+    "standardEvaluation": "Standard",
+    "evaluatorTitle": "Évaluateur",
+    "agentTitle": "Agent",
+    "evaluationDeleted": "L'évaluation a été supprimée avec succès",
+    "evaluationDeletionError": "Nous n'avons pas pu supprimer l'évaluation",
+    "deleteReasonModal": {
+      "deleteButton": "Supprimer",
+      "deleteEvaluationTaskHeader": "Supprimer l'Évaluation",
+      "reasonLabel": "Motif",
+      "charactersRemainingText": "{{count}} caractères restants",
+      "WarningText": "La suppression de cette évaluation modifiera le score moyen d'évaluation.",
+      "textareaPlaceholder": "Entrer quelque chose",
+      "confirmMessage1": "Supprimer cette évaluation peut altérer le score moyen d'évaluation",
+      "confirmMessage2": "Continuer ?",
+      "cancelMessage1": " Tous les changements seront perdus.",
+      "cancelMessage2": "Continuer ?",
+      "requiredField": "Ce champ est obligatoire."
+    },
+    "team": "Équipe",
+    "group": "Groupe",
+    "formName": "Nom du formulaire",
+    "formVersion": "Version du formulaire",
+    "calibrationEvaluation": "Étalonnage",
+    "qualityPerformance": "Performance de qualité"
+  },
+  "calibration": {
+    "calibration": "Étalonnages",
+    "calibrationScore": "Score d'étalonnage",
+    "noItemsOverlay": "Aucun étalonnage n’a encore été reçu",
+    "days": "d",
+    "NA": "NA",
+    "createCalibration": "Nouvel étalonnage",
+    "gridColumnsHeaders": {
+      "calibrationName": "NOM DE L'ÉTALONNAGE",
+      "agentName": "NOM DE L'AGENT",
+      "initiatedBy": "INITIÉ PAR",
+      "calibrationForm": "FORMULAIRE DE CALIBRAGE",
+      "originalScore": "SCORE ORIGINAL",
+      "calibrationScore": "SCORE D'ÉTALONNAGE",
+      "completionRate": "TAUX D’ACHÈVEMENT",
+      "remainingDays": "JOURS RESTANTS",
+      "modal": {
+        "maxScore": "SCORE MAX",
+        "questions": "QUESTIONS",
+        "originalScore": "SCORE ORIGINAL",
+        "calibrations": "SCORE MOYEN",
+        "variance": "VARIANCE (%)"
+      },
+      "actions": "Actions"
+    },
+    "calibrationSearchPlaceholder": "Recherche d'étalonnage",
+    "calibrationsCount": "{{count}} étalonnages",
+    "errors": {
+      "calibrationsError": "Échec du chargement des étalonnages. Réessayez.",
+      "calibrationScoreError": "Échec du chargement des questions. Réessayez.",
+      "deleteCalibrationError": "Échec de la suppression de l’étalonnage. Veuillez réessayer.",
+      "overviewAPIFailure": "Erreur d’extraction des données de vue d’ensemble de l’étalonnage",
+      "participantQuestionAPIFailure": "Échec de l’extraction des données tabulaires des participants à l’étalonnage et des questions",
+      "questionDrilldownAPIFailure": "Erreur d’extraction des données d’exploration de l’étalonnage"
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "Impossible de supprimer cet étalonnage. Le calibrage est actuellement actif.",
+      "deleteCalibration": "Supprimer l’étalonnage sélectionné ? Cette action ne peut pas être annulée.",
+      "deleteOthersCalibration": "Impossible de supprimer cet étalonnage. L’étalonnage a été créé par un autre utilisateur."
+    },
+    "success": {
+      "deleteCalibration": "Étalonnage supprimé avec succès."
+    },
+    "calibrationOverviewCards": {
+      "typeOfCalibration": "Type d’étalonnage",
+      "dueDate": "Date d’échéance",
+      "interactionDate": "Date d’interaction",
+      "initiatedBy": "Initié par",
+      "evaluationForm": "Formulaire d’évaluation",
+      "calibrationScore": "Score d'étalonnage",
+      "originalScore": "Score original",
+      "minScore": "Score min. : ",
+      "maxScore": "Score max. : ",
+      "daysRemaining": "Jours restants : ",
+      "completion": "Achèvement : ",
+      "calibrationType": "Type d’étalonnage",
+      "initiatedDate": "Date de début :",
+      "daysLeft": "Jours restant : "
+    },
+    "calibrationDetailsGridColumns": {
+      "questions": "QUESTIONS",
+      "variance": "VARIANCE",
+      "avgScore": "SCORE MOYEN"
+    },
+    "placeHolders": {
+      "selectEvaluators": "Sélectionner les évaluateurs",
+      "selectParticipants": "Sélectionner un participant",
+      "selectQuestions": "Sélectionner des questions"
+    },
+    "labels": {
+      "evaluators": "Evaluateurs",
+      "participants": "Participants",
+      "answer": "Réponse",
+      "questionType": "Type de question",
+      "allQuestions": "Toutes les questions",
+      "originalAnswer": "Réponse d’origine",
+      "calibrationDetails": "Détails de l’étalonnage"
+    },
+    "tooltip": {
+      "variance": "Variance :",
+      "evaluationScore": "Score d’évaluation :",
+      "participantNotCompletedCalibration": "Le participant n’a pas encore terminé l’étalonnage."
+    },
+    "radioLabels": {
+      "completed": "Terminé",
+      "notCompleted": "Non terminé",
+      "all": "Tout",
+      "evaluatorType": "Type d’évaluateur"
+    },
+    "calibrationQuestionOverviewCards": {
+      "originalScore": "Score original",
+      "variance": "Variance",
+      "avgScore": "Score moyen",
+      "maxScore": "Score max.",
+      "minScore": "Score min."
+    },
+    "calibrationQuestionDrilldownGridColumns": {
+      "evaluatorName": "Nom de l'évaluateur",
+      "variance": "VARIANCE",
+      "score": "NOTER",
+      "participantName": "NOM DU PARTICIPANT"
+    }
+  },
+  "selfAssessment": {
+    "title": "Auto-évaluations",
+    "itemsCount": "{{count}} auto-évaluations",
+    "items": "Auto-évaluations",
+    "newAssessment": "Nouvelle auto-évaluation",
+    "noItemsOverlay": "Aucune évaluation n’a été initiée",
+    "gridColumnsHeaders": {
+      "initiatedBy": "Initié par",
+      "agentName": "Nom de l’agent",
+      "interactionDate": "Date d’interaction",
+      "duration": "Durée",
+      "remainingDays": "Jours restants",
+      "score": "Score",
+      "status": "Statut",
+      "actions": "Actions",
+      "formName": "Nom du formulaire"
+    },
+    "failedToLoadAssessments": "Échec du chargement des données d’auto-évaluation",
+    "status": {
+      "awaiting": "En attente",
+      "completed": "Terminé",
+      "expired": "Expiré"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "L’évaluation en attente ne peut pas être supprimée",
+      "deleteAssessmentMsg1": "Vous êtes sur le point de supprimer cette évaluation. Cette action ne peut pas être annulée.",
+      "deleteAssessmentMsg2": "Continuer ?",
+      "cannotDeleteOtherUsersSelfAssessment": "Cette auto-évaluation a été lancée par un autre utilisateur et ne peut pas être supprimée."
+    },
+    "selfAssessmentStatus": "ÉTAT DES AUTO-ÉVALUATIONS",
+    "singleStatusPlaceHolder": "1 statut sélectionné",
+    "twoStatusesPlaceHolder": "2 statuts sélectionnés",
+    "threeStatusesPlaceHolder": "3 statuts sélectionnés",
+    "assessmentDeletedSuccess": "Évaluation supprimée avec succès.",
+    "assessmentDeleteFailed": "Échec de la suppression de l’évaluation. Veuillez réessayer."
+  },
+  "messages": {
+    "noResultsText": "Nous n’avons trouvé aucun résultat"
+  },
+  "ng2Calibration": {
+    "calibration": "Étalonnages",
+    "calibrationScore": "Score d'étalonnage",
+    "noItemsOverlay": "Aucun étalonnage n’a encore été reçu",
+    "days": "d",
+    "NA": "NA",
+    "createCalibration": "Nouvel étalonnage",
+    "gridColumnsHeaders": {
+      "calibrationName": "NOM DE L'ÉTALONNAGE",
+      "agentName": "NOM DE L'AGENT",
+      "initiatedBy": "INITIÉ PAR",
+      "calibrationForm": "FORMULAIRE DE CALIBRAGE",
+      "originalScore": "SCORE ORIGINAL",
+      "calibrationScore": "SCORE D'ÉTALONNAGE",
+      "completionRate": "TAUX D’ACHÈVEMENT",
+      "remainingDays": "JOURS RESTANTS",
+      "modal": {
+        "maxScore": "SCORE MAX",
+        "questions": "QUESTIONS",
+        "originalScore": "SCORE ORIGINAL",
+        "calibrations": "SCORE MOYEN",
+        "variance": "VARIANCE (%)"
+      },
+      "actions": "Actions",
+      "calibrationSubject": "OBJET DE L'ÉTALONNAGE"
+    },
+    "calibrationSearchPlaceholder": "Recherche d'étalonnage",
+    "calibrationsCount": "Étalonnages",
+    "calibrationCount": "Étalonnage",
+    "errors": {
+      "calibrationsError": "Échec du chargement des étalonnages. Réessayez.",
+      "calibrationScoreError": "Échec du chargement des questions. Réessayez.",
+      "deleteCalibrationError": "Échec de la suppression de l’étalonnage. Veuillez réessayer."
+    },
+    "popover": {
+      "activeCalibrationsCannotBeDeleted": "Impossible de supprimer cet étalonnage. Le calibrage est actuellement actif.",
+      "deleteCalibration": "Supprimer l’étalonnage sélectionné ? Cette action ne peut pas être annulée.",
+      "deleteOthersCalibration": "Impossible de supprimer cet étalonnage. L’étalonnage a été créé par un autre utilisateur."
+    },
+    "success": {
+      "deleteCalibration": "Étalonnage supprimé avec succès."
+    },
+    "forTicket": "Pour ticket",
+    "forInteraction": "Pour interaction"
+  },
+  "ng2SelfAssessment": {
+    "title": "Auto-évaluations",
+    "itemsCount": "Auto-évaluations",
+    "items": "Auto-évaluations",
+    "newAssessment": "Nouvelle auto-évaluation",
+    "noItemsOverlay": "Aucune évaluation n’a été initiée",
+    "gridColumnsHeaders": {
+      "initiatedBy": "Initié par",
+      "agentName": "Nom de l’agent",
+      "interactionDate": "Date d’interaction",
+      "duration": "Durée",
+      "remainingDays": "Jours restants",
+      "score": "Score",
+      "status": "Statut",
+      "actions": "Actions",
+      "formName": "Nom du formulaire"
+    },
+    "failedToLoadAssessments": "Échec du chargement des données d’auto-évaluation",
+    "status": {
+      "awaiting": "En attente",
+      "completed": "Terminé",
+      "expired": "Expiré",
+      "newSelfAssessment": "Nouvelle auto-évaluation",
+      "inProgressSelfAssessment": "Auto-évaluation InProgress",
+      "completedSelfAssessment": "Auto-évaluation complétée",
+      "expiredSelfAssessment": "Auto-évaluation expirée"
+    },
+    "popover": {
+      "cannotDeleteAwaitingAssessments": "L’évaluation en attente ne peut pas être supprimée",
+      "deleteAssessmentMsg1": "Vous êtes sur le point de supprimer cette évaluation. Cette action ne peut pas être annulée.",
+      "deleteAssessmentMsg2": "Continuer ?",
+      "cannotDeleteOtherUsersSelfAssessment": "Cette auto-évaluation a été lancée par un autre utilisateur et ne peut pas être supprimée."
+    },
+    "selfAssessmentStatus": "ÉTAT DES AUTO-ÉVALUATIONS",
+    "assessmentDeletedSuccess": "Évaluation supprimée avec succès.",
+    "assessmentDeleteFailed": "Échec de la suppression de l’évaluation. Veuillez réessayer."
+  },
+  "ng2PerformanceMonitoring": {
+    "performanceMonitoring": "Suivi des performances",
+    "selectGroup": "Sélectionner un groupe",
+    "evaluationDeleted": "L'évaluation a été supprimée avec succès",
+    "evaluationDeletionError": "Nous n'avons pas pu supprimer l'évaluation",
+    "teams": "Équipes",
+    "groups": "Groupes",
+    "team": "Équipe",
+    "group": "Groupe",
+    "averageScore": "Score moyen",
+    "changeInPoints": "Changement de points",
+    "noOfEvaluations": "Nombre d’évaluations",
+    "diffFromPreviousTime": "Diff. de la fois précédente",
+    "loadPerformanceData": "Charger les données de résultats",
+    "selectTimePeriod": "Sélectionnez la période",
+    "fromDate": "De",
+    "toDate": "À",
+    "NoGroupSelected": "Aucun groupe n’est encore sélectionné",
+    "NoTeamSelected": "Vous n’avez pas encore sélectionné de filtre",
+    "noAgents": "Aucune occurrence",
+    "noAgentsInGroup": "Il n’y a pas d’agent dans les groupes sélectionnés",
+    "noEvaluationsFound": "Il n’y a pas d’évaluation dans ces équipes/groupes",
+    "errorFetchingGroupData": "Échec du chargement des données",
+    "errorFetchingPerformanceDetailsData": "Échec du chargement des données",
+    "dateOfInteraction": "Date d’interaction",
+    "duration": "Durée",
+    "planName": "Nom du plan",
+    "findEmployeePlaceHolder": "Commencez à taper pour trouver un employé",
+    "teamName": "Équipe",
+    "evaluatedOn": "Évalué sur",
+    "evaluatedBy": "Évalué par",
+    "score": "Score",
+    "status": "Statut",
+    "groupName": "Nom du groupe",
+    "fromDateHeader": "Date de début",
+    "toDateHeader": "Date de fin",
+    "evaluations": "Évaluations",
+    "evaluation": "Évaluation",
+    "noItemsOverlay": "Aucune évaluation n’a encore été complétée",
+    "evaluation_Type": "Type d’évaluation",
+    "collaborativeEvaluation": "Collaboratif",
+    "standardEvaluation": "Standard",
+    "evaluatorTitle": "Évaluateur",
+    "agentTitle": "Agent",
+    "formName": "Nom du formulaire",
+    "formVersion": "Version du formulaire",
+    "deleteReasonModal": {
+      "textareaPlaceholder": "Entrer quelque chose",
+      "confirmMessage1": "Supprimer cette évaluation peut altérer le score moyen d'évaluation",
+      "confirmMessage2": "Continuer ?",
+      "cancelMessage1": " Tous les changements seront perdus.",
+      "cancelMessage2": "Continuer ?",
+      "requiredField": "Ce champ est obligatoire.",
+      "deleteButton": "Supprimer",
+      "deleteEvaluationTaskHeader": "Supprimer l'Évaluation",
+      "reasonLabel": "Motif",
+      "charactersRemainingText": "{{count}} caractères restants",
+      "WarningText": "La suppression de cette évaluation modifiera le score moyen d'évaluation."
+    },
+    "evaluationReport": {
+      "generateEvaluationReport": "Générer un rapport d’évaluation",
+      "generateReportFailed": "Échec de génération du rapport d’évaluation",
+      "generateReportSuccess": "Rapport d’évaluation généré avec succès",
+      "from": "De",
+      "to": "À",
+      "type": "Type",
+      "evaluation": "Évaluation",
+      "calibration": "Étalonnage",
+      "selfAssessment": "Auto-évaluation",
+      "generate": "Générer",
+      "create": "Générer un rapport",
+      "agent": "Agent",
+      "form": "Formulaire",
+      "formVersion": "Version du formulaire",
+      "downloadInProgress": "Votre rapport est en cours de téléchargement.",
+      "downloadSuccess": "Le rapport a été téléchargé avec succès.",
+      "downloadError": "Impossible de télécharger le rapport. Réessayez plus tard.",
+      "placeholder": {
+        "agent": "Sélectionner l'agent",
+        "form": "Sélectionner le formulaire",
+        "formVersion": "Sélectionner la version du formulaire"
+      }
+    },
+    "challengedEvaluationMessageModal": {
+      "title": "Formulaire d’évaluation indisponible",
+      "message": "Cette évaluation a été contestée et est en cours de réévaluation. Il sera disponible une fois terminé.",
+      "message1": "Cette évaluation a été contestée et est en cours de réévaluation.",
+      "message2": "Il sera disponible une fois terminé.",
+      "message1_new": "Cette évaluation a été contestée et est en cours de réévaluation."
+    },
+    "employeeEvaluation": {
+      "create": "Nouvelle évaluation",
+      "header": "Effectuer une nouvelle évaluation",
+      "submitBtn": "Évaluer"
+    },
+    "evaluationSubject": "SUJET D'ÉVALUATION",
+    "employee": "Employé",
+    "segment": "Segment",
+    "N/A": "N/A",
+    "NA": "NA",
+    "averageScoreNullTooltipText": "Soit la notation n’est pas activée dans le formulaire, SOIT les valeurs de Points possibles et Points gagnés ne sont pas disponibles pour les données historiques.",
+    "calibrationEvaluation": "Étalonnage",
+    "evaluationSummary": {
+      "genAISummaryTooltipText": "Résumé d’évaluation",
+      "genAISummaryButton": "Détails du résumé",
+      "summaryUnavailableText": "Le résumé n’est pas disponible",
+      "generateSummaryText": "Souhaitez-vous générer le résumé ?",
+      "generateSummaryButton": "Générer le résumé",
+      "generatingSummaryText": "Génération du résumé",
+      "troubleInSummaryGenerationText": "Impossible de générer le résumé",
+      "tryAgainButton": "Réessayer",
+      "cardSummaryUnavailableText": "Votre résumé d’évaluation est prêt et vous pouvez le vérifier.",
+      "cardSummaryUnavailableSubText": "Veuillez vérifier les détails du résumé d’évaluation",
+      "summaryGenerationFailureErrorMessage": "Échec de l’extraction/enregistrement du résumé de l’évaluation"
+    },
+    "qualityPerformance": "Performance de qualité",
+    "ticket": "Ticket"
+  },
+  "channels": {
+    "voice-icon": "Type d'interaction : voix",
+    "sms-icon": "Type d'interaction : SMS",
+    "chat-icon": "Type d'interaction : chat",
+    "email-icon": "Type d'interaction : e-mail",
+    "recording-icon": "Type d'interaction : enregistrement",
+    "whatsapp-icon": "Type d'interaction : WhatsApp"
+  }
+}

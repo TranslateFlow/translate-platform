@@ -1,0 +1,2485 @@
+{
+  "automaticApprovalNewRulePage": {
+    "activity_codes": "アクティビティ",
+    "agent": "エージェント",
+    "agentFirstOption": "休暇の残り日数に依存",
+    "agentSecondOption": "エージェントの年功",
+    "cancelWarningMsg1": "すべての変更は失われます。",
+    "cancelWarningMsg2": "保存せずに終了しますか？",
+    "conditionsNotMet": "条件が満たされない場合",
+    "conditionsTitle": "条件",
+    "days": "日",
+    "daysInTheFuture": "日(未来)",
+    "daysInThePastTo": "日(過去)～",
+    "daysList": {
+      "Friday": "金曜日",
+      "Monday": "月曜日",
+      "Saturday": "土曜日",
+      "Sunday": "日曜日",
+      "Thursday": "木曜日",
+      "Tuesday": "火曜日",
+      "Wednesday": "水曜日"
+    },
+    "daysSinceHireDate": "雇用日からの日数",
+    "declineAutomatically": "自動的に却下",
+    "editTitle": "承認ルールを編集",
+    "forAllDays": "すべての日",
+    "forSpecificDays": "特定の日",
+    "forSpecificDaysDescription": "少なくとも1日を選択してください",
+    "from": "開始",
+    "groupTimeOffBalance": "グループの休暇残り日数",
+    "hours": "時間",
+    "inAdvance": "事前",
+    "name": "名前",
+    "newTitle": "新規承認ルール",
+    "requestCreationTime": "リクエスト作成時間",
+    "sameDay": "同日",
+    "scheduling_unit": "スケジューリングユニット",
+    "sendForManagerApproval": "マネジャーの承認を得るために送信",
+    "successCreateMsg": "ルールが正常に作成されました。",
+    "successUpdateMsg": "ルールが正常に更新されました。",
+    "timeFrame": "時間枠",
+    "uniqueNameErrorMsg": "この名前のルールはすでに存在します"
+  },
+  "automaticApprovalRuleConfig": {
+    "editModeTitle": "承認ルールを編集",
+    "newModeTitle": "新規承認ルール",
+    "tabs": {
+      "conditions": {
+        "agentTimeOffBalance": "エージェントの休暇残り日数",
+        "balanceForCustomDays": "カスタム日数の残高",
+        "conditionsNotMet": "少なくとも1つの選択条件を満たしていない場合",
+        "dailyBalance": "日次バランス",
+        "daysList": {
+          "Friday": "金曜日",
+          "Monday": "月曜日",
+          "Saturday": "土曜日",
+          "Sunday": "日曜日",
+          "Thursday": "木曜日",
+          "Tuesday": "火曜日",
+          "Wednesday": "水曜日"
+        },
+        "declineAutomatically": "却下",
+        "forSpecificDaysDescription": "少なくとも1日を選択",
+        "hours": "時間",
+        "maximumDaysAfterTimeOffDate": "休暇日後の最大日数",
+        "maximumDaysBeforeTimeOffDate": "休暇日前の最大日数",
+        "minimumDaysInAdvance": "事前申請の最小日数",
+        "minimumDaysSinceHire": "雇用からの最短日数",
+        "schedulingUnitTimeOffBalance": "スケジューリングユニットの休暇残り日数",
+        "sendForManagerApproval": "マネジャーに送信",
+        "submissionTime": "提出時間",
+        "tabTitle": "条件",
+        "timeRestrictionTypes": {
+          "inAdvance": "事前",
+          "sameDay": "同日",
+          "timeFrame": "時間枠内"
+        }
+      },
+      "general": {
+        "activityCodes": "アクティビティ",
+        "name": "名前",
+        "schedulingUnit": "スケジューリングユニット",
+        "tabTitle": "一般",
+        "uniqueNameErrorMsg": "この名前のルールはすでに存在します"
+      },
+      "netStaffing": {
+        "conditions": {
+          "addNetStaffingButton": "Net人員配置を追加",
+          "approveTooltipLabel": "承認：",
+          "approveTooltipPercentageLabel": "より大きい",
+          "autoApproveStepperLabel": "承認",
+          "autoApproveStepperPercentageLabel": "%以上",
+          "autoDeclineStepperLabel": "却下",
+          "autoDeclineStepperPercentageLabel": "%以下",
+          "clearSelectedButtonLabel": "選択項目をクリア",
+          "daysLabel": "日数：",
+          "declineTooltipLabel": "却下：",
+          "declineTooltipPercentageLabel": "より小さい",
+          "menuItems": {
+            "clear": "クリア",
+            "copySettings": "設定をコピー",
+            "delete": "削除",
+            "pasteSettings": "設定を貼り付ける"
+          },
+          "undefinedColumnTooltipLabel": "未定義"
+        },
+        "defineNetStaffing": "Net人員配置を定義",
+        "footer": {
+          "noScheduleNoForecastLabel": "フォーキャストや公開済スケジュールがない場合："
+        },
+        "header": {
+          "confirmDeleteAll": "Net人員配置チャートをすべて削除してもよろしいですか？",
+          "confirmDeleteAllNo": "キャンセル",
+          "confirmDeleteAllYes": "すべて削除",
+          "confirmUndoAll": "行った変更をすべて元に戻してもよろしいですか？",
+          "confirmUndoAllNo": "キャンセル",
+          "confirmUndoAllYes": "すべて元に戻す",
+          "deleteAll": "すべて削除",
+          "legend": {
+            "approve": "承認",
+            "decline": "却下",
+            "notDefined": "未定義",
+            "sendToManager": "マネジャーに送信"
+          },
+          "undoAll": "すべて元に戻す"
+        },
+        "noSettingsLabel": "Net人員配置がまだ定義されていません",
+        "tabTitle": "Net人員配置"
+      }
+    }
+  },
+  "automaticApprovalRulesPage": {
+    "CreateNewRulePageTitle": "新規ルールを作成",
+    "brokenStatusTooltips": {
+      "noAc": "関連アクティビティコードが削除されました。ルールに新しいアクティビティコードを追加してください。",
+      "noSu": "関連スケジューリングユニットが削除されました。ルールに新しいSUを追加してください。",
+      "noSuAndAc": "関連アクティビティコードとスケジューリングユニットが削除されました。ルールに新しいアクティビティコードとSUを追加してください。"
+    },
+    "deleteSingleRuleMsg": "このルールを削除してもよろしいですか？",
+    "gridColumnsHeaders": {
+      "Status": "ステータス",
+      "activityCodes": "アクティビティコード",
+      "name": "名前",
+      "occurrence": "発生",
+      "schedulingUnits": "スケジューリングユニット"
+    },
+    "gridNoRowsOverlay": {
+      "empty": "ルールが見つかりません",
+      "error": "データの読み込みエラー",
+      "none": "結果が見つかりません"
+    },
+    "newRule": "新規ルール",
+    "pageTitle": "承認ルール",
+    "rule": "ルール",
+    "ruleActions": {
+      "activate": "アクティブ化",
+      "deactivate": "非アクティブ化",
+      "delete": "削除",
+      "duplicate": "複製",
+      "edit": "編集"
+    },
+    "rules": "ルール",
+    "searchPlaceholderText": "入力してルールを検索",
+    "showActiveOnly": "アクティブのみ",
+    "statuses": {
+      "active": "アクティブ",
+      "broken": "破約",
+      "expired": "期限切れ",
+      "inactive": "非アクティブ",
+      "pending": "未解決"
+    },
+    "statusesSuccessActions": {
+      "active": "ルールが正常にアクティブ化されました",
+      "delete": "ルールが正常に削除されました",
+      "inactive": "ルールが正常に非アクティブ化されました"
+    }
+  },
+  "bidWeeklyShiftPatterns": {
+    "headers": {
+      "patternsAvailable": "利用可能パターン",
+      "totalHours": "合計時間"
+    },
+    "placeHolderText": "優先度に基づいてパターンを上から下に配置します",
+    "topHeader": "{{weekDates}}の週間シフトパターン"
+  },
+  "biddingManagerPage": {
+    "actions": {
+      "assign": "シフトを割り当てる",
+      "cancel": "入札をキャンセル",
+      "close": "入札を終了",
+      "delete": "削除",
+      "open": "入札を開始"
+    },
+    "errorDetails": {
+      "INTERNAL_ERROR": "一般エラー",
+      "NO_ACTIVE_USERS_IN_SHIFT_BIDDING": "選択したスケジューリングユニットにはアクティブユーザーがいません",
+      "NO_USERS_IN_SHIFT_BIDDING": "スケジュールが空です。ユーザー/スケジュールの制限",
+      "noUsersAssignedToSu": "選択したスケジューリングユニットにはユーザーがいません",
+      "noUsersInSuAssignedWeeklyRules": "選択したスケジューリングユニットにはユーザーがいません"
+    },
+    "gridColumns": {
+      "action": "アクション",
+      "biddingDataRange": "入札期間",
+      "createdAt": "仕事日",
+      "responseRate": "応答率",
+      "schedulingUnit": "スケジューリングユニット",
+      "status": "ステータス"
+    },
+    "gridNoRowsOverlay": "入札はまだ生成されていません",
+    "item": "件の入札",
+    "items": "件の入札",
+    "messages": {
+      "createFailed": "新規入札の生成に失敗しました",
+      "createFailedSinceSUEmpty": "スケジューリングユニットに割り当てられたユーザーはいません",
+      "createFailedSinceTemplateMissing": "スケジューリングユニットにはシフト入札テンプレートに割り当てられたユーザーがいません",
+      "createSuccess": "新規入札を生成しています...",
+      "deleteSuccess": "シフト入札が正常に削除されました",
+      "deleteWarning": "この入札を削除しようとしています。続行しますか？",
+      "updateFailed": "入札の更新に失敗しました",
+      "updateSuccess": "入札が正常に更新されました"
+    },
+    "modal": {
+      "moreThanMaximumSchedulingUnitsSelectedTxt": "生成のために選択できるスケジューリングユニットは最大で1つです。",
+      "title": "新規入札の生成"
+    },
+    "newButton": "新規入札の生成",
+    "pageTitle": "入札マネジャー",
+    "responseRate": "応答率",
+    "selectedItems": "{{selectedCount}}件選択済",
+    "statuses": {
+      "active": "入札開始",
+      "award": "シフトを割り当てています",
+      "awarded": "シフト割り当て済",
+      "cancelled": "キャンセル",
+      "closed": "入札終了",
+      "delete": "削除",
+      "draft": "ドラフト",
+      "error": "エラー：",
+      "generate": "新規入札の生成"
+    },
+    "unknownSU": "不明"
+  },
+  "common": {
+    "more": "その他..."
+  },
+  "commonButtons": {
+    "add": "追加",
+    "back": "戻る",
+    "cancel": "キャンセル",
+    "chooseFile": "ファイルを選択...",
+    "clearAll": "すべてクリア",
+    "clearData": "データを消去",
+    "close": "閉じる",
+    "continue": "続行",
+    "copy": "コピー",
+    "create": "作成",
+    "day": "日",
+    "delete": "削除",
+    "done": "完了",
+    "duplicate": "複製",
+    "edit": "編集",
+    "from": "開始",
+    "generate": "作成",
+    "invite": "招待",
+    "no": "いいえ",
+    "ok": "OK",
+    "publish": "公開",
+    "save": "保存",
+    "selectAll": "すべて選択",
+    "selectFile": "ファイルを選択",
+    "set": "設定",
+    "showAll": "すべて表示",
+    "to": "終了",
+    "today": "今日",
+    "update": "更新",
+    "upload": "アップロード",
+    "week": "週",
+    "yes": "はい"
+  },
+  "cxone-components": {
+    "dropdowns": {
+      "clearall": "すべてクリア",
+      "defaultPlaceholder": {
+        "multiple": "項目を選択",
+        "single": "項目を選択"
+      },
+      "footerText": " ",
+      "noresults": "結果が見つかりません",
+      "outof": "、範囲：",
+      "searchingFor": "検索中：",
+      "selectall": "すべて選択",
+      "showing": "表示："
+    }
+  },
+  "errors": {
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "サーバーからの応答がありません。後でもう一度お試しください。"
+    },
+    "CopyScheduleJobRunningError": {
+      "code": "Copy Schedule Run Job Error",
+      "message": "別のコピージョブが実行中です。後でもう一度お試しください。"
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "一般エラー"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "一般エラー：{{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "パラメーターが無効です"
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "ログインに失敗"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "このページは利用できません。接続を確認して、もう一度お試しください。"
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "不正な従業員"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーです。"
+    },
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "従業員の作成に失敗しました。"
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "従業員ステータスが無効です"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "組織名が無効です。"
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "Eメールが無効です。"
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "従業員の名が無効です。"
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "従業員の姓が無効です。"
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "デフォルトのスケジューリングユニットを削除できません。"
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "スケジューリングユニットIDが見つかりません。"
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "従業員の最大勤務時間が範囲外です。"
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "従業員のパスワードが無効です。"
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーです。"
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "デフォルトグループを更新できません。"
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "デフォルトグループから従業員を削除できません。"
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "従業員のパスワードが正しくありません。"
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "従業員が存在しません。"
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "自分の従業員は削除できません"
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "唯一の管理者は削除できません"
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "すでに削除された従業員は削除できません"
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "パスワードトークンが無効です"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "アカウントの作成に失敗しました"
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "スケジューリングユニットが存在しません。"
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "組織名が無効です"
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "役割を変更する権限がありません"
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "自分の役割は変更できません"
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "最後の管理者は削除できません。"
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "以前のパスワードと新しいパスワードが同じであるため、パスワードを変更できません。"
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "間違ったEメールアドレスまたはパスワードを入力しました"
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACDログインIDはすでに存在します"
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "新入社員はユーザーの制限を超えます。CXoneSalesTeam@niceincontact.comから営業に連絡してください"
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "このテナントまたは従業員はすでに存在します。新しいものを試してください。"
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "Eメールアドレスはすでに存在します。新しいものを試してください"
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "ファイルが存在しません。"
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "従業員が存在しません"
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "招待する従業員はいません。"
+    },
+    "wfm_service_shift_bid92": {
+      "code": "NO_USERS_IN_SHIFT_BIDDING",
+      "message": "シフト入札にユーザーが割り当てられていません"
+    },
+    "wfo_forecaster_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "wfo_forecaster_service_2": {
+      "code": "NO_SOURCE_AND_FILE_PATH_FOUND",
+      "message": "NO_SOURCE_AND_FILE_PATH_FOUND。"
+    },
+    "wfo_forecaster_service_6": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "期待される列タイトルが見つかりません。サンプルファイルを見てください。"
+    },
+    "wfo_forecaster_service_7": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "システムにスキルがありません。"
+    },
+    "wfo_forecaster_service_8": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "テンプレートを選択してください"
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "フォーム名はすでに存在します"
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "テンプレートIDが無効です"
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "週間ルールが空です"
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "すべての一意の可能な日数の合計が日次ルールあたりの最小シフト数の合計よりも小さいです"
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "週間ルールの名前が指定されていません"
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "日次ルールが空です"
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "すべての一意の可能な日数の合計が1週間の最小シフト数よりも小さいです"
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "日付形式が無効です"
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "2つの日付の間の期間が無効です"
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーが発生しました"
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーが発生しました"
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "ファイル内のレコードが読み取れませんでした"
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "週間ルールが間違っています"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "期待される列タイトルが見つかりません。サンプルファイルを見てください。"
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "システムにスキルがありません"
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "スケジューリングユニットがファイルにありません"
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "最も早い1日の開始が最も遅い開始の後です"
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "増分の形式が間違っています"
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "日次ルールの開始時刻が正しい範囲にありません"
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "日次アクティビティの長さが日次ルールの長さよりも長いです"
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "スラック形式が間違っています"
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "相対開始時間がスラック時間よりも短いです"
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "アクティビティの長さの合計が1日の長さよりも長いです"
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "週間ルールの日付範囲が間違っています"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "有効なアクティビティの組み合わせが存在しません"
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "アクティビティコードが日次ルールのシフトを超えました"
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "ファイル形式がサポートされていません"
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "アクティビティコード名が無効です"
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "スケジュールユニットのタイムゾーンが間違っています"
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "週間ルールの時間範囲が間違っています"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "デフォルトのアクティビティコードは削除できません"
+    },
+    "wfo_service_schedule_manager_45": {
+      "code": "TIMEOFF_REQUEST_PARAMS_ARE_INVALID",
+      "message": "休暇申請の保存中にエラーが発生しました"
+    },
+    "wfo_service_schedule_manager_46": {
+      "code": "TIMEOFF_REQUEST_DATES_ARE_INVALID",
+      "message": "休暇申請の保存中にエラーが発生しました"
+    },
+    "wfo_service_schedule_manager_47": {
+      "code": "TIMEOFF_REQUEST_ERROR_WHILE_TIMEOFF_CREATION",
+      "message": "申請が承認された場合のエージェントの休暇アクティビティを作成中にエラーが発生しました"
+    },
+    "wfo_service_schedule_manager_48": {
+      "code": "TIMEOFF_REQUEST_STATUS_CANCELED",
+      "message": "休暇申請はすでにキャンセルされました"
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "[週間ルールの最大シフト数]の値が日次ルールの最小日数の合計よりも小さいです"
+    },
+    "wfo_service_schedule_manager_50": {
+      "code": "SUM_OF_DAILY_RULE_MAX_DAYS_LESS_THAN_WEEKLY_RULE_MIN_DAYS",
+      "message": "日次ルールで定義された最大日数の合計は1週間の最小合計より大きくなければなりません"
+    },
+    "wfo_service_schedule_manager_51": {
+      "code": "SUM_OF_DAILY_RULE_MIN_DAYS_GREATER_THAN_WEEKLY_RULE_MAX_DAYS",
+      "message": "日次ルールで定義された最小日数の合計が1週間の最大合計を超えてはなりません。"
+    },
+    "wfo_service_schedule_manager_52": {
+      "code": "NO_VALID_DAILY_RULE_COMBINATIONS_EXIST_GIVEN_CONSTRAINTS",
+      "message": "ルールの制限により、このルールの組み合わせでは有効な結果が得られない場合があります。別の組み合わせをお試しください"
+    },
+    "wfo_service_schedule_manager_53": {
+      "code": "SINGLE_DAILY_RULE_DAYS_NOT_EQUAL_TO_WEEKLY_RULE_DAYS",
+      "message": "1つの日次ルールの最小値と最大値は1週間の値と一致する必要があります"
+    },
+    "wfo_service_schedule_manager_54": {
+      "code": "LESS_THAN_TEN_HOURS_BETWEEN_SHIFTS",
+      "message": "シフトとシフトの間は少なくとも10時間空ける必要があります"
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "[週間ルールの最小シフト数]の値が日次ルールの最大日数の合計よりも大きいです"
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "1日の最小時間の合計が1週間の最大時間よりも大きいです"
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "1日の最大時間の合計が一週間の最小時間よりも小さいです"
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "可能な日数の合計が対応する日次ルールの最小日数よりも小さいです"
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "内部サーバーエラーです。"
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "内部エラーです。"
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "この名前はすでに存在します。新しいものを試してください。"
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "スキルが存在しません。"
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "従業員が50を超えるスキルを持つことはできません。"
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "スキル名が無効です"
+    },
+    "wrongCredentials": "間違ったEメールアドレスまたはパスワードを入力しました"
+  },
+  "filter": {
+    "clearall": "すべてクリア",
+    "close": "閉じる"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "スケジューリングユニット"
+  },
+  "generalErrorMessages": {
+    "activitiesOverlap": "アクティビティが重複する可能性は認められません",
+    "activityCountsOverLimit": "事前に計画されたアクティビティが10を超えることはできません",
+    "email": "入力したEメールアドレスは無効です",
+    "emailExists": "Eメールアドレスはすでに存在します。新しいものを試してください",
+    "invalidFileFormat": "ファイル形式が無効です",
+    "lowerThen": "最小値が最大値を超えることはできません",
+    "match": "このパスワードは以前のパスワードと一致しません",
+    "max": "数が大きすぎます",
+    "maxLength": "エントリーが長すぎます",
+    "maxLengthPassword": "パスワードが長すぎます",
+    "min": "数が小さすぎます",
+    "minLength": "エントリーが短すぎます",
+    "minLengthPassword": "パスワードは8文字以上である必要があります",
+    "nameFieldValidation": "申し訳ありませんが、\\ / ! + < > ? # & , % \"は使用できません",
+    "noAddedShiftPatters": "少なくとも1つの日次ルールを選択する必要があります",
+    "number": "数字のみです",
+    "password": "パスワードは、数字1文字以上と大文字1文字以上を含む8文字以上でなければなりません。",
+    "pattern": "このフィールドの形式が正しくありません",
+    "possibleDaysLowerThanMinDays": "可能な日数が週間ルールで要求される最小日数を満たしていません。",
+    "relativeStartLowerThanSlack": "スラックを相対開始の値より大きくすることはできません",
+    "required": "このフィールドは必須です",
+    "serverError": "内部サーバーエラーです。もう一度お試しください。",
+    "shiftLengthLowerThanActivityLength": "アクティビティの長さ、相対開始、スラックの合計がシフトの長さを超えることはできません",
+    "shiftLengthLowerThanTotalActivityLength": "アクティビティの長さの合計がシフトの長さを超えることはできません",
+    "someRequiredFieldsAreIncomplete": "一部の必須フィールドが不完全です。",
+    "uniqueDaysCounterLowerThanSumDailyMin": "最小日数が一意の日の合計数を超えています。",
+    "uniqueDaysCounterLowerThanWeeklyMin": "週間ルールの最小日数が一意の日数を超えています。",
+    "uniqueString": "この名前はすでに存在します。新しいものを試してください。",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "1日の最小組み合わせ時間の合計が1週間の最大合計時間を超えることはできません",
+    "weeklyMaxLowerThanSumDailyMin": "日次ルールで要求される最小日数が週間ルールの最大日数を超えています。",
+    "weeklyMinGreaterThanSumDailyMax": "週間ルールの最小日数が日次ルールで要求される最大日数を超えています。",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "1日の最大組み合わせ時間の合計が1週間の最小合計時間を下回ることはできません"
+  },
+  "generateSchedulesPage": {
+    "deleteMessage": "このスケジューリングジョブを削除しようとしています。続行しますか？",
+    "deleteSucess": "スケジュールジョブは正常に削除されました。",
+    "detailsListModal": {
+      "header": "エラーサマリー"
+    },
+    "labels": {
+      "gridColumnsHeaders": {
+        "initiatedBy": "開始者",
+        "jobDate": "仕事日",
+        "schedulingDate": "スケジューリング日",
+        "schedulingUnit": "スケジューリングユニット",
+        "status": "ステータス"
+      },
+      "gridNoRowsOverlay": "スケジューリングジョブはまだ生成されていません",
+      "items": "スケジュール生成ジョブ",
+      "newJobButtonText": "新規スケジュールの生成",
+      "newRequestOff": "休暇の申請",
+      "pageTitle": "自動スケジュール生成",
+      "selectedItems": "{{selectedCount}}件選択済",
+      "viewErrors": "エラーを表示"
+    },
+    "modal": {
+      "AutomaticPlanning": "自動プラン(生成されたフォーキャスト)",
+      "CSVFile": "CSVファイル",
+      "GeneratedForecast": "生成されたフォーキャスト",
+      "ManualPlanning": "手動プラン(CSV)",
+      "advanceRotation": "アドバンスローテーション",
+      "attention": "注意！",
+      "doNotAdvanceRotationPopoverTxt": "ローテーションルールを含むスケジュールを生成しようとしていますが、次のローテーションに移動していません。",
+      "endDateInPast": "終了日は将来の日付でなければなりません",
+      "forecastDataLoads": "フォーキャストデータが見つかりました。",
+      "forecastDataTabHeader": "フォーキャストデータ",
+      "fourWeeks": "4週間",
+      "from": "開始",
+      "generateAnywayBtn": "生成する",
+      "goToImportForecastPageBtn": "「フォーキャストのインポート」ページに移動",
+      "header": "新規スケジュールの生成",
+      "importForecastData": "フォーキャストファイルをインポートして、もう一度お試しください...",
+      "lessThanMinimumSchedulingUnitsSelectedTxt": "少なくとも1つのスケジューリングユニットを選択する必要があります",
+      "loadForecastDataBtn": "フォーキャストデータを読み込む",
+      "missingForecastDataPopoverTxt": "一部の日付にはフォーキャストデータが含まれていません。これらの日付のスケジュールは需要要件を反映していません。",
+      "missingStaffingPlan": "人員配置プランを選択する必要があります",
+      "noForecastDataTxt": "この期間のフォーキャストデータはありません。",
+      "noMoreThanLimitSchedulingUnitsCouldBeScheduled": "スケジューリング可能なユニットは{{items}}件までです",
+      "oneMonth": "1か月",
+      "oneWeek": "1週間",
+      "scheduleUnit": "スケジューリングユニット",
+      "schedulesExistPopoverTxt": "選択した日付の一部にはすでにスケジュールがあります。このジョブはそれらのスケジュールを上書きし、従業員のスケジュールが以前に公開されている場合は、更新したスケジュールを従業員に自動的に公開します。",
+      "schedulingUnits": "スケジューリングユニット",
+      "schedulingUnitsDropDown": "{{selectedCount}}件のスケジューリングユニット",
+      "selectDatePlaceholder": "日付を選択",
+      "staffingPlan": "人員配置プラン",
+      "staffingPlanSUMismatch": "選択した人員配置プランは選択された1つ以上のスケジューリングユニットには適用されません。続行しますか？",
+      "startDateInPast": "開始日を過去にすることはできません",
+      "threeWeeks": "3週間",
+      "to": "終了",
+      "twoWeeks": "2週間",
+      "useMultiSkill": "マルチスキルスケジューリングを使用",
+      "weeklyRulesMismatchWithSchedulerType": "一部の週間ルールはこのタイプのスケジューリングと互換性がありません。{{totalWeeklyRuleEmployeeCount}}人中{{mismatchedEmployeeCount}}人の従業員はスケジュールを受け取りません。"
+    },
+    "serviceStatusMessages": {
+      "jobAddFailed": "新規ジョブを1件追加できませんでした",
+      "jobAddFailedPlural": "新規ジョブを{{jobCount}}件追加できませんでした",
+      "jobAddSucceeded": "新規ジョブを1件追加しました",
+      "jobAddSucceededPlural": "新規ジョブを{{jobCount}}件追加しました",
+      "noUsersAssignedToSu": "スケジュールを生成できませんでした。スケジューリングユニットに割り当てられた従業員がいません",
+      "noUsersInSuAssignedWeeklyRules": "スケジュールを生成できませんでした。週間ルールが定義されていません"
+    },
+    "statusDetailTitles": {
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "日次ルール：{{dailyRuleName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "日次ルール：{{dailyRuleName}}",
+      "employeeUnavailiabilityViolatesMinDays": "週間ルール：{{weeklyRuleName}}",
+      "employeeUnavailiabilityViolatesMinUsage": "週間ルール：{{weeklyRuleName}}",
+      "internalError": "内部エラー",
+      "noUsersAssignedToSu": "スケジューリングユニット：{{suName}}",
+      "noUsersHaveSkills": "スケジューリングユニット：{{suName}}",
+      "noUsersInSuAssignedWeeklyRules": "スケジューリングユニット：{{suName}}",
+      "someUsersHaveNoSkills": "スケジューリングユニット：{{suName}}",
+      "someUsersInSuNotAssignedWeeklyRules": "スケジューリングユニット：{{suName}}",
+      "suNotFound": "スケジューリングユニット：{{suName}}"
+    },
+    "statusDetails": {
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "スケジューリングユニット「{{suName}}」のエージェントは週間ルール「{{weeklyRuleName}}」を使用しており、1つ以上の日次ルールが営業時間に準拠していません。週間ルールの最小値を減らす必要があります。",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "スケジューリングユニット「{{suName}}」のエージェントは週間ルール「{{weeklyRuleName}}」を使用しており、日次ルール「{{dailyRuleName}}」が営業時間に準拠していません。日次ルールの開始時刻を更新する必要があります。",
+      "employeeUnavailiabilityViolatesMinDays": "従業員「{{employeeName}}」は日次ルール「{{dailyRuleName}}」の予定勤務時間に対応不可と管理で定義されています。週間ルール「{{weeklyRuleName}}」または従業員のアベイラビリティを更新する必要があります。",
+      "employeeUnavailiabilityViolatesMinUsage": "従業員「{{employeeName}}」は日次ルール「{{dailyRuleName}}」の予定勤務時間に対応不可と管理で定義されています。週間ルール「{{weeklyRuleName}}」または従業員のアベイラビリティを更新する必要があります。",
+      "internalError": "内部エラー",
+      "noUsersAssignedToSu": "スケジューリングユニットに従業員が割り当てられていません",
+      "noUsersHaveSkills": "スケジューリングユニット「{{suName}}」の従業員にはスキルがありません",
+      "noUsersInSuAssignedWeeklyRules": "スケジューリングユニット「{{suName}}」の従業員には週間ルールがありません",
+      "someUsersHaveNoSkills": "スケジューリングユニット「{{suName}}」の一部の従業員にはスキルがありません",
+      "someUsersInSuNotAssignedWeeklyRules": "スケジューリングユニット「{{suName}}」の週間ルールのない従業員にはスケジュールがありません",
+      "suNotFound": "スケジューリングユニットが見つかりません"
+    },
+    "statuses": {
+      "GENERATION_CANCELLED": "生成をキャンセルしました。",
+      "GENERATION_CANCELLING": "生成をキャンセルしています...",
+      "GENERATION_COMPLETED": "成功しました。{{message}}",
+      "GENERATION_COMPLETED_WITH_WARNINGS": "成功しました。{{message}}",
+      "GENERATION_ERRORED": "失敗しました。{{message}}",
+      "GENERATION_SCHEDULING": "スケジュールを作成しています...",
+      "GENERATION_SCHEDULING_COMPLETE": "スケジューリングが完了しました。",
+      "GENERATION_STARTED": "生成を開始しました。",
+      "GENERATION_STARTING": "生成を開始しています...",
+      "GENERATION_STORING_SCHEDULES": "スケジュールを保存しています...",
+      "GENERATION_STORING_SCHEDULES_COMPLETE": "スケジュールの保存が完了しました。",
+      "GENERATION_VALIDATION_FAILED": "検証に失敗しました。"
+    }
+  },
+  "languages": {
+    "chinese": "中国語",
+    "english": "英語",
+    "russian": "ロシア語",
+    "spanish": "スペイン語"
+  },
+  "metaInfo": {
+    "UIKitGallery": {
+      "description": "NICE SaaS WFM",
+      "title": "UIキットギャラリー",
+      "userRoles": "{{selectedCount}}人の従業員の役割"
+    },
+    "acdActivitiesMapping": {
+      "description": "NICE SaaS WFM",
+      "title": " ACDマッピング"
+    },
+    "activityCodes": {
+      "description": "NICE SaaS WFM",
+      "title": "アクティビティコード"
+    },
+    "automaticApprovalRuleSettings": {
+      "description": "承認ルールの設定の管理",
+      "title": "承認ルールの設定"
+    },
+    "automaticApprovalRules": {
+      "description": "承認ルールの管理",
+      "title": "承認ルール"
+    },
+    "bidPatterns": {
+      "description": "NICE SaaS WFM",
+      "title": "シフト入札"
+    },
+    "biddingManager": {
+      "description": "NICE SaaS WFM",
+      "title": "入札マネジャー"
+    },
+    "bidsView": {
+      "description": "NICE SaaS WFM",
+      "title": "入札マネジャー"
+    },
+    "createAccount": {
+      "description": "NICE SaaS WFM",
+      "title": "アカウント作成"
+    },
+    "createNewRule": {
+      "description": "NICE SaaS WFM",
+      "title": "新規ルール"
+    },
+    "dailyRule": {
+      "description": "NICE SaaS WFM",
+      "title": "日次ルール"
+    },
+    "description": "NICE SaaS WFM",
+    "employeeGroups": {
+      "description": "NICE SaaS WFM",
+      "title": "スケジューリングユニット"
+    },
+    "examples": {
+      "description": "NICE SaaS WFM",
+      "title": "例"
+    },
+    "expiredInvitation": {
+      "description": "NICE SaaS WFM",
+      "title": "期限切れの招待"
+    },
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "forecastData": {
+      "description": "NICE SaaS WFM",
+      "title": "フォーキャストデータのインポート"
+    },
+    "forecastingProfileView": {
+      "description": "フォーキャスティングプロファイル",
+      "title": "フォーキャスティングプロファイル"
+    },
+    "forecastingProfiles": {
+      "description": "フォーキャスティングプロファイル",
+      "title": "フォーキャスティングプロファイル"
+    },
+    "formDesigner": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームデザイナー"
+    },
+    "formExecutor": {
+      "description": "NICE SaaS WFM",
+      "title": "フォーム実施者"
+    },
+    "form_example": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームの例"
+    },
+    "generateForecast": {
+      "description": "フォーキャストの生成",
+      "title": "フォーキャストの生成"
+    },
+    "generatedForecasts": {
+      "description": "フォーキャストの生成",
+      "title": "フォーキャストの生成"
+    },
+    "generateschedule": {
+      "description": "NICE SaaS WFM",
+      "title": "スケジュールの生成"
+    },
+    "groups": {
+      "description": "NICE SaaS WFM",
+      "title": "グループ"
+    },
+    "historicalData": {
+      "description": "NICE SaaS WFM",
+      "title": "ヒストリカルデータ"
+    },
+    "importStaffingJob": {
+      "description": "人員配置プラン",
+      "title": "人員配置プラン"
+    },
+    "intradayManager": {
+      "description": "NICE SaaS WFM",
+      "title": "イントラデイマネジャー"
+    },
+    "login": {
+      "description": "NICE SaaS WFM",
+      "title": "ログイン"
+    },
+    "manageForms": {
+      "description": "NICE SaaS WFM",
+      "title": "フォームを管理"
+    },
+    "myDashboard": {
+      "description": "NICE SaaS WFM",
+      "title": "自分のダッシュボード"
+    },
+    "mySchedule": {
+      "description": "NICE SaaS WFM",
+      "title": "自分のスケジュール"
+    },
+    "myTimeOffRequests": {
+      "description": "NICE SaaS WFM",
+      "title": "スケジュールリクエスト"
+    },
+    "qpManager": {
+      "description": "NICE SaaS WFM",
+      "title": "Quality Planner"
+    },
+    "realTimeAdherence": {
+      "description": "リアルタイム遵守",
+      "title": "リアルタイム遵守"
+    },
+    "recoverPassword": {
+      "description": "NICE SaaS WFM",
+      "title": "パスワードを回復"
+    },
+    "requests": {
+      "description": "エージェントリクエストの管理",
+      "title": "リクエストの管理"
+    },
+    "resetPassword": {
+      "description": "NICE SaaS WFM",
+      "title": "パスワードの再設定"
+    },
+    "scheduler": {
+      "description": "NICE SaaS WFM",
+      "title": "スケジュール管理"
+    },
+    "selfService": {
+      "title": "サポート - ダウンロード"
+    },
+    "setPassword": {
+      "description": "NICE SaaS WFM",
+      "title": "パスワードを設定"
+    },
+    "shiftBidding": {
+      "description": "NICE SaaS WFM",
+      "title": "シフト入札"
+    },
+    "shiftBiddingTemplates": {
+      "description": "NICE SaaS WFM",
+      "title": "シフトテンプレート"
+    },
+    "shiftTrading": {
+      "description": "NICE SaaS WFM",
+      "title": "シフト交換"
+    },
+    "skills": {
+      "description": "NICE SaaS WFM",
+      "title": "スキル"
+    },
+    "specialDayView": {
+      "description": "特例日",
+      "title": "特例日"
+    },
+    "specialDays": {
+      "description": "特例日",
+      "title": "特例日"
+    },
+    "success": {
+      "description": "NICE SaaS WFM",
+      "title": "成功"
+    },
+    "templateManager": {
+      "description": "NICE SaaS WFM",
+      "title": "テンプレートマネジャー"
+    },
+    "timeOffPlanning": {
+      "rules": {
+        "description": "NICE SaaS WFM",
+        "title": "ルール"
+      },
+      "summary": {
+        "description": "NICE SaaS WFM",
+        "title": "サマリー"
+      }
+    },
+    "timeOffRequests": {
+      "description": "NICE SaaS WFM",
+      "title": "リクエスト"
+    },
+    "timeOffRules": {
+      "description": "NICE SaaS WFM",
+      "title": "休暇ルール"
+    },
+    "timeOffSummary": {
+      "description": "NICE SaaS WFM",
+      "title": "休暇サマリー"
+    },
+    "title": "NICE SaaS WFM",
+    "userManagement": {
+      "description": "NICE SaaS WFM",
+      "title": "従業員"
+    },
+    "weeklyRules": {
+      "description": "NICE SaaS WFM",
+      "title": "週間ルール"
+    }
+  },
+  "mySchedule": {
+    "actionButton": "アクション",
+    "actionLinks": {
+      "tradeShift": "シフトの交換",
+      "userPreferences": "シフトの設定",
+      "userTORBalance": "休暇の残り日数"
+    },
+    "agentInitiatedSchedule": {
+      "activityModal": {
+        "activityCodePlaceholder": "アクティビティコードを選択",
+        "activityLabel": "アクティビティタイプ",
+        "addActivitySaveButton": "追加",
+        "addActivityTitle": "アクティビティを追加",
+        "balanceLabel": "自分の休暇残り日数",
+        "cancelButton": "キャンセル",
+        "commentLabel": "コメント",
+        "commentPlaceHolder": "コメントを追加...",
+        "editActivityTitle": "アクティビティを編集",
+        "endDate": "終了日",
+        "endLabel": "終了",
+        "endTime": "終了時刻",
+        "fullDay": "終日",
+        "noBalance": "残りの{{totalDays}}日をすべて使用しました",
+        "overnightMessage": "これは夜間のアクティビティです。編集できるのは開始日の時間のみです。",
+        "remaining": " 文字残っています",
+        "remainingBalance": "{{totalDays}}日中{{remainingDays}}日残っています",
+        "removeActivitySaveButton": "削除",
+        "removeActivityTitle": "アクティビティを削除",
+        "restrictFullDaysMessage": "このアクティビティのリクエストは終日のみです。",
+        "saveButton": "保存",
+        "selfIntervalExtraHoursTitle": "時間延長を選択",
+        "selfIntervalTitle": "休暇を選択",
+        "startDate": "開始日",
+        "startLabel": "開始",
+        "startTime": "開始時刻",
+        "submitButton": "送信",
+        "title": "新規休暇申請",
+        "unpublishedDayMessage": "この日のスケジュールは公開されていないため、休暇を申請できるのは終日のみです。",
+        "validations": {
+          "AGENT_BALANCE": "休暇の残り日数が不足しています。",
+          "AGENT_BALANCE_FOR_EH": "時間延長の残りが十分にありません。",
+          "AGENT_MAX_HOURS_A_DAY": "時間が1日の上限を超えます",
+          "AGENT_MAX_HOURS_A_WEEK": "時間が週の上限を超えます",
+          "AGENT_SENIORITY": "このリクエストを送信するには、少なくとも{{AGENT_MINIMUM_SENIORITY_DAYS}}日作業する必要があります。",
+          "REQUEST_CREATION_TIME_DAYS_IN_ADVANCE": "遅くとも{{DAYS_IN_ADVANCE}}日前までにリクエストしてください。",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_FUTURE": "リクエストできるのは今から{{MAX_DAYS_IN_FUTURE}}日後までです。",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_PAST": "リクエストできるのは今日から{{MAX_DAYS_IN_PAST}}日前までです。",
+          "REQUEST_CREATION_TIME_SAME_DAY": "このアクティビティは当日のリクエストのみ可能です。",
+          "SCHEDULING_UNIT_BALANCE": "この時間帯の休暇は申請できません。",
+          "SCHEDULING_UNIT_NO_PUBLISHED_SCHEDULE": "選択したアクティビティ/日数に対してフォーキャストや公開済スケジュールがありません",
+          "SCHEDULING_UNIT_STAFFING": "選択したアクティビティ/日数に対して人材配置レベルが低すぎます",
+          "extraHoursIntervalConsumingShift": "時間延長はシフト外でなければなりません",
+          "invalidDaysBalance": "残りはあと{{remaining}}日のみです",
+          "invalidHoursBalance": "残りはあと{{remainingBalanceHoursString}}時間のみです",
+          "invalidPartialActivityCodeNumHours": "このアクティビティは{{partialDayRequestMinHours}}～{{partialDayRequestMaxHours}}時間の間である必要があります",
+          "invalidPartialActivityHours": "開始時刻以降でなければなりません",
+          "invalidPartialFulldayTO": "半日休暇はシフトの合計時間より短くなければなりません",
+          "noRemainingDaysBalance": "このアクティビティの残り日数はありません",
+          "overlappingRequests": "この時点ですでに未解決のリクエストがあります",
+          "overlappingShiftTradeRequests": "この時間枠に未解決の交換リクエストがあります",
+          "selfExtraHoursAutoTime": "選択した時間範囲のすべてのスロットが、自動承認された時間延長を利用可能にできません",
+          "selfExtraHoursTime": "選択した時間範囲のすべてのスロットが、承認が必要な時間延長として利用可能にできません",
+          "selfIntervalAutoTime": "選択した時間範囲のすべてのスロットは自動承認休暇に利用できません",
+          "selfIntervalManagerTime": "選択した時間範囲のすべてのスロットは承認が必要な休暇に利用できません"
+        }
+      },
+      "cancelRequests": "すべてキャンセル",
+      "comparisonModal": {
+        "agentTitle": "自分のスケジュールリクエスト",
+        "currentSchedule": "現在のスケジュール",
+        "managerTitle": "スケジュールリクエスト",
+        "requestExceedingRange": "このリクエストは{{fromDate}}から{{toDate}}までの{{totalDays}}日間です。エージェントのスケジュール全体を表示するには、次をクリックしてください",
+        "requestUpdatedWarning": "このリクエストは最近更新されました。",
+        "revisedSchedule": "変更後のスケジュール",
+        "viewFromScheduleManager": "スケジュール管理"
+      },
+      "deletedActivityName": "削除されたアクティビティ",
+      "dirtyMode": {
+        "cancel": "キャンセル",
+        "submitRequest": "リクエストを送信"
+      },
+      "dirtyModeMultipleFullDayRequestLabel": "{{requestStartDate}} - {{requestEndDate}} - {{activityCode}}",
+      "dirtyModeSingleFullDayRequestLabel": "終日リクエスト - {{activityCode}}",
+      "fullDayInvalidRequestLabel": "アクティビティ{{activityCode}}が削除または変更されました。未解決の終日リクエストが無効になりました。",
+      "invalidRequestLabel": "一部のアクティビティが削除されたか、設定が変更されました。すべてのリクエストをキャンセルします。",
+      "menuOptions": {
+        "addActivity": "アクティビティを追加",
+        "cancelActivity": "リクエストのキャンセル",
+        "cancelRequest": "リクエストのキャンセル",
+        "deleteActivity": "アクティビティを削除",
+        "editActivityTime": "アクティビティ時間の編集",
+        "editRequest": "リクエストの編集",
+        "requestTimeoff": "休暇を申請"
+      },
+      "messages": {
+        "allRequestsCanceled": "リクエストは正常にキャンセルされました。",
+        "cancelAllRequestsConfirmation": "この日の未解決のリクエストをすべて削除しますか？",
+        "cancelAllRequestsFailure": "リクエストをキャンセルできませんでした。少し経ってからもう一度お試しください。",
+        "cancelAllRequestsFailureAlreadyApprovedDeclined": "リクエストをキャンセルできませんでした。スケジュールが更新されました。ページを再読み込みして、もう一度お試しください。",
+        "cancelAllRequestsFailureDiscarded": "リクエストをキャンセルできませんでした。スケジュールが更新され、以前のリクエストは破棄されました。ページを再読み込みしてください。",
+        "cancelAllRequestsFailureWithRefresh": "リクエストをキャンセルできませんでした。ページを再読み込みして、もう一度お試しください。",
+        "cancelRequestConfirmation": "すべての変更は失われます。続行しますか？",
+        "cancelRequestFailure": "リクエストをキャンセルできませんでした。後でもう一度お試しください。",
+        "cancelRequestFailureAlreadyApprovedDeclined": "リクエストをキャンセルできませんでした。スケジュールが更新されました。ページを再読み込みして、もう一度お試しください。",
+        "cancelRequestFailureDiscarded": "リクエストをキャンセルできませんでした。スケジュールが更新され、以前のリクエストは破棄されました。ページを再読み込みしてください。",
+        "cancelRequestFailureWithRefresh": "リクエストをキャンセルできませんでした。ページを再読み込みして、もう一度お試しください。",
+        "cannotCancelOvernightActivity": "このアクティビティをキャンセルできるのは開始日からです。",
+        "cannotCreateScheduleRequest": "この日のシフト交換リクエストが未解決のため、スケジュールを変更できません。",
+        "cannotCreateShiftTradeRequest": "この日のスケジュールリクエストが未解決のため、シフトを交換できません。",
+        "cannotDeleteOvernightActivity": "このアクティビティを削除できるのは開始日からです。",
+        "cannotEditOvernightActivity": "このアクティビティを編集できるのは開始日からです。",
+        "cannotLoadPendingTradeRequests": "未解決の交換リクエストを読み込めませんでした。ページを再読み込みしてください。",
+        "cannotLoadWeeklyScheduleData": "週間スケジュールデータを読み込めませんでした。",
+        "confirmationContinue": "続行しますか？",
+        "confirmationNo": "いいえ",
+        "confirmationYes": "はい",
+        "failedToLoadRequests": "未解決のリクエストを読み込めませんでした。ページを再読み込みしてください。",
+        "generalConflictErr": "競合するリクエストがあります。",
+        "modalInitFailure": "アクティビティウィンドウを開けませんでした。ページを再読み込みしてください。",
+        "moreThan1DayCancelationNotAllowed": "1日以上のキャンセルは対応できません。マネジャーに連絡してキャンセルしてください。",
+        "pastDateCancelationNotAllowed": "事前にキャンセルする必要があります。マネジャーに連絡してキャンセルしてください。",
+        "requestCanceled": "リクエストは正常にキャンセルされました。",
+        "requestSubmitted": "リクエストは正常に送信されました。",
+        "requestTimezoneDiff": "異なるタイムゾーンから未解決のリクエストを読み込めませんでした。",
+        "scheduleChangedPostApproval": "休暇申請承認後にスケジュールが変更されました。マネジャーに連絡してキャンセルしてください。",
+        "submitRequestConfirmation": "リクエストは予定されたアクティビティと重複しています。承認されると、新しいアクティビティはリクエストされた時間帯の既存のスケジュールを上書きします。",
+        "submitRequestFailure": "リクエストを送信できませんでした。後でもう一度お試しください。",
+        "submitRequestFailureDiscarded": "リクエストを送信できませんでした。スケジュールが更新され、以前のリクエストは破棄されました。ページを再読み込みしてください。",
+        "submitRequestFailureScheduleChanged": "リクエストを送信できませんでした。スケジュールが更新されました。ページを再読み込みして、もう一度お試しください。",
+        "submitRequestFailureWithRefresh": "リクエストを送信できませんでした。ページを再読み込みして、もう一度お試しください。"
+      },
+      "multipleFullDayRequestExistLabel": "{{requestStartDate}} – {{requestEndDate}}の終日リクエスト({{activityCode}})は未解決です。",
+      "requestExistLabel": "この日のリクエストは未解決です。",
+      "select_self_service": "選択...",
+      "self_Interval": "セルフサービス",
+      "singleFullDayRequestExistLabel": "この日の終日リクエスト({{activityCode}})は未解決です。",
+      "timeGroupLabel": "開始日時と終了日時の選択",
+      "viewRequests": "リクエストを表示"
+    },
+    "agentScheduleCancellation": {
+      "messages": {
+        "canNotCancelTimeOff": "休暇をキャンセルできません",
+        "confirmationMessage1": "リクエストをキャンセルしますか？",
+        "confirmationMessage2": "スケジュールは前の状態に戻ります。",
+        "confirmationNo": "留まる",
+        "confirmationYes": "リクエストのキャンセル",
+        "internalError": "内部サーバーエラーが発生しました。もう一度お試しください。"
+      }
+    },
+    "day": "日",
+    "enhancedTradeModal": {
+      "betweenLabel": "次の間",
+      "daysNotSelectedtLabel": "このフィールドは必須です",
+      "findShiftBtnText": "一致するシフトを検索",
+      "fromLabel": "開始",
+      "fullDayShiftLabel": "シフト時間",
+      "fullDayTradeOption": "シフト全体",
+      "grid": {
+        "agentName": "エージェント名",
+        "gridError": "データを読み込めませんでした。もう一度お試しください。",
+        "gridNoAgent": "エージェントが見つかりません",
+        "gridNoRowsOverlay": "一致するシフトが見つかりません。交換設定を更新します",
+        "gridNotSet": "シフト設定がまだ設定されていません",
+        "shiftEnd": "シフト終了",
+        "shiftStart": "シフト開始",
+        "wfo_service_schedule_manager_62": "シフトを交換できません。未解決のスケジュール変更リクエストに対するシフト交換はできません。",
+        "wfo_service_schedule_manager_65": "シフトを交換できません。過去の日付はシフト交換できません。",
+        "wfo_service_schedule_manager_68": "シフトを交換できません。スケジュールはまだ公開されていません。",
+        "wfo_service_schedule_manager_76": "交換は許可されません。",
+        "wfo_service_schedule_manager_77": "シフトを交換できません。シフト交換日がリクエスト日からの許容期間を超えています。",
+        "wfo_service_schedule_manager_78": "シフトを交換できません。シフト交換の時間がリクエスト時間に近すぎます。",
+        "wfo_service_schedule_manager_79": "シフトを交換できません。交換時間が最低必要値を下回っています。",
+        "wfo_service_schedule_manager_87": "シフトを交換できません。その日の未解決の交換リクエスト数が設定済限度を超えています。",
+        "wfo_service_schedule_manager_88": "アクティビティは分割できません。異なるリクエスト者の時間を選択してください。",
+        "wfo_service_schedule_manager_90": "半日の交換は許可されません。"
+      },
+      "header": {
+        "searchTitle": "検索エージェント",
+        "selected": "選択済",
+        "selectedRow": "選択されたもののみ表示",
+        "shift": "シフト"
+      },
+      "maxSelectionMessage": "シフトを最大{{maxSelectionPossible}}件まで選択できます。",
+      "minAdvanceNotice": "交換リクエストは{{stringTime}}前までに提出しなければなりません",
+      "minPartialShiftDuration": "少なくとも{{minStringTime}}を選択",
+      "modalTitle": "シフトの交換",
+      "nonTradeableActivityPresent": "シフト時間には交換不可のアクティビティが含まれます",
+      "okLabel": "交換リクエストを提出する",
+      "openTradeMessage": {
+        "cancel": "キャンセル",
+        "decline": "却下",
+        "requesteeAcceptedTrade": "あなたはこの交換を受け入れました。スーパーバイザーの承認を待っています",
+        "requesteeInvitedForTrade": "{{requestorName}}はあなたをシフト交換に招待しています",
+        "requestorWaitForApproval": "{{totalRequests}}人の従業員にシフト交換リクエストが送信され、承認待ちです",
+        "viewRequest": "リクエストを表示"
+      },
+      "partialDayTradeOption": "シフトの一部",
+      "partialShiftLabel": "部分シフト時間",
+      "popOverFullDayRequestPending": "終日の交換リクエストが未解決の場合、半日の交換は許可されません",
+      "popOverMinAdvNotice": "交換リクエストは{{stringTime}}前までに提出しなければなりません",
+      "popOverNonTradableActivity": "シフト時間には交換不可のアクティビティが含まれます",
+      "popOverPartialRequestPending": "半日の交換リクエストが未解決の場合、終日の交換は許可されません",
+      "popOverPartialTradeDisabled": "システムの交換設定に基づき、終日の交換のみが許可されます",
+      "preferredShiftLabel": "希望のシフト日時",
+      "startTimeLateThanEndTime": "開始時刻は終了時刻より前でなければなりません",
+      "toLabel": "終了",
+      "tradeConfigMsg": "システムの交換設定に基づく",
+      "weekdayDropdown": "希望日を選択"
+    },
+    "errorRead": "スケジュールの読み込み中にエラーが発生しました。",
+    "openTradeMessage": {
+      "cancel": "キャンセル",
+      "decline": "却下",
+      "requesteeAcceptedTrade": "あなたはこの交換を受け入れました。スーパーバイザーの承認を待っています",
+      "requesteeInvitedForTrade": "{{requestorName}}はあなたをシフト交換に招待しています",
+      "requestorWaitForApproval": "交換リクエストが送信され、承認待ちです",
+      "viewRequest": "リクエストを表示"
+    },
+    "pageTitle": "自分のスケジュール",
+    "selfServiceEH": {
+      "autoEHPopover": "自動時間外労働",
+      "generalError": "セルフサービスデータを読み込めませんでした。",
+      "managerEHPopover": "承認が必要な時間外労働",
+      "noPermissionToAddOpenActivity": "アクティビティを追加できません。権限が必要です。",
+      "noSelfIntervalActivityPresentForDay": "この日のセルフサービスアクティビティはありません。"
+    },
+    "selfServiceTO": {
+      "autoTOPopover": "自動休暇",
+      "generalError": "セルフサービスデータを読み込めませんでした。",
+      "managerTOPopover": "承認が必要な休暇",
+      "noSelfIntervalActivityPresentForDay": "この日のセルフサービスアクティビティはありません。"
+    },
+    "showSummary": {
+      "noData": "データなし",
+      "onCall": "オンコール",
+      "outOfOfficeAgent": "業務時間外"
+    },
+    "sideBySideModal": {
+      "acceptBtnLabel": "受諾",
+      "declineBtnLabel": "却下",
+      "error": {
+        "generalError": "シフト交換に失敗しました。",
+        "nonTradableError": "交換が却下されました。あなたまたは選択したエージェントのシフトに交換不能なアクティビティがあります。",
+        "scheduleRequestExists": "この日のスケジュールリクエストが未解決のため、シフトを交換できません。",
+        "tradeDateHasPassed": "このシフト交換はもうアクティブではありません"
+      },
+      "headerLabelFormat": "{{date}} | {{time}}",
+      "modalTitle": "シフト交換",
+      "requesteeHeaderLabel": "提供するもの",
+      "requestorHeaderLabel": "取得するもの"
+    },
+    "toasts": {
+      "acceptedFailed": "シフト交換リクエストの受け入れに問題がありました",
+      "canceledFailed": "シフト交換リクエストのキャンセルに問題がありました",
+      "canceledSuccess": "交換リクエストが正常にキャンセルされました。",
+      "declinedFailed": "シフト交換リクエストの却下に問題がありました",
+      "noTradeAvaliable": "交換リクエストは利用できなくなりました。",
+      "retrieveFailed": "シフト交換リクエストの取得に問題がありました",
+      "updateFailed": "シフト交換リクエストステータスの更新に問題がありました"
+    },
+    "today": "今日",
+    "tradeModal": {
+      "agentLabel": "交換相手：",
+      "agentPlaceHolder": "エージェントを選択",
+      "modalTitle": "{{date}} | {{time}}を交換",
+      "okLabel": "送信"
+    },
+    "tradeValidations": {
+      "generalError": "交換に失敗しました。後でもう一度お試しください。",
+      "non_tradable": "シフトを交換できません。シフト内の少なくとも1つのアクティビティは交換できません。",
+      "tradeAccpeted": "交換リクエストを正常に受け付けました。",
+      "tradeFailure": "シフトを交換できません。不明なエラーです。",
+      "tradeSubmissionFailure": "交換リクエストが失敗しました。",
+      "tradeSuccess": "交換リクエストがすべての選択エージェントに正常に送信されました。",
+      "tradeSuccessPartial": "交換リクエストが{{successCount}}社のエージェントに正常に送信されました。",
+      "trdaeDecline": "交換リクエストは正常に却下されました。",
+      "wfo_service_schedule_manager_62": "シフトを交換できません。未解決のスケジュール変更リクエストに対するシフト交換はできません。",
+      "wfo_service_schedule_manager_65": "シフトを交換できません。過去の日付はシフト交換できません。",
+      "wfo_service_schedule_manager_68": "シフトを交換できません。スケジュールはまだ公開されていません。",
+      "wfo_service_schedule_manager_76": "交換は許可されません。",
+      "wfo_service_schedule_manager_77": "シフトを交換できません。シフト交換日がリクエスト日からの許容期間を超えています。",
+      "wfo_service_schedule_manager_78": "シフトを交換できません。シフト交換日が要求された日付に近すぎます。",
+      "wfo_service_schedule_manager_87": "シフトを交換できません。その日の未解決の交換リクエスト数が設定済限度を超えています。",
+      "wfo_service_schedule_manager_88": "シフトを交換できません。公開されたスケジュールが空です。"
+    },
+    "userName": "{{userName}}",
+    "userPreferencesModal": {
+      "modalTitle": "シフトの設定",
+      "okLabel": "保存",
+      "updateSuccessMsg": "従業員は正常に更新されました。"
+    },
+    "week": "週",
+    "weeklyViewTradeSideBySideModal": {
+      "cancelPendingRequestTitle": "未解決のリクエストをキャンセル",
+      "cancelTradeRequest": "送信したリクエストをすべてキャンセル",
+      "close": "閉じる",
+      "declineTradeRequest": "受信したリクエストをすべて却下",
+      "deleteAllPendingActivityRequestsConfirmation": "未解決のリクエストをすべてキャンセルしますか：",
+      "deletePendingRequest": "すべてキャンセル",
+      "dontCancelButtonText": "キャンセルしない",
+      "fullDayTimeoffMsg": "この日は終日の休暇があります。",
+      "noRequestsForThisDay": "この日はリクエストなし。",
+      "pendingActivityRequestHeader": "アクティビティリクエスト",
+      "pendingRequestsText": "未解決のリクエスト",
+      "pendingTradeRequestHeader": "交換リクエスト",
+      "tradeHeading": "交換リクエスト",
+      "viewPendingRequest": "リクエストを表示",
+      "viewTradeRequest": "受信したリクエストを表示"
+    }
+  },
+  "myTimeOffRequests": {
+    "by": "担当：",
+    "cancelRequest": "キャンセル",
+    "days": "日",
+    "deletedActivity": "削除されたアクティビティ",
+    "fullDay": "終日",
+    "gridColumns": {
+      "activityType": "アクティビティタイプ",
+      "comments": "エージェントのコメント",
+      "dates": "リクエストした日",
+      "requestOn": "リクエスト日",
+      "status": "ステータス",
+      "statusUpdateComment": "レビュー者",
+      "time": "リクエスト時間"
+    },
+    "gridHeaderPlaceholder": "入力してリクエストを検索",
+    "gridNoRowsOverlay": "リクエストはまだ作成されていません",
+    "item": "リクエスト",
+    "items": "リクエスト",
+    "messages": {
+      "cancelFailed": "休暇申請のキャンセルに失敗しました",
+      "cancelSuccess": "休暇申請がキャンセルされました",
+      "createFailed": "休暇申請の作成に失敗しました",
+      "createSuccess": "新規休暇申請が作成されました"
+    },
+    "modal": {
+      "title": "新規休暇申請"
+    },
+    "myTimeOffbalanceModal": {
+      "activity": "アクティビティ",
+      "earned": "獲得済",
+      "invalidRemainingDays": "このアクティビティの残り日数はありません",
+      "remaining": "残り",
+      "scheduled": "予定",
+      "taken": "取得済",
+      "title": "自分の休暇残り日数",
+      "total": "合計",
+      "usage": "使用量"
+    },
+    "newButton": "新規リクエスト",
+    "noComments": "コメントなし",
+    "pageTitle": "スケジュールリクエスト",
+    "requestStatusType": {
+      "approved": "承認済",
+      "auto_approved": "承認済",
+      "auto_declined": "却下済",
+      "canceled": "キャンセル",
+      "canceled_approved_request": "キャンセル - 承認済リクエスト",
+      "declined": "却下済",
+      "discarded": "破棄",
+      "pending": "未解決"
+    },
+    "scheduleRequestsTitle": "スケジュールリクエスト",
+    "system": "システム",
+    "timeOffStatusButton": "休暇の残り日数"
+  },
+  "niceNavigationUi": {
+    "global": {
+      "warningIcon": "警告"
+    },
+    "globalNavigation": {
+      "sideBar": {
+        "embeddedClientModuleLinks": {
+          "1on1coaching": "1対1のコーチング",
+          "coaching": "コーチング",
+          "evaluations": "評価",
+          "groupCoaching": "グループコーチング",
+          "marketplace": "マーケットプレイス",
+          "myDashboards": "自分のダッシュボード",
+          "mySchedule": "自分のスケジュール",
+          "myTimeOffRequests": "休暇申請",
+          "pursuits": "自分の目標",
+          "recentInteractions": "最近のインタラクション",
+          "scheduleRequests": "スケジュールリクエスト",
+          "shiftBidding": "シフト入札"
+        },
+        "myZoneModuleLinks": {
+          "1on1coaching": "1対1のコーチング",
+          "calibrations": "調整",
+          "coaching": "コーチング",
+          "evaluations": "評価",
+          "groupCoaching": "グループコーチング",
+          "marketplace": "マーケットプレイス",
+          "myPersona": "自分のペルソナ",
+          "mySchedule": "自分のスケジュール",
+          "myTimeOffRequests": "休暇申請",
+          "performanceMonitoring": "パフォーマンスモニタリング",
+          "plansMonitoring": "プランモニタリング",
+          "pursuits": "自分の目標",
+          "recentInteractions": "最近のインタラクション",
+          "scheduleRequests": "スケジュールリクエスト",
+          "selfAssessments": "自己評価",
+          "shiftBidding": "シフト入札",
+          "tasks": "タスク"
+        },
+        "wfmModuleLinks": {
+          "acdActivitiesMapping": "ACDマッピング",
+          "acdImportHistorical": "ACDヒストリカルデータ",
+          "activityCodes": "アクティビティコード",
+          "approvalRules": "承認ルール",
+          "biddingManager": "入札マネジャー",
+          "dailyRule": "日次ルール",
+          "forecasting": "フォーキャスティング",
+          "forecastingProfiles": "フォーキャスティングプロファイル",
+          "generateForecast": "フォーキャストの生成",
+          "generateSchedule": "スケジュールの生成",
+          "importStaffingPlan": "人員配置プランのインポート",
+          "intradayDashboard": "イントラデイ",
+          "intradayManager": "イントラデイマネジャー",
+          "realTimeAdherence": "リアルタイム遵守",
+          "requestHandling": "リクエストの管理",
+          "requests": "リクエスト",
+          "rotationRules": "ローテーションルール",
+          "rules": "ルール",
+          "scheduler": "スケジュール管理",
+          "scheduling": "スケジューリング",
+          "seatLimits": "シート制限",
+          "setup": "設定",
+          "shiftBiddingTemplates": "入札テンプレート",
+          "shiftTrading": "シフト交換",
+          "specialDays": "特例日",
+          "summary": "サマリー",
+          "timeOffPlanning": "休暇プラン",
+          "timeOffRequests": "リクエスト",
+          "weeklyRules": "週間ルール"
+        }
+      }
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "{{itemLabel}}はまだ定義されていません",
+    "modal": {
+      "employeeTab": "従業員はまだ割り当てられていません"
+    }
+  },
+  "notification": {
+    "notificationTitle": "未読の通知が{{Count}}件あります"
+  },
+  "notificationTemplates": {
+    "APPROVED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%%から%%TO_DATE%%までの申請。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "休暇申請が承認されました"
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%%から%%TO_DATE%%までの申請。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "休暇申請がキャンセルされました"
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%%から%%TO_DATE%%までの申請。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "休暇申請は却下されました"
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "新規休暇申請"
+    },
+    "PUBLISH_COACHING_STARTED": {
+      "content": "アクションが必要です",
+      "link": {
+        "name": "レビュー",
+        "url": "/qm/#/myCoachings"
+      },
+      "title": "新しいコーチングパッケージが利用可能です"
+    },
+    "PUBLISH_EVALUATION_ACKNOWLEDGE": {
+      "content": "あなたのレビューが必要です。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "新しい評価が届きました"
+    },
+    "PUBLISH_EVALUATION_COMPLETED": {
+      "content": "アクションは不要です",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "新しい評価が届きました"
+    },
+    "PUBLISH_EVALUATION_DISPUTE": {
+      "content": "アクションは不要です。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "レビューからの評価"
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "content": "%%FROM_DATE%%から%%TO_DATE%%までのスケジュールが変更されました。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "スケジュール変更"
+    },
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "content": "%%DATE%%のスケジュールが変更されました。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "スケジュール変更"
+    },
+    "SHIFT_BID_STATUS_UPDATED_TO_ACTIVE": {
+      "content": "%%FROM_DATE%%から%%TO_DATE%%までの入札をしてください。",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "新しい入札が開始されました"
+    }
+  },
+  "requestsPage": {
+    "pageTitle": "リクエスト",
+    "tabs": {
+      "timeOff": "アクティビティリクエスト",
+      "trades": "シフト交換リクエスト"
+    }
+  },
+  "scheduleEventTooltip": {
+    "shiftTitle": "シフト"
+  },
+  "scheduler": {
+    "activityModal": {
+      "activityCodePlaceholder": "アクティビティコードを選択",
+      "addTitle": "アクティビティの追加 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "コメントを追加...",
+      "editTitle": "アクティビティの編集 - {{userName}}",
+      "end": "終了",
+      "error": {
+        "activityOverlappingTimeRange": "このアクティビティは取得したスケジュールの範囲外であり、既存のアクティビティを置き換える可能性があります。",
+        "conflict": "競合が検出されました。このアクティビティが重複するアクティビティを置き換えます。",
+        "daterange": "今日、昨日、明日のいずれかの日付を選択してください。",
+        "endBeforeStart": "終了日は開始日と同じかそれ以降でなければなりません。",
+        "invaliddatetime": "指定された日付または時刻、もしくはその両方が無効です。",
+        "openhours": "営業時間外はスケジュールできません",
+        "timeRangeOutsideOfRange": "アクティビティは、タイムライン範囲({{start}} - {{end}})内で開始または終了する必要があります。",
+        "xssInvalidCharacter": "次のような文字は無効です：< >"
+      },
+      "remaining": "{{currentLength}}文字残っています",
+      "remove": "削除",
+      "selectingOOOActivityWithoutDaysOff": "このアクティビティを追加すると、従業員の休暇残り日数が不足する可能性があります",
+      "start": "開始"
+    },
+    "allDay": "終日",
+    "cancel": "キャンセル",
+    "changeHistoryComponent": {
+      "revertBtn": "元に戻す",
+      "revertMessage": "これにより現在のスケジュールが上書きされます。続行しますか？",
+      "revertSuccess": "スケジュールは正常に元に戻りました。"
+    },
+    "changeHistoryModal": {
+      "actionHeading": "アクション",
+      "agent": "エージェント",
+      "agentPlaceholder": "エージェントを選択",
+      "applyButton": "適用",
+      "categoryChanges": {
+        "AGENT_CHANGE": "エージェントが開始したリクエスト",
+        "AUTO": "スケジュール生成",
+        "COPY": "スケジュールをコピー",
+        "DUPLICATE": "スケジュールを複製",
+        "EXTERNAL_MEETING": "外部ミーティングリクエスト",
+        "FIXED_MEETING": "固定ミーティングリクエスト",
+        "FLEXIBLE_MEETING": "フレキシブルミーティングリクエスト",
+        "MANUAL": "手動変更",
+        "PUBLISH": "ユーザーにより公開",
+        "REVERT": "ユーザーにより復旧",
+        "TIMEOFF": "休暇申請",
+        "TIMEOFF_MANAGEMENT": "休暇管理",
+        "TIMEOFF_REQUEST": "休暇申請",
+        "TRADE": "シフト交換"
+      },
+      "changedByHeading": "変更者",
+      "date": "日付",
+      "dateAndTimeHeading": "変更日時",
+      "modalTitle": "スケジュール変更履歴",
+      "noHistoryData": "利用可能なスケジュール履歴はありません",
+      "revertButton": "元に戻す",
+      "timezone": "タイムゾーン",
+      "timezonePlaceholder": "タイムゾーンを選択"
+    },
+    "closed": "組織が閉鎖されている場合はシフトやアクティビティを追加できません。",
+    "dailyView": "日次ビュー",
+    "employeeCount": "{{count}}人のユーザー",
+    "employeeName": "名前",
+    "filters": {
+      "activityCodes": "{{count}}個のアクティビティコード",
+      "groups": "{{count}}グループ",
+      "schedulingUnits": "{{count}}件のスケジューリングユニット",
+      "searchPlaceholder": "入力して従業員を検索",
+      "skills": "{{count}}件のスキル"
+    },
+    "firstDayOfWeek": "週の初日：",
+    "hotkeys": {
+      "nextHotKey": "翌日",
+      "previousHotKey": "前日",
+      "refreshHotKey": "データベースからスケジュールを再度読み込む",
+      "saveHotKey": "スケジュールの変更を保存する",
+      "todayHotKey": "今日へ移動"
+    },
+    "hours": "時間",
+    "manualScheduleAssistant": {
+      "addEmployees": "従業員を追加",
+      "allEmployees": "すべての従業員",
+      "chooseType": "スケジュールタイプをコピー",
+      "copyDescription": "同じ時間枠で、ある従業員から他の従業員にスケジュールをコピーします",
+      "copySchedule": "スケジュールをコピー",
+      "copyScheduleJobFinishedSuccess": {
+        "code": "Copy Schedule Finished",
+        "message": "スケジュールが正常にコピーされました。"
+      },
+      "copyScheduleJobStarted": {
+        "code": "Copy Schedule Started",
+        "message": "スケジュールのコピーを開始しました。"
+      },
+      "copyTitle": "スケジュールを他の人にコピー",
+      "day": "日",
+      "destination": "終了",
+      "destinationDay": "コピー先の日",
+      "destinationEmptyErrorMsg": "少なくとも1つの日付を選択する必要があります",
+      "destinationWeek": "コピー先の週",
+      "duplicateDescription": "ある日/週から従業員のスケジュールを選択し、同じ従業員が将来使用するためにそれを複製します",
+      "duplicateScheduleFor": "次のスケジュールを複製：",
+      "duplicateScheduleJobFinishedSuccess": {
+        "code": "Duplicate Schedule Finished",
+        "message": "スケジュールが正常に複製されました。"
+      },
+      "duplicateScheduleJobStarted": {
+        "code": "Duplicate Schedule Started",
+        "message": "スケジュールの複製を開始しました。"
+      },
+      "duplicateTitle": "個人スケジュールを複製",
+      "employeeEmptyErrorMsg": "少なくとも1人の従業員を選択する必要があります",
+      "forEmployees": "対象従業員",
+      "iWantTo": "目的の操作：",
+      "resetAll": "すべてリセット",
+      "selectEmployees": "従業員を選択",
+      "selectedEmployeesPrefix": "(",
+      "selectedEmployeesSuffix": " 選択済)",
+      "showLess": "表示を減らす...",
+      "showMore": "表示を増やす...",
+      "source": "複製元",
+      "sourceDay": "コピー元の日",
+      "sourceWeek": "コピー元の週",
+      "specificEmployees": "特定の従業員",
+      "summary": "サマリー",
+      "timeFrame": "時間枠",
+      "week": "週"
+    },
+    "menuItems": {
+      "addActivity": "アクティビティを追加",
+      "addShift": "シフトを追加",
+      "cancel": "閉じる",
+      "copyActivity": "アクティビティをコピー",
+      "copyShift": "シフトをコピー",
+      "editActivity": "アクティビティを編集",
+      "editShift": "シフトを編集",
+      "pasteActivity": "アクティビティを貼り付ける",
+      "pasteShift": "シフトを貼り付ける",
+      "removeActivity": "アクティビティを削除",
+      "removeShift": "シフトを削除"
+    },
+    "name": "名前",
+    "netstaffing": {
+      "diff": "差分",
+      "req": "リクエスト",
+      "staff": "スタッフ"
+    },
+    "noeditsAllowed": "一部表示されているシフトは編集できません。シフトを編集するには、日付を変更してください。",
+    "organizationClosed": "組織閉鎖",
+    "publish": "公開",
+    "publishModal": {
+      "attention": "注意！",
+      "from": "開始：",
+      "header": "新規スケジュールを公開",
+      "noSchedulesToPublish": "選択した日付範囲にスケジュールはありません。",
+      "oneMonth": "1か月",
+      "oneWeek": "1週間",
+      "publishAnywayBtn": "公開する",
+      "publishConformation": "選択した日付の一部はすでに公開されています。スケジュールが変更された場合、従業員は新しいアジェンダで更新されます。",
+      "publishPopoverHeader": "公開先：",
+      "publishSummaryHeader": "公開",
+      "schedulingUnits": "スケジューリングユニット",
+      "schedulingUnitsDropDown": "{{selectedCount}}件のスケジューリングユニット",
+      "selectDatePlaceholder": "日付を選択",
+      "successMessage": "日付が正常に公開されました",
+      "threeWeeks": "3週間",
+      "to": "終了：",
+      "twoWeeks": "2週間"
+    },
+    "save": "保存",
+    "saveAndPublish": "保存＆公開",
+    "scheduler": "スケジュール管理",
+    "settingsDropDown": {
+      "broadcast": {
+        "broadcastNow": "今すぐブロードキャスト",
+        "commentPlaceholder": "メッセージを入力...",
+        "durations": {
+          "30": "30秒",
+          "60": "1分",
+          "300": "5分"
+        },
+        "durationsDropDown": "長さ",
+        "durationsDropDownLabel": "メッセージ長さ",
+        "messageText": "メッセージ",
+        "remaining": "{{currentLength}}文字残っています",
+        "schedulingUnits": "スケジューリングユニット",
+        "schedulingUnitsDropDown": "{{selectedCount}}件のスケジューリングユニット",
+        "title": "ブロードキャストメッセージ"
+      },
+      "copyEmployeeSchedule": {
+        "errors": {
+          "endBeforeStart": "終了日は開始日と同じかそれ以降でなければなりません。",
+          "getActivities": "休暇アクティビティコードリストの受信中にエラーが発生しました",
+          "getEmployees": "従業員リストの受信中にエラーが発生しました",
+          "invalidDate": "指定された日付は無効です。",
+          "noEmployeeSelected": "従業員を選択する必要があります。",
+          "noEmployeesSelected": "少なくとも1人の従業員を選択する必要があります。"
+        },
+        "formLabels": {
+          "Administrator": "管理者",
+          "Employee": "従業員",
+          "Evaluator": "評価者",
+          "Manager": "マネジャー",
+          "addEmployeeTitle": "次の従業員にスケジュールを貼り付ける",
+          "addEmployeesButton": "従業員を追加",
+          "allAgents": "すべてのエージェント",
+          "copyEmployeeFromPlaceholder": "従業員を選択...",
+          "disableOverride": "自動スケジューラで上書きできません",
+          "employeesCount": "従業員",
+          "employeesFilter": "入力して従業員を検索",
+          "from": "次の日付の間：",
+          "saveLabel": "コピー",
+          "scheduleOf": "次のスケジュールをコピー：",
+          "selectEmployee": "従業員を選択",
+          "showOnAgentSched": "エージェントスケジュールに表示",
+          "timeOffType": "休暇アクティビティ",
+          "timeOffTypePlaceholder": "アクティビティを選択",
+          "to": "終了"
+        },
+        "title": "従業員のスケジュールをコピー"
+      },
+      "manualSchedule": {
+        "duplicateTitle": "従業員スケジュールの複製",
+        "title": "スケジュールのコピー/複製"
+      },
+      "meetingScheduler": {
+        "errors": {
+          "conflictActivitiesMessage": "は既存のアクティビティが上書きされます。",
+          "conflictActivitiesPopover": "この会議は、他の既存のアクティビティを上書きする可能性があります。続行しますか？",
+          "employeesCount": "{{count}}名の従業員",
+          "errorRead": "会議スケジューラモーダルの読み込み中にエラーが発生しました。",
+          "errorSchedule": "ミーティングのスケジュール中にエラーが発生しました。",
+          "errorValidate": "ミーティングリクエストの検証中にエラーが発生しました。",
+          "fromDateInPast": "過去の日付は選択できません",
+          "getActivities": "アクティビティコードリストの受信中にエラーが発生しました",
+          "getEmployees": "従業員リストの受信中にエラーが発生しました",
+          "getTimezone": "タイムゾーンリストの受信中にエラーが発生しました",
+          "invalidDate": "指定された日付は無効です",
+          "minutes": "{{min}}～{{max}}の間の数値を入力してください",
+          "noEmployeesSelected": "少なくとも1人の従業員を選択する必要があります",
+          "noShiftMessage": "は定義された時間範囲内にスケジュールされたシフトがないため、除外されます。",
+          "noShiftPopover": "定義された時間範囲内にシフトのないエージェントは、このミーティングにスケジュールされません。続行しますか？",
+          "numberSimultaneous": "{{min}}～{{max}}の間の数値を入力してください",
+          "overThreeMonth": "範囲が3か月を超えることはできません",
+          "startDateInPast": "過去の日付は選択できません",
+          "startTimeInPast": "過去の時刻は選択できません",
+          "timeOffMessage": "は休暇を取っているため、このミーティングから除外されます。",
+          "toDateBeforeFromDate": "開始日は終了日より前である必要があります",
+          "violateMaxUpTo": "日付範囲が最大値に対応していません"
+        },
+        "formLabels": {
+          "Employee": "従業員",
+          "activity": "アクティビティ",
+          "activityCodePlaceholder": "アクティビティを選択",
+          "addEmployeeTitle": "これらの従業員のためのミーティングを作成",
+          "comment": "Comment",
+          "commentPlaceholder": "このコメントはエージェントのスケジュールに表示されます",
+          "date": "日付",
+          "duration": "長さ",
+          "employees": "従業員",
+          "employeesFilter": "入力して従業員を検索",
+          "fixTime": "定時",
+          "flexibleTime": "フレックスタイム",
+          "fromDate": "開始",
+          "min": "分",
+          "numberSimultaneous": "同時",
+          "remaining": "{{currentLength}}文字残っています",
+          "scheduleLabel": "スケジュール",
+          "scheduleType": "スケジュールタイプ",
+          "scheduleUpTo": "次までのスケジュール：",
+          "time": "時刻",
+          "timezone": "タイムゾーン",
+          "toDate": "終了"
+        },
+        "title": "ミーティングスケジューラ"
+      },
+      "scheduleExport": {
+        "1m": "1か月",
+        "1w": "1週間",
+        "2w": "2週間",
+        "3w": "3週間",
+        "agent": "エージェント",
+        "agentPlaceHolder": "エージェント名",
+        "download": "ダウンロード",
+        "end": "終了",
+        "generating": "エクスポートファイルを生成しています。お待ちください...",
+        "schedulingUnits": "スケジューリングユニット",
+        "start": "開始",
+        "title": "スケジュールのエクスポート"
+      },
+      "setup": {
+        "title": "Net人員配置しきい値"
+      },
+      "timeOff": {
+        "errors": {
+          "endBeforeStart": "終了日は開始日と同じかそれ以降でなければなりません。",
+          "getActivities": "休暇アクティビティコードリストの受信中にエラーが発生しました",
+          "getEmployees": "従業員リストの受信中にエラーが発生しました",
+          "invalidDate": "指定された日付は無効です。"
+        },
+        "formLabels": {
+          "allAgents": "すべてのエージェント",
+          "disableOverride": "自動スケジューラで上書きできません",
+          "from": "開始",
+          "saveLabel": "完了",
+          "showOnAgentSched": "エージェントスケジュールに表示",
+          "timeOffTo": "休暇設定対象：",
+          "timeOffToPlaceholder": "エージェントを選択...",
+          "timeOffType": "休暇アクティビティ",
+          "timeOffTypePlaceholder": "アクティビティを選択",
+          "to": "終了"
+        },
+        "title": "休暇管理"
+      },
+      "title": "設定"
+    },
+    "setupModal": {
+      "saveFailure": "スケジュール管理設定の保存中にエラーが発生しました。",
+      "saveSuccess": "スケジュール管理設定は正常に保存されました。",
+      "tabs": {
+        "netStaffing": {
+          "range": {
+            "max": "人員過剰",
+            "mid": "均衡",
+            "min": "人員不足"
+          },
+          "title": "Net人員配置"
+        }
+      }
+    },
+    "shiftModal": {
+      "addTitle": "シフトの追加 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "あなたのコメント...",
+      "editTitle": "シフトの編集 - {{userName}}",
+      "end": "終了",
+      "error": {
+        "conflict": "競合が検出されました。このアクティビティが重複するアクティビティを置き換えます。",
+        "endBeforeStart": "終了日は開始日と同じかそれ以降でなければなりません。",
+        "invalidtime": "指定された時間は無効です。",
+        "shiftOverlappingTimeRange": "このシフトは取得したスケジュールの範囲外であり、既存のシフトを置き換える可能性があります。",
+        "timeRangeOutsideOfRange": "シフトは、タイムライン範囲({{start}} - {{end}})内で開始または終了する必要があります。",
+        "xssInvalidCharacter": "次のような文字は無効です：< >"
+      },
+      "remaining": "{{currentLength}}文字残っています",
+      "remove": "削除",
+      "shiftType": "シフトタイプ",
+      "start": "開始"
+    },
+    "toasts": {
+      "broadcastSuccessMessage": "メッセージは正常にブロードキャストされました。",
+      "meetingSuccessMessage": "ミーティングは正常に作成されました。",
+      "multipleShifts": "注意！同じ日に複数のシフトがあります。",
+      "noActivityPaste": "表示範囲を超えるアクティビティは貼り付けることができません。",
+      "noAddActivity": "表示範囲を超えるシフトにアクティビティを追加することはできません。",
+      "noEdit": "表示範囲を超えるシフトまたはアクティビティは編集できません。",
+      "noRemove": "表示範囲を超えるシフトまたはアクティビティは削除できません。",
+      "noShiftCopy": "表示範囲を超えるシフトはコピーできません。",
+      "noShiftPaste": "表示範囲を超えるシフトは貼り付けることができません。",
+      "overlappingShiftsActivities": "注意！重複するシフトまたはアクティビティ、もしくはその両方があります",
+      "remainingTORExceededAllotedTimeOff": "現在、一部の従業員は休暇の残り日数が不足しています。",
+      "saveSuccessMessage": "スケジュールの変更は正常に保存されました。"
+    },
+    "today": "今日",
+    "unavailable": "利用不可",
+    "unsaved": "変更を保存せずに終了しますか？",
+    "viewScheduleChangeMenu": "スケジュールの変更を表示",
+    "weeklyView": "週間ビュー"
+  },
+  "shiftBiddingPage": {
+    "emptyMessage": "入札はまだ作成されていません",
+    "gridColumnsHeaders": {
+      "by": "開始者",
+      "datesRange": "入札期間",
+      "isSubmitted": "入札が送信されました",
+      "jobDate": "仕事日",
+      "status": "ステータス"
+    },
+    "item": "シフト入札",
+    "items": "シフト入札",
+    "pageTitle": "シフト入札"
+  },
+  "shiftBiddingPatternsPage": {
+    "errorGettingBid": "",
+    "helpMessage": "優先度に従ってパターンを上から下に配置します",
+    "smallScreenWarning": "画面を拡大して利用可能なシフトパターンを表示し、入札します。",
+    "submitButton": "入札を送信",
+    "submitSuccess": "入札は正常に送信されました"
+  },
+  "shiftTradeRequestsPage": {
+    "accept": "受諾",
+    "by": "担当：",
+    "decline": "却下",
+    "gridColumnsHeaders": {
+      "actions": "アクション",
+      "activityType": "アクティビティタイプ",
+      "dates": "リクエストした日",
+      "empty": " ",
+      "requestBy": "リクエスト者",
+      "requestOn": "リクエスト日",
+      "requestedDate": "リクエストした日",
+      "requestedTime": "リクエスト時間",
+      "reviewedBy": "レビュー者",
+      "status": "ステータス",
+      "tradeType": "リクエストタイプ",
+      "tradeWith": "交換相手",
+      "userComment": "ユーザーのコメント",
+      "viewTrade": " 交換を表示"
+    },
+    "gridNoRowsOverlay": "リクエストはまだ作成されていません",
+    "item": "リクエスト",
+    "items": "リクエスト",
+    "messages": {
+      "updateFailed": "シフト交換リクエストの更新に失敗しました",
+      "updateSuccess": "シフト交換リクエストが更新されました"
+    },
+    "pageTitle": "シフト交換",
+    "selectedItems": "{{selectedCount}}件選択済",
+    "statuses": {
+      "approved": "承認済",
+      "button_approved": "承認",
+      "button_declined": "却下",
+      "declined": "却下済",
+      "new": "新規",
+      "pending": "未解決"
+    },
+    "system": "システム",
+    "tradeRequestStatus": {
+      "ACCEPTED_BY_REQUESTEE": "受諾",
+      "APPROVED_BY_MANAGER": "承認済",
+      "APPROVED_BY_SYSTEM": "承認済",
+      "CANCELED_BY_REQUESTOR": "キャンセル済",
+      "CANCELED_BY_SYSTEM": "キャンセル済",
+      "CREATED": "未解決",
+      "DECLINED_BY_MANAGER": "却下済",
+      "DECLINED_BY_SYSTEM": "却下済",
+      "EXPIRED": "期限切れ",
+      "Errored": "エラー",
+      "REJECTED_BY_REQUESTEE": "拒否済",
+      "WITHDRAW_BY_REQUESTEE": "撤回"
+    },
+    "viewTrade": "交換を表示"
+  },
+  "staffingPlansPage": {
+    "bulkOperationsBtns": {
+      "deleteBtn": "削除"
+    },
+    "deleteSelectedStaffingPlansMsg": "選択した人員配置プランを削除しようとしています。続行しますか？",
+    "deleteSingledStaffingPlanMsg": "この人員配置プランを削除しようとしています。続行しますか？",
+    "errorDelete": "人員配置プランの削除中にエラーが発生しました。",
+    "gridColumnsHeaders": {
+      "dateRange": "人員配置プランの日付範囲",
+      "fileName": "人員配置プランのファイル名",
+      "importDate": "インポート日",
+      "importedBy": "インポート者",
+      "status": "ステータス"
+    },
+    "gridNoRowsOverlay": "人員配置プランはまだインポートされていません",
+    "importBtn": "人員配置プランのインポート",
+    "importErrorsListModal": {
+      "header": "インポートエラー",
+      "rowsWereImportedSuccessfully": "{{totalRowsCount}}件中{{succeededRowsCount}}件が正常にインポートされました",
+      "tooMuchErrors": "インポートを停止しました。多数のエラーが見つかりました。最初の{{amountOfRows}}件を表示しています"
+    },
+    "importModal": {
+      "EmptyFile": "人員配置ファイルが空です",
+      "downloadLink": "ここからダウンロードできます。",
+      "downloadMessage1": "CSVファイルのテンプレートを",
+      "downloadMessage2": "",
+      "errorMsg": "人員配置プランのインポートに失敗しました",
+      "firstParagraph": "CSVファイルをアップロードして人員配置プランをインポート",
+      "header": "人員配置プランのインポート",
+      "secondParagraph": "日付範囲全体の人員配置プランデータがあることを確認してください",
+      "selectFileMessage": "",
+      "sizeLimitationErrorMsg": "人員配置プランのインポートは成功しませんでした。ファイルサイズが最大10MBを超えています",
+      "successMsg": "人員配置プランデータが正常にインポートされました",
+      "warnMsg": "人員配置プランのインポートプロセスがエラーで完了しました"
+    },
+    "items": "人員配置プラン",
+    "pageTitle": "人員配置プラン",
+    "selectedItems": "{{selectedCount}}件選択済",
+    "statuses": {
+      "emptyFile": "空のファイル",
+      "failed": "失敗",
+      "na": "該当なし",
+      "partial": "一部成功しました。{{totalRowsCount}}件中{{successRowsCount}}件のレコードがインポートされました。",
+      "succeeded": "成功"
+    },
+    "successDelete": "人員配置プランは正常に削除されました"
+  },
+  "timeOffPlanning": {
+    "rules": {
+      "alertModal": {
+        "modalContent": "このアクティビティ/スケジューリングユニットにはすでにルールがあります。オーバーライドしますか？",
+        "modalTitle": "ルールはすでに存在します"
+      },
+      "createNewRule": {
+        "activityCodes": "アクティビティコード",
+        "activityCodesPlaceholder": "アクティビティコードを選択",
+        "allotment": "割り当て",
+        "confirmations": {
+          "confirmMessage": "保存せずに終了してもよろしいですか？",
+          "warningMessage": "すべての変更は失われます。"
+        },
+        "daysPerYears": "日/年",
+        "errorAdd": "休暇ルールの作成中にエラーが発生しました。",
+        "fixedAmount": "定額",
+        "namePlaceholder": "名前",
+        "pageTitle": "新規ルールを作成",
+        "percentPerMonth": "月間%",
+        "schedulingUnit": "スケジューリングユニット",
+        "schedulingUnitPlaceholder": "スケジューリングユニットを選択",
+        "seniority": "年功",
+        "seniorityBased": "年功序列",
+        "successAdd": "新規ルールが正常に作成されました。",
+        "timeOffAccrual": "休暇の取得：",
+        "years": "年"
+      },
+      "deleteSelectedRulesMsg": "選択したルールを削除してもよろしいですか？",
+      "deleteSingleRuleMsg": "このルールを削除してもよろしいですか？",
+      "editRule": {
+        "errorUpdate": "休暇ルールの更新中にエラーが発生しました。",
+        "pageTitle": "ルールの編集",
+        "successUpdate": "休暇ルールが正常に編集されました"
+      },
+      "errorDelete": "休暇ルールの削除中にエラーが発生しました。",
+      "errorRead": "休暇ルールの読み込み中にエラーが発生しました。",
+      "gridColumns": {
+        "activityCodes": "アクティビティコード",
+        "allotmentType": "割り当てタイプ",
+        "allottedDays": "割り当てられた日数",
+        "name": "名前",
+        "schedulingUnit": "スケジューリングユニット"
+      },
+      "gridNoRowsOverlay": "ルールはまだ作成されていません",
+      "item": "ルール",
+      "items": "ルール",
+      "newButton": "新規ルール",
+      "pageTitle": "ルール",
+      "successDelete": "休暇ルールは正常に削除されました",
+      "upTo": "最大"
+    },
+    "summary": {
+      "NA": "該当なし",
+      "activityType": "アクティビティタイプ",
+      "editAllocation": "手動で割り当てると、エージェントは来年までルールから切り離されます。続行しますか？",
+      "edited": "編集済",
+      "gridAlert": {
+        "exceedYearDays": "365日を超えることはできません",
+        "thisValueCannot": "この値が"
+      },
+      "gridColumns": {
+        "accruals": "付与日数",
+        "daysPerYear": "年間日数",
+        "daysTaken": "取得日数",
+        "daysYear": "日/年",
+        "earned": "獲得済",
+        "employee": "従業員",
+        "remaining": "残り",
+        "scheduled": "予定",
+        "used": "使用済"
+      },
+      "pageTitle": "サマリー",
+      "userIsNotAssignedToWeeklyRule": "残高を計算できません。このユーザーはどのルールにも割り当てられていません。",
+      "warningMessageModal": {
+        "areYouSureLeavePage": "保存せずにここを離れてもよろしいですか？",
+        "title": "ページを離れますか？",
+        "unsavedChanges": "未保存のデータがあります。"
+      }
+    }
+  },
+  "timeOffRequestsPage": {
+    "accept": "受諾",
+    "by": "担当：",
+    "day": "日",
+    "days": "日",
+    "decline": "却下",
+    "deletedActivityTitle": "削除されたアクティビティ",
+    "filters": {
+      "NoPendingRequests": "未解決のリクエストなし",
+      "disabledMultiSelectSchedulingUnitsPlaceholder": "すべて",
+      "gridLabel": "{{totalRequests}}件のリクエスト中{{pendingRequests}}が未解決",
+      "loadTimeZonesFailure": "タイムゾーンを読み込めませんでした。ページを再読み込みしてください。",
+      "multiSelectSchedulingUnitsPlaceholder": "{{count}}件のスケジューリングユニット",
+      "noAvailableSchedulingUnits": "スケジューリングユニットフィルターを読み込めませんでした。すべてのスケジューリングユニットのリクエストが表示されます。",
+      "pendingOnlyGridLabel": "{{pendingRequests}}件のリクエストが未解決",
+      "showOnlyPendingRequests": "未解決のみ表示"
+    },
+    "fullDay": "終日",
+    "gridColumnsHeaders": {
+      "actions": "アクション",
+      "activityType": "アクティビティタイプ",
+      "dates": "リクエストした日",
+      "empty": "",
+      "requestBy": "リクエスト者",
+      "requestOn": "リクエスト日",
+      "reviewedBy": "レビュー者",
+      "status": "ステータス"
+    },
+    "manageRequestModal": {
+      "approveRequest": "リクエストを承認",
+      "DeclineRequest": "リクエストを却下",
+      "textarePlaceHolder": "コメント...",
+      "approveBtn": "承認",
+      "declineBtn": "却下",
+      "cancelBtn": "キャンセル",
+      "singleDayRequestMsg": "{{requestType}}のリクエスト:",
+      "bulkRequestContent": "{{requestType}}を希望する日付を選択してください。",
+      "bulkRequestContentv2": "未選択の日付は保留のまま残されます。",
+      "netstaffingMsg": "これらの日付の人員配置要件を確認してください。",
+      "netstaffingMsgClose": "閉じる",
+      "textCount": "255"
+    },
+    "gridNoRowsOverlay": "リクエストはまだ作成されていません",
+    "item": "リクエスト",
+    "items": "リクエスト",
+    "managerComment": {
+      "remaining": "{{currentLength}}文字残っています"
+    },
+    "messages": {
+      "loadAllRequestsFailure": "すべてのリクエストを表示できませんでした。もう一度お試しください。",
+      "managerApproveDiscardedRequest": "このリクエストを承認できませんでした。スケジュールが変更され、リクエストはキャンセルされました。",
+      "managerApproveRequestWhichAlreadyApproved": "このリクエストを承認できませんでした。別のマネジャーがすでに承認しました。",
+      "managerApproveRequestWhichAlreadyDeclined": "このリクエストを承認できませんでした。別のマネジャーがすでに却下しました。",
+      "managerDeclinedDiscardedRequest": "このリクエストを却下できませんでした。スケジュールが変更され、リクエストはキャンセルされました。",
+      "managerDeclinedRequestWhichAlreadyApproved": "このリクエストを却下できませんでした。別のマネジャーがすでに承認しました。",
+      "managerDeclinedRequestWhichAlreadyDeclined": "このリクエストを却下できませんでした。別のマネジャーがすでに却下しました。",
+      "netStaffingError": "Net人員配置データを取得できませんでした。後でもう一度お試しください。",
+      "requestStatusUpdatedWarning": "このリクエストは対応済または削除済です。",
+      "updateApprovedAgentError": "このリクエストを承認できませんでした。従業員がキャンセルまたは更新しました。",
+      "updateApprovedError": "このリクエストを承認できませんでした。後でもう一度お試しください。",
+      "updateDeclinedAgentError": "このリクエストを却下できませんでした。従業員がキャンセルまたは更新しました。",
+      "updateDeclinedError": "このリクエストを却下できませんでした。後でもう一度お試しください。",
+      "updateFailed": "休暇申請の更新に失敗しました。",
+      "updateSuccess": "リクエストは正常に更新されました。"
+    },
+    "newItems": "未解決",
+    "pageTitle": "リクエスト",
+    "requestOn": "リクエスト日",
+    "reviewedBy": "レビュー者",
+    "selectedItems": "{{selectedCount}}件選択済",
+    "statuses": {
+      "approved": "承認済",
+      "auto_approved": "自動承認",
+      "auto_declined": "自動却下",
+      "button_approved": "承認",
+      "button_declined": "却下",
+      "cancelled_approved_request": "キャンセル - 承認済リクエスト",
+      "declined": "却下済",
+      "discarded": "破棄",
+      "new": "新規",
+      "pending": "未解決"
+    },
+    "system": "システム",
+    "typeComment": "コメントを入力...",
+    "viewInScheduler": "スケジューラで表示"
+  },
+  "userAgenda": {
+    "header": "アジェンダ",
+    "noEvents": "スケジュールなし",
+    "shiftEnd": "シフト終了",
+    "shiftStart": "シフト開始"
+  },
+  "userManagementPage": {
+    "balkOperationsBtns": {
+      "deleteBtn": "削除",
+      "inviteBtn": "招待",
+      "tooltips": {
+        "delete": "従業員を削除",
+        "invite": "従業員を招待"
+      }
+    },
+    "deleteLoggedInUser": "自分の従業員は削除できません",
+    "deleteSelectedUsersMsg": "選択した従業員を削除しようとしています。このアクションは取り消せません。続行しますか？",
+    "deleteSingleUserFailureMsg": "従業員を削除できませんでした",
+    "deleteSingleUserSuccessMsg": "従業員は正常に削除されました。この従業員の今後のスケジュールは削除されました。",
+    "deleteSingleUsersMsg": "この従業員を削除しようとしています。このアクションは取り消せません。続行しますか？",
+    "deleteUsersFailureMsg": "{{totalExpected}}人中{{numOfFailedToDeleteUsers}}人の従業員を削除できませんでした",
+    "deleteUsersSuccessMsg": "{{numOfUsers}}人の従業員が正常に削除されました。これらの従業員の今後のスケジュールは削除されます。",
+    "dragText": "ここにドラッグして優先順位を設定",
+    "filters": {
+      "groups": "{{count}}グループ",
+      "schedulingUnits": "{{count}}件のスケジューリングユニット",
+      "searchPlaceholder": "入力して従業員を検索",
+      "skills": "{{count}}件のスキル"
+    },
+    "gridColumnsHeaders": {
+      "acdLogin": "ACDログイン",
+      "email": "Eメール",
+      "group": "スケジューリングユニット",
+      "name": "名前",
+      "role": "役割",
+      "state": "状態"
+    },
+    "importUsersBtn": "従業員をインポート",
+    "inviteSelectedUsersMsg": "選択した従業員はこのアプリケーションに招待されます。続行しますか？",
+    "inviteUsersFailureMsg": "従業員の招待に失敗しました",
+    "inviteUsersSuccessMsg": "従業員が正常に招待されました",
+    "inviteUsersWarnMsg": "従業員はすでにアクティブでした",
+    "item": "従業員",
+    "items": "従業員",
+    "newUserBtn": "新入社員",
+    "noPreference": "設定なし",
+    "pageTitle": "従業員",
+    "popover": {
+      "acdLoginLbl": "ACDログイン",
+      "hireDateLbl": "雇用日：{{value}}",
+      "rankLbl": "ランク：{{value}}",
+      "skillsLbl": "スキル：{{value}}"
+    },
+    "preferencesTab": {
+      "PossibleDaysOff": "可能な休日",
+      "TimePreferencesSubTitle": "休日はありません",
+      "TimePreferencesTitle": "休暇の設定",
+      "day": "日",
+      "noOptionsAvailable": "この従業員は柔軟性のないルールに割り当てられているため、シフトは固定され、優遇措置はありません",
+      "noOptionsAvailableForShift": "シフトが割り当てられていません。",
+      "noPreference": "設定なし",
+      "shiftPreferencesTitle": "シフトの設定",
+      "shiftTime": "シフトタイム"
+    },
+    "reinviteBtnText": "再送",
+    "reinviteUsersMsg": "招待の期限が切れました。Eメールアドレスを確認して、もう一度お試しください。",
+    "selectedItems": "{{selectedCount}}名選択済",
+    "status": {
+      "invite": "招待"
+    },
+    "tabLabels": {
+      "availability": "アベイラビリティ",
+      "general": "一般",
+      "preferences": "環境設定",
+      "skills": "スキル"
+    },
+    "userListHeader": "{{orgName}}の従業員：",
+    "userStates": {
+      "active": "アクティブ",
+      "inviting": "送信中",
+      "pending": "未解決",
+      "unregistered": "招待"
+    }
+  },
+  "weekDays": {
+    "friday": "金曜日",
+    "monday": "月曜日",
+    "saturday": "土曜日",
+    "sunday": "日曜日",
+    "thursday": "木曜日",
+    "tuesday": "火曜日",
+    "wednesday": "水曜日"
+  },
+  "weekShortDays": {
+    "FRI": "金曜",
+    "MON": "月曜",
+    "SAT": "土曜",
+    "SUN": "日曜",
+    "THU": "木曜",
+    "TUE": "火曜",
+    "WED": "水曜"
+  }
+}

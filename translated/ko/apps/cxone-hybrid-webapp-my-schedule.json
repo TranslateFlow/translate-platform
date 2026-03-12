@@ -1,0 +1,2485 @@
+{
+  "automaticApprovalNewRulePage": {
+    "activity_codes": "활동",
+    "agent": "상담원",
+    "agentFirstOption": "잔여 휴가에 따라 다름",
+    "agentSecondOption": "상담원 연공서열",
+    "cancelWarningMsg1": "모든 변경 사항이 손실됩니다.",
+    "cancelWarningMsg2": "저장하지 않고 끝내시겠습니까?",
+    "conditionsNotMet": "조건이 충족되지 않는 경우",
+    "conditionsTitle": "조건",
+    "days": "요일",
+    "daysInTheFuture": "이후 일수",
+    "daysInThePastTo": "이전 일수",
+    "daysList": {
+      "Friday": "금요일",
+      "Monday": "월요일",
+      "Saturday": "토요일",
+      "Sunday": "일요일",
+      "Thursday": "목요일",
+      "Tuesday": "화요일",
+      "Wednesday": "수요일"
+    },
+    "daysSinceHireDate": "채용일 이후 일수",
+    "declineAutomatically": "자동 거부",
+    "editTitle": "승인 규칙 편집",
+    "forAllDays": "전체 날짜",
+    "forSpecificDays": "특정 날짜",
+    "forSpecificDaysDescription": "하루 이상 선택하십시오.",
+    "from": "시작",
+    "groupTimeOffBalance": "그룹 잔여 휴가",
+    "hours": "시간",
+    "inAdvance": "사전",
+    "name": "이름",
+    "newTitle": "신규 승인 규칙",
+    "requestCreationTime": "요청 생성 시간",
+    "sameDay": "당일",
+    "scheduling_unit": "일정 단위",
+    "sendForManagerApproval": "매니저 승인을 위해 전송",
+    "successCreateMsg": "규칙이 생성되었습니다.",
+    "successUpdateMsg": "규칙이 업데이트되었습니다.",
+    "timeFrame": "시간 프레임",
+    "uniqueNameErrorMsg": "같은 이름의 규칙이 이미 있음"
+  },
+  "automaticApprovalRuleConfig": {
+    "editModeTitle": "승인 규칙 편집",
+    "newModeTitle": "신규 승인 규칙",
+    "tabs": {
+      "conditions": {
+        "agentTimeOffBalance": "상담원 잔여 휴가",
+        "balanceForCustomDays": "잔여 사용자 지정 일수",
+        "conditionsNotMet": "선택된 조건 중 최소한 한 개가 충족되지 않을 때",
+        "dailyBalance": "일일 잔여 시간",
+        "daysList": {
+          "Friday": "금요일",
+          "Monday": "월요일",
+          "Saturday": "토요일",
+          "Sunday": "일요일",
+          "Thursday": "목요일",
+          "Tuesday": "화요일",
+          "Wednesday": "수요일"
+        },
+        "declineAutomatically": "거부",
+        "forSpecificDaysDescription": "최소한 1일을 선택하십시오",
+        "hours": "시간",
+        "maximumDaysAfterTimeOffDate": "휴가 날짜 이후 최대 일수",
+        "maximumDaysBeforeTimeOffDate": "휴가 날짜 이전 최대 일수",
+        "minimumDaysInAdvance": "최소 사전 일수",
+        "minimumDaysSinceHire": "채용 후 최소 일수",
+        "schedulingUnitTimeOffBalance": "일정 단위 잔여 휴가",
+        "sendForManagerApproval": "매니저에게 전송",
+        "submissionTime": "제출 시간",
+        "tabTitle": "조건",
+        "timeRestrictionTypes": {
+          "inAdvance": "사전",
+          "sameDay": "당일",
+          "timeFrame": "시간 프레임 이내"
+        }
+      },
+      "general": {
+        "activityCodes": "활동",
+        "name": "이름",
+        "schedulingUnit": "일정 단위",
+        "tabTitle": "일반",
+        "uniqueNameErrorMsg": "같은 이름의 규칙이 이미 있음"
+      },
+      "netStaffing": {
+        "conditions": {
+          "addNetStaffingButton": "순인원 추가",
+          "approveTooltipLabel": "승인:",
+          "approveTooltipPercentageLabel": "초과",
+          "autoApproveStepperLabel": "승인",
+          "autoApproveStepperPercentageLabel": "% 이상",
+          "autoDeclineStepperLabel": "거부",
+          "autoDeclineStepperPercentageLabel": "% 이하",
+          "clearSelectedButtonLabel": "선택 취소",
+          "daysLabel": "일수:",
+          "declineTooltipLabel": "거부:",
+          "declineTooltipPercentageLabel": "미만",
+          "menuItems": {
+            "clear": "지우기",
+            "copySettings": "설정 복사",
+            "delete": "삭제",
+            "pasteSettings": "설정 붙여넣기"
+          },
+          "undefinedColumnTooltipLabel": "정의되지 않음"
+        },
+        "defineNetStaffing": "순인원 정의",
+        "footer": {
+          "noScheduleNoForecastLabel": "예상 일정 또는 게시된 일정이 없는 경우:"
+        },
+        "header": {
+          "confirmDeleteAll": "모든 순인원 차트를 정말로 삭제하시겠습니까?",
+          "confirmDeleteAllNo": "취소",
+          "confirmDeleteAllYes": "모두 삭제",
+          "confirmUndoAll": "작업하신 모든 변경 사항을 정말로 실행 취소하시겠습니까?",
+          "confirmUndoAllNo": "취소",
+          "confirmUndoAllYes": "모두 실행 취소",
+          "deleteAll": "모두 삭제",
+          "legend": {
+            "approve": "승인",
+            "decline": "거부",
+            "notDefined": "정의되지 않음",
+            "sendToManager": "매니저에게 전송"
+          },
+          "undoAll": "모두 실행 취소"
+        },
+        "noSettingsLabel": "순인원이 아직 정의되지 않았습니다",
+        "tabTitle": "순인원"
+      }
+    }
+  },
+  "automaticApprovalRulesPage": {
+    "CreateNewRulePageTitle": "신규 규칙 생성",
+    "brokenStatusTooltips": {
+      "noAc": "관련된 활동 코드가 삭제되었습니다. 신규 활동 코드를 규칙에 추가하십시오.",
+      "noSu": "관련된 일정 단위가 삭제되었습니다. 신규 SU를 규칙에 추가하십시오.",
+      "noSuAndAc": "관련된 활동 코드 및 일정 단위가 삭제되었습니다. 신규 활동 코드와 SU를 규칙에 추가하십시오."
+    },
+    "deleteSingleRuleMsg": "이 규칙을 삭제하시겠습니까?",
+    "gridColumnsHeaders": {
+      "Status": "상태",
+      "activityCodes": "활동 코드",
+      "name": "이름",
+      "occurrence": "발생",
+      "schedulingUnits": "일정 단위"
+    },
+    "gridNoRowsOverlay": {
+      "empty": "규칙을 찾을 수 없음",
+      "error": "데이터 로드 중 오류 발생",
+      "none": "결과를 찾을 수 없음"
+    },
+    "newRule": "신규 규칙",
+    "pageTitle": "승인 규칙",
+    "rule": "규칙",
+    "ruleActions": {
+      "activate": "활성화",
+      "deactivate": "비활성화",
+      "delete": "삭제",
+      "duplicate": "복제",
+      "edit": "편집"
+    },
+    "rules": "규칙",
+    "searchPlaceholderText": "규칙을 찾으려면 입력을 시작하십시오.",
+    "showActiveOnly": "활성만",
+    "statuses": {
+      "active": "활성",
+      "broken": "위반",
+      "expired": "만료",
+      "inactive": "비활성",
+      "pending": "보류 중"
+    },
+    "statusesSuccessActions": {
+      "active": "규칙이 활성화되었습니다.",
+      "delete": "규칙이 삭제되었습니다.",
+      "inactive": "규칙이 비활성화되었습니다."
+    }
+  },
+  "bidWeeklyShiftPatterns": {
+    "headers": {
+      "patternsAvailable": "이용가능한 패턴",
+      "totalHours": "총 시간"
+    },
+    "placeHolderText": "우선순위에 따라 패턴을 위에서 아래로 정렬합니다.",
+    "topHeader": "{{weekDates}}의 주간 근무 시간 패턴"
+  },
+  "biddingManagerPage": {
+    "actions": {
+      "assign": "근무 시간 배정",
+      "cancel": "트레이딩 취소",
+      "close": "트레이딩 닫기",
+      "delete": "삭제",
+      "open": "트레이딩 열기"
+    },
+    "errorDetails": {
+      "INTERNAL_ERROR": "일반 오류",
+      "NO_ACTIVE_USERS_IN_SHIFT_BIDDING": "선택한 일정 단위에 활성 사용자 없음",
+      "NO_USERS_IN_SHIFT_BIDDING": "빈 일정. 사용자/일정 제약",
+      "noUsersAssignedToSu": "선택한 일정 단위에 사용자 없음",
+      "noUsersInSuAssignedWeeklyRules": "선택한 일정 단위에 사용자 없음"
+    },
+    "gridColumns": {
+      "action": "작업",
+      "biddingDataRange": "트레이딩 날짜 범위",
+      "createdAt": "작업 날짜",
+      "responseRate": "응답률",
+      "schedulingUnit": "일정 단위",
+      "status": "상태"
+    },
+    "gridNoRowsOverlay": "아직 생성된 트레이딩이 없습니다.",
+    "item": "트레이딩",
+    "items": "트레이딩",
+    "messages": {
+      "createFailed": "신규 트레이딩 생성 실패",
+      "createFailedSinceSUEmpty": "일정 단위에 배정된 사용자 없음",
+      "createFailedSinceTemplateMissing": "근무 시간 트레이딩 템플릿에 배정된 일정 단위의 사용자 없음",
+      "createSuccess": "신규 트레이딩 생성 중...",
+      "deleteSuccess": "근무 시간 트레이딩이 삭제되었습니다.",
+      "deleteWarning": "이 트레이딩을 삭제하려고 합니다. 계속하시겠습니까?",
+      "updateFailed": "트레이딩을 업데이트하지 못했습니다.",
+      "updateSuccess": "트레이딩이 업데이트되었습니다."
+    },
+    "modal": {
+      "moreThanMaximumSchedulingUnitsSelectedTxt": "생성할 일정 단위를 최대 1개 선택할 수 있습니다.",
+      "title": "신규 트레이딩 생성"
+    },
+    "newButton": "신규 트레이딩 생성",
+    "pageTitle": "트레이딩 매니저",
+    "responseRate": "응답률",
+    "selectedItems": "{{selectedCount}}개 선택",
+    "statuses": {
+      "active": "트레이딩 열림",
+      "award": "근무 시간 배정 중",
+      "awarded": "근무 시간 배정 완료",
+      "cancelled": "취소",
+      "closed": "트레이딩 종료",
+      "delete": "삭제",
+      "draft": "초안",
+      "error": "오류: ",
+      "generate": "신규 트레이딩 생성"
+    },
+    "unknownSU": "알 수 없음"
+  },
+  "common": {
+    "more": "더 보기..."
+  },
+  "commonButtons": {
+    "add": "추가",
+    "back": "뒤로",
+    "cancel": "취소",
+    "chooseFile": "파일 선택...",
+    "clearAll": "모두 지우기",
+    "clearData": "데이터 삭제",
+    "close": "닫기",
+    "continue": "계속",
+    "copy": "복사",
+    "create": "생성",
+    "day": "날",
+    "delete": "삭제",
+    "done": "완료",
+    "duplicate": "복제",
+    "edit": "편집",
+    "from": "원본",
+    "generate": "생성",
+    "invite": "초대",
+    "no": "아니요",
+    "ok": "확인",
+    "publish": "게시",
+    "save": "저장",
+    "selectAll": "전체 선택",
+    "selectFile": "파일 선택",
+    "set": "설정",
+    "showAll": "모두 표시",
+    "to": "대상",
+    "today": "오늘",
+    "update": "업데이트",
+    "upload": "업로드",
+    "week": "주",
+    "yes": "예"
+  },
+  "cxone-components": {
+    "dropdowns": {
+      "clearall": "모두 지우기",
+      "defaultPlaceholder": {
+        "multiple": "아이템 선택",
+        "single": "아이템 선택"
+      },
+      "footerText": " ",
+      "noresults": "결과가 없습니다.",
+      "outof": "/",
+      "searchingFor": "검색 중",
+      "selectall": "전체 선택",
+      "showing": "표시 중"
+    }
+  },
+  "errors": {
+    "BAD_REQUEST": {
+      "code": "INTERNAL_ERROR",
+      "message": "서버에서 응답이 없습니다. 나중에 다시 시도하십시오."
+    },
+    "CopyScheduleJobRunningError": {
+      "code": "Copy Schedule Run Job Error",
+      "message": "다른 복사 작업이 실행 중입니다. 나중에 다시 시도하십시오."
+    },
+    "GeneralError": {
+      "code": "General Error",
+      "message": "일반 오류"
+    },
+    "GeneralErrorWithDetails": {
+      "code": "General Error",
+      "message": "일반 오류 {{ details }}"
+    },
+    "InvalidParameters": {
+      "code": "InvalidParameters",
+      "message": "잘못된 매개변수"
+    },
+    "LoginFailed": {
+      "code": "LoginFailed",
+      "message": "로그인 실패"
+    },
+    "LoginServerError": {
+      "code": "Login Server Error",
+      "message": "이 페이지는 이용불가 상태입니다. 연결을 확인하고 다시 시도하십시오."
+    },
+    "UnauthorizedUser": {
+      "code": "UnauthorizedUser",
+      "message": "권한이 없는 직원"
+    },
+    "platform_lib_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "내부 서버 오류."
+    },
+    "platform_lib_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "내부 오류."
+    },
+    "platform_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "내부 서버 오류."
+    },
+    "platform_user_manager_service_10": {
+      "code": "FAILED_TO_CREATE_USER",
+      "message": "직원을 생성하지 못했습니다."
+    },
+    "platform_user_manager_service_11": {
+      "code": "INVALID_USER_STATUS",
+      "message": "잘못된 직원 상태"
+    },
+    "platform_user_manager_service_12": {
+      "code": "ORGANIZATION_NAME_NOT_VALID",
+      "message": "잘못된 조직 이름."
+    },
+    "platform_user_manager_service_13": {
+      "code": "USER_EMAIL_IS_NOT_VALID",
+      "message": "잘못된 이메일."
+    },
+    "platform_user_manager_service_14": {
+      "code": "USER_FIRST_NAME_NOT_VALID",
+      "message": "잘못된 직원 이름."
+    },
+    "platform_user_manager_service_15": {
+      "code": "USER_LAST_NAME_NOT_VALID",
+      "message": "잘못된 직원 성."
+    },
+    "platform_user_manager_service_16": {
+      "code": "CANNOT_DELETE_DEFAULT_GROUP",
+      "message": "기본 일정 단위를 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_17": {
+      "code": "GROUP_ID_IS_MISSING",
+      "message": "일정 단위 ID가 없습니다."
+    },
+    "platform_user_manager_service_18": {
+      "code": "USER_MAX_HOURS_NOT_IN_RANGE",
+      "message": "직원 최대 시간이 범위를 벗어났습니다."
+    },
+    "platform_user_manager_service_19": {
+      "code": "USER_PASSWORD_NOT_VALID",
+      "message": "직원 암호가 유효하지 않습니다."
+    },
+    "platform_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "내부 오류."
+    },
+    "platform_user_manager_service_20": {
+      "code": "CANNOT_UPDATE_DEFAULT_GROUP_NAME",
+      "message": "기본 그룹을 업데이트할 수 없습니다."
+    },
+    "platform_user_manager_service_21": {
+      "code": "CANNOT_REMOVE_USERS_FROM_DEFAULT_GROUP",
+      "message": "기본 그룹에서 직원을 제거할 수 없습니다."
+    },
+    "platform_user_manager_service_22": {
+      "code": "WRONG_USER_PASSWORD",
+      "message": "직원 암호가 잘못되었습니다."
+    },
+    "platform_user_manager_service_23": {
+      "code": "USER_DOESNT_EXIST",
+      "message": "직원이 없습니다."
+    },
+    "platform_user_manager_service_24": {
+      "code": "CANNOT_DELETE_HIMSELF",
+      "message": "자신의 직원은 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_25": {
+      "code": "CANNOT_DELETE_THE_ONLY_ADMINISTRATOR",
+      "message": "유일한 관리자는 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_26": {
+      "code": "CANNOT_DELETE_ALREADY_DELETED_USER",
+      "message": "이미 삭제된 직원은 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_27": {
+      "code": "INVALID_PASSWORD_TOKEN",
+      "message": "잘못된 암호 토큰"
+    },
+    "platform_user_manager_service_28": {
+      "code": "FAILED_TO_CREATE_ACCOUNT",
+      "message": "계정을 생성하지 못했습니다."
+    },
+    "platform_user_manager_service_3": {
+      "code": "GROUP_NOT_EXISTS",
+      "message": "일정 단위가 없습니다."
+    },
+    "platform_user_manager_service_30": {
+      "code": "INVALID_TENANT_NAME",
+      "message": "조직 이름이 잘못되었습니다."
+    },
+    "platform_user_manager_service_31": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "파일 형식이 지원되지 않습니다."
+    },
+    "platform_user_manager_service_33": {
+      "code": "NOT_ALLOWED_TO_CHANGE_ROLE",
+      "message": "역할을 변경할 권한이 없습니다."
+    },
+    "platform_user_manager_service_34": {
+      "code": "NOT_ALLOWED_TO_CHANGE_YOUR_OWN_ROLE",
+      "message": "자신의 역할은 변경할 수 없습니다."
+    },
+    "platform_user_manager_service_35": {
+      "code": "CANNOT_DELETE_LAST_ADMIN",
+      "message": "마지막 관리자는 삭제할 수 없습니다."
+    },
+    "platform_user_manager_service_36": {
+      "code": "GROUP_NAME_NOT_VALID",
+      "message": "같은 이름이 이미 있습니다. 신규로 시도하십시오."
+    },
+    "platform_user_manager_service_37": {
+      "code": "CURRENT_AND_NEW_PASSWORDS_ARE_THE_SAME",
+      "message": "이전 암호와 신규 암호가 같으므로 암호를 변경할 수 없습니다."
+    },
+    "platform_user_manager_service_39": {
+      "code": "INVALID_EMAIL_OR_PASSWORD",
+      "message": "이메일 주소나 암호를 잘못 입력하셨습니다."
+    },
+    "platform_user_manager_service_4": {
+      "code": "GROUP_NAME_ALREADY_EXISTS",
+      "message": "같은 이름이 이미 있습니다. 신규로 시도하십시오."
+    },
+    "platform_user_manager_service_44": {
+      "code": "ACD_LOGIN_ID_ALREADY_EXIST",
+      "message": "ACD 로그인 ID가 이미 있습니다."
+    },
+    "platform_user_manager_service_45": {
+      "code": "BAD_REQUEST",
+      "message": "신규 직원이 사용자 수 한도를 초과합니다. 영업팀에 CXoneSalesTeam@niceincontact.com으로 문의하십시오."
+    },
+    "platform_user_manager_service_5": {
+      "code": "TENANT_OR_USER_ALREADY_EXISTS",
+      "message": "이 테넌트 또는 직원이 이미 있습니다. 신규로 시도하십시오."
+    },
+    "platform_user_manager_service_6": {
+      "code": "USER_ALREADY_EXISTS",
+      "message": "이메일 주소가 이미 있습니다. 신규로 시도하십시오."
+    },
+    "platform_user_manager_service_7": {
+      "code": "FILE_NOT_EXITS",
+      "message": "파일이 없습니다."
+    },
+    "platform_user_manager_service_8": {
+      "code": "USER_NOT_EXISTS",
+      "message": "직원이 없습니다."
+    },
+    "platform_user_manager_service_9": {
+      "code": "NO_USERS_TO_INVITE",
+      "message": "초대할 직원이 없습니다."
+    },
+    "wfm_service_shift_bid92": {
+      "code": "NO_USERS_IN_SHIFT_BIDDING",
+      "message": "근무 시간 트레이딩에 배정된 사용자가 없습니다."
+    },
+    "wfo_forecaster_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "내부 서버 오류."
+    },
+    "wfo_forecaster_service_2": {
+      "code": "NO_SOURCE_AND_FILE_PATH_FOUND",
+      "message": "NO_SOURCE_AND_FILE_PATH_FOUND."
+    },
+    "wfo_forecaster_service_6": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "예상되는 열 제목을 찾을 수 없습니다. 샘플 파일을 확인하십시오."
+    },
+    "wfo_forecaster_service_7": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "시스템에서 스킬이 누락되었습니다."
+    },
+    "wfo_forecaster_service_8": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "파일 형식이 지원되지 않습니다."
+    },
+    "wfo_form_designer_service_1": {
+      "code": "THEME_ID_ERROR",
+      "message": "템플릿을 선택하십시오."
+    },
+    "wfo_form_designer_service_10": {
+      "code": "ELEMENT_TYPE_INVALID_ERROR",
+      "message": "ELEMENT_TYPE_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_11": {
+      "code": "FORM_ID_EMPTY_ERROR",
+      "message": "FORM_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_12": {
+      "code": "FORM_ID_DOES_NOT_EXIST_ERROR",
+      "message": "FORM_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_13": {
+      "code": "FORM_STATUS_EMPTY_ERROR",
+      "message": "FORM_STATUS_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_14": {
+      "code": "FORM_STATUS_INVALID_ERROR",
+      "message": "FORM_STATUS_INVALID_ERROR"
+    },
+    "wfo_form_designer_service_15": {
+      "code": "DUPLICATE_FORM_NAME_ERROR",
+      "message": "양식 이름이 이미 있습니다."
+    },
+    "wfo_form_designer_service_16": {
+      "code": "THEME_ID_DOES_NOT_EXIST_ERROR",
+      "message": "THEME_ID_DOES_NOT_EXIST_ERROR"
+    },
+    "wfo_form_designer_service_17": {
+      "code": "THEME_ID_EMPTY_ERROR",
+      "message": "THEME_ID_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_18": {
+      "code": "FORM_DATA_EMPTY_ERROR",
+      "message": "FORM_DATA_EMPTY_ERROR"
+    },
+    "wfo_form_designer_service_19": {
+      "code": "EMPTY_FILE_ERROR",
+      "message": "EMPTY_FILE_ERROR"
+    },
+    "wfo_form_designer_service_2": {
+      "code": "THEME_ID_INVALID_ERROR",
+      "message": "템플릿 ID가 잘못되었습니다."
+    },
+    "wfo_form_designer_service_20": {
+      "code": "WRONG_FILE_TYPE",
+      "message": "WRONG_FILE_TYPE"
+    },
+    "wfo_form_designer_service_3": {
+      "code": "FORM_DATA_ERROR",
+      "message": "FORM_DATA_ERROR"
+    },
+    "wfo_form_designer_service_4": {
+      "code": "FORM_NAME_ERROR",
+      "message": "FORM_NAME_ERROR"
+    },
+    "wfo_form_designer_service_5": {
+      "code": "FORM_STATUS_ERROR",
+      "message": "FORM_STATUS_ERROR"
+    },
+    "wfo_form_designer_service_6": {
+      "code": "THEME_DATA_ERROR",
+      "message": "THEME_DATA_ERROR"
+    },
+    "wfo_form_designer_service_7": {
+      "code": "THEME_NAME_ERROR",
+      "message": "THEME_NAME_ERROR"
+    },
+    "wfo_form_designer_service_8": {
+      "code": "THEME_LOGO_ERROR",
+      "message": "THEME_LOGO_ERROR"
+    },
+    "wfo_form_designer_service_9": {
+      "code": "ELEMENT_TYPE_EMPTY_ERROR",
+      "message": "ELEMENT_TYPE_EMPTY_ERROR"
+    },
+    "wfo_service_schedule_manager_1": {
+      "code": "OBJECT_IS_NULL",
+      "message": "주간 규칙이 비어 있습니다."
+    },
+    "wfo_service_schedule_manager_10": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_THE_TOTAL_SUM_OF_MIN_SHIFTS_PER_DAILY_RULE",
+      "message": "모든 고유일 가능 일수의 총 합계가 일일 규칙당 최소 근무의 총 합계보다 작습니다."
+    },
+    "wfo_service_schedule_manager_11": {
+      "code": "NO_NAME_FOR_WEEKLY_RULE_WAS_GIVEN",
+      "message": "주간 규칙에 대한 이름이 지정되지 않았습니다."
+    },
+    "wfo_service_schedule_manager_12": {
+      "code": "DAILY_RULES_ARE_EMPTY",
+      "message": "일일 규칙이 비어 있습니다."
+    },
+    "wfo_service_schedule_manager_13": {
+      "code": "TOTAL_SUM_OF_ALL_UNIQUE_POSSIBLE_DAYS_IS_LOWER_THAN_MINIMUM_SHIFTS_PER_WEEK",
+      "message": "모든 고유일 가능 일수의 총 합계가 주당 최소 근무보다 작습니다."
+    },
+    "wfo_service_schedule_manager_14": {
+      "code": "DATE_FORMAT_IS_INVALID",
+      "message": "날짜 형식이 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_15": {
+      "code": "TIME_PERIOD_BETWEEN_TWO_DATES_IS_INVALID",
+      "message": "두 날짜 사이의 기간이 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_16": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "내부 서버 오류가 발생했습니다."
+    },
+    "wfo_service_schedule_manager_17": {
+      "code": "INTERNAL_ERROR",
+      "message": "내부 오류가 발생했습니다."
+    },
+    "wfo_service_schedule_manager_18": {
+      "code": "IMPORT_GET_PARSER_ERROR",
+      "message": "파일 형식이 지원되지 않습니다."
+    },
+    "wfo_service_schedule_manager_19": {
+      "code": "IMPORT_GET_NEXT_RECORDS_ERROR",
+      "message": "파일의 레코드를 읽을 수 없습니다."
+    },
+    "wfo_service_schedule_manager_2": {
+      "code": "WRONG_REQUEST_OBJECT(",
+      "message": "잘못된 주간 규칙"
+    },
+    "wfo_service_schedule_manager_20": {
+      "code": "FILE_PARSING_ERROR_WRONG_COLUMNS_NUMBER_OR_NAME",
+      "message": "예상되는 열 제목을 찾을 수 없습니다. 샘플 파일을 확인하십시오."
+    },
+    "wfo_service_schedule_manager_21": {
+      "code": "SKILLS_DOES_NOT_EXIST",
+      "message": "시스템에 스킬이 없습니다."
+    },
+    "wfo_service_schedule_manager_22": {
+      "code": "IMPORT_SUS_NOT_EXISTS",
+      "message": "파일에 일정 단위가 없습니다."
+    },
+    "wfo_service_schedule_manager_23": {
+      "code": "EARLIEST_DAILY_START_IS_AFTER_LATEST_START",
+      "message": "가장 빠른 일일 시작 시간이 가작 늦은 시작 시간 이후입니다."
+    },
+    "wfo_service_schedule_manager_24": {
+      "code": "INCREMENT_FORMAT_IS_WRONG",
+      "message": "증분 형식이 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_25": {
+      "code": "DAILY_RULE_START_TIMES_ARE_NOT_WITHIN_THE_CORRECT_RANGE",
+      "message": "일일 규칙 시작 시간이 올바른 범위를 벗어났습니다."
+    },
+    "wfo_service_schedule_manager_26": {
+      "code": "DAILY_ACTIVITY_LENGTH_IS_BIGGER_THAN_DAILY_RULE_LENGTH",
+      "message": "일일 활동 길이가 일일 규칙 길이보다 깁니다."
+    },
+    "wfo_service_schedule_manager_27": {
+      "code": "SLACK_FORMAT_IS_WRONG",
+      "message": "여유 시간 형식이 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_28": {
+      "code": "RELATIVE_START_TIME_IS_LOWER_THAN_SLACK_TIME(",
+      "message": "상대 시작 시간이 여유 시간보다 작습니다."
+    },
+    "wfo_service_schedule_manager_29": {
+      "code": "SUM_OF_LENGTHS_OF_ACTIVITIES_IS_BIGGER_THAN_DAILY_LENGTH",
+      "message": "활동 길이의 합계가 일일 길이보다 큽니다."
+    },
+    "wfo_service_schedule_manager_3": {
+      "code": "WRONG_WEEKLY_RULE_DAYS_RANGE",
+      "message": "잘못된 주간 규칙 일수 범위"
+    },
+    "wfo_service_schedule_manager_30": {
+      "code": "NO_VALID_ACTIVITIES_COMBINATION_EXIST",
+      "message": "유효한 활동 조합이 없습니다."
+    },
+    "wfo_service_schedule_manager_31": {
+      "code": "ACTIVITY_CODE_EXCEEDED_DAILY_RULE_SHIFT",
+      "message": "활동 코드가 일일 규칙 근무 시간을 초과했습니다."
+    },
+    "wfo_service_schedule_manager_34": {
+      "code": "WRONG_FILE_FORMAT",
+      "message": "파일 형식이 지원되지 않습니다."
+    },
+    "wfo_service_schedule_manager_35": {
+      "code": "ACTIVITY_CODE_NAME_NOT_VALID",
+      "message": "활동 코드 이름이 유효하지 않습니다."
+    },
+    "wfo_service_schedule_manager_36": {
+      "code": "NO_ASSIGNED_TIME_ZONE_FOR_THE_SU",
+      "message": "일정 단위의 시간대가 잘못되었습니다."
+    },
+    "wfo_service_schedule_manager_4": {
+      "code": "WRONG_WEEKLY_RULE_HOURS_RANGE",
+      "message": "잘못된 주간 규칙 시간 범위"
+    },
+    "wfo_service_schedule_manager_42": {
+      "code": "OPEN_ACTIVITY_CODE_CANNOT_BE_DELETED",
+      "message": "기본 활동 코드를 삭제할 수 없습니다."
+    },
+    "wfo_service_schedule_manager_45": {
+      "code": "TIMEOFF_REQUEST_PARAMS_ARE_INVALID",
+      "message": "휴가 요청을 저장하는 동안 오류가 발생했습니다."
+    },
+    "wfo_service_schedule_manager_46": {
+      "code": "TIMEOFF_REQUEST_DATES_ARE_INVALID",
+      "message": "휴가 요청을 저장하는 동안 오류가 발생했습니다."
+    },
+    "wfo_service_schedule_manager_47": {
+      "code": "TIMEOFF_REQUEST_ERROR_WHILE_TIMEOFF_CREATION",
+      "message": "요청이 승인되어 상담원의 휴가 활동을 생성하는 동안 오류가 발생했습니다."
+    },
+    "wfo_service_schedule_manager_48": {
+      "code": "TIMEOFF_REQUEST_STATUS_CANCELED",
+      "message": "휴가 요청이 이미 취소되었습니다."
+    },
+    "wfo_service_schedule_manager_5": {
+      "code": "VALUE_OF_MAX_SHIFTS_OF_WEEKLY_RULE_IS_LOWER_THAN_TOTAL_OF_MIN_DAYS_DAILY_RULE",
+      "message": "주간 규칙의 최대 근무 시간 값이 일일 규칙의 최소 일수 합계보다 작습니다."
+    },
+    "wfo_service_schedule_manager_50": {
+      "code": "SUM_OF_DAILY_RULE_MAX_DAYS_LESS_THAN_WEEKLY_RULE_MIN_DAYS",
+      "message": "일일 규칙에 정의된 최대 일수의 합계는 주당 최소 총계보다 크거나 같아야 합니다."
+    },
+    "wfo_service_schedule_manager_51": {
+      "code": "SUM_OF_DAILY_RULE_MIN_DAYS_GREATER_THAN_WEEKLY_RULE_MAX_DAYS",
+      "message": "일일 규칙에 정의된 최소 일수의 합계는 주당 최대 총계를 초과해서는 안 됩니다."
+    },
+    "wfo_service_schedule_manager_52": {
+      "code": "NO_VALID_DAILY_RULE_COMBINATIONS_EXIST_GIVEN_CONSTRAINTS",
+      "message": "이 규칙 조합은 규칙 제약으로 인해 올바른 결과가 나오지 않을 수 있습니다. 다른 조합을 지정하십시오."
+    },
+    "wfo_service_schedule_manager_53": {
+      "code": "SINGLE_DAILY_RULE_DAYS_NOT_EQUAL_TO_WEEKLY_RULE_DAYS",
+      "message": "단일 일일 규칙 최소값 및 최대값은 주간 값과 일치해야 합니다."
+    },
+    "wfo_service_schedule_manager_54": {
+      "code": "LESS_THAN_TEN_HOURS_BETWEEN_SHIFTS",
+      "message": "근무 시간 사이에 10시간 이상의 간격이 있어야 합니다."
+    },
+    "wfo_service_schedule_manager_6": {
+      "code": "VALUE_OF_MIN_SHIFTS_OF_WEEKLY_RULE_IS_GREATER_THAN_TOTAL_OF_MAX_DAYS_DAILY_RULE",
+      "message": "주간 규칙의 최소 근무 시간 값이 일일 규칙의 총 최대 일수보다 큽니다."
+    },
+    "wfo_service_schedule_manager_7": {
+      "code": "TOTAL_SUM_OF_DAILY_MIN_HOURS_IS_BIGGER_THAN_WEEKLY_MAX_HOURS",
+      "message": "일일 최소 시간의 총 합계가 주간 최대 시간보다 큽니다."
+    },
+    "wfo_service_schedule_manager_8": {
+      "code": "TOTAL_SUM_OF_DAILY_MAX_HOURS_IS_LOWER_THAN_WEEKLY_MIN_HOURS",
+      "message": "일일 최대 시간의 총 합계가 주간 최소 시간보다 작습니다."
+    },
+    "wfo_service_schedule_manager_9": {
+      "code": "TOTAL_SUM_OF_POSSIBLE_DAYS_IS_LOWER_THAN_THE_CORRESPONDING_MIN_DAY_OF_THE_DAILY_RULE",
+      "message": "가능 일수의 총 합계가 일일 규칙의 해당 최소 일수보다 작습니다."
+    },
+    "wfo_user_manager_service_1": {
+      "code": "INTERNAL_SERVER_ERROR",
+      "message": "내부 서버 오류."
+    },
+    "wfo_user_manager_service_2": {
+      "code": "INTERNAL_ERROR",
+      "message": "내부 오류."
+    },
+    "wfo_user_manager_service_3": {
+      "code": "SKILLS_ALREADY_EXISTS",
+      "message": "같은 이름이 이미 있습니다. 신규로 시도하십시오."
+    },
+    "wfo_user_manager_service_4": {
+      "code": "SKILL_NOT_EXISTS",
+      "message": "스킬이 없습니다."
+    },
+    "wfo_user_manager_service_5": {
+      "code": "TOO_MANY_SKILLS_ASSIGNED_TO_USER",
+      "message": "한 직원이 50개가 넘는 스킬을 보유할 수 없습니다."
+    },
+    "wfo_user_manager_service_6": {
+      "code": "SKILL_NAME_NOT_VALID",
+      "message": "스킬 이름이 유효하지 않습니다."
+    },
+    "wrongCredentials": "이메일 주소나 암호를 잘못 입력하셨습니다."
+  },
+  "filter": {
+    "clearall": "모두 지우기",
+    "close": "닫기"
+  },
+  "filters": {
+    "scheduleUnitSelectedItems": "일정 단위"
+  },
+  "generalErrorMessages": {
+    "activitiesOverlap": "중복 가능성이 있는 활동은 허용되지 않습니다.",
+    "activityCountsOverLimit": "사전 계획된 활동은 10개를 초과할 수 없습니다.",
+    "email": "입력한 이메일 주소가 유효하지 않습니다.",
+    "emailExists": "이메일 주소가 이미 있습니다. 신규로 시도하십시오.",
+    "invalidFileFormat": "잘못된 파일 형식",
+    "lowerThen": "최소값은 최대값을 초과할 수 없습니다.",
+    "match": "이 암호는 이전 암호와 일치하지 않습니다.",
+    "max": "숫자가 너무 큽니다.",
+    "maxLength": "입력한 값이 너무 깁니다.",
+    "maxLengthPassword": "암호가 너무 깁니다.",
+    "min": "숫자가 너무 작습니다.",
+    "minLength": "입력한 값이 너무 짧습니다.",
+    "minLengthPassword": "암호는 8자 이상이어야 합니다.",
+    "nameFieldValidation": "죄송합니다. \\ / ! + < > ? # & , % \" 문자는 사용할 수 없습니다. ",
+    "noAddedShiftPatters": "하나 이상의 일일 규칙을 선택해야 합니다.",
+    "number": "숫자만 가능합니다!",
+    "password": "암호는 8자 이상이어야 하며, 최소 1개의 숫자와 최소 1개의 대문자를 포함해야 합니다.",
+    "pattern": "이 필드에 맞지 않는 형식",
+    "possibleDaysLowerThanMinDays": "가능 일수가 주간 규칙에서 요구하는 최소 일수를 충족하지 않습니다.",
+    "relativeStartLowerThanSlack": "여유 시간은 상대 시작 값보다 클 수 없습니다.",
+    "required": "이 필드는 필수입니다.",
+    "serverError": "내부 서버 오류. 다시 시도하십시오.",
+    "shiftLengthLowerThanActivityLength": "활동 길이, 상대 시작 및 여유 시간의 합계는 근무 시간보다 클 수 없습니다.",
+    "shiftLengthLowerThanTotalActivityLength": "활동의 총 길이는 근무 시간의 길이를 초과할 수 없습니다.",
+    "someRequiredFieldsAreIncomplete": "일부 필수 영역이 완전하지 않습니다.",
+    "uniqueDaysCounterLowerThanSumDailyMin": "최소 일수가 고유일의 총 일수를 초과합니다.",
+    "uniqueDaysCounterLowerThanWeeklyMin": "주간 규칙의 최소 일수가 고유일의 일수를 초과합니다.",
+    "uniqueString": "같은 이름이 이미 있습니다. 신규로 시도하십시오.",
+    "weeklyMaxHoursLowerThanSumDailyMinLength": "최소 일일 조합의 총 시간은 주당 최대 총 시간보다 클 수 없습니다.",
+    "weeklyMaxLowerThanSumDailyMin": "일일 규칙에서 요구하는 최소 일수가 주간 규칙의 최대 일수를 초과합니다.",
+    "weeklyMinGreaterThanSumDailyMax": "주간 규칙의 최소 일수가 일일 규칙에서 요구하는 최대 일수를 초과합니다.",
+    "weeklyMinHoursGreaterThanSumDailyMaxLength": "최대 일일 조합의 총 시간은 주당 최소 총 시간보다 작을 수 없습니다."
+  },
+  "generateSchedulesPage": {
+    "deleteMessage": "이 일정 작업을 삭제하려고 합니다.  계속하시겠습니까?",
+    "deleteSucess": "일정 작업이 삭제되었습니다.",
+    "detailsListModal": {
+      "header": "오류 요약"
+    },
+    "labels": {
+      "gridColumnsHeaders": {
+        "initiatedBy": "개시자",
+        "jobDate": "작업 날짜",
+        "schedulingDate": "일정 날짜",
+        "schedulingUnit": "일정 단위",
+        "status": "상태"
+      },
+      "gridNoRowsOverlay": "아직 생성된 일정 작업 없음",
+      "items": "일정 생성 작업",
+      "newJobButtonText": "신규 일정 생성",
+      "newRequestOff": "휴가 요청",
+      "pageTitle": "자동 일정 생성기",
+      "selectedItems": "{{selectedCount}}개 선택",
+      "viewErrors": "오류 보기"
+    },
+    "modal": {
+      "AutomaticPlanning": "자동 계획(예측 생성)",
+      "CSVFile": "CSV 파일",
+      "GeneratedForecast": "생성된 예측",
+      "ManualPlanning": "수동 계획(CSV)",
+      "advanceRotation": "교대 진행",
+      "attention": "주의!",
+      "doNotAdvanceRotationPopoverTxt": "교대 규칙이 포함된 일정을 생성하려고 하며, 다음 교대로 이동하지 않았습니다.",
+      "endDateInPast": "종료 날짜는 미래 날짜여야 합니다.",
+      "forecastDataLoads": "예측 데이터를 찾았습니다.",
+      "forecastDataTabHeader": "예측 데이터",
+      "fourWeeks": "4W",
+      "from": "시작",
+      "generateAnywayBtn": "계속 생성",
+      "goToImportForecastPageBtn": "예측 가져오기 페이지로 이동",
+      "header": "신규 일정 생성",
+      "importForecastData": "예측 파일을 가져와서 다시 시도하십시오...",
+      "lessThanMinimumSchedulingUnitsSelectedTxt": "하나 이상의 일정 단위를 선택해야 합니다.",
+      "loadForecastDataBtn": "예측 데이터 로드",
+      "missingForecastDataPopoverTxt": "일부 날짜는 예측 데이터가 포함되어 있지 않습니다. 이러한 날짜에 대한 일정은 수요 요구사항을 반영하지 않습니다.",
+      "missingStaffingPlan": "인원 배치 계획을 선택해야 합니다.",
+      "noForecastDataTxt": "이 날짜 범위에는 예측 데이터가 없습니다.",
+      "noMoreThanLimitSchedulingUnitsCouldBeScheduled": "{{items}}개를 초과하는 일정 단위는 예약할 수 없습니다.",
+      "oneMonth": "1M",
+      "oneWeek": "1W",
+      "scheduleUnit": "일정 단위",
+      "schedulesExistPopoverTxt": "선택한 날짜 중 일부는 이미 일정이 있습니다. 이 작업은 이러한 일정을 덮어쓰고 해당 일정이 이전에 게시된 경우 업데이트된 일정을 직원에게 자동으로 게시합니다.",
+      "schedulingUnits": "일정 단위",
+      "schedulingUnitsDropDown": "{{selectedCount}}개의 일정 단위",
+      "selectDatePlaceholder": "날짜 선택",
+      "staffingPlan": "인원 배치 계획",
+      "staffingPlanSUMismatch": "선택한 인원 배치 계획은 하나 이상의 선택된 일정 단위에 적용할 수 없습니다. 계속하시겠습니까?",
+      "startDateInPast": "시작 날짜는 과거일 수 없습니다.",
+      "threeWeeks": "3W",
+      "to": "종료",
+      "twoWeeks": "2W",
+      "useMultiSkill": "다중 스킬 일정 사용",
+      "weeklyRulesMismatchWithSchedulerType": "일부 주간 규칙은 이 일정 유형과 호환되지 않습니다. {{totalWeeklyRuleEmployeeCount}}명의 직원 중 {{mismatchedEmployeeCount}}명이 일정을 받지 않습니다."
+    },
+    "serviceStatusMessages": {
+      "jobAddFailed": "하나의 신규 작업을 추가하지 못했습니다.",
+      "jobAddFailedPlural": "{{jobCount}}개의 신규 작업을 추가하지 못했습니다.",
+      "jobAddSucceeded": "하나의 신규 작업을 추가했습니다.",
+      "jobAddSucceededPlural": "{{jobCount}}개의 신규 작업을 추가했습니다.",
+      "noUsersAssignedToSu": "일정을 생성할 수 없습니다. 일정 단위에 배정된 직원이 없습니다.",
+      "noUsersInSuAssignedWeeklyRules": "일정을 생성할 수 없습니다. 정의된 주간 규칙이 없습니다."
+    },
+    "statusDetailTitles": {
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "일일 규칙: {{dailyRuleName}}",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "일일 규칙: {{dailyRuleName}}",
+      "employeeUnavailiabilityViolatesMinDays": "주간 규칙: {{weeklyRuleName}}",
+      "employeeUnavailiabilityViolatesMinUsage": "주간 규칙: {{weeklyRuleName}}",
+      "internalError": "내부 오류",
+      "noUsersAssignedToSu": "일정 단위: {{suName}}",
+      "noUsersHaveSkills": "일정 단위: {{suName}}",
+      "noUsersInSuAssignedWeeklyRules": "일정 단위: {{suName}}",
+      "someUsersHaveNoSkills": "일정 단위: {{suName}}",
+      "someUsersInSuNotAssignedWeeklyRules": "일정 단위: {{suName}}",
+      "suNotFound": "일정 단위: {{suName}}"
+    },
+    "statusDetails": {
+      "dailyRuleViolatesOperationHoursViolatesMinDays": "주간 규칙 “{{weeklyRuleName}}”은(는) “{{suName}}” 일정 단위의 상담원이 사용하며, 하나 이상의 일일 규칙이 운영 시간을 준수하지 않습니다. 주간 규칙 최소값을 줄여야 합니다.",
+      "dailyRuleViolatesOperationHoursViolatesMinUsage": "주간 규칙 “{{weeklyRuleName}}”은(는) “{{suName}}” 일정 단위의 상담원이 사용하며 일일 규칙 “{{dailyRuleName}}”은(는) 운영 시간을 준수하지 않습니다. 일일 규칙 시작 시간을 업데이트해야 합니다.",
+      "employeeUnavailiabilityViolatesMinDays": "직원 “{{employeeName}}”님이 일일 규칙 “{{dailyRuleName}}”의 예약된 작업 시간에 관리자에서 이용불가로 정의됩니다. 주간 규칙 “{{weeklyRuleName}}” 또는 직원 가용성을 업데이트해야 합니다.",
+      "employeeUnavailiabilityViolatesMinUsage": "직원 “{{employeeName}}”님이 일일 규칙 “{{dailyRuleName}}”의 예약된 작업 시간에 관리자에서 이용불가로 정의됩니다. 주간 규칙 “{{weeklyRuleName}}” 또는 직원 가용성을 업데이트해야 합니다.",
+      "internalError": "내부 오류",
+      "noUsersAssignedToSu": "일정 단위에 배정된 직원이 없습니다.",
+      "noUsersHaveSkills": "“{{suName}}” 일정 단위에 스킬을 보유한 직원이 없습니다.",
+      "noUsersInSuAssignedWeeklyRules": "“{{suName}}” 일정 단위에 주간 규칙이 있는 직원이 없습니다.",
+      "someUsersHaveNoSkills": "“{{suName}}” 일정 단위의 일부 직원은 스킬이 없습니다.",
+      "someUsersInSuNotAssignedWeeklyRules": "“{{suName}}” 일정 단위에 주간 규칙이 없는 직원이 없습니다.",
+      "suNotFound": "일정 단위를 찾을 수 없음"
+    },
+    "statuses": {
+      "GENERATION_CANCELLED": "생성이 취소되었습니다.",
+      "GENERATION_CANCELLING": "생성 취소 중...",
+      "GENERATION_COMPLETED": "성공했습니다. {{message}}",
+      "GENERATION_COMPLETED_WITH_WARNINGS": "성공했습니다. {{message}}",
+      "GENERATION_ERRORED": "실패했습니다. {{message}}",
+      "GENERATION_SCHEDULING": "일정 생성 중...",
+      "GENERATION_SCHEDULING_COMPLETE": "일정 완료.",
+      "GENERATION_STARTED": "생성이 시작되었습니다.",
+      "GENERATION_STARTING": "생성 시작 중...",
+      "GENERATION_STORING_SCHEDULES": "일정 저장 중...",
+      "GENERATION_STORING_SCHEDULES_COMPLETE": "일정 저장 완료.",
+      "GENERATION_VALIDATION_FAILED": "유효성 검사에 실패했습니다."
+    }
+  },
+  "languages": {
+    "chinese": "중국어",
+    "english": "영어",
+    "russian": "러시아어",
+    "spanish": "스페인어"
+  },
+  "metaInfo": {
+    "UIKitGallery": {
+      "description": "Nice SaaS WFM",
+      "title": "UI 키트 갤러리",
+      "userRoles": "{{selectedCount}}개의 직원 역할"
+    },
+    "acdActivitiesMapping": {
+      "description": "Nice SaaS WFM",
+      "title": " ACD 매핑"
+    },
+    "activityCodes": {
+      "description": "Nice SaaS WFM",
+      "title": "활동 코드"
+    },
+    "automaticApprovalRuleSettings": {
+      "description": "승인 규칙 설정 관리",
+      "title": "승인 규칙 설정"
+    },
+    "automaticApprovalRules": {
+      "description": "승인 규칙 관리",
+      "title": "승인 규칙"
+    },
+    "bidPatterns": {
+      "description": "Nice SaaS WFM",
+      "title": "근무 시간 트레이딩"
+    },
+    "biddingManager": {
+      "description": "Nice SaaS WFM",
+      "title": "트레이딩 매니저"
+    },
+    "bidsView": {
+      "description": "Nice SaaS WFM",
+      "title": "트레이딩 매니저"
+    },
+    "createAccount": {
+      "description": "Nice SaaS WFM",
+      "title": "계정 생성"
+    },
+    "createNewRule": {
+      "description": "Nice SaaS WFM",
+      "title": "신규 규칙"
+    },
+    "dailyRule": {
+      "description": "Nice SaaS WFM",
+      "title": "일일 규칙"
+    },
+    "description": "Nice SaaS WFM",
+    "employeeGroups": {
+      "description": "Nice SaaS WFM",
+      "title": "일정 단위"
+    },
+    "examples": {
+      "description": "Nice SaaS WFM",
+      "title": "예"
+    },
+    "expiredInvitation": {
+      "description": "Nice SaaS WFM",
+      "title": "만료된 초대"
+    },
+    "faviconUrl": "assets/img/favicon-16x16.png",
+    "forecastData": {
+      "description": "Nice SaaS WFM",
+      "title": "예측 데이터 가져오기"
+    },
+    "forecastingProfileView": {
+      "description": "예측 프로필",
+      "title": "예측 프로필"
+    },
+    "forecastingProfiles": {
+      "description": "예측 프로필",
+      "title": "예측 프로필"
+    },
+    "formDesigner": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 디자이너"
+    },
+    "formExecutor": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 실행기"
+    },
+    "form_example": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 예시"
+    },
+    "generateForecast": {
+      "description": "예측 생성",
+      "title": "예측 생성"
+    },
+    "generatedForecasts": {
+      "description": "예측 생성",
+      "title": "예측 생성"
+    },
+    "generateschedule": {
+      "description": "Nice SaaS WFM",
+      "title": "일정 생성"
+    },
+    "groups": {
+      "description": "Nice SaaS WFM",
+      "title": "그룹"
+    },
+    "historicalData": {
+      "description": "Nice SaaS WFM",
+      "title": "과거 데이터"
+    },
+    "importStaffingJob": {
+      "description": "인원 배치 계획",
+      "title": "인원 배치 계획"
+    },
+    "intradayManager": {
+      "description": "Nice SaaS WFM",
+      "title": "당일 일과 매니저"
+    },
+    "login": {
+      "description": "Nice SaaS WFM",
+      "title": "로그인"
+    },
+    "manageForms": {
+      "description": "Nice SaaS WFM",
+      "title": "양식 관리"
+    },
+    "myDashboard": {
+      "description": "Nice SaaS WFM",
+      "title": "내 대시보드"
+    },
+    "mySchedule": {
+      "description": "Nice SaaS WFM",
+      "title": "내 일정"
+    },
+    "myTimeOffRequests": {
+      "description": "Nice SaaS WFM",
+      "title": "일정 요청"
+    },
+    "qpManager": {
+      "description": "Nice SaaS WFM",
+      "title": "Quality Planner"
+    },
+    "realTimeAdherence": {
+      "description": "실시간 일정 준수",
+      "title": "실시간 일정 준수"
+    },
+    "recoverPassword": {
+      "description": "Nice SaaS WFM",
+      "title": "암호 복구"
+    },
+    "requests": {
+      "description": "상담원 요청 관리",
+      "title": "요청 관리"
+    },
+    "resetPassword": {
+      "description": "Nice SaaS WFM",
+      "title": "암호 재설정"
+    },
+    "scheduler": {
+      "description": "Nice SaaS WFM",
+      "title": "일정 매니저"
+    },
+    "selfService": {
+      "title": "지원 - 다운로드"
+    },
+    "setPassword": {
+      "description": "Nice SaaS WFM",
+      "title": "암호 설정"
+    },
+    "shiftBidding": {
+      "description": "Nice SaaS WFM",
+      "title": "근무 시간 트레이딩"
+    },
+    "shiftBiddingTemplates": {
+      "description": "Nice SaaS WFM",
+      "title": "근무 시간 템플릿"
+    },
+    "shiftTrading": {
+      "description": "Nice SaaS WFM",
+      "title": "근무 시간 교환"
+    },
+    "skills": {
+      "description": "Nice SaaS WFM",
+      "title": "스킬"
+    },
+    "specialDayView": {
+      "description": "특별 일정",
+      "title": "특별 일정"
+    },
+    "specialDays": {
+      "description": "특별 일정",
+      "title": "특별 일정"
+    },
+    "success": {
+      "description": "Nice SaaS WFM",
+      "title": "성공"
+    },
+    "templateManager": {
+      "description": "Nice SaaS WFM",
+      "title": "템플릿 매니저"
+    },
+    "timeOffPlanning": {
+      "rules": {
+        "description": "Nice SaaS WFM",
+        "title": "규칙"
+      },
+      "summary": {
+        "description": "Nice SaaS WFM",
+        "title": "요약"
+      }
+    },
+    "timeOffRequests": {
+      "description": "Nice SaaS WFM",
+      "title": "요청"
+    },
+    "timeOffRules": {
+      "description": "Nice SaaS WFM",
+      "title": "휴가 규칙"
+    },
+    "timeOffSummary": {
+      "description": "Nice SaaS WFM",
+      "title": "휴가 요약"
+    },
+    "title": "Nice SaaS WFM ",
+    "userManagement": {
+      "description": "Nice SaaS WFM",
+      "title": "직원"
+    },
+    "weeklyRules": {
+      "description": "Nice SaaS WFM",
+      "title": "주간 규칙"
+    }
+  },
+  "mySchedule": {
+    "actionButton": "작업",
+    "actionLinks": {
+      "tradeShift": "근무 시간 교환",
+      "userPreferences": "근무 시간 선호 설정",
+      "userTORBalance": "잔여 휴가"
+    },
+    "agentInitiatedSchedule": {
+      "activityModal": {
+        "activityCodePlaceholder": "활동 코드 선택",
+        "activityLabel": "활동 유형",
+        "addActivitySaveButton": "추가",
+        "addActivityTitle": "활동 추가",
+        "balanceLabel": "내 잔여 휴가",
+        "cancelButton": "취소",
+        "commentLabel": "메모",
+        "commentPlaceHolder": "메모 추가...",
+        "editActivityTitle": "활동 편집",
+        "endDate": "종료 날짜",
+        "endLabel": "종료",
+        "endTime": "종료 시간",
+        "fullDay": "종일",
+        "noBalance": "남은 {{totalDays}}일을 모두 사용했습니다.",
+        "overnightMessage": "야간 활동입니다. 시작 날짜의 시간만 편집할 수 있습니다.",
+        "remaining": " 남은 문자 수",
+        "remainingBalance": "{{remainingDays}}/{{totalDays}}일이 남았습니다",
+        "removeActivitySaveButton": "제거",
+        "removeActivityTitle": "활동 제거",
+        "restrictFullDaysMessage": "이 활동에는 전일 요청만 할 수 있습니다.",
+        "saveButton": "저장",
+        "selfIntervalExtraHoursTitle": "초과 시간 선택",
+        "selfIntervalTitle": "휴가 선택",
+        "startDate": "시작 날짜",
+        "startLabel": "시작",
+        "startTime": "시작 시간",
+        "submitButton": "제출",
+        "title": "신규 휴가 요청",
+        "unpublishedDayMessage": "이 날짜에 게시된 일정이 없으므로 전일 휴가만 요청할 수 있습니다.",
+        "validations": {
+          "AGENT_BALANCE": "잔여 휴가가 충분하지 않습니다.",
+          "AGENT_BALANCE_FOR_EH": "잔여 초과 시간이 충분하지 않습니다.",
+          "AGENT_MAX_HOURS_A_DAY": "시간이 최대 일일 한도를 초과합니다.",
+          "AGENT_MAX_HOURS_A_WEEK": "시간이 최대 주간 한도를 초과합니다.",
+          "AGENT_SENIORITY": "이 요청을 제출하려면 적어도 {{AGENT_MINIMUM_SENIORITY_DAYS}}일은 근무해야 합니다.",
+          "REQUEST_CREATION_TIME_DAYS_IN_ADVANCE": "요청은 최소한 {{DAYS_IN_ADVANCE}}일 전에 미리 제출되어야 합니다.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_FUTURE": "지금부터 최대 {{MAX_DAYS_IN_FUTURE}}일까지만 요청할 수 있습니다.",
+          "REQUEST_CREATION_TIME_MAX_DAYS_IN_PAST": "오늘부터 최대 {{MAX_DAYS_IN_PAST}}일 전까지만 요청할 수 있습니다.",
+          "REQUEST_CREATION_TIME_SAME_DAY": "이 활동에 대해서는 당일에만 요청할 수 있습니다.",
+          "SCHEDULING_UNIT_BALANCE": "이 시간 슬롯에 대해서는 휴가를 요청할 수 없습니다.",
+          "SCHEDULING_UNIT_NO_PUBLISHED_SCHEDULE": "선택된 활동/일수에 대해 예상 또는 게시된 일정이 없습니다.",
+          "SCHEDULING_UNIT_STAFFING": "선택된 활동/일수에 대한 인원 배치 수준이 너무 낮습니다.",
+          "extraHoursIntervalConsumingShift": "초과 시간은 근무 시간 밖이어야 합니다.",
+          "invalidDaysBalance": "{{remaining}}일만 남아 있습니다.",
+          "invalidHoursBalance": "{{remainingBalanceHoursString}}시간만 남아 있습니다.",
+          "invalidPartialActivityCodeNumHours": "이 활동은 {{partialDayRequestMinHours}}-{{partialDayRequestMaxHours}}시간 사이여야 합니다.",
+          "invalidPartialActivityHours": "시작 시간 이후이어야 합니다.",
+          "invalidPartialFulldayTO": "부분 휴가는 총 근무 시간 길이보다 작아야 합니다.",
+          "noRemainingDaysBalance": "이 활동에 대해 남은 일수가 없습니다.",
+          "overlappingRequests": "현재 보류 중인 요청이 이미 있습니다.",
+          "overlappingShiftTradeRequests": "이 시간 프레임 동안 보류 중인 교환 요청이 있습니다.",
+          "selfExtraHoursAutoTime": "선택한 시간 범위의 모든 슬롯은 자동 승인 초과 시간에 사용할 수 없습니다.",
+          "selfExtraHoursTime": "선택한 시간 범위의 모든 슬롯은 승인이 필요한 초과 시간에 사용할 수 없습니다.",
+          "selfIntervalAutoTime": "선택한 시간 범위의 모든 슬롯은 자동 승인 휴가에 사용할 수 없습니다.",
+          "selfIntervalManagerTime": "선택한 시간 범위의 모든 슬롯은 승인이 필요한 휴가에 사용할 수 없습니다."
+        }
+      },
+      "cancelRequests": "모두 취소",
+      "comparisonModal": {
+        "agentTitle": "내 일정 요청",
+        "currentSchedule": "현재 일정",
+        "managerTitle": "일정 요청",
+        "requestExceedingRange": "이 요청은 {{fromDate}}부터 {{toDate}}까지 {{totalDays}}일에 해당합니다. 상담원의 전체 일정을 보려면 다음을 클릭하십시오. ",
+        "requestUpdatedWarning": "이 요청은 최근에 업데이트되었습니다.",
+        "revisedSchedule": "수정된 일정",
+        "viewFromScheduleManager": "일정 매니저"
+      },
+      "deletedActivityName": "삭제된 활동",
+      "dirtyMode": {
+        "cancel": "취소",
+        "submitRequest": "요청 제출"
+      },
+      "dirtyModeMultipleFullDayRequestLabel": "{{requestStartDate}} - {{requestEndDate}} - {{activityCode}}",
+      "dirtyModeSingleFullDayRequestLabel": "전일 요청 - {{activityCode}}",
+      "fullDayInvalidRequestLabel": "활동 {{activityCode}}이(가) 삭제되었거나 수정되었습니다. 보류 중인 전일 요청이 더 이상 유효하지 않습니다.",
+      "invalidRequestLabel": "일부 활동이 삭제되었거나 구성이 변경되었습니다. 모든 요청을 취소합니다.",
+      "menuOptions": {
+        "addActivity": "활동 추가",
+        "cancelActivity": "요청 취소",
+        "cancelRequest": "요청 취소",
+        "deleteActivity": "활동 제거",
+        "editActivityTime": "활동 시간 편집",
+        "editRequest": "요청 편집",
+        "requestTimeoff": "휴가 요청"
+      },
+      "messages": {
+        "allRequestsCanceled": "요청이 취소되었습니다.",
+        "cancelAllRequestsConfirmation": "이 날짜에 대해 보류 중인 모든 요청을 삭제하시겠습니까?",
+        "cancelAllRequestsFailure": "요청을 취소할 수 없습니다. 나중에 다시 시도하십시오.",
+        "cancelAllRequestsFailureAlreadyApprovedDeclined": "요청을 취소할 수 없습니다. 일정이 업데이트되었습니다. 페이지를 새로 고치고 다시 시도하십시오.",
+        "cancelAllRequestsFailureDiscarded": "요청을 취소할 수 없습니다. 일정이 업데이트되었으며 이전 요청이 삭제되었습니다. 페이지를 새로 고치십시오.",
+        "cancelAllRequestsFailureWithRefresh": "요청을 취소할 수 없습니다. 페이지를 새로 고치고 다시 시도하십시오.",
+        "cancelRequestConfirmation": " 모든 변경 사항이 손실됩니다. 계속하시겠습니까?",
+        "cancelRequestFailure": "요청을 취소할 수 없습니다. 나중에 다시 시도하십시오.",
+        "cancelRequestFailureAlreadyApprovedDeclined": "요청을 취소할 수 없습니다. 일정이 업데이트되었습니다. 페이지를 새로 고치고 다시 시도하십시오.",
+        "cancelRequestFailureDiscarded": "요청을 취소할 수 없습니다. 일정이 업데이트되었으며 이전 요청이 삭제되었습니다. 페이지를 새로 고치십시오.",
+        "cancelRequestFailureWithRefresh": "요청을 취소할 수 없습니다. 페이지를 새로 고치고 다시 시도하십시오.",
+        "cannotCancelOvernightActivity": "이 활동은 시작 날짜에만 취소할 수 있습니다.",
+        "cannotCreateScheduleRequest": "이 날짜에 보류 중인 근무 시간 교환 요청이 있으므로 일정을 변경할 수 없습니다.",
+        "cannotCreateShiftTradeRequest": "이 날짜에 보류 중인 일정 요청이 있으므로 근무 시간을 교환할 수 없습니다.",
+        "cannotDeleteOvernightActivity": "시작 날짜부터는 이 활동을 제거만 할 수 있습니다.",
+        "cannotEditOvernightActivity": "시작 날짜부터는 이 활동을 편집만 할 수 있습니다.",
+        "cannotLoadPendingTradeRequests": "보류 중인 교환 요청을 로드할 수 없습니다. 페이지를 새로 고치십시오.",
+        "cannotLoadWeeklyScheduleData": "주간 일정 데이터를 로드할 수 없습니다.",
+        "confirmationContinue": "계속하시겠습니까?",
+        "confirmationNo": "아니요",
+        "confirmationYes": "예",
+        "failedToLoadRequests": "보류 중인 요청을 로드할 수 없습니다. 페이지를 새로 고치십시오.",
+        "generalConflictErr": "서로 상반되는 요청이 있습니다.",
+        "modalInitFailure": "활동 창을 열 수 없습니다. 페이지를 새로 고치십시오.",
+        "moreThan1DayCancelationNotAllowed": "하루 이상은 취소할 수 없습니다. 취소하려면 매니저에게 문의하십시오.",
+        "pastDateCancelationNotAllowed": "취소 작업은 사전에 이루어져야 합니다. 취소하려면 매니저에게 문의하십시오.",
+        "requestCanceled": "요청이 취소되었습니다.",
+        "requestSubmitted": "요청이 제출되었습니다.",
+        "requestTimezoneDiff": "다른 시간대에서 보류 중인 요청을 로드할 수 없습니다.",
+        "scheduleChangedPostApproval": "휴가 요청이 승인된 후 일정이 변경되었습니다. 취소하려면 매니저에게 문의하십시오.",
+        "submitRequestConfirmation": "요청이 예약된 활동과 중복됩니다. 승인되면 신규 활동이 요청한 시간 슬롯의 기존 일정을 덮어씁니다.",
+        "submitRequestFailure": "요청을 제출할 수 없습니다. 나중에 다시 시도하십시오.",
+        "submitRequestFailureDiscarded": "요청을 제출할 수 없습니다. 일정이 업데이트되었으며 이전 요청이 삭제되었습니다. 페이지를 새로 고치십시오.",
+        "submitRequestFailureScheduleChanged": "요청을 제출할 수 없습니다. 일정이 업데이트되었습니다. 페이지를 새로 고치고 다시 시도하십시오.",
+        "submitRequestFailureWithRefresh": "요청을 제출할 수 없습니다. 페이지를 새로 고치고 다시 시도하십시오."
+      },
+      "multipleFullDayRequestExistLabel": "{{requestStartDate}} - {{requestEndDate}}에 대해 보류 중인 전일 요청({{activityCode}})",
+      "requestExistLabel": "이 날짜에 보류 중인 요청이 있습니다.",
+      "select_self_service": "선택...",
+      "self_Interval": "셀프 서비스",
+      "singleFullDayRequestExistLabel": "이 날짜에 대해 보류 중인 전일 요청({{activityCode}})",
+      "timeGroupLabel": "시작 및 종료 날짜/시간 선택",
+      "viewRequests": "요청 보기"
+    },
+    "agentScheduleCancellation": {
+      "messages": {
+        "canNotCancelTimeOff": "휴가 취소 불가",
+        "confirmationMessage1": "요청을 취소하시겠습니까?",
+        "confirmationMessage2": "일정이 이전 상태로 복원됩니다.",
+        "confirmationNo": "머무르기",
+        "confirmationYes": "요청 취소",
+        "internalError": "내부 서버 오류가 발생했습니다. 다시 시도하십시오."
+      }
+    },
+    "day": "일",
+    "enhancedTradeModal": {
+      "betweenLabel": "범위",
+      "daysNotSelectedtLabel": "이 필드는 필수입니다.",
+      "findShiftBtnText": "일치하는 근무 검색",
+      "fromLabel": "시작",
+      "fullDayShiftLabel": "근무 시간",
+      "fullDayTradeOption": "전체 근무 시간",
+      "grid": {
+        "agentName": "상담원 이름",
+        "gridError": "데이터를 로드할 수 없습니다. 다시 시도하십시오.",
+        "gridNoAgent": "찾은 상담원 없음",
+        "gridNoRowsOverlay": "일치하는 근무가 없습니다. 교환 선호 설정을 업데이트하십시오.",
+        "gridNotSet": "근무 시간 선호 사항이 아직 설정되지 않음",
+        "shiftEnd": "근무 시간 종료",
+        "shiftStart": "근무 시간 시작",
+        "wfo_service_schedule_manager_62": "근무 시간을 교환할 수 없습니다. 일정 변경 요청이 보류 중인 동안 근무 시간 교환은 허용되지 않습니다.",
+        "wfo_service_schedule_manager_65": "근무 시간을 교환할 수 없습니다. 과거의 날짜에 대해서는 근무 시간 교환이 허용되지 않습니다.",
+        "wfo_service_schedule_manager_68": "근무 시간을 교환할 수 없습니다. 아직 일정이 게시되지 않았습니다.",
+        "wfo_service_schedule_manager_76": "교환이 허용되지 않습니다.",
+        "wfo_service_schedule_manager_77": "근무 시간을 교환할 수 없습니다. 근무 시간 교환 날짜가 요청된 날짜로부터 허용된 기간을 벗어납니다.",
+        "wfo_service_schedule_manager_78": "근무 시간을 교환할 수 없습니다. 근무 시간 교환 시간이 요청 시간에 너무 가깝습니다.",
+        "wfo_service_schedule_manager_79": "근무 시간을 교환할 수 없습니다. 교환 시간이 최소 요구 값보다 작습니다.",
+        "wfo_service_schedule_manager_87": "근무 시간을 교환할 수 없습니다. 당일 열린 교환 요청 수가 구성된 한도를 초과합니다.",
+        "wfo_service_schedule_manager_88": "활동을 분할할 수 없습니다. 다른 요청자 시간을 선택하십시오.",
+        "wfo_service_schedule_manager_90": "부분 일 교환은 허용되지 않습니다."
+      },
+      "header": {
+        "searchTitle": "상담원 검색",
+        "selected": "선택",
+        "selectedRow": "선택 항목만 표시",
+        "shift": "근무 시간"
+      },
+      "maxSelectionMessage": "최대 {{maxSelectionPossible}}개의 근무를 선택할 수 있습니다.",
+      "minAdvanceNotice": "교환 요청은 최소한 {{stringTime}} 이전에 제출되어야 합니다.",
+      "minPartialShiftDuration": "최소한 {{minStringTime}}을(를) 선택하십시오.",
+      "modalTitle": "근무 시간 교환",
+      "nonTradeableActivityPresent": "교환할 수 없는 활동이 근무 시간에 포함되어 있습니다.",
+      "okLabel": "교환 요청 제출",
+      "openTradeMessage": {
+        "cancel": "취소",
+        "decline": "거부",
+        "requesteeAcceptedTrade": "이 교환을 수락했습니다. 슈퍼바이저 승인을 기다리는 중",
+        "requesteeInvitedForTrade": "{{requestorName}}님이 근무 시간 교환을 위해 사용자를 초대하는 중입니다.",
+        "requestorWaitForApproval": "근무 시간 교환 요청이 {{totalRequests}}명의 직원에게 전송되었고 수락을 기다리는 중입니다.",
+        "viewRequest": "요청 보기"
+      },
+      "partialDayTradeOption": "부분 근무 시간",
+      "partialShiftLabel": "부분 근무 시간",
+      "popOverFullDayRequestPending": "전일 교환 요청이 보류 중일 때는 하루 중 일부 교환은 허용되지 않습니다.",
+      "popOverMinAdvNotice": "교환 요청은 최소한 {{stringTime}} 이전에 제출되어야 합니다.",
+      "popOverNonTradableActivity": "교환할 수 없는 활동이 근무 시간에 포함되어 있습니다.",
+      "popOverPartialRequestPending": "하루 중 일부 교환 요청이 보류 중일 때 전일 교환은 허용되지 않습니다.",
+      "popOverPartialTradeDisabled": "시스템 교환 구성에 따라 전일 교환만 허용됩니다.",
+      "preferredShiftLabel": "선호하는 근무 요일 및 시간",
+      "startTimeLateThanEndTime": "시작 시간은 종료 시간 이전이어야 합니다.",
+      "toLabel": "종료",
+      "tradeConfigMsg": "시스템 교환 구성 기반",
+      "weekdayDropdown": "선호하는 요일 선택"
+    },
+    "errorRead": "일정을 로드하는 동안 오류가 발생했습니다.",
+    "openTradeMessage": {
+      "cancel": "취소",
+      "decline": "거부",
+      "requesteeAcceptedTrade": "이 교환을 수락했습니다. 슈퍼바이저 승인을 기다리는 중",
+      "requesteeInvitedForTrade": "{{requestorName}}님이 근무 시간 교환을 위해 사용자를 초대하는 중입니다.",
+      "requestorWaitForApproval": "교환 요청이 제출되어 승인 대기 중",
+      "viewRequest": "요청 보기"
+    },
+    "pageTitle": "내 일정",
+    "selfServiceEH": {
+      "autoEHPopover": "자동 초과 시간",
+      "generalError": "셀프 서비스 데이터를 로드할 수 없습니다.",
+      "managerEHPopover": "승인이 필요한 초과 시간",
+      "noPermissionToAddOpenActivity": "활동을 추가할 수 없습니다. 권한이 필요합니다.",
+      "noSelfIntervalActivityPresentForDay": "당일 셀프 서비스 활동은 없습니다."
+    },
+    "selfServiceTO": {
+      "autoTOPopover": "자동 휴가",
+      "generalError": "셀프 서비스 데이터를 로드할 수 없습니다.",
+      "managerTOPopover": "승인이 필요한 휴가",
+      "noSelfIntervalActivityPresentForDay": "당일 셀프 서비스 활동은 없습니다."
+    },
+    "showSummary": {
+      "noData": "데이터 없음",
+      "onCall": "근무 중",
+      "outOfOfficeAgent": "부재 중"
+    },
+    "sideBySideModal": {
+      "acceptBtnLabel": "수락",
+      "declineBtnLabel": "거부",
+      "error": {
+        "generalError": "근무 시간 교환에 실패했습니다.",
+        "nonTradableError": "교환 요청이 거부되었습니다. 사용자 또는 선택된 상담원의 근무 시간에는 교환할 수 없는 활동이 있습니다.",
+        "scheduleRequestExists": "이 날짜에 보류 중인 일정 요청이 있으므로 근무 시간을 교환할 수 없습니다.",
+        "tradeDateHasPassed": "이 근무 시간 교환은 더 이상 활성 상태가 아닙니다."
+      },
+      "headerLabelFormat": "{{date}} | {{time}}",
+      "modalTitle": "근무 시간 교환",
+      "requesteeHeaderLabel": "본인 근무 시간",
+      "requestorHeaderLabel": "교환 근무 시간"
+    },
+    "toasts": {
+      "acceptedFailed": "근무 시간 교환 요청을 수락하는 중 문제가 발생했습니다.",
+      "canceledFailed": "근무 시간 교환 요청을 취소하는 중 문제가 발생했습니다.",
+      "canceledSuccess": "교환 요청이 취소되었습니다.",
+      "declinedFailed": "근무 시간 교환 요청을 거부하는 중 문제가 발생했습니다.",
+      "noTradeAvaliable": "교환 요청을 더 이상 사용할 수 없습니다.",
+      "retrieveFailed": "근무 시간 교환 요청을 검색하는 중 문제가 발생했습니다.",
+      "updateFailed": "근무 시간 교환 요청 상태를 업데이트하는 중 문제가 발생했습니다"
+    },
+    "today": "오늘",
+    "tradeModal": {
+      "agentLabel": "교환 대상:",
+      "agentPlaceHolder": "상담원 선택",
+      "modalTitle": "{{date}} | {{time}} 교환",
+      "okLabel": "제출"
+    },
+    "tradeValidations": {
+      "generalError": "교환에 실패했습니다. 나중에 다시 시도하십시오.",
+      "non_tradable": "근무 시간을 교환할 수 없습니다. 근무 시간에 포함된 최소한 한 개의 활동이 교환 불가합니다.",
+      "tradeAccpeted": "교환 요청이 수락되었습니다.",
+      "tradeFailure": "근무 시간을 교환할 수 없습니다. 알 수 없는 오류.",
+      "tradeSubmissionFailure": "교환 요청이 실패했습니다.",
+      "tradeSuccess": "선택된 모든 상담원에게 교환 요청이 전송되었습니다.",
+      "tradeSuccessPartial": "{{successCount}}명의 상담원에게 교환 요청이 전송되었습니다.",
+      "trdaeDecline": "교환 요청이 거부되었습니다.",
+      "wfo_service_schedule_manager_62": "근무 시간을 교환할 수 없습니다. 일정 변경 요청이 보류 중인 동안 근무 시간 교환은 허용되지 않습니다.",
+      "wfo_service_schedule_manager_65": "근무 시간을 교환할 수 없습니다. 과거의 날짜에 대해서는 근무 시간 교환이 허용되지 않습니다.",
+      "wfo_service_schedule_manager_68": "근무 시간을 교환할 수 없습니다. 아직 일정이 게시되지 않았습니다.",
+      "wfo_service_schedule_manager_76": "교환이 허용되지 않습니다.",
+      "wfo_service_schedule_manager_77": "근무 시간을 교환할 수 없습니다. 근무 시간 교환 날짜가 요청된 날짜로부터 허용된 기간을 벗어납니다.",
+      "wfo_service_schedule_manager_78": "근무 시간을 교환할 수 없습니다. 근무 시간 교환 날짜가 요청 날짜에 너무 가깝습니다.",
+      "wfo_service_schedule_manager_87": "근무 시간을 교환할 수 없습니다. 당일 열린 교환 요청 수가 구성된 한도를 초과합니다.",
+      "wfo_service_schedule_manager_88": "근무 시간을 교환할 수 없습니다. 게시된 일정이 비어 있습니다."
+    },
+    "userName": "{{userName}}",
+    "userPreferencesModal": {
+      "modalTitle": "근무 시간 선호 설정",
+      "okLabel": "저장",
+      "updateSuccessMsg": "직원이 업데이트되었습니다!"
+    },
+    "week": "주",
+    "weeklyViewTradeSideBySideModal": {
+      "cancelPendingRequestTitle": "보류 중인 요청 취소",
+      "cancelTradeRequest": "모든 전송된 요청 취소",
+      "close": "닫기",
+      "declineTradeRequest": "모든 수신된 요청 거부",
+      "deleteAllPendingActivityRequestsConfirmation": "다음에 대해 보류 중인 모든 요청을 취소하시겠습니까 ",
+      "deletePendingRequest": "모두 취소",
+      "dontCancelButtonText": "취소하지 않음",
+      "fullDayTimeoffMsg": "이 날짜에는 전일 휴가가 있습니다.",
+      "noRequestsForThisDay": "이 날짜에는 요청이 없습니다.",
+      "pendingActivityRequestHeader": "활동 요청",
+      "pendingRequestsText": "보류 중인 요청",
+      "pendingTradeRequestHeader": "교환 요청",
+      "tradeHeading": "교환 요청",
+      "viewPendingRequest": "요청 보기",
+      "viewTradeRequest": "수신된 요청 보기"
+    }
+  },
+  "myTimeOffRequests": {
+    "by": "생성자",
+    "cancelRequest": "취소",
+    "days": "요일",
+    "deletedActivity": "삭제된 활동",
+    "fullDay": "전일",
+    "gridColumns": {
+      "activityType": "활동 유형",
+      "comments": "상담원 의견",
+      "dates": "요청 날짜",
+      "requestOn": "요청 날짜",
+      "status": "상태",
+      "statusUpdateComment": "검토자",
+      "time": "요청 시간"
+    },
+    "gridHeaderPlaceholder": "요청을 찾으려면 입력을 시작하십시오.",
+    "gridNoRowsOverlay": "아직 생성된 요청이 없습니다.",
+    "item": "요청",
+    "items": "요청",
+    "messages": {
+      "cancelFailed": "휴가 요청을 취소하지 못했습니다.",
+      "cancelSuccess": "휴가 요청이 취소되었습니다.",
+      "createFailed": "휴가 요청을 생성하지 못했습니다.",
+      "createSuccess": "신규 휴가 요청이 생성되었습니다."
+    },
+    "modal": {
+      "title": "신규 휴가 요청"
+    },
+    "myTimeOffbalanceModal": {
+      "activity": "활동",
+      "earned": "획득",
+      "invalidRemainingDays": "이 활동에 대해 남은 일수가 없습니다.",
+      "remaining": "남음",
+      "scheduled": "예정",
+      "taken": "사용됨",
+      "title": "내 잔여 휴가",
+      "total": "합계",
+      "usage": "사용"
+    },
+    "newButton": "신규 요청",
+    "noComments": "댓글 없음",
+    "pageTitle": "일정 요청",
+    "requestStatusType": {
+      "approved": "승인 완료",
+      "auto_approved": "승인 완료",
+      "auto_declined": "거부",
+      "canceled": "취소",
+      "canceled_approved_request": "취소 - 승인된 요청",
+      "declined": "거부",
+      "discarded": "삭제",
+      "pending": "보류 중"
+    },
+    "scheduleRequestsTitle": "일정 요청",
+    "system": "시스템",
+    "timeOffStatusButton": "잔여 휴가"
+  },
+  "niceNavigationUi": {
+    "global": {
+      "warningIcon": "경고"
+    },
+    "globalNavigation": {
+      "sideBar": {
+        "embeddedClientModuleLinks": {
+          "1on1coaching": "일대일 코칭",
+          "coaching": "코칭",
+          "evaluations": "평가",
+          "groupCoaching": "그룹 코칭",
+          "marketplace": "마켓플레이스",
+          "myDashboards": "내 대시보드",
+          "mySchedule": "내 일정",
+          "myTimeOffRequests": "휴가 요청",
+          "pursuits": "내 업무",
+          "recentInteractions": "최근 인터랙션",
+          "scheduleRequests": "일정 요청",
+          "shiftBidding": "근무 시간 트레이딩"
+        },
+        "myZoneModuleLinks": {
+          "1on1coaching": "일대일 코칭",
+          "calibrations": "교정",
+          "coaching": "코칭",
+          "evaluations": "평가",
+          "groupCoaching": "그룹 코칭",
+          "marketplace": "마켓플레이스",
+          "myPersona": "내 페르소나",
+          "mySchedule": "내 일정",
+          "myTimeOffRequests": "휴가 요청",
+          "performanceMonitoring": "성과 모니터링",
+          "plansMonitoring": "계획 모니터링",
+          "pursuits": "내 업무",
+          "recentInteractions": "최근 인터랙션",
+          "scheduleRequests": "일정 요청",
+          "selfAssessments": "자기 평가",
+          "shiftBidding": "근무 시간 트레이딩",
+          "tasks": "작업"
+        },
+        "wfmModuleLinks": {
+          "acdActivitiesMapping": "ACD 매핑",
+          "acdImportHistorical": "ACD 과거 데이터",
+          "activityCodes": "활동 코드",
+          "approvalRules": "승인 규칙",
+          "biddingManager": "트레이딩 매니저",
+          "dailyRule": "일일 규칙",
+          "forecasting": "예측",
+          "forecastingProfiles": "예측 프로필",
+          "generateForecast": "예측 생성",
+          "generateSchedule": "일정 생성",
+          "importStaffingPlan": "인원 배치 계획 가져오기",
+          "intradayDashboard": "당일 일과",
+          "intradayManager": "당일 일과 매니저",
+          "realTimeAdherence": "실시간 일정 준수",
+          "requestHandling": "요청 관리",
+          "requests": "요청",
+          "rotationRules": "교대 규칙",
+          "rules": "규칙",
+          "scheduler": "일정 매니저",
+          "scheduling": "일정",
+          "seatLimits": "사용자 수 한도",
+          "setup": "설정",
+          "shiftBiddingTemplates": "트레이딩 템플릿",
+          "shiftTrading": "근무 시간 교환",
+          "specialDays": "특별 일정",
+          "summary": "요약",
+          "timeOffPlanning": "휴가 계획",
+          "timeOffRequests": "요청",
+          "weeklyRules": "주간 규칙"
+        }
+      }
+    }
+  },
+  "noItemsOverlay": {
+    "grid": "아직 정의된 {{itemLabel}}(이)가 없습니다.",
+    "modal": {
+      "employeeTab": "아직 배정된 직원 없음"
+    }
+  },
+  "notification": {
+    "notificationTitle": "읽지 않은 알림이 {{Count}}개 있습니다."
+  },
+  "notificationTemplates": {
+    "APPROVED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%% ~ %%TO_DATE%%에 대한 요청.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "휴가 요청이 승인되었습니다."
+    },
+    "CANCELED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%% ~ %%TO_DATE%%에 대한 요청.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "휴가 요청이 취소되었습니다."
+    },
+    "DECLINED_TIME_OFF_REQUEST": {
+      "content": "%%FROM_DATE%% ~ %%TO_DATE%%에 대한 요청.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "휴가 요청이 거부되었습니다."
+    },
+    "NEW_TIME_OFF_REQUEST": {
+      "content": "",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "신규 휴가 요청"
+    },
+    "PUBLISH_COACHING_STARTED": {
+      "content": "작업이 필요합니다.",
+      "link": {
+        "name": "검토",
+        "url": "/qm/#/myCoachings"
+      },
+      "title": "신규 코칭 패키지 이용가능"
+    },
+    "PUBLISH_EVALUATION_ACKNOWLEDGE": {
+      "content": "검토가 필요합니다.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "신규 평가 도착"
+    },
+    "PUBLISH_EVALUATION_COMPLETED": {
+      "content": "필요한 작업 없음",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "신규 평가 도착"
+    },
+    "PUBLISH_EVALUATION_DISPUTE": {
+      "content": "필요한 작업이 없습니다.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "검토에서 다시 평가"
+    },
+    "PUBLISH_SCHEDULE_BETWEEN_DATE": {
+      "content": "%%FROM_DATE%% ~ %%TO_DATE%% 사이의 일정이 변경되었습니다.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "일정 변경 완료"
+    },
+    "PUBLISH_SCHEDULE_FOR_SPECIFIC_DATE": {
+      "content": "%%DATE%% 일정이 변경되었습니다.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "일정 변경 완료"
+    },
+    "SHIFT_BID_STATUS_UPDATED_TO_ACTIVE": {
+      "content": "%%FROM_DATE%% - %%TO_DATE%%에 대해 트레이딩을 입력하십시오.",
+      "link": {
+        "name": "",
+        "url": ""
+      },
+      "title": "지금 신규 트레이딩이 열렸습니다."
+    }
+  },
+  "requestsPage": {
+    "pageTitle": "요청",
+    "tabs": {
+      "timeOff": "활동 요청",
+      "trades": "근무 시간 교환 요청"
+    }
+  },
+  "scheduleEventTooltip": {
+    "shiftTitle": "근무 시간"
+  },
+  "scheduler": {
+    "activityModal": {
+      "activityCodePlaceholder": "활동 코드 선택",
+      "addTitle": "활동 추가 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "메모 추가...",
+      "editTitle": "활동 편집 - {{userName}}",
+      "end": "종료",
+      "error": {
+        "activityOverlappingTimeRange": "이 활동은 검색된 일정을 벗어난 활동이며 기존 활동을 대체할 수 있습니다.",
+        "conflict": "충돌이 감지되었습니다. 이 활동은 겹치는 활동을 대체합니다.",
+        "daterange": "날짜 선택: 오늘, 어제 또는 내일.",
+        "endBeforeStart": "종료 날짜는 시작 날짜와 같거나 그 이후여야 합니다.",
+        "invaliddatetime": "지정된 날짜 및/또는 시간이 유효하지 않습니다.",
+        "openhours": "근무 대기 중이 아닐 경우 일정을 예약할 수 없습니다.",
+        "timeRangeOutsideOfRange": "활동은 타임라인 범위({{start}} - {{end}}) 내에서 시작 또는 종료해야 합니다.",
+        "xssInvalidCharacter": "이 문자는 잘못되었습니다. < >"
+      },
+      "remaining": "{{currentLength}}자 남음",
+      "remove": "제거",
+      "selectingOOOActivityWithoutDaysOff": "이 활동을 추가하면 직원의 잔여 휴가가 부족해질 수 있습니다.",
+      "start": "시작"
+    },
+    "allDay": "종일",
+    "cancel": "취소",
+    "changeHistoryComponent": {
+      "revertBtn": "되돌리기",
+      "revertMessage": "현재 일정에 덮어씁니다. 계속하시겠습니까?",
+      "revertSuccess": "일정이 되돌려졌습니다."
+    },
+    "changeHistoryModal": {
+      "actionHeading": "작업",
+      "agent": "상담원",
+      "agentPlaceholder": "상담원을 선택합니다.",
+      "applyButton": "적용",
+      "categoryChanges": {
+        "AGENT_CHANGE": "상담원이 요청 개시",
+        "AUTO": "일정 생성",
+        "COPY": "일정 복사",
+        "DUPLICATE": "일정 복제",
+        "EXTERNAL_MEETING": "외부 회의 요청",
+        "FIXED_MEETING": "고정된 회의 요청",
+        "FLEXIBLE_MEETING": "유연한 회의 요청",
+        "MANUAL": "수동 변경",
+        "PUBLISH": "사용자가 게시함",
+        "REVERT": "사용자가 되돌림",
+        "TIMEOFF": "휴가 요청",
+        "TIMEOFF_MANAGEMENT": "휴가 관리",
+        "TIMEOFF_REQUEST": "휴가 요청",
+        "TRADE": "근무 시간 교환"
+      },
+      "changedByHeading": "변경한 사람",
+      "date": "날짜",
+      "dateAndTimeHeading": "변경 날짜 및 시간",
+      "modalTitle": "일정 변경 내역",
+      "noHistoryData": "이용가능한 일정 내역 없음",
+      "revertButton": "되돌리기",
+      "timezone": "시간대",
+      "timezonePlaceholder": "시간대 선택"
+    },
+    "closed": "조직이 업무 종료된 상태에서는 근무 및 활동을 추가할 수 없습니다.",
+    "dailyView": "일일 뷰",
+    "employeeCount": "{{count}}명의 사용자",
+    "employeeName": "이름",
+    "filters": {
+      "activityCodes": "{{count}}개의 활동 코드",
+      "groups": "{{count}}개의 그룹",
+      "schedulingUnits": "{{count}}개의 일정 단위",
+      "searchPlaceholder": "직원을 찾으려면 입력을 시작하십시오.",
+      "skills": "{{count}}개의 스킬"
+    },
+    "firstDayOfWeek": "주의 첫째 날:",
+    "hotkeys": {
+      "nextHotKey": "다음 날",
+      "previousHotKey": "전날",
+      "refreshHotKey": "데이터베이스에서 일정 다시 로드",
+      "saveHotKey": "일정 변경 사항 저장",
+      "todayHotKey": "오늘로 이동"
+    },
+    "hours": "시간",
+    "manualScheduleAssistant": {
+      "addEmployees": "직원 추가",
+      "allEmployees": "모든 직원",
+      "chooseType": "일정 유형 복사",
+      "copyDescription": "같은 시간 프레임에 걸쳐 한 직원의 일정을 다른 직원에게 복사",
+      "copySchedule": "일정 복사",
+      "copyScheduleJobFinishedSuccess": {
+        "code": "Copy Schedule Finished",
+        "message": "일정이 복사되었습니다."
+      },
+      "copyScheduleJobStarted": {
+        "code": "Copy Schedule Started",
+        "message": "일정 복사가 시작되었습니다."
+      },
+      "copyTitle": "다른 사람에게 일정 복사",
+      "day": "일",
+      "destination": "대상",
+      "destinationDay": "대상 일",
+      "destinationEmptyErrorMsg": "날짜를 하나 이상 선택해야 합니다.",
+      "destinationWeek": "대상 주",
+      "duplicateDescription": "일/주에서 직원 일정을 선택하고 동일한 직원이 향후 사용할 수 있도록 복제",
+      "duplicateScheduleFor": "일정 복제",
+      "duplicateScheduleJobFinishedSuccess": {
+        "code": "Duplicate Schedule Finished",
+        "message": "일정이 복제되었습니다."
+      },
+      "duplicateScheduleJobStarted": {
+        "code": "Duplicate Schedule Started",
+        "message": "일정 복제가 시작되었습니다."
+      },
+      "duplicateTitle": "개인 일정 복제",
+      "employeeEmptyErrorMsg": "직원을 한 명 이상 선택해야 합니다.",
+      "forEmployees": "직원용 ",
+      "iWantTo": "수행할 작업:",
+      "resetAll": "모두 재설정",
+      "selectEmployees": "직원 선택",
+      "selectedEmployeesPrefix": "(",
+      "selectedEmployeesSuffix": " 선택)",
+      "showLess": "간단히 표시...",
+      "showMore": "자세히 표시...",
+      "source": "복제 원본:",
+      "sourceDay": "소스 일",
+      "sourceWeek": "소스 주",
+      "specificEmployees": "특정 직원",
+      "summary": "요약",
+      "timeFrame": "시간 프레임",
+      "week": "주"
+    },
+    "menuItems": {
+      "addActivity": "활동 추가",
+      "addShift": "근무 시간 추가",
+      "cancel": "닫기",
+      "copyActivity": "활동 복사",
+      "copyShift": "근무 시간 복사",
+      "editActivity": "활동 편집",
+      "editShift": "근무 시간 편집",
+      "pasteActivity": "활동 붙여넣기",
+      "pasteShift": "근무 시간 붙여넣기",
+      "removeActivity": "활동 제거",
+      "removeShift": "근무 시간 제거"
+    },
+    "name": "이름",
+    "netstaffing": {
+      "diff": "차이",
+      "req": "요청",
+      "staff": "직원"
+    },
+    "noeditsAllowed": "부분적으로 표시된 근무는 편집할 수 없습니다. 근무 시간을 편집하려면 날짜를 변경하십시오.",
+    "organizationClosed": "조직 업무 종료",
+    "publish": "게시",
+    "publishModal": {
+      "attention": "주의!",
+      "from": "시작:",
+      "header": "신규 일정 게시",
+      "noSchedulesToPublish": "선택한 날짜 범위에 일정이 없습니다.",
+      "oneMonth": "1M",
+      "oneWeek": "1W",
+      "publishAnywayBtn": "그대로 게시",
+      "publishConformation": "선택한 날짜 중 일부는 이미 게시되었습니다. 일정이 변경되는 경우 직원에게 신규 일정이 업데이트됩니다.",
+      "publishPopoverHeader": "게시 위치",
+      "publishSummaryHeader": "게시 완료",
+      "schedulingUnits": "일정 단위",
+      "schedulingUnitsDropDown": "{{selectedCount}}개의 일정 단위",
+      "selectDatePlaceholder": "날짜 선택",
+      "successMessage": "날짜가 게시되었습니다.",
+      "threeWeeks": "3W",
+      "to": "종료:",
+      "twoWeeks": "2W"
+    },
+    "save": "저장",
+    "saveAndPublish": "저장 및 게시",
+    "scheduler": "일정 매니저",
+    "settingsDropDown": {
+      "broadcast": {
+        "broadcastNow": "지금 브로드캐스트",
+        "commentPlaceholder": "메시지를 입력하십시오...",
+        "durations": {
+          "30": "30초",
+          "60": "1분",
+          "300": "5분"
+        },
+        "durationsDropDown": "기간",
+        "durationsDropDownLabel": "메시지 지속 시간",
+        "messageText": "메시지",
+        "remaining": "{{currentLength}}자 남음",
+        "schedulingUnits": "일정 단위",
+        "schedulingUnitsDropDown": "{{selectedCount}}개의 일정 단위",
+        "title": "브로드캐스트 메시지"
+      },
+      "copyEmployeeSchedule": {
+        "errors": {
+          "endBeforeStart": "종료 날짜는 시작 날짜와 같거나 그 이후여야 합니다.",
+          "getActivities": "휴가 활동 코드 목록 수신 중 오류 발생",
+          "getEmployees": "직원 목록 수신 중 오류 발생",
+          "invalidDate": "지정된 날짜가 잘못되었습니다.",
+          "noEmployeeSelected": "직원을 선택해야 합니다.",
+          "noEmployeesSelected": "한 명 이상의 직원을 선택해야 합니다."
+        },
+        "formLabels": {
+          "Administrator": "관리자",
+          "Employee": "직원",
+          "Evaluator": "평가자",
+          "Manager": "매니저",
+          "addEmployeeTitle": "다음 직원에게 일정 붙여넣기",
+          "addEmployeesButton": "직원 추가",
+          "allAgents": "모든 상담원",
+          "copyEmployeeFromPlaceholder": "직원 선택...",
+          "disableOverride": "자동 스케줄러로 덮어쓸 수 없음",
+          "employeesCount": "직원",
+          "employeesFilter": "직원을 찾으려면 입력을 시작하십시오.",
+          "from": "날짜 범위:",
+          "saveLabel": "복사",
+          "scheduleOf": "일정 복사:",
+          "selectEmployee": "직원 선택",
+          "showOnAgentSched": "상담원 일정에 표시",
+          "timeOffType": "휴가 활동",
+          "timeOffTypePlaceholder": "활동 선택",
+          "to": "대상"
+        },
+        "title": "직원 일정 복사"
+      },
+      "manualSchedule": {
+        "duplicateTitle": "직원 일정 복제",
+        "title": "일정 복사/복제"
+      },
+      "meetingScheduler": {
+        "errors": {
+          "conflictActivitiesMessage": "덮어쓸 기존 활동이 있습니다.",
+          "conflictActivitiesPopover": "이 회의는 다른 기존 활동에 덮어쓸 수 있습니다. 계속하시겠습니까?",
+          "employeesCount": "{{count}}명의 직원 ",
+          "errorRead": "회의 스케줄러 모달을 로드하는 동안 오류가 발생했습니다.",
+          "errorSchedule": "회의를 예약하는 동안 오류가 발생했습니다.",
+          "errorValidate": "모임 요청을 확인하는 동안 오류가 발생했습니다.",
+          "fromDateInPast": "과거 날짜는 선택할 수 없습니다.",
+          "getActivities": "활동 코드 목록 수신 중 오류 발생",
+          "getEmployees": "직원 목록 수신 중 오류 발생",
+          "getTimezone": "시간대 목록 수신 중 오류 발생",
+          "invalidDate": "지정된 날짜가 잘못되었습니다.",
+          "minutes": "{{min}}-{{max}} 사이의 숫자를 입력하십시오.",
+          "noEmployeesSelected": "1명 이상의 직원을 선택해야 합니다.",
+          "noShiftMessage": "정의된 시간 범위 동안 예약된 근무 시간이 없으므로 제외됩니다.",
+          "noShiftPopover": "정의된 시간 범위 동안 근무가 없는 상담원은 이 회의에 예약되지 않습니다. 계속하시겠습니까?",
+          "numberSimultaneous": "{{min}}-{{max}} 사이의 숫자를 입력하십시오.",
+          "overThreeMonth": "범위는 3개월을 초과할 수 없습니다.",
+          "startDateInPast": "과거 날짜는 선택할 수 없습니다.",
+          "startTimeInPast": "과거 시간은 선택할 수 없습니다.",
+          "timeOffMessage": "휴가이므로 이 회의에서 제외됩니다.",
+          "toDateBeforeFromDate": "시작 날짜는 종료 날짜보다 빨라야 합니다.",
+          "violateMaxUpTo": "날짜 범위가 최대값과 호환되지 않습니다."
+        },
+        "formLabels": {
+          "Employee": "직원",
+          "activity": "활동",
+          "activityCodePlaceholder": "활동 선택",
+          "addEmployeeTitle": "이 직원을 위한 회의 생성",
+          "comment": "Comment",
+          "commentPlaceholder": "이 의견이 상담원 일정에 표시됩니다.",
+          "date": "날짜",
+          "duration": "기간",
+          "employees": "직원",
+          "employeesFilter": "직원을 찾으려면 입력을 시작하십시오.",
+          "fixTime": "고정된 시간",
+          "flexibleTime": "유연한 시간",
+          "fromDate": "시작",
+          "min": "분",
+          "numberSimultaneous": "동시",
+          "remaining": "{{currentLength}}자 남음",
+          "scheduleLabel": "일정",
+          "scheduleType": "일정 유형",
+          "scheduleUpTo": "일정",
+          "time": "시간",
+          "timezone": "시간대",
+          "toDate": "종료"
+        },
+        "title": "회의 스케줄러"
+      },
+      "scheduleExport": {
+        "1m": "1M",
+        "1w": "1W",
+        "2w": "2W",
+        "3w": "3W",
+        "agent": "상담원",
+        "agentPlaceHolder": "상담원 이름",
+        "download": "다운로드",
+        "end": "종료",
+        "generating": "내보내기 파일을 생성 중입니다. 잠시 기다려 주십시오...",
+        "schedulingUnits": "일정 단위",
+        "start": "시작",
+        "title": "일정 내보내기"
+      },
+      "setup": {
+        "title": "순인원 임계값"
+      },
+      "timeOff": {
+        "errors": {
+          "endBeforeStart": "종료 날짜는 시작 날짜와 같거나 그 이후여야 합니다.",
+          "getActivities": "휴가 활동 코드 목록 수신 중 오류 발생",
+          "getEmployees": "직원 목록 수신 중 오류 발생",
+          "invalidDate": "지정된 날짜가 잘못되었습니다."
+        },
+        "formLabels": {
+          "allAgents": "모든 상담원",
+          "disableOverride": "자동 스케줄러로 덮어쓸 수 없음",
+          "from": "시작",
+          "saveLabel": "완료",
+          "showOnAgentSched": "상담원 일정에 표시",
+          "timeOffTo": "휴가 설정",
+          "timeOffToPlaceholder": "상담원 선택...",
+          "timeOffType": "휴가 활동",
+          "timeOffTypePlaceholder": "활동 선택",
+          "to": "종료"
+        },
+        "title": "휴가 관리"
+      },
+      "title": "설정"
+    },
+    "setupModal": {
+      "saveFailure": "일정 매니저 설정을 저장하는 동안 오류가 발생했습니다.",
+      "saveSuccess": "일정 매니저 설정이 저장되었습니다.",
+      "tabs": {
+        "netStaffing": {
+          "range": {
+            "max": "인원 과잉",
+            "mid": "균형",
+            "min": "인원 부족"
+          },
+          "title": "순인원"
+        }
+      }
+    },
+    "shiftModal": {
+      "addTitle": "근무 시간 추가 - {{userName}}",
+      "comment": "Comments",
+      "commentPlaceholder": "메모...",
+      "editTitle": "근무 시간 편집 - {{userName}}",
+      "end": "종료",
+      "error": {
+        "conflict": "충돌이 감지되었습니다. 이 활동은 겹치는 활동을 대체합니다.",
+        "endBeforeStart": "종료 날짜는 시작 날짜와 같거나 그 이후여야 합니다.",
+        "invalidtime": "지정된 시간이 유효하지 않습니다.",
+        "shiftOverlappingTimeRange": "이 근무 시간은 검색된 일정을 벗어나며 기존 근무를 대체할 수 있습니다.",
+        "timeRangeOutsideOfRange": "근무 시간은 타임라인 범위({{start}} - {{end}}) 내에서 시작 또는 종료해야 합니다.",
+        "xssInvalidCharacter": "이 문자는 잘못되었습니다. < >"
+      },
+      "remaining": "{{currentLength}}자 남음",
+      "remove": "제거",
+      "shiftType": "근무 시간 유형",
+      "start": "시작"
+    },
+    "toasts": {
+      "broadcastSuccessMessage": "메시지가 브로드캐스팅되었습니다.",
+      "meetingSuccessMessage": "회의가 생성되었습니다.",
+      "multipleShifts": "주의! 같은 날 여러 개의 근무가 있습니다.",
+      "noActivityPaste": "표시 범위를 벗어나는 활동은 붙여넣을 수 없습니다.",
+      "noAddActivity": "표시 범위를 벗어나는 근무 시간에는 활동을 추가할 수 없습니다.",
+      "noEdit": "표시 범위를 벗어나는 근무 시간 또는 활동은 편집할 수 없습니다.",
+      "noRemove": "표시 범위를 벗어나는 근무 시간 또는 활동은 제거할 수 없습니다.",
+      "noShiftCopy": "표시 범위를 벗어나는 근무 시간은 복사할 수 없습니다.",
+      "noShiftPaste": "표시 범위를 벗어나는 근무 시간은 붙여넣을 수 없습니다.",
+      "overlappingShiftsActivities": "주의! 겹치는 근무 및/또는 활동이 있습니다.",
+      "remainingTORExceededAllotedTimeOff": "일부 직원은 현재 잔여 휴가가 부족합니다.",
+      "saveSuccessMessage": "일정 변경 사항이 저장되었습니다."
+    },
+    "today": "오늘",
+    "unavailable": "이용불가",
+    "unsaved": "변경 사항을 저장하지 않고 종료하시겠습니까?",
+    "viewScheduleChangeMenu": "일정 변경 보기",
+    "weeklyView": "주간 뷰"
+  },
+  "shiftBiddingPage": {
+    "emptyMessage": "아직 생성된 트레이딩이 없습니다.",
+    "gridColumnsHeaders": {
+      "by": "개시자",
+      "datesRange": "트레이딩 날짜 범위",
+      "isSubmitted": "트레이딩 제출 완료",
+      "jobDate": "작업 날짜",
+      "status": "상태"
+    },
+    "item": "근무 시간 트레이딩",
+    "items": "근무 시간 트레이딩",
+    "pageTitle": "근무 시간 트레이딩"
+  },
+  "shiftBiddingPatternsPage": {
+    "errorGettingBid": "",
+    "helpMessage": "우선순위에 따라 패턴을 위에서 아래로 정렬합니다.",
+    "smallScreenWarning": "화면을 확대하여 이용가능한 근무 시간 패턴을 보고 트레이딩하십시오.",
+    "submitButton": "트레이딩 제출",
+    "submitSuccess": "트레이딩이 제출되었습니다."
+  },
+  "shiftTradeRequestsPage": {
+    "accept": "수락",
+    "by": "생성자",
+    "decline": "거부",
+    "gridColumnsHeaders": {
+      "actions": "작업",
+      "activityType": "활동 유형",
+      "dates": "요청 날짜",
+      "empty": " ",
+      "requestBy": "요청자",
+      "requestOn": "요청 날짜",
+      "requestedDate": "요청 날짜",
+      "requestedTime": "요청 시간",
+      "reviewedBy": "검토자",
+      "status": "상태",
+      "tradeType": "요청 유형",
+      "tradeWith": "교환 대상",
+      "userComment": "사용자 메모",
+      "viewTrade": " 교환 보기"
+    },
+    "gridNoRowsOverlay": "아직 생성된 요청이 없습니다.",
+    "item": "요청",
+    "items": "요청",
+    "messages": {
+      "updateFailed": "근무 시간 교환 요청을 업데이트하지 못했습니다.",
+      "updateSuccess": "근무 시간 교환 요청이 업데이트되었습니다."
+    },
+    "pageTitle": "근무 시간 교환",
+    "selectedItems": "{{selectedCount}}개 선택",
+    "statuses": {
+      "approved": "승인 완료",
+      "button_approved": "승인",
+      "button_declined": "거부",
+      "declined": "거부",
+      "new": "신규",
+      "pending": "보류 중"
+    },
+    "system": "시스템",
+    "tradeRequestStatus": {
+      "ACCEPTED_BY_REQUESTEE": "수락 완료",
+      "APPROVED_BY_MANAGER": "승인 완료",
+      "APPROVED_BY_SYSTEM": "승인 완료",
+      "CANCELED_BY_REQUESTOR": "취소",
+      "CANCELED_BY_SYSTEM": "취소",
+      "CREATED": "보류 중",
+      "DECLINED_BY_MANAGER": "거부",
+      "DECLINED_BY_SYSTEM": "거부",
+      "EXPIRED": "만료",
+      "Errored": "오류 발생",
+      "REJECTED_BY_REQUESTEE": "거부",
+      "WITHDRAW_BY_REQUESTEE": "철회"
+    },
+    "viewTrade": "교환 보기"
+  },
+  "staffingPlansPage": {
+    "bulkOperationsBtns": {
+      "deleteBtn": "삭제"
+    },
+    "deleteSelectedStaffingPlansMsg": "선택한 인원 배치 계획을 삭제하려고 합니다. 계속하시겠습니까?",
+    "deleteSingledStaffingPlanMsg": "이 인원 배치 계획을 삭제하려고 합니다. 계속하시겠습니까?",
+    "errorDelete": "인원 배치 계획을 삭제하는 동안 오류가 발생했습니다.",
+    "gridColumnsHeaders": {
+      "dateRange": "인원 배치 계획 날짜 범위",
+      "fileName": "인원 배치 계획 파일 이름",
+      "importDate": "가져오기 날짜",
+      "importedBy": "가져온 작업자",
+      "status": "상태"
+    },
+    "gridNoRowsOverlay": "아직 가져온 인원 배치 계획이 없습니다.",
+    "importBtn": "인원 배치 계획 가져오기",
+    "importErrorsListModal": {
+      "header": "가져오기 오류",
+      "rowsWereImportedSuccessfully": "{{totalRowsCount}}개 중 {{succeededRowsCount}}개를 가져왔습니다.",
+      "tooMuchErrors": "가져오기가 중지되었습니다. 많은 수의 오류를 발견했습니다. 처음 {{amountOfRows}}개 표시 중"
+    },
+    "importModal": {
+      "EmptyFile": "인원 배치 파일이 비어 있습니다.",
+      "downloadLink": "여기에서 다운로드할 수 있습니다.",
+      "downloadMessage1": "CSV 파일의 템플릿을 ",
+      "downloadMessage2": "",
+      "errorMsg": "인원 배치 계획을 가져오지 못했습니다.",
+      "firstParagraph": "CSV 파일을 업로드하여 인원 배치 계획 가져오기",
+      "header": "인원 배치 계획 가져오기",
+      "secondParagraph": "전체 날짜 범위에 대한 인원 배치 계획 데이터가 있는지 확인하십시오.",
+      "selectFileMessage": "",
+      "sizeLimitationErrorMsg": "인원 배치 계획을 가져오지 못했습니다. 파일 크기가 최대 10MB보다 큽니다.",
+      "successMsg": "인원 배치 계획 데이터를 가져왔습니다.",
+      "warnMsg": "인원 배치 가져오기 계획 프로세스가 완료되었으나 오류가 있습니다."
+    },
+    "items": "인원 배치 계획",
+    "pageTitle": "인원 배치 계획",
+    "selectedItems": "{{selectedCount}}개 선택",
+    "statuses": {
+      "emptyFile": "빈 파일",
+      "failed": "실패",
+      "na": "해당 없음",
+      "partial": "부분적으로 성공했습니다. {{totalRowsCount}}개의 레코드 중 {{successRowsCount}}개를 가져왔습니다.",
+      "succeeded": "성공"
+    },
+    "successDelete": "인원 배치 계획이 제거되었습니다."
+  },
+  "timeOffPlanning": {
+    "rules": {
+      "alertModal": {
+        "modalContent": "이 활동/일정 단위에 대한 규칙이 이미 있습니다. 무효화하시겠습니까?",
+        "modalTitle": "규칙이 이미 있습니다."
+      },
+      "createNewRule": {
+        "activityCodes": "활동 코드",
+        "activityCodesPlaceholder": "활동 코드 선택",
+        "allotment": "할당",
+        "confirmations": {
+          "confirmMessage": "저장하지 않고 종료하시겠습니까?",
+          "warningMessage": "모든 변경 사항이 손실됩니다."
+        },
+        "daysPerYears": "일/년",
+        "errorAdd": "휴가 규칙을 생성하는 동안 오류가 발생했습니다.",
+        "fixedAmount": "일정한 분량",
+        "namePlaceholder": "이름",
+        "pageTitle": "신규 규칙 생성",
+        "percentPerMonth": "매월 %",
+        "schedulingUnit": "일정 단위",
+        "schedulingUnitPlaceholder": "일정 단위 선택",
+        "seniority": "연공서열",
+        "seniorityBased": "연공서열 기준",
+        "successAdd": "신규 규칙이 생성되었습니다.",
+        "timeOffAccrual": "휴가 발생:",
+        "years": "년"
+      },
+      "deleteSelectedRulesMsg": "선택한 규칙을 삭제하시겠습니까?",
+      "deleteSingleRuleMsg": "이 규칙을 삭제하시겠습니까?",
+      "editRule": {
+        "errorUpdate": "휴가 규칙을 업데이트하는 동안 오류가 발생했습니다.",
+        "pageTitle": "규칙 편집",
+        "successUpdate": "휴가 규칙이 편집되었습니다."
+      },
+      "errorDelete": "휴가 규칙을 삭제하는 동안 오류가 발생했습니다.",
+      "errorRead": "휴가 규칙을 로드하는 동안 오류가 발생했습니다.",
+      "gridColumns": {
+        "activityCodes": "활동 코드",
+        "allotmentType": "할당 유형",
+        "allottedDays": "할당 일수",
+        "name": "이름",
+        "schedulingUnit": "일정 단위"
+      },
+      "gridNoRowsOverlay": "아직 생성된 규칙이 없습니다.",
+      "item": "규칙",
+      "items": "규칙",
+      "newButton": "신규 규칙",
+      "pageTitle": "규칙",
+      "successDelete": "휴가 규칙이 제거되었습니다.",
+      "upTo": "최대"
+    },
+    "summary": {
+      "NA": "해당 없음",
+      "activityType": "활동 유형",
+      "editAllocation": "수동 배정으로 규칙과 상담원의 연결이 내년까지 해제됩니다. 계속하시겠습니까?",
+      "edited": "편집됨",
+      "gridAlert": {
+        "exceedYearDays": "365일을 초과할 수 없습니다.",
+        "thisValueCannot": "이 값은"
+      },
+      "gridColumns": {
+        "accruals": "발생",
+        "daysPerYear": "연간 일수",
+        "daysTaken": "사용된 일수",
+        "daysYear": "일/년",
+        "earned": "획득",
+        "employee": "직원",
+        "remaining": "남음",
+        "scheduled": "예정",
+        "used": "사용됨"
+      },
+      "pageTitle": "요약",
+      "userIsNotAssignedToWeeklyRule": "잔여일을 계산할 수 없습니다. 이 사용자는 어떤 규칙에도 배정되지 않았습니다.",
+      "warningMessageModal": {
+        "areYouSureLeavePage": "정말로 저장하지 않고 나가시겠습니까?",
+        "title": "페이지에서 나가시겠습니까?",
+        "unsavedChanges": "저장하지 않은 데이터가 있습니다."
+      }
+    }
+  },
+  "timeOffRequestsPage": {
+    "accept": "수락",
+    "by": "생성자",
+    "day": "날",
+    "days": "요일",
+    "decline": "거부",
+    "deletedActivityTitle": "삭제된 활동",
+    "filters": {
+      "NoPendingRequests": "보류 중인 요청 없음",
+      "disabledMultiSelectSchedulingUnitsPlaceholder": "모두",
+      "gridLabel": "{{totalRequests}}개의 요청 중 {{pendingRequests}}개 보류 중",
+      "loadTimeZonesFailure": "시간대를 로드할 수 없습니다. 페이지를 새로 고치십시오.",
+      "multiSelectSchedulingUnitsPlaceholder": "{{count}}개의 일정 단위",
+      "noAvailableSchedulingUnits": "일정 단위 필터를 로드할 수 없습니다. 모든 일정 단위 요청이 표시됩니다.",
+      "pendingOnlyGridLabel": "{{pendingRequests}}개의 보류 중인 요청",
+      "showOnlyPendingRequests": "보류 중인 항목만 표시"
+    },
+    "fullDay": "전일",
+    "gridColumnsHeaders": {
+      "actions": "작업",
+      "activityType": "활동 유형",
+      "dates": "요청 날짜",
+      "empty": "",
+      "requestBy": "요청자",
+      "requestOn": "요청 날짜",
+      "reviewedBy": "검토자",
+      "status": "상태"
+    },
+    "manageRequestModal": {
+      "approveRequest": "요청 승인",
+      "DeclineRequest": "요청 거부",
+      "textarePlaceHolder": "메모...",
+      "approveBtn": "승인",
+      "declineBtn": "거부",
+      "cancelBtn": "취소",
+      "singleDayRequestMsg": "요청은 {{requestType}}입니다. 대상:",
+      "bulkRequestContent": "{{requestType}}하려는 대상 채널을 선택합니다.",
+      "bulkRequestContentv2": "선택하지 않은 날짜는 보류 중인 상태로 유지됩니다.",
+      "netstaffingMsg": "해당 날짜에 필요한 인원 배치 요건을 검토했는지 확인하십시오.",
+      "netstaffingMsgClose": "해제",
+      "textCount": "255"
+    },
+    "gridNoRowsOverlay": "아직 생성된 요청이 없습니다.",
+    "item": "요청",
+    "items": "요청",
+    "managerComment": {
+      "remaining": "{{currentLength}}자 남음"
+    },
+    "messages": {
+      "loadAllRequestsFailure": "모든 요청을 표시할 수 없습니다. 다시 시도하십시오.",
+      "managerApproveDiscardedRequest": "요청을 승인할 수 없습니다. 일정이 변경되어 요청이 취소되었습니다.",
+      "managerApproveRequestWhichAlreadyApproved": "이 요청을 승인할 수 없습니다. 다른 매니저가 이미 승인했습니다.",
+      "managerApproveRequestWhichAlreadyDeclined": "이 요청을 승인할 수 없습니다. 다른 매니저가 이미 거부했습니다.",
+      "managerDeclinedDiscardedRequest": "요청을 거부할 수 없습니다. 일정이 변경되어 요청이 취소되었습니다.",
+      "managerDeclinedRequestWhichAlreadyApproved": "이 요청을 거부할 수 없습니다. 다른 매니저가 이미 승인했습니다.",
+      "managerDeclinedRequestWhichAlreadyDeclined": "이 요청을 거부할 수 없습니다. 다른 매니저가 이미 거부했습니다.",
+      "netStaffingError": "순인원 데이터를 가져올 수 없습니다. 나중에 다시 시도하십시오.",
+      "requestStatusUpdatedWarning": "이 요청은 처리 완료 또는 삭제되었습니다.",
+      "updateApprovedAgentError": "이 요청을 승인할 수 없습니다. 직원이 취소하거나 업데이트했습니다.",
+      "updateApprovedError": "이 요청을 승인할 수 없습니다. 나중에 다시 시도하십시오.",
+      "updateDeclinedAgentError": "이 요청을 거부할 수 없습니다. 직원이 취소하거나 업데이트했습니다.",
+      "updateDeclinedError": "이 요청을 거부할 수 없습니다. 나중에 다시 시도하십시오.",
+      "updateFailed": "휴가 요청을 업데이트하지 못했습니다.",
+      "updateSuccess": "요청이 업데이트되었습니다."
+    },
+    "newItems": "보류 중",
+    "pageTitle": "요청",
+    "requestOn": "요청 날짜",
+    "reviewedBy": "검토자",
+    "selectedItems": "{{selectedCount}}개 선택",
+    "statuses": {
+      "approved": "승인 완료",
+      "auto_approved": "자동 승인 완료",
+      "auto_declined": "자동 거부",
+      "button_approved": "승인",
+      "button_declined": "거부",
+      "cancelled_approved_request": "취소 - 승인된 요청",
+      "declined": "거부",
+      "discarded": "삭제",
+      "new": "신규",
+      "pending": "보류 중"
+    },
+    "system": "시스템",
+    "typeComment": "의견 입력...",
+    "viewInScheduler": "스케줄러에서 보기"
+  },
+  "userAgenda": {
+    "header": "일정",
+    "noEvents": "일정 없음",
+    "shiftEnd": "근무 시간 종료",
+    "shiftStart": "근무 시간 시작"
+  },
+  "userManagementPage": {
+    "balkOperationsBtns": {
+      "deleteBtn": "삭제",
+      "inviteBtn": "초대",
+      "tooltips": {
+        "delete": "직원 삭제",
+        "invite": "직원 초대"
+      }
+    },
+    "deleteLoggedInUser": "자신의 직원은 삭제할 수 없습니다.",
+    "deleteSelectedUsersMsg": "선택한 직원을 삭제하려고 합니다. 이 작업은 취소할 수 없습니다. 계속하시겠습니까?",
+    "deleteSingleUserFailureMsg": "직원을 삭제할 수 없습니다.",
+    "deleteSingleUserSuccessMsg": "직원이 삭제되었습니다. 해당 직원의 향후 일정이 삭제되었습니다.",
+    "deleteSingleUsersMsg": "이 직원을 삭제하려고 합니다. 이 작업은 취소할 수 없습니다. 계속하시겠습니까?",
+    "deleteUsersFailureMsg": "{{totalExpected}}명의 직원 중 {{numOfFailedToDeleteUsers}}명을 삭제할 수 없습니다.",
+    "deleteUsersSuccessMsg": "{{numOfUsers}}명의 직원이 삭제되었습니다. 해당 직원의 향후 일정이 삭제되었습니다.",
+    "dragText": "여기로 끌어서 우선순위 설정",
+    "filters": {
+      "groups": "{{count}}개의 그룹",
+      "schedulingUnits": "{{count}}개의 일정 단위",
+      "searchPlaceholder": "직원을 찾으려면 입력을 시작하십시오.",
+      "skills": "{{count}}개의 스킬"
+    },
+    "gridColumnsHeaders": {
+      "acdLogin": "ACD 로그인",
+      "email": "이메일",
+      "group": "일정 단위",
+      "name": "이름",
+      "role": "역할",
+      "state": "상태"
+    },
+    "importUsersBtn": "직원 가져오기",
+    "inviteSelectedUsersMsg": "선택한 직원을 이 애플리케이션에 참여하도록 초대합니다. 계속하시겠습니까?",
+    "inviteUsersFailureMsg": "직원을 초대하지 못했습니다.",
+    "inviteUsersSuccessMsg": "직원을 초대했습니다.",
+    "inviteUsersWarnMsg": "직원이 이미 활성 상태입니다.",
+    "item": "직원",
+    "items": "직원",
+    "newUserBtn": "신규 직원",
+    "noPreference": "선호 설정 없음",
+    "pageTitle": "직원",
+    "popover": {
+      "acdLoginLbl": "ACD 로그인",
+      "hireDateLbl": "채용 날짜: {{value}}",
+      "rankLbl": "순위: {{value}}",
+      "skillsLbl": "스킬: {{value}}"
+    },
+    "preferencesTab": {
+      "PossibleDaysOff": "가능 휴가 일수",
+      "TimePreferencesSubTitle": "이용가능한 휴가 일수 없음",
+      "TimePreferencesTitle": "휴가 선호 설정",
+      "day": "날",
+      "noOptionsAvailable": "이 직원은 유연성 없는 규칙에 배정되므로 근무 시간이 고정되고 선호 설정을 이용할 수 없습니다.",
+      "noOptionsAvailableForShift": "배정된 근무 시간이 없습니다.",
+      "noPreference": "선호 설정 없음",
+      "shiftPreferencesTitle": "근무 시간 선호 설정",
+      "shiftTime": "근무 시간"
+    },
+    "reinviteBtnText": "재전송",
+    "reinviteUsersMsg": "초대가 만료되었습니다. 이메일 주소를 확인하고 다시 시도하십시오.",
+    "selectedItems": "{{selectedCount}}개 선택",
+    "status": {
+      "invite": "초대"
+    },
+    "tabLabels": {
+      "availability": "가용성",
+      "general": "일반",
+      "preferences": "선호 설정",
+      "skills": "스킬"
+    },
+    "userListHeader": "{{orgName}}의 직원:",
+    "userStates": {
+      "active": "활성",
+      "inviting": "전송 중",
+      "pending": "보류 중",
+      "unregistered": "초대"
+    }
+  },
+  "weekDays": {
+    "friday": "금요일",
+    "monday": "월요일",
+    "saturday": "토요일",
+    "sunday": "일요일",
+    "thursday": "목요일",
+    "tuesday": "화요일",
+    "wednesday": "수요일"
+  },
+  "weekShortDays": {
+    "FRI": "금",
+    "MON": "월",
+    "SAT": "토",
+    "SUN": "일",
+    "THU": "목",
+    "TUE": "화",
+    "WED": "수"
+  }
+}
