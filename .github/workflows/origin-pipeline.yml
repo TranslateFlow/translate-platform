@@ -34,13 +34,13 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION || 'us-west-2' }}
+          aws-region: us-west-2
 
       - name: 🚀 Run pipeline
         timeout-minutes: 10
         run: node pipeline/run-pipeline.js
         env:
-          AWS_REGION: ${{ secrets.AWS_REGION || 'us-west-2' }}
+          AWS_REGION: us-west-2
 
       - name: 💾 Commit translated files
         run: |

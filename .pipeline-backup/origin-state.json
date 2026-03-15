@@ -2,6 +2,7 @@
   "aaiAdminUI.json": {
     "aaiAdminUIApp": {
       "AutomationAndAIAppTitle": "Automation & AI",
+      "NewFeature": "My new string Felix Zelaya Test",
       "HubTitle": "Hubs",
       "notSelectedConfiguration": "Please select a Configuration from left menu!",
       "VAH": "Virtual Agent Hub",
