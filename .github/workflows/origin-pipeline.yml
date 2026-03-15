@@ -18,7 +18,7 @@ jobs:
       - name: 📥 Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.LOCALIZATION_MCP_TOKEN }}
+          token: ${{ secrets.LOCALIZATION_MCP_TOKEN || secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: 🟢 Setup Node.js
