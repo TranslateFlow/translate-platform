@@ -1,39 +1,52 @@
-/**
- * Thin wrapper around the Anthropic Messages API.
- * Returns the parsed JSON object from Claude's response.
- */
-export async function callClaude(prompt) {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    throw new Error('ANTHROPIC_API_KEY environment variable is required');
-  }
+import { BedrockRuntimeClient, ConverseCommand } from '@aws-sdk/client-bedrock-runtime';
 
-  const response = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'x-api-key': process.env.ANTHROPIC_API_KEY,
-      'anthropic-version': '2023-06-01',
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: 'claude-3-5-sonnet-20241022',
-      max_tokens: 8000,
+/**
+ * Calls Claude via AWS Bedrock using the default credential chain
+ * (IAM role, ~/.aws/credentials, environment variables — whatever is configured).
+ *
+ * Model can be overridden with the BEDROCK_MODEL_ID environment variable.
+ * Region defaults to AWS_REGION env var, then us-west-2.
+ */
+
+const DEFAULT_MODEL = 'us.anthropic.claude-3-5-sonnet-20241022-v2:0';
+
+let _client;
+function getClient() {
+  if (!_client) {
+    _client = new BedrockRuntimeClient({
+      region: process.env.AWS_REGION || 'us-west-2',
+    });
+  }
+  return _client;
+}
+
+export async function callClaude(prompt) {
+  const modelId = process.env.BEDROCK_MODEL_ID || DEFAULT_MODEL;
+
+  const command = new ConverseCommand({
+    modelId,
+    messages: [{ role: 'user', content: [{ text: prompt }] }],
+    inferenceConfig: {
+      maxTokens: 8000,
       temperature: 0.2,
-      messages: [{ role: 'user', content: prompt }],
-    }),
+    },
   });
 
-  if (!response.ok) {
-    const err = await response.json().catch(() => ({ error: { message: response.statusText } }));
-    throw new Error(`Claude API ${response.status}: ${err.error?.message}`);
+  let response;
+  try {
+    response = await getClient().send(command);
+  } catch (err) {
+    throw new Error(`Bedrock API error: ${err.message}`);
   }
 
-  const data = await response.json();
+  const usage = response.usage;
   process.stdout.write(
-    `    💰 ${data.usage?.input_tokens ?? '?'} in / ${data.usage?.output_tokens ?? '?'} out tokens\n`
+    `    💰 ${usage?.inputTokens ?? '?'} in / ${usage?.outputTokens ?? '?'} out tokens\n`
   );
 
-  const text = data.content[0].text;
-  // Extract the first JSON object from the response (Claude sometimes adds preamble)
+  const text = response.output?.message?.content?.[0]?.text;
+  if (!text) throw new Error('Empty response from Bedrock');
+
   const match = text.match(/\{[\s\S]*\}/);
   if (!match) throw new Error('No JSON object found in Claude response');
 

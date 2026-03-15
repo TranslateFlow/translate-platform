@@ -76,11 +76,6 @@ async function main() {
   }
 
   // ── Normal mode ──────────────────────────────────────────────────────────────
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.error('❌ ANTHROPIC_API_KEY is required');
-    process.exit(1);
-  }
-
   const languages = await getLanguages();
   console.log(`🌍 Target languages: ${languages.join(', ')}\n`);
 
