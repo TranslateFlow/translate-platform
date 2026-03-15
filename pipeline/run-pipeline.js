@@ -32,6 +32,9 @@ const TRANSLATED_DIR = path.join(ROOT, 'translated');
 const BACKUP_DIR    = path.join(ROOT, '.pipeline-backup');
 const REPORTS_DIR   = path.join(__dirname, 'reports');
 
+// Default to the company Bedrock profile when none is set
+if (!process.env.AWS_PROFILE) process.env.AWS_PROFILE = 'bedrock-aws';
+
 const IS_INIT = process.argv.includes('--init');
 
 /** Discover languages by listing directories under translated/ */

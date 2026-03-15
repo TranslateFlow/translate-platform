@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "pipeline": "AWS_PROFILE=bedrock-aws node pipeline/run-pipeline.js",
-    "pipeline:init": "AWS_PROFILE=bedrock-aws node pipeline/run-pipeline.js --init",
+    "pipeline": "node pipeline/run-pipeline.js",
+    "pipeline:init": "node pipeline/run-pipeline.js --init",
     "translate": "node scripts/process-translation-incremental.js",
     "translate:oauth": "CLAUDE_CODE_OAUTH_TOKEN=$CLAUDE_CODE_OAUTH_TOKEN node scripts/process-translation-incremental.js",
     "build:mcp": "tsc src/translateflow-tool/main.ts --outDir dist",
