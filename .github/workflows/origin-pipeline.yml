@@ -1,0 +1,60 @@
+name: TranslateFlow IA — Origin Pipeline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'origin/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.LOCALIZATION_MCP_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.12.0'
+
+      - name: 📦 Install dependencies
+        run: npm install -g pnpm && pnpm install
+
+      - name: 🚀 Run pipeline
+        timeout-minutes: 10
+        run: node pipeline/run-pipeline.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: 💾 Commit translated files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add translated/ .pipeline-backup/
+
+          if git diff --staged --quiet; then
+            echo "ℹ️  No changes to commit"
+          else
+            git commit -m "🤖 Auto-translated origin changes"
+            git push
+          fi
+
+      - name: 📊 Summary
+        if: always()
+        run: |
+          echo "🌍 Languages: $(ls translated/ | tr '\n' ' ')"
+          echo "📄 Translated files: $(find translated/ -name '*.json' | wc -l)"
+          if [ -f "$(find pipeline/reports/ -name '*.json' 2>/dev/null | tail -1)" ]; then
+            echo "📋 Latest validation report:"
+            cat "$(find pipeline/reports/ -name '*.json' | tail -1)"
+          fi
