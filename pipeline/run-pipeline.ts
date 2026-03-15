@@ -2,16 +2,9 @@
 /**
  * TranslateFlow IA — Pipeline Orchestrator
  *
- * Runs the 5-agent translation pipeline:
- *   1. Change Detector  — diffs origin/ vs last snapshot
- *   2. Format QA        — validates strings before translation
- *   3. Translator       — calls Claude (context-grounded, batched)
- *   4. E2E Validator    — checks completeness & placeholder integrity
- *   5. Auto-Merger      — writes results to translated/
- *
  * Usage:
- *   node pipeline/run-pipeline.js           # Normal run (translates changes)
- *   node pipeline/run-pipeline.js --init    # Save current origin state as baseline (no API call)
+ *   npm run pipeline           # Translate changes in origin/
+ *   npm run pipeline:init      # Snapshot current origin/ as baseline (no API call)
  */
 
 import { promises as fs } from 'fs';
@@ -23,27 +16,27 @@ import { runFormatQA } from './agents/2-format-qa.js';
 import { translateContent } from './agents/3-translator.js';
 import { validateTranslations } from './agents/4-e2e-validator.js';
 import { mergeTranslations } from './agents/5-auto-merger.js';
+import type { JsonObject, ValidationReport } from './types.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
-const ORIGIN_DIR    = path.join(ROOT, 'origin');
+const ORIGIN_DIR     = path.join(ROOT, 'origin');
 const TRANSLATED_DIR = path.join(ROOT, 'translated');
-const BACKUP_DIR    = path.join(ROOT, '.pipeline-backup');
-const REPORTS_DIR   = path.join(__dirname, 'reports');
+const BACKUP_DIR     = path.join(ROOT, '.pipeline-backup');
+const REPORTS_DIR    = path.join(__dirname, 'reports');
 
-// Default to the company Bedrock profile when none is set
+// Default to the company Bedrock profile when none is explicitly set
 if (!process.env.AWS_PROFILE) process.env.AWS_PROFILE = 'bedrock-aws';
 
 const IS_INIT = process.argv.includes('--init');
 
-/** Discover languages by listing directories under translated/ */
-async function getLanguages() {
+async function getLanguages(): Promise<string[]> {
   const entries = await fs.readdir(TRANSLATED_DIR, { withFileTypes: true });
   return entries.filter(e => e.isDirectory()).map(e => e.name).sort();
 }
 
-async function saveOriginState(currentFiles) {
+async function saveOriginState(currentFiles: Record<string, JsonObject>): Promise<void> {
   await fs.mkdir(BACKUP_DIR, { recursive: true });
   await fs.writeFile(
     path.join(BACKUP_DIR, 'origin-state.json'),
@@ -52,7 +45,7 @@ async function saveOriginState(currentFiles) {
   console.log('💾 Origin state saved to .pipeline-backup/origin-state.json');
 }
 
-async function saveReport(report) {
+async function saveReport(report: ValidationReport): Promise<void> {
   await fs.mkdir(REPORTS_DIR, { recursive: true });
   const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
   const reportPath = path.join(REPORTS_DIR, `validation-${ts}.json`);
@@ -60,25 +53,27 @@ async function saveReport(report) {
   console.log(`📋 Validation report: pipeline/reports/validation-${ts}.json`);
 }
 
-async function main() {
+async function main(): Promise<void> {
   console.log('🚀 TranslateFlow IA — Origin Pipeline');
   console.log('======================================\n');
 
-  // ── Init mode: just snapshot current state, no translation ──────────────────
+  // ── Init mode ────────────────────────────────────────────────────────────
   if (IS_INIT) {
     console.log('⚙️  INIT MODE — saving current origin state as baseline\n');
     const files = await fs.readdir(ORIGIN_DIR);
-    const currentFiles = {};
+    const currentFiles: Record<string, JsonObject> = {};
     for (const file of files.filter(f => f.endsWith('.json'))) {
-      currentFiles[file] = JSON.parse(await fs.readFile(path.join(ORIGIN_DIR, file), 'utf8'));
+      currentFiles[file] = JSON.parse(
+        await fs.readFile(path.join(ORIGIN_DIR, file), 'utf8')
+      ) as JsonObject;
       console.log(`   📄 ${file}`);
     }
     await saveOriginState(currentFiles);
-    console.log('\n✅ Baseline saved. Future pipeline runs will only translate changes.');
+    console.log('\n✅ Baseline saved. Future runs will only translate changes.');
     return;
   }
 
-  // ── Normal mode ──────────────────────────────────────────────────────────────
+  // ── Normal mode ───────────────────────────────────────────────────────────
   const languages = await getLanguages();
   console.log(`🌍 Target languages: ${languages.join(', ')}\n`);
 
@@ -110,7 +105,6 @@ async function main() {
   await saveReport(validationReport);
 
   // Agent 5: Auto-Merge
-  // Always merge even when some validations fail — partial translations are better than nothing.
   const totalUpdated = await mergeTranslations(
     translatedContent,
     changes.deletedKeys,
@@ -118,10 +112,9 @@ async function main() {
     languages,
   );
 
-  // Persist current state for next run's diff
   await saveOriginState(currentFiles);
 
-  // ── Summary ──────────────────────────────────────────────────────────────────
+  // ── Summary ───────────────────────────────────────────────────────────────
   console.log('');
   console.log('🎉 Pipeline complete!');
   console.log(`   Files updated  : ${totalUpdated}`);
@@ -129,11 +122,11 @@ async function main() {
 
   if (validationReport.summary.failed > 0) {
     console.warn(`   ⚠️  ${validationReport.summary.failed} validation failure(s) — see pipeline/reports/`);
-    process.exit(1); // Signal CI to flag the run, but files are still committed
+    process.exit(1);
   }
 }
 
-main().catch(err => {
+main().catch((err: Error) => {
   console.error('\n💥 Pipeline crashed:', err.message);
   console.error(err.stack);
   process.exit(1);

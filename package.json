@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "pipeline": "node pipeline/run-pipeline.js",
-    "pipeline:init": "node pipeline/run-pipeline.js --init",
+    "pipeline": "tsx pipeline/run-pipeline.ts",
+    "pipeline:init": "tsx pipeline/run-pipeline.ts --init",
+    "pipeline:build": "tsc --project tsconfig.json",
     "translate": "node scripts/process-translation-incremental.js",
     "translate:oauth": "CLAUDE_CODE_OAUTH_TOKEN=$CLAUDE_CODE_OAUTH_TOKEN node scripts/process-translation-incremental.js",
     "build:mcp": "tsc src/translateflow-tool/main.ts --outDir dist",
@@ -22,5 +23,10 @@
     "@modelcontextprotocol/sdk": "^1.15.1",
     "extract-zip": "^2.0.1",
     "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }

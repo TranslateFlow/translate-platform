@@ -1,12 +1,13 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { flattenObject } from './json-utils.js';
+import type { Glossary, JsonObject } from '../types.js';
 
 /**
  * Product/brand names that must never be translated.
  * Injected into every translation prompt.
  */
-export const DO_NOT_TRANSLATE = [
+export const DO_NOT_TRANSLATE: string[] = [
   'CXone', 'CXone Mpower', 'NICE', 'Enlighten', 'Enlighten Copilot',
   'Agent Assist Hub', 'Virtual Agent Hub', 'Transcription Hub',
   'Voice Biometrics Hub', 'Cloud TTS Hub', 'Integration Hub',
@@ -15,7 +16,7 @@ export const DO_NOT_TRANSLATE = [
   'RTIG', 'Omilia',
 ];
 
-export const LANGUAGE_NAMES = {
+export const LANGUAGE_NAMES: Record<string, string> = {
   de: 'German',
   es: 'Spanish',
   fr: 'French',
@@ -31,24 +32,27 @@ export const LANGUAGE_NAMES = {
 /**
  * Build per-language glossaries by matching English origin keys to
  * existing translations in translated/. Limits to MAX_ENTRIES per language.
- *
- * Returns: { [lang]: Array<{ en: string, translated: string }> }
  */
-export async function buildGlossary(originDir, translatedDir, languages) {
+export async function buildGlossary(
+  originDir: string,
+  translatedDir: string,
+  languages: string[],
+): Promise<Glossary> {
   const MAX_ENTRIES = 40;
-  // Reference files: small enough to use fully, well-translated across all langs
   const REF_FILES = ['aaiAdminUI.json', 'agentassisthub.json'];
 
-  const glossary = {};
+  const glossary: Glossary = {};
   for (const lang of languages) glossary[lang] = [];
 
   for (const fileName of REF_FILES) {
     const originPath = path.join(originDir, fileName);
-    let originFlat;
+    let originFlat: Record<string, unknown>;
+
     try {
-      originFlat = flattenObject(JSON.parse(await fs.readFile(originPath, 'utf8')));
+      const content = JSON.parse(await fs.readFile(originPath, 'utf8')) as JsonObject;
+      originFlat = flattenObject(content);
     } catch {
-      continue; // File not in origin, skip
+      continue;
     }
 
     for (const lang of languages) {
@@ -56,15 +60,14 @@ export async function buildGlossary(originDir, translatedDir, languages) {
 
       const transPath = path.join(translatedDir, lang, 'apps', fileName);
       try {
-        const transFlat = flattenObject(JSON.parse(await fs.readFile(transPath, 'utf8')));
+        const transContent = JSON.parse(await fs.readFile(transPath, 'utf8')) as JsonObject;
+        const transFlat = flattenObject(transContent);
 
         for (const [key, engValue] of Object.entries(originFlat)) {
           if (glossary[lang].length >= MAX_ENTRIES) break;
           if (typeof engValue !== 'string' || engValue.trim() === '') continue;
 
           const transValue = transFlat[key];
-          // Only include pairs where the translation is actually different from English
-          // (same value = kept-as-is term, already covered by DO_NOT_TRANSLATE)
           if (typeof transValue === 'string' && transValue !== engValue) {
             glossary[lang].push({ en: engValue, translated: transValue });
           }

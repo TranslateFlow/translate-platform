@@ -1,42 +1,43 @@
 import { flattenObject, setNestedValue } from '../lib/json-utils.js';
 import { buildGlossary, DO_NOT_TRANSLATE, LANGUAGE_NAMES } from '../lib/context-builder.js';
 import { callClaude } from '../lib/claude-client.js';
+import type { Glossary, NestedStringObject, TranslatedContent } from '../types.js';
 
-// Number of key-value pairs per API call. Keep low to stay under max_tokens.
 const BATCH_SIZE = 25;
 
 /**
  * Agent 3 — Translator
  *
- * Translates cleanContent into all target languages using the Claude API.
- * Grounds every prompt in terminology extracted from existing translations.
- *
- * Returns: { [lang]: { [filename]: nestedJSON } }
+ * Translates cleanContent into all target languages using Claude via Bedrock.
+ * Every prompt is grounded in terminology extracted from existing translations.
  */
-export async function translateContent(cleanContent, languages, originDir, translatedDir) {
+export async function translateContent(
+  cleanContent: Record<string, NestedStringObject>,
+  languages: string[],
+  originDir: string,
+  translatedDir: string,
+): Promise<TranslatedContent> {
   console.log('🌍 [Agent 3] Translator');
 
   console.log('   📚 Building terminology context from existing translations...');
   const glossary = await buildGlossary(originDir, translatedDir, languages);
 
-  const result = {};
+  const result: TranslatedContent = {};
   for (const lang of languages) result[lang] = {};
 
   for (const [file, content] of Object.entries(cleanContent)) {
     const appName = file.replace('.json', '');
     console.log(`   📄 ${file}`);
 
-    // Work on flat string entries only
-    const flatEntries = Object.entries(flattenObject(content))
-      .filter(([, v]) => typeof v === 'string');
+    const flatEntries = Object.entries(flattenObject(content as Record<string, unknown>))
+      .filter((entry): entry is [string, string] => typeof entry[1] === 'string');
 
     if (flatEntries.length === 0) {
       console.log('      (no string values to translate)');
       continue;
     }
 
-    // Slice into batches
-    const batches = [];
+    const batches: Array<[string, string][]> = [];
     for (let i = 0; i < flatEntries.length; i += BATCH_SIZE) {
       batches.push(flatEntries.slice(i, i + BATCH_SIZE));
     }
@@ -48,26 +49,26 @@ export async function translateContent(cleanContent, languages, originDir, trans
 
       const prompt = buildPrompt(appName, batch, languages, glossary);
 
-      let translated;
+      let translated: Record<string, unknown>;
       try {
         translated = await callClaude(prompt);
       } catch (err) {
-        console.error(`   ❌ Batch ${bIdx + 1} failed: ${err.message}`);
-        continue; // Skip this batch — partial results are better than crashing
+        console.error(`   ❌ Batch ${bIdx + 1} failed: ${(err as Error).message}`);
+        continue;
       }
 
-      // Distribute translated keys into result per language
       for (const lang of languages) {
-        if (!translated[lang] || typeof translated[lang] !== 'object') {
+        const langResult = translated[lang];
+        if (!langResult || typeof langResult !== 'object') {
           console.warn(`   ⚠️  No output for lang "${lang}" in batch ${bIdx + 1}`);
           continue;
         }
 
         if (!result[lang][file]) result[lang][file] = {};
 
-        for (const [key, value] of Object.entries(translated[lang])) {
+        for (const [key, value] of Object.entries(langResult as Record<string, unknown>)) {
           if (typeof value === 'string') {
-            setNestedValue(result[lang][file], key, value);
+            setNestedValue(result[lang][file] as Record<string, unknown>, key, value);
           }
         }
       }
@@ -79,16 +80,19 @@ export async function translateContent(cleanContent, languages, originDir, trans
   return result;
 }
 
-function buildPrompt(appName, batchObj, languages, glossary) {
-  // Build glossary section: top 15 examples per language showing expected style
+function buildPrompt(
+  appName: string,
+  batch: Record<string, string>,
+  languages: string[],
+  glossary: Glossary,
+): string {
   const glossaryLines = languages.flatMap(lang => {
-    const entries = (glossary[lang] || []).slice(0, 15);
+    const entries = (glossary[lang] ?? []).slice(0, 15);
     if (entries.length === 0) return [];
     const lines = entries.map(e => `  "${e.en}" → "${e.translated}"`).join('\n');
     return [`${LANGUAGE_NAMES[lang]}:\n${lines}`];
   }).join('\n\n');
 
-  // Expected response structure comment
   const langStructure = languages
     .map(l => `  "${l}": { /* ${LANGUAGE_NAMES[l]} — same keys as input, translated values */ }`)
     .join(',\n');
@@ -111,7 +115,7 @@ ${glossaryLines || '(building from scratch — use professional enterprise softw
 5. Respond ONLY with valid JSON — no markdown, no explanation
 
 ━━━ STRINGS TO TRANSLATE ━━━
-${JSON.stringify(batchObj, null, 2)}
+${JSON.stringify(batch, null, 2)}
 
 ━━━ RESPOND WITH EXACTLY THIS JSON STRUCTURE ━━━
 {

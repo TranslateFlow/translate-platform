@@ -1,17 +1,21 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { deepMerge, deleteNestedKey } from '../lib/json-utils.js';
+import type { JsonObject, TranslatedContent } from '../types.js';
 
 /**
  * Agent 5 — Auto-Merger
  *
  * Merges translated content directly into translated/{lang}/apps/{file}.json.
- * - Deep-merges new translations over existing content (new wins on conflicts).
- * - Deletes keys that were removed from origin.
- * - Creates new files/directories if they don't exist yet.
- * - Never touches files in translated/ that have no corresponding origin file.
+ * Deep-merges new translations over existing (new wins on conflicts).
+ * Deletes keys removed from origin. Creates files/directories as needed.
  */
-export async function mergeTranslations(translatedContent, deletedKeys, translatedDir, languages) {
+export async function mergeTranslations(
+  translatedContent: TranslatedContent,
+  deletedKeys: Record<string, string[]>,
+  translatedDir: string,
+  languages: string[],
+): Promise<number> {
   console.log('🔀 [Agent 5] Auto-Merger');
 
   let totalFiles = 0;
@@ -23,20 +27,16 @@ export async function mergeTranslations(translatedContent, deletedKeys, translat
     for (const [file, newContent] of Object.entries(langTranslations)) {
       const filePath = path.join(translatedDir, lang, 'apps', file);
 
-      // Load existing translation (may not exist yet)
-      let existing = {};
+      let existing: JsonObject = {};
       try {
-        existing = JSON.parse(await fs.readFile(filePath, 'utf8'));
+        existing = JSON.parse(await fs.readFile(filePath, 'utf8')) as JsonObject;
       } catch {
         // New file — will be created
       }
 
-      // Merge: new translations take precedence for changed keys
-      let merged = deepMerge(existing, newContent);
+      let merged = deepMerge(existing, newContent as JsonObject);
 
-      // Apply deletions from origin
-      const toDelete = deletedKeys?.[file] ?? [];
-      for (const dotKey of toDelete) {
+      for (const dotKey of deletedKeys?.[file] ?? []) {
         deleteNestedKey(merged, dotKey);
         console.log(`   🗑️  ${lang}/apps/${file}: deleted ${dotKey}`);
       }

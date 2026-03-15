@@ -1,38 +1,39 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { flattenObject, setNestedValue } from '../lib/json-utils.js';
+import type { ChangeDetectorResult, DetectedChanges, JsonObject } from '../types.js';
 
 /**
  * Agent 1 — Change Detector
  *
- * Reads all JSON files in originDir, diffs them against the saved snapshot
- * in backupDir/origin-state.json, and returns:
- *   - changes.contentToTranslate: { [filename]: partialNestedJSON }  (new/modified strings)
- *   - changes.deletedKeys:         { [filename]: string[] }           (dot-paths removed from origin)
- *   - currentFiles:                full current origin content (for saving state later)
+ * Reads all JSON files in originDir, diffs them against the saved snapshot,
+ * and returns only the delta (new/modified strings) plus deleted key paths.
  */
-export async function detectChanges(originDir, backupDir) {
+export async function detectChanges(
+  originDir: string,
+  backupDir: string,
+): Promise<ChangeDetectorResult> {
   console.log('🔍 [Agent 1] Change Detector');
 
   // Read current origin files
-  const currentFiles = {};
+  const currentFiles: Record<string, JsonObject> = {};
   const dirEntries = await fs.readdir(originDir);
   for (const file of dirEntries.filter(f => f.endsWith('.json'))) {
-    currentFiles[file] = JSON.parse(await fs.readFile(path.join(originDir, file), 'utf8'));
+    currentFiles[file] = JSON.parse(await fs.readFile(path.join(originDir, file), 'utf8')) as JsonObject;
     console.log(`   📄 ${file}`);
   }
 
   // Load previous state snapshot
   const statePath = path.join(backupDir, 'origin-state.json');
-  let previousFiles = {};
+  let previousFiles: Record<string, JsonObject> = {};
   try {
-    previousFiles = JSON.parse(await fs.readFile(statePath, 'utf8'));
+    previousFiles = JSON.parse(await fs.readFile(statePath, 'utf8')) as Record<string, JsonObject>;
     console.log('   📋 Previous state loaded');
   } catch {
     console.log('   📋 No previous state — treating all files as new (full translation)');
   }
 
-  const changes = {
+  const changes: DetectedChanges = {
     hasChanges: false,
     newFiles: [],
     modifiedFiles: [],
@@ -44,7 +45,7 @@ export async function detectChanges(originDir, backupDir) {
   for (const [file, content] of Object.entries(currentFiles)) {
     if (!previousFiles[file]) {
       changes.newFiles.push(file);
-      changes.contentToTranslate[file] = content;
+      changes.contentToTranslate[file] = content as Record<string, string | Record<string, unknown>>;
       changes.hasChanges = true;
       console.log(`   🆕 New file: ${file}`);
     }
@@ -52,17 +53,17 @@ export async function detectChanges(originDir, backupDir) {
 
   // Changed/deleted keys in existing files
   for (const [file, current] of Object.entries(currentFiles)) {
-    if (!previousFiles[file]) continue; // Already handled above
+    if (!previousFiles[file]) continue;
 
     const prevFlat = flattenObject(previousFiles[file]);
     const currFlat = flattenObject(current);
 
-    const newKeys = [];
-    const modifiedKeys = [];
-    const deletedKeys = [];
+    const newKeys: Array<{ key: string; value: string }> = [];
+    const modifiedKeys: Array<{ key: string; value: string }> = [];
+    const deletedKeys: string[] = [];
 
     for (const [key, value] of Object.entries(currFlat)) {
-      if (typeof value !== 'string') continue; // Only track translatable strings
+      if (typeof value !== 'string') continue;
       if (!(key in prevFlat)) {
         newKeys.push({ key, value });
       } else if (prevFlat[key] !== value) {
@@ -72,24 +73,20 @@ export async function detectChanges(originDir, backupDir) {
 
     for (const [key, value] of Object.entries(prevFlat)) {
       if (typeof value !== 'string') continue;
-      if (!(key in currFlat)) {
-        deletedKeys.push(key);
-      }
+      if (!(key in currFlat)) deletedKeys.push(key);
     }
 
-    const hasFileChanges = newKeys.length + modifiedKeys.length + deletedKeys.length > 0;
-    if (!hasFileChanges) continue;
+    if (newKeys.length + modifiedKeys.length + deletedKeys.length === 0) continue;
 
     changes.modifiedFiles.push(file);
     changes.hasChanges = true;
     changes.deletedKeys[file] = deletedKeys;
 
-    // Build a partial nested object containing only changed/new keys
-    const partial = {};
+    const partial: JsonObject = {};
     for (const { key, value } of [...newKeys, ...modifiedKeys]) {
       setNestedValue(partial, key, value);
     }
-    changes.contentToTranslate[file] = partial;
+    changes.contentToTranslate[file] = partial as Record<string, string | Record<string, unknown>>;
 
     console.log(`   🔄 ${file}: +${newKeys.length} new, ~${modifiedKeys.length} modified, -${deletedKeys.length} deleted`);
   }

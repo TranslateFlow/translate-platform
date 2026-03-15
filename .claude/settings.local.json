@@ -6,7 +6,8 @@
       "Bash(pnpm add:*)",
       "Bash(npm install:*)",
       "Bash(AWS_PROFILE=ClaudeCode aws sts get-caller-identity 2>&1)",
-      "Bash(AWS_PROFILE=bedrock-aws aws sts get-caller-identity 2>&1)"
+      "Bash(AWS_PROFILE=bedrock-aws aws sts get-caller-identity 2>&1)",
+      "Bash(cd:*)"
     ]
   }
 }
